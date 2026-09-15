@@ -91,12 +91,23 @@ def main():
             print("fill email failed:", repr(ex))
         print("step1 email typed:", ok)
         time.sleep(2)
-        # 用坐标点弹窗里的 Continue（636,685）
+        # 用 JS 直接点弹窗里（居中 y~685）的 Continue 按钮
         try:
-            page.mouse.click(636, 685)
-            print("clicked continue by coords")
+            clicked = page.evaluate(
+                """() => {
+                    const btns = Array.from(document.querySelectorAll('div[role="button"]'));
+                    for (const b of btns) {
+                        const r = b.getBoundingClientRect();
+                        if ((b.innerText||'').trim() === 'Continue' && r.x > 400 && r.x < 900 && r.y > 600 && r.y < 750) {
+                            b.click(); return true;
+                        }
+                    }
+                    return false;
+                }"""
+            )
+            print("js clicked continue:", clicked)
         except Exception as ex:
-            print("click coords failed:", repr(ex))
+            print("js click failed:", repr(ex))
         time.sleep(7)
         dump("after_email")
         page.screenshot(path="/tmp/03_after_email.png", full_page=True)
