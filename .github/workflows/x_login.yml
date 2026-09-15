@@ -48,3 +48,10 @@ jobs:
           else
             echo "无变化"
           fi
+      - name: Upload debug screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: login-debug
+          path: /tmp/*.png
+          retention-days: 1

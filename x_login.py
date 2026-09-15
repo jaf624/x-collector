@@ -61,16 +61,39 @@ def main():
         )
         ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         page = ctx.new_page()
-
-        page.goto("https://x.com/login", timeout=60000)
-        time.sleep(4)
+        page.goto("https://x.com/i/flow/login", timeout=60000, wait_until="domcontentloaded")
+        time.sleep(8)
+        page.screenshot(path="/tmp/01_open.png", full_page=True)
         dump("open_login")
 
-        ok = type_first(page, ['input[autocomplete="username"]', 'input[name="text"]', 'input[spellcheck="true"]'], EMAIL)
+        # 轮询等待 Cloudflare 放行 + 登录框出现（最长 40 秒）
+        def wait_login_field(max_wait=40):
+            end = time.time() + max_wait
+            while time.time() < end:
+                for sel in ['input[autocomplete="username"]', 'input[name="text"]']:
+                    try:
+                        if page.locator(sel).first.is_visible(timeout=2000):
+                            return sel
+                    except Exception:
+                        pass
+                # Cloudflare 可能有个 checkbox 要等它自动勾
+                time.sleep(3)
+            return None
+
+        user_sel = wait_login_field()
+        print("login field selector:", user_sel)
+        page.screenshot(path="/tmp/02_field.png", full_page=True)
+
+        ok = False
+        if user_sel:
+            el = page.locator(user_sel).first
+            el.click(); el.fill(EMAIL)
+            ok = True
         print("step1 email typed:", ok)
         click_text(page, ["Next", "下一步"])
-        time.sleep(4)
+        time.sleep(6)
         dump("after_email")
+        page.screenshot(path="/tmp/03_after_email.png", full_page=True)
 
         pwd_ok = type_first(page, ['input[autocomplete="password"]', 'input[name="password"]'], PASSWORD, timeout=6000)
         print("step2 password typed:", pwd_ok)
@@ -82,8 +105,9 @@ def main():
             print("step2b password typed after extra:", pwd_ok)
 
         click_text(page, ["Log in", "Log In", "登录"])
-        time.sleep(6)
+        time.sleep(8)
         dump("after_login_click")
+        page.screenshot(path="/tmp/04_after_login.png", full_page=True)
 
         needs_code = False
         try:
