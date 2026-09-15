@@ -1,28 +1,33 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""真登录：用 twikit 2.3.3 接口。先裸登录看 X 反应。"""
-import os, traceback
+"""登录 + 诊断：登录后立即 dump session cookies，确认真实登录态。"""
+import os
 from twikit import Client
 
 EMAIL = os.environ.get("TW_EMAIL", "")
 PASSWORD = os.environ.get("TW_PASSWORD", "")
-CODE = os.environ.get("TW_CODE", "")
 
 def main():
     client = Client("en-US")
+    client.login(auth_info_1=EMAIL, password=PASSWORD)
+    # 关键：dump session cookies
     try:
-        if CODE:
-            # 新版把验证码走 totp_secret/或在 login 内 input；这里直接再试一次
-            client.login(auth_info_1=EMAIL, password=PASSWORD)
-        else:
-            client.login(auth_info_1=EMAIL, password=PASSWORD)
-        os.makedirs("cookies", exist_ok=True)
-        client.save_cookies("cookies/tw_cookies.json")
-        me = client.user()
-        print("LOGIN_OK user:", getattr(me, "screen_name", "?"), getattr(me, "name", "?"))
+        ck = client.session.cookies
+        print("SESSION_COOKIE_COUNT:", len(ck))
+        for c in ck.jar:
+            print("  CK:", c.name)
     except Exception as e:
-        print("LOGIN_FAIL:", type(e).__name__, str(e)[:400])
-        traceback.print_exc()
+        print("dump cookies fail:", e)
+    # 试一个需要登录的请求
+    try:
+        tweets = client.get_latest_tweets(count=1)
+        print("TIMELINE_OK got", len(tweets), "tweet(s)")
+    except Exception as e:
+        print("TIMELINE_FAIL:", type(e).__name__, str(e)[:200])
+    os.makedirs("cookies", exist_ok=True)
+    client.save_cookies("cookies/tw_cookies.json")
+    import json
+    print("SAVED_BYTES:", os.path.getsize("cookies/tw_cookies.json"))
 
 if __name__ == "__main__":
     main()
