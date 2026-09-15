@@ -90,18 +90,26 @@ def main():
         except Exception as ex:
             print("fill email failed:", repr(ex))
         print("step1 email typed:", ok)
-        # 提交：优先回车，其次点黑色 Continue（取最后一个，避免误点背景）
+        time.sleep(2)
+        # 调试：dump 所有 role=button 的文本/testid/位置
+        try:
+            btns = page.evaluate(
+                """() => Array.from(document.querySelectorAll('div[role="button"],button')).map(e => {
+                    const r = e.getBoundingClientRect();
+                    return {text: (e.innerText||'').trim().slice(0,20), testid: e.getAttribute('data-testid'),
+                            x: Math.round(r.x+r.width/2), y: Math.round(r.y+r.height/2),
+                            inert: e.hasAttribute('inert')};
+                }).filter(b => b.y > 0 && b.y < 900)"""
+            )
+            print("ALL_BUTTONS:", json.dumps(btns, ensure_ascii=False))
+        except Exception as ex:
+            print("dump buttons failed:", repr(ex))
+        # 直接用坐标点：modal 里邮箱框下方的黑色 Continue
         try:
             el.press("Enter")
         except Exception as ex:
             print("press enter failed:", repr(ex))
-        time.sleep(3)
-        try:
-            page.locator('div[role="button"]:visible:has-text("Continue")').last.click(timeout=6000)
-        except Exception as ex:
-            print("click continue(last) failed:", repr(ex))
-        time.sleep(6)
-        dump("after_email")
+        time.sleep(2)
         page.screenshot(path="/tmp/03_after_email.png", full_page=True)
 
         # 2) 填密码
