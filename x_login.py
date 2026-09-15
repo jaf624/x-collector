@@ -90,11 +90,18 @@ def main():
         except Exception as ex:
             print("fill email failed:", repr(ex))
         print("step1 email typed:", ok)
-        # 点 Continue（modal 里那个可见按钮）
+        # 提交：优先回车，其次点黑色 Continue（取最后一个，避免误点背景）
         try:
-            page.locator('div[role="button"]:visible:has-text("Continue")').first.click(timeout=8000)
+            el.press("Enter")
         except Exception as ex:
-            print("click continue failed:", repr(ex))
+            print("press enter failed:", repr(ex))
+        time.sleep(3)
+        if "password" not in (page.locator('input[name="password"]').get_attribute("inert") or ""):
+            pass
+        try:
+            page.locator('div[role="button"]:visible:has-text("Continue")').last.click(timeout=6000)
+        except Exception as ex:
+            print("click continue(last) failed:", repr(ex))
         time.sleep(6)
         dump("after_email")
         page.screenshot(path="/tmp/03_after_email.png", full_page=True)
