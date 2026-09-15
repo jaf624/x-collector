@@ -1,16 +1,28 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""第一步：诊断当前 twikit 版本的真实登录接口。"""
-import os, inspect
-import twikit
-print("twikit version:", getattr(twikit, "__version__", "?"))
+"""真登录：用 twikit 2.3.3 接口。先裸登录看 X 反应。"""
+import os, traceback
 from twikit import Client
-print("login signature:", inspect.signature(Client.login))
-meths = [m for m in dir(Client) if not m.startswith('_') and any(k in m.lower() for k in ['login','mail','verif','activ','auth','code'])]
-print("relevant methods:", meths)
-try:
-    from twikit.errors import *
-    import twikit.errors as E
-    print("errors:", [x for x in dir(E) if not x.startswith('_')])
-except Exception as e:
-    print("errors import:", e)
+
+EMAIL = os.environ.get("TW_EMAIL", "")
+PASSWORD = os.environ.get("TW_PASSWORD", "")
+CODE = os.environ.get("TW_CODE", "")
+
+def main():
+    client = Client("en-US")
+    try:
+        if CODE:
+            # 新版把验证码走 totp_secret/或在 login 内 input；这里直接再试一次
+            client.login(auth_info_1=EMAIL, password=PASSWORD)
+        else:
+            client.login(auth_info_1=EMAIL, password=PASSWORD)
+        os.makedirs("cookies", exist_ok=True)
+        client.save_cookies("cookies/tw_cookies.json")
+        me = client.user()
+        print("LOGIN_OK user:", getattr(me, "screen_name", "?"), getattr(me, "name", "?"))
+    except Exception as e:
+        print("LOGIN_FAIL:", type(e).__name__, str(e)[:400])
+        traceback.print_exc()
+
+if __name__ == "__main__":
+    main()
