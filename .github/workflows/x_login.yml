@@ -26,8 +26,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install twikit
-        run: pip install -U twikit
+      - name: Install twifork (patched twikit)
+        run: pip install -U twifork
       - name: Login to X
         env:
           TW_EMAIL: ${{ inputs.tw_email }}
