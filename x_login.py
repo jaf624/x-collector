@@ -121,6 +121,14 @@ def main():
         dump("after_email")
         page.screenshot(path="/tmp/03_after_email.png", full_page=True)
 
+        # 2) 如果出现 "Use password" 链接（Confirm account 页要求手机号时），点它回到密码登录
+        try:
+            page.get_by_text("Use password", exact=True).click(timeout=5000)
+            print("clicked Use password")
+            time.sleep(3)
+        except Exception as ex:
+            print("no Use password (normal flow):", repr(ex)[:120])
+
         # 2) 填密码
         pwd_ok = False
         try:
