@@ -79,10 +79,10 @@ def main():
         except Exception as ex:
             print("dump inputs failed:", repr(ex))
 
-        # 直接用可见的第一个 input 填邮箱
+        # 1) 填邮箱（用真实 name，只取可见的 modal 里那个）
         ok = False
         try:
-            el = page.locator('input:visible').first
+            el = page.locator('input[name="username_or_email"]:visible').first
             el.wait_for(state="visible", timeout=25000)
             el.click()
             el.fill(EMAIL)
@@ -90,21 +90,32 @@ def main():
         except Exception as ex:
             print("fill email failed:", repr(ex))
         print("step1 email typed:", ok)
-        click_text(page, ["Continue", "Next", "下一步"])
+        # 点 Continue（modal 里那个可见按钮）
+        try:
+            page.locator('div[role="button"]:visible:has-text("Continue")').first.click(timeout=8000)
+        except Exception as ex:
+            print("click continue failed:", repr(ex))
         time.sleep(6)
         dump("after_email")
         page.screenshot(path="/tmp/03_after_email.png", full_page=True)
 
-        pwd_ok = type_first(page, ['input[autocomplete="password"]', 'input[name="password"]'], PASSWORD, timeout=6000)
+        # 2) 填密码
+        pwd_ok = False
+        try:
+            pwd = page.locator('input[name="password"]:visible').first
+            pwd.wait_for(state="visible", timeout=15000)
+            pwd.click()
+            pwd.fill(PASSWORD)
+            pwd_ok = True
+        except Exception as ex:
+            print("fill password failed:", repr(ex))
         print("step2 password typed:", pwd_ok)
-        if not pwd_ok:
-            type_first(page, ['input[autocomplete="username"]', 'input[name="text"]'], EMAIL, timeout=4000)
-            click_text(page, ["Next", "下一步"])
-            time.sleep(4)
-            pwd_ok = type_first(page, ['input[autocomplete="password"]', 'input[name="password"]'], PASSWORD, timeout=6000)
-            print("step2b password typed after extra:", pwd_ok)
 
-        click_text(page, ["Log in", "Log In", "登录"])
+        # 点 Log in
+        try:
+            page.locator('div[role="button"]:visible:has-text("Log in")').first.click(timeout=8000)
+        except Exception as ex:
+            print("click login failed:", repr(ex))
         time.sleep(8)
         dump("after_login_click")
         page.screenshot(path="/tmp/04_after_login.png", full_page=True)
