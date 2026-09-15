@@ -91,25 +91,14 @@ def main():
             print("fill email failed:", repr(ex))
         print("step1 email typed:", ok)
         time.sleep(2)
-        # 调试：dump 所有 role=button 的文本/testid/位置
+        # 用坐标点弹窗里的 Continue（636,685）
         try:
-            btns = page.evaluate(
-                """() => Array.from(document.querySelectorAll('div[role="button"],button')).map(e => {
-                    const r = e.getBoundingClientRect();
-                    return {text: (e.innerText||'').trim().slice(0,20), testid: e.getAttribute('data-testid'),
-                            x: Math.round(r.x+r.width/2), y: Math.round(r.y+r.height/2),
-                            inert: e.hasAttribute('inert')};
-                }).filter(b => b.y > 0 && b.y < 900)"""
-            )
-            print("ALL_BUTTONS:", json.dumps(btns, ensure_ascii=False))
+            page.mouse.click(636, 685)
+            print("clicked continue by coords")
         except Exception as ex:
-            print("dump buttons failed:", repr(ex))
-        # 直接用坐标点：modal 里邮箱框下方的黑色 Continue
-        try:
-            el.press("Enter")
-        except Exception as ex:
-            print("press enter failed:", repr(ex))
-        time.sleep(2)
+            print("click coords failed:", repr(ex))
+        time.sleep(7)
+        dump("after_email")
         page.screenshot(path="/tmp/03_after_email.png", full_page=True)
 
         # 2) 填密码
