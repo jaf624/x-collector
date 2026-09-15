@@ -62,39 +62,33 @@ def main():
         ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         page = ctx.new_page()
         page.goto("https://x.com/i/flow/login", timeout=60000, wait_until="domcontentloaded")
-        time.sleep(8)
+        time.sleep(10)
         page.screenshot(path="/tmp/01_open.png", full_page=True)
         dump("open_login")
 
-        # 轮询等待 Cloudflare 放行 + 登录框出现（最长 40 秒）
-        def wait_login_field(max_wait=40):
-            end = time.time() + max_wait
-            sel_list = [
-                'input[placeholder="Email or username"]',
-                'input[autocomplete="username"]',
-                'input[name="text"]',
-            ]
-            while time.time() < end:
-                for sel in sel_list:
-                    try:
-                        loc = page.locator(sel)
-                        for i in range(loc.count()):
-                            if loc.nth(i).is_visible(timeout=1500):
-                                return sel, i
-                    except Exception:
-                        pass
-                time.sleep(3)
-            return None, None
+        # 调试：打印页面上所有 input 的真实属性
+        try:
+            inputs = page.evaluate(
+                """() => Array.from(document.querySelectorAll('input')).map(e => ({
+                    type: e.type, name: e.name, placeholder: e.placeholder,
+                    autocomplete: e.autocomplete, testid: e.getAttribute('data-testid'),
+                    visible: !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)
+                }))"""
+            )
+            print("ALL_INPUTS:", json.dumps(inputs, ensure_ascii=False))
+        except Exception as ex:
+            print("dump inputs failed:", repr(ex))
 
-        user_sel, idx = wait_login_field()
-        print("login field selector:", user_sel, "index:", idx)
-        page.screenshot(path="/tmp/02_field.png", full_page=True)
-
+        # 直接用可见的第一个 input 填邮箱
         ok = False
-        if user_sel:
-            el = page.locator(user_sel).nth(idx)
-            el.click(); el.fill(EMAIL)
+        try:
+            el = page.locator('input:visible').first
+            el.wait_for(state="visible", timeout=25000)
+            el.click()
+            el.fill(EMAIL)
             ok = True
+        except Exception as ex:
+            print("fill email failed:", repr(ex))
         print("step1 email typed:", ok)
         click_text(page, ["Continue", "Next", "下一步"])
         time.sleep(6)
