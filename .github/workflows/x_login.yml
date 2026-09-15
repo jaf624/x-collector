@@ -1,0 +1,46 @@
+name: x-login
+
+# 手动触发：第一次传邮箱密码（不传 code）；若 X 要求邮箱验证码，把验证码填进 tw_code 再跑一次
+on:
+  workflow_dispatch:
+    inputs:
+      tw_email:
+        description: X 登录邮箱
+        required: true
+      tw_password:
+        description: X 密码
+        required: true
+      tw_code:
+        description: 邮箱验证码（仅第二次填）
+        required: false
+        default: ""
+
+jobs:
+  login:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install twikit
+        run: pip install -U twikit
+      - name: Login to X
+        env:
+          TW_EMAIL: ${{ inputs.tw_email }}
+          TW_PASSWORD: ${{ inputs.tw_password }}
+          TW_CODE: ${{ inputs.tw_code }}
+        run: python x_login.py
+      - name: Save cookies
+        run: |
+          if [ -f cookies/tw_cookies.json ]; then
+            git config user.name "x-bot"
+            git config user.email "bot@users.noreply.github.com"
+            git add cookies/
+            git commit -m "chore: save x login cookies" && git push || echo "无变化"
+          else
+            echo "未产生 cookies"
+          fi
