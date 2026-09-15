@@ -69,28 +69,34 @@ def main():
         # 轮询等待 Cloudflare 放行 + 登录框出现（最长 40 秒）
         def wait_login_field(max_wait=40):
             end = time.time() + max_wait
+            sel_list = [
+                'input[placeholder="Email or username"]',
+                'input[autocomplete="username"]',
+                'input[name="text"]',
+            ]
             while time.time() < end:
-                for sel in ['input[autocomplete="username"]', 'input[name="text"]']:
+                for sel in sel_list:
                     try:
-                        if page.locator(sel).first.is_visible(timeout=2000):
-                            return sel
+                        loc = page.locator(sel)
+                        for i in range(loc.count()):
+                            if loc.nth(i).is_visible(timeout=1500):
+                                return sel, i
                     except Exception:
                         pass
-                # Cloudflare 可能有个 checkbox 要等它自动勾
                 time.sleep(3)
-            return None
+            return None, None
 
-        user_sel = wait_login_field()
-        print("login field selector:", user_sel)
+        user_sel, idx = wait_login_field()
+        print("login field selector:", user_sel, "index:", idx)
         page.screenshot(path="/tmp/02_field.png", full_page=True)
 
         ok = False
         if user_sel:
-            el = page.locator(user_sel).first
+            el = page.locator(user_sel).nth(idx)
             el.click(); el.fill(EMAIL)
             ok = True
         print("step1 email typed:", ok)
-        click_text(page, ["Next", "下一步"])
+        click_text(page, ["Continue", "Next", "下一步"])
         time.sleep(6)
         dump("after_email")
         page.screenshot(path="/tmp/03_after_email.png", full_page=True)
