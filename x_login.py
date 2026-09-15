@@ -91,21 +91,30 @@ def main():
             print("fill email failed:", repr(ex))
         print("step1 email typed:", ok)
         time.sleep(2)
-        # 用 JS 直接点弹窗里（居中 y~685）的 Continue 按钮
+        # 用 JS 找并点居中的 Continue 按钮，同时打印所有 Continue 坐标
         try:
-            clicked = page.evaluate(
+            res = page.evaluate(
                 """() => {
-                    const btns = Array.from(document.querySelectorAll('div[role="button"]'));
+                    const btns = Array.from(document.querySelectorAll('div[role="button"],button'));
+                    const info = [];
                     for (const b of btns) {
-                        const r = b.getBoundingClientRect();
-                        if ((b.innerText||'').trim() === 'Continue' && r.x > 400 && r.x < 900 && r.y > 600 && r.y < 750) {
-                            b.click(); return true;
+                        const t = (b.innerText||'').trim();
+                        if (t === 'Continue') {
+                            const r = b.getBoundingClientRect();
+                            info.push({x: Math.round(r.x+r.width/2), y: Math.round(r.y+r.height/2), w: Math.round(r.width)});
                         }
                     }
-                    return false;
+                    for (const b of btns) {
+                        const t = (b.innerText||'').trim();
+                        if (t === 'Continue') {
+                            const r = b.getBoundingClientRect();
+                            if (r.x + r.width/2 > 350) { b.click(); return JSON.stringify(info)+'|CLICKED'; }
+                        }
+                    }
+                    return JSON.stringify(info)+'|NONE';
                 }"""
             )
-            print("js clicked continue:", clicked)
+            print("continue search:", res)
         except Exception as ex:
             print("js click failed:", repr(ex))
         time.sleep(7)
