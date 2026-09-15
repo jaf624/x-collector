@@ -123,8 +123,19 @@ def main():
 
         # 2) 如果出现 "Use password" 链接（Confirm account 页要求手机号时），点它回到密码登录
         try:
-            page.get_by_text("Use password", exact=True).click(timeout=5000)
-            print("clicked Use password")
+            res = page.evaluate(
+                """() => {
+                    const els = Array.from(document.querySelectorAll('*'));
+                    for (const e of els) {
+                        if ((e.innerText||'').trim() === 'Use password') {
+                            const r = e.getBoundingClientRect();
+                            if (r.x > 700) { e.click(); return true; }
+                        }
+                    }
+                    return false;
+                }"""
+            )
+            print("clicked Use password:", res)
             time.sleep(3)
         except Exception as ex:
             print("no Use password (normal flow):", repr(ex)[:120])
