@@ -96,8 +96,6 @@ def main():
         except Exception as ex:
             print("press enter failed:", repr(ex))
         time.sleep(3)
-        if "password" not in (page.locator('input[name="password"]').get_attribute("inert") or ""):
-            pass
         try:
             page.locator('div[role="button"]:visible:has-text("Continue")').last.click(timeout=6000)
         except Exception as ex:
