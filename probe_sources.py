@@ -58,17 +58,36 @@ try:
 except Exception:
     print("  非JSON:", body[:200])
 
-# 4) SearXNG 抽样
-for base in ["https://priv.au", "https://searx.be", "https://opnxng.com", "https://search.sapti.me"]:
-    u = base + "/search?" + urllib.parse.urlencode({"q": "site:x.com/ddjcxx/status", "format": "json"})
-    st, body = get(u, {"Accept": "application/json", "User-Agent": "Mozilla/5.0"}, timeout=12)
-    n = 0
-    try:
-        for it in json.loads(body).get("results", []):
-            if ID.search(it.get("url", "")):
-                n += 1
-    except Exception:
-        pass
-    print(f"\n[4] searx {base} HTTP {st} X命中 {n}")
+# 4) SearXNG 深挖：多实例 × 多引擎 × 多查询语法，找能召回 X status 链接的组合
+INSTANCES = ["https://searx.be", "https://priv.au", "https://search.inetol.net",
+             "https://searx.tiekoetter.com", "https://opnxng.com", "https://search.sapti.me"]
+VARIANTS = [
+    ("site:x.com/ddjcxx/status", "google"),
+    ("x.com ddjcxx prompt", "google"),
+    ("site:x.com GPT image prompt", "google,bing"),
+    ("ddjcxx", "bing"),
+    ("AI image prompt site:x.com", "duckduckgo"),
+]
+for base in INSTANCES:
+    for q, eng in VARIANTS:
+        u = base + "/search?" + urllib.parse.urlencode(
+            {"q": q, "format": "json", "engines": eng, "language": "en"})
+        st, body = get(u, {"Accept": "application/json", "User-Agent": "Mozilla/5.0"}, timeout=12)
+        n = tot = 0
+        try:
+            res = json.loads(body).get("results", [])
+            tot = len(res)
+            for it in res:
+                if ID.search(it.get("url", "")):
+                    n += 1
+        except Exception:
+            pass
+        flag = "  <<< X命中" if n else ""
+        print(f"[4] {base.replace('https://','')} [{eng}] q='{q[:32]}' HTTP {st} 结果{tot} X{n}{flag}", flush=True)
+        if n:
+            for it in res:
+                m = ID.search(it.get("url", ""))
+                if m:
+                    print("      ->", m.group(1), it.get("url", "")[:95])
 
 print("\nPROBE_DONE")
