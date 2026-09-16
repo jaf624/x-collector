@@ -11,4 +11,4 @@ jobs:
         with:
           python-version: "3.11"
       - name: Probe anonymous X endpoints
-        run: python probe.py
+        run: python probe2.py
