@@ -16,12 +16,13 @@ KEY = os.environ.get("JINA_KEY", "").strip()
 ID_RE = re.compile(r'(?:x|twitter)\.com/([A-Za-z0-9_]{1,20})/status(?:es)?/(\d{10,})')
 SEEN_F = C.OUT_DIR / "discovered_ids.json"
 MAX_FETCH = int(os.environ.get("JINA_MAX", "60"))
+NUM = os.environ.get("JINA_NUM", "3")  # 每次搜索返回条数（num 越小越省 token，实测 num=3≈1万token/次）
 CTX = ssl.create_default_context(); CTX.check_hostname = False; CTX.verify_mode = ssl.CERT_NONE
 
 
 def jina_search(query, timeout=45):
     """返回该查询命中的 {tweet_id: screen_name}。"""
-    url = "https://s.jina.ai/" + urllib.parse.quote(query)
+    url = "https://s.jina.ai/" + urllib.parse.quote(query) + f"?num={NUM}"
     req = urllib.request.Request(url, headers={
         "Authorization": f"Bearer {KEY}",
         "Accept": "application/json",
@@ -66,9 +67,14 @@ def main():
 
     accounts = C.read_lines(C.ROOT / "targets" / "accounts.txt")
     keywords = C.read_lines(C.ROOT / "targets" / "keywords.txt")
-    # (查询, 期望博主)；关键词发现 expect=None（不限博主）
-    queries = [(f"site:x.com/{a}/status", a.lower()) for a in accounts] + \
-              [(f"{k} site:x.com", None) for k in keywords]
+    # (查询, 期望博主)；博主时间线每轮都跑；关键词广撒网仅 UTC 0/12 点跑（每天2次）以省 token
+    import datetime
+    h = datetime.datetime.utcnow().hour
+    queries = [(f"site:x.com/{a}/status", a.lower()) for a in accounts]
+    if h in (0, 12):
+        queries += [(f"{k} site:x.com", None) for k in keywords]
+    else:
+        print(f"[jina] UTC {h} 点：本轮仅跑 {len(accounts)} 个博主时间线（关键词每天 UTC 0/12 点各一轮）", flush=True)
 
     found, seen = {}, load_seen()   # found[tid] = 期望博主（None=关键词发现）
     for i, (q, expect) in enumerate(queries):
