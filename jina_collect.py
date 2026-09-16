@@ -66,28 +66,41 @@ def main():
 
     accounts = C.read_lines(C.ROOT / "targets" / "accounts.txt")
     keywords = C.read_lines(C.ROOT / "targets" / "keywords.txt")
-    queries = [f"site:x.com/{a}/status" for a in accounts] + [f"{k} site:x.com" for k in keywords]
+    # (查询, 期望博主)；关键词发现 expect=None（不限博主）
+    queries = [(f"site:x.com/{a}/status", a.lower()) for a in accounts] + \
+              [(f"{k} site:x.com", None) for k in keywords]
 
-    found, seen = {}, load_seen()
-    for i, q in enumerate(queries):
+    found, seen = {}, load_seen()   # found[tid] = 期望博主（None=关键词发现）
+    for i, (q, expect) in enumerate(queries):
         got = jina_search(q)
         for tid, sn in got.items():
-            found[tid] = sn
+            if tid not in found or found[tid] is None:
+                found[tid] = expect
         print(f"[jina {i+1}/{len(queries)}] {q[:42]} -> 命中 {len(got)}（累计候选 {len(found)}）", flush=True)
         time.sleep(1.2)  # 远低于 100 RPM
 
-    new_ids = [(tid, sn) for tid, sn in found.items() if tid not in seen]
+    new_ids = [(tid, u) for tid, u in found.items() if tid not in seen]
     print(f"[jina] 候选 {len(found)}，去重后新 ID {len(new_ids)}，本轮取前 {min(MAX_FETCH,len(new_ids))}", flush=True)
 
-    recs = []
-    for tid, sn in new_ids[:MAX_FETCH]:
+    def keep(r, expect):
+        """只留原创：剔除转推(RT)、纯回复(@开头)；博主时间线额外限定本人。"""
+        txt = (r.get("text_raw") or "").lstrip()
+        sn = (r.get("screen_name") or "").lower()
+        if not sn or txt.startswith("RT ") or txt.startswith("@"):
+            return False
+        return (sn == expect.lower()) if expect else True
+
+    recs, dropped = [], 0
+    for tid, expect in new_ids[:MAX_FETCH]:
         r = C.fetch_by_id(tid)
-        if r and r.get("text_raw"):
+        if r and r.get("text_raw") and keep(r, expect):
             recs.append(r)
             print("  [取到]", tid, r.get("screen_name"), (r.get("text_raw", "")[:40] or "").replace("\n", " "), flush=True)
         else:
-            print("  [miss]", tid, flush=True)
+            dropped += 1
+            print("  [过滤/miss]", tid, (r or {}).get("screen_name", "-"), flush=True)
         time.sleep(1.0)
+    print(f"[jina] 入库 {len(recs)}，过滤/未取到 {dropped}", flush=True)
 
     C.localize_media(recs)
 
