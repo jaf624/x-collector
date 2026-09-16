@@ -90,4 +90,18 @@ for base in INSTANCES:
                 if m:
                     print("      ->", m.group(1), it.get("url", "")[:95])
 
+# 5) Jina 注册/API-key 入口真实重定向与登录链接（美国节点）
+import subprocess
+def sh(c):
+    print("$ " + c)
+    r = subprocess.run(c, shell=True, capture_output=True, text=True, timeout=90)
+    print((r.stdout or r.stderr)[:3500])
+
+print("\n[5] Jina 入口探测")
+sh("curl -sS -o /tmp/j1.html -w 'api-key code=%{http_code} final=%{url_effective}\\n' -L 'https://jina.ai/api-key/'")
+sh("curl -sS -o /tmp/j2.html -w 'dashboard code=%{http_code} final=%{url_effective}\\n' -L 'https://dashboard.jina.ai/'")
+sh("curl -sS -o /dev/null -w 'login code=%{http_code} redirect=%{redirect_url}\\n' 'https://jina.ai/login'")
+sh("grep -oiE 'href=\"[^\"]*(login|signin|sign-in|auth|clerk|dashboard|api-key|github)[^\"]*\"' /tmp/j1.html /tmp/j2.html 2>/dev/null | sort -u | head -40")
+sh("grep -oiE '(continue with [a-z]+|sign in|log in|create.{0,6}account|api[_ -]?key)' /tmp/j1.html /tmp/j2.html 2>/dev/null | tr 'A-Z' 'a-z' | sort | uniq -c | head -20")
+
 print("\nPROBE_DONE")
