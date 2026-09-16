@@ -61,6 +61,8 @@ def norm(base, u):
     if u.startswith("//"):
         return "https:" + u
     if re.match(r"^[a-z0-9-]+(\.[a-z0-9-]+)+(/|$)", u):  # 域名开头但缺协议，如 voachinese.com/a/x
+        if u.startswith("reuters.com/"):
+            u = "www." + u  # 路透无 www 会取空正文
         return "https://" + u
     if u.startswith("/"):
         p = urllib.parse.urlparse(base)
