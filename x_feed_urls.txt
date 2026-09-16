@@ -1,0 +1,3 @@
+# x_ingest.py 拉取的 X 数据源（每行一个 feed URL）
+# 仓库已公开，raw 免认证、国内可达；部署到服务器 /opt/prompthub/ingest/x_feed_urls.txt
+https://raw.githubusercontent.com/jaf624/x-collector/main/data/x_feed.json
