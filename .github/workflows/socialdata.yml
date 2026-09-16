@@ -1,0 +1,43 @@
+name: socialdata-collect
+
+# 第三方数据 API（SocialData.tools）主动采集：关键词搜索 + 指定博主时间线 + 图文。
+# 对方维护住宅代理池，海外 runner 直接 HTTPS 调用，无需 X 登录态 / auth_token，不怕机房 IP 风控。
+# 免费档 3 次/分钟（脚本内已限速 21s/次）。每 3 小时一轮，也可在 Actions 页面手动 Run。
+on:
+  schedule:
+    - cron: "23 */3 * * *"   # 每 3 小时一次（UTC，错峰）
+  workflow_dispatch: {}
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: SocialData collect (search + user timelines)
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          SOCIALDATA_KEY: ${{ secrets.SOCIALDATA_KEY }}
+        run: python socialdata_collect.py
+
+      - name: Commit feed
+        run: |
+          git config user.name "x-collector-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(socialdata): feed $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main || true
+            git push
+          else
+            echo "无新增"
+          fi
