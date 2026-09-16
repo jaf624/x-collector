@@ -93,17 +93,34 @@ def main():
         time.sleep(1)
 
         # ---- 状态机：自适应推进 邮箱→(Use password)→密码→登录，最多 80 秒 ----
-        CLICK_CENTERED = """(label) => {
+        # JS 只负责"返回按钮中心坐标"，真正的点击用 page.mouse 真实事件（React 才认）
+        COORDS = """(label) => {
             const btns = Array.from(document.querySelectorAll('div[role="button"],button,a,span'));
             for (const b of btns) {
                 const t=(b.innerText||b.textContent||'').trim();
                 if (t===label) {
                     const r=b.getBoundingClientRect();
-                    if (r.width>0 && r.height>0 && r.x>300 && r.x<1000 && r.y>50 && r.y<800) { b.click(); return true; }
+                    if (r.width>0 && r.height>0 && r.x>250 && r.x<1050 && r.y>40 && r.y<820) {
+                        return {x: Math.round(r.x+r.width/2), y: Math.round(r.y+r.height/2)};
+                    }
                 }
             }
-            return false;
+            return null;
         }"""
+        def real_click(label):
+            try:
+                c = page.evaluate(COORDS, label)
+                if c:
+                    page.mouse.move(c["x"], c["y"])
+                    time.sleep(0.2)
+                    page.mouse.down()
+                    time.sleep(0.08)
+                    page.mouse.up()
+                    return True
+            except Exception:
+                return False
+            return False
+
         FIND_PWD = """() => {
             const ps = Array.from(document.querySelectorAll('input[name="password"]'));
             return ps.find(e => {
@@ -135,13 +152,10 @@ def main():
             tag = f"{page.url.split('#')[-1]}|pwd={password_filled}|login={login_clicked}"
             if tag != last:
                 print("STATE:", tag[:150]); last = tag
-            # a) Confirm account 页：点 Use password
+            # a) Confirm account 页：真实点击 Use password
             if not password_filled:
-                try:
-                    if page.evaluate(CLICK_CENTERED, "Use password"):
-                        print("clicked Use password"); time.sleep(2)
-                except Exception:
-                    pass
+                if real_click("Use password"):
+                    print("real-clicked Use password"); time.sleep(2)
             # b) 密码框就绪：JS 设值
             if not password_filled:
                 try:
@@ -161,20 +175,14 @@ def main():
                             print("step2 password typed via JS"); time.sleep(1)
                 except Exception as ex:
                     print("pwd loop err:", repr(ex)[:100])
-            # c) 还在邮箱步：点 Continue
+            # c) 还在邮箱步：真实点击 Continue
             if not password_filled:
-                try:
-                    page.evaluate(CLICK_CENTERED, "Continue")
-                except Exception:
-                    pass
-            # d) 密码已填：点 Log in
+                real_click("Continue")
+            # d) 密码已填：真实点击 Log in
             if password_filled and not login_clicked:
-                try:
-                    if page.evaluate(CLICK_CENTERED, "Log in"):
-                        login_clicked = True
-                        print("clicked Log in"); time.sleep(4)
-                except Exception:
-                    pass
+                if real_click("Log in"):
+                    login_clicked = True
+                    print("real-clicked Log in"); time.sleep(4)
             time.sleep(2)
         dump("after_loop")
         page.screenshot(path="/tmp/04_after_login.png", full_page=True)
