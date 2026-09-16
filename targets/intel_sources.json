@@ -1,0 +1,27 @@
+{
+  "_comment": "国际涉华公开新闻舆情聚合配置。仅读取公开网页，按发布时间保留最新内容，供内部形势研判参考。sections=媒体栏目/首页轮询；search_categories=议题新闻检索(每天2轮)。信源与议题可在本文件自由增删。",
+  "sections": [
+    {"name": "美国之音中文-中国", "url": "https://www.voachinese.com/p/6197.html", "lang": "zh", "cat": "中国议题", "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"},
+    {"name": "美国之音中文-亚太", "url": "https://www.voachinese.com/z/1745", "lang": "zh", "cat": "亚太动态", "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"},
+    {"name": "美国之音中文-经贸", "url": "https://www.voachinese.com/z/1748", "lang": "zh", "cat": "经贸科技", "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"},
+    {"name": "BBC中文", "url": "https://www.bbc.com/zhongwen/simp", "lang": "zh", "cat": "国际中文媒体", "pat": "bbc\\.com/zhongwen/articles/[^\\s\\)\\]]+"},
+    {"name": "德国之声DW中文", "url": "https://www.dw.com/zh", "lang": "zh", "cat": "国际中文媒体", "pat": "dw\\.com/zh/[^\\s\\)\\]]+/a-\\d+"},
+    {"name": "路透社世界", "url": "https://www.reuters.com/world/", "lang": "en", "cat": "国际通讯社", "pat": "reuters\\.com/world/[^\\s\\)\\]]+\\d{4}-\\d{2}-\\d{2}"},
+    {"name": "美联社AP", "url": "https://apnews.com/hub/china", "lang": "en", "cat": "国际通讯社", "pat": "apnews\\.com/article/[^\\s\\)\\]]+"},
+    {"name": "日经亚洲", "url": "https://asia.nikkei.com/Politics", "lang": "en", "cat": "亚太媒体", "pat": "asia\\.nikkei\\.com/[^\\s\\)\\]]+"}
+  ],
+  "search_categories": [
+    {"cat": "区域安全", "q": "China Taiwan regional security military defense"},
+    {"cat": "海上动态", "q": "South China Sea maritime coast guard naval"},
+    {"cat": "科技产业", "q": "China semiconductor chip export control technology"},
+    {"cat": "网络安全", "q": "China cybersecurity data breach online security"},
+    {"cat": "贸易往来", "q": "China trade tariff export restriction customs"},
+    {"cat": "资源供应链", "q": "China rare earth supply chain critical minerals"},
+    {"cat": "地区治理", "q": "China Hong Kong Xinjiang Tibet policy"},
+    {"cat": "信息生态", "q": "China online misinformation media campaign"},
+    {"cat": "国防动态", "q": "China defense nuclear military buildup"},
+    {"cat": "外交动态", "q": "China diplomacy summit foreign policy bilateral"}
+  ],
+  "block_domains": ["facebook.com", "youtube.com", "twitter.com", "x.com", "instagram.com", "wikipedia.org", "amazon.", "ebay.", "baidu.com", "zhihu.com", "taobao", "/funds/", "etf"],
+  "relevance_re": "(?i)(china|chinese|beijing|ccp|prc|taiwan|taipei|pla|xi jinping|hong kong|xinjiang|tibet|south china sea|中共|中国|北京|台湾|台北|港|疆|藏|南海|台海|解放军|习近平)"
+}

@@ -1,0 +1,31 @@
+name: intel-watch
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch: {}
+jobs:
+  intel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: International China-risk public news aggregation via Jina
+        env:
+          JINA_KEY: ${{ secrets.JINA_KEY }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          INTEL_FORCE_SEARCH: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+        run: python3 intel_collect.py
+      - name: Commit feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if ! git diff --staged --quiet; then
+            git commit -m "data: intel watch feed update"
+            git push
+          else
+            echo "无新增内容"
+          fi
