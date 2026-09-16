@@ -41,20 +41,23 @@ def api(path, params, retries=2):
 
 def parse_media(t):
     photos, video = [], ""
-    medias = t.get("media") or (t.get("extendedEntities") or {}).get("media") or []
+    medias = (t.get("extendedEntities") or {}).get("media") or t.get("media") or []
     for m in medias:
         typ = (m.get("type") or "").lower()
-        if typ == "photo" or m.get("imageUrl") or m.get("media_url_https"):
-            u = m.get("imageUrl") or m.get("media_url_https") or m.get("url")
+        oi = m.get("original_info") or m.get("originalInfo") or {}
+        if typ == "photo" or m.get("media_url_https") or m.get("imageUrl"):
+            u = m.get("media_url_https") or m.get("imageUrl") or m.get("url")
             if u:
-                photos.append({"url": u, "w": m.get("width"), "h": m.get("height")})
+                photos.append({"url": u, "w": oi.get("width") or m.get("width"),
+                               "h": oi.get("height") or m.get("height")})
         elif typ in ("video", "animatedgif"):
             if m.get("videoUrl"):
                 video = m["videoUrl"]
             else:
-                vs = (m.get("videoInfo") or {}).get("variants") or m.get("variants") or []
-                mp4 = [v for v in vs if v.get("contentType") == "video/mp4"
-                       or v.get("content_type") == "video/mp4"]
+                vi = m.get("video_info") or m.get("videoInfo") or {}
+                vs = vi.get("variants") or m.get("variants") or []
+                mp4 = [v for v in vs if v.get("content_type") == v.get("contentType") == "video/mp4"
+                       or v.get("content_type") == "video/mp4" or v.get("contentType") == "video/mp4"]
                 if mp4:
                     video = sorted(mp4, key=lambda x: x.get("bitrate", 0))[-1].get("url", "")
     return photos, video
@@ -68,7 +71,7 @@ def to_rec(t):
         "x_id": tid,
         "screen_name": a.get("userName") or "",
         "author": a.get("name") or "",
-        "verified": bool(a.get("isBlueVerified") or a.get("verified")),
+        "verified": bool(a.get("isBlueVerified") or a.get("isVerified") or a.get("verified")),
         "created_at": t.get("createdAt") or "",
         "text_raw": t.get("text") or "",
         "lang": t.get("lang") or "",
