@@ -90,96 +90,94 @@ def main():
         except Exception as ex:
             print("fill email failed:", repr(ex))
         print("step1 email typed:", ok)
-        time.sleep(2)
-        # 用 JS 找并点居中的 Continue 按钮，同时打印所有 Continue 坐标
-        try:
-            res = page.evaluate(
-                """() => {
-                    const btns = Array.from(document.querySelectorAll('div[role="button"],button'));
-                    const info = [];
-                    for (const b of btns) {
-                        const t = (b.innerText||'').trim();
-                        if (t === 'Continue') {
-                            const r = b.getBoundingClientRect();
-                            info.push({x: Math.round(r.x+r.width/2), y: Math.round(r.y+r.height/2), w: Math.round(r.width)});
-                        }
-                    }
-                    for (const b of btns) {
-                        const t = (b.innerText||'').trim();
-                        if (t === 'Continue') {
-                            const r = b.getBoundingClientRect();
-                            if (r.x + r.width/2 > 350) { b.click(); return JSON.stringify(info)+'|CLICKED'; }
-                        }
-                    }
-                    return JSON.stringify(info)+'|NONE';
-                }"""
-            )
-            print("continue search:", res)
-        except Exception as ex:
-            print("js click failed:", repr(ex))
-        time.sleep(7)
-        dump("after_email")
-        page.screenshot(path="/tmp/03_after_email.png", full_page=True)
+        time.sleep(1)
 
-        # 2) 如果出现 "Use password" 链接（Confirm account 页要求手机号时），点它回到密码登录
-        try:
-            res = page.evaluate(
-                """() => {
-                    const els = Array.from(document.querySelectorAll('*'));
-                    for (const e of els) {
-                        if ((e.innerText||'').trim() === 'Use password') {
-                            const r = e.getBoundingClientRect();
-                            if (r.x > 700) { e.click(); return true; }
-                        }
-                    }
-                    return false;
-                }"""
-            )
-            print("clicked Use password:", res)
-            time.sleep(3)
-        except Exception as ex:
-            print("no Use password (normal flow):", repr(ex)[:120])
-
-        # 2) 填密码
-        pwd_ok = False
-        try:
-            pwd = page.locator('input[name="password"]:visible').first
-            pwd.wait_for(state="visible", timeout=15000)
-            pwd.click()
-            pwd.fill(PASSWORD)
-            pwd_ok = True
-        except Exception as ex:
-            print("fill password failed:", repr(ex))
-        print("step2 password typed:", pwd_ok)
-
-        # 点 Log in
-        try:
-            page.locator('div[role="button"]:visible:has-text("Log in")').first.click(timeout=8000)
-        except Exception as ex:
-            print("click login failed:", repr(ex))
-        time.sleep(8)
-        dump("after_login_click")
+        # ---- 状态机：自适应推进 邮箱→(Use password)→密码→登录，最多 80 秒 ----
+        CLICK_CENTERED = """(label) => {
+            const btns = Array.from(document.querySelectorAll('div[role="button"],button,a,span'));
+            for (const b of btns) {
+                const t=(b.innerText||b.textContent||'').trim();
+                if (t===label) {
+                    const r=b.getBoundingClientRect();
+                    if (r.width>0 && r.height>0 && r.x>300 && r.x<1000 && r.y>50 && r.y<800) { b.click(); return true; }
+                }
+            }
+            return false;
+        }"""
+        FIND_PWD = """() => {
+            const ps = Array.from(document.querySelectorAll('input[name="password"]'));
+            return ps.find(e => {
+                const r=e.getBoundingClientRect();
+                return r.width>0 && r.height>0 && !e.hasAttribute('inert') && !e.closest('[inert]') && r.x>300;
+            }) || null;
+        }"""
+        password_filled = False
+        login_clicked = False
+        deadline = time.time() + 80
+        last = ""
+        while time.time() < deadline:
+            cookies = ctx.cookies("https://x.com")
+            if any(c["name"] == "auth_token" for c in cookies):
+                print("auth_token appeared in loop")
+                break
+            try:
+                body = page.inner_text("body", timeout=2000).lower()
+            except Exception:
+                body = ""
+            if any(k in body for k in ["verification code", "enter the code", "check your email",
+                                       "confirmation code", "we sent you a code"]):
+                print("NEED_CODE detected in loop")
+                page.screenshot(path="/tmp/05_need_code.png", full_page=True)
+                if not CODE:
+                    ctx.storage_state(path=STATE_FILE)
+                    print("NEED_CODE: X 要求邮箱验证码，未提供 TW_CODE")
+                    browser.close(); sys.exit(3)
+            tag = f"{page.url.split('#')[-1]}|pwd={password_filled}|login={login_clicked}"
+            if tag != last:
+                print("STATE:", tag[:150]); last = tag
+            # a) Confirm account 页：点 Use password
+            if not password_filled:
+                try:
+                    if page.evaluate(CLICK_CENTERED, "Use password"):
+                        print("clicked Use password"); time.sleep(2)
+                except Exception:
+                    pass
+            # b) 密码框就绪：JS 设值
+            if not password_filled:
+                try:
+                    if page.evaluate(FIND_PWD):
+                        r = page.evaluate(
+                            """(pw) => {
+                                const setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype,'value').set;
+                                setter.call(pw, %s);
+                                pw.dispatchEvent(new Event('input',{bubbles:true}));
+                                pw.dispatchEvent(new Event('change',{bubbles:true}));
+                                return 'set';
+                            }""" % json.dumps(PASSWORD),
+                            page.evaluate_handle(FIND_PWD)
+                        )
+                        if r == "set":
+                            password_filled = True
+                            print("step2 password typed via JS"); time.sleep(1)
+                except Exception as ex:
+                    print("pwd loop err:", repr(ex)[:100])
+            # c) 还在邮箱步：点 Continue
+            if not password_filled:
+                try:
+                    page.evaluate(CLICK_CENTERED, "Continue")
+                except Exception:
+                    pass
+            # d) 密码已填：点 Log in
+            if password_filled and not login_clicked:
+                try:
+                    if page.evaluate(CLICK_CENTERED, "Log in"):
+                        login_clicked = True
+                        print("clicked Log in"); time.sleep(4)
+                except Exception:
+                    pass
+            time.sleep(2)
+        dump("after_loop")
         page.screenshot(path="/tmp/04_after_login.png", full_page=True)
-
-        needs_code = False
-        try:
-            body = page.inner_text("body", timeout=5000).lower()
-            if "verification code" in body or "enter the code" in body or "check your email" in body or "confirmation code" in body:
-                needs_code = True
-        except Exception:
-            pass
-
-        if needs_code and not CODE:
-            print("NEED_CODE: X 要求邮箱验证码，但本次未提供 TW_CODE")
-            ctx.storage_state(path=STATE_FILE)
-            browser.close()
-            sys.exit(3)
-
-        if needs_code and CODE:
-            type_first(page, ['input[name="text"]', 'input[inputmode="numeric"]', 'input[maxlength="6"]'], CODE, timeout=6000)
-            click_text(page, ["Next", "Submit", "Verify", "下一步"])
-            time.sleep(6)
-            dump("after_code")
 
         cookies = ctx.cookies("https://x.com")
         auth_token = next((c["value"] for c in cookies if c["name"] == "auth_token"), None)
