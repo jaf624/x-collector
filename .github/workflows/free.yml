@@ -1,18 +1,16 @@
-name: twapi-active-collect
+name: free-nitter-collect
 
-# 通过 TwitterAPI.io 主动采集（关键词搜索 + 指定账号时间线）。
-# 按量计费，故频率设为每 6 小时一次；也可在 Actions 页面手动 Run。
+# 免费、免登录主动采集：Nitter 镜像 RSS 发现推文ID + syndication 补全图文。
+# 不花 API 费、不登录 X 账号。每 3 小时一次，也可在 Actions 页面手动 Run。
 on:
+  schedule:
+    - cron: "23 */3 * * *"   # 每3小时一次（UTC，错峰）
   workflow_dispatch: {}
-  # 付费 TwitterAPI.io 欠费(HTTP 402)期间暂停定时，由免费 free-nitter-collect 接管；
-  # 充值后恢复下面的定时：
-  # schedule:
-  #   - cron: "17 */6 * * *"   # 每6小时一次（UTC，错峰避开整点）
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     permissions:
       contents: write
     steps:
@@ -24,11 +22,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Active collect via TwitterAPI.io
+      - name: Free collect (Nitter + syndication)
         env:
-          TWAPI_IO_KEY: ${{ secrets.TWAPI_IO_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python twapi.py
+        run: python free_collect.py
 
       - name: Commit feed
         run: |
@@ -36,7 +33,7 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add data/
           if ! git diff --cached --quiet; then
-            git commit -m "chore(twapi): active feed $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "chore(free): nitter feed $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase origin main || true
             git push
           else
