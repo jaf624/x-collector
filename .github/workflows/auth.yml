@@ -1,10 +1,10 @@
-name: free-nitter-collect
+name: auth-login-collect
 
-# 免费、免登录主动采集：Nitter 镜像 RSS 发现推文ID + syndication 补全图文。
-# 不花 API 费、不登录 X 账号。每 6 小时一次，也可在 Actions 页面手动 Run。
+# 登录态主动采集（twikit 异步）：凭 X_AUTH_TOKEN + X_CT0 抓博主时间线+关键词搜索。
+# 不在机房登录、只带凭证调接口，随机限速保号。每3小时一次，也可手动 Run。
 on:
   schedule:
-    - cron: "37 */6 * * *"   # 每6小时一次（UTC，错峰；Nitter全灭期主要做投喂链接兜底）
+    - cron: "11 */3 * * *"   # 每3小时一次（UTC，错峰）
   workflow_dispatch: {}
 
 jobs:
@@ -21,11 +21,19 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
 
-      - name: Free collect (Nitter + syndication)
+      - name: Install deps
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements.txt
+
+      - name: Auth collect via twikit
         env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python free_collect.py
+        run: python auth_collect.py
 
       - name: Commit feed
         run: |
@@ -33,7 +41,7 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add data/
           if ! git diff --cached --quiet; then
-            git commit -m "chore(free): nitter feed $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "chore(auth): login feed $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase origin main || true
             git push
           else

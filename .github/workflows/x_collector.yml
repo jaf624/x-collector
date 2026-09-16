@@ -3,7 +3,7 @@ name: x-collector
 # 海外runner定时采集X；也可在 Actions 页面手动 Run workflow
 on:
   schedule:
-    - cron: "*/30 * * * *"   # 每30分钟（UTC，即北京时间每小时整点/半点）
+    - cron: "53 */6 * * *"   # 每6小时一次（UTC，错峰；负责免登录投喂链接 + GitHub提示词）
   workflow_dispatch: {}
 
 jobs:
@@ -27,11 +27,9 @@ jobs:
           python -m pip install -U pip
           pip install -r requirements.txt || true   # twikit 可选，失败不阻断免登录取数
 
-      - name: Collect X
-        env:
-          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}   # 可选：配置后可自动抓账号/搜索
-          X_CT0:        ${{ secrets.X_CT0 }}
+      - name: Collect X (免登录投喂链接)
         run: python collect.py
+      # 登录态主动采集统一由 auth-login-collect(auth_collect.py) 负责，避免旧同步逻辑与 twikit2.x 冲突
 
       - name: Collect GitHub prompts
         env:
