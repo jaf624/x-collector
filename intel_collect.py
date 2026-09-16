@@ -16,7 +16,7 @@ FEED = os.path.join(DATA, "intel_feed.json")
 SRC = os.path.join(ROOT, "targets", "intel_sources.json")
 KEY = os.environ.get("JINA_KEY", "").strip()
 DAYS = int(os.environ.get("INTEL_DAYS", "3"))
-MAX_ART = int(os.environ.get("INTEL_MAX_ART", "24"))
+MAX_ART = int(os.environ.get("INTEL_MAX_ART", "40"))
 NUM = os.environ.get("INTEL_SEARCH_NUM", "3")
 MAX_FEED = int(os.environ.get("INTEL_MAX_FEED", "600"))
 CTX = ssl.create_default_context(); CTX.check_hostname = False; CTX.verify_mode = ssl.CERT_NONE
@@ -59,6 +59,9 @@ def pick_date(*texts):
         if not t:
             continue
         m = re.search(r"(20\d{2})[-/](\d{1,2})[-/](\d{1,2})", t)
+        if m:
+            return _date(m.group(1), m.group(2), m.group(3))
+        m = re.search(r"(20\d{2})年(\d{1,2})月(\d{1,2})日", t)  # 中文日期
         if m:
             return _date(m.group(1), m.group(2), m.group(3))
         m = re.search(r"(20\d{2})(\d{2})(\d{2})", t)  # VOA 连续 8 位
@@ -133,12 +136,12 @@ def main():
     seen = {x["url"] for x in feed}
     candidates = {}  # url -> dict(url, source, lang, cat, hint_date, hint_title)
 
-    def add(url, source, lang, cat, hint_date=None, hint_title=""):
+    def add(url, source, lang, cat, via, hint_date=None, hint_title=""):
         if not url or url in seen or url in candidates:
             return
         if any(b in url.lower() for b in block):
             return
-        candidates[url] = {"url": url, "source": source, "lang": lang, "cat": cat,
+        candidates[url] = {"url": url, "source": source, "lang": lang, "cat": cat, "via": via,
                            "hint_date": hint_date, "hint_title": hint_title}
 
     # 1) 栏目/首页轮询
@@ -155,7 +158,7 @@ def main():
         for u in links:
             d = pick_date(u)
             if d is None or fresh(d):  # URL 带日期且在窗口内；无日期的留给正文 Published Time 判定
-                add(u, sec["name"], sec.get("lang", "?"), sec["cat"], hint_date=d)
+                add(u, sec["name"], sec.get("lang", "?"), sec["cat"], "section", hint_date=d)
                 kept += 1
         print(f"[section] {sec['name']}: 链接{len(links)} 候选{kept} tokens={tok}", flush=True)
         time.sleep(0.5)
@@ -173,41 +176,55 @@ def main():
                     continue
                 if d and not fresh(d):
                     continue
-                add(u, tp["cat"], "en", tp["cat"], hint_date=d, hint_title=it.get("title", ""))
+                add(u, tp["cat"], "en", tp["cat"], "topic", hint_date=d, hint_title=it.get("title", ""))
                 n += 1
             print(f"[topic] {tp['cat']}: 采纳{n} tokens={tok}", flush=True)
             time.sleep(0.4)
     else:
         print(f"[topic] UTC {hour} 点本轮不跑议题检索（每天 UTC 0/12 点各一次）", flush=True)
 
-    # 3) 抓正文（按日期新->旧，限量控成本）
+    # 3) 抓正文（按日期新->旧，限量控成本；逐项记录丢弃原因）
     cand = list(candidates.values())
     cand.sort(key=lambda x: x["hint_date"] or datetime.date(2000, 1, 1), reverse=True)
+    today = datetime.datetime.utcnow().date()
+    stats = {"fetch_fail": 0, "no_date": 0, "not_fresh": 0, "too_short": 0, "not_rel": 0}
     added = 0
     for c in cand[:MAX_ART]:
         st, md, tok = reader(c["url"])
         if st != 200 or not md or md.startswith("EXC"):
+            stats["fetch_fail"] += 1
+            print(f"  x 抓取失败 HTTP{st} {c['url'][:70]}", flush=True)
             continue
         title, pub, text = clean_article(md)
-        d = c["hint_date"] or pick_date(pub, c["url"])
+        d = c["hint_date"] or pick_date(pub, c["url"], md[:4000])
+        inferred = False
         if not fresh(d):
+            if d is None and c["via"] == "section" and os.environ.get("INTEL_TRUST_FRESH", "1") == "1" and len(text) >= 400:
+                d, inferred = today, True  # 栏目首页本身即最新流，无日期正文按当天计
+            else:
+                stats["no_date" if d is None else "not_fresh"] += 1
+                continue
+        if len(text) < 400:  # 正文过短视为导航页/付费墙/失败
+            stats["too_short"] += 1
+            print(f"  x 正文过短({len(text)}) {c['url'][:70]}", flush=True)
             continue
-        if len(text) < 400:  # 正文过短视为导航页/失败
-            continue
-        if not rel.search(title + " " + text[:600]):
+        if not rel.search(title + " " + text[:800]):
+            stats["not_rel"] += 1
+            print(f"  x 不相关 {(title or c['url'])[:50]}", flush=True)
             continue
         item = {
             "id": hashlib.sha1(c["url"].encode()).hexdigest()[:16],
             "title": (title or c["hint_title"] or "(无标题)").strip()[:200],
             "url": c["url"], "source": c["source"], "lang": c["lang"], "cat": c["cat"],
-            "published": (d.isoformat() if d else (pub[:25] or "")),
+            "published": d.isoformat(), "date_inferred": inferred,
             "fetched_at": datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z",
             "summary": re.sub(r"\s+", " ", text)[:240],
             "content": text,
         }
         feed.insert(0, item); seen.add(c["url"]); added += 1
-        print(f"  + [{c['cat']}] {item['title'][:50]} ({item['published']}) tokens={tok}", flush=True)
+        print(f"  + [{c['cat']}] {item['title'][:46]} ({item['published']}{'?' if inferred else ''}) 正文{len(text)}字 tokens={tok}", flush=True)
         time.sleep(0.4)
+    print(f"[intel] 丢弃统计: {stats}", flush=True)
 
     feed.sort(key=lambda x: x.get("published", ""), reverse=True)
     feed = feed[:MAX_FEED]
