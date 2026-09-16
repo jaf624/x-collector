@@ -53,6 +53,21 @@ def search(query, after, num=NUM):
         return [], "?"
 
 
+def norm(base, u):
+    """把 Markdown 里各种形态的链接归一为绝对 URL（补协议/根路径）。"""
+    u = (u or "").strip()
+    if u.startswith(("http://", "https://")):
+        return u
+    if u.startswith("//"):
+        return "https:" + u
+    if re.match(r"^[a-z0-9-]+(\.[a-z0-9-]+)+(/|$)", u):  # 域名开头但缺协议，如 voachinese.com/a/x
+        return "https://" + u
+    if u.startswith("/"):
+        p = urllib.parse.urlparse(base)
+        return f"{p.scheme}://{p.netloc}{u}"
+    return urllib.parse.urljoin(base, u)
+
+
 # ---------- 日期 ----------
 def pick_date(*texts):
     for t in texts:
@@ -151,7 +166,7 @@ def main():
             print(f"[section] {sec['name']} HTTP {st}", flush=True); continue
         links = []
         for u in re.findall(sec["pat"], body):
-            u = u if u.startswith("http") else urllib.parse.urljoin(sec["url"], u)
+            u = norm(sec["url"], u)
             if u not in links:
                 links.append(u)
         kept = 0
