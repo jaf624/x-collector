@@ -17,6 +17,7 @@ KEY = os.environ.get("TWAPI_IO_KEY", "").strip()
 BASE = "https://api.twitterapi.io"
 PAGES_PER_TARGET = 1     # 每个账号/关键词抓几页（每页最多20条），控制按量费用
 ONLY_IMAGES = True       # 提示词站主打"图文对应"，只收带图原创
+QPS_GAP = 5.5            # 免费层限制：每 5 秒最多 1 次请求，目标/翻页之间留足间隔
 
 
 def api(path, params, retries=2):
@@ -102,7 +103,7 @@ def search(query, pages=PAGES_PER_TARGET):
         cursor = d.get("next_cursor")
         if not d.get("has_next_page") or not cursor:
             break
-        time.sleep(1.2)
+        time.sleep(QPS_GAP)
     return out
 
 
@@ -121,14 +122,14 @@ def main():
         rs = search(q)
         recs += rs
         print(f"[twapi] @{name}: {len(rs)} 条")
-        time.sleep(0.8)
+        time.sleep(QPS_GAP)
 
     for kw in keywords:
         q = f"{kw} -filter:retweets -filter:replies{img}"
         rs = search(q)
         recs += rs
         print(f"[twapi] 关键词「{kw}」: {len(rs)} 条")
-        time.sleep(0.8)
+        time.sleep(QPS_GAP)
 
     # 图片落地到仓库（国内可达）
     collect.localize_media(recs)
