@@ -14,15 +14,18 @@ ROOT = pathlib.Path(__file__).resolve().parent
 CTX = ssl.create_default_context(); CTX.check_hostname = False; CTX.verify_mode = ssl.CERT_NONE
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
 
-# 公开 Nitter 镜像（运行时自动探测存活，死的自动跳过；可随时增删）
+# 公开 Nitter 兼容镜像（运行时自动探测存活，死的自动跳过；可随时增删）
+# xcancel.com 为 Nitter 原作者维护的新官方站，置顶优先。
 INSTANCES = [
-    "nitter.net", "nitter.poast.org", "nitter.privacydev.net", "nitter.tiekoetter.com",
-    "nitter.woodland.cafe", "nitter.lucabased.xyz", "nitter.cz", "nitter.1d4.us",
-    "nitter.kavin.rocks", "nitter.unixfox.eu", "nitter.fdn.fr", "nitter.qt",
-    "nitter.pw", "nitter.tux.pizza", "nitter.opnxng.eu.org", "nitter.adminforge.de",
-    "nitter.space", "nitter.relay.casa", "nitter.nohost.network", "lightbrd.com",
-    "nitter.xbdm.net", "nitter.moomoo.me", "nitter.4o1o7.de", "nitter.dark.fail",
-    "nitter.privacy.com.de", "n.coqu.eu",
+    "xcancel.com", "nitter.lunar.icu", "nitter.privacyredirect.com", "nitter.foss.wtf",
+    "nitter.tiekoetter.com", "nitter.salastil.com", "nitter.koyu.space", "tw.artemislena.eu",
+    "nitter.services", "nitter.xbdm.net",
+    "nitter.net", "nitter.poast.org", "nitter.privacydev.net", "nitter.woodland.cafe",
+    "nitter.lucabased.xyz", "nitter.cz", "nitter.1d4.us", "nitter.kavin.rocks",
+    "nitter.unixfox.eu", "nitter.fdn.fr", "nitter.qt", "nitter.pw", "nitter.tux.pizza",
+    "nitter.opnxng.eu.org", "nitter.adminforge.de", "nitter.space", "nitter.relay.casa",
+    "nitter.nohost.network", "lightbrd.com", "nitter.moomoo.me", "nitter.4o1o7.de",
+    "nitter.dark.fail", "nitter.privacy.com.de", "n.coqu.eu",
 ]
 
 def get(url, to=15):
@@ -67,6 +70,13 @@ def ids_from_rss(url):
 
 def main():
     acc = accounts(); kw = keywords()
+    # 先自检免登录 syndication 按ID取推文是否可用（这是"手机投喂链接"兜底链路）
+    probe_id = "2099762659071795585"
+    try:
+        sr = collect.fetch_by_id(probe_id)
+        print("[syndication自检]", "OK @%s %s" % (sr["screen_name"], sr["text_raw"][:30]) if sr else "MISS", flush=True)
+    except Exception as e:
+        print("[syndication自检] 异常", str(e)[:80], flush=True)
     probe_user = acc[0] if acc else "voxcatai"
     print("探测存活 Nitter 实例（探针账号 %s）..." % probe_user, flush=True)
     insts = probe(probe_user)
