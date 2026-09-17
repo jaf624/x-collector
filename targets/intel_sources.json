@@ -1,5 +1,5 @@
 {
-  "_comment": "国际涉华公开新闻舆情聚合配置。仅读取公开网页，按发布时间保留最新内容，供内部形势研判参考。sections=媒体栏目/首页轮询；search_categories=议题新闻检索(每天2轮)。信源与议题可在本文件自由增删。",
+  "_comment": "国际涉华公开舆情聚合配置。仅读取公开网页/公开账号/公开请愿，不进入任何非公开社群。sections=媒体栏目首页轮询(每6小时)；search_categories=议题新闻检索(每天2轮,近3天)；watch_categories=反华人物/活动/新路径/新群追踪(每天2轮,近7天)。信源自由增删。",
   "sections": [
     {"name": "美国之音中文-中国", "url": "https://www.voachinese.com/p/6197.html", "lang": "zh", "cat": "中国议题", "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"},
     {"name": "美国之音中文-亚太", "url": "https://www.voachinese.com/z/1745", "lang": "zh", "cat": "亚太动态", "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"},
@@ -22,6 +22,34 @@
     {"cat": "国防动态", "q": "China defense nuclear military buildup"},
     {"cat": "外交动态", "q": "China diplomacy summit foreign policy bilateral"}
   ],
-  "block_domains": ["facebook.com", "youtube.com", "twitter.com", "x.com", "instagram.com", "wikipedia.org", "amazon.", "ebay.", "baidu.com", "zhihu.com", "taobao", "/funds/", "etf"],
-  "relevance_re": "(?i)(china|chinese|beijing|ccp|prc|taiwan|taipei|pla|xi jinping|hong kong|xinjiang|tibet|south china sea|中共|中国|北京|台湾|台北|港|疆|藏|南海|台海|解放军|习近平)"
+  "watch_categories": [
+    {"cat": "反华人物账号", "queries": [
+      "overseas Chinese dissident exile activist new spokesperson account",
+      "China critic exile YouTuber influencer dissident channel",
+      "Uyghur Tibetan Hong Kong activist leader overseas new statement"
+    ]},
+    {"cat": "反华活动事件", "queries": [
+      "anti-China protest rally overseas Tibet Uyghur Hong Kong this week",
+      "China hearing petition boycott campaign event Washington London Brussels",
+      "overseas rally anniversary Tiananmen Tibet Uyghur demonstration event"
+    ]},
+    {"cat": "反华新路径手法", "queries": [
+      "China disinformation deepfake AI sockpuppet covert influence operation new",
+      "transnational repression China overseas police station new tactic",
+      "China espionage honeypot Telegram WhatsApp covert campaign new method"
+    ]},
+    {"cat": "反华组织新群", "queries": [
+      "new anti-China coalition NGO diaspora group launched",
+      "Uyghur Tibetan Hong Kong diaspora alliance new organization formed",
+      "China accountability campaign new overseas group statement"
+    ]}
+  ],
+  "block_global": ["amazon.", "ebay.", "baidu.com", "zhihu.com", "taobao", "/funds/", "etf", "wikipedia.org", "booking.", "aliexpress"],
+  "social_domains": ["facebook.com", "instagram.com", "youtube.com", "youtu.be", "twitter.com", "x.com", "t.me", "reddit.com", "change.org"],
+  "shell_social": ["facebook.com", "instagram.com", "twitter.com", "x.com", "t.me", "youtube.com", "youtu.be"],
+  "deep_social": ["reddit.com", "change.org"],
+  "relevance_re": "(?i)(china|chinese|beijing|ccp|prc|taiwan|taipei|pla|xi jinping|hong kong|xinjiang|uyghur|uighur|tibet|south china sea|dissident|exile|protest|rally|coalition|activist|中共|中国|北京|台湾|台北|港|疆|藏|南海|台海|解放军|习近平|异见|流亡|抗议|集会|反华|维吾尔|西藏)",
+  "junk_markers": ["Powered by", "Print Options", "Google Translate", "URL Source:", "Markdown Content", "cookie", "Cookie", "隐私政策", "用户协议", "copyright", "All rights reserved", "版权所有"],
+  "paywall_markers": ["subscribe to continue", "to continue reading", "subscribers can read", "become a subscriber", "sign up to continue", "this content is for subscribers", "付费阅读", "订阅后阅读", "订阅即可阅读", "please subscribe to read"],
+  "ad_markers": ["discount code", "promo code", "use code", "% off", "limited time offer", "sponsored post", "affiliate link", "点击购买", "立即购买", "立即下单", "优惠码", "赞助内容", "下载APP", "注册领取", "关注领", "加微信", "扫码进群", "广告"]
 }
