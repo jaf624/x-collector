@@ -239,7 +239,9 @@ def main():
     after_news = (datetime.datetime.utcnow().date() - datetime.timedelta(days=DAYS)).isoformat()
     after_watch = (datetime.datetime.utcnow().date() - datetime.timedelta(days=WATCH_DAYS)).isoformat()
     hour = datetime.datetime.utcnow().hour
-    do_search = hour in (0, 12) or bool(os.environ.get("INTEL_FORCE_SEARCH"))
+    force = bool(os.environ.get("INTEL_FORCE_SEARCH"))
+    do_search = hour in (0, 12) or force   # 议题新闻每天 2 轮
+    do_watch = hour == 0 or force          # 反华人物/活动/路径/组织体量大，每天 1 轮控成本
 
     feed = load_json(FEED)
     # 旧版条目迁移：按当前质量标准补字段并重新打分，够格的一并进入 brief
@@ -302,7 +304,10 @@ def main():
                     hint_date=d, hint_title=it.get("title", "")); n += 1
             print(f"[topic] {tp['cat']}: 采纳{n} tokens={tok}", flush=True)
             time.sleep(0.4)
+    else:
+        print(f"[topic] UTC {hour} 点本轮不跑议题检索（每天 UTC 0/12）", flush=True)
 
+    if do_watch:
         for wc in watches:
             wn = 0
             for q in wc["queries"]:
@@ -327,7 +332,7 @@ def main():
                 time.sleep(0.3)
             print(f"[watch] {wc['cat']}: 采纳{wn}", flush=True)
     else:
-        print(f"[search] UTC {hour} 点本轮不跑议题/watch 检索（每天 UTC 0/12 点各一次）", flush=True)
+        print(f"[watch] UTC {hour} 点本轮不跑反华追踪（每天 UTC 0 一次）", flush=True)
 
     # 4) 正文 / 快照 + 质量过滤（按日期新->旧，限量控成本）
     cand = list(candidates.values())
