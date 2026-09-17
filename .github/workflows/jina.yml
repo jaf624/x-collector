@@ -24,7 +24,9 @@ jobs:
           git add data
           if ! git diff --staged --quiet; then
             git commit -m "data: jina discover feed update"
-            git push
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break || { echo "push retry $i"; sleep 6; }
+            done
           else
             echo "无新增内容"
           fi

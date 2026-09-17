@@ -325,12 +325,14 @@ def main():
     # 4) 正文 / 快照 + 质量过滤（按日期新->旧，限量控成本）
     cand = list(candidates.values())
     cand.sort(key=lambda x: x["hint_date"] or datetime.date(2000, 1, 1), reverse=True)
+    snip_cand = [c for c in cand if c["body_from"] == "snippet"]            # 社媒线索：零 token，全部保留
+    full_cand = [c for c in cand if c["body_from"] != "snippet"][:MAX_ART]  # 全文深抓：限量控成本
     today = datetime.datetime.utcnow().date()
     f = {"fetch_fail": 0, "not_fresh": 0, "too_short": 0, "not_rel": 0, "duplicate": 0,
          "paywall": 0, "low_quality": 0, "usable": 0, "snippet_lead": 0}
     full_total = 0
     added = 0
-    for c in cand[:MAX_ART]:
+    for c in snip_cand + full_cand:
         is_snip = c["body_from"] == "snippet"
         window = WATCH_DAYS if c["route"] == "watch" else DAYS
         if is_snip:
