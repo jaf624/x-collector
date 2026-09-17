@@ -242,6 +242,13 @@ def main():
     do_search = hour in (0, 12) or bool(os.environ.get("INTEL_FORCE_SEARCH"))
 
     feed = load_json(FEED)
+    # 旧版条目迁移：按当前质量标准补字段并重新打分，够格的一并进入 brief
+    for x in feed:
+        if "body_from" not in x:
+            sc, hard, _ = quality_score(x.get("content", ""), junk_re, paywall_re, ad_re)
+            x.update({"body_from": "full", "route": x.get("route", "news"),
+                      "needs_deepdive": False, "quality_score": sc,
+                      "usable": (not hard and sc >= Q_MIN)})
     seen = {x["url"] for x in feed}
     existing_sets = [_trigrams(x.get("content", "")) for x in feed]
     candidates = {}
