@@ -5,7 +5,12 @@
   "max_per_channel": 40,
   "quality_min": 50,
   "lead_chars": 180,
-  "business_channels": [],
+  "business_channels": [
+    {"name": "chinaworkerISA", "alias": "中国劳工论坛"},
+    {"name": "ChineseNationalSocialism", "alias": "中国国家社会主义"},
+    {"name": "DemocracyMovement", "alias": "加州民主运动信息站"},
+    {"name": "HK_Schedule", "alias": "香港人抗争日程表文宣频道"}
+  ],
   "selftest_channels": [
     {"name": "telegram", "alias": "Telegram官方公告(自测·中性)", "selftest": true}
   ],
