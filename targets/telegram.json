@@ -1,0 +1,41 @@
+{
+  "_comment": "Telegram 公开频道监测配置。合规红线：只抓 t.me/s/<name> 公开网页预览，不登录、不加入、不使用账号/API、不进任何非公开群组；图片/视频/文件一律不下载，仅标记；sensitive=true 类别命中后只保留短线索(标题+摘要+永久链接)，不留存正文与媒体本体，按程序上报。业务公开频道由使用者按单位掌握对象填入 business_channels（仅填频道用户名，不带 @ 和 t.me/）。",
+  "days": 3,
+  "max_pages": 2,
+  "max_per_channel": 40,
+  "quality_min": 55,
+  "lead_chars": 180,
+  "business_channels": [],
+  "selftest_channels": [
+    {"name": "telegram", "alias": "Telegram官方公告(自测·中性)", "selftest": true}
+  ],
+  "china_re": "(?i)(china|chinese|ccp|prc|beijing|taiwan|taipei|hong\\s?kong|xinjiang|uyghur|uighur|tibet|south\\s?china\\s?sea|pla|xi\\s?jinping|huawei|tiktok|didi|bytedance|sino|中国|中共|中方|北京|大陆|台湾|台北|香港|新疆|维吾尔|西藏|达赖|南海|台海|解放军|习近平|华人|华侨|驻华|涉华|华为|腾讯|阿里|抖音|字节)",
+  "categories": [
+    {"key": "politics", "name": "政治安全与意识形态渗透", "sensitive": false,
+     "keywords": ["颜色革命", "政权更迭", "专制", "独裁", "民主化", "人权报告", "宗教自由", "政治犯", "异见", "翻墙", "防火长城", "社运", "regime change", "authoritarian", "dictatorship", "human rights report", "dissident", "great firewall", "censorship", "pro-democracy"]},
+    {"key": "separatism", "name": "分裂破坏与民族宗教渗透", "sensitive": true,
+     "keywords": ["台独", "藏独", "疆独", "港独", "台湾独立", "民族自决", "流亡政府", "达赖", "世维会", "东突", "taiwan independence", "free tibet", "east turkestan", "uyghur tribunal", "hong kong independence", "self-determination", "exile government", "dalai lama"]},
+    {"key": "terror", "name": "暴恐极端", "sensitive": true,
+     "keywords": ["圣战", "殉教", "斩首", "爆炸袭击", "极端组织", "效忠", "圣战士", "jihad", "martyrdom", "beheading", "caliphate", "mujahideen", "martyr operation", "lone wolf", "improvised explosive"]},
+    {"key": "mobilization", "name": "群组动员与颜色革命操作", "sensitive": false,
+     "keywords": ["集会", "游行", "抗议", "聚集", "串联", "罢工", "罢课", "白纸", "快闪", "举牌", "线下集合", "报名参加", "招募志愿者", "protest", "rally", "gather", "flash mob", "boycott", "sit-in", "mobilize", "call to action", "organize offline"]},
+    {"key": "espionage", "name": "间谍情报与涉密信息套取", "sensitive": true,
+     "keywords": ["招募线人", "有偿征集", "投稿箱", "内部资料", "机密文件", "涉密", "情报员", "卧底", "钓鱼问卷", "高薪招聘研究员", "recruit source", "insider", "classified", "espionage", "honeypot", "salami", "human intelligence", "defector recruitment", "pay for documents"]},
+    {"key": "cyber", "name": "网络攻击与数据安全", "sensitive": false,
+     "keywords": ["数据泄露", "数据库贩卖", "拖库", "勒索软件", "钓鱼", "木马", "后门", "零日漏洞", "漏洞利用", "关键设施攻击", "data breach", "leaked database", "ransomware", "phishing", "backdoor", "zero-day", "exploit kit", "botnet", "APT", "DDoS"]},
+    {"key": "cognitive", "name": "认知作战与AI伪造", "sensitive": false,
+     "keywords": ["深度伪造", "换脸", "AI合成", "伪造视频", "合成语音", "带节奏", "机器人水军", "信息战", "认知战", "假新闻矩阵", "deepfake", "face swap", "synthetic media", "bot network", "information operation", "covert campaign", "narrative warfare", "coordinated inauthentic"]},
+    {"key": "orgfunding", "name": "敌对势力组织培训与资金", "sensitive": true,
+     "keywords": ["民主基金", "NED", "颜色革命培训", "公民社会", "培训营", "活动资助", "奖学金项目", "民主峰会", "democracy fund", "NDI", "IRI", "civil society grant", "capacity building workshop", "fellowship", "regime change training", "soft landing program", "opposition funding"]},
+    {"key": "arms", "name": "军品两用物项非法交易", "sensitive": true,
+     "keywords": ["无人机改装", "出口管制规避", "走私武器", "军品代购", "夜视仪", "加密电台", "精密零部件", "军民两用", "dual-use", "export control evasion", "smuggle weapons", "drone parts", "night vision", "encrypted radio", "precision components", "arms broker"]},
+    {"key": "economy", "name": "经济金融与产业链供应链安全", "sensitive": false,
+     "keywords": ["制裁", "次级制裁", "实体清单", "脱钩", "去风险", "关键矿产", "稀土", "港口收购审查", "做空中国", "断供", "长臂管辖", "sanctions", "secondary sanctions", "entity list", "decoupling", "de-risking", "rare earth", "critical minerals", "divestment", "supply chain", "investment screening"]},
+    {"key": "tech", "name": "科技人才与关键基础设施", "sensitive": false,
+     "keywords": ["芯片禁令", "技术封锁", "人才计划", "学术间谍", "海底电缆", "算力封锁", "基因数据外流", "生物样本采集", "半导体出口", "semiconductor ban", "chip export control", "talent program", "submarine cable", "genetic data", "biobank", "critical infrastructure", "research espionage"]},
+    {"key": "overseas", "name": "海外利益公民安全与非传统安全", "sensitive": false,
+     "keywords": ["绑架中国人", "袭击中资", "公民遇害", "电诈园区", "偷渡", "人口贩运", "海外项目遇袭", "船员被扣", "kidnap chinese", "attack chinese workers", "scam compound", "pig butchering", "human trafficking", "overseas project attack", "crew detained", "fraud hub", "criminal repatriation"]}
+  ],
+  "junk_markers": ["空投", "博彩", "赌场", "色情", "约炮", "代开发票", "刷单", "兼职日结", "彩票", "赔率", "赌球", "代孕", "看片", "裸聊",
+    "airdrop", "casino", "gambling", "crypto pump", "pump and dump", "100x", "sign up bonus", "free airdrop", "bet now", "jackpot", "adult dating", "cheap viagra", "代刷", "黑彩"]
+}
