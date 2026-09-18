@@ -84,7 +84,7 @@ def lang_of(t):
     return "zh" if r >= 0.5 else ("mix" if r >= 0.12 else "en")
 
 
-_PROMO = re.compile(r"(?i)(订阅|发电邮|投稿邮箱|广告合作|联系客服|点此|promotion|subscribe|newsletter|advertis|contact via|join\s*here)")
+_PROMO = re.compile(r"(?i)(订阅|訂閱|发电邮|發電郵|电邮|電郵|邮箱|郵箱|聯絡|联络|联系我们|聯繫我們|投稿|广告合作|联系客服|点此|關注我們|关注我们|加入频道|promotion|subscribe|newsletter|advertis|contact via|join\s*here)")
 
 
 def clean_title(text):
