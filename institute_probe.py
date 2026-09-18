@@ -119,7 +119,12 @@ def parse_feed(body):
                     link = href; break
                 if not href and (c.text or "").strip():
                     link = c.text.strip(); break
-        dnode = child(e, "pubdate") or child(e, "published") or child(e, "updated") or child(e, "date")
+        dnode = None
+        for nm in ("pubdate", "published", "updated", "date", "issued", "created"):
+            c = child(e, nm)
+            if c is not None and (c.text or "").strip():
+                dnode = c
+                break
         date = parse_date(dnode.text if dnode is not None else "")
         desc = ""
         for nm in ("encoded", "content", "summary", "description"):
