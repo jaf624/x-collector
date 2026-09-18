@@ -84,6 +84,24 @@ def lang_of(t):
     return "zh" if r >= 0.5 else ("mix" if r >= 0.12 else "en")
 
 
+_PROMO = re.compile(r"(?i)(订阅|发电邮|投稿邮箱|广告合作|联系客服|点此|promotion|subscribe|newsletter|advertis|contact via|join\s*here)")
+
+
+def clean_title(text):
+    """去链接/邮箱/@与推广套话后，取第一个有信息量(>=8字且非推广)的句子作标题。"""
+    t = re.sub(r"https?://\S+|t\.me/\S+|[\w.\-]+@[\w.\-]+|@\w+", "", text)
+    for s in re.split(r"[。.!?！？\n|]", t):
+        s = s.strip(" ，,、:：;；-—~～")
+        if len(re.sub(r"\s", "", s)) >= 8 and not _PROMO.search(s):
+            return s[:40]
+    return re.sub(r"\s+", " ", t).strip()[:40]
+
+
+def informative_len(text):
+    t = re.sub(r"https?://\S+|t\.me/\S+|[\w.\-]+@[\w.\-]+|@\w+", "", text)
+    return len(re.sub(r"\s", "", t))
+
+
 def trigrams(s):
     s = re.sub(r"\s+", "", s)[:320]
     return set(s[i:i + 3] for i in range(len(s) - 2))
@@ -211,10 +229,21 @@ def main():
         print("[tg] 未配置业务公开频道(business_channels 为空)，本轮跳过抓取、零入库；TG_DONE", flush=True)
         return
 
+    biz_names = {ch for ch, _ in channels}
+
+    def _in_biz(x):
+        m = re.match(r"https?://t\.me/([^/]+)/", x.get("url", ""))
+        return bool(x.get("route") == "telegram" and m and m.group(1) in biz_names)
+
+    bn = len(feed)
+    feed = [x for x in feed if not _in_biz(x)]  # 每轮按当前名单全量刷新近窗，淘汰旧帖/改判
+    if len(feed) != bn:
+        print(f"[tg] 刷新：移除上轮业务频道旧条目 {bn - len(feed)}", flush=True)
+    cutoff = (datetime.datetime.utcnow().date() - datetime.timedelta(days=days)).isoformat()
     seen = {x["url"] for x in feed}
     existing = [trigrams(x.get("content", "")) for x in feed]
     tg_items, stats = [], {"channels": 0, "scanned": 0, "junk": 0, "not_china": 0, "lead": 0,
-                           "usable": 0, "dup": 0, "low": 0, "fail": 0}
+                           "usable": 0, "dup": 0, "low": 0, "expired": 0, "lowinfo": 0, "fail": 0}
     for ch, alias in channels:
         posts, st = fetch_direct(ch, days, max_pages, max_n)
         via = "direct"
@@ -230,6 +259,10 @@ def main():
             stats["scanned"] += 1
             if len(text) < 30 or junk_re.search(text):
                 stats["junk"] += 1; continue
+            if p.get("pub") and p["pub"] < cutoff:
+                stats["expired"] += 1; continue
+            if informative_len(text) < 25:
+                stats["lowinfo"] += 1; continue
             hit = next((c for c in cats if c["re"].search(text)), None)
             china_n = len(china_re.findall(text))
             if not hit:
@@ -242,7 +275,7 @@ def main():
             sc = score_text(text, len(hit["re"].findall(text)), china_n)
             sensitive = hit["sensitive"]
             published = p.get("pub") or datetime.datetime.utcnow().date().isoformat()
-            first = re.split(r"[。.!?！？\n]", text)[0][:40] or text[:40]
+            first = clean_title(text)
             item = {
                 "id": hashlib.sha1(url.encode()).hexdigest()[:16],
                 "title": ("【线索】" if sensitive else "") + first.strip(),
