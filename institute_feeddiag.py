@@ -38,7 +38,7 @@ for h in HOSTS:
     try:
         root = ET.fromstring(body)
         rec["root"] = ln(root.tag)
-        items = [e for e in root.iter() if ln(e) in ("item", "entry")]
+        items = [e for e in root.iter() if ln(e.tag) in ("item", "entry")]
         rec["n_items"] = len(items)
         if items:
             it = items[0]
