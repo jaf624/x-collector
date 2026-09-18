@@ -1,6178 +1,4330 @@
 [
  {
   "host": "botanwang.com",
-  "base": "https://botanwang.com/",
-  "ref": "https://botanwang.com/",
   "name": "博谈网",
   "cat": "gov",
-  "cats": [
-   "gov",
-   "media",
-   "osint",
-   "rss"
-  ],
-  "folders": [
-   "反华中文即时网站",
-   "定期提供",
-   "开源情报知识",
-   "美翻译中心"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 4,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "cfr.org",
-  "base": "https://cfr.org/",
-  "ref": "https://www.cfr.org/",
   "name": "美国外交关系委员会",
   "cat": "gov",
-  "cats": [
-   "gov",
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库",
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 3,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "rand.org",
-  "base": "https://rand.org/",
-  "ref": "https://www.rand.org/",
   "name": "国防战略委员会 |兰特",
   "cat": "gov",
-  "cats": [
-   "gov",
-   "osint",
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库",
-   "美国政府机构",
-   "美国网络安全组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 3,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "epochtimes.com",
-  "base": "https://epochtimes.com/",
-  "ref": "https://www.epochtimes.com/gb/instant-news.htm",
   "name": "即时新闻 | 大纪元",
   "cat": "gov",
-  "cats": [
-   "gov",
-   "osint",
-   "thinktank"
-  ],
-  "folders": [
-   "开源情报知识",
-   "智库研究文章",
-   "美翻译中心"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 3,
   "feed_url": "https://epochtimes.com/feed",
   "kind": "path",
   "status": "active",
+  "total": 60,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "陳小春巡演疲態曝光 在後台需老婆攙扶慢行",
+   "張菁：廣州大學城凶案的背後",
+   "調查：工行打商業銀行幌子 助中共海外滲透"
+  ]
  },
  {
   "host": "dni.gov",
-  "base": "https://dni.gov/",
-  "ref": "https://www.dni.gov/index.php",
   "name": "外国恶性影响中心",
   "cat": "gov",
-  "cats": [
-   "gov",
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识",
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 3,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "state.gov",
-  "base": "https://state.gov/",
-  "ref": "https://www.state.gov/",
   "name": "美国国务院 – 主页",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://www.state.gov/feed/",
   "kind": "html_link",
   "status": "watch",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "home.treasury.gov",
-  "base": "https://home.treasury.gov/",
-  "ref": "https://home.treasury.gov/",
   "name": "美国财政部",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://home.treasury.gov/rss.xml",
   "kind": "path",
   "status": "watch",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "3. Can Foreign Capital Count as Private Financing for Purposes of SSBCI Rules? [7/22/2026]",
+   "9. How long will Treasury operate the SSBCI TA Grant Program and SBOP? [05/11/2026]",
+   "Vermont – Capital Program Summary"
+  ]
  },
  {
   "host": "castro.house.gov",
-  "base": "https://castro.house.gov/",
-  "ref": "https://castro.house.gov/media-center/press-releases/castro-gallagher-baldwin-introduce-open-translation-center-act-to-strengthen-translations-of-open-source-materials-from-russia-china-and-other-nations-of-strategic-interest",
   "name": "卡斯特罗和加拉格尔提出两党法案，以改善联邦政府之间的情报共享 |美国国会议员华金·卡斯特罗",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美翻译中心"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://castro.house.gov/rss/feeds/",
   "kind": "html_link",
   "status": "active",
+  "total": 25,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "Castro Statement on New Housing Planned for JBSA-Fort Sam Houston"
+  ]
  },
  {
   "host": "odni.gov",
-  "base": "https://odni.gov/",
-  "ref": "https://www.odni.gov/index.php#:~:text=COUNTERINFLUENCE.%20FMIC%20leads%20the%20Intelligence%20Community%20and%20interagency",
   "name": "美国国家情报总监办公室",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "uscirf.gov",
-  "base": "https://uscirf.gov/",
-  "ref": "https://www.uscirf.gov/",
   "name": "美国国际宗教自由委员会 |USCIRF公司",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://uscirf.gov/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "USCIRF Releases New Report about Religious Tensions and Fulani Communities in West and Central Africa"
+  ]
  },
  {
   "host": "oversight.house.gov",
-  "base": "https://oversight.house.gov/",
-  "ref": "https://oversight.house.gov/",
   "name": "美国众议院监督和问责委员会",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://oversight.house.gov/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "SSOCC Republicans Release New Video Highlighting Trump Administration’s Early and Continued COVID-19 Response",
+   "Like the Russia hoax and the impeachment sham, the Democrats have created another phony scandal.",
+   "Ranking Member James Comer’s Fox News Op-ed: Why Dems’ USPS controversy is a manufactured distraction"
+  ]
  },
  {
   "host": "uscc.gov",
-  "base": "https://uscc.gov/",
-  "ref": "https://www.uscc.gov/",
   "name": "美国-中国 |经济与安全审查委员会",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "dhs.gov",
-  "base": "https://dhs.gov/",
-  "ref": "https://www.dhs.gov/",
   "name": "国土安全部",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "disa.mil",
-  "base": "https://disa.mil/",
-  "ref": "https://www.disa.mil/",
   "name": "美国国防信息系统局DISA",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "whitehouse.gov",
-  "base": "https://whitehouse.gov/",
-  "ref": "https://www.whitehouse.gov/nsc/",
   "name": "国家安全委员会（NSC）",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://whitehouse.gov/news/rss",
   "kind": "path",
   "status": "watch",
+  "total": 30,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "Fact Sheet: President Donald J. Trump Reinvigorates America’s Hunting Heritage",
+   "Fact Sheet: President Donald J. Trump Restores American Saltwater Angling and Recreation",
+   "RESTORING AMERICAN SALTWATER ANGLING AND RECREATION"
+  ]
  },
  {
   "host": "nukib.gov.cz",
-  "base": "https://nukib.gov.cz/",
-  "ref": "https://nukib.gov.cz/en/",
   "name": "捷克国家网络和信息安全局 - 主页",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://nukib.gov.cz/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 15,
   "latest": null,
   "recent30": 0,
-  "china_hits": 2
+  "china_hits": 2,
+  "samples": [
+   "Upozornění na smishingovou kampaň, ve které se útočníci vydávají za Policii České republiky",
+   "NÚKIB doporučuje obezřetnost v používání náhle populárních aplikací"
+  ]
  },
  {
   "host": "isc.independent.gov.uk",
-  "base": "https://isc.independent.gov.uk/",
-  "ref": "https://isc.independent.gov.uk/",
   "name": "英国议会情报与安全委员会",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "foreign.senate.gov",
-  "base": "https://foreign.senate.gov/",
-  "ref": "https://www.foreign.senate.gov/",
   "name": "美国参议院外交关系委员会",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "cisa.gov",
-  "base": "https://cisa.gov/",
-  "ref": "https://www.cisa.gov/",
   "name": "CISA（网络安全和基础设施安全局）",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "defense.gov",
-  "base": "https://defense.gov/",
-  "ref": "https://www.defense.gov/",
   "name": "美国国防部",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "international.gc.ca",
-  "base": "https://international.gc.ca/",
-  "ref": "https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng",
   "name": "加拿大全球事务部 – 主页",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "hsgac.senate.gov",
-  "base": "https://hsgac.senate.gov/",
-  "ref": "https://www.hsgac.senate.gov/subcommittees/investigations/",
   "name": "常设调查小组委员会 - 国土安全与政府事务委员会",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.hsgac.senate.gov/feed/",
   "kind": "html_link",
   "status": "watch",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ustr.gov",
-  "base": "https://ustr.gov/",
-  "ref": "https://ustr.gov/",
   "name": "美国贸易代表",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://ustr.gov/rss.xml",
   "kind": "path",
   "status": "watch",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "Weekly Trade Focus: APEC",
+   "February",
+   "USTR Convenes Over 50 Trading Partners to Provide Training Related to Imposing and Enforcing Forced Labor Import Prohibitions"
+  ]
  },
  {
   "host": "usagm.gov",
-  "base": "https://usagm.gov/",
-  "ref": "https://www.usagm.gov/",
   "name": "USAGM – 美国全球媒体机构",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.usagm.gov/feed/",
   "kind": "html_link",
   "status": "watch",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "asd.gov.au",
-  "base": "https://asd.gov.au/",
-  "ref": "https://www.asd.gov.au/",
   "name": "澳大利亚信号局 |澳大利亚信号局",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "五眼联盟网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "cse-cst.gc.ca",
-  "base": "https://cse-cst.gc.ca/",
-  "ref": "https://www.cse-cst.gc.ca/en",
   "name": "加拿大通信安全机构",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "五眼联盟网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "gcsb.govt.nz",
-  "base": "https://gcsb.govt.nz/",
-  "ref": "https://www.gcsb.govt.nz/",
   "name": "新西兰政府通讯保安局",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "五眼联盟网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://gcsb.govt.nz/news/rss",
   "kind": "path",
   "status": "active",
+  "total": 80,
   "latest": null,
   "recent30": 0,
-  "china_hits": 5
+  "china_hits": 5,
+  "samples": [
+   "The NCSC delivers all recommendations following IPAC review",
+   "NCSC review of response to IPAC incident released",
+   "NCSC briefs IPAC representatives on response to malicious cyber activity"
+  ]
  },
  {
   "host": "gchq.gov.uk",
-  "base": "https://gchq.gov.uk/",
-  "ref": "https://www.gchq.gov.uk/",
   "name": "英国政府通讯总部",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "五眼联盟网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "nsa.gov",
-  "base": "https://nsa.gov/",
-  "ref": "https://www.nsa.gov/",
   "name": "美国国家安全局 |中央安全局",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "五眼联盟网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "homeaffairs.gov.au",
-  "base": "https://homeaffairs.gov.au/",
-  "ref": "https://www.homeaffairs.gov.au/",
   "name": "澳大利亚内政事务总署",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "五眼联盟网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "mac.gov.tw",
-  "base": "https://mac.gov.tw/",
-  "ref": "https://www.mac.gov.tw/cn/Default.aspx",
   "name": "台湾陆委会",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "台湾政府机构",
-   "美国政府机构"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "mnd.gov.tw",
-  "base": "https://mnd.gov.tw/",
-  "ref": "https://www.mnd.gov.tw/",
   "name": "中华民国国防部-全球信息网-首页",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "台湾政府机构"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "dset.tw",
-  "base": "https://dset.tw/",
-  "ref": "https://dset.tw/",
   "name": "科技、民主与社会研究中心",
   "cat": "gov",
-  "cats": [
-   "gov"
-  ],
-  "folders": [
-   "台湾政府机构"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "chinadigitaltimes.net",
-  "base": "https://chinadigitaltimes.net/",
-  "ref": "https://chinadigitaltimes.net/#:~:text=CDT%20covers%20China's%20politics,%20society,",
   "name": "中国数字时代",
   "cat": "media",
-  "cats": [
-   "media",
-   "thinktank",
-   "rss"
-  ],
-  "folders": [
-   "反华中文即时网站",
-   "定期提供",
-   "智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 5,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "aboluowang.com",
-  "base": "https://aboluowang.com/",
-  "ref": "https://www.aboluowang.com/index.html",
   "name": "不祥之兆 中国经济又传坏消息 ＊ 阿波罗新闻网",
   "cat": "media",
-  "cats": [
-   "media",
-   "rss"
-  ],
-  "folders": [
-   "反华中文即时网站",
-   "重点"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 5,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "voachinese.com",
-  "base": "https://voachinese.com/",
-  "ref": "https://www.voachinese.com/",
   "name": "美国之音中文网 您可靠的信息来源",
   "cat": "media",
-  "cats": [
-   "media",
-   "osint",
-   "thinktank"
-  ],
-  "folders": [
-   "反华中文即时网站",
-   "台湾民意调查",
-   "智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 4,
   "feed_url": "https://www.voachinese.com/api/",
   "kind": "html_link",
   "status": "active",
+  "total": 20,
   "latest": null,
   "recent30": 0,
-  "china_hits": 16
+  "china_hits": 16,
+  "samples": [
+   "VOA今日焦点 (2026年9月18日) 特习会下周登场，特朗普总统将亲自到美军基地迎接习近平",
+   "《VOA今日焦点》音频",
+   "欧洲议会通过决议案肯定台湾强化韧性抗击中国混合式攻击，呼吁扩大与台交流合作"
+  ]
  },
  {
   "host": "rfa.org",
-  "base": "https://rfa.org/",
-  "ref": "https://www.rfa.org/mandarin/",
   "name": "自由亚洲电台",
   "cat": "media",
-  "cats": [
-   "media",
-   "osint",
-   "rss"
-  ],
-  "folders": [
-   "反华中文即时网站",
-   "台湾民意调查",
-   "重点"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 4,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "zaobao.com.sg",
-  "base": "https://zaobao.com.sg/",
-  "ref": "https://www.zaobao.com.sg/global",
   "name": "即时新闻 | 联合早报",
   "cat": "media",
-  "cats": [
-   "media",
-   "osint"
-  ],
-  "folders": [
-   "即时",
-   "台湾民意调查",
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 3,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "lingbaxianzhang.blogspot.com",
-  "base": "https://lingbaxianzhang.blogspot.com/",
-  "ref": "https://lingbaxianzhang.blogspot.com/",
   "name": "零八宪章",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站",
-   "国际局势"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://lingbaxianzhang.blogspot.com/feeds/posts/default",
   "kind": "html_link",
   "status": "active",
+  "total": 25,
   "latest": null,
   "recent30": 0,
-  "china_hits": 22
+  "china_hits": 22,
+  "samples": [
+   "黎智英案｜美國國會聽證促釋放黎智英 黎崇恩：習近平只需一通電話",
+   "全球人权倡导组织在美中峰会前向习近平发出公开信",
+   "中国藏学研究中心《西藏通史·当代卷》出版前大篇幅删除中共当局对西藏的镇压和国际西藏运动的内容"
+  ]
  },
  {
   "host": "theinitium.com",
-  "base": "https://theinitium.com/",
-  "ref": "https://theinitium.com/",
   "name": "端传媒Initium Media",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://theinitium.com/rss/",
   "kind": "html_link",
   "status": "active",
+  "total": 15,
   "latest": null,
   "recent30": 0,
-  "china_hits": 2
+  "china_hits": 2,
+  "samples": [
+   "尼泊爾特大洪災現場：一場沒有遺體的葬禮｜端聞 Podcast",
+   "香港首份「五年規劃」：強調非計劃經濟，連同施政報告2026聚焦北都融入國家｜Whatsnew"
+  ]
  },
  {
   "host": "dw.com",
-  "base": "https://dw.com/",
-  "ref": "https://www.dw.com/zh/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%AF%BC/s-9058",
   "name": "在线报导 | DW",
   "cat": "media",
-  "cats": [
-   "media",
-   "osint"
-  ],
-  "folders": [
-   "台湾民意调查",
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "chinademocrats.org",
-  "base": "https://chinademocrats.org/",
-  "ref": "https://chinademocrats.org/",
   "name": "中国民主转型研究所（每季度一次刊物）",
   "cat": "media",
-  "cats": [
-   "media",
-   "rss"
-  ],
-  "folders": [
-   "国际新闻",
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://chinademocrats.org/?feed=rss2",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 9
+  "china_hits": 9,
+  "samples": [
+   "王天成 | 异议人士有门必修课：《革命蓝图》中文版序",
+   "史蒂文 · 莱维茨基、卢坎· 韦 | 新式竞争性威权政体",
+   "青年沙龙 | 为了活出一个及格的人生：欧洲走线上的中国青年"
+  ]
  },
  {
   "host": "thediplomat.com",
-  "base": "https://thediplomat.com/",
-  "ref": "https://thediplomat.com/2024/06/fear-a-militarily-weak-china/",
   "name": "害怕军事上软弱的中国——外交官",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "国际局势"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://thediplomat.com/feed",
   "kind": "path",
   "status": "active",
+  "total": 80,
   "latest": null,
   "recent30": 0,
-  "china_hits": 28
+  "china_hits": 28,
+  "samples": [
+   "The Potential Mismatch Between Japan and the US on China",
+   "Will Taiwan Fight? We Need Better Evidence.",
+   "China Is Building a Global Infrastructure for Its Cultural Industries"
+  ]
  },
  {
   "host": "timesofchina.org",
-  "base": "https://timesofchina.org/",
-  "ref": "https://timesofchina.org/",
   "name": "Times of China - 最新中国与世界新闻",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "thewirechina.com",
-  "base": "https://thewirechina.com/",
-  "ref": "https://www.thewirechina.com/",
   "name": "The Wire China",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.thewirechina.com/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 50,
   "latest": null,
   "recent30": 0,
-  "china_hits": 50
+  "china_hits": 50,
+  "samples": [
+   "The Daily Roundup",
+   "The Daily Roundup",
+   "The Daily Roundup"
+  ]
  },
  {
   "host": "molihua.org",
-  "base": "https://molihua.org/",
-  "ref": "https://molihua.org/all/",
   "name": "新闻汇总 - 茉莉花新闻网",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://molihua.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "特习会前台湾成筹码 北京拿军售案施压交易",
+   "俄罗斯国会选举18日登场 普丁阵营几乎笃定胜选",
+   "特朗普将以最高礼遇接待习近平 包括亲自接机"
+  ]
  },
  {
   "host": "backchina.com",
-  "base": "https://backchina.com/",
-  "ref": "https://www.backchina.com/",
   "name": "倍可亲-海外华人中文门户",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "wenxuecity.com",
-  "base": "https://wenxuecity.com/",
-  "ref": "https://www.wenxuecity.com/",
   "name": "文学城 | 即时滚动新闻, 本地新闻, 热点论坛, 博客 wenxuecity.com",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "news.creaders.net",
-  "base": "https://news.creaders.net/",
-  "ref": "https://news.creaders.net/china/",
   "name": "中国瞭望主页-万维读者网（电脑版）",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ntdtv.com",
-  "base": "https://ntdtv.com/",
-  "ref": "https://www.ntdtv.com/gb/",
   "name": "新唐人电视台",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "bannedbook.org",
-  "base": "https://bannedbook.org/",
-  "ref": "https://www.bannedbook.org/bnews/cnnews/",
   "name": "中国新闻 - 禁闻网",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "chinaworker.info",
-  "base": "https://chinaworker.info/",
-  "ref": "https://chinaworker.info/zh-hans/",
   "name": "中国劳工论坛 China Worker",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://chinaworker.info/zh-hans/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 6
+  "china_hits": 6,
+  "samples": [
+   "西藏－尼泊尔泥石流：气候破坏、帝国主义与独裁统治所带来的惊人代价",
+   "伊朗战争 是一场环境浩劫",
+   "重庆虐狗案引发民众愤怒"
+  ]
  },
  {
   "host": "ftchinese.com",
-  "base": "https://ftchinese.com/",
-  "ref": "https://www.ftchinese.com/",
   "name": "FT中文网 － 全球财经精粹",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "66.ca",
-  "base": "https://66.ca/",
-  "ref": "https://www.66.ca/",
   "name": "多伦多 六六网 www.66.ca",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "boxun.com",
-  "base": "https://boxun.com/",
-  "ref": "https://boxun.com/",
   "name": "博讯新闻网 – 最大的公民记者中文新闻网",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华中文即时网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "lutounet.com",
-  "base": "https://lutounet.com/",
-  "ref": "http://www.lutounet.com/",
   "name": "路透中文网",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ihuawen.com",
-  "base": "https://ihuawen.com/",
-  "ref": "https://www.ihuawen.com/",
   "name": "今日华闻",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "huaxia.net.au",
-  "base": "https://huaxia.net.au/",
-  "ref": "http://www.huaxia.net.au/",
   "name": "华厦传媒-澳洲新闻|国际新闻|澳洲分类信息|华人社团|AM 1629",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ouhua.info",
-  "base": "https://ouhua.info/",
-  "ref": "http://www.ouhua.info/",
   "name": "欧华网 - 西班牙最大的华文新媒体",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "fm961.com",
-  "base": "https://fm961.com/",
-  "ref": "https://www.fm961.com/home_c.php?1704695830",
   "name": "加拿大中文电台AM1470 FM96.1",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://fm961.com/rss.xml",
   "kind": "path",
   "status": "watch",
+  "total": 8,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "阿博斯福警打擊店舖盜竊拘16人",
+   "BC省多名市政領袖促省府制定電動滑板車及電動單車一致法規",
+   "卑詩省府表示數以千計海外受訓的醫生和護士已加入卑詩省公營醫療系統"
+  ]
  },
  {
   "host": "dawanews.com",
-  "base": "https://dawanews.com/",
-  "ref": "http://www.dawanews.com/",
   "name": "大华网",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "bbc.com",
-  "base": "https://bbc.com/",
-  "ref": "https://www.bbc.com/zhongwen/simp",
   "name": "BBC News 中文",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "abc.net.au",
-  "base": "https://abc.net.au/",
-  "ref": "https://www.abc.net.au/news/chinese",
   "name": "ABC中文 - ABC News",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "www3.nhk.or.jp",
-  "base": "https://www3.nhk.or.jp/",
-  "ref": "https://www3.nhk.or.jp/nhkworld/zh/news/",
   "name": "新闻提要 | NHK WORLD-JAPAN News",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "外媒中文网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "voanews.com",
-  "base": "https://voanews.com/",
-  "ref": "https://www.voanews.com/a/regretting-coming-to-us-some-illegal-chinese-immigrants-return-home/7561083.html",
   "name": "一些中国非法移民后悔来到美国，回国",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "国际新闻"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.voanews.com/api/",
   "kind": "html_link",
   "status": "active",
+  "total": 20,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "VOA Kurdish: Senior ISIS leader killed in Iraqi intelligence operation",
+   "VOA Kurdish: Syria’s interim constitution raises fears of sectarian division",
+   "VOA Kurdish: Kurds in Iran celebrate Nowruz despite threats from Iranian Guards"
+  ]
  },
  {
   "host": "asiatimes.com",
-  "base": "https://asiatimes.com/",
-  "ref": "https://asiatimes.com/2024/04/politics-of-technology-between-china-and-the-west/",
   "name": "中国与西方的技术政治 - 亚洲时报",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "国际新闻"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://asiatimes.com/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 20,
   "latest": null,
   "recent30": 0,
-  "china_hits": 8
+  "china_hits": 8,
+  "samples": [
+   "‘China Shock 2.0’ fuels EU push for united response to Beijing",
+   "Should China really be teaching Indonesia how to negotiate?",
+   "China’s EVs, LLMs and the stopping power of the real world"
+  ]
  },
  {
   "host": "scmp.com",
-  "base": "https://scmp.com/",
-  "ref": "https://www.scmp.com/news/china/diplomacy/article/3258265/china-gravely-concerned-about-reports-japan-could-join-aukus-security-pact?campaign=3258265&module=perpetual_scroll_0&pgtype=article",
   "name": "China ‘gravely concerned’ about reports Japan ",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "国际新闻"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "foreignpolicy.com",
-  "base": "https://foreignpolicy.com/",
-  "ref": "https://foreignpolicy.com/2024/04/08/is-india-really-the-next-china/",
   "name": "印度经济能超过中国吗？",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "国际新闻"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://foreignpolicy.com/2024/04/08/is-india-really-the-next-china/feed/",
   "kind": "html_link",
   "status": "watch",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "aljazeera.com",
-  "base": "https://aljazeera.com/",
-  "ref": "https://www.aljazeera.com/features/longform/2024/4/7/philippines-beefs-up-defences-on-its-northernmost-edge-amid-china-tensions",
   "name": "菲律宾在中国紧张局势中加强其最北端的防御 |南海新闻 |半岛电视台",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "国际新闻"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
   "kind": "html_link",
   "status": "active",
+  "total": 25,
   "latest": null,
   "recent30": 0,
-  "china_hits": 5
+  "china_hits": 5,
+  "samples": [
+   "Russia, China veto UN mandate to monitor Iran sanctions",
+   "Can ‘middle powers’ come together to build a new economic alliance?",
+   "Why have China’s oil prices reached a record high?"
+  ]
  },
  {
   "host": "amnesty.org",
-  "base": "https://amnesty.org/",
-  "ref": "https://www.amnesty.org/en/latest/campaigns/2024/11/how-do-authorities-use-firewalls-and-other-tools-of-internet-control/",
   "name": "当局如何使用防火墙和其他互联网控制工具？- 国际特赦组织",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "反华网站免翻墙系列"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.amnesty.org/en/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 12,
   "latest": null,
   "recent30": 0,
-  "china_hits": 7
+  "china_hits": 7,
+  "samples": [
+   "Iran: Architects of crimes against humanity to suppress protests must face international justice to deter further massacres",
+   "Why is Amnesty International calling for international justice for crimes against humanity in Iran?",
+   "Türkiye: Authorities must end escalating crackdown on LGBTI rights groups and immediately release detained activists"
+  ]
  },
  {
   "host": "lianows.com",
-  "base": "https://lianows.com/",
-  "ref": "https://lianows.com/",
   "name": "料来了",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "即时"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "nnews.eu",
-  "base": "https://nnews.eu/",
-  "ref": "https://nnews.eu/",
   "name": "即时新闻评论 - 今日时事",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "即时"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "blog.creaders.net",
-  "base": "https://blog.creaders.net/",
-  "ref": "https://blog.creaders.net/u/32412/202404/487050.html",
   "name": "4.29中国社会发展目标与实施政策相互矛盾-中国社会经济-万维博客-万维读者网（电脑版）",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "国际局势"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "2newcenturynet.blogspot.com",
-  "base": "https://2newcenturynet.blogspot.com/",
-  "ref": "https://2newcenturynet.blogspot.com/2024/04/blog-post_945.html",
   "name": "新世纪 NewCenturyNet: 易富贤：中国内需不足、产能过剩的三大原因",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "国际局势"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://2newcenturynet.blogspot.com/feeds/posts/default",
   "kind": "html_link",
   "status": "active",
+  "total": 25,
   "latest": null,
   "recent30": 0,
-  "china_hits": 21
+  "china_hits": 21,
+  "samples": [
+   "刘军宁：长城还在，只是改成了信号",
+   "李承鹏：徐湖平安全落地了（附：论爱国及《南京博物院之官人我要》）",
+   "八九学生集体声明：支联会不在了，我们还在"
+  ]
  },
  {
   "host": "cn.nytimes.com",
-  "base": "https://cn.nytimes.com/",
-  "ref": "https://cn.nytimes.com/opinion/20240613/america-leadership-gaza-ukraine/?utm_source=RSS",
   "name": "美国已不是世界老大 - 纽约时报中文网",
   "cat": "media",
-  "cats": [
-   "media"
-  ],
-  "folders": [
-   "国际局势"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://cn.nytimes.com/rss/",
   "kind": "html_link",
   "status": "active",
+  "total": 20,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "Hyrox北京赛选手失禁完赛引发争议，官方道歉退款",
+   "中国不在乎人工智能安全，它只想赢",
+   "《黄色脸孔》作者匡灵秀在台北最喜欢的五个地方"
+  ]
  },
  {
   "host": "understandingwar.org",
-  "base": "https://understandingwar.org/",
-  "ref": "https://understandingwar.org/",
   "name": "战争研究所",
   "cat": "osint",
-  "cats": [
-   "osint",
-   "thinktank"
-  ],
-  "folders": [
-   "开源情报知识",
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "cecc.gov",
-  "base": "https://cecc.gov/",
-  "ref": "https://www.cecc.gov/",
   "name": "美国国会-行政当局中国委员会",
   "cat": "osint",
-  "cats": [
-   "osint",
-   "thinktank"
-  ],
-  "folders": [
-   "开源情报知识",
-   "长期关注"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://cecc.gov/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 9
+  "china_hits": 9,
+  "samples": [
+   "Hearing Announcement: Dark Nets, Illicit Labor—Confronting China’s IUU Fishing and Seafood Supply Chain",
+   "Chairs introduce the Jimmy Lai Hong Kong Political Prisoner Accountability act of 2026",
+   "Hearing Announcement｜The Faces of Repression: Prisoners, Families, and Communities Targeted by the CCP"
+  ]
  },
  {
   "host": "thecfhk.org",
-  "base": "https://thecfhk.org/",
-  "ref": "https://thecfhk.org/",
   "name": "香港自由委员会基金会",
   "cat": "osint",
-  "cats": [
-   "osint",
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网",
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "rfi.fr",
-  "base": "https://rfi.fr/",
-  "ref": "https://www.rfi.fr/cn/",
   "name": "民调：大多数台湾人认为中国在未来五年入侵可能性不大",
   "cat": "osint",
-  "cats": [
-   "osint",
-   "ngo"
-  ],
-  "folders": [
-   "其他组织",
-   "台湾民意调查"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "safeguarddefenders.com",
-  "base": "https://safeguarddefenders.com/",
-  "ref": "https://safeguarddefenders.com/en",
   "name": "保护卫士 |（每个月）",
   "cat": "osint",
-  "cats": [
-   "osint",
-   "rss"
-  ],
-  "folders": [
-   "定期提供",
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "selectcommitteeontheccp.house.gov",
-  "base": "https://selectcommitteeontheccp.house.gov/",
-  "ref": "https://selectcommitteeontheccp.house.gov/",
   "name": "中美战略竞争特设委员会",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "关键矿产小组",
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://selectcommitteeontheccp.house.gov/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "Select Committee on China and Congressional-Executive Commission on China Back DHS's Enforcement of UFLPA",
+   "Moolenaar to FDA: ﻿\"Chinese Clinical Data Poses Real Risks for Patients\"",
+   "Select Committee Investigation: Exposing CCP Influence at Harvard University"
+  ]
  },
  {
   "host": "shahit.biz",
-  "base": "https://shahit.biz/",
-  "ref": "https://shahit.biz/eng/#home",
   "name": "新疆受害者数据库",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "新疆受害者数据库"
-  ],
   "mode": "titles_only",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "darkreading.com",
-  "base": "https://darkreading.com/",
-  "ref": "https://www.darkreading.com/",
   "name": "Dark Reading | Security | Protect The Business",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "美国网络安全组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "eurasiagroup.net",
-  "base": "https://eurasiagroup.net/",
-  "ref": "https://www.eurasiagroup.net/",
   "name": "欧亚集团 |家，每年1到2次",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "美国网络安全组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "sentinelone.com",
-  "base": "https://sentinelone.com/",
-  "ref": "https://www.sentinelone.com/labs/",
   "name": "SentinelLabs - 我们是猎人、逆转者、漏洞利用开发人员和修补匠，揭示所有平台上的",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "美国网络安全组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.sentinelone.com/labs/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 6
+  "china_hits": 6,
+  "samples": [
+   "Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis?",
+   "One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement",
+   "macOS.Gaslight | Rust Backdoor Turns Prompt Injection on the Analyst, Not the Sandbox"
+  ]
  },
  {
   "host": "recordedfuture.com",
-  "base": "https://recordedfuture.com/",
-  "ref": "https://www.recordedfuture.com/",
   "name": "Recorded Future: Threat Intelligence Cloud",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "美国网络安全组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "intelligenceonline.com",
-  "base": "https://intelligenceonline.com/",
-  "ref": "https://www.intelligenceonline.com/",
   "name": "全球战略情报 - 情报在线",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "美国网络安全组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "osintteam.com",
-  "base": "https://osintteam.com/",
-  "ref": "https://osintteam.com/",
   "name": "OSINT TEAM - 开源情报博客",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "美国网络安全组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.osintteam.com/rss/",
   "kind": "html_link",
   "status": "active",
+  "total": 15,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "Unmask the Scam: OSINT Secrets to Catch Phishing Emails Like a Pro",
+   "Beyond the Hash: Investigating the People Behind Web3 Wallets.",
+   "The Practical OSINT Newsletter. Issue #2."
+  ]
  },
  {
   "host": "welivesecurity.com",
-  "base": "https://welivesecurity.com/",
-  "ref": "https://www.welivesecurity.com/en/",
   "name": "Award-winning news, views, and insight from th",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "美国网络安全组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://welivesecurity.com/feed",
   "kind": "path",
   "status": "active",
+  "total": 80,
   "latest": null,
   "recent30": 0,
-  "china_hits": 9
+  "china_hits": 9,
+  "samples": [
+   "Protecting legacy OT systems against modern cyberthreats",
+   "Foul play: Fake FIFA websites target soccer fans looking for World Cup tickets, merchandise",
+   "Fake call logs, real payments: How CallPhantom tricks Android users"
+  ]
  },
  {
   "host": "bleepingcomputer.com",
-  "base": "https://bleepingcomputer.com/",
-  "ref": "https://www.bleepingcomputer.com/",
   "name": "哔哔电脑 |网络安全、技术新闻和支持",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "美国网络安全组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.bleepingcomputer.com/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 15,
   "latest": null,
   "recent30": 0,
-  "china_hits": 5
+  "china_hits": 5,
+  "samples": [
+   "What Recent AI-Powered Attacks Mean for Your Identity Security",
+   "US takes down NightmareStresser DDoS-for-hire platform",
+   "Chinese hackers use SparroWocky malware in govt espionage attacks"
+  ]
  },
  {
   "host": "thehackernews.com",
-  "base": "https://thehackernews.com/",
-  "ref": "https://thehackernews.com/",
   "name": "黑客新闻 |#1 网络安全新闻的可信来源",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "美国网络安全组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://feeds.feedburner.com/TheHackersNews",
   "kind": "html_link",
   "status": "active",
+  "total": 50,
   "latest": null,
   "recent30": 0,
-  "china_hits": 15
+  "china_hits": 15,
+  "samples": [
+   "CISO's Expert Guide to Agentic Pentesting for Websites",
+   "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+   "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads"
+  ]
  },
  {
   "host": "osintonchina.com",
-  "base": "https://osintonchina.com/",
-  "ref": "https://osintonchina.com/",
   "name": "中国开源情报公司",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://osintonchina.com/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 4,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "OSINT: Legality and Ethics, And the Case of China",
+   "OSINT on China Series 1: China's Resident Identity Card and Number",
+   "OSINT on China Series 2: The Chinese COVID-19 Health Code System"
+  ]
  },
  {
   "host": "blog.tibcert.org",
-  "base": "https://blog.tibcert.org/",
-  "ref": "https://blog.tibcert.org/posts/cyber-espionage-against-tibetans-an-analysis-of-over-two-decades-of-publicly-available-data/?fbclid=IwY2xjawHFJiFleHRuA2FlbQIxMAABHTarnERMLpLswaIHOKrT-m32W8Plc-SVAglMZELFWrwLu7gTTEjF4-ISIA_aem_Yd6htccAvVwks57CYhocAQ",
   "name": "针对藏人的网络间谍活动：对二十多年公开数据的分析",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://blog.tibcert.org/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 3,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "The Rising Threat of AI Voice Scams: What Every Tibetan Needs to Know",
+   "Information Warfare and Its Impact on Tibetan Leadership and Social Cohesion",
+   "Cellular Network Attack"
+  ]
  },
  {
   "host": "bellingcat.com",
-  "base": "https://bellingcat.com/",
-  "ref": "https://www.bellingcat.com/",
   "name": "Bellingcat - 在线调查之家",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://bellingcat.com/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
+   "Shahed-Type Drones Filmed During Mali Village Attacks",
+   "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women"
+  ]
  },
  {
   "host": "gfw.report",
-  "base": "https://gfw.report/",
-  "ref": "https://gfw.report/zh/",
   "name": "Great Firewall Report - GFW Report",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://gfw.report/index.xml",
   "kind": "html_link",
   "status": "watch",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "sankei.com",
-  "base": "https://sankei.com/",
-  "ref": "https://www.sankei.com/",
   "name": "日本《产经新闻》",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "opentech.fund",
-  "base": "https://opentech.fund/",
-  "ref": "https://www.opentech.fund/",
   "name": "OTF |支持全球互联网自由",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.opentech.fund/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "Who Owns, Operates, and Develops Your VPN Matters: An analysis of transparency vs. anonymity in the VPN ecosystem, and implications for users",
+   "How China is Poaching Taiwan’s Semiconductor Industry to Power Its Digital Authoritarianism: A Supply Chain Analysis",
+   "A Silent, Silencing Industry: The Growing Market of Human-Powered Censorship in China"
+  ]
  },
  {
   "host": "smallwarsjournal.com",
-  "base": "https://smallwarsjournal.com/",
-  "ref": "https://smallwarsjournal.com/",
   "name": "亚利桑那州立大学的《小战争杂志》",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://smallwarsjournal.com/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "9/17/26 National Security and Korean News and Commentary",
+   "War By Other Means",
+   "9/16/26 National Security and Korean News and Commentary"
+  ]
  },
  {
   "host": "chinapower.csis.org",
-  "base": "https://chinapower.csis.org/",
-  "ref": "https://chinapower.csis.org/",
   "name": "ChinaPower 项目",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://chinapower.csis.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "Analyzing Trade Chokepoints in the South China Sea",
+   "Troubled Straits: Analyzing Trade Chokepoints in the South China Sea",
+   "How Deep Are China-Russia Military Ties?"
+  ]
  },
  {
   "host": "intelligence.house.gov",
-  "base": "https://intelligence.house.gov/",
-  "ref": "https://intelligence.house.gov/",
   "name": "众议院情报委员会",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://intelligence.house.gov/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "House Intelligence Chairman Crawford Hosts Open Roundtable Discussion on the Future of Artificial Intelligence",
+   "Honoring America’s Fallen: House Intelligence Chairman Crawford Marks 25th Anniversary of 9/11",
+   "Chairman Crawford Opens Full Committee Hearing Examining Persistent Competition & Legacy National Security Architecture"
+  ]
  },
  {
   "host": "twz.com",
-  "base": "https://twz.com/",
-  "ref": "https://www.twz.com/",
   "name": "战区",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.twz.com/feed",
   "kind": "html_link",
   "status": "active",
+  "total": 49,
   "latest": null,
   "recent30": 0,
-  "china_hits": 22
+  "china_hits": 22,
+  "samples": [
+   "USMC Used Its Expeditionary Operations Playbook In Combat For First Time During Epic Fury",
+   "F-16 Crashes In Michigan",
+   "Pentagon Cuts New AIM-260 Air-To-Air Missile Production Deal, Testing Accelerating"
+  ]
  },
  {
   "host": "feed.laborinfocn7.com",
-  "base": "https://feed.laborinfocn7.com/",
-  "ref": "https://feed.laborinfocn7.com/",
   "name": "工劳小报｜工劳快讯",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://feed.laborinfocn7.com/rss/",
   "kind": "html_link",
   "status": "active",
+  "total": 15,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "福建钢铁工人堵国道抗议裁员，多地夯实社保缴费基数｜工劳小报 #90 新闻刊",
+   "三地摊贩登车顶抗议城管暴力执法，聊城幼师被逼签“自愿离职”｜工劳小报 #87 新闻刊",
+   "达州数百医护集会讨薪，各地工厂集体维权事件频发｜工劳小报 #85 新闻刊"
+  ]
  },
  {
   "host": "fnvaworld.org",
-  "base": "https://fnvaworld.org/",
-  "ref": "https://fnvaworld.org/",
   "name": "非暴力替代基金会 （FNVA）",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://fnvaworld.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "Tibet Digest April 2026",
+   "More Than a Ceremony: Why India’s Historic Tenshung is a Geopolitical Signal",
+   "Tibet Digest March 2026"
+  ]
  },
  {
   "host": "cdpweb.org",
-  "base": "https://cdpweb.org/",
-  "ref": "https://www.cdpweb.org/",
   "name": "中国民主党",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "uschinadialogue.georgetown.edu",
-  "base": "https://uschinadialogue.georgetown.edu/",
-  "ref": "https://uschinadialogue.georgetown.edu/cn/",
   "name": "美中全球议题对话项目",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "csri.global",
-  "base": "https://csri.global/",
-  "ref": "https://www.csri.global/",
   "name": "英国 中国战略风险研究院",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "yingjiexinshiji.com",
-  "base": "https://yingjiexinshiji.com/",
-  "ref": "https://yingjiexinshiji.com/",
   "name": "迎接新世纪 – 传播真相 回归传统",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://yingjiexinshiji.com/?feed=rss2",
   "kind": "html_link",
   "status": "watch",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "书院《教育智慧系列》第一篇：一场焰火，看懂两千年的教育智慧（正体简体.English） Deutsch.Japanese.Tiếng Việt.한글.Español.視頻",
+   "书院《修仙故事系列》（三）黄粱一梦：四十年荣华，不过一锅未熟的小米饭（正体简体.English） Deutsch.Japanese.Tiếng Việt.한글.Español.視頻",
+   "书院《天赋觉醒系列》（一）灵感从哪里来？——从才华、元神到神级基因（正体简体.English） Deutsch.Japanese.Tiếng Việt.한글.Español.視頻"
+  ]
  },
  {
   "host": "citizenlab.ca",
-  "base": "https://citizenlab.ca/",
-  "ref": "https://citizenlab.ca/",
   "name": "多伦多大学，公民实验室",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://citizenlab.ca/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "U.K. Supreme Court Opens Door for Spyware Victims to Sue Foreign States",
+   "Immigration Policy: The Backdoor to Transnational Repression",
+   "How Iran Uses Cellular Infrastructure to Target US Military Phones"
+  ]
  },
  {
   "host": "endtransplantabuse.org",
-  "base": "https://endtransplantabuse.org/",
-  "ref": "https://endtransplantabuse.org/",
   "name": "终止中国器官移植滥用国际联盟",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "chinaaction.org",
-  "base": "https://chinaaction.org/",
-  "ref": "https://chinaaction.org/",
   "name": "中国行动",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "开源情报知识"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://chinaaction.org/feed",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 9
+  "china_hits": 9,
+  "samples": [
+   "推翻独裁者的行动手册：《革命蓝图》",
+   "2025年中国行动《致各界人士系列公开信》征文活动 在线颁奖仪式",
+   "国际人权日：中国驻纽约总领馆外墙再现大型政治投影"
+  ]
  },
  {
   "host": "tenchu.org",
-  "base": "https://tenchu.org/",
-  "ref": "https://tenchu.org/pocd/public/pocs/1362",
   "name": "中国大陆良心犯资料库",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "关键矿产小组"
-  ],
   "mode": "titles_only",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "utjd.org",
-  "base": "https://utjd.org/",
-  "ref": "https://www.utjd.org/",
   "name": "UTJD - Uyghur Transitional Justice Database",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "新疆受害者数据库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.utjd.org/news/feed/",
   "kind": "html_link",
   "status": "watch",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "sinchew.com.my",
-  "base": "https://sinchew.com.my/",
-  "ref": "https://www.sinchew.com.my/news/20241009/international/5982737",
   "name": "台国防安全研究院民调显示67.8%受访者愿为保卫台湾而战 - 国际 - 即时国际",
   "cat": "osint",
-  "cats": [
-   "osint"
-  ],
-  "folders": [
-   "台湾民意调查"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "indsr.org.tw",
-  "base": "https://indsr.org.tw/",
-  "ref": "https://indsr.org.tw/",
   "name": "（台湾）国防安全研究院-首页",
   "cat": "osint",
-  "cats": [
-   "osint",
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库",
-   "台湾民意调查"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "secretchina.com",
-  "base": "https://secretchina.com/",
-  "ref": "https://www.secretchina.com/news/gb/2024/10/10/1070973.html",
   "name": "赖总统国庆演说：中共无权代表台湾【致词全文】(组图) 中華民國 | 时政聚焦 || 看中国网",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 7,
   "feed_url": "https://www.secretchina.com/news/gb/news.xml",
   "kind": "html_link",
   "status": "active",
+  "total": 40,
   "latest": "2026-09-18",
   "recent30": 40,
-  "china_hits": 22
+  "china_hits": 22,
+  "samples": [
+   "办喜事最忌讳的“三不碰” 千万别犯！(图)",
+   "盛雪：美中就黎智英案较量白热化 美应主动施压(图)",
+   "习耳机失灵？俄媒公布金砖峰会画面 网友直呼可惜(图)"
+  ]
  },
  {
   "host": "asiasociety.org",
-  "base": "https://asiasociety.org/",
-  "ref": "https://asiasociety.org/",
   "name": "亚洲协会",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库",
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 3,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "csis.org",
-  "base": "https://csis.org/",
-  "ref": "https://www.csis.org/",
   "name": "安情局 |战略与国际研究中心",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库",
-   "智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://csis.org/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "Statesmen's Forum: Wang Yi, Minister of Foreign Affairs, PRC",
+   "China Reality Check: China's \"Internet Sovereignty\" Initiative: Origins and Consequences",
+   "Defense Outlook: A CSIS Series on Strategy, Budget, Forces, and Acquisition"
+  ]
  },
  {
   "host": "smhric.org",
-  "base": "https://smhric.org/",
-  "ref": "https://www.smhric.org/",
   "name": "南蒙古人权信息中心",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "reaganfoundation.org",
-  "base": "https://reaganfoundation.org/",
-  "ref": "https://www.reaganfoundation.org/",
   "name": "罗纳德·里根研究所",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "分析评论库",
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "features.csis.org",
-  "base": "https://features.csis.org/",
-  "ref": "https://features.csis.org/US-bird-flu-response/",
   "name": "对下一届政府的全球发展建议",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "长期关注"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "chinaglobalsouth.com",
-  "base": "https://chinaglobalsouth.com/",
-  "ref": "https://chinaglobalsouth.com/",
   "name": "中国-全球南方项目 – CGSP",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "cato.org",
-  "base": "https://cato.org/",
-  "ref": "https://www.cato.org/",
   "name": "卡托研究所 |个人自由、自由市场与和平",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://cato.org/feed",
   "kind": "path",
   "status": "active",
+  "total": 25,
   "latest": null,
   "recent30": 0,
-  "china_hits": 5
+  "china_hits": 5,
+  "samples": [
+   "Benoir v. Town of Parksley Brief: Governments Cannot Use Pretextual Reasons to Silence Critics",
+   "How Socialism Destroyed Venezuela in 16 Charts",
+   "Reconciliation 3.0 Must Be a Vehicle for Deficit Reduction, Not Partisan Appropriations"
+  ]
  },
  {
   "host": "fraserinstitute.org",
-  "base": "https://fraserinstitute.org/",
-  "ref": "https://www.fraserinstitute.org/",
   "name": "弗雷泽研究所 |弗雷泽研究所",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "gallup.com",
-  "base": "https://gallup.com/",
-  "ref": "https://www.gallup.com/home.aspx",
   "name": "盖洛普 - 工作场所咨询与全球研究",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.gallup.com/sitemaps/content.xml",
   "kind": "html_link",
   "status": "watch",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "merics.org",
-  "base": "https://merics.org/",
-  "ref": "https://merics.org/en",
   "name": "墨卡托中国研究所 （MERICS）",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://merics.org/rss",
   "kind": "path",
   "status": "active",
+  "total": 20,
   "latest": null,
   "recent30": 0,
-  "china_hits": 18
+  "china_hits": 18,
+  "samples": [
+   "Kimi-3 is not another DeepSeek moment",
+   "With renewables boost, China is building global green tech leadership",
+   "Provinces race to commercialize quantum technology research"
+  ]
  },
  {
   "host": "breakingdefense.com",
-  "base": "https://breakingdefense.com/",
-  "ref": "https://breakingdefense.com/",
   "name": "Breaking Defense - 国防行业新闻、分析和评论",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://breakingdefense.com/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 15,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "What the Pentagon is testing along the US-Mexico border",
+   "Space Force’s GMTI program gets a name, with Northrop as prime: General",
+   "Rocket engines, helmet displays and ground robots: Last looks from AFA Day 3"
+  ]
  },
  {
   "host": "geostrategy.org.uk",
-  "base": "https://geostrategy.org.uk/",
-  "ref": "https://www.geostrategy.org.uk/",
   "name": "英国地缘战略委员会",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://geostrategy.org.uk/feed",
   "kind": "path",
   "status": "watch",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "globaltaiwan.org",
-  "base": "https://globaltaiwan.org/",
-  "ref": "https://globaltaiwan.org/",
   "name": "华盛顿全球台湾研究中心",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://globaltaiwan.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "Taiwan’s Evolution from Dollar Diplomacy to Tech Diplomacy",
+   "Boys’ Love and Soft Power: How Danmei Crackdowns in China Creates an Opportunity for Taiwan",
+   "Taiwan Must Shift Course in its Domestic Drone Warfare Production Strategy"
+  ]
  },
  {
   "host": "cnas.org",
-  "base": "https://cnas.org/",
-  "ref": "https://www.cnas.org/",
   "name": "新美国安全中心 （zh-CN）",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "jamestown.org",
-  "base": "https://jamestown.org/",
-  "ref": "https://jamestown.org/",
   "name": "詹姆斯敦基金会",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://jamestown.org/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "Ukraine’s Drone Campaign Reaches the Russian Arctic",
+   "‘Development Interests’ Expand Mobilization State",
+   "Tibet Response Tests Joint Command, Military–Civil Fusion"
+  ]
  },
  {
   "host": "fpri.org",
-  "base": "https://fpri.org/",
-  "ref": "https://www.fpri.org/",
   "name": "外交政策研究所 - 国际政策智库",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "cepa.org",
-  "base": "https://cepa.org/",
-  "ref": "https://cepa.org/",
   "name": "欧洲政策分析中心 （CEPA） - CEPA",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "sipri.org",
-  "base": "https://sipri.org/",
-  "ref": "https://www.sipri.org/",
   "name": "斯德哥尔摩国际和平研究所",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "globalaffairs.org",
-  "base": "https://globalaffairs.org/",
-  "ref": "https://globalaffairs.org/",
   "name": "芝加哥全球事务委员会 |芝加哥全球事务委员会",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "常用智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://globalaffairs.org/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 2
+  "china_hits": 2,
+  "samples": [
+   "Will China Fill the UN Leadership Gap?",
+   "The Paradox of President Trump's Peace Project"
+  ]
  },
  {
   "host": "hinrichfoundation.com",
-  "base": "https://hinrichfoundation.com/",
-  "ref": "https://www.hinrichfoundation.com/",
   "name": "Hinrich基金会 |促进可持续的全球贸易",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "thinktankwatch.com",
-  "base": "https://thinktankwatch.com/",
-  "ref": "http://www.thinktankwatch.com/",
   "name": "智库观察",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ember-climate.org",
-  "base": "https://ember-climate.org/",
-  "ref": "https://ember-climate.org/zh-hans/",
   "name": "电力政策智库",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "crsreports.congress.gov",
-  "base": "https://crsreports.congress.gov/",
-  "ref": "https://crsreports.congress.gov/",
   "name": "CRS报告",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "inss.ndu.edu",
-  "base": "https://inss.ndu.edu/",
-  "ref": "https://inss.ndu.edu/",
   "name": "国家战略研究所 （INSS）（英国）",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ukctransparency.org",
-  "base": "https://ukctransparency.org/",
-  "ref": "https://ukctransparency.org/",
   "name": "英中透视",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "dfrlab.org",
-  "base": "https://dfrlab.org/",
-  "ref": "https://dfrlab.org/",
   "name": "DFRLab - DFRLab（大西洋理事会对华研究）",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://dfrlab.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "From Chisinau to Yerevan: How Russia’s Evrazia brought its Moldova playbook to Armenia"
+  ]
  },
  {
   "host": "etnc.info",
-  "base": "https://etnc.info/",
-  "ref": "https://etnc.info/",
   "name": "European Think-tank Network on China",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "weforum.org",
-  "base": "https://weforum.org/",
-  "ref": "https://www.weforum.org/",
   "name": "世界经济论坛",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "crisisgroup.org",
-  "base": "https://crisisgroup.org/",
-  "ref": "https://www.crisisgroup.org/#:~:text=Crisis%20Group%20is%20an%20independent,",
   "name": "世界危机小组",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "foreignaffairs.com",
-  "base": "https://foreignaffairs.com/",
-  "ref": "https://www.foreignaffairs.com/",
   "name": "《外交事务》杂志",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.foreignaffairs.com/rss.xml",
   "kind": "html_link",
   "status": "active",
+  "total": 20,
   "latest": null,
   "recent30": 0,
-  "china_hits": 6
+  "china_hits": 6,
+  "samples": [
+   "China’s Purges Are Working as Designed",
+   "Trump and Xi Can’t Stop the U.S.-China Spiral",
+   "The New Chinese Way of Cyberwar"
+  ]
  },
  {
   "host": "ecfr.eu",
-  "base": "https://ecfr.eu/",
-  "ref": "https://ecfr.eu/",
   "name": "欧洲对外关系智库",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://ecfr.eu/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 25,
   "latest": null,
   "recent30": 0,
-  "china_hits": 9
+  "china_hits": 9,
+  "samples": [
+   "Indian summer: The BRICS summit and warming New Delhi-Beijing relations",
+   "Remembering Emma Bonino",
+   "Booted, then suited: Veterans and the making of Putin’s new proto-elite"
+  ]
  },
  {
   "host": "ui4freedom.org",
-  "base": "https://ui4freedom.org/",
-  "ref": "https://ui4freedom.org/UIF_help/",
   "name": "UIforFreedom - 官方文档 | UIF",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "其他智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://ui4freedom.org/UIF_help/blog/rss.xml",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "网络泄露指北",
+   "内网穿透",
+   "跨境电商是否需要指纹浏览器"
+  ]
  },
  {
   "host": "fdd.org",
-  "base": "https://fdd.org/",
-  "ref": "https://www.fdd.org/",
   "name": "FDD |保卫民主基金会",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://fdd.org/?feed=rss2",
   "kind": "path",
   "status": "active",
+  "total": 50,
   "latest": null,
   "recent30": 0,
-  "china_hits": 5
+  "china_hits": 5,
+  "samples": [
+   "French, Lebanese, Jordanian leaders discuss future of Lebanon at Paris summit",
+   "China’s President set to visit White House next week",
+   "Presidential Office to hold forum on Taiwan’s whole-of-society resilience"
+  ]
  },
  {
   "host": "brookings.edu",
-  "base": "https://brookings.edu/",
-  "ref": "https://www.brookings.edu/",
   "name": "布鲁金斯 - 质量。独立。冲击。",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "carnegieendowment.org",
-  "base": "https://carnegieendowment.org/",
-  "ref": "https://carnegieendowment.org/",
   "name": "卡内基国际和平研究院",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "heritage.org",
-  "base": "https://heritage.org/",
-  "ref": "https://www.heritage.org/",
   "name": "传统基金会",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "aei.org",
-  "base": "https://aei.org/",
-  "ref": "https://www.aei.org/",
   "name": "美国企业研究所 - AEI |美国企业研究所（AEI）是一个无党派的公共政策研究机构，拥有致",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "hudson.org",
-  "base": "https://hudson.org/",
-  "ref": "https://www.hudson.org/",
   "name": "哈德森",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://hudson.org/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 2
+  "china_hits": 2,
+  "samples": [
+   "America’s Secret Weapon in the Nuclear Race",
+   "China’s Net Zero Advantage"
+  ]
  },
  {
   "host": "americanprogress.org",
-  "base": "https://americanprogress.org/",
-  "ref": "https://www.americanprogress.org/",
   "name": "美国进步中心",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "piie.com",
-  "base": "https://piie.com/",
-  "ref": "https://www.piie.com/",
   "name": "彼得森国际经济研究所",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "rsis.edu.sg",
-  "base": "https://rsis.edu.sg/",
-  "ref": "https://www.rsis.edu.sg/",
   "name": "拉惹勒南国际研究学院",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://rsis.edu.sg/?feed=rss2",
   "kind": "path",
   "status": "watch",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "bigdatachina.csis.org",
-  "base": "https://bigdatachina.csis.org/",
-  "ref": "https://bigdatachina.csis.org/",
   "name": "大数据中国",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://bigdatachina.csis.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "Wins and Losses: Chinese Industrial Policy’s Uneven Success",
+   "Is It Me or the Economic System? Changing Evaluations of Inequality in China",
+   "China’s Post-Reform Trajectory: An Interview with Yasheng Huang"
+  ]
  },
  {
   "host": "itif.org",
-  "base": "https://itif.org/",
-  "ref": "https://itif.org/",
   "name": "科技政策智库信息技术与创新基金会（ITIF）",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://itif.org/feed/rss.xml",
   "kind": "html_link",
   "status": "active",
+  "total": 50,
   "latest": null,
   "recent30": 0,
-  "china_hits": 12
+  "china_hits": 12,
+  "samples": [
+   "Coalitions and Working Groups",
+   "National Economic Power Industry War Conference",
+   "China’s Biopharma Rise: How America Should Respond"
+  ]
  },
  {
   "host": "theoutlawocean.com",
-  "base": "https://theoutlawocean.com/",
-  "ref": "https://www.theoutlawocean.com/investigations/china-the-superpower-of-seafood/",
   "name": "中国：海鲜的超级大国 |Outlaw 海洋项目",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "jp.sentinelone.com",
-  "base": "https://jp.sentinelone.com/",
-  "ref": "https://jp.sentinelone.com/labs/",
   "name": "Labs アーカイブ | SentinelOne JP",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "美国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.sentinelone.com/labs/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 6
+  "china_hits": 6,
+  "samples": [
+   "Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis?",
+   "One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement",
+   "macOS.Gaslight | Rust Backdoor Turns Prompt Injection on the Analyst, Not the Sandbox"
+  ]
  },
  {
   "host": "amro-asia.org",
-  "base": "https://amro-asia.org/",
-  "ref": "https://amro-asia.org/",
   "name": "东盟+3宏观经济研究办公室",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "中国十大智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://amro-asia.org/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "Asia’s Natural Disasters Must Not Become Financial Crises"
+  ]
  },
  {
   "host": "jiia.or.jp",
-  "base": "https://jiia.or.jp/",
-  "ref": "https://www.jiia.or.jp/en/",
   "name": "日本国际事务研究所",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "世界智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "sejong.org",
-  "base": "https://sejong.org/",
-  "ref": "https://www.sejong.org/web/eng/main/index.php",
   "name": "The Sejong Institute",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "世界智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "imi.org.ua",
-  "base": "https://imi.org.ua/",
-  "ref": "https://imi.org.ua/en/",
   "name": "大众信息研究所（乌克兰）",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "世界智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://imi.org.ua/en/feed",
   "kind": "html_link",
   "status": "watch",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ifw-kiel.de",
-  "base": "https://ifw-kiel.de/",
-  "ref": "https://www.ifw-kiel.de/",
   "name": "基尔研究所 - 理解和塑造全球化 |基尔研究所",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "世界智库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "theatlantic.com",
-  "base": "https://theatlantic.com/",
-  "ref": "https://www.theatlantic.com/",
   "name": "大西洋周刊",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "研究中心"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.theatlantic.com/feed/all/",
   "kind": "html_link",
   "status": "active",
+  "total": 25,
   "latest": null,
   "recent30": 0,
-  "china_hits": 9
+  "china_hits": 9,
+  "samples": [
+   "RFK Jr.’s Bold Reassurance to Anti-Vaxxers",
+   "Why Democrats Might Choose to Impeach Cabinet Members",
+   "Pay No Attention to the Russian Oligarch at My Wedding Weekend"
+  ]
  },
  {
   "host": "ipsos.com",
-  "base": "https://ipsos.com/",
-  "ref": "https://www.ipsos.com/zh-cn",
   "name": "Ipsos | 全球领先的用户洞察与策略咨询公司",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "研究中心"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "eastasiaforum.org",
-  "base": "https://eastasiaforum.org/",
-  "ref": "https://eastasiaforum.org/",
   "name": "东亚论坛",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "研究中心"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "deutschland.de",
-  "base": "https://deutschland.de/",
-  "ref": "https://www.deutschland.de/zh-hans/topic/zhishi/bailindezhikuwaijiaozhengcehejingjidezhuanjiayijian",
   "name": "柏林的智库：外交政策和经济的专家意见。",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "智库研究文章"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://deutschland.de/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "Demonstrations against the far right – tens of thousands take to the streets"
+  ]
  },
  {
   "host": "conflictarm.com",
-  "base": "https://conflictarm.com/",
-  "ref": "https://www.conflictarm.com/",
   "name": "冲突军备研究",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "分析评论库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ejfoundation.org",
-  "base": "https://ejfoundation.org/",
-  "ref": "https://ejfoundation.org/",
   "name": "环境正义基金会 |主页",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "分析评论库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "gids-hamburg.de",
-  "base": "https://gids-hamburg.de/",
-  "ref": "https://gids-hamburg.de/",
   "name": "GIDS – 德国国防与战略研究所 （GIDS） - 汉堡",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "分析评论库"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://gids-hamburg.de/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "Newsletter Juli 2026"
+  ]
  },
  {
   "host": "pori.hk",
-  "base": "https://pori.hk/",
-  "ref": "https://www.pori.hk/",
   "name": "HKPORI - 香港民意研究所",
   "cat": "thinktank",
-  "cats": [
-   "thinktank"
-  ],
-  "folders": [
-   "研究中心"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "dasheng.media",
-  "base": "https://dasheng.media/",
-  "ref": "https://www.dasheng.media/",
   "name": "大声 - 大聲 - Dasheng 自由体面美的华语精神文化生活",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ipac.global",
-  "base": "https://ipac.global/",
-  "ref": "https://ipac.global/",
   "name": "对华政策跨国议会联盟",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "hkdc.us",
-  "base": "https://hkdc.us/",
-  "ref": "https://www.hkdc.us/",
   "name": "香港民主委员会",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网",
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://www.hkdc.us/blog-feed.xml",
   "kind": "html_link",
   "status": "watch",
+  "total": 1,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "TEST 1"
+  ]
  },
  {
   "host": "usali.org",
-  "base": "https://usali.org/",
-  "ref": "https://usali.org/",
   "name": "美亚法律研究所",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "seajunction.org",
-  "base": "https://seajunction.org/",
-  "ref": "https://seajunction.org/",
   "name": "电子图书馆 - SEA Junction",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "其他组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://seajunction.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "Thailand’s Migrant Workers Sustain the Economy While Living in Precarity (Prachathai)"
+  ]
  },
  {
   "host": "news.usni.org",
-  "base": "https://news.usni.org/",
-  "ref": "https://news.usni.org/author/us-naval-institute-staff",
   "name": "美国海军学院工作人员（大量国会报告每周2-3次）",
   "cat": "ngo",
-  "cats": [
-   "ngo",
-   "rss"
-  ],
-  "folders": [
-   "其他组织",
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "opensocietyfoundations.org",
-  "base": "https://opensocietyfoundations.org/",
-  "ref": "https://www.opensocietyfoundations.org/",
   "name": "开放社会基金会",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "atc.org.au",
-  "base": "https://atc.org.au/",
-  "ref": "https://www.atc.org.au/",
   "name": "澳大利亚西藏委员会",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 2,
   "feed_url": "https://www.atc.org.au/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 9
+  "china_hits": 9,
+  "samples": [
+   "Action: Email Prime Minister Albanese and Foreign Minister Wong – Raise Tibet at the UN",
+   "2026 AGM Agenda",
+   "Australia Tibet Council Statement on Tibet-Nepal floods"
+  ]
  },
  {
   "host": "youthforhumanrights.org",
-  "base": "https://youthforhumanrights.org/",
-  "ref": "https://www.youthforhumanrights.org/",
   "name": "国际青少年人权协会",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "new.hrichina.org",
-  "base": "https://new.hrichina.org/",
-  "ref": "https://new.hrichina.org/",
   "name": "中国人权官网",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "worldjusticeproject.org",
-  "base": "https://worldjusticeproject.org/",
-  "ref": "https://worldjusticeproject.org/",
   "name": "世界正义工程（法治指数）",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://worldjusticeproject.org/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 2
+  "china_hits": 2,
+  "samples": [
+   "Murtaza Jaffer",
+   "Voices of Youth"
+  ]
  },
  {
   "host": "news.china.com.au",
-  "base": "https://news.china.com.au/",
-  "ref": "https://news.china.com.au/",
   "name": "澳洲唐人街 – Australia ChinaTown News 中文华人新闻 – NEWS",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://news.china.com.au/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 2
+  "china_hits": 2,
+  "samples": [
+   "斯蒂芬·阿克赫斯特设计的布莱顿项目登陆市场",
+   "威尔逊角地峡的封塞湾步道在五年后重新开放"
+  ]
  },
  {
   "host": "fdc64.org",
-  "base": "https://fdc64.org/",
-  "ref": "https://fdc64.org/index.php/about-fdc/introduction-of-fdc",
   "name": "民主中國陣線（民陣）Federation for a Democratic China (F",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "libertysculpturepark.com",
-  "base": "https://libertysculpturepark.com/",
-  "ref": "https://www.libertysculpturepark.com/",
   "name": "自由雕塑公园官方网站 | Liberty Sculpture Park| |美国加州",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "indexoncensorship.org",
-  "base": "https://indexoncensorship.org/",
-  "ref": "https://www.indexoncensorship.org/",
   "name": "总部设于伦敦的国际知名言论自由机构“查禁目录”",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.indexoncensorship.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 7
+  "china_hits": 7,
+  "samples": [
+   "China’s National Security Law censors appear to target vital Hong Kong website",
+   "Weaponising copyright: free speech’s new battleground",
+   "Statement: Tackling Transnational Repression"
+  ]
  },
  {
   "host": "hausderdemokratie.de",
-  "base": "https://hausderdemokratie.de/",
-  "ref": "https://www.hausderdemokratie.de/Veranstaltung?event_id=527&event_link=Veranstaltungen&show_event=",
   "name": "HdDM 德国民主之家",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "chinadeviants.org",
-  "base": "https://chinadeviants.org/",
-  "ref": "https://chinadeviants.org/",
   "name": "中国反贼",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "tadc.ca",
-  "base": "https://tadc.ca/",
-  "ref": "https://www.tadc.ca/",
   "name": "多倫多支持中國民運會",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.tadc.ca/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "加拿大國際廣播電臺",
+   "Statement on Sentencing to Chow, Lee and Ho 就鄒幸彤、李卓人及何俊仁判刑的聲明",
+   "No China National Day 2026 國㷫曰向中共說不"
+  ]
  },
  {
   "host": "doublethinklab.org",
-  "base": "https://doublethinklab.org/",
-  "ref": "https://doublethinklab.org/",
   "name": "Doublethink实验室",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "factchecklab.org",
-  "base": "https://factchecklab.org/",
-  "ref": "https://www.factchecklab.org/",
   "name": "Factcheck Lab 事实查核实验室",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.factchecklab.org/rss/",
   "kind": "html_link",
   "status": "watch",
+  "total": 15,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "氣候、健康與科學新聞報導入門新手包",
+   "查核手記：Google進階搜尋術",
+   "網傳影片並非尼泊爾泥石流冰川崩塌源頭，實於阿拉斯加拍攝"
+  ]
  },
  {
   "host": "sfquantum.github.io",
-  "base": "https://sfquantum.github.io/",
-  "ref": "https://sfquantum.github.io/nfsc/",
   "name": "新中国联邦",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://sfquantum.github.io/index.xml",
   "kind": "path",
   "status": "active",
+  "total": 80,
   "latest": null,
   "recent30": 0,
-  "china_hits": 40
+  "china_hits": 40,
+  "samples": [
+   "郭文贵2022年11月30日直播",
+   "郭文贵2022年11月28日盖特",
+   "郭文贵2022年11月27日盖特"
+  ]
  },
  {
   "host": "zhuichaguoji.org",
-  "base": "https://zhuichaguoji.org/",
-  "ref": "https://www.zhuichaguoji.org/",
   "name": "追查迫害法轮功国际组织",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "rsf.org",
-  "base": "https://rsf.org/",
-  "ref": "https://rsf.org/en",
   "name": "无国界记者网",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "counterhate.com",
-  "base": "https://counterhate.com/",
-  "ref": "https://counterhate.com/",
   "name": "打击数字仇恨中心 |CCDH 系列",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "samadamsaward.ch",
-  "base": "https://samadamsaward.ch/",
-  "ref": "https://samadamsaward.ch/",
   "name": "山姆·亚当斯情报诚信协会",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "其他组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://samadamsaward.ch/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "WATCH: Anthony Aguilar Receives Sam Adams Award",
+   "Holocaust, Immolation, Sacrifice and “An Extreme Act of Protest”",
+   "US Soldier Who Burned Himself to Death Over Gaza Wins Sam Adams Associates Award for Integrity in Intelligence"
+  ]
  },
  {
   "host": "americanswhotellthetruth.org",
-  "base": "https://americanswhotellthetruth.org/",
-  "ref": "https://americanswhotellthetruth.org/portraits/sibel-edmonds/",
   "name": "Sibel Edmonds - 说实话的美国人",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "其他组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://americanswhotellthetruth.org/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 2
+  "china_hits": 2,
+  "samples": [
+   "Inspired by AWTT Visit, Students Write and Perform Peace Song",
+   "Susan Collins’ Baby"
+  ]
  },
  {
   "host": "aiddata.org",
-  "base": "https://aiddata.org/",
-  "ref": "https://www.aiddata.org/",
   "name": "AidData — 威廉玛丽学院的研究实验室",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "其他组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://aiddata.org/rss",
   "kind": "path",
   "status": "active",
+  "total": 80,
   "latest": null,
   "recent30": 0,
-  "china_hits": 37
+  "china_hits": 37,
+  "samples": [
+   "Decision making with ambiguous data: AidData research informs simulation to train rising leaders",
+   "Simulating U.S. grand strategy to train current and future policy leaders",
+   "Kenya’s switch to Chinese RMB denominated-debt was a restructuring in disguise"
+  ]
  },
  {
   "host": "icij.org",
-  "base": "https://icij.org/",
-  "ref": "https://www.icij.org/",
   "name": "国际调查记者联盟 - ICIJ",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "其他组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://icij.org/feed",
   "kind": "path",
   "status": "active",
+  "total": 11,
   "latest": null,
   "recent30": 0,
-  "china_hits": 8
+  "china_hits": 8,
+  "samples": [
+   "UK Parliament debates infrastructure security after China Capital revelations",
+   "Chinese banking giant serves firms linked to oligarchs and autocrats to push Beijing’s agenda",
+   "Chinese bank helped Huawei spirit $1B out of London days after US indictment of the tech giant"
+  ]
  },
  {
   "host": "twreporter.org",
-  "base": "https://twreporter.org/",
-  "ref": "https://www.twreporter.org/?gclid=Cj0KCQiAraSPBhDuARIsAM3Js4omU95lVCIlO8VFIIPSu0ycraaAM_pR3rZiQ91BhzykUIBnAqfsVm8aAkm2EALw_wcB",
   "name": "報導者 The Reporter",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "其他组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.twreporter.org/a/rss2.xml",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "誰住北鹽埕？城中城大火5年後，走進「鹽埕府北」的多元依存地景"
+  ]
  },
  {
   "host": "westca.com",
-  "base": "https://westca.com/",
-  "ref": "https://www.westca.com/",
   "name": "加西网 - 温哥华新闻,温哥华地产,温哥华教育,温哥华汽车,温哥华留学 - 温哥华中文门户网",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "其他组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ndi.org",
-  "base": "https://ndi.org/",
-  "ref": "https://www.ndi.org/",
   "name": "国家民主研究所 |（美国在全球范围内推进政权更迭行动）",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://ndi.org/rss.xml",
   "kind": "path",
   "status": "watch",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "The Day After: Anticorruption Movements in Government in Hungary and Nepal",
+   "ANFREL-NDI Mission Congratulates BARMM Voters in Historic Election, Calls for Continued Support for Transparent and Peaceful Democratic Processes",
+   "Scam State Architecture -- Disruption, Adaptation, and the Enduring Threat of Cambodia's State-crime Nexus"
+  ]
  },
  {
   "host": "iri.org",
-  "base": "https://iri.org/",
-  "ref": "https://www.iri.org/",
   "name": "美国国际共和研究所 IRI",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.iri.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "IRI Survey Finds Serbians Deeply Polarized Over Domestic Issues, Supportive of Strong Ties with the West"
+  ]
  },
  {
   "host": "cipe.org",
-  "base": "https://cipe.org/",
-  "ref": "https://www.cipe.org/",
   "name": "我们是 CIPE - 国际私营企业中心",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.cipe.org/feed/",
   "kind": "html_link",
   "status": "watch",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "Peru’s Chancay Megaport: Good Governance Can Save the Day",
+   "Constructive Capital Week: Promoting Transparent Investment in Latin America",
+   "CIPE Launches Latin America’s First Private Sector-Led Roadmap for AI Governance"
+  ]
  },
  {
   "host": "solidaritycenter.org",
-  "base": "https://solidaritycenter.org/",
-  "ref": "https://www.solidaritycenter.org/",
   "name": "团结中心 - 在全球范围内促进工人权利",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "globalhand.org",
-  "base": "https://globalhand.org/",
-  "ref": "https://www.globalhand.org/en/organisations/24349",
   "name": "美国国际劳工团结中心 （Solidarity Center） |企业非政府组织合作伙伴关系",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "hongkongfp.com",
-  "base": "https://hongkongfp.com/",
-  "ref": "https://hongkongfp.com/china-news/",
   "name": "中国新闻 |香港自由新闻",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://hongkongfp.com/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 30,
   "latest": null,
   "recent30": 0,
-  "china_hits": 29
+  "china_hits": 29,
+  "samples": [
+   "Hong Kong to face 130k manpower shortage in 2028 – 50k less than previously projected",
+   "‘No doubt’ of climate change role in deadly China-Nepal flood: scientists",
+   "Man jailed 4 weeks for grabbing passerby by the neck and attempting to kiss her"
+  ]
  },
  {
   "host": "chinadem.org",
-  "base": "https://chinadem.org/",
-  "ref": "https://chinadem.org/",
   "name": "中国民主基金",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "aspi.org.au",
-  "base": "https://aspi.org.au/",
-  "ref": "https://www.aspi.org.au/",
   "name": "澳大利亚战略政策研究所 |ASPI",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.aspi.org.au/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 7
+  "china_hits": 7,
+  "samples": [
+   "Warning signals: Venezuela and the risk of Chinese AI-enabled digital authoritarianism",
+   "ANZUS at 75: Strengthening deterrence through Defence Guidelines",
+   "Intervention opportunity framework: preserving strategic choice in an era of accelerating competition"
+  ]
  },
  {
   "host": "chinatechthreat.com",
-  "base": "https://chinatechthreat.com/",
-  "ref": "https://chinatechthreat.com/",
   "name": "中国科技威胁",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "govtribe.com",
-  "base": "https://govtribe.com/",
-  "ref": "https://govtribe.com/vendors/horizon-advisory-partners-llc-8gme2",
   "name": "地平线有限责任公司",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "cira.exovera.com",
-  "base": "https://cira.exovera.com/",
-  "ref": "https://cira.exovera.com/",
   "name": "CIRA：情报研究与分析中心",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://cira.exovera.com/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 7
+  "china_hits": 7,
+  "samples": [
+   "What the PLA Air Force Says About Itself",
+   "The Last Minarets of Yunnan",
+   "Current Overview of the PLA Air Force’s Organizational Structure"
+  ]
  },
  {
   "host": "dpcla.org",
-  "base": "https://dpcla.org/",
-  "ref": "https://dpcla.org/",
   "name": "中国民主党洛杉矶委员会",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://dpcla.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "60岁强制动员：十四亿人凭什么为独裁者的战车买单？",
+   "拥抱时代潮流，彻底告别政治恐怖",
+   "从两部法律看中共法律的本质：统治与奴役人民的工具"
+  ]
  },
  {
   "host": "jinian64.org",
-  "base": "https://jinian64.org/",
-  "ref": "https://jinian64.org/",
   "name": "六 四 纪 念馆 – 6 月 4 日大屠杀纪念协会",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://jinian64.org/?feed=rss2",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 5
+  "china_hits": 5,
+  "samples": [
+   "关于美国国会中国事务主席联名致函司法部的声明",
+   "国会领袖致函司法部就六四纪念馆遭人为破坏事件展开调查",
+   "六四纪念馆活动：中国议会（筹委会）首届创始选民交流会"
+  ]
  },
  {
   "host": "nmsl.website",
-  "base": "https://nmsl.website/",
-  "ref": "https://nmsl.website/%E9%A6%96%E9%A1%B5",
   "name": "孤兒展覽館",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "shanghainationalparty.com",
-  "base": "https://shanghainationalparty.com/",
-  "ref": "https://shanghainationalparty.com/",
   "name": "Shanghai National上海民族党 – 脱华归欧，全盘西化",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://shanghainationalparty.com/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 5
+  "china_hits": 5,
+  "samples": [
+   "2028上海制宪会议 ｜ 本人（何岸泉）召集会议的合法性确认",
+   "2025上海独立大会获得成功",
+   "2025上海独立大会宣传片发布"
+  ]
  },
  {
   "host": "endccp.ueuo.com",
-  "base": "https://endccp.ueuo.com/",
-  "ref": "https://endccp.ueuo.com/",
   "name": "开园网",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ichka.org",
-  "base": "https://ichka.org/",
-  "ref": "https://ichka.org/hk/",
   "name": "香港独立倡议委员会（Independent Committee for Hong Kong ",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "fdcusa.org",
-  "base": "https://fdcusa.org/",
-  "ref": "https://fdcusa.org/?p=2041",
   "name": "中国民主人权联盟简介 – FDCUSA",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://fdcusa.org/?feed=rss2",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 9
+  "china_hits": 9,
+  "samples": [
+   "「北京」她記憶裡的故鄉",
+   "《聲援香港自由與人權》——不要讓政治迫害成為談判的籌碼",
+   "《不能忘記的夜晚》"
+  ]
  },
  {
   "host": "lacd01.com",
-  "base": "https://lacd01.com/",
-  "ref": "https://lacd01.com/",
   "name": "洛杉矶中国民主平台",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "anticcp.nl",
-  "base": "https://anticcp.nl/",
-  "ref": "https://www.anticcp.nl/",
   "name": "反共之聲",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.anticcp.nl/feeds/posts/default",
   "kind": "html_link",
   "status": "active",
+  "total": 25,
   "latest": null,
   "recent30": 0,
-  "china_hits": 25
+  "china_hits": 25,
+  "samples": [
+   "拒絕極權，團結抗爭！—— 10.03 聯合抗議中共建政 77 週年集會",
+   "40.000 mensen bij Klimaatmars Amsterdam: Voice Against the CCP hekelt Chinese ecocide en veroordeelt fysieke aanval door pro-Beijing extremist",
+   "四萬人齊聚阿姆斯特丹氣候大遊行：荷蘭反共之聲揭露中共生態浩劫，強烈譴責親中共極端分子街頭暴力"
+  ]
  },
  {
   "host": "hkers.org.uk",
-  "base": "https://hkers.org.uk/",
-  "ref": "https://hkers.org.uk/hongkongers_in_leeds/zh",
   "name": "列斯手足連線",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "bonhamtreeaid.org",
-  "base": "https://bonhamtreeaid.org/",
-  "ref": "https://www.bonhamtreeaid.org/",
   "name": "支援在囚人士 | 細葉榕人道支援基金",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "freechinablog.com",
-  "base": "https://freechinablog.com/",
-  "ref": "https://freechinablog.com/sample-page/",
   "name": "Free China Today - 免费中国博客",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "minzhen.org",
-  "base": "https://minzhen.org/",
-  "ref": "https://www.minzhen.org/index.php/zh-cn/",
   "name": "民主中國陣線（民陣）Federation for a Democratic China (F",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "反动组织网站"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "global-unions.org",
-  "base": "https://global-unions.org/",
-  "ref": "https://www.global-unions.org/",
   "name": "全球工会 - 携手争取工人权利",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "劳工组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.global-unions.org/spip.php?page=backend",
   "kind": "html_link",
   "status": "watch",
+  "total": 10,
   "latest": "2026-08-27",
   "recent30": 1,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "FITD",
+   "Le groupement Global Unions représente un partenariat entre la Confédération syndicale internationale, les Fédérations syndicales internationales et la Commission syndicale consultative auprès de l'OC",
+   "UNI"
+  ]
  },
  {
   "host": "workersrights.org",
-  "base": "https://workersrights.org/",
-  "ref": "https://www.workersrights.org/",
   "name": "工人权利联盟",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "劳工组织"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "walkfree.org",
-  "base": "https://walkfree.org/",
-  "ref": "https://www.walkfree.org/global-slavery-index/",
   "name": "全球奴隶制指数 |自由行走",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "人口买卖监测"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://walkfree.org/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 7
+  "china_hits": 7,
+  "samples": [
+   "Climate change impacts show child marriage cannot be explained by culture alone",
+   "Nepal floods highlight how climate-related disasters increase modern slavery risks",
+   "Worker exploitation exposé increases pressure on Australia to strengthen modern slavery laws"
+  ]
  },
  {
   "host": "polarisproject.org",
-  "base": "https://polarisproject.org/",
-  "ref": "https://polarisproject.org/",
   "name": "Polaris",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "人口买卖监测"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://polarisproject.org/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "Opinion: Freedom From Human Trafficking Requires State and Federal Criminal Record Relief"
+  ]
  },
  {
   "host": "ijm.org",
-  "base": "https://ijm.org/",
-  "ref": "https://www.ijm.org/",
   "name": "国际正义使命 |永远结束现代奴隶制",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "人口买卖监测"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "freetheslaves.net",
-  "base": "https://freetheslaves.net/",
-  "ref": "https://freetheslaves.net/",
   "name": "结束现代奴隶制 - 解放奴隶",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "人口买卖监测"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://freetheslaves.net/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "Building Momentum for Nepal’s Alliance 8.7 Roadmap",
+   "Tucumán, Argentina Validates Local Roadmap Against Human Trafficking for Labor Exploitation",
+   "Communities taking the lead: Combating forced labor risk factors in Cameroon’s cocoa belt"
+  ]
  },
  {
   "host": "iom.int",
-  "base": "https://iom.int/",
-  "ref": "https://www.iom.int/",
   "name": "国际移民组织 |国际移民组织、联合国移民事务所",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "人口买卖监测"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "unodc.org",
-  "base": "https://unodc.org/",
-  "ref": "https://www.unodc.org/",
   "name": "联合国毒品和犯罪问题办公室",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "人口买卖监测"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ilo.org",
-  "base": "https://ilo.org/",
-  "ref": "https://www.ilo.org/",
   "name": "国际劳工组织主页 |国际劳工组织",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "人口买卖监测"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "snopes.com",
-  "base": "https://snopes.com/",
-  "ref": "https://www.snopes.com/",
   "name": "Snopes（事实核查）",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "事实核查"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://snopes.com/feed",
   "kind": "path",
   "status": "active",
+  "total": 20,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "Are US truck drivers going on strike starting Oct. 1, 2026?",
+   "Claim Democrats shot 4 presidents, MLK Jr. and Charlie Kirk gets the facts wrong",
+   "Is image of Trump kissing Natalie Harp on golf course real?"
+  ]
  },
  {
   "host": "factcheck.org",
-  "base": "https://factcheck.org/",
-  "ref": "https://www.factcheck.org/",
   "name": "FactCheck（美国事实核查）",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "事实核查"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.factcheck.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 2
+  "china_hits": 2,
+  "samples": [
+   "Ohio Democratic Ads Connect Husted to Bribery Scandal, Despite No Charges of Wrongdoing",
+   "Trump Claims Credit for Drug Price Decline. Experts Say It’s More Complicated."
+  ]
  },
  {
   "host": "poynter.org",
-  "base": "https://poynter.org/",
-  "ref": "https://www.poynter.org/",
   "name": "波因特 - 波因特",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "事实核查"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "fullfact.org",
-  "base": "https://fullfact.org/",
-  "ref": "https://fullfact.org/latest/",
   "name": "最新事实核查 – 完整事实（英国）",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "事实核查"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://fullfact.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "Edited video of South Tower on 9/11 circulates again",
+   "London’s white population has not ‘plummeted to 34%’",
+   "Baseless 9/11 claim recirculates on 25th anniversary of the attacks"
+  ]
  },
  {
   "host": "mediabiasfactcheck.com",
-  "base": "https://mediabiasfactcheck.com/",
-  "ref": "https://mediabiasfactcheck.com/",
   "name": "媒体偏见/事实核查 - 搜索并了解新闻媒体的偏见",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "事实核查"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://mediabiasfactcheck.com/feed/",
   "kind": "html_link",
   "status": "watch",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": [
+   "Fact vs. Fiction: Did Roy Cooper Let Jimmie Speight Out of Prison?",
+   "Media News Daily: Top Stories for 09/17/2026",
+   "MBFC’s Daily Vetted Fact Checks for 09/17/2026"
+  ]
  },
  {
   "host": "mediamatters.org",
-  "base": "https://mediamatters.org/",
-  "ref": "https://www.mediamatters.org/",
   "name": "媒体对美国很重要",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "事实核查"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://mediamatters.org/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "MAHA advocates are rallying against GOP \"traitors\" who passed the farm bill",
+   "Gas and diesel prices are soaring. Right-wing media figures promised that wouldn't happen.",
+   "Federal disaster reports under the Trump administration leave journalists to source climate explanations elsewhere"
+  ]
  },
  {
   "host": "openleaks.org",
-  "base": "https://openleaks.org/",
-  "ref": "https://openleaks.org/",
   "name": "Open Leaks",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "维基解密"
-  ],
   "mode": "titles_only",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://openleaks.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 5
+  "china_hits": 5,
+  "samples": [
+   "Top .NET Development Companies for Legacy .NET Modernization",
+   "Electronic Document Management and Business Process Automation: Turning Paper Chaos into a Digital System",
+   "Building Trust in Digital Systems: From Business Automation to Online Entertainment Platforms"
+  ]
  },
  {
   "host": "transparency.org",
-  "base": "https://transparency.org/",
-  "ref": "https://www.transparency.org/en/",
   "name": "Transparency.org全球反腐败组织",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "维基解密"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://transparency.org/feeds/news.xml",
   "kind": "path",
   "status": "active",
+  "total": 80,
   "latest": null,
   "recent30": 0,
-  "china_hits": 5
+  "china_hits": 5,
+  "samples": [
+   "Date and theme announced for International Anti-Corruption Conference 2026",
+   "Now open: Call for workshops for the International Anti-corruption Conference 2024",
+   "How enablers facilitate illicit financial flows: Evidence from Africa"
+  ]
  },
  {
   "host": "cryptome.org",
-  "base": "https://cryptome.org/",
-  "ref": "https://cryptome.org/",
   "name": "Cryptome",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "维基解密"
-  ],
   "mode": "titles_only",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "publicintelligence.net",
-  "base": "https://publicintelligence.net/",
-  "ref": "https://publicintelligence.net/",
   "name": "公共情报",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "维基解密"
-  ],
   "mode": "titles_only",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://publicintelligence.net/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 35,
   "latest": null,
   "recent30": 0,
-  "china_hits": 18
+  "china_hits": 18,
+  "samples": [
+   "U.S. Senate Homeland Security Committee Interim Report on July 13th, 2024 Trump Assassination Attempt",
+   "Joint Chiefs of Global Tax Enforcement Crypto Assets Risk Indicators for Financial Institutions",
+   "Virginia Guiffre v. Ghislaine Maxwell Unsealed Jeffrey Epstein Documents Batch 8 January 9, 2024"
+  ]
  },
  {
   "host": "privacyinternational.org",
-  "base": "https://privacyinternational.org/",
-  "ref": "https://privacyinternational.org/",
   "name": "国际隐私",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "维基解密"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://privacyinternational.org/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "The Play That Taught Garissa Its Rights"
+  ]
  },
  {
   "host": "opensecrets.org",
-  "base": "https://opensecrets.org/",
-  "ref": "https://www.opensecrets.org/",
   "name": "OpenSecrets",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "维基解密"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "documentcloud.org",
-  "base": "https://documentcloud.org/",
-  "ref": "https://www.documentcloud.org/home",
   "name": "DocumentCloud",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "维基解密"
-  ],
   "mode": "titles_only",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "wikileaks.org",
-  "base": "https://wikileaks.org/",
-  "ref": "https://wikileaks.org/",
   "name": "WikiLeaks",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "维基解密"
-  ],
   "mode": "titles_only",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "muckrock.com",
-  "base": "https://muckrock.com/",
-  "ref": "https://www.muckrock.com/",
   "name": "捣碎石",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "维基解密"
-  ],
   "mode": "titles_only",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "ait.org.tw",
-  "base": "https://ait.org.tw/",
-  "ref": "https://www.ait.org.tw/zhtw/",
   "name": "美国在台协会",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 1,
   "feed_url": "https://www.ait.org.tw/zhtw/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 9
+  "china_hits": 9,
+  "samples": [
+   "美國在台協會谷立言處長專題演講 「台北安全對話」：以不對稱嚇阻確保和平",
+   "歷史首創：AIT首度舉辦教育展，邀集27所美國大專院校來台與學生交流",
+   "美國在台協會代理副處長馮海博於科技、民主與社會研究中心 (DSET)「SEMICON Taiwan 2026國際半導體展」周邊論壇致詞"
+  ]
  },
  {
   "host": "hkja.org.hk",
-  "base": "https://hkja.org.hk/",
-  "ref": "https://www.hkja.org.hk/zh/",
   "name": "香港记者协会",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "tidf.org.tw",
-  "base": "https://tidf.org.tw/",
-  "ref": "https://www.tidf.org.tw/zh-hant",
   "name": "台湾国际纪录片影展",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "各类组织官网"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "newtalk.tw",
-  "base": "https://newtalk.tw/",
-  "ref": "https://newtalk.tw/",
   "name": "Newtalk新闻",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "其他组织"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "chinatimes.com.hk",
-  "base": "https://chinatimes.com.hk/",
-  "ref": "https://chinatimes.com.hk/20200809/23606",
   "name": "索罗斯和开放社会基金会 - 中华時報China Times",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "美国国家民主基金会"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 1,
   "feed_url": "https://chinatimes.com.hk/comments/feed",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "匿名 对《 深圳悲剧:仇恨教育的毒果 》的评论"
+  ]
  },
  {
   "host": "clb.org.hk",
-  "base": "https://clb.org.hk/",
-  "ref": "https://clb.org.hk/zh-hans",
   "name": "中国劳工通讯",
   "cat": "ngo",
-  "cats": [
-   "ngo"
-  ],
-  "folders": [
-   "劳工组织"
-  ],
   "mode": "full",
-  "region": "tw/hk",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "chinainperspective.com",
-  "base": "https://chinainperspective.com/",
-  "ref": "https://www.chinainperspective.com/",
   "name": "纵览中国",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://chinainperspective.com/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "金砖峰会：各国营造团结景象，但难掩内部分歧",
+   "習近平訪美的臺灣變數：中美談判與政治底線",
+   "“保護衛士”報告披露CGTN內部新聞審查"
+  ]
  },
  {
   "host": "dialoguechina.com",
-  "base": "https://dialoguechina.com/",
-  "ref": "https://www.dialoguechina.com/",
   "name": "对华中国",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "chinadissent.net",
-  "base": "https://chinadissent.net/",
-  "ref": "https://chinadissent.net/zh/detail",
   "name": "异言网",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "hackread.com",
-  "base": "https://hackread.com/",
-  "ref": "https://hackread.com/",
   "name": "Hackread - 最新的网络安全新闻、新闻稿和技术",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "hrichina.substack.com",
-  "base": "https://hrichina.substack.com/",
-  "ref": "https://hrichina.substack.com/",
   "name": "中国人权 （每周一次简报）",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "worldview.stratfor.com",
-  "base": "https://worldview.stratfor.com/",
-  "ref": "https://worldview.stratfor.com/",
   "name": "Stratfor：世界领先的地缘政治情报平台（每周）",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "rhg.com",
-  "base": "https://rhg.com/",
-  "ref": "https://rhg.com/china/",
   "name": "中国 – 荣鼎咨询集团（每月2-3篇）",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://rhg.com/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "The Plan For The US Power Grid",
+   "As Europe Dithers, the Cost of Derisking from China Rises",
+   "Oliver Melton Joins Rhodium Group’s China Practice"
+  ]
  },
  {
   "host": "studentsforafreetibet.org",
-  "base": "https://studentsforafreetibet.org/",
-  "ref": "https://studentsforafreetibet.org/",
   "name": "自由西藏学生",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://studentsforafreetibet.org/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "BREAKING: Tibetan Activists Unfurl Anti-Xi Jinping Banners Near BRICS Summit Venue, Warning of Chinese Border Expansionism and Environmental Threats",
+   "JOIN THE TEAM",
+   "UPDATE: Tibetan Activists Released After Arrest at UN Headquarters"
+  ]
  },
  {
   "host": "duihua.org",
-  "base": "https://duihua.org/",
-  "ref": "https://duihua.org/",
   "name": "对华基金会",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://duihua.org/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 7
+  "china_hits": 7,
+  "samples": [
+   "Clinton’s Choice: Elections have Consequences",
+   "Prisoner Updates #7",
+   "Prisoner Update #6"
+  ]
  },
  {
   "host": "uyghurstudy.org",
-  "base": "https://uyghurstudy.org/",
-  "ref": "https://uyghurstudy.org/",
   "name": "乔治华盛顿大学维吾尔族研究中心(每月1到2次）",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://uyghurstudy.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 12,
   "latest": null,
   "recent30": 0,
-  "china_hits": 12
+  "china_hits": 12,
+  "samples": [
+   "From Whitewashing to Exporting: The Muslim Institutions Helping China Legitimize Its War on the Uyghurs",
+   "Rethinking Indonesian “Independence” Through the Uyghur Issue",
+   "Flesh Separated from the Nail: Why Turkic World Organizations Ignore the Uyghurs"
+  ]
  },
  {
   "host": "jpolrisk.com",
-  "base": "https://jpolrisk.com/",
-  "ref": "https://www.jpolrisk.com/",
   "name": "政治风险杂志",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://www.jpolrisk.com/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "Get Tough on Saudi Nuclear Plans",
+   "Securitizing the Critical Minerals Supply Chain",
+   "US and Allied Tariffs Could Democratize China"
+  ]
  },
  {
   "host": "h-china.org",
-  "base": "https://h-china.org/",
-  "ref": "https://h-china.org/",
   "name": "人道主义中国人道主义中国 |为了人道的中国社会",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "minzhuzhongguo.org",
-  "base": "https://minzhuzhongguo.org/",
-  "ref": "https://www.minzhuzhongguo.org/#:~:text=%E6%8B%9C%E7%99%BB%E6%80%BB%E7%BB%9F%E8%81%94%E5%A4%A7%E5%91%8A%E5%88%AB%E6%BC%94%E8%AF%B4",
   "name": "民主中国 | minzhuzhongguo.org",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://minzhuzhongguo.org/?feed=rss2",
   "kind": "html_link",
   "status": "active",
+  "total": 20,
   "latest": null,
   "recent30": 0,
-  "china_hits": 9
+  "china_hits": 9,
+  "samples": [
+   "楚朦：长篇小说《自由的色彩》第五部《温柔与铁锤》连载 19",
+   "楚朦：长篇小说《自由的色彩》第四部《体制困境》连载 17",
+   "義大利《新聞報 La Stampa》采訪廖亦武"
+  ]
  },
  {
   "host": "turquoiseroof.org",
-  "base": "https://turquoiseroof.org/",
-  "ref": "https://turquoiseroof.org/",
   "name": "Turquoise Roof，今日西藏简报门户网站",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "定期提供"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://turquoiseroof.org/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 10
+  "china_hits": 10,
+  "samples": [
+   "Sacred Authority and State Power: The Dalai Lama Institution and its Future in a Global Context",
+   "A Long Shadow: The expansion and export of China’s digital repression model in Tibet",
+   "Future Tibet : China’s strategic plans – 2025-2049"
+  ]
  },
  {
   "host": "feedx.net",
-  "base": "https://feedx.net/",
-  "ref": "https://feedx.net/read?r=economist",
   "name": "The Economist | RSS在线阅读 - FeedX",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "个性化订阅"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://feedx.net/feed",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 1
+  "china_hits": 1,
+  "samples": [
+   "有问题留言吧，暂时没时间解决"
+  ]
  },
  {
   "host": "freedomhouse.org",
-  "base": "https://freedomhouse.org/",
-  "ref": "https://freedomhouse.org/article/eight-things-freedom-house-has-learned-about-protests-china",
   "name": "自由之家对中国抗议活动的八件事 |自由之家",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "重要"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://freedomhouse.org/rss.xml",
   "kind": "path",
   "status": "active",
+  "total": 10,
   "latest": null,
   "recent30": 0,
-  "china_hits": 3
+  "china_hits": 3,
+  "samples": [
+   "An Open Letter to Chinese Communist Party General Secretary Xi Jinping",
+   "China: Ensure Sophia Huang Xueqin’s Release and Guarantee Her Freedom from Arbitrary Restrictions",
+   "Freedom House and the R.T. Weatherman Foundation Announce Partnership to Advocate for the Release of Hong Kong Political Prisoner Joshua Wong"
+  ]
  },
  {
   "host": "thegrayzone.com",
-  "base": "https://thegrayzone.com/",
-  "ref": "https://thegrayzone.com/2024/09/30/us-plot-destabilize-bangladesh/",
   "name": "泄露的文件揭露了美国政府“破坏孟加拉国政治稳定”的秘密阴谋 - The Grayzone",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "重要"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://thegrayzone.com/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 12,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "Covert Pentagon propagandists are tracking anti-war Americans, skirting the law",
+   "Charlie Kirk’s TPUSA sponsored by Israeli govt-aligned outfit, leaked contract shows",
+   "Exclusive: Palestine Action facing new rigged ‘terrorism’ trials"
+  ]
  },
  {
   "host": "thebureauinvestigates.com",
-  "base": "https://thebureauinvestigates.com/",
-  "ref": "https://www.thebureauinvestigates.com/",
   "name": "新闻调查局",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "重要"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "hkaccountability.org",
-  "base": "https://hkaccountability.org/",
-  "ref": "https://hkaccountability.org/",
   "name": "HK Archive",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "重要"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": null,
   "kind": null,
   "status": "need_jina",
+  "total": 0,
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 0,
+  "samples": []
  },
  {
   "host": "energyandcleanair.org",
-  "base": "https://energyandcleanair.org/",
-  "ref": "https://energyandcleanair.org/zh/",
   "name": "能源与清洁空气研究中心 (CREA)",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "重要"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://energyandcleanair.org/zh/feed/",
   "kind": "html_link",
   "status": "active",
+  "total": 14,
   "latest": null,
   "recent30": 0,
-  "china_hits": 14
+  "china_hits": 14,
+  "samples": [
+   "中国能源与排放趋势 2026年8月简报",
+   "中国空气质量趋势 2026年8月月报",
+   "中国能源与排放趋势 2026年7月简报"
+  ]
  },
  {
   "host": "feed.laborinfocn3.com",
-  "base": "https://feed.laborinfocn3.com/",
-  "ref": "https://feed.laborinfocn3.com/",
   "name": "工劳小报｜工劳快讯",
   "cat": "rss",
-  "cats": [
-   "rss"
-  ],
-  "folders": [
-   "重要"
-  ],
   "mode": "full",
-  "region": "over",
-  "bookmarks": 1,
   "feed_url": "https://feed.laborinfocn7.com/rss/",
   "kind": "html_link",
   "status": "active",
+  "total": 15,
   "latest": null,
   "recent30": 0,
-  "china_hits": 4
+  "china_hits": 4,
+  "samples": [
+   "福建钢铁工人堵国道抗议裁员，多地夯实社保缴费基数｜工劳小报 #90 新闻刊",
+   "三地摊贩登车顶抗议城管暴力执法，聊城幼师被逼签“自愿离职”｜工劳小报 #87 新闻刊",
+   "达州数百医护集会讨薪，各地工厂集体维权事件频发｜工劳小报 #85 新闻刊"
+  ]
  }
 ]
