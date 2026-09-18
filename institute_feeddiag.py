@@ -42,11 +42,11 @@ for h in HOSTS:
         rec["n_items"] = len(items)
         if items:
             it = items[0]
-            rec["children"] = [ln(c) for c in it]
+            rec["children"] = [ln(c.tag) for c in it]
             rec["date_like"] = {}
             for c in it:
-                if any(k in ln(c) for k in ("date", "time", "pub", "updated", "issued", "created")):
-                    rec["date_like"][ln(c)] = (c.text or "")[:60]
+                if any(k in ln(c.tag) for k in ("date", "time", "pub", "updated", "issued", "created")):
+                    rec["date_like"][ln(c.tag)] = (c.text or "")[:60]
             rec["raw"] = ET.tostring(it, encoding="unicode")[:900]
     except Exception as e:
         rec["parse_error"] = repr(e)[:200]
