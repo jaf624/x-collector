@@ -15,7 +15,7 @@
   data/intel_feed.json   过基础门槛的全量（含社媒线索，带 quality_score / usable / body_from）
   data/intel_brief.json  仅 usable=true 的高信息密度稿，供大模型研判 / 写材料（即"过滤后送模型"那一层）
 """
-import os, re, json, ssl, time, hashlib, datetime, urllib.request, urllib.parse, urllib.error
+import os, re, json, ssl, time, html, hashlib, datetime, urllib.request, urllib.parse, urllib.error
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -376,6 +376,8 @@ def parse_rss_items(body, feed_url):
             tx = _all_text(_child(e, nm))
             if len(tx) > len(text):
                 text = tx
+        title = html.unescape(title or "").strip()
+        text = html.unescape(text or "")
         out.append({"title": title[:200], "link": link, "date": d, "text": text})
     return out
 
@@ -399,7 +401,8 @@ def soft_news(title):
 
 def clean_src_name(n):
     """清洗被文章标题污染的书签来源名：去 URL，竖线取站名段，冒号取站名前缀。"""
-    n = re.sub(r"https?://\S+", "", n or "").strip(" |–—:：\t-")
+    n = html.unescape(str(n or ""))
+    n = re.sub(r"https?://\S+", "", n).strip(" |–—:：\t-")
     if "|" in n:
         head, tail = n.split("|", 1)[0].strip(), n.split("|", 1)[1].strip()
         if tail and len(tail) <= 14 and not re.search(r"[的？?，,]|\s", tail):
@@ -626,7 +629,7 @@ def main():
                     if not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]) \
                             or not topic.search(blob) or any(b in u.lower() for b in block_global):
                         continue
-                    src_name = ftitle or clean_src_name(s.get("name")) or s["host"]
+                    src_name = clean_src_name(ftitle or s.get("name")) or s["host"]
                     src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
                     host_name[s["host"]] = src_name
                     cand = {"url": u, "source": src_name,
@@ -721,7 +724,7 @@ def main():
             f["usable"] += 1
         item = {
             "id": hashlib.sha1(c["url"].encode()).hexdigest()[:16],
-            "title": (title or c["hint_title"] or "(无标题)").strip()[:200],
+            "title": html.unescape((title or c["hint_title"] or "(无标题)").strip())[:200],
             "url": c["url"], "source": c["source"], "lang": c["lang"], "cat": c["cat"],
             "route": c["route"], "body_from": c["body_from"],
             "quality_score": score, "usable": usable,
@@ -739,15 +742,23 @@ def main():
         if not is_snip and not is_feed:
             time.sleep(0.4)  # 仅 Jina 深抓限速；RSS 自带正文与线索不耗 token
 
-    # 用本轮 RSS 规范站名统一更正机构条目的来源（消除历史书签文章标题污染）
-    if host_name:
+    # 用本轮 RSS 规范站名统一更正机构条目的来源（消除历史书签文章标题污染）；
+    # 本轮未采到新条目的源，用机构清单中的规范名兜底正名存量
+    inst_fallback = {s.get("host"): clean_src_name(s.get("name"))
+                     for s in (inst_meta or []) if s.get("host")}
+    if host_name or inst_fallback:
         def _rename(x):
             if x.get("route") == "institute":
                 h = host_of(x.get("url", ""))
-                for ih, nm in host_name.items():
-                    if nm and (h == ih or h.endswith("." + ih) or ih.endswith("." + h)):
-                        x["source"] = nm
-                        break
+                nm = host_name.get(h)
+                if not nm:
+                    for ih, v in host_name.items():
+                        if v and (h == ih or h.endswith("." + ih) or ih.endswith("." + h)):
+                            nm = v; break
+                if not nm:
+                    nm = inst_fallback.get(h)
+                if nm:
+                    x["source"] = nm
             return x
         feed = [_rename(x) for x in feed]
 
