@@ -5,7 +5,20 @@
   "feed_url": "https://thediplomat.com/feed",
   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r <rss  xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 96,
+  "children": [
+   "title",
+   "description",
+   "creator",
+   "pubdate",
+   "content",
+   "link",
+   "guid"
+  ],
+  "date_like": {
+   "pubdate": "Thu, 17 Sep 2026 22:30:00 +0900"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns1=\"http://search.yahoo.com/mrss/\">\n<title>The Potential Mismatch Between Japan and the US on China</title>\n<description>Ahead of the Trump-Xi summit, it is critical for Japan that the United States stays on the same page regarding the challenge from China. </description>\n<dc:creator>Terrence Matsuo</dc:creator>\n<pubDate>Thu, 17 Sep 2026 22:30:00 +0900</pubDate>\n<ns1:content medium=\"image\" width=\"600\" height=\"360\" url=\"https://images.thediplomat.com/v1/td-list-l-2/2025/10/thediplomat_2025-10-28-223513.jpg\" />\n<link>https://thediplomat.com/2026/09/the-potential-mismatch-between-japan-and-the-us-on-china/</link>\n<guid>https://thediplomat.com/2026/09/the-potential-mismatch-between-japan-and-the-us-on-china/</guid>\n</item>\n"
  },
  {
   "host": "csis.org",
@@ -13,7 +26,19 @@
   "feed_url": "https://csis.org/rss.xml",
   "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" version=\"2.0\" xml:base=\"https://",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 10,
+  "children": [
+   "title",
+   "link",
+   "description",
+   "pubdate",
+   "creator",
+   "guid"
+  ],
+  "date_like": {
+   "pubdate": "Thu, 03 Mar 2016 20:36:33 +0000"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n  <title>The Bio-Pharma Industry and Society</title>\n  <link>https://www.csis.org/events/bio-pharma-industry-and-society</link>\n  <description>&lt;span&gt;The Bio-Pharma Industry and Society&lt;/span&gt;\n\n  &lt;div&gt;\n    &lt;div&gt;Listing Summary&lt;/div&gt;\n              &lt;div&gt;&lt;p&gt;Please join the CSIS Global Health Policy Center on March 17, from 10:00am – 11:30am, for an exploration of how private bio-pharmaceutical firms can better support the critically important societal goals of improved affordability, access, quality, and innovation.&lt;/p&gt;\n&lt;/div&gt;\n          &lt;/div&gt;\n&lt;span&gt;&lt;span&gt;Drupal Admin&lt;/span&gt;&lt;/span&gt;\n&lt;span&gt;&lt;time datetime=\"2016-03-03T15:36:33-05:00\" title=\"Thursday, March 3, 2016 - 15:36\"&gt;Thu, 03/03/2016 - 15:36&lt;/time&gt;\n&lt;/span&gt;\n\n  &lt;div&gt;\n    &lt;div&g"
  },
  {
   "host": "merics.org",
@@ -21,7 +46,19 @@
   "feed_url": "https://merics.org/rss",
   "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" version=\"2.0\" xml:base=\"https://",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 20,
+  "children": [
+   "title",
+   "link",
+   "description",
+   "pubdate",
+   "creator",
+   "guid"
+  ],
+  "date_like": {
+   "pubdate": "Wed, 01 Jul 2026 15:14:36 +0000"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n  <title>European Business survey: Bridging the gap between geopolitics and corporate strategy</title>\n  <link>https://merics.org/en/external-publication/european-business-survey-bridging-gap-between-geopolitics-and-corporate</link>\n  <description>&lt;span class=\"field-wrapper field field--name-title field--type-string field--label-hidden node-title\"&gt;&lt;h1&gt;European Business survey: Bridging the gap between geopolitics and corporate strategy&lt;/h1&gt;\n&lt;/span&gt;\n&lt;span class=\"field-wrapper\"&gt;&lt;span&gt;H.Seidl&lt;/span&gt;&lt;/span&gt;\n&lt;span class=\"field-wrapper\"&gt;&lt;time datetime=\"2026-07-01T17:14:36+02:00\" title=\"Wednesday, July 1, 2026 - 17:14\"&gt;Wed, 07/01/2026 - 17:14&lt;/time&gt;\n&lt;/span&gt;\n  &lt;div class=\"layout layout--onecol\"&gt;\n    &lt;div class=\"layout__region layout__region--content\"&gt;\n      &lt;s"
  },
  {
   "host": "hongkongfp.com",
@@ -29,7 +66,31 @@
   "feed_url": "https://hongkongfp.com/feed/",
   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \txmln",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 30,
+  "children": [
+   "title",
+   "link",
+   "creator",
+   "pubdate",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "guid",
+   "description",
+   "encoded",
+   "post-id"
+  ],
+  "date_like": {
+   "pubdate": "Thu, 17 Sep 2026 23:40:00 +0000"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns1=\"http://purl.org/rss/1.0/modules/content/\" xmlns:ns2=\"com-wordpress:feed-additions:1\">\n\t\t<title>Hong Kong to face 130k manpower shortage in 2028 – 50k less than previously projected</title>\n\t\t<link>https://hongkongfp.com/2026/09/18/hong-kong-to-face-130k-manpower-shortage-in-2028-50k-less-than-previously-projected/</link>\n\t\t\n\t\t<dc:creator>Irene Chan</dc:creator>\n\t\t<pubDate>Thu, 17 Sep 2026 23:40:00 +0000</pubDate>\n\t\t\t\t<category>Business</category>\n\t\t<category>Community &amp; Education</category>\n\t\t<category>Hong Kong</category>\n\t\t<category>2026 Policy Address</category>\n\t\t<category>Chinese General Chamber of Commerce</category>\n\t\t<category>Chris Sun</category>\n\t\t<category>Hong Kong Five-Year Plan</category>\n\t\t<category>John Lee</category>\n\t\t<category>Labour and Welfare Bureau</category>\n\t\t<category>Top Talent Pass Scheme</catego"
  },
  {
   "host": "bellingcat.com",
@@ -37,7 +98,27 @@
   "feed_url": "https://bellingcat.com/feed",
   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \txmln",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 10,
+  "children": [
+   "title",
+   "link",
+   "creator",
+   "pubdate",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "guid",
+   "description",
+   "encoded",
+   "enclosure",
+   "enclosure"
+  ],
+  "date_like": {
+   "pubdate": "Wed, 16 Sep 2026 16:04:19 +0000"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns1=\"http://purl.org/rss/1.0/modules/content/\">\n\t\t<title>“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign</title>\n\t\t<link>https://www.bellingcat.com/news/2026/09/16/drone-strike-civilians-killed-aes-sahel-mali-russia-africa-corps-guilt-by-location-jeune-afrique/</link>\n\t\t\n\t\t<dc:creator>Sebastian Vandermeersch</dc:creator>\n\t\t<pubDate>Wed, 16 Sep 2026 16:04:19 +0000</pubDate>\n\t\t\t\t<category>Africa</category>\n\t\t<category>Investigations</category>\n\t\t<category>Drones</category>\n\t\t<category>Geolocation</category>\n\t\t<category>Mali</category>\n\t\t<guid isPermaLink=\"false\">https://www.bellingcat.com/?p=53752</guid>\n\n\t\t\t\t\t<description>&lt;p&gt;Sign up&amp;#160;here&amp;#160;to receive Bellingcat’s biggest investigations by email&amp;#160;as soon as they are published. WARNING: This report contains links to graphic image"
  },
  {
   "host": "voachinese.com",
@@ -45,7 +126,21 @@
   "feed_url": "https://www.voachinese.com/api/",
   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">     \r     <channel>  ",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 20,
+  "children": [
+   "title",
+   "description",
+   "link",
+   "guid",
+   "pubdate",
+   "category",
+   "author",
+   "enclosure"
+  ],
+  "date_like": {
+   "pubdate": "Fri, 18 Sep 2026 06:46:50 +0800"
+  },
+  "raw": "<item>\n            <title>VOA今日焦点 (2026年9月18日) 特习会下周登场，特朗普总统将亲自到美军基地迎接习近平\n</title>\n            <description>2026年9月18日《VOA今日焦点》重点新闻内容包括：特习会下周登场，特朗普总统将亲自到美军基地迎接习近平专机  ；特习会前，美国国务卿卢比奥与中国外长王毅通电话  ；特习会在即，华盛顿智库CSIS解析关税、台海、伊朗三大重点议题 。</description>\n            <link>https://www.voachinese.com/a/voa-today-20260917/8201213.html</link> \n            <guid>https://www.voachinese.com/a/voa-today-20260917/8201213.html</guid>            \n            <pubDate>Fri, 18 Sep 2026 06:46:50 +0800</pubDate>\n            <category> VOA今日焦点</category><author> chinese@voanews.com (美国之音)</author><enclosure url=\"https://gdb.voanews.com/38d7dd8e-d8c3-460c-8ec1-74fc04f3712c_tv_b1_w800_h450.jpg\" length=\"0\" type=\"image/jpeg\" />\n        </item>\t\t\n        "
  },
  {
   "host": "jamestown.org",
@@ -53,7 +148,21 @@
   "feed_url": "https://jamestown.org/feed",
   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \txmln",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 10,
+  "children": [
+   "title",
+   "link",
+   "creator",
+   "pubdate",
+   "category",
+   "guid",
+   "description",
+   "encoded"
+  ],
+  "date_like": {
+   "pubdate": "Thu, 17 Sep 2026 21:35:55 +0000"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns1=\"http://purl.org/rss/1.0/modules/content/\">\n\t\t<title>Russia Militarizes Occupied Ukraine (Part II)</title>\n\t\t<link>https://jamestown.org/russia-militarizes-occupied-ukraine-part-ii/</link>\n\t\t\n\t\t<dc:creator>Alyssa Dowling</dc:creator>\n\t\t<pubDate>Thu, 17 Sep 2026 21:35:55 +0000</pubDate>\n\t\t\t\t<category>Uncategorised</category>\n\t\t<guid isPermaLink=\"false\">https://jamestown.org/?p=886031</guid>\n\n\t\t\t\t\t<description>&lt;p&gt;Executive Summary: In August, satellite imagery showed the Russian military building new pontoon crossings and access roads around Henichesk and Chongar, two critical land-logistics nodes connecting occupied southern Ukraine with Crimea. They are allegedly aiming to develop alternative routes that could keep military traffic moving if Ukrainian strikes continue to damage currently used bridges (Krym [&amp;#8230;]&lt"
  },
  {
   "host": "cato.org",
@@ -61,7 +170,24 @@
   "feed_url": "https://cato.org/feed",
   "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:content=\"http://purl.org/rss/",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 25,
+  "children": [
+   "title",
+   "link",
+   "description",
+   "enclosure",
+   "guid",
+   "pubdate",
+   "source",
+   "encoded",
+   "creator",
+   "publisher"
+  ],
+  "date_like": {
+   "pubdate": "Thu, 17 Sep 2026 15:50:56 -0400",
+   "publisher": "Cato Institute"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns0=\"http://purl.org/rss/1.0/modules/content/\">\n  <title>Supreme Court Strikes Down President Trump's Mail Voting Grab</title>\n  <link>https://www.cato.org/blog/supreme-court-strikes-down-trumps-mail-voting-grab</link>\n  <description>The Supreme Court, over two dissents, has struck down a US Postal Service rule, adopted on instructions from the Trump administration, that had threatened to throw the midterm elections into chaos. </description>\n  <enclosure url=\"https://www.cato.org/sites/cato.org/files/styles/large/public/2025-04/postal%20service%20.jpg?itok=T5p-Qzbe\" type=\"image/jpeg\" length=\"45441\" /><guid isPermaLink=\"true\">https://www.cato.org/blog/supreme-court-strikes-down-trumps-mail-voting-grab</guid>\n          <pubDate>Thu, 17 Sep 2026 15:50:56 -0400</pubDate>\n          <source url=\"https://www.cato.org/rss/blog\">Cato at Lib"
  },
  {
   "host": "ecfr.eu",
@@ -69,7 +195,26 @@
   "feed_url": "https://ecfr.eu/feed/",
   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \txmln",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 25,
+  "children": [
+   "title",
+   "link",
+   "type",
+   "creator",
+   "pubdate",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "guid",
+   "description",
+   "encoded"
+  ],
+  "date_like": {
+   "pubdate": "Wed, 16 Sep 2026 09:34:49 +0000"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns1=\"http://purl.org/rss/1.0/modules/content/\">\n\t\t<title>An outsider within: The paradox of the Europe-Turkey relationship</title>\n\t\t<link>https://ecfr.eu/publication/an-outsider-within-the-paradox-of-the-europe-turkey-relationship/</link>\n\t\t\t\t<dc:type>Publication</dc:type>\n\t\t\n\t\t<dc:creator>Aslı Aydıntaşbaş, Evren Balta</dc:creator>\n\t\t<pubDate>Wed, 16 Sep 2026 09:34:49 +0000</pubDate>\n\t\t\t\t<category>European Power</category>\n\t\t<category>Reorder</category>\n\t\t<category>Europe</category>\n\t\t<category>NATO</category>\n\t\t<category>Turkey</category>\n\t\t<guid isPermaLink=\"false\">https://ecfr.eu/publication/an-outsider-within-the-paradox-of-the-europe-turkey-relationship/</guid>\n\n\t\t\t\t\t<description>Turkey is neither drifting away from the West nor is it coming home. It has become an embedded outsider: a middle power that has learned to build str"
  },
  {
   "host": "aiddata.org",
@@ -77,7 +222,20 @@
   "feed_url": "https://aiddata.org/rss",
   "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://se",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 100,
+  "children": [
+   "title",
+   "link",
+   "guid",
+   "description",
+   "pubdate",
+   "content",
+   "thumbnail"
+  ],
+  "date_like": {
+   "pubdate": "Fri, 04 Sep 2026 18:28:11 GMT"
+  },
+  "raw": "<item xmlns:ns0=\"http://search.yahoo.com/mrss/\"><title>Decision making with ambiguous data: AidData research informs simulation to train rising leaders</title><link>https://www.aiddata.org/blog/decision-making-with-ambiguous-data-aiddata-research-informs-simulation-to-train-rising-leaders</link><guid>https://www.aiddata.org/blog/decision-making-with-ambiguous-data-aiddata-research-informs-simulation-to-train-rising-leaders</guid><description>AidData placed the Presidential Precinct’s Global Democracy Fellows inside a simulation of a government confronting conflicting evidence, an unfunded transition, and a decision it could not postpone.</description><pubDate>Fri, 04 Sep 2026 18:28:11 GMT</pubDate><ns0:content url=\"https://cdn.prod.website-files.com/591515887c47180f72a5c58e/6a98513a62ad2bec7978a18d_2026_09_02%20Decision%20making.jpg\" medium=\"image\" /><ns0:thumbnail url=\"https://cdn.prod."
  },
  {
   "host": "thewirechina.com",
@@ -85,7 +243,21 @@
   "feed_url": "https://www.thewirechina.com/feed/",
   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \t xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \t xm",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 50,
+  "children": [
+   "title",
+   "link",
+   "pubdate",
+   "content",
+   "creator",
+   "category",
+   "guid",
+   "description"
+  ],
+  "date_like": {
+   "pubdate": "Thu, 17 Sep 2026 13:15:00 +0000"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns0=\"http://search.yahoo.com/mrss/\">\n\t\t\t\t<title>The Daily Roundup</title>\n\t\t\t\t<link>https://www.thewirechina.com/2026/09/17/the-daily-roundup-september-17-2026/</link>\n\t\t\t\t<pubDate>Thu, 17 Sep 2026 13:15:00 +0000</pubDate>\n\t\t\t\t<ns0:content url=\"https://www.thewirechina.com/wp-content/uploads/2020/06/News_Final_Valentina_Verc_3_smaller-1-300x148.jpg\" />\n\n\t\t\t\t\t\t\t\t\t\t\t<dc:creator>The Wire</dc:creator>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<category>News Feed</category>\n\n\t\t\t\t<guid isPermaLink=\"false\">https://www.thewirechina.com/?p=86808</guid>\n\t\t\t\t\t\t\t\t\t<description>&lt;p&gt;September 17th, 2026 &amp;#124; Welcome to The Wire’s daily news roundup. Each day, our staff gathers the top China business, finance, and economics headlines from a selection of the world’s leading news organizations.&lt;/p&gt;\n&lt;p&gt;The post &lt;a href=\"https://www.thewirechina.com/2026"
  },
  {
   "host": "selectcommitteeontheccp.house.gov",
@@ -93,7 +265,19 @@
   "feed_url": "https://selectcommitteeontheccp.house.gov/rss.xml",
   "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" version=\"2.0\" xml:base=\"http://c",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 10,
+  "children": [
+   "title",
+   "link",
+   "description",
+   "pubdate",
+   "creator",
+   "guid"
+  ],
+  "date_like": {
+   "pubdate": "Thu, 03 Sep 2026 20:44:42 +0000"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n  <title>Select Committee on China and Congressional-Executive Commission on China Back DHS's Enforcement of UFLPA</title>\n  <link>http://chinaselectcommittee.house.gov/media/letters/select-committee-on-china-and-congressional-executive-commission-on-china-back-dhs-s-enforcement-of-uflpa</link>\n  <description>\n&lt;span&gt;Select Committee on China and Congressional-Executive Commission on China Back DHS's Enforcement of UFLPA&lt;/span&gt;\n\n            &lt;div class=\"evo-article__body\"&gt;&lt;p&gt;&lt;span&gt;Chairman John Moolenaar (R-MI) of the House Select Committee on China (SCC) and Chairman Chris Smith (R-NJ) of the Congressional Executive Commission on China (CECC) have sent a letter to Department of Homeland Security (DHS) Secretary Markwayne Mullin requesting a briefing on DHS’s implementation of the Uyghur Forced Labor Preventio"
  },
  {
   "host": "foreignaffairs.com",
@@ -101,7 +285,19 @@
   "feed_url": "https://www.foreignaffairs.com/rss.xml",
   "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/20",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 20,
+  "children": [
+   "title",
+   "link",
+   "description",
+   "pubdate",
+   "creator",
+   "guid"
+  ],
+  "date_like": {
+   "pubdate": "Thu, 17 Sep 2026 00:00:00 -0400"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n  <title>Cuba’s Point of No Return</title>\n  <link>https://www.foreignaffairs.com/cuba/cubas-point-no-return</link>\n  <description>The country is collapsing even as its regime survives.</description>\n  <pubDate>Thu, 17 Sep 2026 00:00:00 -0400</pubDate>\n    <dc:creator>Will Freeman</dc:creator>\n    <guid isPermaLink=\"false\">1135515</guid>\n    </item>\n"
  },
  {
   "host": "aspi.org.au",
@@ -109,6 +305,29 @@
   "feed_url": "https://www.aspi.org.au/feed/",
   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \txmln",
   "root": "rss",
-  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+  "n_items": 10,
+  "children": [
+   "title",
+   "link",
+   "creator",
+   "pubdate",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "category",
+   "guid",
+   "description",
+   "encoded"
+  ],
+  "date_like": {
+   "pubdate": "Wed, 09 Sep 2026 20:00:00 +0000"
+  },
+  "raw": "<item xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns1=\"http://purl.org/rss/1.0/modules/content/\">\n\t\t<title>Strait up tolls? What a Hormuz precedent means for the world’s waterways</title>\n\t\t<link>https://www.aspi.org.au/report/strait-up-tolls/</link>\n\t\t\n\t\t<dc:creator>nathan</dc:creator>\n\t\t<pubDate>Wed, 09 Sep 2026 20:00:00 +0000</pubDate>\n\t\t\t\t<category>Featured</category>\n\t\t<category>Report</category>\n\t\t<category>Asia &amp; The Pacifc</category>\n\t\t<category>Australia</category>\n\t\t<category>China</category>\n\t\t<category>Foreign Policy</category>\n\t\t<category>Russia</category>\n\t\t<category>supply chain</category>\n\t\t<category>United Nations</category>\n\t\t<category>United States</category>\n\t\t<guid isPermaLink=\"false\">https://www.aspi.org.au/report/</guid>\n\n\t\t\t\t\t<description>&lt;p&gt;The new economics of global waterways are taking shape, influenced by the dissolution of many agreed interna"
  }
 ]
