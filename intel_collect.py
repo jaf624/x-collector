@@ -46,7 +46,8 @@ INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
 # 否则海外华文/综合媒体的民俗、体育、娱乐、生活、商业软新闻会因含"中国"二字混入。
 TOPIC_RE = (
     r"国家安全|国安|情报|间谍|窃密|渗透|反渗透|反间谍|军事|国防|军方|解放军|导弹|战机|歼-|航母|军舰|"
-    r"海军|空军|演训|军演|核武|核安全|核弹|网络攻击|网络战|黑客|勒索病毒|数据泄露|数据安全|关键基础设施|"
+    r"海军|空军|演训|军演|核武|核安全|核弹|核计划|核问题|核不扩散|核裁军|核设施|铀浓缩|"
+    r"核谈判|核协议|核项目|拥核|核扩散|核材料|核监督|核武库|网络攻击|网络战|黑客|勒索病毒|数据泄露|数据安全|关键基础设施|"
     r"制裁|出口管制|实体清单|关税|贸易战|脱钩|断供|供应链|半导体|芯片|关键矿产|稀土|台海|台湾|赖清德|"
     r"香港|国安法|新疆|维吾尔|西藏|达赖|南海|仲裁|中共|共产党|极权|威权|抗议|集会|示威|颜色革命|"
     r"分裂|独立|颠覆|政变|军工|军售|北约|印太|第一岛链|认知作战|虚假信息|假消息|舆论战|统战|"
@@ -87,7 +88,9 @@ HARD_TITLE_RE = (
     r"演训|出口管制|实体清单|供应链|半导体|芯片|关键矿产|脱钩|认知作战|颜色革命|海上民兵|"
     r"taiwan|hong kong|xinjiang|tibet|south china sea|sanction|tariff|missile|fighter|carrier|"
     r"nuclear|espionage|\bspy\b|cyber-?attack|arms sale|military exercise|export control|"
-    r"semiconductor|supply chain|decoupl|submarine|hypersonic"
+    r"semiconductor|supply chain|decoupl|submarine|hypersonic|"
+    r"中美|美中|中美关系|施压|较量|博弈|黎智英|反送中|占中|通缉|判刑|抓捕|引渡|流亡|反对派|"
+    r"人权报告|宗教自由|政治犯|被捕|拘押|制裁名单|贸易谈判|台海局势|两岸"
 )
 
 
@@ -383,11 +386,13 @@ def soft_news(title):
 
 
 def link_noise(text):
-    """聚合/导航/列表页：链接过密（侧栏推荐污染），非单篇正文，丢弃。"""
-    if not text:
+    """聚合/导航/列表页：仅看正文开头——开头即密集链接菜单（分站/投稿/捐款/推荐）才判噪声；
+    正经文章开头是正文段落，相关阅读链接多在文末，不应误伤。"""
+    head = (text or "")[:700]
+    if not head:
         return False
-    n = len(_LINK.findall(text))
-    return n >= 18 and len(text) / max(1, n) < 220
+    n = len(_LINK.findall(head))
+    return n >= 8 and len(head) / max(1, n) < 70
 
 
 def main():
@@ -433,7 +438,7 @@ def main():
         h = host_of(x.get("url", ""))
         if _host_in(h, all_inst_hosts) and not _host_in(h, active_inst_hosts):
             return False
-        if soft_news(x.get("title", "")) or link_noise(x.get("content", "")):
+        if soft_news(x.get("title", "")):
             return False
         return bool(topic.search((x.get("title") or "") + " " + (x.get("content") or "")[:1500]))
 
@@ -630,6 +635,13 @@ def main():
             if st != 200 or not md or md.startswith("EXC"):
                 f["fetch_fail"] += 1; print(f"  x 抓取失败 HTTP{st} {c['url'][:64]}", flush=True); continue
             title, pub, text = clean_article(md)
+        # 机构稿：深抓/清洗后标题与正文可能变化（面包屑混入等），用最终内容做软新闻+主题复检
+        # 注：此处不用 link_noise——Jina 全文开头普遍带面包屑/分享链接，会误伤正规报道
+        if c["route"] == "institute" and not is_snip:
+            if soft_news(title) or not topic.search(title + " " + text[:1500]):
+                f["not_rel"] += 1
+                print(f"  x 机构复检未过 {(title or c['url'])[:46]}", flush=True)
+                continue
         if is_feed:
             d = c["hint_date"]
         else:
