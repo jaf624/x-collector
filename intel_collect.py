@@ -749,6 +749,8 @@ def main():
     if host_name or inst_fallback:
         def _rename(x):
             if x.get("route") == "institute":
+                if x.get("title"):  # 顺带解码存量标题中的 HTML 实体（幂等）
+                    x["title"] = html.unescape(x["title"])
                 h = host_of(x.get("url", ""))
                 nm = host_name.get(h)
                 if not nm:
