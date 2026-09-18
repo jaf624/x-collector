@@ -1,0 +1,29 @@
+name: telegram-selftest
+on:
+  workflow_dispatch: {}
+jobs:
+  tg-selftest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Probe t.me/s public preview from US runner
+        env:
+          JINA_KEY: ${{ secrets.JINA_KEY }}
+        run: python3 telegram_selftest.py
+      - name: Commit selftest result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/telegram_selftest.json
+          if ! git diff --staged --quiet; then
+            git commit -m "test: telegram public channel selftest result"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break || { echo "push retry $i"; sleep 5; }
+            done
+          else
+            echo "无结果可提交"
+          fi
