@@ -16,6 +16,9 @@
   data/intel_brief.json  仅 usable=true 的高信息密度稿，供大模型研判 / 写材料（即"过滤后送模型"那一层）
 """
 import os, re, json, ssl, time, hashlib, datetime, urllib.request, urllib.parse, urllib.error
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
@@ -32,6 +35,13 @@ MIN_BODY = int(os.environ.get("INTEL_MIN_BODY", "400"))
 Q_MIN = int(os.environ.get("INTEL_QUALITY_MIN", "55"))
 CTX = ssl.create_default_context(); CTX.check_hostname = False; CTX.verify_mode = ssl.CERT_NONE
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+# 第 4 路：收藏夹公开机构 RSS（智库/政府/国际媒体/NGO/OSINT），美国节点直连不烧 Jina
+INST_SRC = os.path.join(ROOT, "targets", "institute_sources.json")
+INST_DAYS = int(os.environ.get("INTEL_INST_DAYS", "7"))        # 机构周报/月报，窗口 7 天
+INST_PER_FEED = int(os.environ.get("INTEL_INST_PER_FEED", "15"))  # 每源每轮最多评估条数
+INST_MAX = int(os.environ.get("INTEL_INST_MAX", "120"))        # RSS 自带正文（免费）每轮入库上限
+INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "10"))       # 摘要过短需 Jina 深抓的机构稿上限
+INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
 
 
 def http(url, accept, timeout=120):
@@ -221,6 +231,99 @@ def load_json(path):
     return []
 
 
+def feed_get(url, timeout=20):
+    """直连公开 RSS/Atom（不走 Jina，零 token）。"""
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": UA,
+            "Accept": "application/rss+xml, application/atom+xml, application/xml, */*"})
+        with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+            return r.status, r.read(2_000_000).decode("utf-8", "ignore")
+    except urllib.error.HTTPError as e:
+        return e.code, ""
+    except Exception:
+        return None, ""
+
+
+def _lc(tag):
+    return (tag or "").split("}")[-1].lower()
+
+
+def _child(el, name):
+    for c in el:
+        if _lc(c.tag) == name:
+            return c
+    return None
+
+
+def _all_text(el):
+    if el is None:
+        return ""
+    parts = []
+    for c in el.iter():  # 首个即 el 自身，取 text/tail 即可，勿重复计入 el.text
+        parts.append(c.text or ""); parts.append(c.tail or "")
+    s = "".join(parts)
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s)).strip()
+
+
+def rss_date(s):
+    if not s:
+        return None
+    s = s.strip()
+    try:
+        return parsedate_to_datetime(s).date()
+    except Exception:
+        pass
+    try:
+        return datetime.datetime.fromisoformat(s.replace("Z", "+00:00")).date()
+    except Exception:
+        m = re.search(r"(20\d{2})[-/](\d{1,2})[-/](\d{1,2})", s)
+        if m:
+            try:
+                return datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            except Exception:
+                return None
+    return None
+
+
+def parse_rss_items(body, feed_url):
+    """解析 RSS2.0 / Atom / RDF 条目，正文取 content:encoded/content/summary/description 中最长者。"""
+    root = ET.fromstring(body)
+    out = []
+    for e in (x for x in root.iter() if _lc(x.tag) in ("item", "entry")):
+        title = _all_text(_child(e, "title"))
+        link = ""
+        for c in e:
+            if _lc(c.tag) != "link":
+                continue
+            href = c.get("href")
+            if href and (not c.get("rel") or c.get("rel") == "alternate"):
+                link = href; break
+            if not href and (c.text or "").strip():
+                link = c.text.strip(); break
+        if link:
+            link = urllib.parse.urljoin(feed_url, link)
+        dnode = None
+        for nm in ("pubdate", "published", "updated", "date", "issued", "created"):
+            c = _child(e, nm)
+            if c is not None and (c.text or "").strip():
+                dnode = c; break
+        d = rss_date(dnode.text if dnode is not None else "")
+        text = ""
+        for nm in ("encoded", "content", "summary", "description", "subtitle"):
+            tx = _all_text(_child(e, nm))
+            if len(tx) > len(text):
+                text = tx
+        out.append({"title": title[:200], "link": link, "date": d, "text": text})
+    return out
+
+
+def lang_of(text):
+    cjk = len(re.findall(r"[\u4e00-\u9fff]", text or ""))
+    lat = len(re.findall(r"[A-Za-z]", text or ""))
+    return "zh" if cjk >= max(8, lat * 0.08) else "en"
+
+
 def main():
     if not KEY:
         print("[intel] 未配置 JINA_KEY，跳过"); return
@@ -334,28 +437,97 @@ def main():
     else:
         print(f"[watch] UTC {hour} 点本轮不跑反华追踪（每天 UTC 0 一次）", flush=True)
 
+    # 3.5) 收藏夹公开机构 RSS（智库/政府/国际媒体/NGO/OSINT）：美国节点直连、零 Jina，每轮都跑
+    inst_n = 0
+    if os.path.exists(INST_SRC):
+        inst_srcs = [s for s in load_json(INST_SRC)
+                     if s.get("status") == "active" and s.get("feed_url")
+                     and "sitemap" not in s["feed_url"]]
+        inst_srcs.sort(key=lambda s: -int(s.get("china_hits") or 0))
+        uniq, seen_feed = [], set()
+        for s in inst_srcs:
+            if s["feed_url"] in seen_feed:
+                continue
+            seen_feed.add(s["feed_url"]); uniq.append(s)
+        inst_cut = datetime.datetime.utcnow().date() - datetime.timedelta(days=INST_DAYS)
+
+        def fetch_src(s):
+            st, body = feed_get(s["feed_url"])
+            items = []
+            if st == 200 and body and not body.startswith("EXC"):
+                try:
+                    items = parse_rss_items(body, s["feed_url"])
+                except Exception:
+                    items = []
+            return s, items
+
+        with ThreadPoolExecutor(max_workers=INST_WORKERS) as ex:
+            for s, items in (fu.result() for fu in as_completed([ex.submit(fetch_src, x) for x in uniq])):
+                k = 0
+                for it in items[:INST_PER_FEED]:
+                    u = it["link"]
+                    if not u or u in seen or u in candidates:
+                        continue
+                    if it["date"] and it["date"] < inst_cut:
+                        continue
+                    blob = it["title"] + " " + it["text"][:1000]
+                    if not rel.search(blob) or any(b in u.lower() for b in block_global):
+                        continue
+                    cand = {"url": u, "source": s.get("name") or s["host"],
+                            "lang": lang_of(blob), "cat": s.get("cat", "institute"),
+                            "via": "institute", "route": "institute",
+                            "hint_date": it["date"], "hint_title": it["title"]}
+                    if s.get("mode") == "titles_only":
+                        snip = (it["title"] + "\n\n" + it["text"][:600]).strip()
+                        if len(snip) < 60:
+                            continue
+                        cand.update({"body_from": "snippet", "snippet": snip})
+                    elif len(it["text"]) >= MIN_BODY:
+                        cand.update({"body_from": "feed", "snippet": None, "content": it["text"]})
+                    else:
+                        cand.update({"body_from": "full", "snippet": None})
+                    candidates[u] = cand; k += 1; inst_n += 1
+                if k:
+                    print(f"[inst] {str(s.get('name', ''))[:22]}: +{k}", flush=True)
+        print(f"[inst] 机构 RSS 本轮候选 {inst_n}（活跃源 {len(uniq)}）", flush=True)
+
     # 4) 正文 / 快照 + 质量过滤（按日期新->旧，限量控成本）
     cand = list(candidates.values())
     cand.sort(key=lambda x: x["hint_date"] or datetime.date(2000, 1, 1), reverse=True)
-    snip_cand = [c for c in cand if c["body_from"] == "snippet"]            # 社媒线索：零 token，全部保留
-    full_cand = [c for c in cand if c["body_from"] != "snippet"][:MAX_ART]  # 全文深抓：限量控成本
+    snip_cand = [c for c in cand if c["body_from"] == "snippet"]             # 线索快照：零 token，全保留
+    feed_cand = [c for c in cand if c["body_from"] == "feed"][:INST_MAX]     # 机构 RSS 自带全文：零 token
+    deep_other = [c for c in cand if c["body_from"] == "full" and c["route"] != "institute"][:MAX_ART]
+    deep_inst = [c for c in cand if c["body_from"] == "full" and c["route"] == "institute"][:INST_DEEP]
+    deep_cand = deep_other + deep_inst                                       # 需 Jina 深抓：限量控成本
     today = datetime.datetime.utcnow().date()
     f = {"fetch_fail": 0, "not_fresh": 0, "too_short": 0, "not_rel": 0, "duplicate": 0,
          "paywall": 0, "low_quality": 0, "usable": 0, "snippet_lead": 0}
     full_total = 0
     added = 0
-    for c in snip_cand + full_cand:
+    for c in snip_cand + feed_cand + deep_cand:
         is_snip = c["body_from"] == "snippet"
-        window = WATCH_DAYS if c["route"] == "watch" else DAYS
+        is_feed = c["body_from"] == "feed"
+        if c["route"] == "institute":
+            window = INST_DAYS
+        elif c["route"] == "watch":
+            window = WATCH_DAYS
+        else:
+            window = DAYS
+        md = ""
         if is_snip:
             title, pub, text, tok = c["hint_title"], "", c["snippet"], "0(snippet)"
+        elif is_feed:
+            title, pub, text, tok = c["hint_title"], "", c.get("content", ""), "0(feed)"
         else:
             full_total += 1
             st, md, tok = reader(c["url"])
             if st != 200 or not md or md.startswith("EXC"):
                 f["fetch_fail"] += 1; print(f"  x 抓取失败 HTTP{st} {c['url'][:64]}", flush=True); continue
             title, pub, text = clean_article(md)
-        d = c["hint_date"] or (None if is_snip else pick_date(pub, c["url"], md[:4000]))
+        if is_feed:
+            d = c["hint_date"]
+        else:
+            d = c["hint_date"] or (None if is_snip else pick_date(pub, c["url"], md[:4000]))
         inferred = False
         if not fresh(d, window):
             if d is None and len(text) >= (120 if is_snip else MIN_BODY):
@@ -399,8 +571,8 @@ def main():
         tag = "线索" if is_snip else ("可用" if usable else "存档")
         print(f"  +[{tag}|{score}分|{c['cat']}] {item['title'][:42]} ({item['published']}"
               f"{'?' if inferred else ''}) {len(text)}字 tok={tok}", flush=True)
-        if not is_snip:
-            time.sleep(0.4)
+        if not is_snip and not is_feed:
+            time.sleep(0.4)  # 仅 Jina 深抓限速；RSS 自带正文与线索不耗 token
 
     feed.sort(key=lambda x: x.get("published", ""), reverse=True)
     feed = feed[:MAX_FEED]
