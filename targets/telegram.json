@@ -38,5 +38,20 @@
      "keywords": ["绑架中国人", "袭击中资", "公民遇害", "电诈园区", "偷渡", "人口贩运", "海外项目遇袭", "船员被扣", "kidnap chinese", "attack chinese workers", "scam compound", "pig butchering", "human trafficking", "overseas project attack", "crew detained", "fraud hub", "criminal repatriation"]}
   ],
   "junk_markers": ["空投", "博彩", "赌场", "色情", "约炮", "代开发票", "刷单", "兼职日结", "彩票", "赔率", "赌球", "代孕", "看片", "裸聊",
-    "airdrop", "casino", "gambling", "crypto pump", "pump and dump", "100x", "sign up bonus", "free airdrop", "bet now", "jackpot", "adult dating", "cheap viagra", "代刷", "黑彩"]
+    "airdrop", "casino", "gambling", "crypto pump", "pump and dump", "100x", "sign up bonus", "free airdrop", "bet now", "jackpot", "adult dating", "cheap viagra", "代刷", "黑彩"],
+  "discover_queries": [
+    "telegram channel t.me China Chinese human rights dissident protest movement",
+    "telegram t.me channel Taiwan Tibetan Uyghur exile independence community",
+    "telegram t.me Hong Kong protest exile channel Chinese diaspora",
+    "telegram t.me Chinese deepfake disinformation information operation channel",
+    "telegram t.me China cyberattack data leak ransomware threat actor channel",
+    "telegram t.me China sanctions trade war supply chain investment screening",
+    "telegram t.me Chinese overseas workers scam compound kidnapping repatriation",
+    "telegram t.me China NED democracy workshop funding civil society grant",
+    "telegram t.me Chinese diaspora protest rally announcement mobilization",
+    "telegram t.me 中国人 维权 抗议 电报 频道",
+    "telegram t.me 中国 民主 自由 海外 运动 频道",
+    "telegram t.me 香港 台湾 西藏 新疆 海外 频道"
+  ],
+  "discover": {"verify_max": 24, "min_posts": 5, "min_related": 2, "score_min": 22, "keep_max": 120}
 }

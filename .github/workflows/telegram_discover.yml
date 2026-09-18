@@ -1,0 +1,31 @@
+name: telegram-discover
+on:
+  schedule:
+    - cron: "7 2 * * *"
+  workflow_dispatch: {}
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Discover public t.me channels into pending-review pool (no login, no body/media stored)
+        env:
+          JINA_KEY: ${{ secrets.JINA_KEY }}
+        run: python3 telegram_discover.py
+      - name: Commit discovery pool
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tg_discovered.json
+          if ! git diff --staged --quiet; then
+            git commit -m "data: telegram public-channel discovery pool update"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break || { echo "push retry $i"; sleep 6; }
+            done
+          else
+            echo "候选池无变化"
+          fi
