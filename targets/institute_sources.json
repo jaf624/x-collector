@@ -1,0 +1,4510 @@
+[
+ {
+  "host": "botanwang.com",
+  "base": "https://botanwang.com/",
+  "ref": "https://botanwang.com/",
+  "name": "博谈网",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "media",
+   "osint",
+   "rss"
+  ],
+  "folders": [
+   "反华中文即时网站",
+   "定期提供",
+   "开源情报知识",
+   "美翻译中心"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 4
+ },
+ {
+  "host": "cfr.org",
+  "base": "https://cfr.org/",
+  "ref": "https://www.cfr.org/",
+  "name": "美国外交关系委员会",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库",
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 3
+ },
+ {
+  "host": "rand.org",
+  "base": "https://rand.org/",
+  "ref": "https://www.rand.org/",
+  "name": "国防战略委员会 |兰特",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "osint",
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库",
+   "美国政府机构",
+   "美国网络安全组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 3
+ },
+ {
+  "host": "epochtimes.com",
+  "base": "https://epochtimes.com/",
+  "ref": "https://www.epochtimes.com/gb/instant-news.htm",
+  "name": "即时新闻 | 大纪元",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "osint",
+   "thinktank"
+  ],
+  "folders": [
+   "开源情报知识",
+   "智库研究文章",
+   "美翻译中心"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 3
+ },
+ {
+  "host": "dni.gov",
+  "base": "https://dni.gov/",
+  "ref": "https://www.dni.gov/index.php",
+  "name": "外国恶性影响中心",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识",
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 3
+ },
+ {
+  "host": "state.gov",
+  "base": "https://state.gov/",
+  "ref": "https://www.state.gov/",
+  "name": "美国国务院 – 主页",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "home.treasury.gov",
+  "base": "https://home.treasury.gov/",
+  "ref": "https://home.treasury.gov/",
+  "name": "美国财政部",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "castro.house.gov",
+  "base": "https://castro.house.gov/",
+  "ref": "https://castro.house.gov/media-center/press-releases/castro-gallagher-baldwin-introduce-open-translation-center-act-to-strengthen-translations-of-open-source-materials-from-russia-china-and-other-nations-of-strategic-interest",
+  "name": "卡斯特罗和加拉格尔提出两党法案，以改善联邦政府之间的情报共享 |美国国会议员华金·卡斯特罗",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美翻译中心"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "odni.gov",
+  "base": "https://odni.gov/",
+  "ref": "https://www.odni.gov/index.php#:~:text=COUNTERINFLUENCE.%20FMIC%20leads%20the%20Intelligence%20Community%20and%20interagency",
+  "name": "美国国家情报总监办公室",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "uscirf.gov",
+  "base": "https://uscirf.gov/",
+  "ref": "https://www.uscirf.gov/",
+  "name": "美国国际宗教自由委员会 |USCIRF公司",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "oversight.house.gov",
+  "base": "https://oversight.house.gov/",
+  "ref": "https://oversight.house.gov/",
+  "name": "美国众议院监督和问责委员会",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "uscc.gov",
+  "base": "https://uscc.gov/",
+  "ref": "https://www.uscc.gov/",
+  "name": "美国-中国 |经济与安全审查委员会",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "dhs.gov",
+  "base": "https://dhs.gov/",
+  "ref": "https://www.dhs.gov/",
+  "name": "国土安全部",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "disa.mil",
+  "base": "https://disa.mil/",
+  "ref": "https://www.disa.mil/",
+  "name": "美国国防信息系统局DISA",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "whitehouse.gov",
+  "base": "https://whitehouse.gov/",
+  "ref": "https://www.whitehouse.gov/nsc/",
+  "name": "国家安全委员会（NSC）",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "nukib.gov.cz",
+  "base": "https://nukib.gov.cz/",
+  "ref": "https://nukib.gov.cz/en/",
+  "name": "捷克国家网络和信息安全局 - 主页",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "isc.independent.gov.uk",
+  "base": "https://isc.independent.gov.uk/",
+  "ref": "https://isc.independent.gov.uk/",
+  "name": "英国议会情报与安全委员会",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "foreign.senate.gov",
+  "base": "https://foreign.senate.gov/",
+  "ref": "https://www.foreign.senate.gov/",
+  "name": "美国参议院外交关系委员会",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "cisa.gov",
+  "base": "https://cisa.gov/",
+  "ref": "https://www.cisa.gov/",
+  "name": "CISA（网络安全和基础设施安全局）",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "defense.gov",
+  "base": "https://defense.gov/",
+  "ref": "https://www.defense.gov/",
+  "name": "美国国防部",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "international.gc.ca",
+  "base": "https://international.gc.ca/",
+  "ref": "https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng",
+  "name": "加拿大全球事务部 – 主页",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "hsgac.senate.gov",
+  "base": "https://hsgac.senate.gov/",
+  "ref": "https://www.hsgac.senate.gov/subcommittees/investigations/",
+  "name": "常设调查小组委员会 - 国土安全与政府事务委员会",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ustr.gov",
+  "base": "https://ustr.gov/",
+  "ref": "https://ustr.gov/",
+  "name": "美国贸易代表",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "usagm.gov",
+  "base": "https://usagm.gov/",
+  "ref": "https://www.usagm.gov/",
+  "name": "USAGM – 美国全球媒体机构",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "asd.gov.au",
+  "base": "https://asd.gov.au/",
+  "ref": "https://www.asd.gov.au/",
+  "name": "澳大利亚信号局 |澳大利亚信号局",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "五眼联盟网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "cse-cst.gc.ca",
+  "base": "https://cse-cst.gc.ca/",
+  "ref": "https://www.cse-cst.gc.ca/en",
+  "name": "加拿大通信安全机构",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "五眼联盟网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "gcsb.govt.nz",
+  "base": "https://gcsb.govt.nz/",
+  "ref": "https://www.gcsb.govt.nz/",
+  "name": "新西兰政府通讯保安局",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "五眼联盟网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "gchq.gov.uk",
+  "base": "https://gchq.gov.uk/",
+  "ref": "https://www.gchq.gov.uk/",
+  "name": "英国政府通讯总部",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "五眼联盟网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "nsa.gov",
+  "base": "https://nsa.gov/",
+  "ref": "https://www.nsa.gov/",
+  "name": "美国国家安全局 |中央安全局",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "五眼联盟网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "homeaffairs.gov.au",
+  "base": "https://homeaffairs.gov.au/",
+  "ref": "https://www.homeaffairs.gov.au/",
+  "name": "澳大利亚内政事务总署",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "五眼联盟网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "mac.gov.tw",
+  "base": "https://mac.gov.tw/",
+  "ref": "https://www.mac.gov.tw/cn/Default.aspx",
+  "name": "台湾陆委会",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "台湾政府机构",
+   "美国政府机构"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 2
+ },
+ {
+  "host": "mnd.gov.tw",
+  "base": "https://mnd.gov.tw/",
+  "ref": "https://www.mnd.gov.tw/",
+  "name": "中华民国国防部-全球信息网-首页",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "台湾政府机构"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 1
+ },
+ {
+  "host": "dset.tw",
+  "base": "https://dset.tw/",
+  "ref": "https://dset.tw/",
+  "name": "科技、民主与社会研究中心",
+  "cat": "gov",
+  "cats": [
+   "gov"
+  ],
+  "folders": [
+   "台湾政府机构"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 1
+ },
+ {
+  "host": "chinadigitaltimes.net",
+  "base": "https://chinadigitaltimes.net/",
+  "ref": "https://chinadigitaltimes.net/#:~:text=CDT%20covers%20China's%20politics,%20society,",
+  "name": "中国数字时代",
+  "cat": "media",
+  "cats": [
+   "media",
+   "thinktank",
+   "rss"
+  ],
+  "folders": [
+   "反华中文即时网站",
+   "定期提供",
+   "智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 5
+ },
+ {
+  "host": "aboluowang.com",
+  "base": "https://aboluowang.com/",
+  "ref": "https://www.aboluowang.com/index.html",
+  "name": "不祥之兆 中国经济又传坏消息 ＊ 阿波罗新闻网",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "反华中文即时网站",
+   "重点"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 5
+ },
+ {
+  "host": "voachinese.com",
+  "base": "https://voachinese.com/",
+  "ref": "https://www.voachinese.com/",
+  "name": "美国之音中文网 您可靠的信息来源",
+  "cat": "media",
+  "cats": [
+   "media",
+   "osint",
+   "thinktank"
+  ],
+  "folders": [
+   "反华中文即时网站",
+   "台湾民意调查",
+   "智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 4
+ },
+ {
+  "host": "rfa.org",
+  "base": "https://rfa.org/",
+  "ref": "https://www.rfa.org/mandarin/",
+  "name": "自由亚洲电台",
+  "cat": "media",
+  "cats": [
+   "media",
+   "osint",
+   "rss"
+  ],
+  "folders": [
+   "反华中文即时网站",
+   "台湾民意调查",
+   "重点"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 4
+ },
+ {
+  "host": "zaobao.com.sg",
+  "base": "https://zaobao.com.sg/",
+  "ref": "https://www.zaobao.com.sg/global",
+  "name": "即时新闻 | 联合早报",
+  "cat": "media",
+  "cats": [
+   "media",
+   "osint"
+  ],
+  "folders": [
+   "即时",
+   "台湾民意调查",
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 3
+ },
+ {
+  "host": "lingbaxianzhang.blogspot.com",
+  "base": "https://lingbaxianzhang.blogspot.com/",
+  "ref": "https://lingbaxianzhang.blogspot.com/",
+  "name": "零八宪章",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站",
+   "国际局势"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "theinitium.com",
+  "base": "https://theinitium.com/",
+  "ref": "https://theinitium.com/",
+  "name": "端传媒Initium Media",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "dw.com",
+  "base": "https://dw.com/",
+  "ref": "https://www.dw.com/zh/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%AF%BC/s-9058",
+  "name": "在线报导 | DW",
+  "cat": "media",
+  "cats": [
+   "media",
+   "osint"
+  ],
+  "folders": [
+   "台湾民意调查",
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "chinademocrats.org",
+  "base": "https://chinademocrats.org/",
+  "ref": "https://chinademocrats.org/",
+  "name": "中国民主转型研究所（每季度一次刊物）",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "国际新闻",
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "thediplomat.com",
+  "base": "https://thediplomat.com/",
+  "ref": "https://thediplomat.com/2024/06/fear-a-militarily-weak-china/",
+  "name": "害怕军事上软弱的中国——外交官",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "国际局势"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "timesofchina.org",
+  "base": "https://timesofchina.org/",
+  "ref": "https://timesofchina.org/",
+  "name": "Times of China - 最新中国与世界新闻",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "thewirechina.com",
+  "base": "https://thewirechina.com/",
+  "ref": "https://www.thewirechina.com/",
+  "name": "The Wire China",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "molihua.org",
+  "base": "https://molihua.org/",
+  "ref": "https://molihua.org/all/",
+  "name": "新闻汇总 - 茉莉花新闻网",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "backchina.com",
+  "base": "https://backchina.com/",
+  "ref": "https://www.backchina.com/",
+  "name": "倍可亲-海外华人中文门户",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "wenxuecity.com",
+  "base": "https://wenxuecity.com/",
+  "ref": "https://www.wenxuecity.com/",
+  "name": "文学城 | 即时滚动新闻, 本地新闻, 热点论坛, 博客 wenxuecity.com",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "news.creaders.net",
+  "base": "https://news.creaders.net/",
+  "ref": "https://news.creaders.net/china/",
+  "name": "中国瞭望主页-万维读者网（电脑版）",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ntdtv.com",
+  "base": "https://ntdtv.com/",
+  "ref": "https://www.ntdtv.com/gb/",
+  "name": "新唐人电视台",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "bannedbook.org",
+  "base": "https://bannedbook.org/",
+  "ref": "https://www.bannedbook.org/bnews/cnnews/",
+  "name": "中国新闻 - 禁闻网",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "chinaworker.info",
+  "base": "https://chinaworker.info/",
+  "ref": "https://chinaworker.info/zh-hans/",
+  "name": "中国劳工论坛 China Worker",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ftchinese.com",
+  "base": "https://ftchinese.com/",
+  "ref": "https://www.ftchinese.com/",
+  "name": "FT中文网 － 全球财经精粹",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "66.ca",
+  "base": "https://66.ca/",
+  "ref": "https://www.66.ca/",
+  "name": "多伦多 六六网 www.66.ca",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "boxun.com",
+  "base": "https://boxun.com/",
+  "ref": "https://boxun.com/",
+  "name": "博讯新闻网 – 最大的公民记者中文新闻网",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华中文即时网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "lutounet.com",
+  "base": "https://lutounet.com/",
+  "ref": "http://www.lutounet.com/",
+  "name": "路透中文网",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ihuawen.com",
+  "base": "https://ihuawen.com/",
+  "ref": "https://www.ihuawen.com/",
+  "name": "今日华闻",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "huaxia.net.au",
+  "base": "https://huaxia.net.au/",
+  "ref": "http://www.huaxia.net.au/",
+  "name": "华厦传媒-澳洲新闻|国际新闻|澳洲分类信息|华人社团|AM 1629",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ouhua.info",
+  "base": "https://ouhua.info/",
+  "ref": "http://www.ouhua.info/",
+  "name": "欧华网 - 西班牙最大的华文新媒体",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "fm961.com",
+  "base": "https://fm961.com/",
+  "ref": "https://www.fm961.com/home_c.php?1704695830",
+  "name": "加拿大中文电台AM1470 FM96.1",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "dawanews.com",
+  "base": "https://dawanews.com/",
+  "ref": "http://www.dawanews.com/",
+  "name": "大华网",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "bbc.com",
+  "base": "https://bbc.com/",
+  "ref": "https://www.bbc.com/zhongwen/simp",
+  "name": "BBC News 中文",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "abc.net.au",
+  "base": "https://abc.net.au/",
+  "ref": "https://www.abc.net.au/news/chinese",
+  "name": "ABC中文 - ABC News",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "www3.nhk.or.jp",
+  "base": "https://www3.nhk.or.jp/",
+  "ref": "https://www3.nhk.or.jp/nhkworld/zh/news/",
+  "name": "新闻提要 | NHK WORLD-JAPAN News",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "外媒中文网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "voanews.com",
+  "base": "https://voanews.com/",
+  "ref": "https://www.voanews.com/a/regretting-coming-to-us-some-illegal-chinese-immigrants-return-home/7561083.html",
+  "name": "一些中国非法移民后悔来到美国，回国",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "国际新闻"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "asiatimes.com",
+  "base": "https://asiatimes.com/",
+  "ref": "https://asiatimes.com/2024/04/politics-of-technology-between-china-and-the-west/",
+  "name": "中国与西方的技术政治 - 亚洲时报",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "国际新闻"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "scmp.com",
+  "base": "https://scmp.com/",
+  "ref": "https://www.scmp.com/news/china/diplomacy/article/3258265/china-gravely-concerned-about-reports-japan-could-join-aukus-security-pact?campaign=3258265&module=perpetual_scroll_0&pgtype=article",
+  "name": "China ‘gravely concerned’ about reports Japan ",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "国际新闻"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "foreignpolicy.com",
+  "base": "https://foreignpolicy.com/",
+  "ref": "https://foreignpolicy.com/2024/04/08/is-india-really-the-next-china/",
+  "name": "印度经济能超过中国吗？",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "国际新闻"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "aljazeera.com",
+  "base": "https://aljazeera.com/",
+  "ref": "https://www.aljazeera.com/features/longform/2024/4/7/philippines-beefs-up-defences-on-its-northernmost-edge-amid-china-tensions",
+  "name": "菲律宾在中国紧张局势中加强其最北端的防御 |南海新闻 |半岛电视台",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "国际新闻"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "amnesty.org",
+  "base": "https://amnesty.org/",
+  "ref": "https://www.amnesty.org/en/latest/campaigns/2024/11/how-do-authorities-use-firewalls-and-other-tools-of-internet-control/",
+  "name": "当局如何使用防火墙和其他互联网控制工具？- 国际特赦组织",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "反华网站免翻墙系列"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "lianows.com",
+  "base": "https://lianows.com/",
+  "ref": "https://lianows.com/",
+  "name": "料来了",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "即时"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "nnews.eu",
+  "base": "https://nnews.eu/",
+  "ref": "https://nnews.eu/",
+  "name": "即时新闻评论 - 今日时事",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "即时"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "blog.creaders.net",
+  "base": "https://blog.creaders.net/",
+  "ref": "https://blog.creaders.net/u/32412/202404/487050.html",
+  "name": "4.29中国社会发展目标与实施政策相互矛盾-中国社会经济-万维博客-万维读者网（电脑版）",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "国际局势"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "2newcenturynet.blogspot.com",
+  "base": "https://2newcenturynet.blogspot.com/",
+  "ref": "https://2newcenturynet.blogspot.com/2024/04/blog-post_945.html",
+  "name": "新世纪 NewCenturyNet: 易富贤：中国内需不足、产能过剩的三大原因",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "国际局势"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "cn.nytimes.com",
+  "base": "https://cn.nytimes.com/",
+  "ref": "https://cn.nytimes.com/opinion/20240613/america-leadership-gaza-ukraine/?utm_source=RSS",
+  "name": "美国已不是世界老大 - 纽约时报中文网",
+  "cat": "media",
+  "cats": [
+   "media"
+  ],
+  "folders": [
+   "国际局势"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "understandingwar.org",
+  "base": "https://understandingwar.org/",
+  "ref": "https://understandingwar.org/",
+  "name": "战争研究所",
+  "cat": "osint",
+  "cats": [
+   "osint",
+   "thinktank"
+  ],
+  "folders": [
+   "开源情报知识",
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "cecc.gov",
+  "base": "https://cecc.gov/",
+  "ref": "https://www.cecc.gov/",
+  "name": "美国国会-行政当局中国委员会",
+  "cat": "osint",
+  "cats": [
+   "osint",
+   "thinktank"
+  ],
+  "folders": [
+   "开源情报知识",
+   "长期关注"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "thecfhk.org",
+  "base": "https://thecfhk.org/",
+  "ref": "https://thecfhk.org/",
+  "name": "香港自由委员会基金会",
+  "cat": "osint",
+  "cats": [
+   "osint",
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网",
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "rfi.fr",
+  "base": "https://rfi.fr/",
+  "ref": "https://www.rfi.fr/cn/",
+  "name": "民调：大多数台湾人认为中国在未来五年入侵可能性不大",
+  "cat": "osint",
+  "cats": [
+   "osint",
+   "ngo"
+  ],
+  "folders": [
+   "其他组织",
+   "台湾民意调查"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "safeguarddefenders.com",
+  "base": "https://safeguarddefenders.com/",
+  "ref": "https://safeguarddefenders.com/en",
+  "name": "保护卫士 |（每个月）",
+  "cat": "osint",
+  "cats": [
+   "osint",
+   "rss"
+  ],
+  "folders": [
+   "定期提供",
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "selectcommitteeontheccp.house.gov",
+  "base": "https://selectcommitteeontheccp.house.gov/",
+  "ref": "https://selectcommitteeontheccp.house.gov/",
+  "name": "中美战略竞争特设委员会",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "关键矿产小组",
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "shahit.biz",
+  "base": "https://shahit.biz/",
+  "ref": "https://shahit.biz/eng/#home",
+  "name": "新疆受害者数据库",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "新疆受害者数据库"
+  ],
+  "mode": "titles_only",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "darkreading.com",
+  "base": "https://darkreading.com/",
+  "ref": "https://www.darkreading.com/",
+  "name": "Dark Reading | Security | Protect The Business",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "美国网络安全组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "eurasiagroup.net",
+  "base": "https://eurasiagroup.net/",
+  "ref": "https://www.eurasiagroup.net/",
+  "name": "欧亚集团 |家，每年1到2次",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "美国网络安全组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "sentinelone.com",
+  "base": "https://sentinelone.com/",
+  "ref": "https://www.sentinelone.com/labs/",
+  "name": "SentinelLabs - 我们是猎人、逆转者、漏洞利用开发人员和修补匠，揭示所有平台上的",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "美国网络安全组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "recordedfuture.com",
+  "base": "https://recordedfuture.com/",
+  "ref": "https://www.recordedfuture.com/",
+  "name": "Recorded Future: Threat Intelligence Cloud",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "美国网络安全组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "intelligenceonline.com",
+  "base": "https://intelligenceonline.com/",
+  "ref": "https://www.intelligenceonline.com/",
+  "name": "全球战略情报 - 情报在线",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "美国网络安全组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "osintteam.com",
+  "base": "https://osintteam.com/",
+  "ref": "https://osintteam.com/",
+  "name": "OSINT TEAM - 开源情报博客",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "美国网络安全组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "welivesecurity.com",
+  "base": "https://welivesecurity.com/",
+  "ref": "https://www.welivesecurity.com/en/",
+  "name": "Award-winning news, views, and insight from th",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "美国网络安全组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "bleepingcomputer.com",
+  "base": "https://bleepingcomputer.com/",
+  "ref": "https://www.bleepingcomputer.com/",
+  "name": "哔哔电脑 |网络安全、技术新闻和支持",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "美国网络安全组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "thehackernews.com",
+  "base": "https://thehackernews.com/",
+  "ref": "https://thehackernews.com/",
+  "name": "黑客新闻 |#1 网络安全新闻的可信来源",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "美国网络安全组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "osintonchina.com",
+  "base": "https://osintonchina.com/",
+  "ref": "https://osintonchina.com/",
+  "name": "中国开源情报公司",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "blog.tibcert.org",
+  "base": "https://blog.tibcert.org/",
+  "ref": "https://blog.tibcert.org/posts/cyber-espionage-against-tibetans-an-analysis-of-over-two-decades-of-publicly-available-data/?fbclid=IwY2xjawHFJiFleHRuA2FlbQIxMAABHTarnERMLpLswaIHOKrT-m32W8Plc-SVAglMZELFWrwLu7gTTEjF4-ISIA_aem_Yd6htccAvVwks57CYhocAQ",
+  "name": "针对藏人的网络间谍活动：对二十多年公开数据的分析",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "bellingcat.com",
+  "base": "https://bellingcat.com/",
+  "ref": "https://www.bellingcat.com/",
+  "name": "Bellingcat - 在线调查之家",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "gfw.report",
+  "base": "https://gfw.report/",
+  "ref": "https://gfw.report/zh/",
+  "name": "Great Firewall Report - GFW Report",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "sankei.com",
+  "base": "https://sankei.com/",
+  "ref": "https://www.sankei.com/",
+  "name": "日本《产经新闻》",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "opentech.fund",
+  "base": "https://opentech.fund/",
+  "ref": "https://www.opentech.fund/",
+  "name": "OTF |支持全球互联网自由",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "smallwarsjournal.com",
+  "base": "https://smallwarsjournal.com/",
+  "ref": "https://smallwarsjournal.com/",
+  "name": "亚利桑那州立大学的《小战争杂志》",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "chinapower.csis.org",
+  "base": "https://chinapower.csis.org/",
+  "ref": "https://chinapower.csis.org/",
+  "name": "ChinaPower 项目",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "intelligence.house.gov",
+  "base": "https://intelligence.house.gov/",
+  "ref": "https://intelligence.house.gov/",
+  "name": "众议院情报委员会",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "twz.com",
+  "base": "https://twz.com/",
+  "ref": "https://www.twz.com/",
+  "name": "战区",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "feed.laborinfocn7.com",
+  "base": "https://feed.laborinfocn7.com/",
+  "ref": "https://feed.laborinfocn7.com/",
+  "name": "工劳小报｜工劳快讯",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "fnvaworld.org",
+  "base": "https://fnvaworld.org/",
+  "ref": "https://fnvaworld.org/",
+  "name": "非暴力替代基金会 （FNVA）",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "cdpweb.org",
+  "base": "https://cdpweb.org/",
+  "ref": "https://www.cdpweb.org/",
+  "name": "中国民主党",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "uschinadialogue.georgetown.edu",
+  "base": "https://uschinadialogue.georgetown.edu/",
+  "ref": "https://uschinadialogue.georgetown.edu/cn/",
+  "name": "美中全球议题对话项目",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "csri.global",
+  "base": "https://csri.global/",
+  "ref": "https://www.csri.global/",
+  "name": "英国 中国战略风险研究院",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "yingjiexinshiji.com",
+  "base": "https://yingjiexinshiji.com/",
+  "ref": "https://yingjiexinshiji.com/",
+  "name": "迎接新世纪 – 传播真相 回归传统",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "citizenlab.ca",
+  "base": "https://citizenlab.ca/",
+  "ref": "https://citizenlab.ca/",
+  "name": "多伦多大学，公民实验室",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "endtransplantabuse.org",
+  "base": "https://endtransplantabuse.org/",
+  "ref": "https://endtransplantabuse.org/",
+  "name": "终止中国器官移植滥用国际联盟",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "chinaaction.org",
+  "base": "https://chinaaction.org/",
+  "ref": "https://chinaaction.org/",
+  "name": "中国行动",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "开源情报知识"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "tenchu.org",
+  "base": "https://tenchu.org/",
+  "ref": "https://tenchu.org/pocd/public/pocs/1362",
+  "name": "中国大陆良心犯资料库",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "关键矿产小组"
+  ],
+  "mode": "titles_only",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "utjd.org",
+  "base": "https://utjd.org/",
+  "ref": "https://www.utjd.org/",
+  "name": "UTJD - Uyghur Transitional Justice Database",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "新疆受害者数据库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "sinchew.com.my",
+  "base": "https://sinchew.com.my/",
+  "ref": "https://www.sinchew.com.my/news/20241009/international/5982737",
+  "name": "台国防安全研究院民调显示67.8%受访者愿为保卫台湾而战 - 国际 - 即时国际",
+  "cat": "osint",
+  "cats": [
+   "osint"
+  ],
+  "folders": [
+   "台湾民意调查"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "indsr.org.tw",
+  "base": "https://indsr.org.tw/",
+  "ref": "https://indsr.org.tw/",
+  "name": "（台湾）国防安全研究院-首页",
+  "cat": "osint",
+  "cats": [
+   "osint",
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库",
+   "台湾民意调查"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 2
+ },
+ {
+  "host": "secretchina.com",
+  "base": "https://secretchina.com/",
+  "ref": "https://www.secretchina.com/news/gb/2024/10/10/1070973.html",
+  "name": "赖总统国庆演说：中共无权代表台湾【致词全文】(组图) 中華民國 | 时政聚焦 || 看中国网",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 7
+ },
+ {
+  "host": "asiasociety.org",
+  "base": "https://asiasociety.org/",
+  "ref": "https://asiasociety.org/",
+  "name": "亚洲协会",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库",
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 3
+ },
+ {
+  "host": "csis.org",
+  "base": "https://csis.org/",
+  "ref": "https://www.csis.org/",
+  "name": "安情局 |战略与国际研究中心",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库",
+   "智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "smhric.org",
+  "base": "https://smhric.org/",
+  "ref": "https://www.smhric.org/",
+  "name": "南蒙古人权信息中心",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "reaganfoundation.org",
+  "base": "https://reaganfoundation.org/",
+  "ref": "https://www.reaganfoundation.org/",
+  "name": "罗纳德·里根研究所",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "分析评论库",
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "features.csis.org",
+  "base": "https://features.csis.org/",
+  "ref": "https://features.csis.org/US-bird-flu-response/",
+  "name": "对下一届政府的全球发展建议",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "长期关注"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "chinaglobalsouth.com",
+  "base": "https://chinaglobalsouth.com/",
+  "ref": "https://chinaglobalsouth.com/",
+  "name": "中国-全球南方项目 – CGSP",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "cato.org",
+  "base": "https://cato.org/",
+  "ref": "https://www.cato.org/",
+  "name": "卡托研究所 |个人自由、自由市场与和平",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "fraserinstitute.org",
+  "base": "https://fraserinstitute.org/",
+  "ref": "https://www.fraserinstitute.org/",
+  "name": "弗雷泽研究所 |弗雷泽研究所",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "gallup.com",
+  "base": "https://gallup.com/",
+  "ref": "https://www.gallup.com/home.aspx",
+  "name": "盖洛普 - 工作场所咨询与全球研究",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "merics.org",
+  "base": "https://merics.org/",
+  "ref": "https://merics.org/en",
+  "name": "墨卡托中国研究所 （MERICS）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "breakingdefense.com",
+  "base": "https://breakingdefense.com/",
+  "ref": "https://breakingdefense.com/",
+  "name": "Breaking Defense - 国防行业新闻、分析和评论",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "geostrategy.org.uk",
+  "base": "https://geostrategy.org.uk/",
+  "ref": "https://www.geostrategy.org.uk/",
+  "name": "英国地缘战略委员会",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "globaltaiwan.org",
+  "base": "https://globaltaiwan.org/",
+  "ref": "https://globaltaiwan.org/",
+  "name": "华盛顿全球台湾研究中心",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "cnas.org",
+  "base": "https://cnas.org/",
+  "ref": "https://www.cnas.org/",
+  "name": "新美国安全中心 （zh-CN）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "jamestown.org",
+  "base": "https://jamestown.org/",
+  "ref": "https://jamestown.org/",
+  "name": "詹姆斯敦基金会",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "fpri.org",
+  "base": "https://fpri.org/",
+  "ref": "https://www.fpri.org/",
+  "name": "外交政策研究所 - 国际政策智库",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "cepa.org",
+  "base": "https://cepa.org/",
+  "ref": "https://cepa.org/",
+  "name": "欧洲政策分析中心 （CEPA） - CEPA",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "sipri.org",
+  "base": "https://sipri.org/",
+  "ref": "https://www.sipri.org/",
+  "name": "斯德哥尔摩国际和平研究所",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "globalaffairs.org",
+  "base": "https://globalaffairs.org/",
+  "ref": "https://globalaffairs.org/",
+  "name": "芝加哥全球事务委员会 |芝加哥全球事务委员会",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "常用智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "hinrichfoundation.com",
+  "base": "https://hinrichfoundation.com/",
+  "ref": "https://www.hinrichfoundation.com/",
+  "name": "Hinrich基金会 |促进可持续的全球贸易",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "thinktankwatch.com",
+  "base": "https://thinktankwatch.com/",
+  "ref": "http://www.thinktankwatch.com/",
+  "name": "智库观察",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ember-climate.org",
+  "base": "https://ember-climate.org/",
+  "ref": "https://ember-climate.org/zh-hans/",
+  "name": "电力政策智库",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "crsreports.congress.gov",
+  "base": "https://crsreports.congress.gov/",
+  "ref": "https://crsreports.congress.gov/",
+  "name": "CRS报告",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "inss.ndu.edu",
+  "base": "https://inss.ndu.edu/",
+  "ref": "https://inss.ndu.edu/",
+  "name": "国家战略研究所 （INSS）（英国）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ukctransparency.org",
+  "base": "https://ukctransparency.org/",
+  "ref": "https://ukctransparency.org/",
+  "name": "英中透视",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "dfrlab.org",
+  "base": "https://dfrlab.org/",
+  "ref": "https://dfrlab.org/",
+  "name": "DFRLab - DFRLab（大西洋理事会对华研究）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "etnc.info",
+  "base": "https://etnc.info/",
+  "ref": "https://etnc.info/",
+  "name": "European Think-tank Network on China",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "weforum.org",
+  "base": "https://weforum.org/",
+  "ref": "https://www.weforum.org/",
+  "name": "世界经济论坛",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "crisisgroup.org",
+  "base": "https://crisisgroup.org/",
+  "ref": "https://www.crisisgroup.org/#:~:text=Crisis%20Group%20is%20an%20independent,",
+  "name": "世界危机小组",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "foreignaffairs.com",
+  "base": "https://foreignaffairs.com/",
+  "ref": "https://www.foreignaffairs.com/",
+  "name": "《外交事务》杂志",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ecfr.eu",
+  "base": "https://ecfr.eu/",
+  "ref": "https://ecfr.eu/",
+  "name": "欧洲对外关系智库",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ui4freedom.org",
+  "base": "https://ui4freedom.org/",
+  "ref": "https://ui4freedom.org/UIF_help/",
+  "name": "UIforFreedom - 官方文档 | UIF",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "其他智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "fdd.org",
+  "base": "https://fdd.org/",
+  "ref": "https://www.fdd.org/",
+  "name": "FDD |保卫民主基金会",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "brookings.edu",
+  "base": "https://brookings.edu/",
+  "ref": "https://www.brookings.edu/",
+  "name": "布鲁金斯 - 质量。独立。冲击。",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "carnegieendowment.org",
+  "base": "https://carnegieendowment.org/",
+  "ref": "https://carnegieendowment.org/",
+  "name": "卡内基国际和平研究院",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "heritage.org",
+  "base": "https://heritage.org/",
+  "ref": "https://www.heritage.org/",
+  "name": "传统基金会",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "aei.org",
+  "base": "https://aei.org/",
+  "ref": "https://www.aei.org/",
+  "name": "美国企业研究所 - AEI |美国企业研究所（AEI）是一个无党派的公共政策研究机构，拥有致",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "hudson.org",
+  "base": "https://hudson.org/",
+  "ref": "https://www.hudson.org/",
+  "name": "哈德森",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "americanprogress.org",
+  "base": "https://americanprogress.org/",
+  "ref": "https://www.americanprogress.org/",
+  "name": "美国进步中心",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "piie.com",
+  "base": "https://piie.com/",
+  "ref": "https://www.piie.com/",
+  "name": "彼得森国际经济研究所",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "rsis.edu.sg",
+  "base": "https://rsis.edu.sg/",
+  "ref": "https://www.rsis.edu.sg/",
+  "name": "拉惹勒南国际研究学院",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "bigdatachina.csis.org",
+  "base": "https://bigdatachina.csis.org/",
+  "ref": "https://bigdatachina.csis.org/",
+  "name": "大数据中国",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "itif.org",
+  "base": "https://itif.org/",
+  "ref": "https://itif.org/",
+  "name": "科技政策智库信息技术与创新基金会（ITIF）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "theoutlawocean.com",
+  "base": "https://theoutlawocean.com/",
+  "ref": "https://www.theoutlawocean.com/investigations/china-the-superpower-of-seafood/",
+  "name": "中国：海鲜的超级大国 |Outlaw 海洋项目",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "jp.sentinelone.com",
+  "base": "https://jp.sentinelone.com/",
+  "ref": "https://jp.sentinelone.com/labs/",
+  "name": "Labs アーカイブ | SentinelOne JP",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "美国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "amro-asia.org",
+  "base": "https://amro-asia.org/",
+  "ref": "https://amro-asia.org/",
+  "name": "东盟+3宏观经济研究办公室",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "中国十大智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "jiia.or.jp",
+  "base": "https://jiia.or.jp/",
+  "ref": "https://www.jiia.or.jp/en/",
+  "name": "日本国际事务研究所",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "世界智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "sejong.org",
+  "base": "https://sejong.org/",
+  "ref": "https://www.sejong.org/web/eng/main/index.php",
+  "name": "The Sejong Institute",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "世界智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "imi.org.ua",
+  "base": "https://imi.org.ua/",
+  "ref": "https://imi.org.ua/en/",
+  "name": "大众信息研究所（乌克兰）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "世界智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ifw-kiel.de",
+  "base": "https://ifw-kiel.de/",
+  "ref": "https://www.ifw-kiel.de/",
+  "name": "基尔研究所 - 理解和塑造全球化 |基尔研究所",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "世界智库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "theatlantic.com",
+  "base": "https://theatlantic.com/",
+  "ref": "https://www.theatlantic.com/",
+  "name": "大西洋周刊",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "研究中心"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ipsos.com",
+  "base": "https://ipsos.com/",
+  "ref": "https://www.ipsos.com/zh-cn",
+  "name": "Ipsos | 全球领先的用户洞察与策略咨询公司",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "研究中心"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "eastasiaforum.org",
+  "base": "https://eastasiaforum.org/",
+  "ref": "https://eastasiaforum.org/",
+  "name": "东亚论坛",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "研究中心"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "deutschland.de",
+  "base": "https://deutschland.de/",
+  "ref": "https://www.deutschland.de/zh-hans/topic/zhishi/bailindezhikuwaijiaozhengcehejingjidezhuanjiayijian",
+  "name": "柏林的智库：外交政策和经济的专家意见。",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "智库研究文章"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "conflictarm.com",
+  "base": "https://conflictarm.com/",
+  "ref": "https://www.conflictarm.com/",
+  "name": "冲突军备研究",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "分析评论库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ejfoundation.org",
+  "base": "https://ejfoundation.org/",
+  "ref": "https://ejfoundation.org/",
+  "name": "环境正义基金会 |主页",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "分析评论库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "gids-hamburg.de",
+  "base": "https://gids-hamburg.de/",
+  "ref": "https://gids-hamburg.de/",
+  "name": "GIDS – 德国国防与战略研究所 （GIDS） - 汉堡",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "分析评论库"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "pori.hk",
+  "base": "https://pori.hk/",
+  "ref": "https://www.pori.hk/",
+  "name": "HKPORI - 香港民意研究所",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank"
+  ],
+  "folders": [
+   "研究中心"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 1
+ },
+ {
+  "host": "dasheng.media",
+  "base": "https://dasheng.media/",
+  "ref": "https://www.dasheng.media/",
+  "name": "大声 - 大聲 - Dasheng 自由体面美的华语精神文化生活",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "ipac.global",
+  "base": "https://ipac.global/",
+  "ref": "https://ipac.global/",
+  "name": "对华政策跨国议会联盟",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "hkdc.us",
+  "base": "https://hkdc.us/",
+  "ref": "https://www.hkdc.us/",
+  "name": "香港民主委员会",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网",
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "usali.org",
+  "base": "https://usali.org/",
+  "ref": "https://usali.org/",
+  "name": "美亚法律研究所",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "seajunction.org",
+  "base": "https://seajunction.org/",
+  "ref": "https://seajunction.org/",
+  "name": "电子图书馆 - SEA Junction",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "其他组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "news.usni.org",
+  "base": "https://news.usni.org/",
+  "ref": "https://news.usni.org/author/us-naval-institute-staff",
+  "name": "美国海军学院工作人员（大量国会报告每周2-3次）",
+  "cat": "ngo",
+  "cats": [
+   "ngo",
+   "rss"
+  ],
+  "folders": [
+   "其他组织",
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "opensocietyfoundations.org",
+  "base": "https://opensocietyfoundations.org/",
+  "ref": "https://www.opensocietyfoundations.org/",
+  "name": "开放社会基金会",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "atc.org.au",
+  "base": "https://atc.org.au/",
+  "ref": "https://www.atc.org.au/",
+  "name": "澳大利亚西藏委员会",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 2
+ },
+ {
+  "host": "youthforhumanrights.org",
+  "base": "https://youthforhumanrights.org/",
+  "ref": "https://www.youthforhumanrights.org/",
+  "name": "国际青少年人权协会",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "new.hrichina.org",
+  "base": "https://new.hrichina.org/",
+  "ref": "https://new.hrichina.org/",
+  "name": "中国人权官网",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "worldjusticeproject.org",
+  "base": "https://worldjusticeproject.org/",
+  "ref": "https://worldjusticeproject.org/",
+  "name": "世界正义工程（法治指数）",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "news.china.com.au",
+  "base": "https://news.china.com.au/",
+  "ref": "https://news.china.com.au/",
+  "name": "澳洲唐人街 – Australia ChinaTown News 中文华人新闻 – NEWS",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "fdc64.org",
+  "base": "https://fdc64.org/",
+  "ref": "https://fdc64.org/index.php/about-fdc/introduction-of-fdc",
+  "name": "民主中國陣線（民陣）Federation for a Democratic China (F",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "libertysculpturepark.com",
+  "base": "https://libertysculpturepark.com/",
+  "ref": "https://www.libertysculpturepark.com/",
+  "name": "自由雕塑公园官方网站 | Liberty Sculpture Park| |美国加州",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "indexoncensorship.org",
+  "base": "https://indexoncensorship.org/",
+  "ref": "https://www.indexoncensorship.org/",
+  "name": "总部设于伦敦的国际知名言论自由机构“查禁目录”",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "hausderdemokratie.de",
+  "base": "https://hausderdemokratie.de/",
+  "ref": "https://www.hausderdemokratie.de/Veranstaltung?event_id=527&event_link=Veranstaltungen&show_event=",
+  "name": "HdDM 德国民主之家",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "chinadeviants.org",
+  "base": "https://chinadeviants.org/",
+  "ref": "https://chinadeviants.org/",
+  "name": "中国反贼",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "tadc.ca",
+  "base": "https://tadc.ca/",
+  "ref": "https://www.tadc.ca/",
+  "name": "多倫多支持中國民運會",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "doublethinklab.org",
+  "base": "https://doublethinklab.org/",
+  "ref": "https://doublethinklab.org/",
+  "name": "Doublethink实验室",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "factchecklab.org",
+  "base": "https://factchecklab.org/",
+  "ref": "https://www.factchecklab.org/",
+  "name": "Factcheck Lab 事实查核实验室",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "sfquantum.github.io",
+  "base": "https://sfquantum.github.io/",
+  "ref": "https://sfquantum.github.io/nfsc/",
+  "name": "新中国联邦",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "zhuichaguoji.org",
+  "base": "https://zhuichaguoji.org/",
+  "ref": "https://www.zhuichaguoji.org/",
+  "name": "追查迫害法轮功国际组织",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "rsf.org",
+  "base": "https://rsf.org/",
+  "ref": "https://rsf.org/en",
+  "name": "无国界记者网",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "counterhate.com",
+  "base": "https://counterhate.com/",
+  "ref": "https://counterhate.com/",
+  "name": "打击数字仇恨中心 |CCDH 系列",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "samadamsaward.ch",
+  "base": "https://samadamsaward.ch/",
+  "ref": "https://samadamsaward.ch/",
+  "name": "山姆·亚当斯情报诚信协会",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "其他组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "americanswhotellthetruth.org",
+  "base": "https://americanswhotellthetruth.org/",
+  "ref": "https://americanswhotellthetruth.org/portraits/sibel-edmonds/",
+  "name": "Sibel Edmonds - 说实话的美国人",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "其他组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "aiddata.org",
+  "base": "https://aiddata.org/",
+  "ref": "https://www.aiddata.org/",
+  "name": "AidData — 威廉玛丽学院的研究实验室",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "其他组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "icij.org",
+  "base": "https://icij.org/",
+  "ref": "https://www.icij.org/",
+  "name": "国际调查记者联盟 - ICIJ",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "其他组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "twreporter.org",
+  "base": "https://twreporter.org/",
+  "ref": "https://www.twreporter.org/?gclid=Cj0KCQiAraSPBhDuARIsAM3Js4omU95lVCIlO8VFIIPSu0ycraaAM_pR3rZiQ91BhzykUIBnAqfsVm8aAkm2EALw_wcB",
+  "name": "報導者 The Reporter",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "其他组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "westca.com",
+  "base": "https://westca.com/",
+  "ref": "https://www.westca.com/",
+  "name": "加西网 - 温哥华新闻,温哥华地产,温哥华教育,温哥华汽车,温哥华留学 - 温哥华中文门户网",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "其他组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ndi.org",
+  "base": "https://ndi.org/",
+  "ref": "https://www.ndi.org/",
+  "name": "国家民主研究所 |（美国在全球范围内推进政权更迭行动）",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "iri.org",
+  "base": "https://iri.org/",
+  "ref": "https://www.iri.org/",
+  "name": "美国国际共和研究所 IRI",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "cipe.org",
+  "base": "https://cipe.org/",
+  "ref": "https://www.cipe.org/",
+  "name": "我们是 CIPE - 国际私营企业中心",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "solidaritycenter.org",
+  "base": "https://solidaritycenter.org/",
+  "ref": "https://www.solidaritycenter.org/",
+  "name": "团结中心 - 在全球范围内促进工人权利",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "globalhand.org",
+  "base": "https://globalhand.org/",
+  "ref": "https://www.globalhand.org/en/organisations/24349",
+  "name": "美国国际劳工团结中心 （Solidarity Center） |企业非政府组织合作伙伴关系",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "hongkongfp.com",
+  "base": "https://hongkongfp.com/",
+  "ref": "https://hongkongfp.com/china-news/",
+  "name": "中国新闻 |香港自由新闻",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "chinadem.org",
+  "base": "https://chinadem.org/",
+  "ref": "https://chinadem.org/",
+  "name": "中国民主基金",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "aspi.org.au",
+  "base": "https://aspi.org.au/",
+  "ref": "https://www.aspi.org.au/",
+  "name": "澳大利亚战略政策研究所 |ASPI",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "chinatechthreat.com",
+  "base": "https://chinatechthreat.com/",
+  "ref": "https://chinatechthreat.com/",
+  "name": "中国科技威胁",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "govtribe.com",
+  "base": "https://govtribe.com/",
+  "ref": "https://govtribe.com/vendors/horizon-advisory-partners-llc-8gme2",
+  "name": "地平线有限责任公司",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "cira.exovera.com",
+  "base": "https://cira.exovera.com/",
+  "ref": "https://cira.exovera.com/",
+  "name": "CIRA：情报研究与分析中心",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "dpcla.org",
+  "base": "https://dpcla.org/",
+  "ref": "https://dpcla.org/",
+  "name": "中国民主党洛杉矶委员会",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "jinian64.org",
+  "base": "https://jinian64.org/",
+  "ref": "https://jinian64.org/",
+  "name": "六 四 纪 念馆 – 6 月 4 日大屠杀纪念协会",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "nmsl.website",
+  "base": "https://nmsl.website/",
+  "ref": "https://nmsl.website/%E9%A6%96%E9%A1%B5",
+  "name": "孤兒展覽館",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "shanghainationalparty.com",
+  "base": "https://shanghainationalparty.com/",
+  "ref": "https://shanghainationalparty.com/",
+  "name": "Shanghai National上海民族党 – 脱华归欧，全盘西化",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "endccp.ueuo.com",
+  "base": "https://endccp.ueuo.com/",
+  "ref": "https://endccp.ueuo.com/",
+  "name": "开园网",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ichka.org",
+  "base": "https://ichka.org/",
+  "ref": "https://ichka.org/hk/",
+  "name": "香港独立倡议委员会（Independent Committee for Hong Kong ",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "fdcusa.org",
+  "base": "https://fdcusa.org/",
+  "ref": "https://fdcusa.org/?p=2041",
+  "name": "中国民主人权联盟简介 – FDCUSA",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "lacd01.com",
+  "base": "https://lacd01.com/",
+  "ref": "https://lacd01.com/",
+  "name": "洛杉矶中国民主平台",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "anticcp.nl",
+  "base": "https://anticcp.nl/",
+  "ref": "https://www.anticcp.nl/",
+  "name": "反共之聲",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "hkers.org.uk",
+  "base": "https://hkers.org.uk/",
+  "ref": "https://hkers.org.uk/hongkongers_in_leeds/zh",
+  "name": "列斯手足連線",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "bonhamtreeaid.org",
+  "base": "https://bonhamtreeaid.org/",
+  "ref": "https://www.bonhamtreeaid.org/",
+  "name": "支援在囚人士 | 細葉榕人道支援基金",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "freechinablog.com",
+  "base": "https://freechinablog.com/",
+  "ref": "https://freechinablog.com/sample-page/",
+  "name": "Free China Today - 免费中国博客",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "minzhen.org",
+  "base": "https://minzhen.org/",
+  "ref": "https://www.minzhen.org/index.php/zh-cn/",
+  "name": "民主中國陣線（民陣）Federation for a Democratic China (F",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "反动组织网站"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "global-unions.org",
+  "base": "https://global-unions.org/",
+  "ref": "https://www.global-unions.org/",
+  "name": "全球工会 - 携手争取工人权利",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "劳工组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "workersrights.org",
+  "base": "https://workersrights.org/",
+  "ref": "https://www.workersrights.org/",
+  "name": "工人权利联盟",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "劳工组织"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "walkfree.org",
+  "base": "https://walkfree.org/",
+  "ref": "https://www.walkfree.org/global-slavery-index/",
+  "name": "全球奴隶制指数 |自由行走",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "人口买卖监测"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "polarisproject.org",
+  "base": "https://polarisproject.org/",
+  "ref": "https://polarisproject.org/",
+  "name": "Polaris",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "人口买卖监测"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ijm.org",
+  "base": "https://ijm.org/",
+  "ref": "https://www.ijm.org/",
+  "name": "国际正义使命 |永远结束现代奴隶制",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "人口买卖监测"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "freetheslaves.net",
+  "base": "https://freetheslaves.net/",
+  "ref": "https://freetheslaves.net/",
+  "name": "结束现代奴隶制 - 解放奴隶",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "人口买卖监测"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "iom.int",
+  "base": "https://iom.int/",
+  "ref": "https://www.iom.int/",
+  "name": "国际移民组织 |国际移民组织、联合国移民事务所",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "人口买卖监测"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "unodc.org",
+  "base": "https://unodc.org/",
+  "ref": "https://www.unodc.org/",
+  "name": "联合国毒品和犯罪问题办公室",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "人口买卖监测"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ilo.org",
+  "base": "https://ilo.org/",
+  "ref": "https://www.ilo.org/",
+  "name": "国际劳工组织主页 |国际劳工组织",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "人口买卖监测"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "snopes.com",
+  "base": "https://snopes.com/",
+  "ref": "https://www.snopes.com/",
+  "name": "Snopes（事实核查）",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "事实核查"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "factcheck.org",
+  "base": "https://factcheck.org/",
+  "ref": "https://www.factcheck.org/",
+  "name": "FactCheck（美国事实核查）",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "事实核查"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "poynter.org",
+  "base": "https://poynter.org/",
+  "ref": "https://www.poynter.org/",
+  "name": "波因特 - 波因特",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "事实核查"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "fullfact.org",
+  "base": "https://fullfact.org/",
+  "ref": "https://fullfact.org/latest/",
+  "name": "最新事实核查 – 完整事实（英国）",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "事实核查"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "mediabiasfactcheck.com",
+  "base": "https://mediabiasfactcheck.com/",
+  "ref": "https://mediabiasfactcheck.com/",
+  "name": "媒体偏见/事实核查 - 搜索并了解新闻媒体的偏见",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "事实核查"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "mediamatters.org",
+  "base": "https://mediamatters.org/",
+  "ref": "https://www.mediamatters.org/",
+  "name": "媒体对美国很重要",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "事实核查"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "openleaks.org",
+  "base": "https://openleaks.org/",
+  "ref": "https://openleaks.org/",
+  "name": "Open Leaks",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "维基解密"
+  ],
+  "mode": "titles_only",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "transparency.org",
+  "base": "https://transparency.org/",
+  "ref": "https://www.transparency.org/en/",
+  "name": "Transparency.org全球反腐败组织",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "维基解密"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "cryptome.org",
+  "base": "https://cryptome.org/",
+  "ref": "https://cryptome.org/",
+  "name": "Cryptome",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "维基解密"
+  ],
+  "mode": "titles_only",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "publicintelligence.net",
+  "base": "https://publicintelligence.net/",
+  "ref": "https://publicintelligence.net/",
+  "name": "公共情报",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "维基解密"
+  ],
+  "mode": "titles_only",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "privacyinternational.org",
+  "base": "https://privacyinternational.org/",
+  "ref": "https://privacyinternational.org/",
+  "name": "国际隐私",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "维基解密"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "opensecrets.org",
+  "base": "https://opensecrets.org/",
+  "ref": "https://www.opensecrets.org/",
+  "name": "OpenSecrets",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "维基解密"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "documentcloud.org",
+  "base": "https://documentcloud.org/",
+  "ref": "https://www.documentcloud.org/home",
+  "name": "DocumentCloud",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "维基解密"
+  ],
+  "mode": "titles_only",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "wikileaks.org",
+  "base": "https://wikileaks.org/",
+  "ref": "https://wikileaks.org/",
+  "name": "WikiLeaks",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "维基解密"
+  ],
+  "mode": "titles_only",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "muckrock.com",
+  "base": "https://muckrock.com/",
+  "ref": "https://www.muckrock.com/",
+  "name": "捣碎石",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "维基解密"
+  ],
+  "mode": "titles_only",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "ait.org.tw",
+  "base": "https://ait.org.tw/",
+  "ref": "https://www.ait.org.tw/zhtw/",
+  "name": "美国在台协会",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 1
+ },
+ {
+  "host": "hkja.org.hk",
+  "base": "https://hkja.org.hk/",
+  "ref": "https://www.hkja.org.hk/zh/",
+  "name": "香港记者协会",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 1
+ },
+ {
+  "host": "tidf.org.tw",
+  "base": "https://tidf.org.tw/",
+  "ref": "https://www.tidf.org.tw/zh-hant",
+  "name": "台湾国际纪录片影展",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "各类组织官网"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 1
+ },
+ {
+  "host": "newtalk.tw",
+  "base": "https://newtalk.tw/",
+  "ref": "https://newtalk.tw/",
+  "name": "Newtalk新闻",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "其他组织"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 1
+ },
+ {
+  "host": "chinatimes.com.hk",
+  "base": "https://chinatimes.com.hk/",
+  "ref": "https://chinatimes.com.hk/20200809/23606",
+  "name": "索罗斯和开放社会基金会 - 中华時報China Times",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "美国国家民主基金会"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 1
+ },
+ {
+  "host": "clb.org.hk",
+  "base": "https://clb.org.hk/",
+  "ref": "https://clb.org.hk/zh-hans",
+  "name": "中国劳工通讯",
+  "cat": "ngo",
+  "cats": [
+   "ngo"
+  ],
+  "folders": [
+   "劳工组织"
+  ],
+  "mode": "full",
+  "region": "tw/hk",
+  "bookmarks": 1
+ },
+ {
+  "host": "chinainperspective.com",
+  "base": "https://chinainperspective.com/",
+  "ref": "https://www.chinainperspective.com/",
+  "name": "纵览中国",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "dialoguechina.com",
+  "base": "https://dialoguechina.com/",
+  "ref": "https://www.dialoguechina.com/",
+  "name": "对华中国",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "chinadissent.net",
+  "base": "https://chinadissent.net/",
+  "ref": "https://chinadissent.net/zh/detail",
+  "name": "异言网",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "hackread.com",
+  "base": "https://hackread.com/",
+  "ref": "https://hackread.com/",
+  "name": "Hackread - 最新的网络安全新闻、新闻稿和技术",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "hrichina.substack.com",
+  "base": "https://hrichina.substack.com/",
+  "ref": "https://hrichina.substack.com/",
+  "name": "中国人权 （每周一次简报）",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "worldview.stratfor.com",
+  "base": "https://worldview.stratfor.com/",
+  "ref": "https://worldview.stratfor.com/",
+  "name": "Stratfor：世界领先的地缘政治情报平台（每周）",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "rhg.com",
+  "base": "https://rhg.com/",
+  "ref": "https://rhg.com/china/",
+  "name": "中国 – 荣鼎咨询集团（每月2-3篇）",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "studentsforafreetibet.org",
+  "base": "https://studentsforafreetibet.org/",
+  "ref": "https://studentsforafreetibet.org/",
+  "name": "自由西藏学生",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "duihua.org",
+  "base": "https://duihua.org/",
+  "ref": "https://duihua.org/",
+  "name": "对华基金会",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "uyghurstudy.org",
+  "base": "https://uyghurstudy.org/",
+  "ref": "https://uyghurstudy.org/",
+  "name": "乔治华盛顿大学维吾尔族研究中心(每月1到2次）",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "jpolrisk.com",
+  "base": "https://jpolrisk.com/",
+  "ref": "https://www.jpolrisk.com/",
+  "name": "政治风险杂志",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "h-china.org",
+  "base": "https://h-china.org/",
+  "ref": "https://h-china.org/",
+  "name": "人道主义中国人道主义中国 |为了人道的中国社会",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "minzhuzhongguo.org",
+  "base": "https://minzhuzhongguo.org/",
+  "ref": "https://www.minzhuzhongguo.org/#:~:text=%E6%8B%9C%E7%99%BB%E6%80%BB%E7%BB%9F%E8%81%94%E5%A4%A7%E5%91%8A%E5%88%AB%E6%BC%94%E8%AF%B4",
+  "name": "民主中国 | minzhuzhongguo.org",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "turquoiseroof.org",
+  "base": "https://turquoiseroof.org/",
+  "ref": "https://turquoiseroof.org/",
+  "name": "Turquoise Roof，今日西藏简报门户网站",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "feedx.net",
+  "base": "https://feedx.net/",
+  "ref": "https://feedx.net/read?r=economist",
+  "name": "The Economist | RSS在线阅读 - FeedX",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "个性化订阅"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "freedomhouse.org",
+  "base": "https://freedomhouse.org/",
+  "ref": "https://freedomhouse.org/article/eight-things-freedom-house-has-learned-about-protests-china",
+  "name": "自由之家对中国抗议活动的八件事 |自由之家",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "重要"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "thegrayzone.com",
+  "base": "https://thegrayzone.com/",
+  "ref": "https://thegrayzone.com/2024/09/30/us-plot-destabilize-bangladesh/",
+  "name": "泄露的文件揭露了美国政府“破坏孟加拉国政治稳定”的秘密阴谋 - The Grayzone",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "重要"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "thebureauinvestigates.com",
+  "base": "https://thebureauinvestigates.com/",
+  "ref": "https://www.thebureauinvestigates.com/",
+  "name": "新闻调查局",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "重要"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "hkaccountability.org",
+  "base": "https://hkaccountability.org/",
+  "ref": "https://hkaccountability.org/",
+  "name": "HK Archive",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "重要"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "energyandcleanair.org",
+  "base": "https://energyandcleanair.org/",
+  "ref": "https://energyandcleanair.org/zh/",
+  "name": "能源与清洁空气研究中心 (CREA)",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "重要"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ },
+ {
+  "host": "feed.laborinfocn3.com",
+  "base": "https://feed.laborinfocn3.com/",
+  "ref": "https://feed.laborinfocn3.com/",
+  "name": "工劳小报｜工劳快讯",
+  "cat": "rss",
+  "cats": [
+   "rss"
+  ],
+  "folders": [
+   "重要"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 1
+ }
+]
