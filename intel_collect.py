@@ -421,11 +421,20 @@ def main():
     topic = re.compile(TOPIC_RE, re.I)
     # 机构源清单：以 status=active 为准，被降级/停用的高噪声源连同其存量条目一并净化
     inst_meta = load_json(INST_SRC) if os.path.exists(INST_SRC) else []
-    all_inst_hosts, active_inst_hosts = set(), set()
+    all_inst_hosts, active_inst_hosts, relax_inst_hosts = set(), set(), set()
     for _s in inst_meta:
         all_inst_hosts.add(_s.get("host", ""))
         if _s.get("status") == "active" and _s.get("feed_url") and "sitemap" not in _s["feed_url"]:
             active_inst_hosts.add(_s.get("host", ""))
+            # 智库/政府/OSINT 专业机构，或近30篇涉华比例高的专项源：正文涉华即可，标题不强制
+            if _s.get("cat") in ("thinktank", "gov", "osint") or (_s.get("china_hits") or 0) >= 5:
+                relax_inst_hosts.add(_s.get("host", ""))
+
+    def _china_ok(host, title, text_head, text_wide):
+        """涉华相关性：专业/专项源看正文，综合大众媒体要求标题本身涉华。"""
+        if _host_in(host, relax_inst_hosts):
+            return rel.search((title or "") + " " + (text_wide or ""))
+        return rel.search(title or "")
 
     def _host_in(h, hosts):
         h = (h or "").lower().replace("www.", "")
@@ -438,9 +447,12 @@ def main():
         h = host_of(x.get("url", ""))
         if _host_in(h, all_inst_hosts) and not _host_in(h, active_inst_hosts):
             return False
-        if soft_news(x.get("title", "")):
+        ti, co = x.get("title") or "", x.get("content") or ""
+        if soft_news(ti):
             return False
-        return bool(topic.search((x.get("title") or "") + " " + (x.get("content") or "")[:1500]))
+        if not _china_ok(h, ti, co[:500], co[:1500]):  # 综合媒体须标题涉华，专业/专项源看正文
+            return False
+        return bool(topic.search(ti + " " + co[:1500]))
 
     _n0 = len(feed)
     feed = [x for x in feed if on_topic(x)]
@@ -456,6 +468,7 @@ def main():
     seen = {x["url"] for x in feed}
     existing_sets = [_trigrams(x.get("content", "")) for x in feed]
     candidates = {}
+    host_name = {}   # host -> 本轮 RSS 规范站名，用于统一更正存量条目的来源名
     counts = {"section": 0, "topic": 0, "watch_full": 0, "watch_snippet": 0}
 
     def add(url, source, lang, cat, via, route, block, body_from="full",
@@ -567,6 +580,7 @@ def main():
                     items = []
             return s, items, ftitle
 
+        host_name = {}
         with ThreadPoolExecutor(max_workers=INST_WORKERS) as ex:
             for s, items, ftitle in (fu.result() for fu in as_completed([ex.submit(fetch_src, x) for x in uniq])):
                 k = 0
@@ -578,12 +592,14 @@ def main():
                         continue
                     if soft_news(it["title"]) or link_noise(it["text"]):
                         continue
-                    blob = it["title"] + " " + it["text"][:1000]
-                    if not rel.search(blob) or not topic.search(blob) \
-                            or any(b in u.lower() for b in block_global):
+                    blob = it["title"] + " " + it["text"][:1500]  # 主题判定可看更宽
+                    if not _china_ok(s["host"], it["title"], it["text"][:500], it["text"][:1500]) \
+                            or not topic.search(blob) or any(b in u.lower() for b in block_global):
                         continue
                     src_name = ftitle or s.get("name") or s["host"]
                     src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
+                    if ftitle:
+                        host_name[s["host"]] = src_name
                     cand = {"url": u, "source": src_name,
                             "lang": lang_of(blob), "cat": s.get("cat", "institute"),
                             "via": "institute", "route": "institute",
@@ -638,7 +654,9 @@ def main():
         # 机构稿：深抓/清洗后标题与正文可能变化（面包屑混入等），用最终内容做软新闻+主题复检
         # 注：此处不用 link_noise——Jina 全文开头普遍带面包屑/分享链接，会误伤正规报道
         if c["route"] == "institute" and not is_snip:
-            if soft_news(title) or not topic.search(title + " " + text[:1500]):
+            if soft_news(title) \
+                    or not _china_ok(host_of(c["url"]), title, text[:500], text[:1500]) \
+                    or not topic.search(title + " " + text[:1500]):
                 f["not_rel"] += 1
                 print(f"  x 机构复检未过 {(title or c['url'])[:46]}", flush=True)
                 continue
@@ -691,6 +709,18 @@ def main():
               f"{'?' if inferred else ''}) {len(text)}字 tok={tok}", flush=True)
         if not is_snip and not is_feed:
             time.sleep(0.4)  # 仅 Jina 深抓限速；RSS 自带正文与线索不耗 token
+
+    # 用本轮 RSS 规范站名统一更正机构条目的来源（消除历史书签文章标题污染）
+    if host_name:
+        def _rename(x):
+            if x.get("route") == "institute":
+                h = host_of(x.get("url", ""))
+                for ih, nm in host_name.items():
+                    if nm and (h == ih or h.endswith("." + ih) or ih.endswith("." + h)):
+                        x["source"] = nm
+                        break
+            return x
+        feed = [_rename(x) for x in feed]
 
     feed.sort(key=lambda x: x.get("published", ""), reverse=True)
     feed = feed[:MAX_FEED]
