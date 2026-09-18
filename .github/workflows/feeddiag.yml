@@ -1,0 +1,22 @@
+name: feeddiag
+on:
+  workflow_dispatch: {}
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python3 institute_feeddiag.py
+      - name: Commit diag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/feeddiag.json
+          if ! git diff --staged --quiet; then
+            git commit -m "data: feed date diagnostics"
+            for i in 1 2 3; do git pull --rebase origin main && git push && break || sleep 5; done
+          fi
