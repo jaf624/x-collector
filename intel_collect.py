@@ -56,13 +56,13 @@ TOPIC_RE = (
     r"情报机构|安全机构|军事基地|防务|国防授权|对台军售|军援|安全协议|军工复合体|"
     r"罢工|工运|维权人士|被捕|拘留|监禁|强迫劳动|海上民兵|民兵船|债务陷阱|一带一路|"
     r"轰炸机|核潜艇|高超音速|军机|运输机|军舰过航|抵近侦察|"
-    r"national security|espionage|spy|spying|intelligence|military|\bpla\b|defen[cs]e|pentagon|"
+    r"national security|espionage|\bspy\b|spies|spying|intelligence|military|\bpla\b|defen[cs]e|pentagon|"
     r"missile|warship|warplane|fighter jet|aircraft carrier|naval|navy|\bdrone\b|military exercise|"
     r"nuclear|cyber-?attack|ransomware|hacker|data breach|data leak|critical infrastructure|sanction|"
     r"export control|entity list|tariff|trade war|decoupl|supply chain|semiconductor|microchip|\bchip\b|"
     r"critical mineral|rare earth|taiwan|lai ching|hong kong|national security law|xinjiang|uyghur|"
     r"tibet|dalai|south china sea|\bccp\b|chinese communist|authoritarian|protest|rally|demonstration|"
-    r"color revolution|secession|coup|\bnato\b|aukus|\bquad\b|indo-pacific|first island|"
+    r"color revolution|secession|\bcoup\b|\bnato\b|aukus|\bquad\b|indo-pacific|first island|"
     r"disinformation|influence operation|united front|transnational repression|overseas police|"
     r"long-arm|human rights|democracy|falun|exile|secondary sanction|investment screening|biosecur|"
     r"autonomous weapon|\buav\b|\busv\b|satellite|submarine cable|surveillance|censorship|"
@@ -79,6 +79,7 @@ SOFT_TITLE_RE = (
     r"带货|团购|网购|独角兽|房产|房价|婆媳|夫妻|情感|大跃进|文革|文化大革命|亩产|三年自然灾害|"
     r"饥荒|往事|秘闻|野史|红朝|帝王|皇帝|清朝|明朝|古代|考古|古墓|养生茶|广场舞|"
     r"九一三|林彪|红卫兵|知青|批斗|四人帮|毛泽东|反右|大饥荒|大字报|上山下乡|投名状|"
+    r"长篇小说|小说连载|连载小说|言情|玄幻小说|武侠小说|"
     r"horoscope|zodiac|feng shui|recipe|kitchen|celebrity|hollywood|kardashian|soap opera|"
     r"\bnfl\b|\bnba\b|premier league|referee|box office|gossip"
 )
@@ -91,6 +92,17 @@ HARD_TITLE_RE = (
     r"semiconductor|supply chain|decoupl|submarine|hypersonic|"
     r"中美|美中|中美关系|施压|较量|博弈|黎智英|反送中|占中|通缉|判刑|抓捕|引渡|流亡|反对派|"
     r"人权报告|宗教自由|政治犯|被捕|拘押|制裁名单|贸易谈判|台海局势|两岸"
+)
+# 标题级涉华词表（中性的国家/地区/机构/经济外交规范名与缩写，繁简 + 英文）
+TITLE_CHINA_RE = (
+    r"中国|中共|中方|中美|中俄|中英|中日|中欧|中非|驻华|对华|涉华|北京|台北|台海|台湾|香港|澳门|"
+    r"新疆|西藏|習近平|习近平|王毅|华春莹|解放军|解放軍|两岸|兩岸|两会|兩會|金砖|金磚|上合|"
+    r"华为|華為|中芯|腾讯|騰訊|抖音|字节|新华社|新華社|环球时报|環球時報|CGTN|工商银行|工商銀行|"
+    r"中華|中华|大陸|大陆|華語|华语|漢語|中文|國安法|国安法|"
+    r"china|chinese|beijing|xi jinping|\bccp\b|\bprc\b|taiwan|taipei|hong kong|macau|macao|"
+    r"xinjiang|tibet|huawei|\btiktok\b|cgtn|xinhua|\bicbc\b|brics|\bsco\b|"
+    r"shanghai cooperation|communist party|\bpla\b|sino-|renminbi|\byuan\b|hongkonger|"
+    r"alibaba|tencent|bytedance|shein|pinduoduo|\bdidi\b"
 )
 
 
@@ -385,6 +397,20 @@ def soft_news(title):
     return bool(_SOFT_TITLE.search(t)) and not _HARD_TITLE.search(t)
 
 
+def clean_src_name(n):
+    """清洗被文章标题污染的书签来源名：去 URL，竖线取站名段，冒号取站名前缀。"""
+    n = re.sub(r"https?://\S+", "", n or "").strip(" |–—:：\t-")
+    if "|" in n:
+        head, tail = n.split("|", 1)[0].strip(), n.split("|", 1)[1].strip()
+        if tail and len(tail) <= 14 and not re.search(r"[的？?，,]|\s", tail):
+            n = tail
+        else:
+            n = head
+    if (":" in n or "：" in n) and len(re.split(r"[:：]", n, 1)[0].strip()) >= 4:
+        n = re.split(r"[:：]", n, 1)[0].strip()
+    return n[:40].strip()
+
+
 def link_noise(text):
     """聚合/导航/列表页：仅看正文开头——开头即密集链接菜单（分站/投稿/捐款/推荐）才判噪声；
     正经文章开头是正文段落，相关阅读链接多在文末，不应误伤。"""
@@ -426,15 +452,19 @@ def main():
         all_inst_hosts.add(_s.get("host", ""))
         if _s.get("status") == "active" and _s.get("feed_url") and "sitemap" not in _s["feed_url"]:
             active_inst_hosts.add(_s.get("host", ""))
-            # 智库/政府/OSINT 专业机构，或近30篇涉华比例高的专项源：正文涉华即可，标题不强制
-            if _s.get("cat") in ("thinktank", "gov", "osint") or (_s.get("china_hits") or 0) >= 5:
+            # 智库/政府/OSINT 专业机构无条件放宽（战略/军事稿有前瞻价值）；
+            # 大众媒体/NGO 须近30篇≥15篇涉华（过半）才算涉华专项源；任何源≥20篇亦视为专项
+            _cat, _hits = _s.get("cat"), (_s.get("china_hits") or 0)
+            if _cat in ("thinktank", "gov", "osint") or _hits >= 20 \
+                    or (_cat in ("media", "ngo", "rss") and _hits >= 15):
                 relax_inst_hosts.add(_s.get("host", ""))
 
+    _title_china = re.compile(TITLE_CHINA_RE, re.I)
+
     def _china_ok(host, title, text_head, text_wide):
-        """涉华相关性：专业/专项源看正文，综合大众媒体要求标题本身涉华。"""
-        if _host_in(host, relax_inst_hosts):
-            return rel.search((title or "") + " " + (text_wide or ""))
-        return rel.search(title or "")
+        """涉华相关性：标题或导语(前800字)命中涉华词表。统一用词形特异、带词边界的词表，
+        不使用偏宽的搜索正则，避免 pla 误匹配 plan、coup 误匹配 couples 等子串问题。"""
+        return bool(_title_china.search((title or "") + " " + (text_head or "")))
 
     def _host_in(h, hosts):
         h = (h or "").lower().replace("www.", "")
@@ -450,7 +480,7 @@ def main():
         ti, co = x.get("title") or "", x.get("content") or ""
         if soft_news(ti):
             return False
-        if not _china_ok(h, ti, co[:500], co[:1500]):  # 综合媒体须标题涉华，专业/专项源看正文
+        if not _china_ok(h, ti, co[:800], co[:1500]):  # 标题涉华，或导语(前800字)确涉华
             return False
         return bool(topic.search(ti + " " + co[:1500]))
 
@@ -593,13 +623,12 @@ def main():
                     if soft_news(it["title"]) or link_noise(it["text"]):
                         continue
                     blob = it["title"] + " " + it["text"][:1500]  # 主题判定可看更宽
-                    if not _china_ok(s["host"], it["title"], it["text"][:500], it["text"][:1500]) \
+                    if not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]) \
                             or not topic.search(blob) or any(b in u.lower() for b in block_global):
                         continue
-                    src_name = ftitle or s.get("name") or s["host"]
+                    src_name = ftitle or clean_src_name(s.get("name")) or s["host"]
                     src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
-                    if ftitle:
-                        host_name[s["host"]] = src_name
+                    host_name[s["host"]] = src_name
                     cand = {"url": u, "source": src_name,
                             "lang": lang_of(blob), "cat": s.get("cat", "institute"),
                             "via": "institute", "route": "institute",
@@ -655,7 +684,7 @@ def main():
         # 注：此处不用 link_noise——Jina 全文开头普遍带面包屑/分享链接，会误伤正规报道
         if c["route"] == "institute" and not is_snip:
             if soft_news(title) \
-                    or not _china_ok(host_of(c["url"]), title, text[:500], text[:1500]) \
+                    or not _china_ok(host_of(c["url"]), title, text[:800], text[:1500]) \
                     or not topic.search(title + " " + text[:1500]):
                 f["not_rel"] += 1
                 print(f"  x 机构复检未过 {(title or c['url'])[:46]}", flush=True)
