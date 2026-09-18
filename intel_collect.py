@@ -42,6 +42,53 @@ INST_PER_FEED = int(os.environ.get("INTEL_INST_PER_FEED", "15"))  # 每源每轮
 INST_MAX = int(os.environ.get("INTEL_INST_MAX", "120"))        # RSS 自带正文（免费）每轮入库上限
 INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "10"))       # 摘要过短需 Jina 深抓的机构稿上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
+# 机构 RSS 按源订阅（非主题检索），在中国相关之外还必须命中"国家安全/地缘战略"主题，
+# 否则海外华文/综合媒体的民俗、体育、娱乐、生活、商业软新闻会因含"中国"二字混入。
+TOPIC_RE = (
+    r"国家安全|国安|情报|间谍|窃密|渗透|反渗透|反间谍|军事|国防|军方|解放军|导弹|战机|歼-|航母|军舰|"
+    r"海军|空军|演训|军演|核武|核安全|核弹|网络攻击|网络战|黑客|勒索病毒|数据泄露|数据安全|关键基础设施|"
+    r"制裁|出口管制|实体清单|关税|贸易战|脱钩|断供|供应链|半导体|芯片|关键矿产|稀土|台海|台湾|赖清德|"
+    r"香港|国安法|新疆|维吾尔|西藏|达赖|南海|仲裁|中共|共产党|极权|威权|抗议|集会|示威|颜色革命|"
+    r"分裂|独立|颠覆|政变|军工|军售|北约|印太|第一岛链|认知作战|虚假信息|假消息|舆论战|统战|"
+    r"海外警察站|跨境镇压|长臂管辖|人权|民主|自由|法轮功|民运|反共|流亡|二级制裁|投资审查|生物安全|"
+    r"无人机|无人艇|卫星|太空|海底电缆|监听|监控|审查|防火墙|地缘|战略竞争|胁迫|灰色地带|混合战|"
+    r"情报机构|安全机构|军事基地|防务|国防授权|对台军售|军援|安全协议|军工复合体|"
+    r"罢工|工运|维权人士|被捕|拘留|监禁|强迫劳动|海上民兵|民兵船|债务陷阱|一带一路|"
+    r"轰炸机|核潜艇|高超音速|军机|运输机|军舰过航|抵近侦察|"
+    r"national security|espionage|spy|spying|intelligence|military|\bpla\b|defen[cs]e|pentagon|"
+    r"missile|warship|warplane|fighter jet|aircraft carrier|naval|navy|\bdrone\b|military exercise|"
+    r"nuclear|cyber-?attack|ransomware|hacker|data breach|data leak|critical infrastructure|sanction|"
+    r"export control|entity list|tariff|trade war|decoupl|supply chain|semiconductor|microchip|\bchip\b|"
+    r"critical mineral|rare earth|taiwan|lai ching|hong kong|national security law|xinjiang|uyghur|"
+    r"tibet|dalai|south china sea|\bccp\b|chinese communist|authoritarian|protest|rally|demonstration|"
+    r"color revolution|secession|coup|\bnato\b|aukus|\bquad\b|indo-pacific|first island|"
+    r"disinformation|influence operation|united front|transnational repression|overseas police|"
+    r"long-arm|human rights|democracy|falun|exile|secondary sanction|investment screening|biosecur|"
+    r"autonomous weapon|\buav\b|\busv\b|satellite|submarine cable|surveillance|censorship|"
+    r"great firewall|geopolit|strategic competition|coercion|gray zone|hybrid war|arms sale|military aid|"
+    r"bomber|stealth|hypersonic|warhead|submarine|destroyer|frigate|\busaf\b|airlift|"
+    r"prisoner|detain|dissident|jailed|forced labor|maritime militia|fishing militia|"
+    r"debt trap|belt and road|\bbri\b|overseas lending"
+)
+# 软新闻/非情报内容（综合华文/宣传/生活站噪声）：标题命中即不收，除非标题同时含硬安全词
+SOFT_TITLE_RE = (
+    r"联赛|裁判|球赛|世界杯|英超|西甲|意甲|德甲|中超|澳超|NBA|CBA|比分|赛季|球员|球星|健身|瑜伽|"
+    r"生肖|星座|运势|风水|算命|面相|手相|禁忌|忌讳|嫁娶|婚嫁|喜事|黄道|吉日|养生|长寿|食谱|菜谱|"
+    r"美食|小吃|厨房|阳台|收纳|装修|旅游攻略|明星|艺人|演员|歌手|综艺|票房|真人秀|绯闻|八卦|网红|"
+    r"带货|团购|网购|独角兽|房产|房价|婆媳|夫妻|情感|大跃进|文革|文化大革命|亩产|三年自然灾害|"
+    r"饥荒|往事|秘闻|野史|红朝|帝王|皇帝|清朝|明朝|古代|考古|古墓|养生茶|广场舞|"
+    r"九一三|林彪|红卫兵|知青|批斗|四人帮|毛泽东|反右|大饥荒|大字报|上山下乡|投名状|"
+    r"horoscope|zodiac|feng shui|recipe|kitchen|celebrity|hollywood|kardashian|soap opera|"
+    r"\bnfl\b|\bnba\b|premier league|referee|box office|gossip"
+)
+# 硬安全词：标题含这些则豁免软新闻过滤（如"外交抵制奥运""台海军事"）
+HARD_TITLE_RE = (
+    r"台湾|台海|香港|新疆|西藏|南海|制裁|关税|导弹|战机|航母|核武|核安全|间谍|网络攻击|军售|军演|"
+    r"演训|出口管制|实体清单|供应链|半导体|芯片|关键矿产|脱钩|认知作战|颜色革命|海上民兵|"
+    r"taiwan|hong kong|xinjiang|tibet|south china sea|sanction|tariff|missile|fighter|carrier|"
+    r"nuclear|espionage|\bspy\b|cyber-?attack|arms sale|military exercise|export control|"
+    r"semiconductor|supply chain|decoupl|submarine|hypersonic"
+)
 
 
 def http(url, accept, timeout=120):
@@ -324,6 +371,25 @@ def lang_of(text):
     return "zh" if cjk >= max(8, lat * 0.08) else "en"
 
 
+_SOFT_TITLE = re.compile(SOFT_TITLE_RE, re.I)
+_HARD_TITLE = re.compile(HARD_TITLE_RE, re.I)
+_LINK = re.compile(r"\]\(https?://|https?://")
+
+
+def soft_news(title):
+    """体育/民俗/娱乐/历史揭秘/生活商业软新闻：命中软词且标题无硬安全词，判为非情报内容。"""
+    t = title or ""
+    return bool(_SOFT_TITLE.search(t)) and not _HARD_TITLE.search(t)
+
+
+def link_noise(text):
+    """聚合/导航/列表页：链接过密（侧栏推荐污染），非单篇正文，丢弃。"""
+    if not text:
+        return False
+    n = len(_LINK.findall(text))
+    return n >= 18 and len(text) / max(1, n) < 220
+
+
 def main():
     if not KEY:
         print("[intel] 未配置 JINA_KEY，跳过"); return
@@ -347,6 +413,34 @@ def main():
     do_watch = hour == 0 or force          # 反华人物/活动/路径/组织体量大，每天 1 轮控成本
 
     feed = load_json(FEED)
+    topic = re.compile(TOPIC_RE, re.I)
+    # 机构源清单：以 status=active 为准，被降级/停用的高噪声源连同其存量条目一并净化
+    inst_meta = load_json(INST_SRC) if os.path.exists(INST_SRC) else []
+    all_inst_hosts, active_inst_hosts = set(), set()
+    for _s in inst_meta:
+        all_inst_hosts.add(_s.get("host", ""))
+        if _s.get("status") == "active" and _s.get("feed_url") and "sitemap" not in _s["feed_url"]:
+            active_inst_hosts.add(_s.get("host", ""))
+
+    def _host_in(h, hosts):
+        h = (h or "").lower().replace("www.", "")
+        return any(h and (h == x or h.endswith("." + x) or x.endswith("." + h)) for x in hosts)
+
+    def on_topic(x):
+        # 机构路旧稿：来源已停用，或不涉国家安全/地缘主题（生活、民俗、体育、娱乐软新闻）则剔除
+        if x.get("route") != "institute":
+            return True
+        h = host_of(x.get("url", ""))
+        if _host_in(h, all_inst_hosts) and not _host_in(h, active_inst_hosts):
+            return False
+        if soft_news(x.get("title", "")) or link_noise(x.get("content", "")):
+            return False
+        return bool(topic.search((x.get("title") or "") + " " + (x.get("content") or "")[:1500]))
+
+    _n0 = len(feed)
+    feed = [x for x in feed if on_topic(x)]
+    if _n0 != len(feed):
+        print(f"[inst] 净化非国安主题/已停用源旧稿 {_n0 - len(feed)} 条", flush=True)
     # 旧版条目迁移：按当前质量标准补字段并重新打分，够格的一并进入 brief
     for x in feed:
         if "body_from" not in x:
@@ -453,16 +547,23 @@ def main():
 
         def fetch_src(s):
             st, body = feed_get(s["feed_url"])
-            items = []
+            items, ftitle = [], ""
             if st == 200 and body and not body.startswith("EXC"):
                 try:
                     items = parse_rss_items(body, s["feed_url"])
+                    root = ET.fromstring(body)
+                    for ch in root:
+                        if _lc(ch.tag) in ("channel", "feed"):
+                            t = _child(ch, "title")
+                            if t is not None:
+                                ftitle = _all_text(t)[:48]
+                            break
                 except Exception:
                     items = []
-            return s, items
+            return s, items, ftitle
 
         with ThreadPoolExecutor(max_workers=INST_WORKERS) as ex:
-            for s, items in (fu.result() for fu in as_completed([ex.submit(fetch_src, x) for x in uniq])):
+            for s, items, ftitle in (fu.result() for fu in as_completed([ex.submit(fetch_src, x) for x in uniq])):
                 k = 0
                 for it in items[:INST_PER_FEED]:
                     u = it["link"]
@@ -470,10 +571,15 @@ def main():
                         continue
                     if it["date"] and it["date"] < inst_cut:
                         continue
-                    blob = it["title"] + " " + it["text"][:1000]
-                    if not rel.search(blob) or any(b in u.lower() for b in block_global):
+                    if soft_news(it["title"]) or link_noise(it["text"]):
                         continue
-                    cand = {"url": u, "source": s.get("name") or s["host"],
+                    blob = it["title"] + " " + it["text"][:1000]
+                    if not rel.search(blob) or not topic.search(blob) \
+                            or any(b in u.lower() for b in block_global):
+                        continue
+                    src_name = ftitle or s.get("name") or s["host"]
+                    src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
+                    cand = {"url": u, "source": src_name,
                             "lang": lang_of(blob), "cat": s.get("cat", "institute"),
                             "via": "institute", "route": "institute",
                             "hint_date": it["date"], "hint_title": it["title"]}
