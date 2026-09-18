@@ -1,0 +1,114 @@
+[
+ {
+  "host": "thediplomat.com",
+  "http": 200,
+  "feed_url": "https://thediplomat.com/feed",
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r <rss  xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "csis.org",
+  "http": 200,
+  "feed_url": "https://csis.org/rss.xml",
+  "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" version=\"2.0\" xml:base=\"https://",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "merics.org",
+  "http": 200,
+  "feed_url": "https://merics.org/rss",
+  "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" version=\"2.0\" xml:base=\"https://",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "hongkongfp.com",
+  "http": 200,
+  "feed_url": "https://hongkongfp.com/feed/",
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \txmln",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "bellingcat.com",
+  "http": 200,
+  "feed_url": "https://bellingcat.com/feed",
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \txmln",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "voachinese.com",
+  "http": 200,
+  "feed_url": "https://www.voachinese.com/api/",
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">     \r     <channel>  ",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "jamestown.org",
+  "http": 200,
+  "feed_url": "https://jamestown.org/feed",
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \txmln",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "cato.org",
+  "http": 200,
+  "feed_url": "https://cato.org/feed",
+  "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:content=\"http://purl.org/rss/",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "ecfr.eu",
+  "http": 200,
+  "feed_url": "https://ecfr.eu/feed/",
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \txmln",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "aiddata.org",
+  "http": 200,
+  "feed_url": "https://aiddata.org/rss",
+  "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://se",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "thewirechina.com",
+  "http": 200,
+  "feed_url": "https://www.thewirechina.com/feed/",
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \t xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \t xm",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "selectcommitteeontheccp.house.gov",
+  "http": 200,
+  "feed_url": "https://selectcommitteeontheccp.house.gov/rss.xml",
+  "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" version=\"2.0\" xml:base=\"http://c",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "foreignaffairs.com",
+  "http": 200,
+  "feed_url": "https://www.foreignaffairs.com/rss.xml",
+  "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/20",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ },
+ {
+  "host": "aspi.org.au",
+  "http": 200,
+  "feed_url": "https://www.aspi.org.au/feed/",
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \txmln",
+  "root": "rss",
+  "parse_error": "AttributeError(\"'xml.etree.ElementTree.Element' object has no attribute 'split'\")"
+ }
+]
