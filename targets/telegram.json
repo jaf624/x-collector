@@ -3,13 +3,14 @@
   "days": 3,
   "max_pages": 2,
   "max_per_channel": 40,
-  "quality_min": 55,
+  "quality_min": 50,
   "lead_chars": 180,
   "business_channels": [],
   "selftest_channels": [
     {"name": "telegram", "alias": "Telegram官方公告(自测·中性)", "selftest": true}
   ],
-  "china_re": "(?i)(china|chinese|ccp|prc|beijing|taiwan|taipei|hong\\s?kong|xinjiang|uyghur|uighur|tibet|south\\s?china\\s?sea|pla|xi\\s?jinping|huawei|tiktok|didi|bytedance|sino|中国|中共|中方|北京|大陆|台湾|台北|香港|新疆|维吾尔|西藏|达赖|南海|台海|解放军|习近平|华人|华侨|驻华|涉华|华为|腾讯|阿里|抖音|字节)",
+  "china_keywords": ["中国", "中共", "中方", "北京", "大陆", "台湾", "台北", "香港", "新疆", "维吾尔", "西藏", "达赖", "南海", "台海", "解放军", "习近平", "华人", "华侨", "驻华", "涉华", "共产党", "华为", "腾讯", "阿里", "抖音", "字节",
+    "china", "chinese", "CCP", "PRC", "beijing", "taiwan", "taipei", "hong kong", "xinjiang", "uyghur", "uighur", "tibet", "south china sea", "PLA", "xi jinping", "huawei", "tiktok", "didi", "bytedance", "sino"],
   "categories": [
     {"key": "politics", "name": "政治安全与意识形态渗透", "sensitive": false,
      "keywords": ["颜色革命", "政权更迭", "专制", "独裁", "民主化", "人权报告", "宗教自由", "政治犯", "异见", "翻墙", "防火长城", "社运", "regime change", "authoritarian", "dictatorship", "human rights report", "dissident", "great firewall", "censorship", "pro-democracy"]},
