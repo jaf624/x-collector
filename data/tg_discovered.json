@@ -22,6 +22,26 @@
   "discovered_at": "2026-09-18T00:58:05Z"
  },
  {
+  "name": "NTDChinese",
+  "url": "https://t.me/NTDChinese",
+  "preview": "https://t.me/s/NTDChinese",
+  "title": "新唐人電視台",
+  "desc": "新唐人電視台官方新聞頻道(NTDChinese) 為中國新聞最完整的視頻網, 隨時提供中國在此關鍵時刻的即時新聞、熱點新聞與頭條新聞。\n新唐人電視台是由海外華人聯合創辦的國際性、獨立、非盈利華語電視台，於2002年2月在美國首播，自2003年7月起通過新唐人衛星網向亞洲，歐洲，澳洲和北美洲全天24小時同步播放。更多訊息",
+  "posts_in_page": 20,
+  "latest": "2026-09-19",
+  "recent3": 20,
+  "recent7": 20,
+  "china_hits": 33,
+  "cat_hits": {
+   "经济金融与产业链供应链安全": 5
+  },
+  "related_msgs": 5,
+  "media_count_only": 7,
+  "score": 71.0,
+  "status": "pending_review",
+  "discovered_at": "2026-09-19T02:23:15Z"
+ },
+ {
   "name": "ChineseNationalSocialism",
   "url": "https://t.me/ChineseNationalSocialism",
   "preview": "https://t.me/s/ChineseNationalSocialism",
@@ -124,5 +144,26 @@
   "score": 35.5,
   "status": "pending_review",
   "discovered_at": "2026-09-18T00:57:54Z"
+ },
+ {
+  "name": "HKgersinLeeds",
+  "url": "https://t.me/HKgersinLeeds",
+  "preview": "https://t.me/s/HKgersinLeeds",
+  "title": "列斯手足連線 - 🔅公海頻道🔅",
+  "desc": "HongKongers in Leeds",
+  "posts_in_page": 14,
+  "latest": "2026-08-20",
+  "recent3": 0,
+  "recent7": 0,
+  "china_hits": 72,
+  "cat_hits": {
+   "政治安全与意识形态渗透": 2,
+   "群组动员与颜色革命操作": 2
+  },
+  "related_msgs": 2,
+  "media_count_only": 3,
+  "score": 30.0,
+  "status": "pending_review",
+  "discovered_at": "2026-09-19T02:23:13Z"
  }
 ]
