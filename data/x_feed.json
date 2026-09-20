@@ -25,7 +25,7 @@
     "retweet": 0,
     "reply": 34,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:20.314893Z"
+    "fetched_at": "2026-09-20T14:48:34.414133Z"
   },
   {
     "x_id": "2099677799359652086",
@@ -53,7 +53,7 @@
     "retweet": 0,
     "reply": 35,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:19.240421Z"
+    "fetched_at": "2026-09-20T14:48:33.326174Z"
   },
   {
     "x_id": "2099746473856598126",
@@ -86,7 +86,7 @@
     "retweet": 0,
     "reply": 1,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:18.142861Z"
+    "fetched_at": "2026-09-20T14:48:32.226415Z"
   },
   {
     "x_id": "2099351718937121250",
@@ -124,7 +124,7 @@
     "retweet": 0,
     "reply": 15,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:17.048867Z"
+    "fetched_at": "2026-09-20T14:48:31.130489Z"
   },
   {
     "x_id": "2099718756675301464",
@@ -141,13 +141,13 @@
         "h": 1232
       }
     ],
-    "video": "https://video.twimg.com/amplify_video/2099718730142150656/vid/avc1/1344x768/rCQFH9uq6wtntzNj.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2099718756675301464.mp4",
     "url": "https://x.com/taya_mama_AI/status/2099718756675301464",
     "fav": 114,
     "retweet": 0,
     "reply": 3,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:15.934226Z"
+    "fetched_at": "2026-09-20T14:48:30.030641Z"
   },
   {
     "x_id": "2099824477173690831",
@@ -185,7 +185,7 @@
     "retweet": 0,
     "reply": 13,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:14.819167Z"
+    "fetched_at": "2026-09-20T14:48:28.874773Z"
   },
   {
     "x_id": "2099508984541769771",
@@ -218,7 +218,7 @@
     "retweet": 0,
     "reply": 23,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:13.734870Z"
+    "fetched_at": "2026-09-20T14:48:27.786206Z"
   },
   {
     "x_id": "2099774721688785161",
@@ -246,7 +246,7 @@
     "retweet": 0,
     "reply": 0,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:12.624678Z"
+    "fetched_at": "2026-09-20T14:48:26.655053Z"
   },
   {
     "x_id": "2099745016067530975",
@@ -274,7 +274,7 @@
     "retweet": 0,
     "reply": 17,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:11.520688Z"
+    "fetched_at": "2026-09-20T14:48:25.547741Z"
   },
   {
     "x_id": "2099537188409200936",
@@ -297,7 +297,7 @@
     "retweet": 0,
     "reply": 7,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:10.251322Z"
+    "fetched_at": "2026-09-20T14:48:24.445688Z"
   },
   {
     "x_id": "2099460330141475245",
@@ -320,7 +320,7 @@
     "retweet": 0,
     "reply": 5,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:09.143887Z"
+    "fetched_at": "2026-09-20T14:48:23.253028Z"
   },
   {
     "x_id": "2099759367956349012",
@@ -343,7 +343,7 @@
     "retweet": 0,
     "reply": 4,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:08.054505Z"
+    "fetched_at": "2026-09-20T14:48:22.135401Z"
   },
   {
     "x_id": "2099805846247244141",
@@ -366,7 +366,7 @@
     "retweet": 0,
     "reply": 57,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:06.957113Z"
+    "fetched_at": "2026-09-20T14:48:21.004725Z"
   },
   {
     "x_id": "2099326446942777697",
@@ -389,7 +389,7 @@
     "retweet": 0,
     "reply": 41,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:05.871700Z"
+    "fetched_at": "2026-09-20T14:48:19.908758Z"
   },
   {
     "x_id": "2099734571160109190",
@@ -417,7 +417,7 @@
     "retweet": 0,
     "reply": 35,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:04.781083Z"
+    "fetched_at": "2026-09-20T14:48:18.800546Z"
   },
   {
     "x_id": "2099804706801369428",
@@ -453,9 +453,9 @@
     "url": "https://x.com/MrLarus/status/2099804706801369428",
     "fav": 225,
     "retweet": 0,
-    "reply": 31,
+    "reply": 32,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:03.687423Z"
+    "fetched_at": "2026-09-20T14:48:17.708040Z"
   },
   {
     "x_id": "2099438040938889391",
@@ -493,7 +493,7 @@
     "retweet": 0,
     "reply": 5,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:02.561560Z"
+    "fetched_at": "2026-09-20T14:48:16.592463Z"
   },
   {
     "x_id": "2099379743108055415",
@@ -512,11 +512,11 @@
     ],
     "video": "",
     "url": "https://x.com/DDJCXX/status/2099379743108055415",
-    "fav": 287,
+    "fav": 288,
     "retweet": 0,
     "reply": 1,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:01.454259Z"
+    "fetched_at": "2026-09-20T14:48:15.501254Z"
   },
   {
     "x_id": "2099799132558770368",
@@ -533,7 +533,7 @@
     "retweet": 0,
     "reply": 3,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:59:00.360695Z"
+    "fetched_at": "2026-09-20T14:48:14.388032Z"
   },
   {
     "x_id": "2099762659071795585",
@@ -552,11 +552,11 @@
     ],
     "video": "",
     "url": "https://x.com/DDJCXX/status/2099762659071795585",
-    "fav": 889,
+    "fav": 890,
     "retweet": 0,
     "reply": 69,
     "is_quote": false,
-    "fetched_at": "2026-09-20T12:58:59.263046Z"
+    "fetched_at": "2026-09-20T14:48:13.287171Z"
   },
   {
     "x_id": "2096425932659785997",
@@ -870,7 +870,7 @@
     "text_raw": "乖，跪下爬进来就行 https://t.co/Le8mgvA0oI",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2096217890311847936/vid/avc1/496x864/mWwRv6VgWS3Gr9QI.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2096217996947845420.mp4",
     "url": "https://x.com/VoxcatAI/status/2096217996947845420",
     "fav": 13,
     "retweet": 0,
@@ -887,7 +887,7 @@
     "text_raw": "最近想试试 AI 能不能做出《刺客聂隐娘》那种安静但又让人紧张的感觉，就用 Seedance 做了这段。感觉还挺有意思，发出来给大家看看。\n\n视频提示词放评论区了，感兴趣可以拿去试试。\n本视频由@storydotfun_cn 赞助 https://t.co/qPBPNvYTVC",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2096527796491427841/vid/avc1/1280x720/jaAqlzdcY0_9vFFI.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2096527834575737223.mp4",
     "url": "https://x.com/VoxcatAI/status/2096527834575737223",
     "fav": 19,
     "retweet": 0,
@@ -1194,7 +1194,7 @@
         "h": 924
       }
     ],
-    "video": "https://video.twimg.com/amplify_video/2094840737024405504/vid/avc1/610x1080/-BYyJYYFgDqWekr4.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2094940870147559891.mp4",
     "url": "https://x.com/liyue_ai/status/2094940870147559891",
     "fav": 435,
     "retweet": 0,
@@ -1353,7 +1353,7 @@
     "text_raw": "＼5日間でフォロワー様500人増加‼️／\n\n自分で言っちゃうけど、この伸びはエグくないですか😳！！！\n\n本当にありがとうございます♡\n\nMiniMax H3動画のおかげ🤤\n今後も定期的に動画あげてきますねー\n\n今、めちゃくちゃ波に乗ってるアカウントなので絡むと伸びやすいですよー🙌ﾀﾌﾞﾝ https://t.co/rm7ppB4LYK",
     "lang": "ja",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2096227337369219072/vid/avc1/720x768/LfkJSodyFpe8HBHi.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2096227351655068145.mp4",
     "url": "https://x.com/taya_mama_AI/status/2096227351655068145",
     "fav": 26,
     "retweet": 0,
@@ -1832,7 +1832,7 @@
     "text_raw": "后续情节来了！飞天摔下来了！\n很多人问我这个敦煌飞天小姐姐桌宠还有没有系列视频\n我明确回答，有，而且不止一个\n这里先发一个仙女散花翻车的视频\n你看一下，当仙女摔下来的时候，应该很疼\n\nprompt 视频提示词如下： https://t.co/f0y5SVdTOE",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2100238446954737664/vid/avc1/1344x768/zvsbxqn2cIyT0NBq.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2100238658280530243.mp4",
     "url": "https://x.com/PixelAigc/status/2100238658280530243",
     "fav": 176,
     "retweet": 0,
@@ -1849,7 +1849,7 @@
     "text_raw": "用你的提示词，复刻的。。模型用的Seedance 2.5 https://t.co/hQQd5aZi0S",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2100974404897501184/vid/avc1/1280x720/h7Uj4xy9k3svpxUV.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2100974510984110219.mp4",
     "url": "https://x.com/newbeeyu/status/2100974510984110219",
     "fav": 8,
     "retweet": 0,
@@ -1906,7 +1906,7 @@
     "text_raw": "车内手机实拍：百事罐车漏可乐、男子接满豪饮、倒入曼妥思后被泡沫柱抛向地平线。\n约 15 秒竖版 35:47 · Seedance 2.5。\n完整提示词在案例页（这里不贴全文）：\nhttps://t.co/Pr0mK4JEWW https://t.co/IHcCPbKEiR",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2101089149898158080/vid/avc1/560x752/lArz-B2mPiUDyazk.mp4?tag=14",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2101089217640276255.mp4",
     "url": "https://x.com/wutantanAI/status/2101089217640276255",
     "fav": 0,
     "retweet": 0,
@@ -1946,7 +1946,7 @@
     "text_raw": "So delicious 😋 \n\nSeedance 2.5\n\nPrompt:\nCreate a 30-second fast-paced cinematic Japanese anime cooking video showing the preparation of authentic katsudon, entirely from the text description below.\n\nIMPORTANT: Do not display, recreate, trace, reference, or imitate any storyboard, https://t.co/GY7ZXIpEmo",
     "lang": "en",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2098845053456404480/vid/avc1/1920x1080/ixERr56oigQB8Po5.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2098845134326808734.mp4",
     "url": "https://x.com/Goodmanprotocol/status/2098845134326808734",
     "fav": 4969,
     "retweet": 0,
@@ -1963,7 +1963,7 @@
     "text_raw": "用H3制作了包子的视频\n\n实物的还原度还没有达到seedance的效果呜呜呜\n\n后续我再试试修改一下提示词\n\n这版提示词我放在下方👇 https://t.co/qmCtBNFISQ",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2101211465420283904/vid/avc1/1344x768/EZKZp6JLpIdjTtlj.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2101219749669507166.mp4",
     "url": "https://x.com/AomyYing/status/2101219749669507166",
     "fav": 2,
     "retweet": 0,
@@ -1997,7 +1997,7 @@
     "text_raw": "师兄 调戏 师妹 第三弹，这次从小竹林换到了 群山间\n\n师妹剑法依旧没有长进，最后 师兄没办法，只能 亲自 带着 传授剑法心决\n\n视频 使用 Codex+ 豆包的 Seedance 2.5 【免费】 生成\n\n（情意绵绵剑 提示词 见 评论区 🔽 🔽 🔽）\n\n全流程操作：\n\nCodex 负责 提示词 输出，角色卡生成\n\n豆老师 https://t.co/RmO7nZVHtY",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2101242775228542976/vid/avc1/1920x1080/iLsMCBXuN4tK3kpK.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2101245346328326466.mp4",
     "url": "https://x.com/TanLuAI/status/2101245346328326466",
     "fav": 10,
     "retweet": 0,
@@ -2082,7 +2082,7 @@
     "text_raw": "This is f*cking gold..\n\nChinese researchers just dropped a paper with a brutal title: \"The End of Prompt Engineering\".\n\nThe argument is simple: telling agents what to do is over as a skill.\n\nA prompt is a wish, and a wish repeated three hundred times is still a wish.\n\nBoundaries https://t.co/bQOtjg19Iv",
     "lang": "en",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2101029506014142464/vid/avc1/1080x1480/vTINYbh6GX_-WlbK.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2101056017283121227.mp4",
     "url": "https://x.com/virgilxbt/status/2101056017283121227",
     "fav": 381,
     "retweet": 0,
@@ -2699,7 +2699,7 @@
     "text_raw": "@cremieuxrecueil https://t.co/q9kVtTEOGa",
     "lang": "qme",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2094143102499926016/vid/avc1/1080x586/PF8PxAoXdc4mZDSq.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2094143117507108869.mp4",
     "url": "https://x.com/elonmusk/status/2094143117507108869",
     "fav": 3410,
     "retweet": 0,
@@ -3501,7 +3501,7 @@
         "h": 933
       }
     ],
-    "video": "https://video.twimg.com/amplify_video/2092559950841290752/vid/avc1/720x1280/pH7yzL1bQAC7sFc1.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2092560006642299112.mp4",
     "url": "https://x.com/mehwishkiran07/status/2092560006642299112",
     "fav": 100,
     "retweet": 0,
@@ -3837,7 +3837,7 @@
     "text_raw": "GPT Image 2 and Seedance 2.5\n\nPrompt:\nA young Asian woman [use reference image] with long dark hair, wearing white baggy trousers and a black skirt, films a fast-paced handheld vlog backstage. She walks through a narrow, brightly lit hallway while talking directly to the camera, https://t.co/aPF1GQHFJb",
     "lang": "en",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2095720985714675712/vid/avc1/1920x1440/uJVQjLN3_fDTOhFK.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2095721231060513106.mp4",
     "url": "https://x.com/Sairah_0/status/2095721231060513106",
     "fav": 94,
     "retweet": 0,
@@ -4376,7 +4376,7 @@
     "text_raw": "打斗练习 x 1 \n\n虽然说和我想的画面有一些偏差，但是打斗感确实是上去了……\n\n我想到第一个镜头是女的冲上去，男的蓄力重拳给女的打飞，怎么用的胸膛？ https://t.co/2HWHpKdFCR",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2095461238763581440/vid/avc1/1280x720/2X4_Evgs8fjarjX8.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2095461574173757931.mp4",
     "url": "https://x.com/nanyuan0412/status/2095461574173757931",
     "fav": 143,
     "retweet": 0,
@@ -4393,7 +4393,7 @@
     "text_raw": "打斗练习 x 2\n\n想把时间线拉长，让打斗变的激烈一点，结果描述太少了，都变成了慢动作。\n\n而且中间那一段液化闪避的设计，也出现了问题。\n\ngame over ～ https://t.co/PJ1bfdDgBw",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2095483236029980672/vid/avc1/1280x720/OS8Qeh_nUAf_hMjb.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2095486847833264538.mp4",
     "url": "https://x.com/nanyuan0412/status/2095486847833264538",
     "fav": 14,
     "retweet": 0,
@@ -4872,7 +4872,7 @@
     "text_raw": "体验一把中式美学的极致运镜：月下剑影预告片。\n\n短短6秒钟集合了点刺-&gt;水平斩-&gt;腾空回旋斩-&gt;极速俯冲刺-&gt;落地横扫。\n\nSeedance 2.5还是太权威了。\n\n制作方法如下： https://t.co/GjkOD5lDzQ",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2095202027286790144/vid/avc1/2560x1440/ryKWhnQaceXStmYm.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2095308291945775312.mp4",
     "url": "https://x.com/liyue_ai/status/2095308291945775312",
     "fav": 87,
     "retweet": 0,
@@ -5329,7 +5329,7 @@
     "text_raw": "㊗️2800フォロワー様達成🎉\n\nひゃー！！！ありがとうございます😍\nこれからもスキマ時間にガシガシAI使っていくので、引き続きどうぞよろしくお願いします♡\n\n今、固定ポストでプレゼント企画実施中なのでぜひ受け取っといてくださいね🎁\n\n動画は今話題のMiniMax H3 Max！ https://t.co/u46OMFfg27",
     "lang": "ja",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2094763147844632576/vid/avc1/1344x768/hmV5WRDwquZDsPvu.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2094763217566466429.mp4",
     "url": "https://x.com/taya_mama_AI/status/2094763217566466429",
     "fav": 118,
     "retweet": 0,
@@ -5346,7 +5346,7 @@
     "text_raw": "なんと‼2900フォロワー様達成しました🙌\n本当にありがとうございます！！！\n\nよかったら固定ポストでプレゼント企画実施中なので受け取ってってくださいね～😍\n\n▼動画のプロンプトはリプ欄\n（MiniMAX H5 MAXで生成） https://t.co/b4tzAoymHZ",
     "lang": "ja",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2095208010520080385/vid/avc1/1344x768/72TuORbsJwERMeoa.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2095262993718145159.mp4",
     "url": "https://x.com/taya_mama_AI/status/2095262993718145159",
     "fav": 179,
     "retweet": 0,
@@ -5363,7 +5363,7 @@
     "text_raw": "▼動画のプロンプト（キャラ画像添付）\nsubject_definitions:\nこの映像は、添付画像の人物・キャラクターとタイポグラフィが共演し、「2900人フォロワー達成」への喜びと感謝を伝える、横長16:9・5秒の高速モーショングラフィック映像である。\n\n第1の文字列は \"2900人フォロワー達成\" である。 https://t.co/6JYQ8ssYle",
     "lang": "ja",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2095208475580354560/vid/avc1/768x768/hU1b9oxENH8VZN_p.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2095262995924357138.mp4",
     "url": "https://x.com/taya_mama_AI/status/2095262995924357138",
     "fav": 16,
     "retweet": 0,
@@ -5553,7 +5553,7 @@
     "text_raw": "【机能赛博 · 纳米形态三段武装】（科幻战斗/机能少女）\n\n设计逻辑：从常服唤醒 →→ 纳米装甲逐层武装 →→ 武器形态切换（高频光刃 →→ 浮游重炮 →→ 能量光翼） →→ 终极俯冲轰地定格。每 2 秒完成一次装备与特效升阶。\n\n模型：MiniMax H3\n\n提示词\nintegrated_multimodal_description: A https://t.co/JJSeKj1BPk",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2093282815978942464/vid/avc1/1104x1992/pPLWvD5cmXIZPZQE.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2093283475067658399.mp4",
     "url": "https://x.com/VoxcatAI/status/2093283475067658399",
     "fav": 14,
     "retweet": 0,
@@ -5570,7 +5570,7 @@
     "text_raw": "MiniMax H3直出\n\nintegrated_multimodal_description: [镜头 1] 写实数字人时尚表演风格，竖屏 9:16，时长 8 https://t.co/2Dwc2FN6vi",
     "lang": "zh",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2094744693494198272/vid/avc1/608x1056/qA0qnLreoJM_3HWL.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2094744778286207061.mp4",
     "url": "https://x.com/VoxcatAI/status/2094744778286207061",
     "fav": 57,
     "retweet": 0,
@@ -6703,7 +6703,7 @@
     "text_raw": "I'm selling my body.\n\nOn September 19th, I'm competing in my first HYROX race in Turkey.\n\nYou can advertise your startup on 10 of my muscles:\n\n- Your website is listed on https://t.co/sUDoG1udrJ\n- Your logo will be tattooed on my body on race day\n- I'll share it on my YouTube and https://t.co/DUlKaMqDS4",
     "lang": "en",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2097326494104326144/vid/avc1/1328x1080/vtQGuHRd9WADFtAJ.mp4?tag=16",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2097326512169222407.mp4",
     "url": "https://x.com/marclou/status/2097326512169222407",
     "fav": 4358,
     "retweet": 0,
@@ -6720,7 +6720,7 @@
     "text_raw": "I’m spending my entire annual salary at Higgsfield on a billboard built like a Greek god.\n\nEvery ad slot on @marclou’s body is now Higgsfield. For HYROX.\n\nWhoever wants to sell ad slots on their bodies, hit me up. @sydney_sweeney @KingJames 👀\n\nfyi, my GPT-6 Astra agent is https://t.co/FvTjcN4KFc",
     "lang": "en",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2097780253238407168/vid/avc1/3800x2160/zJLsX27hxJFUPkr_.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2097780427046199490.mp4",
     "url": "https://x.com/gpumaxxer/status/2097780427046199490",
     "fav": 1086,
     "retweet": 0,
@@ -6737,7 +6737,7 @@
     "text_raw": "GPT Image 2 and Seedance 2.5\n\nPrompt:\nA visually striking, cinematic close-up shot capturing a woman from the chest up against a plain black background. She wears a vibrant orange sleeveless top that contrasts sharply with her skin and the dark backdrop. Her long, dark brown, https://t.co/HUdcl6IO6P",
     "lang": "en",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2097900535374577664/vid/avc1/640x352/XWQtudrgdYThqcxc.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2097900584804470975.mp4",
     "url": "https://x.com/Sairah_0/status/2097900584804470975",
     "fav": 52,
     "retweet": 0,
@@ -6811,7 +6811,7 @@
     "text_raw": "GPT Image 2 and Seedance 2.5\n\nPrompt:\nCreate a 30-second, 16:9, 1080p ultra-photorealistic home-video shot on an old consumer Mini-DV camcorder, capturing a warm summer evening in an older residential Kyoto neighborhood.\n\nA young Japanese woman in her early 20s, with a https://t.co/bfKYEx3uuc",
     "lang": "en",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2098272376920371200/vid/avc1/1920x1080/AF7Psv4D--ah2LnL.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2098272547280503039.mp4",
     "url": "https://x.com/Sairah_0/status/2098272547280503039",
     "fav": 46,
     "retweet": 0,
@@ -6879,7 +6879,7 @@
     "text_raw": "I just gave the viral 3D fly its first aerodynamics test in a Navier–Stokes wind tunnel.\n\nGPT-6 Astra visualized the vortex in interactive 3D through Higgsfield.\n\nHere’s the result. https://t.co/og9O4IDZCk",
     "lang": "en",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2098875397421383680/vid/avc1/1920x1920/clwj3p8lAl9yqFIz.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2098875837949071716.mp4",
     "url": "https://x.com/axultan/status/2098875837949071716",
     "fav": 279,
     "retweet": 0,
@@ -6924,7 +6924,7 @@
     "text_raw": "GPT Image 2 and Seedance 2.5\n\nPrompt:\nCreate a 30-second, 16:9, 1080p photorealistic live-action home video filmed on an inexpensive early-2000s consumer camcorder.\n\nA young Vietnamese woman in her early 20s, shoulder-length black hair, loose pale-blue button-up shirt, dark https://t.co/GJBDpSqM31",
     "lang": "en",
     "photos": [],
-    "video": "https://video.twimg.com/amplify_video/2099375491421777920/vid/avc1/640x352/WCpXm5paf0ab_UyF.mp4",
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2099375543783391714.mp4",
     "url": "https://x.com/Sairah_0/status/2099375543783391714",
     "fav": 41,
     "retweet": 0,
