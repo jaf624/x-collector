@@ -1,5 +1,337 @@
 [
   {
+    "x_id": "2070382714629591040",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-06-26T05:44:39.000Z",
+    "text_raw": "https://t.co/rIhY4Hryj0",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2070382714629591040",
+    "fav": 29,
+    "retweet": 0,
+    "reply": 13,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:24.667920Z"
+  },
+  {
+    "x_id": "2100196209399153046",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-16T12:12:50.000Z",
+    "text_raw": "Use the uploaded image as the sole content source and transform its main subject into a refined full-body handcrafted paper-cut fashion character. Preserve the subject’s identity cues, age category, gender presentation, skin tone, facial expression, hairstyle or head covering,",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2100196209399153046",
+    "fav": 63,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:23.410209Z"
+  },
+  {
+    "x_id": "2100556463718756754",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-17T12:04:22.000Z",
+    "text_raw": "Use the single uploaded photograph as the sole content source. Output only one transformed image—do not include the original photograph, a before-and-after comparison, split layout, collage, divider, frame, caption, or explanatory text. Preserve the source image’s aspect ratio",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2100556463718756754",
+    "fav": 79,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:22.207853Z"
+  },
+  {
+    "x_id": "2094053747840405550",
+    "screen_name": "DeepBlueX0",
+    "author": "DeepBlue深藍",
+    "verified": false,
+    "created_at": "2026-08-30T13:24:53.000Z",
+    "text_raw": "孔雀意象化服饰🦚\n\n🔵 GPT image 2 Prompt:\n\n成年女性，身穿以孔雀为灵感的现代高级时装；孔雀绿、深蓝、蓝紫渐变，少量金色点缀，服装融入羽冠结构、尾羽曲线与孔雀眼状纹理，不出现完整孔雀图案，优雅、神秘、华丽。 https://t.co/3E0B2iMa98",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094053747840405550_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094053747840405550_1.jpg",
+        "w": 992,
+        "h": 1586
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094053747840405550_2.jpg",
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094053747840405550_3.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/DeepBlueX0/status/2094053747840405550",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:21.009874Z"
+  },
+  {
+    "x_id": "2094070747182633414",
+    "screen_name": "DeepBlueX0",
+    "author": "DeepBlue深藍",
+    "verified": false,
+    "created_at": "2026-08-30T14:32:26.000Z",
+    "text_raw": "塔罗牌🃏\n\n🔵 GPT image 2 Prompt:\n\n根据你对我的了解，以经典的 Rider-Waite 风格创作一张塔罗牌。把我画成手绘人物，使用大胆但不完美、带有些微晃动与变化的黑色墨线，平涂色彩且不加阴影。在人物周围叠加巧妙的塔罗视觉元素。加上纸张纹理与印刷质感。 https://t.co/SY5aUeQR1I",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094070747182633414_0.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/DeepBlueX0/status/2094070747182633414",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:19.771027Z"
+  },
+  {
+    "x_id": "2094940870147559891",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-02T00:10:00.000Z",
+    "text_raw": "昨天这个用Codex本地生成深度视频火了，\n\n有兄弟的电脑没办法使用Codex，或者显卡不支持，\n\n可以使用LibTV的在线【深度动作捕捉】，\n\n也可以生成类似的深度视频，关键是免费。\n\n不过我对比了一下在线生成的精度没有我本地的高，当然如果只是捕捉动作的话够用了。\n\n具体步骤很简单： https://t.co/Fq0EQ7IRJx",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094940870147559891_0.jpg",
+        "w": 1712,
+        "h": 924
+      }
+    ],
+    "video": "https://video.twimg.com/amplify_video/2094840737024405504/vid/avc1/610x1080/-BYyJYYFgDqWekr4.mp4",
+    "url": "https://x.com/liyue_ai/status/2094940870147559891",
+    "fav": 435,
+    "retweet": 0,
+    "reply": 50,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:18.500385Z"
+  },
+  {
+    "x_id": "2094940871137362189",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-02T00:10:00.000Z",
+    "text_raw": "1、打开LibTV的官网，点击新建画布创作。\nhttps://t.co/rNhaElUpv9\n\n2、上传需要被转换的视频，选中视频转换即可。 https://t.co/wRia9gbGnu",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094940871137362189_0.jpg",
+        "w": 1655,
+        "h": 756
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/liyue_ai/status/2094940871137362189",
+    "fav": 7,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:17.262362Z"
+  },
+  {
+    "x_id": "2096135444681650505",
+    "screen_name": "BubbleBrain",
+    "author": "BubbleBrain",
+    "verified": false,
+    "created_at": "2026-09-05T07:16:48.000Z",
+    "text_raw": "🚨 OpenAI: the wiki incident shows it’s time to standardize how we disclose misalignment events, not just model traits. The wiki case was treated like earlier unintended internet use reports. They’re drafting a framework and working with regulators.",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/BubbleBrain/status/2096135444681650505",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:14.784845Z"
+  },
+  {
+    "x_id": "2095928617255776737",
+    "screen_name": "BubbleBrain",
+    "author": "BubbleBrain",
+    "verified": false,
+    "created_at": "2026-09-04T17:34:57.000Z",
+    "text_raw": "Some interesting details in the GPT-6 Astra model guidance docs:\n\n• Async tool calling. Astra can keep reasoning while tools are still running\n• Mid-turn steering. You can change instructions while the model is working\n• Reasoning effort can now be adjusted mid-conversation",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/BubbleBrain/status/2095928617255776737",
+    "fav": 3,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:13.591595Z"
+  },
+  {
+    "x_id": "2093510026019447219",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-08-29T01:24:20.000Z",
+    "text_raw": "https://t.co/ZDhmcEIu7K",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2093510026019447219",
+    "fav": 36,
+    "retweet": 0,
+    "reply": 9,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:12.391342Z"
+  },
+  {
+    "x_id": "2095330273101742092",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-09-03T01:57:21.000Z",
+    "text_raw": "https://t.co/2xQwFWPk0Q",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2095330273101742092",
+    "fav": 30,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:11.209979Z"
+  },
+  {
+    "x_id": "2096165124713398643",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-05T09:14:45.000Z",
+    "text_raw": "くら寿司× #ちいかわ のコラボキャンペーンが今日で中止になると聞いて、近所のくら寿司に滑り込んできた💨\n\n今日に限って\n戦力になるパパと息子はお出かけ…\n小学生の娘二人と3人で来店！\n\n大量トマトとサラダ系で皿を稼ぎ\n足りない分はチョコレート！！！（持ち帰れるのありがたい😊） https://t.co/2Mn5854ta7",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096165124713398643_0.jpg",
+        "w": 1202,
+        "h": 1061
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/taya_mama_AI/status/2096165124713398643",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:08.778810Z"
+  },
+  {
+    "x_id": "2096221070777106941",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-05T12:57:03.000Z",
+    "text_raw": "ええぇぇぇーー！！！\n𝕏バグ？？\n\n課金してるのに無かったことにされてる…\nアナリティクスも使えない…\n\nGrokのためにプレミアム課金してるのに…\nもしやGrokも使えないのか！？！？ｼﾗﾝｹﾄﾞ https://t.co/RfWGzg8U06",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096221070777106941_0.jpg",
+        "w": 1170,
+        "h": 2532
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096221070777106941_1.jpg",
+        "w": 1170,
+        "h": 2208
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/taya_mama_AI/status/2096221070777106941",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:07.530645Z"
+  },
+  {
+    "x_id": "2096227351655068145",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-05T13:22:01.000Z",
+    "text_raw": "＼5日間でフォロワー様500人増加‼️／\n\n自分で言っちゃうけど、この伸びはエグくないですか😳！！！\n\n本当にありがとうございます♡\n\nMiniMax H3動画のおかげ🤤\n今後も定期的に動画あげてきますねー\n\n今、めちゃくちゃ波に乗ってるアカウントなので絡むと伸びやすいですよー🙌ﾀﾌﾞﾝ https://t.co/rm7ppB4LYK",
+    "lang": "ja",
+    "photos": [],
+    "video": "https://video.twimg.com/amplify_video/2096227337369219072/vid/avc1/720x768/LfkJSodyFpe8HBHi.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2096227351655068145",
+    "fav": 26,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:05.082875Z"
+  },
+  {
+    "x_id": "2095940614525497482",
+    "screen_name": "VoxcatAI",
+    "author": "VoxCat",
+    "verified": false,
+    "created_at": "2026-09-04T18:22:37.000Z",
+    "text_raw": "😳 https://t.co/0PCwQaLhfO",
+    "lang": "qme",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2095940614525497482_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2095940614525497482_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2095940614525497482_2.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2095940614525497482_3.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/VoxcatAI/status/2095940614525497482",
+    "fav": 23,
+    "retweet": 0,
+    "reply": 5,
+    "is_quote": false,
+    "fetched_at": "2026-09-20T00:36:00.240420Z"
+  },
+  {
     "x_id": "2099735654641070183",
     "screen_name": "Sairah_0",
     "author": "Sairah",
