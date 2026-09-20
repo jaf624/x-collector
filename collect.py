@@ -151,7 +151,7 @@ RAW_BASE = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITOR
 IMG_DIR = OUT_DIR / "images"; IMG_DIR.mkdir(parents=True, exist_ok=True)
 VID_DIR = OUT_DIR / "videos"; VID_DIR.mkdir(parents=True, exist_ok=True)
 
-def localize_media(recs, img_max=8_000_000, vid_max=25_000_000):
+def localize_media(recs, img_max=8_000_000, vid_max=45_000_000):
     if not RAW_BASE:  # 本地无仓库上下文时保留原URL
         return
     for r in recs:
