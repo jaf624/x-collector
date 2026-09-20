@@ -146,14 +146,16 @@ def _twikit_to_rec(t, via):
 def read_lines(p):
     return [l.strip() for l in p.read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#")] if p.exists() else []
 
-# 海外节点把X图片下载进仓库 data/images，URL换成 raw 地址，保证国内服务器/用户浏览器可访问
+# 海外节点把X图片/视频下载进仓库 data/images、data/videos，URL换成 raw 地址，保证国内服务器/用户浏览器可访问
 RAW_BASE = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY','')}/main" if os.environ.get("GITHUB_REPOSITORY") else ""
 IMG_DIR = OUT_DIR / "images"; IMG_DIR.mkdir(parents=True, exist_ok=True)
+VID_DIR = OUT_DIR / "videos"; VID_DIR.mkdir(parents=True, exist_ok=True)
 
-def localize_media(recs, max_bytes=8_000_000):
+def localize_media(recs, img_max=8_000_000, vid_max=25_000_000):
     if not RAW_BASE:  # 本地无仓库上下文时保留原URL
         return
     for r in recs:
+        # 图片
         for i, p in enumerate(r.get("photos") or []):
             u = p.get("url", "")
             if not u or "raw.githubusercontent" in u: continue
@@ -161,11 +163,25 @@ def localize_media(recs, max_bytes=8_000_000):
             try:
                 if not fp.exists():
                     b = http_get(u, {"User-Agent": UA}, 40)
-                    if len(b) < 1500 or len(b) > max_bytes: continue
+                    if len(b) < 1500 or len(b) > img_max: continue
                     fp.write_bytes(b)
                 p["url"] = f"{RAW_BASE}/data/images/{fn}"   # 国内可达
             except Exception as e:
                 print("[img]", r["x_id"], "fail", str(e)[:80])
+        # 视频（twimg 直链国内不可达，必须落地到仓库）
+        vu = r.get("video") or ""
+        if vu and "video.twimg.com" in vu and "raw.githubusercontent" not in vu:
+            fn = f"{r['x_id']}.mp4"; fp = VID_DIR / fn
+            try:
+                if not fp.exists():
+                    b = http_get(vu, {"User-Agent": UA}, 120)
+                    if len(b) < 50_000 or len(b) > vid_max:
+                        print("[vid]", r["x_id"], "skip size", len(b)); continue
+                    fp.write_bytes(b)
+                r["video"] = f"{RAW_BASE}/data/videos/{fn}"   # 国内可达
+                print("[vid] ok", r["x_id"], fp.stat().st_size)
+            except Exception as e:
+                print("[vid]", r["x_id"], "fail", str(e)[:120])
 
 def main():
     ids=read_lines(ROOT/"targets"/"ids.txt")
@@ -191,6 +207,12 @@ def main():
         except Exception: old={}
     for r in recs:
         if r.get("x_id"): old[r["x_id"]]=r
+    # 对全量历史 feed 回填媒体本地化（重点：把历史 twimg 视频直链换成仓库 raw 地址）
+    allrecs=list(old.values())
+    todo=[r for r in allrecs if any("raw.githubusercontent" not in (p.get("url","")) for p in (r.get("photos") or [])) or ("video.twimg.com" in (r.get("video") or ""))]
+    if RAW_BASE and todo:
+        print(f"[media] 待本地化(含历史回填) {len(todo)} 条")
+        localize_media(todo)
     feed=sorted(old.values(), key=lambda x:x.get("fetched_at",""), reverse=True)
     OUT.write_text(json.dumps(feed,ensure_ascii=False,indent=2),encoding="utf-8")
     print(f"完成：本次 {len(recs)} 条，累积 {len(feed)} 条 -> {OUT}")
