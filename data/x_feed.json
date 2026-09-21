@@ -1,5 +1,102 @@
 [
   {
+    "x_id": "2095361763315487140",
+    "screen_name": "Sairah_0",
+    "author": "Sairah",
+    "verified": false,
+    "created_at": "2026-09-03T04:02:28.000Z",
+    "text_raw": "GPT Image 2 and Seedance 2.5\n\nPrompt:\nCreate a cinematic 15-second travel vlog featuring a young woman exploring London, shot in a natural handheld smartphone-vlog style. \n\n0–3 sec: She walks out onto a busy London street, smiling at the camera, with iconic red double-decker https://t.co/oaSt3ess56",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2095361763315487140.mp4",
+    "url": "https://x.com/Sairah_0/status/2095361763315487140",
+    "fav": 48,
+    "retweet": 0,
+    "reply": 35,
+    "is_quote": false,
+    "fetched_at": "2026-09-21T06:35:22.698109Z"
+  },
+  {
+    "x_id": "2096766458747629588",
+    "screen_name": "BubbleBrain",
+    "author": "BubbleBrain",
+    "verified": false,
+    "created_at": "2026-09-07T01:04:14.000Z",
+    "text_raw": "Today's Portrait. \n\n---prompt---\nVertical 9:16, photorealistic CCD flash nightlife portrait, candid nightclub dancefloor snapshot, direct frontal flash, cool-neutral low-saturation color palette, glossy highlights, slightly overexposed luminous skin, sharp flash-frozen subject https://t.co/6pSffP22JQ",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096766458747629588_0.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/BubbleBrain/status/2096766458747629588",
+    "fav": 93,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-09-21T06:35:19.259362Z"
+  },
+  {
+    "x_id": "2095394223688384830",
+    "screen_name": "nanyuan0412",
+    "author": "南鸢 nuyoah",
+    "verified": false,
+    "created_at": "2026-09-03T06:11:28.000Z",
+    "text_raw": "https://t.co/8PDbDRXmnT",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/nanyuan0412/status/2095394223688384830",
+    "fav": 162,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-09-21T06:35:14.601374Z"
+  },
+  {
+    "x_id": "2095515178154815618",
+    "screen_name": "nanyuan0412",
+    "author": "南鸢 nuyoah",
+    "verified": false,
+    "created_at": "2026-09-03T14:12:05.000Z",
+    "text_raw": "打斗练习 x 3\n\n比较满意的一版了，速度感上来了，水化闪避的感觉也有了。不得不说一句视频真好玩。\n\n用的模型是 SD 2.5 https://t.co/P3uMQH8J9D",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2095515178154815618.mp4",
+    "url": "https://x.com/nanyuan0412/status/2095515178154815618",
+    "fav": 181,
+    "retweet": 0,
+    "reply": 26,
+    "is_quote": false,
+    "fetched_at": "2026-09-21T06:35:13.436221Z"
+  },
+  {
+    "x_id": "2096503405426683964",
+    "screen_name": "DDJCXX",
+    "author": "硅基废话",
+    "verified": false,
+    "created_at": "2026-09-06T07:38:57.000Z",
+    "text_raw": "模糊的图片很影响心情，超高清图片来了。\n\n你们第一眼是不是看的脚🦶？ https://t.co/0zNijSmvMz",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096503405426683964_0.jpg",
+        "w": 1153,
+        "h": 2048
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/DDJCXX/status/2096503405426683964",
+    "fav": 6176,
+    "retweet": 0,
+    "reply": 57,
+    "is_quote": false,
+    "fetched_at": "2026-09-21T06:35:07.666412Z"
+  },
+  {
     "x_id": "1750181922053984772",
     "screen_name": "emollick",
     "author": "Ethan Mollick",
