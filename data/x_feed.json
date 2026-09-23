@@ -1,5 +1,854 @@
 [
   {
+    "x_id": "2102293569323090128",
+    "screen_name": "bkdgiffug",
+    "author": "lumxss",
+    "verified": false,
+    "created_at": "2026-09-22T07:07:00.000Z",
+    "text_raw": "做 Seedance 2.5 视频的，可以试试这个开源 导演 Skill。\n\n它不是单纯帮你写一句 Prompt，而是把视频生成前的提示词整理和优化也一起做了。\n\n基本流程：\n\n1️⃣ 输入需求，让它生成提示词\n2️⃣ 加入参考角色或素材\n3️⃣ 根据画面需求继续优化 Prompt\n对于不太会写视频提示词的人，确实能少折腾几轮。 https://t.co/2BeIe3z4YO",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102293569323090128_0.jpg",
+        "w": 843,
+        "h": 856
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/bkdgiffug/status/2102293569323090128",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:48.589164Z"
+  },
+  {
+    "x_id": "2102574069703217566",
+    "screen_name": "aoaoao",
+    "author": "嗷嗷镜",
+    "verified": false,
+    "created_at": "2026-09-23T01:41:36.000Z",
+    "text_raw": "卡尔大佬砸了 2 万块算力💰\n\n开源了这套  awesome-seedance\n\n这扔小红书和咸鱼不得卖个百八十的？\n\n帮大家盘了下里面最硬核的干货：\n📦 开箱即用的资产包：\n\n1️⃣463 个实测 Case 库\n\n2️⃣14 个镜头提示词模板：覆盖手持 UGC Vlog、带货口播、广告、对白口型、打斗特效等\n\n3️⃣25 个短片",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/aoaoao/status/2102574069703217566",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:47.790898Z"
+  },
+  {
+    "x_id": "2102240456092626951",
+    "screen_name": "aiwarts",
+    "author": "卡尔的AI沃茨",
+    "verified": false,
+    "created_at": "2026-09-22T03:35:57.000Z",
+    "text_raw": "https://t.co/Gr5VM7Aspu",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/aiwarts/status/2102240456092626951",
+    "fav": 2238,
+    "retweet": 0,
+    "reply": 105,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:46.992663Z"
+  },
+  {
+    "x_id": "2102577306846081150",
+    "screen_name": "TanLuAI",
+    "author": "探路AI",
+    "verified": false,
+    "created_at": "2026-09-23T01:54:28.000Z",
+    "text_raw": "@jyuan0719 最近 那个seedance 片段重拍 好像 也有问题，我也服了，改了几次，视频画面什么都没改。一开始还以为我提示词写的不好",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/TanLuAI/status/2102577306846081150",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:46.196126Z"
+  },
+  {
+    "x_id": "2102074368134353052",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-21T16:35:58.000Z",
+    "text_raw": "AI视频亲亲日常第十集：又偷吃我甜点？\n\n这该死的甜蜜又被AI秀到了😂\n\n还是参考图＋提示词直出，Seedance 2.5效果非常不错，非常自然。\n\n唯一遗憾是把比例搞反了，9:16变成了16:9😂 https://t.co/MGMMWzzXcr",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2102074368134353052.mp4",
+    "url": "https://x.com/liyue_ai/status/2102074368134353052",
+    "fav": 55,
+    "retweet": 0,
+    "reply": 11,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:45.385546Z"
+  },
+  {
+    "x_id": "2102421905320124879",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-22T15:36:57.000Z",
+    "text_raw": "AI视频亲亲日常第11集：你老看我干嘛？\n\n剧情一如既往的甜，表情自然流畅。\n\n提示词由Seedance 2.5导演Skill生成。 https://t.co/2WomTfhygG",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2102421905320124879.mp4",
+    "url": "https://x.com/liyue_ai/status/2102421905320124879",
+    "fav": 108,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:44.555290Z"
+  },
+  {
+    "x_id": "2102590635077443786",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-23T02:47:26.000Z",
+    "text_raw": "https://t.co/WO5IhJT2lI",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/liyue_ai/status/2102590635077443786",
+    "fav": 24,
+    "retweet": 0,
+    "reply": 15,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:43.740252Z"
+  },
+  {
+    "x_id": "2102600338297823520",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-23T03:25:59.000Z",
+    "text_raw": "女侠：“卧槽，敢踢老娘胸，看我不电死你”\n悍匪：“冤枉啊，导演安排的”\n\n用豆包工作优化后的Seedance 2.5打斗Skill，\n目前针对高速打斗场景已经算不错了。\n\n完整提示词如下：\n【全局画质设定】 https://t.co/giS5rDjxpX",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2102600338297823520.mp4",
+    "url": "https://x.com/liyue_ai/status/2102600338297823520",
+    "fav": 22,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:42.938680Z"
+  },
+  {
+    "x_id": "2102633733564363002",
+    "screen_name": "TanLuAI",
+    "author": "探路AI",
+    "verified": false,
+    "created_at": "2026-09-23T05:38:41.000Z",
+    "text_raw": "这是你在梦里见过的场景吗？\n\n巨物恐惧 深海巨物 外星来客\n\nGPT-image 2.5 出图 +Seedance 2.0 fast 生成视频\n\n完整生图提示词： https://t.co/1NkKs5fTVJ",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2102633733564363002.mp4",
+    "url": "https://x.com/TanLuAI/status/2102633733564363002",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:42.150847Z"
+  },
+  {
+    "x_id": "2102642989877325877",
+    "screen_name": "XWYan8",
+    "author": "human00001",
+    "verified": false,
+    "created_at": "2026-09-23T06:15:28.000Z",
+    "text_raw": "刷推荐刷到一堆 AI 短剧的，有点感触。\n\nSeedance 那几条能火，不全是模型，提示词写清楚了才好抄；做剧的还在纠结参考图怎么迁、人物别崩；出海那条 Pocket FM 剧本配 Seedance，浏览量吓人；还有人辞职做号，一个月大半时间耗在剪辑上。\n\n生成门槛在降，后期好像才真累。你们现在最烦哪一步？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/XWYan8/status/2102642989877325877",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:41.354786Z"
+  },
+  {
+    "x_id": "2100884547625992398",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-18T09:48:03.000Z",
+    "text_raw": "开源提示词，转载二创请注明来源 @0xkyne \n\n9:16竖版，真实生活化纪实摄影，iPhone近距离广角抓拍，从卧室门口或走廊一侧朝浴室方向拍摄，像家人在日常生活中随手记录到的一瞬间，画面具有自然、轻松、生活化的家庭氛围。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2100884547625992398",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:40.569571Z"
+  },
+  {
+    "x_id": "2101899710852112529",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-21T05:01:57.000Z",
+    "text_raw": "开源提示词，转载二创请备注来源 @0xkyne",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2101899710852112529",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:39.746049Z"
+  },
+  {
+    "x_id": "2101899707631194232",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-21T05:01:56.000Z",
+    "text_raw": "夜色越迷离，红颜越惊绝！\n当香港夜景碰上东方古韵，反差美学直接拉满🔥\n\n完整 Prompt 放在下方，直接抄作业👇\n#Aiart #promptshare https://t.co/FukBWV83Uy",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101899707631194232_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101899707631194232_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101899707631194232_2.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101899707631194232_3.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2101899707631194232",
+    "fav": 15,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:38.915775Z"
+  },
+  {
+    "x_id": "2096439480794452001",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-06T03:24:56.000Z",
+    "text_raw": "城市越乱，人越该漂亮！\n今天给大家分享一组超神提示词🔥\n背景越混沌，人物越炸，这种反差感真的爱看！\n\n#AIart #promptshare https://t.co/kiG4jHhK4p",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096439480794452001_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096439480794452001_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096439480794452001_2.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2096439480794452001",
+    "fav": 385,
+    "retweet": 0,
+    "reply": 54,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:38.103515Z"
+  },
+  {
+    "x_id": "2101946428700737539",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-21T08:07:35.000Z",
+    "text_raw": "当你还在考虑要不要打的时候\n有人半天时间仅代打费就入账 9000 U\n币圈最迷人的地方就在于此：它永远在重赏那些能敏锐捕捉需求、并且愿意动脑执行的人。信息差是第一生产力，行动力则是变现的杠杆。\n\n梳理了一下目前推特上口碑和交付相对靠谱的两位服务方：\n一个是@RXu107 猫老师，第一个代打服务发起人 https://t.co/MgYE0RGpXm",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101946428700737539_0.jpg",
+        "w": 1285,
+        "h": 853
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101946428700737539_1.jpg",
+        "w": 618,
+        "h": 581
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2101946428700737539",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 20,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:37.298079Z"
+  },
+  {
+    "x_id": "2101867303457718488",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-21T02:53:10.000Z",
+    "text_raw": "发现个有意思的新玩法\n23 年做 Checks 和 Opepen 爆火的那个 NFT 艺术家 Jack Butcher 开新 Mint 了\n只要 8 刀，但门槛有点刁钻，要用 X Money 转账\n\n手里有 X Money 权限的可以去玩一下：\n\n搜 @jackbutcher 转账8刀\n\nMemo 里填你的 ETH 钱包\n\n转完留好 TxID，这就是你拿到作品的生成种子\n\n9 月 21",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2101867303457718488",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:36.491067Z"
+  },
+  {
+    "x_id": "2101613709701644510",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-20T10:05:29.000Z",
+    "text_raw": "发现一个超好玩的头像风格！\n可以直接用原帖的图片生成方式\n我也顺手做了通用提示词的版本😆\n\n提示词：\n1:1 方形极简 Q 版头像，【角色名】，超近距离大头构图，minimalist chibi anime icon，flat vector illustration。\n\n人物头部被极度放大，**头部整体宽度约为画布宽度的 https://t.co/E3ZQ9OobQk",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101613709701644510_0.jpg",
+        "w": 1254,
+        "h": 1254
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101613709701644510_1.jpg",
+        "w": 1254,
+        "h": 1254
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101613709701644510_2.jpg",
+        "w": 1254,
+        "h": 1254
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101613709701644510_3.jpg",
+        "w": 1254,
+        "h": 1254
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2101613709701644510",
+    "fav": 36,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:35.686520Z"
+  },
+  {
+    "x_id": "2101337964957909152",
+    "screen_name": "ShiseiOko",
+    "author": "桜 非存",
+    "verified": false,
+    "created_at": "2026-09-19T15:49:46.000Z",
+    "text_raw": "用image 2.5做了个这个\n\n可以把这张图直接喂给AI\n\n效果很好 https://t.co/q96vo269Gm",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101337964957909152_0.jpg",
+        "w": 1254,
+        "h": 1254
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/ShiseiOko/status/2101337964957909152",
+    "fav": 1867,
+    "retweet": 0,
+    "reply": 99,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:34.872107Z"
+  },
+  {
+    "x_id": "2101995094111101161",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-21T11:20:58.000Z",
+    "text_raw": "心累。\n每天绞尽脑汁搞创作、折腾出图\n好不容易掏心掏肺分享一次 Alpha，反手就被无情制裁。 平台下刀毫不留情，说限就限\n这几天索性随缘更新了，权当给自己强行放假回血🥹 https://t.co/DsgxfflC0L",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101995094111101161_0.jpg",
+        "w": 861,
+        "h": 620
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101995094111101161_1.jpg",
+        "w": 799,
+        "h": 345
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101995094111101161_2.jpg",
+        "w": 696,
+        "h": 915
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2101995094111101161",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:34.048439Z"
+  },
+  {
+    "x_id": "2102238104367386678",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-22T03:26:36.000Z",
+    "text_raw": "寸晷之变，纤芥之裁。\n汉库克与罗宾的近景胸像自此落定——\n所谓神性与美学，终在此处闭环。 https://t.co/pJ9ckqBhct",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102238104367386678_0.jpg",
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102238104367386678_1.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2102238104367386678",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:33.243442Z"
+  },
+  {
+    "x_id": "2101984164182728718",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-21T10:37:32.000Z",
+    "text_raw": "同样的提示词，其实8月的时候是出不了的，现在可以了\n史诗般的升级🎉\n\n提示词：\n2:3 https://t.co/2NI5Z0BY84",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101984164182728718_0.jpg",
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101984164182728718_1.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2101984164182728718",
+    "fav": 29,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:32.395610Z"
+  },
+  {
+    "x_id": "2102263347936891118",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-22T05:06:54.000Z",
+    "text_raw": "My trace is in https://t.co/dLCyN8mfz3",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102263347936891118_0.jpg",
+        "w": 727,
+        "h": 806
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2102263347936891118",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:31.601913Z"
+  },
+  {
+    "x_id": "2102294065824051642",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-22T07:08:58.000Z",
+    "text_raw": "推特时间线上满屏幕 JEV\n上一个这么刷屏的还是 Openclaw 龙虾...",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2102294065824051642",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:30.816641Z"
+  },
+  {
+    "x_id": "2102393984148791467",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-22T13:46:01.000Z",
+    "text_raw": "珠玉发饰与华灯流溢同辉，她以一身黛色之拟象，凝滞为这一具都市造像的凛然本体。 https://t.co/4dOcGzRjgi",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102393984148791467_0.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2102393984148791467",
+    "fav": 12,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:30.014328Z"
+  },
+  {
+    "x_id": "2102575565001883860",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-23T01:47:33.000Z",
+    "text_raw": "一帧成画，三帧失手。\n狐影未定，心月先乱 https://t.co/7H9yMvHLMI",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102575565001883860_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102575565001883860_1.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2102575565001883860",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:29.214847Z"
+  },
+  {
+    "x_id": "2102579958417653976",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-09-23T02:05:00.000Z",
+    "text_raw": "其实我自己也是个完美主义者。\n\n以前做事情，总习惯先想清楚路线、把东西准备得差不多，再开始行动。做 𝕏 之后，我最大的变化就是四个字：先上路，再调整。\n\n我的 Skill 也是这么长出来的。最早压根没想过要做什么",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2102579958417653976",
+    "fav": 13,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:28.428166Z"
+  },
+  {
+    "x_id": "2102437396663111969",
+    "screen_name": "jinchenma_ai",
+    "author": "金尘马",
+    "verified": false,
+    "created_at": "2026-09-22T16:38:31.000Z",
+    "text_raw": "做技术的人，从职场出来，无论是干自媒体，还是自己做产品，最忌讳的就是总想着把东西做完美，要不就不敢往外推。\n\n尤其是从大厂出来的同学，因为大厂规训的就是这种标准化、严丝合缝，就是让你不能出错。一旦出错了，人家就有把柄，各种 diss 你。\n\n但到了市场里，运行逻辑完全不一样。\n\n比如你们看",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/jinchenma_ai/status/2102437396663111969",
+    "fav": 27,
+    "retweet": 0,
+    "reply": 10,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:27.627478Z"
+  },
+  {
+    "x_id": "2102592035635220704",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-09-23T02:53:00.000Z",
+    "text_raw": "Jev 的爆火，给我最大的启发是使用AI的方式上\n\n哪些让模型判断，哪些交给代码，哪些必须人工兜底，都要提前分清。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2102592035635220704",
+    "fav": 3,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:26.812534Z"
+  },
+  {
+    "x_id": "2102337405508616441",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-22T10:01:11.000Z",
+    "text_raw": "https://t.co/gzxvIxLLhS",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2102337405508616441",
+    "fav": 34,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:26.004886Z"
+  },
+  {
+    "x_id": "2102598818953060477",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-09-23T03:19:57.000Z",
+    "text_raw": "看了太多起号指南，这篇最底层，也最露骨。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2102598818953060477",
+    "fav": 7,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:25.216046Z"
+  },
+  {
+    "x_id": "2102373925309338097",
+    "screen_name": "bbkirstry",
+    "author": "小晚不在",
+    "verified": false,
+    "created_at": "2026-09-22T12:26:18.000Z",
+    "text_raw": "一篇文章盘透x的起号心法和底层逻辑\n解决你启动前90%的认知和心理问题\n\n如果你准备好了，欢迎向我们大胆地介绍你自己\n分享你的经验和真本事，换一个友好的follow❤️ https://t.co/5lxHUt2dZz",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/bbkirstry/status/2102373925309338097",
+    "fav": 88,
+    "retweet": 0,
+    "reply": 21,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:24.409507Z"
+  },
+  {
+    "x_id": "2102612923260563481",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-09-23T04:16:00.000Z",
+    "text_raw": "出来正好半年，微信好友数直接翻倍了…\n\n确实去到了更多地方，结实了更多优秀的人，当然一切的根源来自做x。\n\n玩推特认识的朋友，很多真的成为事业上的合作伙伴，也有十来个成为了能交心的真朋友。\n\n反而之前工作的同事，都在说“你啥时候开公司啊，我要去做三点才去上班的前台。”",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2102612923260563481",
+    "fav": 9,
+    "retweet": 0,
+    "reply": 5,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:23.599111Z"
+  },
+  {
+    "x_id": "2102562843312972112",
+    "screen_name": "jinchenma_ai",
+    "author": "金尘马",
+    "verified": false,
+    "created_at": "2026-09-23T00:57:00.000Z",
+    "text_raw": "我以前上班的时候，微信好友也就七八百人，顶天了。出来这一年，现在已经将近两千人了。\n\n当然，加了好友，也不代表就能一起做什么。这里面有二三十个人吧，平时联系比较多，觉得以后有机会可以一起做点事。\n\n自从开始做",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/jinchenma_ai/status/2102562843312972112",
+    "fav": 22,
+    "retweet": 0,
+    "reply": 13,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:22.787148Z"
+  },
+  {
+    "x_id": "2102624751361683485",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-09-23T05:03:00.000Z",
+    "text_raw": "最近线下不少人问我关于FDE落地的事，我没之前那么乐观了… \n\n目前FDE在国内已经从概念炒作过渡到项目验证和商业模式早期验证阶段。\n\n但对于OPC和几人团队来说，如果需要派出几个人去企业真实的待上一段时间了解业务做项目的话，这并不是一单好的生意。 https://t.co/53XUh67AjE",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102624751361683485_0.jpg",
+        "w": 1068,
+        "h": 2048
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2102624751361683485",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 5,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:21.992250Z"
+  },
+  {
+    "x_id": "2083090241683128626",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-07-31T07:19:50.000Z",
+    "text_raw": "https://t.co/C3sEAMGsu1",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2083090241683128626",
+    "fav": 2345,
+    "retweet": 0,
+    "reply": 94,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:21.173952Z"
+  },
+  {
+    "x_id": "2102627037735461313",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-09-23T05:12:05.000Z",
+    "text_raw": "理念相同的资源、人脉，真的会吻上来😭\n\n刚开始当老师的时候，我的领导说：你的优点是你对钱不计较。不像XXX，会为了钱翻脸。那时候我没感受到是夸还是损…\n\n后来我发现，努力交付，就为了人家一句夸赞，真的会让做事更纯粹。 https://t.co/69MnfurYON",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102627037735461313_0.jpg",
+        "w": 943,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102627037735461313_1.jpg",
+        "w": 942,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102627037735461313_2.jpg",
+        "w": 943,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102627037735461313_3.jpg",
+        "w": 943,
+        "h": 2048
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2102627037735461313",
+    "fav": 14,
+    "retweet": 0,
+    "reply": 6,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:20.373909Z"
+  },
+  {
+    "x_id": "2102636578955039017",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-09-23T05:50:00.000Z",
+    "text_raw": "我给大学生的建议一直都是\n\n玩好AI、学好英语。\n\n我亲测，2个月拿下7分，绝对可行的",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2102636578955039017",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:19.580387Z"
+  },
+  {
+    "x_id": "2101843747487220093",
+    "screen_name": "ZhanlinYan74392",
+    "author": "yan（约会版）",
+    "verified": false,
+    "created_at": "2026-09-21T01:19:34.000Z",
+    "text_raw": "https://t.co/78jRUJrNAe",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ZhanlinYan74392/status/2101843747487220093",
+    "fav": 2715,
+    "retweet": 0,
+    "reply": 40,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:18.779599Z"
+  },
+  {
+    "x_id": "2102645890590679474",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-09-23T06:27:00.000Z",
+    "text_raw": "昨天和一个设计师朋友聊审美\n\n她说你得知道什么是美，才谈得上培养吧？\n\n那什么是美呢？ Jaden给了👇",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2102645890590679474",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:17.971918Z"
+  },
+  {
+    "x_id": "2102580320830939309",
+    "screen_name": "Jaden_riku",
+    "author": "Jaden 抽象日志",
+    "verified": false,
+    "created_at": "2026-09-23T02:06:27.000Z",
+    "text_raw": "上册反馈还可以，紧赶慢赶把下册赶出来了，内容尽可能保持精品，做了大量的配图和演示 https://t.co/Ts1jjDsuO9",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/Jaden_riku/status/2102580320830939309",
+    "fav": 108,
+    "retweet": 0,
+    "reply": 6,
+    "is_quote": false,
+    "fetched_at": "2026-09-23T06:54:17.153071Z"
+  },
+  {
     "x_id": "2097491637048090707",
     "screen_name": "BubbleBrain",
     "author": "BubbleBrain",
@@ -2572,39 +3421,6 @@
     "fetched_at": "2026-09-20T12:31:51.603504Z"
   },
   {
-    "x_id": "2096439480794452001",
-    "screen_name": "0xkyne",
-    "author": "月无关 | 0xKyne",
-    "verified": false,
-    "created_at": "2026-09-06T03:24:56.000Z",
-    "text_raw": "城市越乱，人越该漂亮！\n今天给大家分享一组超神提示词🔥\n背景越混沌，人物越炸，这种反差感真的爱看！\n\n#AIart #promptshare https://t.co/kiG4jHhK4p",
-    "lang": "zh",
-    "photos": [
-      {
-        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096439480794452001_0.jpg",
-        "w": 941,
-        "h": 1672
-      },
-      {
-        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096439480794452001_1.jpg",
-        "w": 941,
-        "h": 1672
-      },
-      {
-        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2096439480794452001_2.jpg",
-        "w": 941,
-        "h": 1672
-      }
-    ],
-    "video": "",
-    "url": "https://x.com/0xkyne/status/2096439480794452001",
-    "fav": 382,
-    "retweet": 0,
-    "reply": 54,
-    "is_quote": false,
-    "fetched_at": "2026-09-20T12:31:49.206843Z"
-  },
-  {
     "x_id": "2096520605097148488",
     "screen_name": "0xkyne",
     "author": "月无关 | 0xKyne",
@@ -3884,23 +4700,6 @@
     "reply": 4,
     "is_quote": false,
     "fetched_at": "2026-09-19T12:52:19.497436Z"
-  },
-  {
-    "x_id": "2100884547625992398",
-    "screen_name": "0xkyne",
-    "author": "月无关 | 0xKyne",
-    "verified": false,
-    "created_at": "2026-09-18T09:48:03.000Z",
-    "text_raw": "开源提示词，转载二创请注明来源 @0xkyne \n\n9:16竖版，真实生活化纪实摄影，iPhone近距离广角抓拍，从卧室门口或走廊一侧朝浴室方向拍摄，像家人在日常生活中随手记录到的一瞬间，画面具有自然、轻松、生活化的家庭氛围。",
-    "lang": "zh",
-    "photos": [],
-    "video": "",
-    "url": "https://x.com/0xkyne/status/2100884547625992398",
-    "fav": 5,
-    "retweet": 0,
-    "reply": 0,
-    "is_quote": false,
-    "fetched_at": "2026-09-19T12:52:18.701299Z"
   },
   {
     "x_id": "2100949013273125056",
