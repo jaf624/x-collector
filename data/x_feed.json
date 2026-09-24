@@ -1,5 +1,626 @@
 [
   {
+    "x_id": "2102617636014346603",
+    "screen_name": "cnzhihao",
+    "author": "智昊 - OPC版",
+    "verified": false,
+    "created_at": "2026-09-23T04:34:43.000Z",
+    "text_raw": "今天是我给人工智能小镇拉 FDE 实施的第三周，摈弃了之前做需求调研然后上 Agent 再让老板压员工用的思路，改让员工自己做 Agent 自己使用调试。 https://t.co/2pWFX4cM07",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/cnzhihao/status/2102617636014346603",
+    "fav": 33,
+    "retweet": 0,
+    "reply": 10,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:19.645966Z"
+  },
+  {
+    "x_id": "2102672092068196370",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-23T08:11:07.000Z",
+    "text_raw": "毕业就应该开始理财\n\n最晚页是30岁之前\n\n基本上40-45岁就可以财富自由，够养老了\n\n之前真是不懂\n\n年轻人多了解多学，提前理财",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2102672092068196370",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:18.743130Z"
+  },
+  {
+    "x_id": "2102657866440257838",
+    "screen_name": "241221Alice",
+    "author": "艾也",
+    "verified": false,
+    "created_at": "2026-09-23T07:14:35.000Z",
+    "text_raw": "https://t.co/K3pjZiagoi",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/241221Alice/status/2102657866440257838",
+    "fav": 11,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:17.835407Z"
+  },
+  {
+    "x_id": "2102685209158472142",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-23T09:03:14.000Z",
+    "text_raw": "提示词软件我一直想做\n\n啥时候发布我第一个下载",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2102685209158472142",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:16.926904Z"
+  },
+  {
+    "x_id": "2102676997042520446",
+    "screen_name": "xiaoheitu_1231",
+    "author": "小黑兔",
+    "verified": false,
+    "created_at": "2026-09-23T08:30:36.000Z",
+    "text_raw": "最近做了一个提示词软件 PromptWise。\n\nAI 再聪明，每次对话把重要要求重新带进去，还是比单纯相信上下文更靠谱。哪怕上下文已经到了 1M，也照样会忘、会偏、会幻觉。\n\n但固定提示词每次复制粘贴太烦了，所以我做了 PromptWise，把常用提示词保存起来，直接拖到任意 AI 输入框里。 https://t.co/K6CfRzhEgW",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2102676997042520446.mp4",
+    "url": "https://x.com/xiaoheitu_1231/status/2102676997042520446",
+    "fav": 11,
+    "retweet": 0,
+    "reply": 23,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:16.012631Z"
+  },
+  {
+    "x_id": "2102700735268049263",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-23T10:04:56.000Z",
+    "text_raw": "看完感觉我完全不会社交\n\n这些年我丢失了多少人脉",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2102700735268049263",
+    "fav": 9,
+    "retweet": 0,
+    "reply": 18,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:15.101805Z"
+  },
+  {
+    "x_id": "2102695228637319269",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-09-23T09:43:03.000Z",
+    "text_raw": "https://t.co/qRRBvdf9cm",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2102695228637319269",
+    "fav": 276,
+    "retweet": 0,
+    "reply": 34,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:14.170890Z"
+  },
+  {
+    "x_id": "2102725252472336498",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-23T11:42:21.000Z",
+    "text_raw": "Use the single uploaded photograph as the sole content source. Transform it into one finished handcrafted layered-paper storybook scene. Output only the transformed image—do not include the original photograph, a before-and-after comparison, split layout, collage, caption,",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2102725252472336498",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:13.251455Z"
+  },
+  {
+    "x_id": "2102725248265458062",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-23T11:42:20.000Z",
+    "text_raw": "彩色剪纸风格提示词，大爱！！！\n\n你的生活应该是五彩缤纷的.. https://t.co/pZuZxlEh5F",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102725248265458062_0.jpg",
+        "w": 1080,
+        "h": 2880
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102725248265458062_1.jpg",
+        "w": 1080,
+        "h": 2880
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102725248265458062_2.jpg",
+        "w": 1080,
+        "h": 2880
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102725248265458062_3.jpg",
+        "w": 1080,
+        "h": 2880
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2102725248265458062",
+    "fav": 66,
+    "retweet": 0,
+    "reply": 20,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:12.320744Z"
+  },
+  {
+    "x_id": "2102727506554245357",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-23T11:51:19.000Z",
+    "text_raw": "你们每个月AI订阅都花多少？\n\n刚部门统计了一下自己购买的外部模型\n\n老板用的 - codex pro x5\n多数组员是 - codex plus x 1\n其他 - 白嫖\n\n我老板问我为啥没有claude\n\n当然是封号啊！！！",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2102727506554245357",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 7,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:11.394135Z"
+  },
+  {
+    "x_id": "2102777929902309432",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-23T15:11:40.000Z",
+    "text_raw": "推特有价值长文合集\n\n没看过的可以按目录看了\n\n为啥没有我的长文啊哈哈\n\n开玩笑",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2102777929902309432",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:10.477071Z"
+  },
+  {
+    "x_id": "2102356964584169783",
+    "screen_name": "Chchenhao0129",
+    "author": "Hardy Chen",
+    "verified": false,
+    "created_at": "2026-09-22T11:18:54.000Z",
+    "text_raw": "https://t.co/NKxKVOwQWY",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/Chchenhao0129/status/2102356964584169783",
+    "fav": 337,
+    "retweet": 0,
+    "reply": 18,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:09.550622Z"
+  },
+  {
+    "x_id": "2102788578988503299",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-23T15:53:59.000Z",
+    "text_raw": "为了鹈鹕骑车比GPT6好\n\n我？？？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2102788578988503299",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:08.647039Z"
+  },
+  {
+    "x_id": "2102757899164602393",
+    "screen_name": "jinchenma_ai",
+    "author": "金尘马",
+    "verified": false,
+    "created_at": "2026-09-23T13:52:05.000Z",
+    "text_raw": "自从 A 畜恶意封杀账号之后，我基本上就只用 GPT 了。\n\n现在大家都在说 Opus 5.5 强到令人发指，\n\n在线发问：真的值得为了 Opus 5.5 再给 Claude 充值吗？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/jinchenma_ai/status/2102757899164602393",
+    "fav": 12,
+    "retweet": 0,
+    "reply": 28,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:07.728943Z"
+  },
+  {
+    "x_id": "2102800548202487978",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-23T16:41:33.000Z",
+    "text_raw": "人和人真是不一样\n\n给自家车充电\n\n电枪插着充电，还没充满\n\n不知道谁过来把拔两次充电枪了\n\n拔枪说一声啊\n\n我以为车震了呢🙃",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2102800548202487978",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:06.806964Z"
+  },
+  {
+    "x_id": "2102535664281760002",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-22T23:09:00.000Z",
+    "text_raw": "【悲報】\nAIエージェントで時短するはずが\n逆に時間溶けた話😂\n\nこの数ヶ月\n作業を全部自動化したらラクになる！\n\n…と思って、色んな人のスキルを借りつつ\n仕組み化をすすめてみた結果\n\n途中でズレると\n「どこがおかしい？」を探す時間がめっちゃかかった。\n\nせっかく時短したいのに、 https://t.co/63VCYqGLum",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102535664281760002_0.jpg",
+        "w": 1122,
+        "h": 1402
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/taya_mama_AI/status/2102535664281760002",
+    "fav": 9,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:05.901810Z"
+  },
+  {
+    "x_id": "2102737566508487005",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-23T12:31:17.000Z",
+    "text_raw": "くままさん、ありがとうございます🙌",
+    "lang": "ja",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/taya_mama_AI/status/2102737566508487005",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:04.993754Z"
+  },
+  {
+    "x_id": "2101432394930647188",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-19T22:05:00.000Z",
+    "text_raw": "フォロワー様3800人！！\nありがとうございます😍\n\nこれからもスキマ時間にAI使って発信していくのでよろしくお願いします🙌\n\n固定ポストでプレゼント企画しているので\nぜひ受け取ってくださいね☺️ https://t.co/5tXM9pbUSk",
+    "lang": "ja",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2101432394930647188.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2101432394930647188",
+    "fav": 30,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:04.052186Z"
+  },
+  {
+    "x_id": "2102526101465817342",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-22T22:31:00.000Z",
+    "text_raw": "＼㊗️3900フォロワー様🎉／\n\nありがとうございます😍\nここまできたらめざせ4000人✨\n\n新しい方も増えたので改めて自己紹介。\n\n「時間がなくても諦めない」をモットーに\nAI×スマホでスキマ時間を攻略する\n副業ワーママの『たーや』です☺️\n\n動画生成もスキマ時間にスマホでやります🎥\n ︎ https://t.co/FcJsHpDZ5Z",
+    "lang": "ja",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2102526101465817342.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2102526101465817342",
+    "fav": 52,
+    "retweet": 0,
+    "reply": 6,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:03.125041Z"
+  },
+  {
+    "x_id": "2102562293494284538",
+    "screen_name": "MatoToushi",
+    "author": "まと｜AI×デザイン",
+    "verified": false,
+    "created_at": "2026-09-23T00:54:49.000Z",
+    "text_raw": "み！て！こ！れ！\n\nプロフスクショから読み取った情報で架空のモンスターと歩く広告クリエイティブという趣味全開のプロンプトを爆誕させましたｗｗｗ\n\nカラフルなのもかわいいけど白っぽくまとまってるのもかわいいしとにかく見ててたのしいいい！ https://t.co/jbNNnpUyJT",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102562293494284538_0.jpg",
+        "w": 1122,
+        "h": 1402
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102562293494284538_1.jpg",
+        "w": 1122,
+        "h": 1402
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102562293494284538_2.jpg",
+        "w": 1122,
+        "h": 1402
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102562293494284538_3.jpg",
+        "w": 1122,
+        "h": 1402
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/MatoToushi/status/2102562293494284538",
+    "fav": 504,
+    "retweet": 0,
+    "reply": 21,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:02.177481Z"
+  },
+  {
+    "x_id": "2102754792288497760",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-23T13:39:44.000Z",
+    "text_raw": "お出かけしてたら出遅れたー😂\n話題のまとさんプロンプト試してみました🙌\n\nいつもながら楽しい💕\nモンスターと歩く発想はなかったー\nさすまと！！！！✨ https://t.co/JGmYHrVspR",
+    "lang": "ja",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2102754792288497760.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2102754792288497760",
+    "fav": 17,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:01.262113Z"
+  },
+  {
+    "x_id": "2097498971535286627",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-09T01:34:59.000Z",
+    "text_raw": "GPT Images 2.5のスケッチ機能。\nプリセットに追加されてた！！！おもしろい。\n\n残念ながらスマホアプリにはまだ来てない…😿\nスマホでできてる人いるのかな？？？ https://t.co/3BN5Yk5KnX",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097498971535286627_0.jpg",
+        "w": 1014,
+        "h": 637
+      }
+    ],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2097498971535286627.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2097498971535286627",
+    "fav": 10,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:54:00.339279Z"
+  },
+  {
+    "x_id": "2102768057378849239",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-23T14:32:27.000Z",
+    "text_raw": "え⁉️いつから？？\n\nGPT Image 2.5のsketch機能\nいつの間にかスマホアプリからできるようになってる😳‼️\n\nきづいてなかったー💦\n\n❶チャット欄の左側の「➕」をクリック\nまたはチャット欄に「@」を入力\n\n❷プラグインの中から「スケッチ」を選択\n\nモードはChatでもWorkでも\nどちらも使えましたよー🙌 https://t.co/2zPNF8ZRWN",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102768057378849239_0.jpg",
+        "w": 1086,
+        "h": 1448
+      }
+    ],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2102768057378849239.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2102768057378849239",
+    "fav": 6,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:53:59.416617Z"
+  },
+  {
+    "x_id": "2102768717629395158",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-23T14:35:04.000Z",
+    "text_raw": "taneさん@gin1910410 のプロンプトで可愛いのできた🙌\n\n可愛いからぜひやってみてほしい！！！\n\nハートの落書きを使えば #ハートアクション 投稿にも使える💕\n\n【作り方】\n↓引用元のtaneさんのやり方に\nマイキャラ画像を足しただけ！ https://t.co/91IRsvrrpe",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102768717629395158_0.jpg",
+        "w": 1448,
+        "h": 1086
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102768717629395158_1.jpg",
+        "w": 1086,
+        "h": 1448
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/taya_mama_AI/status/2102768717629395158",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:53:58.494319Z"
+  },
+  {
+    "x_id": "2102347482630139944",
+    "screen_name": "gin1910410",
+    "author": "tane@AI",
+    "verified": false,
+    "created_at": "2026-09-22T10:41:14.000Z",
+    "text_raw": "この引用元の画像はGPTの「sketch」機能を使ってみました\nなかなか楽しいです(実写の手は後で付け足してもらった)\n\n需要あるかわからんけどプロンプトです\n(使用報告不要、改変などご自由にどうぞ！)\n\nプロンプト：\n\nこの画像のようにペンでラフな線を引いてください https://t.co/0MLZVLRNXc",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102347482630139944_0.jpg",
+        "w": 1825,
+        "h": 3543
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102347482630139944_1.jpg",
+        "w": 1122,
+        "h": 1402
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gin1910410/status/2102347482630139944",
+    "fav": 199,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:53:57.559486Z"
+  },
+  {
+    "x_id": "2102769344761782712",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-23T14:37:34.000Z",
+    "text_raw": "みどりさんのお守りポスター プロンプトをお借りしました！！\n\nダーヤで作ったらお守りなのにご利益なさそうな感じがまた良い🖤 https://t.co/XnDAES8e7w",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102769344761782712_0.jpg",
+        "w": 1086,
+        "h": 1448
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/taya_mama_AI/status/2102769344761782712",
+    "fav": 6,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:53:56.631705Z"
+  },
+  {
+    "x_id": "2102676592799432970",
+    "screen_name": "midori_tatsuta",
+    "author": "みどり🐲Midori Tatsuta",
+    "verified": false,
+    "created_at": "2026-09-23T08:29:00.000Z",
+    "text_raw": "ChatGPTでアイコンをお守りポスター化できるプロンプトを作りました。プロフィール文までのスクショを入れると、自分らしいモチーフが少し反映されます。\nプロンプトは👇️ https://t.co/Zse5ukoAsj",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102676592799432970_0.jpg",
+        "w": 1086,
+        "h": 1448
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102676592799432970_1.jpg",
+        "w": 1086,
+        "h": 1448
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/midori_tatsuta/status/2102676592799432970",
+    "fav": 130,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:53:55.704977Z"
+  },
+  {
+    "x_id": "2102772697130569864",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-23T14:50:53.000Z",
+    "text_raw": "おかしいな…\nうちのOpus5.5なんか微妙やぞ。\n\n𝕏で見るようなら凄いクオリティは\nそう簡単には実現できない事例😂\n\n繰り返し見てると\nだんだん愛着湧いてくる。\n ︎\n\nちなみにクラウドでやったから\nローカルのスキルは一切使わずに実験。 https://t.co/VUvwWWdrE6",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102772697130569864_0.jpg",
+        "w": 1170,
+        "h": 1332
+      }
+    ],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2102772697130569864.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2102772697130569864",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:53:54.778714Z"
+  },
+  {
+    "x_id": "2102921472192942304",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-24T00:42:04.000Z",
+    "text_raw": "うわぁぁぁーー😱\nやってしまった…。\n\nUdemyの字幕、動画アップロード時に作成できるんじゃん！！←しかも多言語対応できる\n\nClaude Codeが優秀すぎて字幕まで完成させてしまった…\n\nFableくん無駄遣いしたー😭\n\n音聞けない時とか字幕ないと不便だから\nここはちゃんと整えてから出したい… https://t.co/bPcJHKKs1w",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2102921472192942304_0.jpg",
+        "w": 1169,
+        "h": 675
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/taya_mama_AI/status/2102921472192942304",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:53:53.864075Z"
+  },
+  {
+    "x_id": "2102210006951264759",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-22T01:34:57.000Z",
+    "text_raw": "感動！！！\n\n寝てる間にセクション入力と動画のアップロード69本中68本完了してた✨\n失敗したのは容量オーバーの1本だけ。\n\nAI社員に作業代行たのんだのは\nセクション内容のコピペと動画ファイルののアップロード。\n\n単純作業だけど自分がやると地味に時間がかかる作業が寝てる間におわってた～😻 https://t.co/ifmCyx5twB",
+    "lang": "ja",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2102210006951264759.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2102210006951264759",
+    "fav": 14,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-09-24T00:53:52.921033Z"
+  },
+  {
     "x_id": "2096913862859669717",
     "screen_name": "PenguinWeb3",
     "author": "Penguin",
