@@ -210,6 +210,28 @@
   "discovered_at": "2026-09-21T02:25:15Z"
  },
  {
+  "name": "APTANALYSIS",
+  "url": "https://t.me/APTANALYSIS",
+  "preview": "https://t.me/s/APTANALYSIS",
+  "title": "APT ANALYSIS",
+  "desc": "Анализ APT с фокусом на моделирование, обнаружение и управление сложными атаками. Предоставление точных данных и решений для прогнозирования угроз с реальным оп",
+  "posts_in_page": 19,
+  "latest": "2026-08-18",
+  "recent3": 0,
+  "recent7": 0,
+  "china_hits": 9,
+  "cat_hits": {
+   "网络攻击与数据安全": 6,
+   "间谍情报与涉密信息套取": 3,
+   "经济金融与产业链供应链安全": 2
+  },
+  "related_msgs": 2,
+  "media_count_only": 17,
+  "score": 32.2,
+  "status": "pending_review",
+  "discovered_at": "2026-09-25T02:25:40Z"
+ },
+ {
   "name": "HKNFChannel",
   "url": "https://t.me/HKNFChannel",
   "preview": "https://t.me/s/HKNFChannel",
