@@ -1,5 +1,295 @@
 [
   {
+    "x_id": "2098064656795627777",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-10T15:02:48.000Z",
+    "text_raw": "Image 2.5 这次是真把设计师的门槛打穿了\n\n动图，表情包，电商广告图，产品图，服饰，香水，模特图，全都能做了\n\n提示词学明白，一个人就能承包以前高级设计师，专业设计师干的活，直接变身月入五位数的设计师\n\n自己有项目就省设计费，想兼职接单的话，一般都是 1000 起 https://t.co/oLdcYYj2MZ",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098064656795627777_0.jpg",
+        "w": 1170,
+        "h": 2532
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2098064656795627777",
+    "fav": 20,
+    "retweet": 0,
+    "reply": 23,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:58.164274Z"
+  },
+  {
+    "x_id": "2098291700024361431",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-11T06:05:00.000Z",
+    "text_raw": "Claude Code 能看图片，但你丢个视频或者 Bug 录屏进去，它就没法直接看懂。\n\nclaude-video-vision 这个开源插件，相当于给 Claude Code 补上了“眼睛和耳朵”。\n\n原理也很直接。\n\nffmpeg 负责抽视频帧，音频后端负责生成带时间戳的转录，最后把画面和文字一起交给 Claude 分析。 https://t.co/9JttZ3cKDh",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098291700024361431_0.jpg",
+        "w": 1776,
+        "h": 1138
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2098291700024361431",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:56.954150Z"
+  },
+  {
+    "x_id": "2097715653981667777",
+    "screen_name": "DeepBlueX0",
+    "author": "DeepBlue深藍",
+    "verified": false,
+    "created_at": "2026-09-09T15:56:00.000Z",
+    "text_raw": "犹抱琵琶半遮面～\n\n🔵 GPT image 2.5 Prompt:\n\n清雅含情；花影朦胧；帘影欲掩；欲语还休；佳人含羞；惊鸿破格 https://t.co/aJbqLPHfu1",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097715653981667777_0.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/DeepBlueX0/status/2097715653981667777",
+    "fav": 73,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:55.755331Z"
+  },
+  {
+    "x_id": "2098094153649238360",
+    "screen_name": "DeepBlueX0",
+    "author": "DeepBlue深藍",
+    "verified": false,
+    "created_at": "2026-09-10T17:00:01.000Z",
+    "text_raw": "GPT image 2.5 Sunburst的出图确实细节，画质更多了，噪点更少了，但感觉整体变得也更平庸了 https://t.co/PP4YKLc7g0",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098094153649238360_0.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/DeepBlueX0/status/2098094153649238360",
+    "fav": 35,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:54.560011Z"
+  },
+  {
+    "x_id": "2098241854177427518",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-11T02:46:56.000Z",
+    "text_raw": "使用Claude Code，你的隐私将无所遁形。\n\n很好奇这么私密的信息是用户自己上传的？\n还是Claude Code未经允许情况下收集的？\n\n只在说自己的大模型被怎么怎么，\n就是不谈自己大模型做的恶，滑稽。 https://t.co/IKZSHAFKAY",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098241854177427518_0.jpg",
+        "w": 1316,
+        "h": 806
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/liyue_ai/status/2098241854177427518",
+    "fav": 40,
+    "retweet": 0,
+    "reply": 44,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:48.542972Z"
+  },
+  {
+    "x_id": "2097526256770154529",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-09T03:23:24.000Z",
+    "text_raw": "昨天用下面的提示词生成了一张图，\n今天重新生成了一张对比图，\n能分清差别在哪里吗？\n\nGPT Image 2/2.5生成东方美学壁纸：春日竹影。\n\n提示词（欢迎返图）：\n主题方向：东方禅意极简插画\n风格分支：女性审美明快型\n主体内容：一位手持圆形团扇的古风女子站在白墙竹影前 https://t.co/xf7alcHqC3",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097526256770154529_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097526256770154529_1.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/liyue_ai/status/2097526256770154529",
+    "fav": 34,
+    "retweet": 0,
+    "reply": 55,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:47.334531Z"
+  },
+  {
+    "x_id": "2098246112159420546",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-11T03:03:51.000Z",
+    "text_raw": "GPT Image 2.5生成东方极简封面海报。\n\n提示词（欢迎返图）：\n主题方向：东方禅意极简封面海报\n风格分支：女性审美高对比型\n主体内容：一位女子站在极简花器旁，轻轻整理一枝花\n情绪母题：精致、明亮、轻奢东方感\n场景与意象：白色空间、葡萄紫花朵、青柠绿叶片、白瓷花器、女子\n构图与空间：9:16 https://t.co/iIKAryGF2V",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098246112159420546_0.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/liyue_ai/status/2098246112159420546",
+    "fav": 52,
+    "retweet": 0,
+    "reply": 57,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:46.090062Z"
+  },
+  {
+    "x_id": "2098075407732154799",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-10T15:45:32.000Z",
+    "text_raw": "【セミナー特典追加しました🎁】\nセミナー直前に完成したGIFアニメ変換アプリ✨\n\n紹介したらめっちゃ反応よかったので\nチケット特典にβ版を追加することにしました🤤\n\nこれマッジで便利です！\n動画とったので是非見てほしい！！！\n\nこんまりさん @konmari_tweet  とけいたろうさん @keitaro_aigc https://t.co/LoKaWMxY81",
+    "lang": "ja",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2098075407732154799.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2098075407732154799",
+    "fav": 9,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:43.652642Z"
+  },
+  {
+    "x_id": "2097879735116149111",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-10T02:48:00.000Z",
+    "text_raw": "今夜22：00～！！\n\n当日参加無料なのでお気軽にどうぞ😉\nみなさまお待ちしてます～\n\n申込は👇 https://t.co/j0Sp0nP8DZ",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097879735116149111_0.jpg",
+        "w": 1122,
+        "h": 1402
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/taya_mama_AI/status/2097879735116149111",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:42.443217Z"
+  },
+  {
+    "x_id": "2098024850405335292",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-09-10T12:24:38.000Z",
+    "text_raw": "もうすぐです！！！\nMiriCanvasマニアセミナー！\n\nセミナー直前に、めっちゃ便利なツールが爆誕しました😍\n\nセミナーで紹介しますね🙌\n\n当日無料で参加できるのでぜひ！！\n👇 https://t.co/xuYukOMGV9",
+    "lang": "ja",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2098024850405335292.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2098024850405335292",
+    "fav": 7,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:41.210342Z"
+  },
+  {
+    "x_id": "2098232671218683963",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-09-11T02:10:26.000Z",
+    "text_raw": "围绕任意主题对象生成一张图文融合的概念画面：先让一个极粗、极大的主题核心词占据中部，字形像沉重的结构墙一样压住画面，随后用主题派生的水平环境场从字的下半部横切过去，遮住部分笔画，使文字既保持可读，又像被真实空间吞没一截。环境场前方放置一个低矮横向的主题载体和一个很小的行动符号，尺",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2098232671218683963",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:38.787628Z"
+  },
+  {
+    "x_id": "2098232669092086195",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-09-11T02:10:26.000Z",
+    "text_raw": "AI 时代就应该这样学习新概念的哈哈 🧐\n\nGPT Image 2.5 出图，再用 Wan3.0 或者 Minimax H3 就能出来不错的效果～\n\n提示词见评论，替换下主题词就行👇 https://t.co/37c5qMOTvh",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2098232669092086195.mp4",
+    "url": "https://x.com/msjiaozhu/status/2098232669092086195",
+    "fav": 30,
+    "retweet": 0,
+    "reply": 29,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:37.586206Z"
+  },
+  {
+    "x_id": "2098226391854756262",
+    "screen_name": "0xkyne",
+    "author": "月无关 | 0xKyne",
+    "verified": false,
+    "created_at": "2026-09-11T01:45:29.000Z",
+    "text_raw": "卧槽！《巫师3》要出重置版 Remastered 了！ \nSteam 老玩家直接免费升级！\n\n这可是 2015 年的游戏啊😂\n\n11 年了还在售后， CDPR 你是真的离谱哈哈哈\n@CDPROJEKTRED @thewitcher\n\n就冲这个，做了 3 张海报纪念一下\n\n这次真得回去再走一遍狩魔猎人的路了🐺 https://t.co/Y6jpZpQ3DZ",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098226391854756262_0.jpg",
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098226391854756262_1.jpg",
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098226391854756262_2.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/0xkyne/status/2098226391854756262",
+    "fav": 10,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-25T12:35:35.183608Z"
+  },
+  {
     "x_id": "2069972051058917874",
     "screen_name": "mehwishkiran07",
     "author": "Mehwish kiran",
