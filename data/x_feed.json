@@ -1,5 +1,115 @@
 [
   {
+    "x_id": "2098762537588388059",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-09-12T13:15:56.000Z",
+    "text_raw": "Grok Bot 让你们玩的越来越离谱了\n\n闲鱼上架，小红书做图，做视频，都用Bot\n\n真是一点活不想干...\n\n行不行先用用看，新事物尝试，说不定就发现什么商机了\n\n不好用回来喷博主",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2098762537588388059",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-09-26T18:31:04.417875Z"
+  },
+  {
+    "x_id": "2097331543656235497",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-08T14:29:41.000Z",
+    "text_raw": "想玩什么游戏自己蹬，\n\nGPT-6 Astra开发的《热血传奇》玩的好爽，刀刀暴击，皮肤随便换。\n\n可惜是单机游戏，这要是有服务器那更爽了。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/liyue_ai/status/2097331543656235497",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 30,
+    "is_quote": false,
+    "fetched_at": "2026-09-26T18:30:57.468335Z"
+  },
+  {
+    "x_id": "2097882769896718657",
+    "screen_name": "VoxcatAI",
+    "author": "VoxCat",
+    "verified": false,
+    "created_at": "2026-09-10T03:00:03.000Z",
+    "text_raw": "「2000s 中国县城青春影像」\n\n核心不是怀旧滤镜，而是 2000—2006 年县城真实生活环境 × 当时对时髦的想象 × 廉价但认真装饰出来的现代感。\n\n完整提示词👇\n\n{角色}，明确为成年角色，2000—2006 年中国县城青春影像 × 早期 CCD 数码摄影 × 县城青年时尚 × 当代 Editorial 人像。 https://t.co/Y1KqiF8IKj",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097882769896718657_0.jpg",
+        "w": 1086,
+        "h": 1448
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097882769896718657_1.jpg",
+        "w": 1086,
+        "h": 1448
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097882769896718657_2.jpg",
+        "w": 1086,
+        "h": 1448
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097882769896718657_3.jpg",
+        "w": 1086,
+        "h": 1448
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/VoxcatAI/status/2097882769896718657",
+    "fav": 104,
+    "retweet": 0,
+    "reply": 59,
+    "is_quote": false,
+    "fetched_at": "2026-09-26T18:30:56.323549Z"
+  },
+  {
+    "x_id": "2098756440324473055",
+    "screen_name": "VoxcatAI",
+    "author": "VoxCat",
+    "verified": false,
+    "created_at": "2026-09-12T12:51:43.000Z",
+    "text_raw": "平成日本宣传 DVD 封套 × 一日宣传大使 × 真人偶像写真拼贴 × 公益宣传平面 × 早期数码摄影质感\n\n模型image2,这一版很容易触发违规，如果违规可多试几次，建议使用ChatGPT 工作模式。\n\n通用完整提示词\n\n{角色 / 主题}，明确为成年角色，设计为 平成时代日本宣传 DVD 封套风格 × 一日宣传大使企划 × https://t.co/RuS887a96g",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098756440324473055_0.jpg",
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098756440324473055_1.jpg",
+        "w": 1122,
+        "h": 1402
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098756440324473055_2.jpg",
+        "w": 1055,
+        "h": 1491
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098756440324473055_3.jpg",
+        "w": 1086,
+        "h": 1448
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/VoxcatAI/status/2098756440324473055",
+    "fav": 19,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-09-26T18:30:55.212331Z"
+  },
+  {
     "x_id": "2099735654641070183",
     "screen_name": "Sairah_0",
     "author": "Sairah",
