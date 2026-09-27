@@ -20,7 +20,13 @@
     {"cat": "地区治理", "q": "China Hong Kong Xinjiang Tibet policy"},
     {"cat": "信息生态", "q": "China online misinformation media campaign"},
     {"cat": "国防动态", "q": "China defense nuclear military buildup"},
-    {"cat": "外交动态", "q": "China diplomacy summit foreign policy bilateral"}
+    {"cat": "外交动态", "q": "China diplomacy summit foreign policy bilateral"},
+    {"cat": "金砖与全球南方", "q": "China BRICS summit Global South cooperation"},
+    {"cat": "出入境政策", "q": "China exit entry ban visa passport border policy"},
+    {"cat": "日韩动向", "q": "China Japan Korea relations policy move"},
+    {"cat": "非洲动向", "q": "China Africa policy Chinese workers projects security"},
+    {"cat": "领导人变动", "q": "China leadership reshuffle senior official change"},
+    {"cat": "国庆重要节点", "q": "China National Day October anniversary sensitive date"}
   ],
   "watch_categories": [
     {"cat": "反华人物账号", "queries": [

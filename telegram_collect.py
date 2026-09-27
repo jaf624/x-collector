@@ -209,8 +209,12 @@ def main():
     junk_re = build_re(cfg["junk_markers"])
     cats = [{"key": c["key"], "name": c["name"], "sensitive": c["sensitive"], "re": build_re(c["keywords"])}
             for c in cfg["categories"]]
-    channels = [(c, c) if isinstance(c, str) else (c["name"], c.get("alias", c["name"]))
-                for c in cfg.get("business_channels", [])]
+    def _norm(c):
+        return (c, c) if isinstance(c, str) else (c["name"], c.get("alias", c["name"]))
+
+    watch_cap = cfg.get("watch_max_per_channel", 25)
+    channels = [("tier1",) + _norm(c) for c in cfg.get("business_channels", [])]
+    channels += [("tier2",) + _norm(c) for c in cfg.get("watch_channels", [])]
 
     os.makedirs(DATA, exist_ok=True)
     feed = json.load(open(FEED, encoding="utf-8")) if os.path.exists(FEED) else []
@@ -229,7 +233,7 @@ def main():
         print("[tg] 未配置业务公开频道(business_channels 为空)，本轮跳过抓取、零入库；TG_DONE", flush=True)
         return
 
-    biz_names = {ch for ch, _ in channels}
+    biz_names = {ch for _tier, ch, _ in channels}
 
     def _in_biz(x):
         m = re.match(r"https?://t\.me/([^/]+)/", x.get("url", ""))
@@ -244,8 +248,9 @@ def main():
     existing = [trigrams(x.get("content", "")) for x in feed]
     tg_items, stats = [], {"channels": 0, "scanned": 0, "junk": 0, "not_china": 0, "lead": 0,
                            "usable": 0, "dup": 0, "low": 0, "expired": 0, "lowinfo": 0, "fail": 0}
-    for ch, alias in channels:
-        posts, st = fetch_direct(ch, days, max_pages, max_n)
+    for _tier, ch, alias in channels:
+        cap_n = max_n if _tier == "tier1" else watch_cap
+        posts, st = fetch_direct(ch, days, max_pages, cap_n)
         via = "direct"
         if not posts:
             posts, st2 = fetch_jina(ch)

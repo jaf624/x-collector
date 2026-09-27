@@ -1,4 +1,41 @@
-# 关键词搜索（配置登录态secret后生效），每行一个，可中英文混排
+# 国家安全研判·关键词搜索（每行一个，可中英文混排、空格表示同时包含）；AI提示词关键词保留在末尾
+反华
+境外反华活动
+反华组织 新成立
+暴乱 袭击 涉华
+爆炸 袭击
+颜色革命 中国
+境外集会 涉华
+国庆 安全 节点
+重要时间节点 安全
+间谍 被捕 中国
+涉密 情报 套取
+领导人 变动
+高级官员 调整
+金砖峰会
+金砖 中国 全球南方
+出入境 政策
+出境 禁令
+护照 签证 政策
+中国 日本 动向
+中国 韩国 外交
+中国 非洲 合作
+非洲 中国人 安全
+南海 动向
+台海 动向
+新疆 西藏 境外
+海外公民 安全
+anti-China
+anti China protest
+China dissident overseas
+China espionage arrest
+China exit ban
+China BRICS summit
+China Africa attack
+China Japan Korea policy
+China leadership reshuffle
+China National Day security
+# 以下为AI提示词采集（提示词库用）
 AI提示词
 prompt engineering
 GPT image prompt

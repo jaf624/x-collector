@@ -1,0 +1,106 @@
+[
+ {
+  "ran_at": "2026-09-27T14:30:07Z",
+  "promoted": [
+   {
+    "name": "chinaworkerISA",
+    "score": 111.0,
+    "latest": "2026-09-16"
+   },
+   {
+    "name": "NTDChinese",
+    "score": 71.0,
+    "latest": "2026-09-19"
+   },
+   {
+    "name": "ChineseNationalSocialism",
+    "score": 69.5,
+    "latest": "2026-09-17"
+   },
+   {
+    "name": "BlackCatNightWatcher",
+    "score": 57.5,
+    "latest": "2026-08-26"
+   },
+   {
+    "name": "arpsyndicate",
+    "score": 49.7,
+    "latest": "2026-09-24"
+   },
+   {
+    "name": "XueXi_China",
+    "score": 39.0,
+    "latest": "2026-09-18"
+   },
+   {
+    "name": "HK_Schedule",
+    "score": 35.5,
+    "latest": "2026-09-17"
+   },
+   {
+    "name": "ROC1912",
+    "score": 33.0,
+    "latest": "2026-08-19"
+   },
+   {
+    "name": "APTANALYSIS",
+    "score": 32.2,
+    "latest": "2026-08-18"
+   },
+   {
+    "name": "VanActivistsHKChannel",
+    "score": 31.0,
+    "latest": "2026-09-13"
+   },
+   {
+    "name": "HKgersinLeeds",
+    "score": 30.0,
+    "latest": "2026-08-20"
+   }
+  ],
+  "archived": [
+   {
+    "name": "DemosistoOfficial",
+    "reason": "频道长期停更，留档备查"
+   },
+   {
+    "name": "CivilHumanRightsFront",
+    "reason": "频道长期停更，留档备查"
+   },
+   {
+    "name": "HKNFChannel",
+    "reason": "频道长期停更，留档备查"
+   },
+   {
+    "name": "BoilerTacticians",
+    "reason": "频道长期停更，留档备查"
+   }
+  ],
+  "business_total": 12,
+  "archived_total": 4
+ },
+ {
+  "ran_at": "2026-09-27T14:31:24Z",
+  "tier1": [
+   "NTDChinese",
+   "BlackCatNightWatcher",
+   "arpsyndicate",
+   "XueXi_China"
+  ],
+  "tier2": [
+   "ROC1912",
+   "APTANALYSIS",
+   "VanActivistsHKChannel",
+   "HKgersinLeeds"
+  ],
+  "archived": [
+   "DemosistoOfficial",
+   "CivilHumanRightsFront",
+   "HKNFChannel",
+   "BoilerTacticians"
+  ],
+  "business_total": 8,
+  "watch_total": 4,
+  "archived_total": 4
+ }
+]
