@@ -1,5 +1,72 @@
 [
   {
+    "x_id": "1904028090738577491",
+    "screen_name": "dotey",
+    "author": "宝玉",
+    "verified": false,
+    "created_at": "2025-03-24T04:30:46.000Z",
+    "text_raw": "简单说：相同点就是仍然要上下文清晰；不同点就是你不需要告诉推理模型怎么做，它会尝试找到最佳路径。举例来说，你让 GPT-4o 翻译，可能得告诉它先直译再意译；到了 o1，你只要说请用中文重写上面的内容就可以了。\nhttps://t.co/RY2RjSGba0",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/dotey/status/1904028090738577491",
+    "fav": 11,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-09-27T00:37:23.753014Z"
+  },
+  {
+    "x_id": "2096948774543540244",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-07T13:08:41.000Z",
+    "text_raw": "好好好，仙侠火了就都是一个人的，闻所未闻，后面想输出的，想教别人的就都得先致敬一波是吧，okok，多谢栖光让仙侠闻名世界，我等后来者都没有学和使用的份儿。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/liyue_ai/status/2096948774543540244",
+    "fav": 17,
+    "retweet": 0,
+    "reply": 52,
+    "is_quote": false,
+    "fetched_at": "2026-09-27T00:37:19.253224Z"
+  },
+  {
+    "x_id": "2097983867630309584",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-09-10T09:41:47.000Z",
+    "text_raw": "家人们！真的要好好开源，发布好产品啊\n\n感谢@YouMind_AI 感谢@stark_nico99 感谢@lifesinger  邀请我入驻平台🥰🥰 https://t.co/ixl85qehY5",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097983867630309584_0.jpg",
+        "w": 1002,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097983867630309584_1.jpg",
+        "w": 1320,
+        "h": 1648
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2097983867630309584_2.jpg",
+        "w": 1320,
+        "h": 1211
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2097983867630309584",
+    "fav": 42,
+    "retweet": 0,
+    "reply": 54,
+    "is_quote": false,
+    "fetched_at": "2026-09-27T00:37:13.678095Z"
+  },
+  {
     "x_id": "2099735654641070183",
     "screen_name": "Sairah_0",
     "author": "Sairah",
