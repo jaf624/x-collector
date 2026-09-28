@@ -237,7 +237,7 @@ def main():
         print("[tg] 未配置业务公开频道(business_channels 为空)，本轮跳过抓取、零入库；TG_DONE", flush=True)
         return
 
-    biz_names = {ch for _tier, ch, _ in channels}
+    biz_names = {ch for _tier, ch, _a, _b in channels}
 
     def _in_biz(x):
         m = re.match(r"https?://t\.me/([^/]+)/", x.get("url", ""))

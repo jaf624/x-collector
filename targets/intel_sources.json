@@ -63,6 +63,34 @@
       "lang": "en",
       "cat": "海外华人宗教",
       "pat": "churchinrowlandheights\\.org/[^\\s\\)\\]]+"
+    },
+    {
+      "name": "Armstrong Economics",
+      "url": "https://armstrongeconomics.com",
+      "lang": "en",
+      "cat": "国际评论",
+      "pat": "armstrongeconomics\\.com/[^\\s\\)\\]\\[]+"
+    },
+    {
+      "name": "zyd1998",
+      "url": "https://zyd1998.com",
+      "lang": "zh",
+      "cat": "国际中文媒体",
+      "pat": "zyd1998\\.com/[^\\s\\)\\]\\[]+"
+    },
+    {
+      "name": "ChinaCongress",
+      "url": "https://chinacongress.net",
+      "lang": "zh",
+      "cat": "境外组织站点",
+      "pat": "chinacongress\\.net/[^\\s\\)\\]\\[]+"
+    },
+    {
+      "name": "CongressCenter",
+      "url": "https://congresscenter.org",
+      "lang": "zh",
+      "cat": "境外组织站点",
+      "pat": "congresscenter\\.org/[^\\s\\)\\]\\[]+"
     }
   ],
   "search_categories": [
