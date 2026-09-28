@@ -1,0 +1,22 @@
+name: tmp-tg-probe
+on:
+  workflow_dispatch: {}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Probe t.me previews
+        run: |
+          for n in whyyoutouzhele_memecoin fandangfenzixi; do
+            echo "===== $n ====="
+            curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://t.me/s/$n" -o /tmp/$n.html
+            echo "bytes: $(wc -c < /tmp/$n.html)"
+            echo "title: $(grep -oP '(?<=og:title" content=")[^"]*' /tmp/$n.html | head -1)"
+            echo "desc: $(grep -oP '(?<=og:description" content=")[^"]*' /tmp/$n.html | head -1)"
+            echo "msg_bubbles: $(grep -c 'tgme_widget_message ' /tmp/$n.html)"
+            grep -oP 'tgme_page_extra">[^<]*' /tmp/$n.html | head -1
+            grep -oP 'tgme_action_button_new">[^<]*' /tmp/$n.html | head -1
+            grep -oP 'class="tgme_page_description">[^<]*' /tmp/$n.html | head -1
+            grep -oP 'you can request access[^<]*|preview is unavailable[^<]*|If you have Telegram[^<]*' /tmp/$n.html | head -3
+          done
