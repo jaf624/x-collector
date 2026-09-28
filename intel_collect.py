@@ -672,6 +672,9 @@ def main():
                   and c["route"] != "institute" and c.get("via") != "pinned"][:MAX_ART]
     deep_inst = [c for c in cand if c["body_from"] == "full" and c["route"] == "institute"][:INST_DEEP]
     deep_cand = pinned_cand + deep_other + deep_inst                        # 需 Jina 深抓：指定优先
+    def _pt(c):
+        return f"  <{c['url'][:48]}>" if c.get("via") == "pinned" else ""
+
     today = datetime.datetime.utcnow().date()
     f = {"fetch_fail": 0, "not_fresh": 0, "too_short": 0, "not_rel": 0, "duplicate": 0,
          "paywall": 0, "low_quality": 0, "usable": 0, "snippet_lead": 0}
@@ -697,6 +700,8 @@ def main():
             if st != 200 or not md or md.startswith("EXC"):
                 f["fetch_fail"] += 1; print(f"  x 抓取失败 HTTP{st} {c['url'][:64]}", flush=True); continue
             title, pub, text = clean_article(md)
+            if c.get("via") == "pinned":
+                print(f"  [pinned-proc] {c['url']} HTTP{st} md={len(md or '')} text={len(text)}", flush=True)
         # 机构稿：深抓/清洗后标题与正文可能变化（面包屑混入等），用最终内容做软新闻+主题复检
         # 注：此处不用 link_noise——Jina 全文开头普遍带面包屑/分享链接，会误伤正规报道
         if c["route"] == "institute" and not is_snip:
@@ -722,18 +727,21 @@ def main():
         if len(text) < min_len:
             f["too_short"] += 1; print(f"  x 过短({len(text)}) {c['url'][:64]}", flush=True); continue
         if not rel.search(title + " " + text[:800]):
-            f["not_rel"] += 1; print(f"  x 不相关 {(title or c['url'])[:48]}", flush=True); continue
+            f["not_rel"] += 1
+            print(f"  x 不相关 {(title or c['url'])[:48]}" + _pt(c), flush=True); continue
         if is_snip:
             score, hard, why = 45, False, ["social_snippet"]
         else:
             if is_duplicate(text, existing_sets):
-                f["duplicate"] += 1; print(f"  x 重复通稿 {(title or c['url'])[:48]}", flush=True); continue
+                f["duplicate"] += 1
+                print(f"  x 重复通稿 {(title or c['url'])[:48]}" + _pt(c), flush=True); continue
             score, hard, why = quality_score(text, junk_re, paywall_re, ad_re)
             if hard:
                 f["paywall"] += 1; print(f"  x 付费墙 {c['url'][:64]}", flush=True); continue
         usable = (not is_snip) and score >= Q_MIN
         if not usable and not is_snip:
-            f["low_quality"] += 1; print(f"  x 低质({score}分,{','.join(why)}) {(title or c['url'])[:42]}", flush=True); continue
+            f["low_quality"] += 1
+            print(f"  x 低质({score}分,{','.join(why)}) {(title or c['url'])[:42]}" + _pt(c), flush=True); continue
         if is_snip:
             f["snippet_lead"] += 1
         if usable:
