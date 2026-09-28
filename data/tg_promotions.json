@@ -102,5 +102,24 @@
   "business_total": 8,
   "watch_total": 4,
   "archived_total": 4
+ },
+ {
+  "ran_at": "2026-09-28T03:30:12Z",
+  "tier1": [],
+  "tier2": [
+   "ROC1912",
+   "APTANALYSIS",
+   "VanActivistsHKChannel",
+   "HKgersinLeeds"
+  ],
+  "archived": [
+   "DemosistoOfficial",
+   "CivilHumanRightsFront",
+   "HKNFChannel",
+   "BoilerTacticians"
+  ],
+  "business_total": 8,
+  "watch_total": 4,
+  "archived_total": 4
  }
 ]
