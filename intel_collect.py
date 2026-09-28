@@ -726,22 +726,25 @@ def main():
         min_len = 120 if is_snip else MIN_BODY
         if len(text) < min_len:
             f["too_short"] += 1; print(f"  x 过短({len(text)}) {c['url'][:64]}", flush=True); continue
-        if not rel.search(title + " " + text[:800]):
+        is_pin = c.get("via") == "pinned"
+        if not is_pin and not rel.search(title + " " + text[:800]):
             f["not_rel"] += 1
             print(f"  x 不相关 {(title or c['url'])[:48]}" + _pt(c), flush=True); continue
         if is_snip:
             score, hard, why = 45, False, ["social_snippet"]
         else:
-            if is_duplicate(text, existing_sets):
+            if not is_pin and is_duplicate(text, existing_sets):
                 f["duplicate"] += 1
                 print(f"  x 重复通稿 {(title or c['url'])[:48]}" + _pt(c), flush=True); continue
             score, hard, why = quality_score(text, junk_re, paywall_re, ad_re)
-            if hard:
+            if hard and not is_pin:
                 f["paywall"] += 1; print(f"  x 付费墙 {c['url'][:64]}", flush=True); continue
         usable = (not is_snip) and score >= Q_MIN
-        if not usable and not is_snip:
+        if not usable and not is_snip and not is_pin:
             f["low_quality"] += 1
             print(f"  x 低质({score}分,{','.join(why)}) {(title or c['url'])[:42]}" + _pt(c), flush=True); continue
+        if is_pin and not usable:
+            print(f"  [pinned-keep] 指定保留(存档) {(title or c['url'])[:42]} score={score}", flush=True)
         if is_snip:
             f["snippet_lead"] += 1
         if usable:
