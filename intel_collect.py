@@ -663,9 +663,11 @@ def main():
     cand.sort(key=lambda x: x["hint_date"] or datetime.date(2000, 1, 1), reverse=True)
     snip_cand = [c for c in cand if c["body_from"] == "snippet"]             # 线索快照：零 token，全保留
     feed_cand = [c for c in cand if c["body_from"] == "feed"][:INST_MAX]     # 机构 RSS 自带全文：零 token
-    deep_other = [c for c in cand if c["body_from"] == "full" and c["route"] != "institute"][:MAX_ART]
+    pinned_cand = [c for c in cand if c.get("via") == "pinned"]             # 用户指定：不限量、优先抓
+    deep_other = [c for c in cand if c["body_from"] == "full"
+                  and c["route"] != "institute" and c.get("via") != "pinned"][:MAX_ART]
     deep_inst = [c for c in cand if c["body_from"] == "full" and c["route"] == "institute"][:INST_DEEP]
-    deep_cand = deep_other + deep_inst                                       # 需 Jina 深抓：限量控成本
+    deep_cand = pinned_cand + deep_other + deep_inst                        # 需 Jina 深抓：指定优先
     today = datetime.datetime.utcnow().date()
     f = {"fetch_fail": 0, "not_fresh": 0, "too_short": 0, "not_rel": 0, "duplicate": 0,
          "paywall": 0, "low_quality": 0, "usable": 0, "snippet_lead": 0}
