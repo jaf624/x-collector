@@ -1,0 +1,52 @@
+name: domain-watch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 1 * * *"   # 每天 UTC 01:23（北京 09:23）
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: probe dead domains
+        run: |
+          mkdir -p data
+          python3 - <<'PY'
+          import json, socket, subprocess, datetime, os
+          domains = ["onion666.com"]
+          key = os.environ.get("JINA_KEY", "")
+          out = {}
+          for d in domains:
+              try:
+                  ip = socket.gethostbyname(d)
+              except Exception:
+                  ip = None
+              rec = {"checked_at": datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+                     "status": "online" if ip else "down", "ip": ip}
+              if ip:
+                  p = subprocess.run(
+                      ["curl", "-sL", "--max-time", "60",
+                       "-H", f"Authorization: Bearer {key}",
+                       f"https://r.jina.ai/https://{d}/"],
+                      capture_output=True, text=True)
+                  rec["content"] = p.stdout[:20000]
+                  print(f"[watch] {d} ONLINE ip={ip} bytes={len(p.stdout)}")
+              else:
+                  print(f"[watch] {d} still down")
+              out[d] = rec
+          json.dump(out, open("data/domain_watch.json", "w"), ensure_ascii=False, indent=1)
+          PY
+        env:
+          JINA_KEY: ${{ secrets.JINA_KEY }}
+      - name: commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/domain_watch.json
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "data: 域名复活监控快照" || true
+            for i in 1 2 3 4; do git pull --rebase origin main && break || sleep 5; done
+            git push
+          fi
