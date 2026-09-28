@@ -275,5 +275,31 @@
     "加微信",
     "扫码进群",
     "广告"
+  ],
+  "pinned_urls": [
+    {
+      "url": "https://armstrongeconomics.com/world-news/war/chinese-v-american-views-on-war-with-taiwan",
+      "name": "Armstrong Economics",
+      "lang": "en",
+      "cat": "国际评论"
+    },
+    {
+      "url": "https://zyd1998.com/archives/8159",
+      "name": "zyd1998",
+      "lang": "zh",
+      "cat": "国际中文媒体"
+    },
+    {
+      "url": "https://chinacongress.net",
+      "name": "ChinaCongress",
+      "lang": "zh",
+      "cat": "境外组织站点"
+    },
+    {
+      "url": "https://congresscenter.org",
+      "name": "CongressCenter",
+      "lang": "zh",
+      "cat": "境外组织站点"
+    }
   ]
 }

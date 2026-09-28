@@ -537,6 +537,14 @@ def main():
         print(f"[section] {sec['name']}: 链接{len(links)} 候选{kept} tokens={tok}", flush=True)
         time.sleep(0.5)
 
+    # 1b) 用户指定的具体文章 URL：直接列候选，不经首页发现（仍过相关性/质量/时效规则）
+    pinned = cfg.get("pinned_urls", [])
+    for p in pinned:
+        add(p["url"], p.get("name", "pinned"), p.get("lang", "?"),
+            p.get("cat", "中国议题"), "pinned", "news", news_block)
+    if pinned:
+        print(f"[pinned] 指定文章 {len(pinned)} 条已列候选", flush=True)
+
     # 2)+3) 议题检索 + watch 追踪（每天 UTC0/12；手动 dispatch 强制）
     if do_search:
         for tp in topics:
