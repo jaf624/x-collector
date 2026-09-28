@@ -1,0 +1,16 @@
+name: tmp-o666-probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "== direct =="
+          curl -sL --max-time 30 -w "HTTP:%{http_code} bytes:%{size_download}\n" -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://onion666.com/" -o /tmp/o.html || true
+          head -c 700 /tmp/o.html || true
+          echo
+          echo "== jina =="
+          curl -sL --max-time 60 -w "HTTP:%{http_code} bytes:%{size_download}\n" -H "Authorization: Bearer $JINA_KEY" "https://r.jina.ai/https://onion666.com/" -o /tmp/j.txt || true
+          head -c 1200 /tmp/j.txt || true
+        env:
+          JINA_KEY: ${{ secrets.JINA_KEY }}
