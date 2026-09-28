@@ -485,11 +485,17 @@
     },
     {
       "name": "whyyoutouzhele_memecoin",
-      "alias": "whyyoutouzhele_memecoin"
+      "alias": "whyyoutouzhele_memecoin",
+      "preview_disabled": true
     },
     {
       "name": "fandangfenzixi",
-      "alias": "fandangfenzixi"
+      "alias": "fandangfenzixi",
+      "preview_disabled": true
+    },
+    {
+      "name": "xinjiyuan9",
+      "alias": "xinjiyuan9"
     }
   ],
   "archived_channels": [

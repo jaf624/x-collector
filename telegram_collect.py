@@ -213,8 +213,12 @@ def main():
         return (c, c) if isinstance(c, str) else (c["name"], c.get("alias", c["name"]))
 
     watch_cap = cfg.get("watch_max_per_channel", 25)
-    channels = [("tier1",) + _norm(c) for c in cfg.get("business_channels", [])]
-    channels += [("tier2",) + _norm(c) for c in cfg.get("watch_channels", [])]
+
+    def _flag(c):
+        return bool(c.get("preview_disabled")) if isinstance(c, dict) else False
+
+    channels = [("tier1",) + _norm(c) + (_flag(c),) for c in cfg.get("business_channels", [])]
+    channels += [("tier2",) + _norm(c) + (_flag(c),) for c in cfg.get("watch_channels", [])]
 
     os.makedirs(DATA, exist_ok=True)
     feed = json.load(open(FEED, encoding="utf-8")) if os.path.exists(FEED) else []
@@ -248,7 +252,10 @@ def main():
     existing = [trigrams(x.get("content", "")) for x in feed]
     tg_items, stats = [], {"channels": 0, "scanned": 0, "junk": 0, "not_china": 0, "lead": 0,
                            "usable": 0, "dup": 0, "low": 0, "expired": 0, "lowinfo": 0, "fail": 0}
-    for _tier, ch, alias in channels:
+    for _tier, ch, alias, no_preview in channels:
+        if no_preview:
+            print(f"[tg] {ch}: 网页历史预览关闭，跳过自动抓取（登记人工关注）", flush=True)
+            continue
         cap_n = max_n if _tier == "tier1" else watch_cap
         posts, st = fetch_direct(ch, days, max_pages, cap_n)
         via = "direct"
