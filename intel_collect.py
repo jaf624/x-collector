@@ -540,8 +540,12 @@ def main():
     # 1b) 用户指定的具体文章 URL：直接列候选，不经首页发现（仍过相关性/质量/时效规则）
     pinned = cfg.get("pinned_urls", [])
     for p in pinned:
-        add(p["url"], p.get("name", "pinned"), p.get("lang", "?"),
-            p.get("cat", "中国议题"), "pinned", "news", news_block)
+        u = p["url"]
+        if u in candidates:                      # 与栏目发现撞车：升级为 pinned，享优先/放宽
+            candidates[u]["via"] = "pinned"
+        else:
+            add(u, p.get("name", "pinned"), p.get("lang", "?"),
+                p.get("cat", "中国议题"), "pinned", "news", news_block)
     if pinned:
         print(f"[pinned] 指定文章 {len(pinned)} 条已列候选", flush=True)
 
@@ -708,7 +712,9 @@ def main():
             d = c["hint_date"] or (None if is_snip else pick_date(pub, c["url"], md[:4000]))
         inferred = False
         if not fresh(d, window):
-            if d is None and len(text) >= (120 if is_snip else MIN_BODY):
+            if c.get("via") == "pinned":
+                d, inferred = today, True  # 用户指定文章：时效放宽按当天计
+            elif d is None and len(text) >= (120 if is_snip else MIN_BODY):
                 d, inferred = today, True  # 栏目/搜索已限窗口，无精确日期按当天计并标记
             else:
                 f["not_fresh"] += 1; continue
