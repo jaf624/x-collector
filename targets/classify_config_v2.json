@@ -81,16 +81,7 @@
     "entry restrictions",
     "exit ban",
     "border control",
-    "immigration policy",
-    "出境",
-    "入境",
-    "护照",
-    "海关",
-    "边检",
-    "passport",
-    "border",
-    "detained",
-    "airport"
+    "immigration policy"
    ],
    "ext": [
     "口岸新规",
@@ -101,7 +92,19 @@
     "residence permit",
     "deportation",
     "visa-free policy"
-   ]
+   ],
+   "core_extra": [
+    "出境",
+    "入境",
+    "护照",
+    "海关",
+    "边检",
+    "passport",
+    "border",
+    "detained",
+    "airport"
+   ],
+   "ext_extra": []
   },
   "c2": {
    "name": "反华动向",
@@ -114,7 +117,17 @@
     "anti-china bill",
     "anti-china protest",
     "blame china",
-    "anti-chinese motion",
+    "anti-chinese motion"
+   ],
+   "ext": [
+    "议会反华提案",
+    "海外反华团体",
+    "反华集会示威",
+    "parliamentary anti-china proposal",
+    "overseas anti-china groups",
+    "anti-china rally"
+   ],
+   "core_extra": [
     "反华",
     "排华",
     "涉藏",
@@ -130,14 +143,7 @@
     "dissident",
     "diaspora"
    ],
-   "ext": [
-    "议会反华提案",
-    "海外反华团体",
-    "反华集会示威",
-    "parliamentary anti-china proposal",
-    "overseas anti-china groups",
-    "anti-china rally"
-   ]
+   "ext_extra": []
   },
   "c3": {
    "name": "暴乱爆炸事件",
@@ -150,12 +156,7 @@
     "riot",
     "explosion",
     "violent protest",
-    "street clashes",
-    "袭击",
-    "枪击",
-    "bomb",
-    "attack",
-    "shooting"
+    "street clashes"
    ],
    "ext": [
     "城市暴乱",
@@ -164,7 +165,17 @@
     "urban unrest",
     "terrorist attack",
     "violent demonstration"
-   ]
+   ],
+   "core_extra": [
+    "爆炸",
+    "袭击",
+    "枪击",
+    "bomb",
+    "explosion",
+    "attack",
+    "shooting"
+   ],
+   "ext_extra": []
   },
   "c4": {
    "name": "域外国别动向",
@@ -181,8 +192,7 @@
     "southeast asia",
     "africa",
     "eu",
-    "western politics",
-    "korea"
+    "western politics"
    ],
    "ext": [
     "内阁改组",
@@ -193,7 +203,16 @@
     "local policy",
     "neighbor statement",
     "regional political change"
-   ]
+   ],
+   "core_extra": [
+    "日本",
+    "韩国",
+    "非洲",
+    "japan",
+    "korea",
+    "africa"
+   ],
+   "ext_extra": []
   },
   "c5": {
    "name": "涉外法务条约",
@@ -206,11 +225,7 @@
     "bilateral treaty",
     "foreign-related bill",
     "international arbitration",
-    "cross-border judicial",
-    "法案",
-    "判决",
-    "bill",
-    "court"
+    "cross-border judicial"
    ],
    "ext": [
     "域外管辖",
@@ -219,7 +234,14 @@
     "extraterritorial jurisdiction",
     "international convention",
     "judicial cooperation"
-   ]
+   ],
+   "core_extra": [
+    "法案",
+    "判决",
+    "bill",
+    "court"
+   ],
+   "ext_extra": []
   },
   "c6": {
    "name": "舆情合集热点",
@@ -252,7 +274,17 @@
     "海外纪念节点",
     "memorial day",
     "national festival",
-    "overseas anniversary",
+    "overseas anniversary"
+   ],
+   "ext": [
+    "敏感纪念日",
+    "历史事件周年",
+    "特殊时间窗口",
+    "sensitive anniversary",
+    "historical anniversary",
+    "sensitive time window"
+   ],
+   "core_extra": [
     "国庆",
     "十一",
     "周年",
@@ -262,14 +294,7 @@
     "anniversary",
     "festival"
    ],
-   "ext": [
-    "敏感纪念日",
-    "历史事件周年",
-    "特殊时间窗口",
-    "sensitive anniversary",
-    "historical anniversary",
-    "sensitive time window"
-   ]
+   "ext_extra": []
   },
   "c8": {
    "name": "行动线索活动",
@@ -282,13 +307,7 @@
     "rally",
     "march",
     "offline coordination",
-    "civil society activity",
-    "抗议",
-    "罢工",
-    "守夜",
-    "protest",
-    "vigil",
-    "commemorate"
+    "civil society activity"
    ],
    "ext": [
     "海外团体发起活动",
@@ -297,7 +316,20 @@
     "overseas group event",
     "cross-border joint rally",
     "offline petition"
-   ]
+   ],
+   "core_extra": [
+    "集会",
+    "游行",
+    "抗议",
+    "罢工",
+    "守夜",
+    "protest",
+    "rally",
+    "march",
+    "vigil",
+    "commemorate"
+   ],
+   "ext_extra": []
   },
   "c9": {
    "name": "多边国际峰会",
@@ -312,9 +344,7 @@
     "g20",
     "apec",
     "sco",
-    "asean summit",
-    "全球南方",
-    "global south"
+    "asean summit"
    ],
    "ext": [
     "领导人会晤",
@@ -323,7 +353,14 @@
     "leaders meeting",
     "foreign ministers meeting",
     "international cooperation forum"
-   ]
+   ],
+   "core_extra": [
+    "金砖",
+    "全球南方",
+    "brics",
+    "global south"
+   ],
+   "ext_extra": []
   },
   "c10": {
    "name": "间谍与领导人变动",
@@ -336,7 +373,19 @@
     "leadership change",
     "espionage case",
     "intelligence officer",
-    "official replacement",
+    "official replacement"
+   ],
+   "ext": [
+    "内阁换届",
+    "谍报案件",
+    "叛国泄密",
+    "驻外人事变动",
+    "cabinet turnover",
+    "spy case",
+    "treason leak",
+    "overseas personnel change"
+   ],
+   "core_extra": [
     "间谍",
     "涉密",
     "机密",
@@ -349,16 +398,7 @@
     "leak",
     "reshuffle"
    ],
-   "ext": [
-    "内阁换届",
-    "谍报案件",
-    "叛国泄密",
-    "驻外人事变动",
-    "cabinet turnover",
-    "spy case",
-    "treason leak",
-    "overseas personnel change"
-   ]
+   "ext_extra": []
   },
   "c11": {
    "name": "台海南海地缘动态",
@@ -376,19 +416,32 @@
     "arms sales",
     "transit visit",
     "islets",
-    "drill",
-    "台军",
-    "联合军演",
-    "巡岛",
-    "taiwanese military",
-    "joint military drill",
-    "patrol around taiwan"
+    "drill"
    ],
    "ext": [
     "域外势力介入台海南海",
     "周边国家海域争端",
     "external intervention taiwan strait",
-    "maritime dispute neighbors",
+    "maritime dispute neighbors"
+   ],
+   "core_extra": [
+    "台海",
+    "南海",
+    "台军",
+    "岛礁",
+    "窜访",
+    "海峡",
+    "联合军演",
+    "巡岛",
+    "taiwan strait",
+    "south china sea",
+    "taiwanese military",
+    "islets",
+    "transit visit",
+    "joint military drill",
+    "patrol around taiwan"
+   ],
+   "ext_extra": [
     "美台军售",
     "海警对峙",
     "海峡中线",
@@ -418,7 +471,19 @@
     "chip controls",
     "entity list",
     "decoupling",
-    "tariff barriers",
+    "tariff barriers"
+   ],
+   "ext": [
+    "投资限制",
+    "出口管制",
+    "产业链转移",
+    "技术封锁",
+    "investment restrictions",
+    "export controls",
+    "supply chain relocation",
+    "tech blockade"
+   ],
+   "core_extra": [
     "关税",
     "贸易",
     "芯片",
@@ -434,23 +499,17 @@
     "投资审查",
     "chip sanctions",
     "export controls",
+    "decoupling",
     "tariffs",
     "investment screening"
    ],
-   "ext": [
-    "投资限制",
-    "出口管制",
-    "产业链转移",
-    "技术封锁",
-    "investment restrictions",
-    "export controls",
-    "supply chain relocation",
-    "tech blockade",
+   "ext_extra": [
     "实体清单",
     "半导体限制",
     "稀土",
     "外资撤出",
     "贸易壁垒",
+    "技术封锁",
     "供应链转移",
     "entity list",
     "semiconductor restrictions",
@@ -470,13 +529,7 @@
     "境外宗教团体",
     "foreign ngo",
     "overseas foundation",
-    "foreign religious group",
-    "海外教会",
-    "非政府组织",
-    "境外基金会",
-    "overseas church",
-    "non-governmental organization",
-    "foreign foundation"
+    "foreign religious group"
    ],
    "ext": [
     "海外资助项目",
@@ -484,12 +537,26 @@
     "民间智库渗透",
     "overseas funded program",
     "underground church",
-    "think tank infiltration",
+    "think tank infiltration"
+   ],
+   "core_extra": [
+    "境外NGO",
+    "海外教会",
+    "非政府组织",
+    "境外基金会",
+    "foreign ngo",
+    "overseas church",
+    "non-governmental organization",
+    "foreign foundation"
+   ],
+   "ext_extra": [
     "海外公益项目",
+    "地下教会",
     "人权基金会",
     "境外资助社团",
     "海外智库对华民间渗透",
     "overseas charity program",
+    "underground church",
     "human rights foundation",
     "foreign-funded association",
     "think tank influence china"
@@ -506,12 +573,7 @@
     "cognitive warfare",
     "false narrative",
     "deepfake",
-    "public opinion campaign",
-    "认知作战",
-    "叙事抹黑",
-    "舆论操纵",
-    "narrative smearing",
-    "information manipulation"
+    "public opinion campaign"
    ],
    "ext": [
     "境外媒体刻意抹黑",
@@ -519,7 +581,19 @@
     "议题刻意放大炒作",
     "foreign media smearing",
     "social media manipulation",
-    "agenda amplification",
+    "agenda amplification"
+   ],
+   "core_extra": [
+    "认知作战",
+    "叙事抹黑",
+    "虚假叙事",
+    "舆论操纵",
+    "cognitive warfare",
+    "narrative smearing",
+    "false narrative",
+    "information manipulation"
+   ],
+   "ext_extra": [
     "海外媒体造谣",
     "社交媒体带节奏",
     "深度伪造",
@@ -527,6 +601,7 @@
     "议题炒作",
     "心理舆论战",
     "foreign media disinformation",
+    "social media manipulation",
     "deepfake",
     "overseas self-media smears",
     "agenda hyping",
@@ -548,11 +623,7 @@
     "smuggling",
     "illegal crossing",
     "money laundering",
-    "cross-border gambling",
-    "人口贩运",
-    "跨境赌档",
-    "cross-border telecom fraud",
-    "human trafficking"
+    "cross-border gambling"
    ],
    "ext": [
     "缅北犯罪集团",
@@ -560,7 +631,21 @@
     "跨国人口贩运",
     "northern myanmar syndicate",
     "maritime smuggling route",
-    "transnational human trafficking",
+    "transnational human trafficking"
+   ],
+   "core_extra": [
+    "跨境电诈",
+    "走私",
+    "贩毒",
+    "人口贩运",
+    "跨境赌档",
+    "cross-border telecom fraud",
+    "smuggling",
+    "drug trafficking",
+    "human trafficking",
+    "cross-border gambling"
+   ],
+   "ext_extra": [
     "缅北",
     "金三角",
     "海上走私",
@@ -586,11 +671,7 @@
     "chinese attacked",
     "anti-chinese incident",
     "nationals in danger",
-    "chinese associations",
-    "排华",
-    "侨民安全",
-    "anti-chinese",
-    "overseas nationals safety"
+    "chinese associations"
    ],
    "ext": [
     "海外华人权益",
@@ -598,7 +679,19 @@
     "华人集会维权",
     "overseas chinese rights",
     "anti-chinese sentiment",
-    "chinese rights rally",
+    "chinese rights rally"
+   ],
+   "core_extra": [
+    "华人遇袭",
+    "排华",
+    "侨民安全",
+    "华人社团",
+    "chinese attacked",
+    "anti-chinese",
+    "overseas nationals safety",
+    "chinese associations"
+   ],
+   "ext_extra": [
     "海外华人示威",
     "当地排华法案",
     "华人商铺遭袭",
@@ -622,10 +715,7 @@
     "arms procurement",
     "joint military exercise",
     "weapons test",
-    "defense budget",
-    "military exercise",
-    "arms sale",
-    "missile test"
+    "defense budget"
    ],
    "ext": [
     "域外大国亚太部署",
@@ -634,7 +724,14 @@
     "great power indo-pacific deployment",
     "missile test",
     "overseas base adjustment"
-   ]
+   ],
+   "core_extra": [
+    "military exercise",
+    "arms sale",
+    "missile test",
+    "defense budget"
+   ],
+   "ext_extra": []
   },
   "c18": {
    "name": "能源粮食供应链风险",
@@ -647,11 +744,7 @@
     "crude oil",
     "natural gas",
     "grain export",
-    "mineral supply chain",
-    "oil",
-    "gas",
-    "grain",
-    "mineral"
+    "mineral supply chain"
    ],
    "ext": [
     "粮食禁运",
@@ -660,9 +753,17 @@
     "grain embargo",
     "energy price volatility",
     "critical minerals export controls"
-   ]
+   ],
+   "core_extra": [
+    "oil",
+    "gas",
+    "grain",
+    "mineral"
+   ],
+   "ext_extra": []
   }
  },
- "match_rule": "核心词命中即匹配；仅拓展词命中需≥2次；多分类按命中分(核心2/拓展1)排序，再按primary_order",
- "weight_rule": "分类权重1-5，用于最终分微调：final += (主分类权重-3)*1.5，截断0-100"
+ "match_rule": "core/ext 为正式清单原词；core_extra/ext_extra 为通用补充兜底层（含旧版成熟词表）。核心层命中即匹配；仅拓展层命中需≥2次；多分类按命中分(核心2/拓展1)排序，再按primary_order",
+ "weight_rule": "分类权重1-5，用于最终分微调：final += (主分类权重-3)*1.5，截断0-100",
+ "source_csv": "targets/情报分类关键词清单.csv"
 }
