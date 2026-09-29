@@ -505,14 +505,14 @@ def main():
     counts = {"section": 0, "topic": 0, "watch_full": 0, "watch_snippet": 0}
 
     def add(url, source, lang, cat, via, route, block, body_from="full",
-            snippet=None, hint_date=None, hint_title=""):
+            snippet=None, hint_date=None, hint_title="", lead=None):
         if not url or url in seen or url in candidates:
             return
         if any(b in url.lower() for b in block):
             return
         candidates[url] = {"url": url, "source": source, "lang": lang, "cat": cat, "via": via,
                            "route": route, "body_from": body_from, "snippet": snippet,
-                           "hint_date": hint_date, "hint_title": hint_title}
+                           "hint_date": hint_date, "hint_title": hint_title, "lead": lead}
         counts["watch_snippet" if body_from == "snippet"
                else "watch_full" if route == "watch" else via] = \
             counts.get("watch_snippet" if body_from == "snippet"
@@ -532,7 +532,8 @@ def main():
         for u in links:
             d = pick_date(u)
             if d is None or fresh(d, DAYS):
-                add(u, sec["name"], sec.get("lang", "?"), sec["cat"], "section", "news", news_block, hint_date=d)
+                add(u, sec["name"], sec.get("lang", "?"), sec["cat"], "section", "news", news_block,
+                    hint_date=d, lead=sec.get("lead"))
                 kept += 1
         print(f"[section] {sec['name']}: 链接{len(links)} 候选{kept} tokens={tok}", flush=True)
         time.sleep(0.5)
@@ -712,8 +713,8 @@ def main():
             d = c["hint_date"] or (None if is_snip else pick_date(pub, c["url"], md[:4000]))
         inferred = False
         if not fresh(d, window):
-            if c.get("via") == "pinned":
-                d, inferred = today, True  # 用户指定文章：时效放宽按当天计
+            if c.get("via") == "pinned" or c.get("lead"):
+                d, inferred = today, True  # 指定/线索文章：时效放宽按当天计
             elif d is None and len(text) >= (120 if is_snip else MIN_BODY):
                 d, inferred = today, True  # 栏目/搜索已限窗口，无精确日期按当天计并标记
             else:
@@ -722,24 +723,28 @@ def main():
         if len(text) < min_len:
             f["too_short"] += 1; print(f"  x 过短({len(text)}) {c['url'][:64]}", flush=True); continue
         is_pin = c.get("via") == "pinned"
-        if not is_pin and not rel.search(title + " " + text[:800]):
+        is_lead = bool(c.get("lead"))
+        bypass = is_pin or is_lead
+        if not bypass and not rel.search(title + " " + text[:800]):
             f["not_rel"] += 1
             print(f"  x 不相关 {(title or c['url'])[:48]}", flush=True); continue
         if is_snip:
             score, hard, why = 45, False, ["social_snippet"]
         else:
-            if not is_pin and is_duplicate(text, existing_sets):
+            if not bypass and is_duplicate(text, existing_sets):
                 f["duplicate"] += 1
                 print(f"  x 重复通稿 {(title or c['url'])[:48]}", flush=True); continue
             score, hard, why = quality_score(text, junk_re, paywall_re, ad_re)
-            if hard and not is_pin:
+            if hard and not bypass:
                 f["paywall"] += 1; print(f"  x 付费墙 {c['url'][:64]}", flush=True); continue
         usable = (not is_snip) and score >= Q_MIN
-        if not usable and not is_snip and not is_pin:
+        if not usable and not is_snip and not bypass:
             f["low_quality"] += 1
             print(f"  x 低质({score}分,{','.join(why)}) {(title or c['url'])[:42]}", flush=True); continue
         if is_pin and not usable:
             print(f"  [pinned-keep] 指定保留(存档) {(title or c['url'])[:42]} score={score}", flush=True)
+        if is_lead and not usable:
+            print(f"  [lead-keep] 隐蔽线索存档 {c['lead']} {(title or c['url'])[:40]} score={score}", flush=True)
         if is_snip:
             f["snippet_lead"] += 1
         if usable:
@@ -754,11 +759,12 @@ def main():
             "published": d.isoformat(), "date_inferred": inferred,
             "fetched_at": datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z",
             "summary": re.sub(r"\s+", " ", text)[:240],
-            "content": text,
+            "content": text, "lead_tag": c.get("lead"),
         }
         feed.insert(0, item); seen.add(c["url"]); added += 1
         existing_sets.append(_trigrams(text))
         tag = "线索" if is_snip else ("可用" if usable else "存档")
+        if is_lead: tag = "隐蔽·" + c["lead"]
         print(f"  +[{tag}|{score}分|{c['cat']}] {item['title'][:42]} ({item['published']}"
               f"{'?' if inferred else ''}) {len(text)}字 tok={tok}", flush=True)
         if not is_snip and not is_feed:
@@ -787,7 +793,12 @@ def main():
         feed = [_rename(x) for x in feed]
 
     feed.sort(key=lambda x: x.get("published", ""), reverse=True)
+    lead_items = [x for x in feed if x.get("lead_tag")]  # 隐蔽线索不受 MAX_FEED 截断
     feed = feed[:MAX_FEED]
+    have_ids = {x["id"] for x in feed}
+    for x in lead_items:
+        if x["id"] not in have_ids:
+            feed.insert(0, x); have_ids.add(x["id"])
     json.dump(feed, open(FEED, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     brief = sorted([x for x in feed if x.get("usable")],
                    key=lambda x: (x.get("quality_score", 0), x.get("published", "")), reverse=True)

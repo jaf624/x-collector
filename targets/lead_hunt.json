@@ -1,0 +1,277 @@
+{
+ "_comment": "隐蔽行动线索库（出彩盘）：事前7-30天筹备痕迹；与基础盘9/18类并行，lead_flag 单独标记",
+ "version": "lead-1",
+ "default_window_days": 30,
+ "lead_order": [
+  "L1",
+  "L2",
+  "L3",
+  "L4"
+ ],
+ "lead_categories": {
+  "L1": {
+   "name": "线下隐蔽行动筹备",
+   "weight": 5,
+   "core": [
+    "街头投影",
+    "灯光行动",
+    "快闪抗议",
+    "街头艺术行动",
+    "物资筹备",
+    "场地勘察",
+    "夜间集结",
+    "自制烟火",
+    "易燃易爆物料采购",
+    "guerrilla projection",
+    "light protest",
+    "flash protest",
+    "street art action",
+    "supply preparation",
+    "site reconnaissance",
+    "night gathering",
+    "fireworks diy",
+    "combustible materials"
+   ],
+   "ext": [
+    "投影反华",
+    "秘密集会",
+    "爆炸破坏",
+    "踩点",
+    "集结点",
+    "物料清单",
+    "projection mapping protest",
+    "secret rally",
+    "sabotage prep",
+    "scouting location",
+    "meeting point",
+    "supply list"
+   ]
+  },
+  "L2": {
+   "name": "新型跨境违禁品流转",
+   "weight": 5,
+   "core": [
+    "新精神活性物质",
+    "合成大麻素衍生物",
+    "氟胺酮变体",
+    "邮票毒品",
+    "迷奸药新型配方",
+    "管制化学品前体",
+    "小众致幻剂",
+    "novel psychoactive substance",
+    "synthetic cannabinoid",
+    "ketamine analogue",
+    "blotter drug",
+    "gbl",
+    "precursor chemical",
+    "research chemical"
+   ],
+   "ext": [
+    "合法烟油",
+    "创意香料",
+    "代购",
+    "小包",
+    "灰关",
+    "化学前体",
+    "电子烟油",
+    "legal high",
+    "herbal incense",
+    "vape juice",
+    "reship",
+    "stealth packaging",
+    "discreet delivery",
+    "nps vendor"
+   ]
+  },
+  "L3": {
+   "name": "反华圈层内部串联",
+   "weight": 5,
+   "core": [
+    "境内联系人",
+    "线下培训",
+    "秘密串联",
+    "访民串联",
+    "境外资助",
+    "小额政治献金",
+    "境内代理人",
+    "志愿者招募",
+    "inside contact",
+    "offline training",
+    "coordination",
+    "petitioners network",
+    "foreign funding",
+    "micro donation",
+    "domestic proxy",
+    "volunteer recruitment"
+   ],
+   "ext": [
+    "国内对接人",
+    "众筹",
+    "内部培训",
+    "分组",
+    "暗号",
+    "邀请码",
+    "domestic coordinator",
+    "crowdfunding",
+    "closed training",
+    "working groups",
+    "code word",
+    "invite code"
+   ]
+  },
+  "L4": {
+   "name": "边缘技术工具滥用",
+   "weight": 4,
+   "core": [
+    "深度伪造造谣",
+    "无人机投影",
+    "虚拟IP",
+    "加密通话工具",
+    "匿名身份",
+    "批量账号注册",
+    "改号软件",
+    "虚拟定位",
+    "deepfake disinformation",
+    "drone projection",
+    "vpn proxy",
+    "encrypted call app",
+    "anonymous identity",
+    "bulk account creation",
+    "spoofing app",
+    "fake gps location"
+   ],
+   "ext": [
+    "翻墙",
+    "梯子",
+    "接码平台",
+    "群控",
+    "虚拟号",
+    "anti-censorship tool",
+    "sms verification service",
+    "account farm",
+    "virtual number",
+    "opsec guide"
+   ]
+  }
+ },
+ "auto_sources": [
+  {
+   "name": "Eventbrite·藏人活动",
+   "platform": "eventbrite",
+   "lead": "L1",
+   "url": "https://www.eventbrite.com/d/online/tibet/",
+   "pat": "eventbrite\\.com/e/[^?\\s)]+"
+  },
+  {
+   "name": "Eventbrite·维吾尔活动",
+   "platform": "eventbrite",
+   "lead": "L1",
+   "url": "https://www.eventbrite.com/d/online/uyghur/",
+   "pat": "eventbrite\\.com/e/[^?\\s)]+"
+  },
+  {
+   "name": "Eventbrite·港人抗议活动",
+   "platform": "eventbrite",
+   "lead": "L1",
+   "url": "https://www.eventbrite.com/d/online/hong-kong-protest/",
+   "pat": "eventbrite\\.com/e/[^?\\s)]+"
+  },
+  {
+   "name": "GoFundMe·藏独筹款",
+   "platform": "gofundme",
+   "lead": "L3",
+   "url": "https://www.gofundme.com/s?q=tibet",
+   "pat": "gofundme\\.com/f/[^?\\s)]+"
+  },
+  {
+   "name": "GoFundMe·维吾尔筹款",
+   "platform": "gofundme",
+   "lead": "L3",
+   "url": "https://www.gofundme.com/s?q=uyghur",
+   "pat": "gofundme\\.com/f/[^?\\s)]+"
+  },
+  {
+   "name": "GoFundMe·反华筹款",
+   "platform": "gofundme",
+   "lead": "L3",
+   "url": "https://www.gofundme.com/s?q=china%20dissident",
+   "pat": "gofundme\\.com/f/[^?\\s)]+"
+  },
+  {
+   "name": "Meetup·藏人港人活动",
+   "platform": "meetup",
+   "lead": "L1",
+   "url": "https://www.meetup.com/find/?keywords=tibet",
+   "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+"
+  },
+  {
+   "name": "Reddit·投影行动讨论",
+   "platform": "reddit",
+   "lead": "L1",
+   "url": "https://www.reddit.com/search.rss?q=projection%20protest&sort=new",
+   "pat": "reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+"
+  },
+  {
+   "name": "Reddit·新型毒品讨论",
+   "platform": "reddit",
+   "lead": "L2",
+   "url": "https://www.reddit.com/r/researchchemicals/new/.rss",
+   "pat": "reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+"
+  },
+  {
+   "name": "Bluelight·新精神活性物质",
+   "platform": "bluelight",
+   "lead": "L2",
+   "url": "https://bluelight.org/xf/forums/new-reports.213/",
+   "pat": "bluelight\\.org/xf/threads/[^?\\s)]+"
+  },
+  {
+   "name": "Bluelight·合成大麻素",
+   "platform": "bluelight",
+   "lead": "L2",
+   "url": "https://bluelight.org/xf/forums/synthetic-cannabinoids.175/",
+   "pat": "bluelight\\.org/xf/threads/[^?\\s)]+"
+  }
+ ],
+ "manual_sources": [
+  {
+   "name": "Facebook 非公开活动页",
+   "why": "需登录/受邀",
+   "action": "人工截图登记"
+  },
+  {
+   "name": "Instagram 同城活动标签",
+   "why": "登录墙",
+   "action": "人工截图登记"
+  },
+  {
+   "name": "Telegram 私密群组/Discord 服务器",
+   "why": "需加入/邀请",
+   "action": "立案审批后由有权机关实施"
+  },
+  {
+   "name": "Eventbrite 私密场次",
+   "why": "不公开",
+   "action": "人工核查"
+  },
+  {
+   "name": "暗网讨论区",
+   "why": "Tor/无法核验",
+   "action": "维持不接入"
+  },
+  {
+   "name": "跨境电商申报异常/海关数据",
+   "why": "内部业务数据",
+   "action": "走部门间数据协作渠道"
+  }
+ ],
+ "match_rule": "核心词命中即标记；仅拓展词命中需≥2次；lead 条目绕过通用相关性/质量门槛以存档保留",
+ "judge_chain": [
+  "招募/讨论帖",
+  "溯源发起组织",
+  "梳理资金/物流",
+  "关联境内对接人/入境记录",
+  "预判时间地点",
+  "形成预警与对策"
+ ]
+}
