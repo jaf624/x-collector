@@ -81,7 +81,16 @@
     "entry restrictions",
     "exit ban",
     "border control",
-    "immigration policy"
+    "immigration policy",
+    "出境",
+    "入境",
+    "护照",
+    "海关",
+    "边检",
+    "passport",
+    "border",
+    "detained",
+    "airport"
    ],
    "ext": [
     "口岸新规",
@@ -105,7 +114,21 @@
     "anti-china bill",
     "anti-china protest",
     "blame china",
-    "anti-chinese motion"
+    "anti-chinese motion",
+    "反华",
+    "排华",
+    "涉藏",
+    "涉疆",
+    "涉港",
+    "流亡",
+    "异见",
+    "anti-china",
+    "tibet",
+    "xinjiang",
+    "hong kong",
+    "exile",
+    "dissident",
+    "diaspora"
    ],
    "ext": [
     "议会反华提案",
@@ -127,7 +150,12 @@
     "riot",
     "explosion",
     "violent protest",
-    "street clashes"
+    "street clashes",
+    "袭击",
+    "枪击",
+    "bomb",
+    "attack",
+    "shooting"
    ],
    "ext": [
     "城市暴乱",
@@ -153,7 +181,8 @@
     "southeast asia",
     "africa",
     "eu",
-    "western politics"
+    "western politics",
+    "korea"
    ],
    "ext": [
     "内阁改组",
@@ -177,7 +206,11 @@
     "bilateral treaty",
     "foreign-related bill",
     "international arbitration",
-    "cross-border judicial"
+    "cross-border judicial",
+    "法案",
+    "判决",
+    "bill",
+    "court"
    ],
    "ext": [
     "域外管辖",
@@ -219,7 +252,15 @@
     "海外纪念节点",
     "memorial day",
     "national festival",
-    "overseas anniversary"
+    "overseas anniversary",
+    "国庆",
+    "十一",
+    "周年",
+    "两会",
+    "春节",
+    "national day",
+    "anniversary",
+    "festival"
    ],
    "ext": [
     "敏感纪念日",
@@ -241,7 +282,13 @@
     "rally",
     "march",
     "offline coordination",
-    "civil society activity"
+    "civil society activity",
+    "抗议",
+    "罢工",
+    "守夜",
+    "protest",
+    "vigil",
+    "commemorate"
    ],
    "ext": [
     "海外团体发起活动",
@@ -265,7 +312,9 @@
     "g20",
     "apec",
     "sco",
-    "asean summit"
+    "asean summit",
+    "全球南方",
+    "global south"
    ],
    "ext": [
     "领导人会晤",
@@ -287,7 +336,18 @@
     "leadership change",
     "espionage case",
     "intelligence officer",
-    "official replacement"
+    "official replacement",
+    "间谍",
+    "涉密",
+    "机密",
+    "泄密",
+    "领导人变动",
+    "人事调整",
+    "spy",
+    "espionage",
+    "whistleblower",
+    "leak",
+    "reshuffle"
    ],
    "ext": [
     "内阁换届",
@@ -316,13 +376,35 @@
     "arms sales",
     "transit visit",
     "islets",
-    "drill"
+    "drill",
+    "台军",
+    "联合军演",
+    "巡岛",
+    "taiwanese military",
+    "joint military drill",
+    "patrol around taiwan"
    ],
    "ext": [
     "域外势力介入台海南海",
     "周边国家海域争端",
     "external intervention taiwan strait",
-    "maritime dispute neighbors"
+    "maritime dispute neighbors",
+    "美台军售",
+    "海警对峙",
+    "海峡中线",
+    "菲律宾南海",
+    "越南岛礁",
+    "外军舰机穿越台海",
+    "对台当局议员访问",
+    "台海周边演训",
+    "us arms sales to taiwan",
+    "coast guard confrontation",
+    "median line",
+    "philippines south china sea",
+    "vietnamese islets",
+    "foreign warship taiwan strait",
+    "lawmaker visit taiwan",
+    "drill around taiwan"
    ]
   },
   "c12": {
@@ -336,7 +418,24 @@
     "chip controls",
     "entity list",
     "decoupling",
-    "tariff barriers"
+    "tariff barriers",
+    "关税",
+    "贸易",
+    "芯片",
+    "半导体",
+    "tariff",
+    "trade",
+    "sanction",
+    "chip",
+    "semiconductor",
+    "芯片制裁",
+    "出口管制",
+    "产业链脱钩",
+    "投资审查",
+    "chip sanctions",
+    "export controls",
+    "tariffs",
+    "investment screening"
    ],
    "ext": [
     "投资限制",
@@ -346,7 +445,20 @@
     "investment restrictions",
     "export controls",
     "supply chain relocation",
-    "tech blockade"
+    "tech blockade",
+    "实体清单",
+    "半导体限制",
+    "稀土",
+    "外资撤出",
+    "贸易壁垒",
+    "供应链转移",
+    "entity list",
+    "semiconductor restrictions",
+    "rare earth",
+    "foreign divestment",
+    "trade barriers",
+    "technology blockade",
+    "supply chain shift"
    ]
   },
   "c13": {
@@ -358,7 +470,13 @@
     "境外宗教团体",
     "foreign ngo",
     "overseas foundation",
-    "foreign religious group"
+    "foreign religious group",
+    "海外教会",
+    "非政府组织",
+    "境外基金会",
+    "overseas church",
+    "non-governmental organization",
+    "foreign foundation"
    ],
    "ext": [
     "海外资助项目",
@@ -366,7 +484,15 @@
     "民间智库渗透",
     "overseas funded program",
     "underground church",
-    "think tank infiltration"
+    "think tank infiltration",
+    "海外公益项目",
+    "人权基金会",
+    "境外资助社团",
+    "海外智库对华民间渗透",
+    "overseas charity program",
+    "human rights foundation",
+    "foreign-funded association",
+    "think tank influence china"
    ]
   },
   "c14": {
@@ -380,7 +506,12 @@
     "cognitive warfare",
     "false narrative",
     "deepfake",
-    "public opinion campaign"
+    "public opinion campaign",
+    "认知作战",
+    "叙事抹黑",
+    "舆论操纵",
+    "narrative smearing",
+    "information manipulation"
    ],
    "ext": [
     "境外媒体刻意抹黑",
@@ -388,7 +519,18 @@
     "议题刻意放大炒作",
     "foreign media smearing",
     "social media manipulation",
-    "agenda amplification"
+    "agenda amplification",
+    "海外媒体造谣",
+    "社交媒体带节奏",
+    "深度伪造",
+    "境外自媒体抹黑",
+    "议题炒作",
+    "心理舆论战",
+    "foreign media disinformation",
+    "deepfake",
+    "overseas self-media smears",
+    "agenda hyping",
+    "psychological warfare"
    ]
   },
   "c15": {
@@ -406,7 +548,11 @@
     "smuggling",
     "illegal crossing",
     "money laundering",
-    "cross-border gambling"
+    "cross-border gambling",
+    "人口贩运",
+    "跨境赌档",
+    "cross-border telecom fraud",
+    "human trafficking"
    ],
    "ext": [
     "缅北犯罪集团",
@@ -414,7 +560,19 @@
     "跨国人口贩运",
     "northern myanmar syndicate",
     "maritime smuggling route",
-    "transnational human trafficking"
+    "transnational human trafficking",
+    "缅北",
+    "金三角",
+    "海上走私",
+    "偷渡",
+    "跨境洗钱",
+    "网络赌博集团",
+    "northern myanmar",
+    "golden triangle",
+    "maritime smuggling",
+    "illegal border crossing",
+    "cross-border money laundering",
+    "online gambling syndicate"
    ]
   },
   "c16": {
@@ -428,7 +586,11 @@
     "chinese attacked",
     "anti-chinese incident",
     "nationals in danger",
-    "chinese associations"
+    "chinese associations",
+    "排华",
+    "侨民安全",
+    "anti-chinese",
+    "overseas nationals safety"
    ],
    "ext": [
     "海外华人权益",
@@ -436,7 +598,17 @@
     "华人集会维权",
     "overseas chinese rights",
     "anti-chinese sentiment",
-    "chinese rights rally"
+    "chinese rights rally",
+    "海外华人示威",
+    "当地排华法案",
+    "华人商铺遭袭",
+    "领事求助",
+    "海外侨胞集会",
+    "overseas chinese protest",
+    "anti-chinese bill",
+    "chinese shop attacked",
+    "consular assistance",
+    "overseas chinese rally"
    ]
   },
   "c17": {
@@ -450,7 +622,10 @@
     "arms procurement",
     "joint military exercise",
     "weapons test",
-    "defense budget"
+    "defense budget",
+    "military exercise",
+    "arms sale",
+    "missile test"
    ],
    "ext": [
     "域外大国亚太部署",
@@ -472,7 +647,11 @@
     "crude oil",
     "natural gas",
     "grain export",
-    "mineral supply chain"
+    "mineral supply chain",
+    "oil",
+    "gas",
+    "grain",
+    "mineral"
    ],
    "ext": [
     "粮食禁运",
