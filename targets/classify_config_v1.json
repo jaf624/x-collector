@@ -1,0 +1,401 @@
+{
+ "china_keywords": [
+  "中国",
+  "中共",
+  "北京",
+  "台湾",
+  "香港",
+  "新疆",
+  "西藏",
+  "南海",
+  "习近平",
+  "华人",
+  "涉华",
+  "china",
+  "chinese",
+  "ccp",
+  "beijing",
+  "taiwan",
+  "hong kong",
+  "xinjiang",
+  "tibet",
+  "xi jinping",
+  "sino"
+ ],
+ "major_sources": [
+  "BBC中文",
+  "路透社",
+  "美联社",
+  "纽约时报",
+  "美国之音",
+  "德国之声",
+  "日经亚洲",
+  "Reuters",
+  "Bloomberg",
+  "BBC"
+ ],
+ "official_markers": [
+  "新华社",
+  "人民日报",
+  "央视",
+  "外交部",
+  "gov.cn",
+  "xinhuanet",
+  "people.com",
+  "cctv"
+ ],
+ "retention_days": 90,
+ "version": "v1",
+ "default_cat": "c8",
+ "primary_order": [
+  "c1",
+  "c5",
+  "c7",
+  "c6",
+  "c2",
+  "c3",
+  "c4",
+  "c9",
+  "c8",
+  "c10",
+  "c11",
+  "c12",
+  "c13",
+  "c14",
+  "c15"
+ ],
+ "categories": {
+  "c1": {
+   "name": "暴乱爆炸",
+   "keywords": [
+    "爆炸",
+    "袭击",
+    "枪击",
+    "bomb",
+    "explosion",
+    "attack",
+    "shooting"
+   ]
+  },
+  "c2": {
+   "name": "反华动向",
+   "keywords": [
+    "反华",
+    "排华",
+    "涉藏",
+    "涉疆",
+    "涉港",
+    "流亡",
+    "异见",
+    "anti-china",
+    "tibet",
+    "xinjiang",
+    "hong kong",
+    "exile",
+    "dissident",
+    "diaspora"
+   ]
+  },
+  "c3": {
+   "name": "行动线索活动",
+   "keywords": [
+    "集会",
+    "游行",
+    "抗议",
+    "罢工",
+    "声援",
+    "纪念",
+    "守夜",
+    "protest",
+    "rally",
+    "march",
+    "vigil",
+    "commemorate",
+    "gathering"
+   ]
+  },
+  "c4": {
+   "name": "节日重要节点",
+   "keywords": [
+    "国庆",
+    "十一",
+    "周年",
+    "党代会",
+    "两会",
+    "节日",
+    "春节",
+    "中秋",
+    "端午",
+    "清明",
+    "劳动节",
+    "元旦",
+    "national day",
+    "anniversary",
+    "party congress",
+    "two sessions",
+    "festival",
+    "new year"
+   ]
+  },
+  "c5": {
+   "name": "间谍与领导人变动",
+   "keywords": [
+    "间谍",
+    "涉密",
+    "领导人变动",
+    "人事调整",
+    "机密",
+    "泄密",
+    "spy",
+    "espionage",
+    "reshuffle",
+    "whistleblower",
+    "leak",
+    "official change"
+   ]
+  },
+  "c6": {
+   "name": "金砖峰会",
+   "keywords": [
+    "金砖",
+    "全球南方",
+    "brics",
+    "global south"
+   ]
+  },
+  "c7": {
+   "name": "出入境政策",
+   "keywords": [
+    "出境",
+    "入境",
+    "签证",
+    "护照",
+    "海关",
+    "边检",
+    "exit ban",
+    "visa",
+    "passport",
+    "border",
+    "detained",
+    "airport"
+   ]
+  },
+  "c8": {
+   "name": "舆情合集热点",
+   "keywords": [
+    "舆情",
+    "热搜",
+    "trending",
+    "viral"
+   ]
+  },
+  "c9": {
+   "name": "法律日韩非洲动向",
+   "keywords": [
+    "法案",
+    "判决",
+    "关税",
+    "贸易",
+    "制裁",
+    "芯片",
+    "半导体",
+    "出口管制",
+    "日本",
+    "韩国",
+    "非洲",
+    "bill",
+    "court",
+    "tariff",
+    "trade",
+    "sanction",
+    "chip",
+    "semiconductor",
+    "export control",
+    "japan",
+    "korea",
+    "africa"
+   ]
+  },
+  "c10": {
+   "name": "台海南海地缘动态",
+   "weight": 5,
+   "core": [
+    "台海",
+    "南海",
+    "台军",
+    "岛礁",
+    "窜访",
+    "海峡",
+    "联合军演",
+    "巡岛",
+    "taiwan strait",
+    "south china sea",
+    "taiwanese military",
+    "islets",
+    "transit visit",
+    "joint military drill",
+    "patrol around taiwan"
+   ],
+   "ext": [
+    "美台军售",
+    "海警对峙",
+    "海峡中线",
+    "菲律宾南海",
+    "越南岛礁",
+    "外军舰机穿越台海",
+    "对台当局议员访问",
+    "台海周边演训",
+    "us arms sales to taiwan",
+    "coast guard confrontation",
+    "median line",
+    "philippines south china sea",
+    "vietnamese islets",
+    "foreign warship taiwan strait",
+    "lawmaker visit taiwan",
+    "drill around taiwan"
+   ]
+  },
+  "c11": {
+   "name": "经贸科技制裁",
+   "weight": 4,
+   "core": [
+    "芯片制裁",
+    "出口管制",
+    "产业链脱钩",
+    "关税",
+    "投资审查",
+    "chip sanctions",
+    "export controls",
+    "decoupling",
+    "tariffs",
+    "investment screening"
+   ],
+   "ext": [
+    "实体清单",
+    "半导体限制",
+    "稀土",
+    "外资撤出",
+    "贸易壁垒",
+    "技术封锁",
+    "供应链转移",
+    "entity list",
+    "semiconductor restrictions",
+    "rare earth",
+    "foreign divestment",
+    "trade barriers",
+    "technology blockade",
+    "supply chain shift"
+   ]
+  },
+  "c12": {
+   "name": "NGO宗教渗透",
+   "weight": 4,
+   "core": [
+    "境外NGO",
+    "海外教会",
+    "非政府组织",
+    "境外基金会",
+    "foreign ngo",
+    "overseas church",
+    "non-governmental organization",
+    "foreign foundation"
+   ],
+   "ext": [
+    "海外公益项目",
+    "地下教会",
+    "人权基金会",
+    "境外资助社团",
+    "海外智库对华民间渗透",
+    "overseas charity program",
+    "underground church",
+    "human rights foundation",
+    "foreign-funded association",
+    "think tank influence china"
+   ]
+  },
+  "c13": {
+   "name": "认知作战舆论",
+   "weight": 4,
+   "core": [
+    "认知作战",
+    "叙事抹黑",
+    "虚假叙事",
+    "舆论操纵",
+    "cognitive warfare",
+    "narrative smearing",
+    "false narrative",
+    "information manipulation"
+   ],
+   "ext": [
+    "海外媒体造谣",
+    "社交媒体带节奏",
+    "深度伪造",
+    "境外自媒体抹黑",
+    "议题炒作",
+    "心理舆论战",
+    "foreign media disinformation",
+    "social media manipulation",
+    "deepfake",
+    "overseas self-media smears",
+    "agenda hyping",
+    "psychological warfare"
+   ]
+  },
+  "c14": {
+   "name": "跨境犯罪线索",
+   "weight": 4,
+   "core": [
+    "跨境电诈",
+    "走私",
+    "贩毒",
+    "人口贩运",
+    "跨境赌档",
+    "cross-border telecom fraud",
+    "smuggling",
+    "drug trafficking",
+    "human trafficking",
+    "cross-border gambling"
+   ],
+   "ext": [
+    "缅北",
+    "金三角",
+    "海上走私",
+    "偷渡",
+    "跨境洗钱",
+    "网络赌博集团",
+    "northern myanmar",
+    "golden triangle",
+    "maritime smuggling",
+    "illegal border crossing",
+    "cross-border money laundering",
+    "online gambling syndicate"
+   ]
+  },
+  "c15": {
+   "name": "海外华人安全",
+   "weight": 4,
+   "core": [
+    "华人遇袭",
+    "排华",
+    "侨民安全",
+    "华人社团",
+    "chinese attacked",
+    "anti-chinese",
+    "overseas nationals safety",
+    "chinese associations"
+   ],
+   "ext": [
+    "海外华人示威",
+    "当地排华法案",
+    "华人商铺遭袭",
+    "领事求助",
+    "海外侨胞集会",
+    "overseas chinese protest",
+    "anti-chinese bill",
+    "chinese shop attacked",
+    "consular assistance",
+    "overseas chinese rally"
+   ]
+  }
+ }
+}

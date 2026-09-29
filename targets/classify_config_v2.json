@@ -1,0 +1,489 @@
+{
+ "china_keywords": [
+  "中国",
+  "中共",
+  "北京",
+  "台湾",
+  "香港",
+  "新疆",
+  "西藏",
+  "南海",
+  "习近平",
+  "华人",
+  "涉华",
+  "china",
+  "chinese",
+  "ccp",
+  "beijing",
+  "taiwan",
+  "hong kong",
+  "xinjiang",
+  "tibet",
+  "xi jinping",
+  "sino"
+ ],
+ "major_sources": [
+  "BBC中文",
+  "路透社",
+  "美联社",
+  "纽约时报",
+  "美国之音",
+  "德国之声",
+  "日经亚洲",
+  "Reuters",
+  "Bloomberg",
+  "BBC"
+ ],
+ "official_markers": [
+  "新华社",
+  "人民日报",
+  "央视",
+  "外交部",
+  "gov.cn",
+  "xinhuanet",
+  "people.com",
+  "cctv"
+ ],
+ "retention_days": 90,
+ "version": "v2",
+ "default_cat": "c6",
+ "primary_order": [
+  "c2",
+  "c11",
+  "c10",
+  "c8",
+  "c13",
+  "c14",
+  "c15",
+  "c16",
+  "c1",
+  "c17",
+  "c12",
+  "c18",
+  "c5",
+  "c4",
+  "c9",
+  "c7",
+  "c3",
+  "c6"
+ ],
+ "categories": {
+  "c1": {
+   "name": "出入境政策",
+   "weight": 3,
+   "core": [
+    "签证",
+    "入境管制",
+    "出境禁令",
+    "边境管控",
+    "移民政策",
+    "visa",
+    "entry restrictions",
+    "exit ban",
+    "border control",
+    "immigration policy"
+   ],
+   "ext": [
+    "口岸新规",
+    "居留许可",
+    "驱逐出境",
+    "免签政策",
+    "port of entry rules",
+    "residence permit",
+    "deportation",
+    "visa-free policy"
+   ]
+  },
+  "c2": {
+   "name": "反华动向",
+   "weight": 5,
+   "core": [
+    "反华法案",
+    "反华游行",
+    "对华指责",
+    "排华议案",
+    "anti-china bill",
+    "anti-china protest",
+    "blame china",
+    "anti-chinese motion"
+   ],
+   "ext": [
+    "议会反华提案",
+    "海外反华团体",
+    "反华集会示威",
+    "parliamentary anti-china proposal",
+    "overseas anti-china groups",
+    "anti-china rally"
+   ]
+  },
+  "c3": {
+   "name": "暴乱爆炸事件",
+   "weight": 2,
+   "core": [
+    "骚乱",
+    "爆炸",
+    "示威暴动",
+    "街头冲突",
+    "riot",
+    "explosion",
+    "violent protest",
+    "street clashes"
+   ],
+   "ext": [
+    "城市暴乱",
+    "恐怖袭击",
+    "民众抗议暴力事件",
+    "urban unrest",
+    "terrorist attack",
+    "violent demonstration"
+   ]
+  },
+  "c4": {
+   "name": "域外国别动向",
+   "weight": 3,
+   "core": [
+    "日本",
+    "韩国",
+    "东南亚",
+    "非洲",
+    "欧盟",
+    "欧美各国政局",
+    "japan",
+    "south korea",
+    "southeast asia",
+    "africa",
+    "eu",
+    "western politics"
+   ],
+   "ext": [
+    "内阁改组",
+    "地方政策",
+    "邻国对外表态",
+    "区域政局变动",
+    "cabinet reshuffle",
+    "local policy",
+    "neighbor statement",
+    "regional political change"
+   ]
+  },
+  "c5": {
+   "name": "涉外法务条约",
+   "weight": 3,
+   "core": [
+    "双边条约",
+    "涉外法案",
+    "国际仲裁",
+    "涉外司法",
+    "bilateral treaty",
+    "foreign-related bill",
+    "international arbitration",
+    "cross-border judicial"
+   ],
+   "ext": [
+    "域外管辖",
+    "国际公约",
+    "跨国司法协作",
+    "extraterritorial jurisdiction",
+    "international convention",
+    "judicial cooperation"
+   ]
+  },
+  "c6": {
+   "name": "舆情合集热点",
+   "weight": 1,
+   "core": [
+    "国际热搜",
+    "公共热点",
+    "海内外热议",
+    "社会大事件",
+    "trending",
+    "public hotspot",
+    "online buzz",
+    "major social event"
+   ],
+   "ext": [
+    "全球热点话题",
+    "社交媒体热门讨论",
+    "突发公共事件",
+    "global trending topic",
+    "social media discussion",
+    "public emergency"
+   ]
+  },
+  "c7": {
+   "name": "节日重要节点",
+   "weight": 3,
+   "core": [
+    "重大纪念日",
+    "国内节庆",
+    "海外纪念节点",
+    "memorial day",
+    "national festival",
+    "overseas anniversary"
+   ],
+   "ext": [
+    "敏感纪念日",
+    "历史事件周年",
+    "特殊时间窗口",
+    "sensitive anniversary",
+    "historical anniversary",
+    "sensitive time window"
+   ]
+  },
+  "c8": {
+   "name": "行动线索活动",
+   "weight": 4,
+   "core": [
+    "集会",
+    "游行",
+    "线下串联",
+    "民间组织活动",
+    "rally",
+    "march",
+    "offline coordination",
+    "civil society activity"
+   ],
+   "ext": [
+    "海外团体发起活动",
+    "跨国联动集会",
+    "线下请愿",
+    "overseas group event",
+    "cross-border joint rally",
+    "offline petition"
+   ]
+  },
+  "c9": {
+   "name": "多边国际峰会",
+   "weight": 2,
+   "core": [
+    "金砖",
+    "G20",
+    "APEC",
+    "上合组织",
+    "东盟峰会",
+    "brics",
+    "g20",
+    "apec",
+    "sco",
+    "asean summit"
+   ],
+   "ext": [
+    "领导人会晤",
+    "多边外长会议",
+    "国际合作论坛",
+    "leaders meeting",
+    "foreign ministers meeting",
+    "international cooperation forum"
+   ]
+  },
+  "c10": {
+   "name": "间谍与领导人变动",
+   "weight": 5,
+   "core": [
+    "高层人事更迭",
+    "间谍案件",
+    "情报人员",
+    "官员更替",
+    "leadership change",
+    "espionage case",
+    "intelligence officer",
+    "official replacement"
+   ],
+   "ext": [
+    "内阁换届",
+    "谍报案件",
+    "叛国泄密",
+    "驻外人事变动",
+    "cabinet turnover",
+    "spy case",
+    "treason leak",
+    "overseas personnel change"
+   ]
+  },
+  "c11": {
+   "name": "台海南海地缘动态",
+   "weight": 5,
+   "core": [
+    "台海",
+    "南海",
+    "军售",
+    "窜访",
+    "岛礁",
+    "海峡",
+    "军演",
+    "taiwan strait",
+    "south china sea",
+    "arms sales",
+    "transit visit",
+    "islets",
+    "drill"
+   ],
+   "ext": [
+    "域外势力介入台海南海",
+    "周边国家海域争端",
+    "external intervention taiwan strait",
+    "maritime dispute neighbors"
+   ]
+  },
+  "c12": {
+   "name": "经贸与科技制裁",
+   "weight": 4,
+   "core": [
+    "芯片管制",
+    "实体清单",
+    "脱钩断链",
+    "关税壁垒",
+    "chip controls",
+    "entity list",
+    "decoupling",
+    "tariff barriers"
+   ],
+   "ext": [
+    "投资限制",
+    "出口管制",
+    "产业链转移",
+    "技术封锁",
+    "investment restrictions",
+    "export controls",
+    "supply chain relocation",
+    "tech blockade"
+   ]
+  },
+  "c13": {
+   "name": "NGO及宗教渗透",
+   "weight": 4,
+   "core": [
+    "境外NGO",
+    "海外基金会",
+    "境外宗教团体",
+    "foreign ngo",
+    "overseas foundation",
+    "foreign religious group"
+   ],
+   "ext": [
+    "海外资助项目",
+    "地下教会",
+    "民间智库渗透",
+    "overseas funded program",
+    "underground church",
+    "think tank infiltration"
+   ]
+  },
+  "c14": {
+   "name": "认知作战虚假舆论",
+   "weight": 4,
+   "core": [
+    "认知战",
+    "虚假叙事",
+    "深度伪造",
+    "舆论造势",
+    "cognitive warfare",
+    "false narrative",
+    "deepfake",
+    "public opinion campaign"
+   ],
+   "ext": [
+    "境外媒体刻意抹黑",
+    "社交平台带节奏",
+    "议题刻意放大炒作",
+    "foreign media smearing",
+    "social media manipulation",
+    "agenda amplification"
+   ]
+  },
+  "c15": {
+   "name": "跨境安全犯罪",
+   "weight": 4,
+   "core": [
+    "跨境电诈",
+    "贩毒",
+    "走私",
+    "偷渡",
+    "洗钱",
+    "跨境赌博",
+    "cross-border fraud",
+    "drug trafficking",
+    "smuggling",
+    "illegal crossing",
+    "money laundering",
+    "cross-border gambling"
+   ],
+   "ext": [
+    "缅北犯罪集团",
+    "海上走私通道",
+    "跨国人口贩运",
+    "northern myanmar syndicate",
+    "maritime smuggling route",
+    "transnational human trafficking"
+   ]
+  },
+  "c16": {
+   "name": "海外侨民华人安全",
+   "weight": 4,
+   "core": [
+    "华人遇袭",
+    "排华事件",
+    "侨民遇险",
+    "华人社团",
+    "chinese attacked",
+    "anti-chinese incident",
+    "nationals in danger",
+    "chinese associations"
+   ],
+   "ext": [
+    "海外华人权益",
+    "当地排华思潮",
+    "华人集会维权",
+    "overseas chinese rights",
+    "anti-chinese sentiment",
+    "chinese rights rally"
+   ]
+  },
+  "c17": {
+   "name": "全球军备军演动态",
+   "weight": 4,
+   "core": [
+    "军备采购",
+    "联合军演",
+    "武器试验",
+    "国防预算",
+    "arms procurement",
+    "joint military exercise",
+    "weapons test",
+    "defense budget"
+   ],
+   "ext": [
+    "域外大国亚太部署",
+    "导弹试验",
+    "海外军事基地调整",
+    "great power indo-pacific deployment",
+    "missile test",
+    "overseas base adjustment"
+   ]
+  },
+  "c18": {
+   "name": "能源粮食供应链风险",
+   "weight": 3,
+   "core": [
+    "原油",
+    "天然气",
+    "粮食出口",
+    "矿产供应链",
+    "crude oil",
+    "natural gas",
+    "grain export",
+    "mineral supply chain"
+   ],
+   "ext": [
+    "粮食禁运",
+    "能源价格波动",
+    "关键矿产出口管制",
+    "grain embargo",
+    "energy price volatility",
+    "critical minerals export controls"
+   ]
+  }
+ },
+ "match_rule": "核心词命中即匹配；仅拓展词命中需≥2次；多分类按命中分(核心2/拓展1)排序，再按primary_order",
+ "weight_rule": "分类权重1-5，用于最终分微调：final += (主分类权重-3)*1.5，截断0-100"
+}
