@@ -1,5 +1,422 @@
 [
   {
+    "x_id": "2101710085139636283",
+    "screen_name": "BubbleBrain",
+    "author": "BubbleBrain",
+    "verified": false,
+    "created_at": "2026-09-20T16:28:26.000Z",
+    "text_raw": "Portrait. \n\n---prompt---\nvertical 9:16 photo of a woman in her mid 20s standing outside a Japanese convenience store at night, long black hair, light makeup, happy smile with crescent eyes, business casual office outfit, cream blouse, gray knee-length skirt, black blazer, black https://t.co/VWSgCuNkni",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101710085139636283_0.jpg",
+        "w": 816,
+        "h": 1456
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2101710085139636283_1.jpg",
+        "w": 816,
+        "h": 1456
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/BubbleBrain/status/2101710085139636283",
+    "fav": 125,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:31.986710Z"
+  },
+  {
+    "x_id": "2094795974950424976",
+    "screen_name": "MrLarus",
+    "author": "Larus Canus",
+    "verified": false,
+    "created_at": "2026-09-01T14:34:14.000Z",
+    "text_raw": "🤯 Raster distortion is a great stress test for image models!\n\nConcentric, radial, spiral, and diagonal lines expose different weak spots fast\n\nGPT-Image2 still shows a few artifacts, but the line control holds up surprisingly well\n\n1. AXIS — back × diagonal tension\n2. SWAY — https://t.co/tx8A19RKn3",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094795974950424976_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094795974950424976_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094795974950424976_2.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2094795974950424976_3.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/MrLarus/status/2094795974950424976",
+    "fav": 95,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:30.893203Z"
+  },
+  {
+    "x_id": "2098012211482382380",
+    "screen_name": "MrLarus",
+    "author": "Larus Canus",
+    "verified": false,
+    "created_at": "2026-09-10T11:34:25.000Z",
+    "text_raw": "🤯 Raster distortion might be the best way to test ChatGPT Images 2.5!\n\nFine lines need to stay clean, continuous, and smooth around complex forms\n\nImages 2.5 still has a few small artifacts, but the line control feels noticeably better\n\n1. MUSE, elliptical face study\n2. https://t.co/E8WfLht4qj",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098012211482382380_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098012211482382380_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098012211482382380_2.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2098012211482382380_3.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/MrLarus/status/2098012211482382380",
+    "fav": 73,
+    "retweet": 0,
+    "reply": 7,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:29.770146Z"
+  },
+  {
+    "x_id": "2089319611397177812",
+    "screen_name": "MrLarus",
+    "author": "Larus Canus",
+    "verified": false,
+    "created_at": "2026-08-17T11:53:07.000Z",
+    "text_raw": "2/ Prompt structure\n\nI built the prompt around six things: references, characters, scene, dialogue, camera and performance timeline\n\nThe character turnarounds locked identity, age, body proportions, hair and clothing. The scene image controlled the environment, lighting and https://t.co/ngz5iVwDFe",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2089319611397177812.mp4",
+    "url": "https://x.com/MrLarus/status/2089319611397177812",
+    "fav": 28,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:27.519915Z"
+  },
+  {
+    "x_id": "2089318657310568497",
+    "screen_name": "MrLarus",
+    "author": "Larus Canus",
+    "verified": false,
+    "created_at": "2026-08-17T11:49:20.000Z",
+    "text_raw": "1/ Workflow\n\nI prepared four images before generating the video\n\nThree were used as direct references: a character turnaround for the daughter, one for the mother, and a scene reference for their positions and environment\n\nThe fourth was only used to map the mother’s emotional https://t.co/SGSi2GkI9t",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2089318657310568497_0.jpg",
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2089318657310568497_1.jpg",
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2089318657310568497_2.jpg",
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2089318657310568497_3.jpg",
+        "w": 1844,
+        "h": 853
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/MrLarus/status/2089318657310568497",
+    "fav": 27,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:26.369270Z"
+  },
+  {
+    "x_id": "2062317670268370946",
+    "screen_name": "MrLarus",
+    "author": "Larus Canus",
+    "verified": false,
+    "created_at": "2026-06-03T23:37:03.000Z",
+    "text_raw": "🤯Which coworker would you actually want on your team? \n\nOne office. 8 coworkers from different countries.\nThe camera glides through the room like an FPV tour.\n\nBut here’s the wild part:\nThe entire camera movement was generated from a single red line I drew on the image! https://t.co/pitHRICEMR",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2062317670268370946.mp4",
+    "url": "https://x.com/MrLarus/status/2062317670268370946",
+    "fav": 1494,
+    "retweet": 0,
+    "reply": 72,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:25.236665Z"
+  },
+  {
+    "x_id": "2089318509591314449",
+    "screen_name": "MrLarus",
+    "author": "Larus Canus",
+    "verified": false,
+    "created_at": "2026-08-17T11:48:45.000Z",
+    "text_raw": "🤯 AI acting just crossed a line!\n\n29 seconds, 3,000+ words of prompting, generated in one go\n\nA mother who learned the hard way\nA daughter who still believes love will be enough\nSo when life gets hard, what matters more:\nLove or money?\n\nThe facial acting in the final seconds is https://t.co/xjKm2XinnK",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2089318509591314449.mp4",
+    "url": "https://x.com/MrLarus/status/2089318509591314449",
+    "fav": 379,
+    "retweet": 0,
+    "reply": 35,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:24.099265Z"
+  },
+  {
+    "x_id": "2089387540344111273",
+    "screen_name": "MrLarus",
+    "author": "Larus Canus",
+    "verified": false,
+    "created_at": "2026-08-17T16:23:03.000Z",
+    "text_raw": "Prompt:\n\nSUBJECT: [adult woman / appearance / hairstyle]\nOUTFIT: [color + corset / silk / sheer dress]\nENVIRONMENT: [forest / flower garden / lily pond / courtyard]\nBOTANICAL ELEMENTS: [ferns / vines / flowers / water lilies]\nEXPRESSION: [soft / curious / cool / calm]\nACCENT:",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/MrLarus/status/2089387540344111273",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:21.798617Z"
+  },
+  {
+    "x_id": "2084959288284283040",
+    "screen_name": "MrLarus",
+    "author": "Larus Canus",
+    "verified": false,
+    "created_at": "2026-08-05T11:06:45.000Z",
+    "text_raw": "📸 Summer portraits feel alive when the wind becomes part of the frame!\n\nFlowing fabric, translucent layers, wildflowers, and soft afternoon light turn four simple moments into a small garden story:\n\n1. Running through the flowers\n2. Stepping into the tall grass\n3. Pausing under https://t.co/guJmApQDYT",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2084959288284283040_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2084959288284283040_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2084959288284283040_2.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2084959288284283040_3.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/MrLarus/status/2084959288284283040",
+    "fav": 16,
+    "retweet": 0,
+    "reply": 5,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:20.673228Z"
+  },
+  {
+    "x_id": "2089387112902652170",
+    "screen_name": "MrLarus",
+    "author": "Larus Canus",
+    "verified": false,
+    "created_at": "2026-08-17T16:21:21.000Z",
+    "text_raw": "📸 Forest portraits hit different when beauty meets the wild!\n\nSoft light, sheer fabrics, and direct eye contact make every frame feel sensual and alive.\n\n1. Fernlight Forest\n2. Wisteria Dream\n3. Water Lily\n4. Camellia Courtyard\n\nGreat for fantasy portraits, fashion editorials, https://t.co/Vv1xCHCzRU",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2089387112902652170_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2089387112902652170_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2089387112902652170_2.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2089387112902652170_3.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/MrLarus/status/2089387112902652170",
+    "fav": 27,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:19.574998Z"
+  },
+  {
+    "x_id": "2030845228891127830",
+    "screen_name": "VoxcatAI",
+    "author": "VoxCat",
+    "verified": false,
+    "created_at": "2026-03-09T03:16:48.000Z",
+    "text_raw": "https://t.co/SH0P0L3gI8",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/VoxcatAI/status/2030845228891127830",
+    "fav": 97,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:18.452091Z"
+  },
+  {
+    "x_id": "2100274499803664810",
+    "screen_name": "VoxcatAI",
+    "author": "VoxCat",
+    "verified": false,
+    "created_at": "2026-09-16T17:23:56.000Z",
+    "text_raw": "角色轮廓决定景别，角色能力决定姿态，观看关系决定机位，空间层次决定清晰与遮挡。 https://t.co/u7ty0ufiXr",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2100274499803664810_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2100274499803664810_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2100274499803664810_2.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2100274499803664810_3.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/VoxcatAI/status/2100274499803664810",
+    "fav": 30,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:17.348411Z"
+  },
+  {
+    "x_id": "2100347748260208787",
+    "screen_name": "VoxcatAI",
+    "author": "VoxCat",
+    "verified": false,
+    "created_at": "2026-09-16T22:15:00.000Z",
+    "text_raw": "雷电将军 https://t.co/VstiHOSrtz",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2100347748260208787_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2100347748260208787_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2100347748260208787_2.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2100347748260208787_3.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/VoxcatAI/status/2100347748260208787",
+    "fav": 78,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:16.238767Z"
+  },
+  {
+    "x_id": "2099505603832156347",
+    "screen_name": "VoxcatAI",
+    "author": "VoxCat",
+    "verified": false,
+    "created_at": "2026-09-14T14:28:37.000Z",
+    "text_raw": "微表情 https://t.co/1zGmlm6aot",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2099505603832156347_0.jpg",
+        "w": 1122,
+        "h": 1402
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2099505603832156347_1.jpg",
+        "w": 1122,
+        "h": 1402
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2099505603832156347_2.jpg",
+        "w": 1122,
+        "h": 1402
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2099505603832156347_3.jpg",
+        "w": 1122,
+        "h": 1402
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/VoxcatAI/status/2099505603832156347",
+    "fav": 16,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-04T21:17:15.119274Z"
+  },
+  {
     "x_id": "2104264526703341938",
     "screen_name": "HPizheng11983",
     "author": "HU Pizheng",
