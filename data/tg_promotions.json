@@ -121,5 +121,21 @@
   "business_total": 8,
   "watch_total": 4,
   "archived_total": 4
+ },
+ {
+  "ran_at": "2026-10-05T03:33:06Z",
+  "tier1": [],
+  "tier2": [
+   "VanActivistsHKChannel"
+  ],
+  "archived": [
+   "DemosistoOfficial",
+   "CivilHumanRightsFront",
+   "HKNFChannel",
+   "BoilerTacticians"
+  ],
+  "business_total": 8,
+  "watch_total": 1,
+  "archived_total": 4
  }
 ]
