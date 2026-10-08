@@ -561,8 +561,18 @@ def main():
                 d = pick_date(it.get("date", ""), it.get("publishedTime", ""), u)
                 if not rel.search(blob) or (d and not fresh(d, DAYS)):
                     continue
+                # L类域名自动打标：搜索命中的活动/筹款/论坛域名 -> 按域映射 lead 类别，绕过质量门存档
+                h = host_of(u)
+                lead = None
+                for dom, lc in (("eventbrite.com", "L1"), ("meetup.com", "L1"),
+                                ("reddit.com", "L1"), ("change.org", "L1"),
+                                ("gofundme.com", "L3"), ("disboard.org", "L3"),
+                                ("tgstat.com", "L3"), ("bluelight.org", "L2")):
+                    if h == dom or h.endswith("." + dom):
+                        lead = lc
+                        break
                 add(u, tp["cat"], "en", tp["cat"], "topic", "news", news_block,
-                    hint_date=d, hint_title=it.get("title", "")); n += 1
+                    hint_date=d, hint_title=it.get("title", ""), lead=lead); n += 1
             print(f"[topic] {tp['cat']}: 采纳{n} tokens={tok}", flush=True)
             time.sleep(0.4)
     else:
