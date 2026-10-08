@@ -93,30 +93,6 @@
    "pat": "congresscenter\\.org/[^\\s\\)\\]\\[]+"
   },
   {
-   "name": "Eventbrite·藏人活动",
-   "url": "https://www.eventbrite.com/d/online/tibet/",
-   "lang": "?",
-   "cat": "L1·隐蔽线索",
-   "pat": "eventbrite\\.com/e/[^?\\s)]+",
-   "lead": "L1"
-  },
-  {
-   "name": "Eventbrite·维吾尔活动",
-   "url": "https://www.eventbrite.com/d/online/uyghur/",
-   "lang": "?",
-   "cat": "L1·隐蔽线索",
-   "pat": "eventbrite\\.com/e/[^?\\s)]+",
-   "lead": "L1"
-  },
-  {
-   "name": "Eventbrite·港人抗议活动",
-   "url": "https://www.eventbrite.com/d/online/hong-kong-protest/",
-   "lang": "?",
-   "cat": "L1·隐蔽线索",
-   "pat": "eventbrite\\.com/e/[^?\\s)]+",
-   "lead": "L1"
-  },
-  {
    "name": "GoFundMe·藏独筹款",
    "url": "https://www.gofundme.com/s?q=tibet",
    "lang": "?",
@@ -150,18 +126,18 @@
   },
   {
    "name": "Reddit·投影行动讨论",
-   "url": "https://www.reddit.com/search.rss?q=projection%20protest&sort=new",
+   "url": "https://old.reddit.com/search.rss?q=projection+protest&sort=new&t=month",
    "lang": "?",
    "cat": "L1·隐蔽线索",
-   "pat": "reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+",
+   "pat": "(?:old\\.)?reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+",
    "lead": "L1"
   },
   {
    "name": "Reddit·新型毒品讨论",
-   "url": "https://www.reddit.com/r/researchchemicals/new/.rss",
+   "url": "https://old.reddit.com/r/researchchemicals/new/.rss?limit=100",
    "lang": "?",
    "cat": "L2·隐蔽线索",
-   "pat": "reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+",
+   "pat": "(?:old\\.)?reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+",
    "lead": "L2"
   },
   {
@@ -169,7 +145,7 @@
    "url": "https://bluelight.org/xf/forums/new-reports.213/",
    "lang": "?",
    "cat": "L2·隐蔽线索",
-   "pat": "bluelight\\.org/xf/threads/[^?\\s)]+",
+   "pat": "(?:bluelight\\.org)?/xf/threads/[^?\\s)]+",
    "lead": "L2"
   },
   {
@@ -177,7 +153,7 @@
    "url": "https://bluelight.org/xf/forums/synthetic-cannabinoids.175/",
    "lang": "?",
    "cat": "L2·隐蔽线索",
-   "pat": "bluelight\\.org/xf/threads/[^?\\s)]+",
+   "pat": "(?:bluelight\\.org)?/xf/threads/[^?\\s)]+",
    "lead": "L2"
   },
   {
@@ -270,6 +246,70 @@
    "lang": "zh",
    "cat": "中国议题",
    "pat": "rfi\\.fr/cn/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "GoFundMe·港独筹款",
+   "url": "https://www.gofundme.com/s?q=hong%20kong%20protest",
+   "lang": "en",
+   "cat": "L3·隐蔽线索",
+   "pat": "gofundme\\.com/f/[^?\\s)]+",
+   "lead": "L3"
+  },
+  {
+   "name": "GoFundMe·台湾独立筹款",
+   "url": "https://www.gofundme.com/s?q=taiwan%20independence",
+   "lang": "en",
+   "cat": "L3·隐蔽线索",
+   "pat": "gofundme\\.com/f/[^?\\s)]+",
+   "lead": "L3"
+  },
+  {
+   "name": "GoFundMe·维权律师基金",
+   "url": "https://www.gofundme.com/s?q=china%20lawyer%20defense%20fund",
+   "lang": "en",
+   "cat": "L3·隐蔽线索",
+   "pat": "gofundme\\.com/f/[^?\\s)]+",
+   "lead": "L3"
+  },
+  {
+   "name": "Meetup·反华抗议活动",
+   "url": "https://www.meetup.com/find/?keywords=china%20protest",
+   "lang": "en",
+   "cat": "L1·隐蔽线索",
+   "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+",
+   "lead": "L1"
+  },
+  {
+   "name": "Meetup·港人集会",
+   "url": "https://www.meetup.com/find/?keywords=hong%20kong%20rally",
+   "lang": "en",
+   "cat": "L1·隐蔽线索",
+   "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+",
+   "lead": "L1"
+  },
+  {
+   "name": "Disboard·政治活动服务器",
+   "url": "https://disboard.org/search?keyword=china%20protest",
+   "lang": "en",
+   "cat": "L1·隐蔽线索",
+   "pat": "disboard\\.org/server/[0-9]+",
+   "lead": "L1"
+  },
+  {
+   "name": "Disboard·异见社群服务器",
+   "url": "https://disboard.org/search?keyword=dissident",
+   "lang": "en",
+   "cat": "L3·隐蔽线索",
+   "pat": "disboard\\.org/server/[0-9]+",
+   "lead": "L3"
+  },
+  {
+   "name": "TGStat·涉华频道目录",
+   "url": "https://tgstat.com/search?q=china",
+   "lang": "en",
+   "cat": "L3·隐蔽线索",
+   "pat": "tgstat\\.com/channel/@[A-Za-z0-9_]+",
+   "lead": "L3"
   }
  ],
  "search_categories": [
@@ -356,6 +396,30 @@
   {
    "cat": "跨境黑产",
    "q": "gambling source code leak Telegram money laundering scam underground market"
+  },
+  {
+   "cat": "活动筹备痕迹",
+   "q": "protest event recruitment poster volunteers meeting point location announcement"
+  },
+  {
+   "cat": "快闪行动预告",
+   "q": "flash mob surprise action street demonstration announcement date"
+  },
+  {
+   "cat": "线上串联协调",
+   "q": "organize rally coordination volunteers signal channel private group"
+  },
+  {
+   "cat": "Eventbrite活动",
+   "q": "site:eventbrite.com tibet OR uyghur OR \"hong kong\" protest event"
+  },
+  {
+   "cat": "GoFundMe筹款新",
+   "q": "site:gofundme.com china dissident OR uyghur OR \"hong kong\" fundraiser"
+  },
+  {
+   "cat": "Discord服务器",
+   "q": "site:disboard.org china OR chinese OR dissident discord server"
   }
  ],
  "watch_categories": [
