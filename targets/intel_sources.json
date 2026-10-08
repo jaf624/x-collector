@@ -334,8 +334,28 @@
    "q": "China leadership reshuffle senior official change"
   },
   {
-   "cat": "国庆重要节点",
+   "cat": "节日重要节点",
    "q": "China National Day October anniversary sensitive date"
+  },
+  {
+   "cat": "科研限制",
+   "q": "China NSF grant restriction entity list academic research sanction university"
+  },
+  {
+   "cat": "科研人才流动",
+   "q": "China scientist academic exchange visa talent program restriction"
+  },
+  {
+   "cat": "供应链围堵",
+   "q": "EU supply chain decoupling solidarity mechanism subsidy critical materials China"
+  },
+  {
+   "cat": "网络攻击",
+   "q": "China website deface hacktivist military school information warfare cyberattack"
+  },
+  {
+   "cat": "跨境黑产",
+   "q": "gambling source code leak Telegram money laundering scam underground market"
   }
  ],
  "watch_categories": [
