@@ -179,6 +179,97 @@
    "cat": "L2·隐蔽线索",
    "pat": "bluelight\\.org/xf/threads/[^?\\s)]+",
    "lead": "L2"
+  },
+  {
+   "name": "日本共同社",
+   "url": "https://english.kyodonews.net/",
+   "lang": "en",
+   "cat": "日韩",
+   "pat": "english\\.kyodonews\\.net/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "韩联社英文",
+   "url": "https://en.yna.co.kr/",
+   "lang": "en",
+   "cat": "日韩",
+   "pat": "en\\.yna\\.co\\.kr/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "新加坡海峡时报",
+   "url": "https://www.straitstimes.com/asia",
+   "lang": "en",
+   "cat": "东南亚",
+   "pat": "straitstimes\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "AllAfrica-中国",
+   "url": "https://allafrica.com/china/",
+   "lang": "en",
+   "cat": "非洲",
+   "pat": "allafrica\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "NHK World",
+   "url": "https://www3.nhk.or.jp/nhkworld/en/news/",
+   "lang": "en",
+   "cat": "日韩",
+   "pat": "nhk\\.or\\.jp/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "台湾聚焦",
+   "url": "https://focustaiwan.tw/",
+   "lang": "en",
+   "cat": "台海",
+   "pat": "focustaiwan\\.tw/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "CSIS中国力量",
+   "url": "https://chinapower.csis.org/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "chinapower\\.csis\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "澳洲ASPI",
+   "url": "https://www.aspi.org.au/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "aspi\\.org\\.au/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Jamestown中国简报",
+   "url": "https://jamestown.org/programs/china-brief/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "jamestown\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "菲律宾马尼拉时报",
+   "url": "https://www.manilatimes.net/",
+   "lang": "en",
+   "cat": "东南亚",
+   "pat": "manilatimes\\.net/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Daily Maverick",
+   "url": "https://www.dailymaverick.co.za/",
+   "lang": "en",
+   "cat": "非洲",
+   "pat": "dailymaverick\\.co\\.za/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "自由时报",
+   "url": "https://news.ltn.com.tw/",
+   "lang": "zh-TW",
+   "cat": "台海",
+   "pat": "ltn\\.com\\.tw/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "法广中文",
+   "url": "https://www.rfi.fr/cn/",
+   "lang": "zh",
+   "cat": "中国议题",
+   "pat": "rfi\\.fr/cn/[^\\s\\)\\]]+"
   }
  ],
  "search_categories": [
