@@ -1,616 +1,676 @@
 {
-  "_comment": "隐蔽行动线索库（出彩盘）：L1-L4事前线索 + G1-G5灰色链路三级研判；与基础盘18类并行",
-  "version": "lead-2",
-  "default_window_days": 30,
-  "lead_order": [
-    "L1",
-    "L2",
-    "L3",
-    "L4"
-  ],
-  "lead_categories": {
-    "L1": {
-      "name": "线下隐蔽行动筹备",
-      "weight": 5,
-      "core": [
-        "街头投影",
-        "灯光行动",
-        "快闪抗议",
-        "街头艺术行动",
-        "物资筹备",
-        "场地勘察",
-        "夜间集结",
-        "自制烟火",
-        "易燃易爆物料采购",
-        "guerrilla projection",
-        "light protest",
-        "flash protest",
-        "street art action",
-        "supply preparation",
-        "site reconnaissance",
-        "night gathering",
-        "fireworks diy",
-        "combustible materials"
-      ],
-      "ext": [
-        "投影反华",
-        "秘密集会",
-        "爆炸破坏",
-        "踩点",
-        "集结点",
-        "物料清单",
-        "projection mapping protest",
-        "secret rally",
-        "sabotage prep",
-        "scouting location",
-        "meeting point",
-        "supply list"
-      ]
-    },
-    "L2": {
-      "name": "新型跨境违禁品流转",
-      "weight": 5,
-      "core": [
-        "新精神活性物质",
-        "合成大麻素衍生物",
-        "氟胺酮变体",
-        "邮票毒品",
-        "迷奸药新型配方",
-        "管制化学品前体",
-        "小众致幻剂",
-        "novel psychoactive substance",
-        "synthetic cannabinoid",
-        "ketamine analogue",
-        "blotter drug",
-        "gbl",
-        "precursor chemical",
-        "research chemical"
-      ],
-      "ext": [
-        "合法烟油",
-        "创意香料",
-        "代购",
-        "小包",
-        "灰关",
-        "化学前体",
-        "电子烟油",
-        "legal high",
-        "herbal incense",
-        "vape juice",
-        "reship",
-        "stealth packaging",
-        "discreet delivery",
-        "nps vendor"
-      ]
-    },
-    "L3": {
-      "name": "反华圈层内部串联",
-      "weight": 5,
-      "core": [
-        "境内联系人",
-        "线下培训",
-        "秘密串联",
-        "访民串联",
-        "境外资助",
-        "小额政治献金",
-        "境内代理人",
-        "志愿者招募",
-        "inside contact",
-        "offline training",
-        "coordination",
-        "petitioners network",
-        "foreign funding",
-        "micro donation",
-        "domestic proxy",
-        "volunteer recruitment"
-      ],
-      "ext": [
-        "国内对接人",
-        "众筹",
-        "内部培训",
-        "分组",
-        "暗号",
-        "邀请码",
-        "domestic coordinator",
-        "crowdfunding",
-        "closed training",
-        "working groups",
-        "code word",
-        "invite code"
-      ]
-    },
-    "L4": {
-      "name": "边缘技术工具滥用",
-      "weight": 4,
-      "core": [
-        "深度伪造造谣",
-        "无人机投影",
-        "虚拟IP",
-        "加密通话工具",
-        "匿名身份",
-        "批量账号注册",
-        "改号软件",
-        "虚拟定位",
-        "deepfake disinformation",
-        "drone projection",
-        "vpn proxy",
-        "encrypted call app",
-        "anonymous identity",
-        "bulk account creation",
-        "spoofing app",
-        "fake gps location"
-      ],
-      "ext": [
-        "翻墙",
-        "梯子",
-        "接码平台",
-        "群控",
-        "虚拟号",
-        "anti-censorship tool",
-        "sms verification service",
-        "account farm",
-        "virtual number",
-        "opsec guide"
-      ]
-    }
+ "_comment": "隐蔽行动线索库（出彩盘）：L1-L4事前线索 + G1-G5灰色链路三级研判；与基础盘18类并行",
+ "version": "lead-2",
+ "default_window_days": 30,
+ "lead_order": [
+  "L1",
+  "L2",
+  "L3",
+  "L4"
+ ],
+ "lead_categories": {
+  "L1": {
+   "name": "线下隐蔽行动筹备",
+   "weight": 5,
+   "core": [
+    "街头投影",
+    "灯光行动",
+    "快闪抗议",
+    "街头艺术行动",
+    "物资筹备",
+    "场地勘察",
+    "夜间集结",
+    "自制烟火",
+    "易燃易爆物料采购",
+    "guerrilla projection",
+    "light protest",
+    "flash protest",
+    "street art action",
+    "supply preparation",
+    "site reconnaissance",
+    "night gathering",
+    "fireworks diy",
+    "combustible materials"
+   ],
+   "ext": [
+    "投影反华",
+    "秘密集会",
+    "爆炸破坏",
+    "踩点",
+    "集结点",
+    "物料清单",
+    "projection mapping protest",
+    "secret rally",
+    "sabotage prep",
+    "scouting location",
+    "meeting point",
+    "supply list"
+   ]
   },
-  "gray_links": {
-    "G1": {
-      "name": "人员招募链路",
-      "covers": [
-        "兼职招聘",
-        "陪玩陪聊",
-        "骑行领队",
-        "商务助理",
-        "私人助理",
-        "海外代购",
-        "公益志愿者",
-        "高校社团招募"
-      ],
-      "base": [
-        "兼职",
-        "日结",
-        "志愿者",
-        "助理",
-        "陪玩",
-        "骑行",
-        "公益",
-        "调研"
-      ],
-      "anchors": [
-        "内部资料",
-        "单位照片",
-        "境外联系",
-        "政治面貌",
-        "敏感地点",
-        "高额补贴",
-        "接触涉密",
-        "带份文件",
-        "田野调查",
-        "内部文件",
-        "拍几张单位照片"
-      ]
-    },
-    "G2": {
-      "name": "物资流转链路",
-      "covers": [
-        "同城跑腿",
-        "闪送",
-        "外卖代买",
-        "二手闲置",
-        "数码配件",
-        "化工原料",
-        "文具资料"
-      ],
-      "base": [
-        "跑腿",
-        "闪送",
-        "代送",
-        "二手",
-        "电子元件",
-        "化工",
-        "样品"
-      ],
-      "anchors": [
-        "无接触",
-        "图纸",
-        "单位周边",
-        "指定地点",
-        "高价小件",
-        "军工",
-        "基础设施",
-        "不用验货",
-        "绝对保密",
-        "内部资料",
-        "定制道具"
-      ]
-    },
-    "G3": {
-      "name": "经费输送链路",
-      "covers": [
-        "陪玩打赏",
-        "二手交易",
-        "公益众筹",
-        "兼职日结",
-        "上门服务费",
-        "代购货款"
-      ],
-      "base": [
-        "众筹",
-        "捐款",
-        "服务费",
-        "咨询费",
-        "闲置",
-        "代购",
-        "打赏"
-      ],
-      "anchors": [
-        "虚拟币",
-        "活动经费",
-        "维权基金",
-        "分散转账",
-        "匿名捐赠",
-        "跨境支付",
-        "小额多笔",
-        "境外账户",
-        "境外背景"
-      ]
-    },
-    "G4": {
-      "name": "秘密集结链路",
-      "covers": [
-        "夜骑",
-        "徒步露营",
-        "城市探索",
-        "轰趴聚会",
-        "书友会",
-        "公益徒步",
-        "摄影扫街"
-      ],
-      "base": [
-        "夜骑",
-        "露营",
-        "轰趴",
-        "徒步",
-        "扫街",
-        "快闪",
-        "聚会",
-        "公益行"
-      ],
-      "anchors": [
-        "统一行动",
-        "敏感日期",
-        "广场",
-        "地标",
-        "发放资料",
-        "投影",
-        "街头表达",
-        "使馆区",
-        "特定物品",
-        "敏感纪念日"
-      ]
-    },
-    "G5": {
-      "name": "情报窃取链路",
-      "covers": [
-        "外卖骑手",
-        "快递员",
-        "上门保洁",
-        "市场调研",
-        "建筑勘察",
-        "摄影约拍",
-        "地图采集"
-      ],
-      "base": [
-        "调研",
-        "采集",
-        "拍摄",
-        "勘察",
-        "上门",
-        "快递",
-        "外卖"
-      ],
-      "anchors": [
-        "单位内部",
-        "安保情况",
-        "布局图",
-        "值班信息",
-        "内部照片",
-        "高价收资料",
-        "军工单位",
-        "科研院所",
-        "踩点",
-        "重点基础设施"
-      ]
-    }
+  "L2": {
+   "name": "新型跨境违禁品流转",
+   "weight": 5,
+   "core": [
+    "新精神活性物质",
+    "合成大麻素衍生物",
+    "氟胺酮变体",
+    "邮票毒品",
+    "迷奸药新型配方",
+    "管制化学品前体",
+    "小众致幻剂",
+    "novel psychoactive substance",
+    "synthetic cannabinoid",
+    "ketamine analogue",
+    "blotter drug",
+    "gbl",
+    "precursor chemical",
+    "research chemical"
+   ],
+   "ext": [
+    "合法烟油",
+    "创意香料",
+    "代购",
+    "小包",
+    "灰关",
+    "化学前体",
+    "电子烟油",
+    "legal high",
+    "herbal incense",
+    "vape juice",
+    "reship",
+    "stealth packaging",
+    "discreet delivery",
+    "nps vendor"
+   ]
   },
-  "gray_order": [
-    "G1",
-    "G2",
-    "G3",
-    "G4",
-    "G5"
-  ],
-  "escalation_signals": {
-    "foreign": [
-      "境外",
-      "海外",
-      "国外",
-      "telegram",
-      "discord",
-      "翻墙",
-      "vpn",
-      "境外账户"
-    ],
-    "sensitive_time": [
-      "敏感纪念日",
-      "重大会议",
-      "节庆前后",
-      "敏感日期",
-      "特殊时间窗口"
-    ],
-    "sensitive_unit": [
-      "军工",
-      "科研院所",
-      "涉密",
-      "政府机关",
-      "重点基础设施",
-      "使馆"
-    ],
-    "crypto": [
-      "虚拟币",
-      "比特币",
-      "usdt",
-      "加密货币"
-    ]
+  "L3": {
+   "name": "反华圈层内部串联",
+   "weight": 5,
+   "core": [
+    "境内联系人",
+    "线下培训",
+    "秘密串联",
+    "访民串联",
+    "境外资助",
+    "小额政治献金",
+    "境内代理人",
+    "志愿者招募",
+    "inside contact",
+    "offline training",
+    "coordination",
+    "petitioners network",
+    "foreign funding",
+    "micro donation",
+    "domestic proxy",
+    "volunteer recruitment"
+   ],
+   "ext": [
+    "国内对接人",
+    "众筹",
+    "内部培训",
+    "分组",
+    "暗号",
+    "邀请码",
+    "domestic coordinator",
+    "crowdfunding",
+    "closed training",
+    "working groups",
+    "code word",
+    "invite code"
+   ]
   },
-  "tier_rule": {
-    "tier1": "仅命中伪装载体/基础词，无锚点：普通违法，转属地公安/市场监管",
-    "tier2": "命中1个风险锚点：列入观察，持续追踪组织者/资金/人员",
-    "tier3": "命中≥2个锚点，或出现境外背景/敏感时间地点/涉密单位/虚拟币：立即深度研判、专报预警"
+  "L4": {
+   "name": "边缘技术工具滥用",
+   "weight": 4,
+   "core": [
+    "深度伪造造谣",
+    "无人机投影",
+    "虚拟IP",
+    "加密通话工具",
+    "匿名身份",
+    "批量账号注册",
+    "改号软件",
+    "虚拟定位",
+    "deepfake disinformation",
+    "drone projection",
+    "vpn proxy",
+    "encrypted call app",
+    "anonymous identity",
+    "bulk account creation",
+    "spoofing app",
+    "fake gps location"
+   ],
+   "ext": [
+    "翻墙",
+    "梯子",
+    "接码平台",
+    "群控",
+    "虚拟号",
+    "anti-censorship tool",
+    "sms verification service",
+    "account farm",
+    "virtual number",
+    "opsec guide"
+   ]
+  }
+ },
+ "gray_links": {
+  "G1": {
+   "name": "人员招募链路",
+   "covers": [
+    "兼职招聘",
+    "陪玩陪聊",
+    "骑行领队",
+    "商务助理",
+    "私人助理",
+    "海外代购",
+    "公益志愿者",
+    "高校社团招募"
+   ],
+   "base": [
+    "兼职",
+    "日结",
+    "志愿者",
+    "助理",
+    "陪玩",
+    "骑行",
+    "公益",
+    "调研"
+   ],
+   "anchors": [
+    "内部资料",
+    "单位照片",
+    "境外联系",
+    "政治面貌",
+    "敏感地点",
+    "高额补贴",
+    "接触涉密",
+    "带份文件",
+    "田野调查",
+    "内部文件",
+    "拍几张单位照片"
+   ]
   },
-  "auto_sources": [
-    {
-      "name": "Eventbrite·藏人活动",
-      "platform": "eventbrite",
-      "lead": "L1",
-      "url": "https://www.eventbrite.com/d/online/tibet/",
-      "pat": "eventbrite\\.com/e/[^?\\s)]+"
-    },
-    {
-      "name": "Eventbrite·维吾尔活动",
-      "platform": "eventbrite",
-      "lead": "L1",
-      "url": "https://www.eventbrite.com/d/online/uyghur/",
-      "pat": "eventbrite\\.com/e/[^?\\s)]+"
-    },
-    {
-      "name": "Eventbrite·港人抗议活动",
-      "platform": "eventbrite",
-      "lead": "L1",
-      "url": "https://www.eventbrite.com/d/online/hong-kong-protest/",
-      "pat": "eventbrite\\.com/e/[^?\\s)]+"
-    },
-    {
-      "name": "GoFundMe·藏独筹款",
-      "platform": "gofundme",
-      "lead": "L3",
-      "url": "https://www.gofundme.com/s?q=tibet",
-      "pat": "gofundme\\.com/f/[^?\\s)]+"
-    },
-    {
-      "name": "GoFundMe·维吾尔筹款",
-      "platform": "gofundme",
-      "lead": "L3",
-      "url": "https://www.gofundme.com/s?q=uyghur",
-      "pat": "gofundme\\.com/f/[^?\\s)]+"
-    },
-    {
-      "name": "GoFundMe·反华筹款",
-      "platform": "gofundme",
-      "lead": "L3",
-      "url": "https://www.gofundme.com/s?q=china%20dissident",
-      "pat": "gofundme\\.com/f/[^?\\s)]+"
-    },
-    {
-      "name": "Meetup·藏人港人活动",
-      "platform": "meetup",
-      "lead": "L1",
-      "url": "https://www.meetup.com/find/?keywords=tibet",
-      "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+"
-    },
-    {
-      "name": "Reddit·投影行动讨论",
-      "platform": "reddit",
-      "lead": "L1",
-      "url": "https://www.reddit.com/search.rss?q=projection%20protest&sort=new",
-      "pat": "reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+"
-    },
-    {
-      "name": "Reddit·新型毒品讨论",
-      "platform": "reddit",
-      "lead": "L2",
-      "url": "https://www.reddit.com/r/researchchemicals/new/.rss",
-      "pat": "reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+"
-    },
-    {
-      "name": "Bluelight·新精神活性物质",
-      "platform": "bluelight",
-      "lead": "L2",
-      "url": "https://bluelight.org/xf/forums/new-reports.213/",
-      "pat": "bluelight\\.org/xf/threads/[^?\\s)]+"
-    },
-    {
-      "name": "Bluelight·合成大麻素",
-      "platform": "bluelight",
-      "lead": "L2",
-      "url": "https://bluelight.org/xf/forums/synthetic-cannabinoids.175/",
-      "pat": "bluelight\\.org/xf/threads/[^?\\s)]+"
-    },
-    {
-      "name": "海外华人论坛·未名空间",
-      "platform": "mitbbs",
-      "lead": "L3",
-      "url": "https://www.mitbbs.com/",
-      "note": "圈层串联讨论"
-    },
-    {
-      "name": "海外华人论坛·留园网",
-      "platform": "6parkbbs",
-      "lead": "L3",
-      "url": "https://club.6parkbbs.com/",
-      "note": "圈层串联讨论"
-    },
-    {
-      "name": "海外华人论坛·文学城",
-      "platform": "wenxuecity",
-      "lead": "L3",
-      "url": "https://bbs.wenxuecity.com/",
-      "note": "圈层串联讨论"
-    },
-    {
-      "name": "视频平台·Rumble",
-      "platform": "rumble",
-      "lead": "L4",
-      "url": "https://rumble.com/",
-      "note": "行动动员视频"
-    },
-    {
-      "name": "视频平台·BitChute",
-      "platform": "bitchute",
-      "lead": "L4",
-      "url": "https://www.bitchute.com/",
-      "note": "行动动员视频"
-    },
-    {
-      "name": "快照追溯·archive.today",
-      "platform": "archive",
-      "lead": "L3",
-      "url": "https://archive.ph/",
-      "note": "发了又删的隐蔽痕迹"
-    },
-    {
-      "name": "众筹经费·Patreon/Ko-fi",
-      "platform": "crowdfund",
-      "lead": "L3",
-      "url": "https://patreon.com/",
-      "note": "活动经费输送"
-    },
-    {
-      "name": "论坛行动讨论·4chan/pol",
-      "platform": "4chan",
-      "lead": "L4",
-      "url": "https://boards.4chan.org/pol/",
-      "note": "行动串联讨论"
-    },
-    {
-      "name": "Telegram定向频道监控",
-      "platform": "telegram",
-      "lead": "L3",
-      "url": "t.me/s/ 公开预览页",
-      "note": "一等证据·组织自述"
-    },
-    {
-      "name": "GiveSendGo·反华募款",
-      "platform": "givesendgo",
-      "lead": "L3",
-      "url": "https://www.givesendgo.com/",
-      "pat": "givesendgo\\.com/[a-z0-9]+"
-    },
-    {
-      "name": "Partiful·反华活动",
-      "platform": "partiful",
-      "lead": "L1",
-      "url": "https://partiful.com/",
-      "pat": "partiful\\.com/e/[^\\s)\"]+"
-    },
-    {
-      "name": "8kun·反华讨论",
-      "platform": "8kun",
-      "lead": "L4",
-      "url": "https://8kun.top/",
-      "pat": "8kun\\.top/[a-z0-9]+/res/[0-9]+\\.html"
-    },
-    {
-      "name": "Endchan·反华讨论",
-      "platform": "endchan",
-      "lead": "L4",
-      "url": "https://endchan.org/",
-      "pat": "endchan\\.org/[a-z0-9]+/res/[0-9]+\\.html"
-    },
-    {
-      "name": "Gab·反华账号",
-      "platform": "gab",
-      "lead": "L3",
-      "url": "https://gab.com/",
-      "pat": "gab\\.com/[a-zA-Z0-9_]+/posts/[0-9]+"
-    },
-    {
-      "name": "Odysee·行动视频",
-      "platform": "odysee",
-      "lead": "L4",
-      "url": "https://odysee.com/",
-      "pat": "odysee\\.com/@[^\\s)\"]+"
-    },
-    {
-      "name": "archive.org·快照追溯",
-      "platform": "archive_org",
-      "lead": "L3",
-      "url": "https://archive.org/",
-      "pat": "web\\.archive\\.org/web/[0-9]+/[^\\s)\"]+"
-    },
-    {
-      "name": "Telegram·新定向频道",
-      "platform": "telegram",
-      "lead": "L3",
-      "url": "https://t.me/s/",
-      "pat": "t\\.me/s/[a-zA-Z0-9_]+"
-    }
+  "G2": {
+   "name": "物资流转链路",
+   "covers": [
+    "同城跑腿",
+    "闪送",
+    "外卖代买",
+    "二手闲置",
+    "数码配件",
+    "化工原料",
+    "文具资料"
+   ],
+   "base": [
+    "跑腿",
+    "闪送",
+    "代送",
+    "二手",
+    "电子元件",
+    "化工",
+    "样品"
+   ],
+   "anchors": [
+    "无接触",
+    "图纸",
+    "单位周边",
+    "指定地点",
+    "高价小件",
+    "军工",
+    "基础设施",
+    "不用验货",
+    "绝对保密",
+    "内部资料",
+    "定制道具"
+   ]
+  },
+  "G3": {
+   "name": "经费输送链路",
+   "covers": [
+    "陪玩打赏",
+    "二手交易",
+    "公益众筹",
+    "兼职日结",
+    "上门服务费",
+    "代购货款"
+   ],
+   "base": [
+    "众筹",
+    "捐款",
+    "服务费",
+    "咨询费",
+    "闲置",
+    "代购",
+    "打赏"
+   ],
+   "anchors": [
+    "虚拟币",
+    "活动经费",
+    "维权基金",
+    "分散转账",
+    "匿名捐赠",
+    "跨境支付",
+    "小额多笔",
+    "境外账户",
+    "境外背景"
+   ]
+  },
+  "G4": {
+   "name": "秘密集结链路",
+   "covers": [
+    "夜骑",
+    "徒步露营",
+    "城市探索",
+    "轰趴聚会",
+    "书友会",
+    "公益徒步",
+    "摄影扫街"
+   ],
+   "base": [
+    "夜骑",
+    "露营",
+    "轰趴",
+    "徒步",
+    "扫街",
+    "快闪",
+    "聚会",
+    "公益行"
+   ],
+   "anchors": [
+    "统一行动",
+    "敏感日期",
+    "广场",
+    "地标",
+    "发放资料",
+    "投影",
+    "街头表达",
+    "使馆区",
+    "特定物品",
+    "敏感纪念日"
+   ]
+  },
+  "G5": {
+   "name": "情报窃取链路",
+   "covers": [
+    "外卖骑手",
+    "快递员",
+    "上门保洁",
+    "市场调研",
+    "建筑勘察",
+    "摄影约拍",
+    "地图采集"
+   ],
+   "base": [
+    "调研",
+    "采集",
+    "拍摄",
+    "勘察",
+    "上门",
+    "快递",
+    "外卖"
+   ],
+   "anchors": [
+    "单位内部",
+    "安保情况",
+    "布局图",
+    "值班信息",
+    "内部照片",
+    "高价收资料",
+    "军工单位",
+    "科研院所",
+    "踩点",
+    "重点基础设施"
+   ]
+  }
+ },
+ "gray_order": [
+  "G1",
+  "G2",
+  "G3",
+  "G4",
+  "G5"
+ ],
+ "escalation_signals": {
+  "foreign": [
+   "境外",
+   "海外",
+   "国外",
+   "telegram",
+   "discord",
+   "翻墙",
+   "vpn",
+   "境外账户"
   ],
-  "manual_sources": [
-    {
-      "name": "Facebook 非公开活动页",
-      "why": "需登录/受邀",
-      "action": "人工截图登记"
-    },
-    {
-      "name": "Instagram 同城活动标签",
-      "why": "登录墙",
-      "action": "人工截图登记"
-    },
-    {
-      "name": "Telegram 私密群组/Discord 服务器",
-      "why": "需加入/邀请",
-      "action": "立案审批后由有权机关实施"
-    },
-    {
-      "name": "Eventbrite 私密场次",
-      "why": "不公开",
-      "action": "人工核查"
-    },
-    {
-      "name": "暗网讨论区",
-      "why": "Tor/无法核验",
-      "action": "维持不接入"
-    },
-    {
-      "name": "跨境电商申报异常/海关数据",
-      "why": "内部业务数据",
-      "action": "走部门间数据协作渠道"
-    },
-    {
-      "name": "境内同城/兼职/二手/跑腿平台（58同城、闲鱼、BOSS直聘、闪送等）",
-      "why": "登录墙、平台数据受保护",
-      "action": "依法调取或公安/市场监管部门协作，不做未授权抓取"
-    }
+  "sensitive_time": [
+   "敏感纪念日",
+   "重大会议",
+   "节庆前后",
+   "敏感日期",
+   "特殊时间窗口"
   ],
-  "match_rule": "核心词命中即标记；仅拓展词命中需≥2次；lead 条目绕过通用相关性/质量门槛以存档保留",
-  "judge_chain": [
-    "招募/讨论帖",
-    "溯源发起组织",
-    "梳理资金/物流",
-    "关联境内对接人/入境记录",
-    "预判时间地点",
-    "形成预警与对策"
+  "sensitive_unit": [
+   "军工",
+   "科研院所",
+   "涉密",
+   "政府机关",
+   "重点基础设施",
+   "使馆"
+  ],
+  "crypto": [
+   "虚拟币",
+   "比特币",
+   "usdt",
+   "加密货币"
   ]
+ },
+ "tier_rule": {
+  "tier1": "仅命中伪装载体/基础词，无锚点：普通违法，转属地公安/市场监管",
+  "tier2": "命中1个风险锚点：列入观察，持续追踪组织者/资金/人员",
+  "tier3": "命中≥2个锚点，或出现境外背景/敏感时间地点/涉密单位/虚拟币：立即深度研判、专报预警"
+ },
+ "auto_sources": [
+  {
+   "name": "Eventbrite·藏人活动",
+   "platform": "eventbrite",
+   "lead": "L1",
+   "url": "https://www.eventbrite.com/d/online/tibet/",
+   "pat": "eventbrite\\.com/e/[^?\\s)]+"
+  },
+  {
+   "name": "Eventbrite·维吾尔活动",
+   "platform": "eventbrite",
+   "lead": "L1",
+   "url": "https://www.eventbrite.com/d/online/uyghur/",
+   "pat": "eventbrite\\.com/e/[^?\\s)]+"
+  },
+  {
+   "name": "Eventbrite·港人抗议活动",
+   "platform": "eventbrite",
+   "lead": "L1",
+   "url": "https://www.eventbrite.com/d/online/hong-kong-protest/",
+   "pat": "eventbrite\\.com/e/[^?\\s)]+"
+  },
+  {
+   "name": "GoFundMe·藏独筹款",
+   "platform": "gofundme",
+   "lead": "L3",
+   "url": "https://www.gofundme.com/s?q=tibet",
+   "pat": "gofundme\\.com/f/[^?\\s)]+"
+  },
+  {
+   "name": "GoFundMe·维吾尔筹款",
+   "platform": "gofundme",
+   "lead": "L3",
+   "url": "https://www.gofundme.com/s?q=uyghur",
+   "pat": "gofundme\\.com/f/[^?\\s)]+"
+  },
+  {
+   "name": "GoFundMe·反华筹款",
+   "platform": "gofundme",
+   "lead": "L3",
+   "url": "https://www.gofundme.com/s?q=china%20dissident",
+   "pat": "gofundme\\.com/f/[^?\\s)]+"
+  },
+  {
+   "name": "Meetup·藏人港人活动",
+   "platform": "meetup",
+   "lead": "L1",
+   "url": "https://www.meetup.com/find/?keywords=tibet",
+   "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+"
+  },
+  {
+   "name": "Reddit·投影行动讨论",
+   "platform": "reddit",
+   "lead": "L1",
+   "url": "https://www.reddit.com/search.rss?q=projection%20protest&sort=new",
+   "pat": "reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+"
+  },
+  {
+   "name": "Reddit·新型毒品讨论",
+   "platform": "reddit",
+   "lead": "L2",
+   "url": "https://www.reddit.com/r/researchchemicals/new/.rss",
+   "pat": "reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+"
+  },
+  {
+   "name": "Bluelight·新精神活性物质",
+   "platform": "bluelight",
+   "lead": "L2",
+   "url": "https://bluelight.org/xf/forums/new-reports.213/",
+   "pat": "bluelight\\.org/xf/threads/[^?\\s)]+"
+  },
+  {
+   "name": "Bluelight·合成大麻素",
+   "platform": "bluelight",
+   "lead": "L2",
+   "url": "https://bluelight.org/xf/forums/synthetic-cannabinoids.175/",
+   "pat": "bluelight\\.org/xf/threads/[^?\\s)]+"
+  },
+  {
+   "name": "海外华人论坛·未名空间",
+   "platform": "mitbbs",
+   "lead": "L3",
+   "url": "https://www.mitbbs.com/",
+   "note": "圈层串联讨论"
+  },
+  {
+   "name": "海外华人论坛·留园网",
+   "platform": "6parkbbs",
+   "lead": "L3",
+   "url": "https://club.6parkbbs.com/",
+   "note": "圈层串联讨论"
+  },
+  {
+   "name": "海外华人论坛·文学城",
+   "platform": "wenxuecity",
+   "lead": "L3",
+   "url": "https://bbs.wenxuecity.com/",
+   "note": "圈层串联讨论"
+  },
+  {
+   "name": "视频平台·Rumble",
+   "platform": "rumble",
+   "lead": "L4",
+   "url": "https://rumble.com/",
+   "note": "行动动员视频"
+  },
+  {
+   "name": "视频平台·BitChute",
+   "platform": "bitchute",
+   "lead": "L4",
+   "url": "https://www.bitchute.com/",
+   "note": "行动动员视频"
+  },
+  {
+   "name": "快照追溯·archive.today",
+   "platform": "archive",
+   "lead": "L3",
+   "url": "https://archive.ph/",
+   "note": "发了又删的隐蔽痕迹"
+  },
+  {
+   "name": "众筹经费·Patreon/Ko-fi",
+   "platform": "crowdfund",
+   "lead": "L3",
+   "url": "https://patreon.com/",
+   "note": "活动经费输送"
+  },
+  {
+   "name": "论坛行动讨论·4chan/pol",
+   "platform": "4chan",
+   "lead": "L4",
+   "url": "https://boards.4chan.org/pol/",
+   "note": "行动串联讨论"
+  },
+  {
+   "name": "Telegram定向频道监控",
+   "platform": "telegram",
+   "lead": "L3",
+   "url": "t.me/s/ 公开预览页",
+   "note": "一等证据·组织自述"
+  },
+  {
+   "name": "GiveSendGo·反华募款",
+   "platform": "givesendgo",
+   "lead": "L3",
+   "url": "https://www.givesendgo.com/",
+   "pat": "givesendgo\\.com/[a-z0-9]+"
+  },
+  {
+   "name": "Partiful·反华活动",
+   "platform": "partiful",
+   "lead": "L1",
+   "url": "https://partiful.com/",
+   "pat": "partiful\\.com/e/[^\\s)\"]+"
+  },
+  {
+   "name": "8kun·反华讨论",
+   "platform": "8kun",
+   "lead": "L4",
+   "url": "https://8kun.top/",
+   "pat": "8kun\\.top/[a-z0-9]+/res/[0-9]+\\.html"
+  },
+  {
+   "name": "Endchan·反华讨论",
+   "platform": "endchan",
+   "lead": "L4",
+   "url": "https://endchan.org/",
+   "pat": "endchan\\.org/[a-z0-9]+/res/[0-9]+\\.html"
+  },
+  {
+   "name": "Gab·反华账号",
+   "platform": "gab",
+   "lead": "L3",
+   "url": "https://gab.com/",
+   "pat": "gab\\.com/[a-zA-Z0-9_]+/posts/[0-9]+"
+  },
+  {
+   "name": "Odysee·行动视频",
+   "platform": "odysee",
+   "lead": "L4",
+   "url": "https://odysee.com/",
+   "pat": "odysee\\.com/@[^\\s)\"]+"
+  },
+  {
+   "name": "archive.org·快照追溯",
+   "platform": "archive_org",
+   "lead": "L3",
+   "url": "https://archive.org/",
+   "pat": "web\\.archive\\.org/web/[0-9]+/[^\\s)\"]+"
+  },
+  {
+   "name": "Telegram·新定向频道",
+   "platform": "telegram",
+   "lead": "L3",
+   "url": "https://t.me/s/",
+   "pat": "t\\.me/s/[a-zA-Z0-9_]+"
+  },
+  {
+   "name": "Chuffed·反华募款",
+   "url": "https://chuffed.org"
+  },
+  {
+   "name": "Fundly·反华募款",
+   "url": "https://fundly.com"
+  },
+  {
+   "name": "Indiegogo·涉华政治项目",
+   "url": "https://www.indiegogo.com"
+  },
+  {
+   "name": "Luma·海外活动",
+   "url": "https://luma.events"
+  },
+  {
+   "name": "Mobilize·政治活动注册",
+   "url": "https://www.mobilize.us"
+  },
+  {
+   "name": "Change.org·反华请愿",
+   "url": "https://www.change.org"
+  },
+  {
+   "name": "Substack·反华博主",
+   "url": "https://substack.com"
+  },
+  {
+   "name": "自由亚洲电台·涉华",
+   "url": "https://www.rfa.org/mandarin/"
+  },
+  {
+   "name": "GatewayPundit·涉华负面",
+   "url": "https://www.thegatewaypundit.com"
+  },
+  {
+   "name": "TruthSocial·反华账号",
+   "url": "https://truthsocial.com"
+  },
+  {
+   "name": "Parler·反华账号",
+   "url": "https://parler.com"
+  },
+  {
+   "name": "世界维吾尔代表大会",
+   "url": "https://www.uyghurcongress.org"
+  },
+  {
+   "name": "西藏流亡组织·官网",
+   "url": "https://tibet.net"
+  },
+  {
+   "name": "FreeTibet·官网",
+   "url": "https://freetibet.org"
+  },
+  {
+   "name": "境外反华议会·官网",
+   "url": "https://chinacongress.net"
+  }
+ ],
+ "manual_sources": [
+  {
+   "name": "Facebook 非公开活动页",
+   "why": "需登录/受邀",
+   "action": "人工截图登记"
+  },
+  {
+   "name": "Instagram 同城活动标签",
+   "why": "登录墙",
+   "action": "人工截图登记"
+  },
+  {
+   "name": "Telegram 私密群组/Discord 服务器",
+   "why": "需加入/邀请",
+   "action": "立案审批后由有权机关实施"
+  },
+  {
+   "name": "Eventbrite 私密场次",
+   "why": "不公开",
+   "action": "人工核查"
+  },
+  {
+   "name": "暗网讨论区",
+   "why": "Tor/无法核验",
+   "action": "维持不接入"
+  },
+  {
+   "name": "跨境电商申报异常/海关数据",
+   "why": "内部业务数据",
+   "action": "走部门间数据协作渠道"
+  },
+  {
+   "name": "境内同城/兼职/二手/跑腿平台（58同城、闲鱼、BOSS直聘、闪送等）",
+   "why": "登录墙、平台数据受保护",
+   "action": "依法调取或公安/市场监管部门协作，不做未授权抓取"
+  }
+ ],
+ "match_rule": "核心词命中即标记；仅拓展词命中需≥2次；lead 条目绕过通用相关性/质量门槛以存档保留",
+ "judge_chain": [
+  "招募/讨论帖",
+  "溯源发起组织",
+  "梳理资金/物流",
+  "关联境内对接人/入境记录",
+  "预判时间地点",
+  "形成预警与对策"
+ ]
 }
