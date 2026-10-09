@@ -350,6 +350,70 @@
    "cat": "反华组织动向",
    "pat": "t\\.me/s/[^\\s\\)\\]]+",
    "lead": true
+  },
+  {
+   "name": "TG目录·藏人频道",
+   "url": "https://tgstat.com/search?q=tibet",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG目录·维吾尔频道",
+   "url": "https://tgstat.com/search?q=uyghur",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG目录·港台频道",
+   "url": "https://tgstat.com/search?q=hong%20kong",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG目录·异见频道",
+   "url": "https://tgstat.com/search?q=dissident",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG目录·反华频道",
+   "url": "https://tgstat.com/search?q=anti%20china",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG目录·抗议频道",
+   "url": "https://tgstat.com/search?q=protest%20china",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG频道站·涉华频道",
+   "url": "https://telegramchannels.me/search/china",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG频道站·异见频道",
+   "url": "https://telegramchannels.me/search/dissident",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
   }
  ],
  "search_categories": [
@@ -544,6 +608,14 @@
   {
    "cat": "宗教渗透新载体",
    "q": "overseas China church fellowship campus ministry infiltration underground network report"
+  },
+  {
+   "cat": "TG公开频道定向",
+   "q": "site:t.me/s/ China OR Chinese OR Tibet OR Uyghur OR Hong Kong protest rally recruitment"
+  },
+  {
+   "cat": "Telegram频道发现",
+   "q": "telegram channel anti China Uyghur Tibet Hong Kong protest new group recruitment"
   }
  ],
  "watch_categories": [
