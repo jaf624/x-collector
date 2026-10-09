@@ -40,7 +40,7 @@ INST_SRC = os.path.join(ROOT, "targets", "institute_sources.json")
 INST_DAYS = int(os.environ.get("INTEL_INST_DAYS", "7"))        # 机构周报/月报，窗口 7 天
 INST_PER_FEED = int(os.environ.get("INTEL_INST_PER_FEED", "15"))  # 每源每轮最多评估条数
 INST_MAX = int(os.environ.get("INTEL_INST_MAX", "120"))        # RSS 自带正文（免费）每轮入库上限
-INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "10"))       # 摘要过短需 Jina 深抓的机构稿上限
+INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "20"))       # 摘要过短需 Jina 深抓的机构稿/L类线索上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
 # 机构 RSS 按源订阅（非主题检索），在中国相关之外还必须命中"国家安全/地缘战略"主题，
 # 否则海外华文/综合媒体的民俗、体育、娱乐、生活、商业软新闻会因含"中国"二字混入。
@@ -690,7 +690,8 @@ def main():
     pinned_cand = [c for c in cand if c.get("via") == "pinned"]             # 用户指定：不限量、优先抓
     deep_other = [c for c in cand if c["body_from"] == "full"
                   and c["route"] != "institute" and c.get("via") != "pinned"][:MAX_ART]
-    deep_inst = [c for c in cand if c["body_from"] == "full" and c["route"] == "institute"][:INST_DEEP]
+    deep_inst = [c for c in cand if c["body_from"] == "full"
+                 and (c["route"] == "institute" or c.get("lead"))][:INST_DEEP]
     deep_cand = pinned_cand + deep_other + deep_inst                        # 需 Jina 深抓：指定优先
     today = datetime.datetime.utcnow().date()
     f = {"fetch_fail": 0, "not_fresh": 0, "too_short": 0, "not_rel": 0, "duplicate": 0,
