@@ -567,7 +567,14 @@ def main():
                 for dom, lc in (("eventbrite.com", "L1"), ("meetup.com", "L1"),
                                 ("reddit.com", "L1"), ("change.org", "L1"),
                                 ("gofundme.com", "L3"), ("disboard.org", "L3"),
-                                ("tgstat.com", "L3"), ("bluelight.org", "L2")):
+                                ("tgstat.com", "L3"), ("bluelight.org", "L2"),
+                                ("mitbbs.com", "L3"), ("6parkbbs.com", "L3"),
+                                ("wenxuecity.com", "L3"), ("rumble.com", "L4"),
+                                ("bitchute.com", "L4"), ("archive.ph", "L3"),
+                                ("archive.today", "L3"), ("patreon.com", "L3"),
+                                ("ko-fi.com", "L3"), ("buymeacoffee.com", "L3"),
+                                ("discords.com", "L3"), ("top.gg", "L3"),
+                                ("boards.4chan.org", "L4")):
                     if h == dom or h.endswith("." + dom):
                         lead = lc
                         break
