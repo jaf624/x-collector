@@ -1,5 +1,922 @@
 [
   {
+    "x_id": "2095073405607580052",
+    "screen_name": "RockFlowApp",
+    "author": "RockFlow中文频道",
+    "verified": false,
+    "created_at": "2026-09-02T08:56:39.000Z",
+    "text_raw": "1）油价涨 6% 不一定是最坏信号，持续性才是关键\n\n原油因为地缘冲突单日大涨很常见。但市场真正害怕的不是一天涨 6%，而是油价持续站上高位。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/RockFlowApp/status/2095073405607580052",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:01:03.022996Z"
+  },
+  {
+    "x_id": "1561651568235143169",
+    "screen_name": "DefenceU",
+    "author": "Defense of Ukraine",
+    "verified": false,
+    "created_at": "2022-08-22T09:48:42.000Z",
+    "text_raw": "Maybe we are being too hard on russian tourists… Sometimes they can be really helpful. Like this man taking pictures at russian air defense positions near Yevpatoria, in occupied Crimea. Thank you and keep up the good work! https://t.co/bj5oEyXU0H",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561651568235143169_0.jpg",
+        "w": 748,
+        "h": 696
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/DefenceU/status/1561651568235143169",
+    "fav": 45355,
+    "retweet": 0,
+    "reply": 743,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:58.200418Z"
+  },
+  {
+    "x_id": "1561654239394516993",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-22T09:59:19.000Z",
+    "text_raw": "I'm not a tourist in Crimea, but I'll try to keep up the good work too! https://t.co/je6bgbxfMY",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561654239394516993",
+    "fav": 194,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:57.013256Z"
+  },
+  {
+    "x_id": "1561628119290839040",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-22T08:15:31.000Z",
+    "text_raw": "Back in 2018 Russia Today claimed that this S-400 division was 3rd one to replace older S-300 on the annexed peninsula. https://t.co/knvaD6JERC",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561628119290839040",
+    "fav": 134,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:55.826269Z"
+  },
+  {
+    "x_id": "1561627797554139136",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-22T08:14:15.000Z",
+    "text_raw": "Location of the same (?) S-400 division  was revealed 4 years ago by RT subsidiary, RUPTLY (Yevpatoria RT-70 radio telescope is a major landmark there). https://t.co/CAoMYC996Q",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561627797554139136_0.jpg",
+        "w": 1201,
+        "h": 726
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561627797554139136",
+    "fav": 165,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:54.618651Z"
+  },
+  {
+    "x_id": "1561482231427878914",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-21T22:35:49.000Z",
+    "text_raw": "And here's the angle which allows to see both locations at the same time: https://t.co/FT2q4MHxAY",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561482231427878914_0.jpg",
+        "w": 1763,
+        "h": 1067
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561482231427878914",
+    "fav": 259,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:53.391503Z"
+  },
+  {
+    "x_id": "1561482224670851072",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-21T22:35:47.000Z",
+    "text_raw": "This is how the place where the S-400s were parked on July 27th looks from the drone. https://t.co/gl0zjtHt5L https://t.co/M5IvBAnfuR",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561482224670851072_0.jpg",
+        "w": 1835,
+        "h": 714
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561482224670851072",
+    "fav": 281,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:52.064466Z"
+  },
+  {
+    "x_id": "1561473180329545730",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-21T21:59:51.000Z",
+    "text_raw": "Important: coordinates of this man and S-400 are are these: 45.181211, 33.211716 (his geo data is precise based in his other posts). Coordinates in the first tweet are for traces in the field area (1,5 km away). https://t.co/laNrhrhBwh",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561473180329545730_0.jpg",
+        "w": 897,
+        "h": 627
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561473180329545730",
+    "fav": 354,
+    "retweet": 0,
+    "reply": 6,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:50.853193Z"
+  },
+  {
+    "x_id": "1561448460179603464",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-21T20:21:37.000Z",
+    "text_raw": "Read the story in full here (Google translate) https://t.co/9UfF2gWZl9",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561448460179603464",
+    "fav": 299,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:49.654363Z"
+  },
+  {
+    "x_id": "1561448456937508866",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-21T20:21:37.000Z",
+    "text_raw": "It's interesting that the \"governor\" cares about OPSEC. Translation of the part of the post above: \"I remind you: try to shoot less photos and do not upload videos of how our AD works. If you are filming or taking pictures, at least don't reference to the area\". https://t.co/5jJrAAINoY",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561448456937508866_0.jpg",
+        "w": 1060,
+        "h": 661
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561448456937508866",
+    "fav": 423,
+    "retweet": 0,
+    "reply": 5,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:48.467557Z"
+  },
+  {
+    "x_id": "1561448451527053312",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-21T20:21:35.000Z",
+    "text_raw": "On Sunday Russia-appointed \"governor\" of annexed Sevastopol again claimed that AD were able to intercept Ukrainian \"objects\" on their way from Yevpatoria area heading to Belbek military air base. https://t.co/RMrbpT2piN https://t.co/uTKOCuyg4N",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561448451527053312_0.jpg",
+        "w": 642,
+        "h": 490
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561448451527053312",
+    "fav": 287,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:47.235436Z"
+  },
+  {
+    "x_id": "1561448446904700928",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-21T20:21:34.000Z",
+    "text_raw": "This geolocation and photos were quite easy to find/confirm cause those AD systems are not hiding at all and are positioned not far from the beach. Drivers in the cabins can be noticed. https://t.co/57G6PknRPe",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561448446904700928_0.jpg",
+        "w": 921,
+        "h": 1080
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561448446904700928",
+    "fav": 520,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:46.017716Z"
+  },
+  {
+    "x_id": "1561448441707905026",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-21T20:21:33.000Z",
+    "text_raw": "Satellite imagery by @planet shows that the AD appeared here from July 15th till July 22. Photos above made on July 27, photos in @COUPSURE's thread on July 31. https://t.co/vFik0o6HVa",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/1561448441707905026.mp4",
+    "url": "https://x.com/kromark/status/1561448441707905026",
+    "fav": 450,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:44.804318Z"
+  },
+  {
+    "x_id": "1561383364464099328",
+    "screen_name": "COUPSURE",
+    "author": "COUPSURE",
+    "verified": false,
+    "created_at": "2022-08-21T16:02:57.000Z",
+    "text_raw": "Russian AD position somewhere around the Yevpatoria salt lake https://t.co/d8119VLYzu",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561383364464099328_0.jpg",
+        "w": 1242,
+        "h": 1522
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/COUPSURE/status/1561383364464099328",
+    "fav": 286,
+    "retweet": 0,
+    "reply": 17,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:43.594025Z"
+  },
+  {
+    "x_id": "1561448420673404929",
+    "screen_name": "kromark",
+    "author": "Mark Krutov",
+    "verified": false,
+    "created_at": "2022-08-21T20:21:28.000Z",
+    "text_raw": "🧵 Russian tourists reveal S-400 air defense systems positioned near Yevpatoria. AD is active nearly every day in this area according to local authorities. Geolocation 45.180317, 33.232232 https://t.co/BCm5SChWHR https://t.co/lcOv58Lyju",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561448420673404929_0.jpg",
+        "w": 1057,
+        "h": 1590
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1561448420673404929_1.jpg",
+        "w": 1060,
+        "h": 986
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/kromark/status/1561448420673404929",
+    "fav": 4136,
+    "retweet": 0,
+    "reply": 154,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:42.412351Z"
+  },
+  {
+    "x_id": "2071799323780944102",
+    "screen_name": "GitTrend0x",
+    "author": "GitTrend",
+    "verified": false,
+    "created_at": "2026-06-30T03:33:45.000Z",
+    "text_raw": "AI 黑客来了！开源框架让 AI Agent 自主挖漏洞并真实验证\n\n渗透测试一直很贵、很慢、还容易漏。现在有个开源项目把这件事用 AI Agent 彻底重做了。\n\nStrix（usestrix/strix）是一个开源 AI 黑客框架，它用多 Agent 协作的方式，像真实黑客一样动态执行代码、发现漏洞，并通过真实 PoC（Proof of https://t.co/8LLSyKXz9Q",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2071799323780944102_0.jpg",
+        "w": 1170,
+        "h": 1826
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/GitTrend0x/status/2071799323780944102",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:41.197241Z"
+  },
+  {
+    "x_id": "2108309263928152529",
+    "screen_name": "fangshimin",
+    "author": "方舟子",
+    "verified": false,
+    "created_at": "2026-10-08T21:31:13.000Z",
+    "text_raw": "2027年美国大学本科商学排名(USNews)：宾夕法尼亚、麻省理工、UC伯克利、纽约=密歇根、卡内基梅隆=康奈尔=印第安纳=北卡教堂山=UT奥斯汀。经济学：哈佛=麻省理工=普林斯顿=芝加哥、斯坦福=UC伯克利=耶鲁、哥伦比亚=西北=宾夕法尼亚。心理学：斯坦福、哈佛=UC伯克利、普林斯顿=UCLA=密歇根=耶鲁、",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/fangshimin/status/2108309263928152529",
+    "fav": 9,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:39.924726Z"
+  },
+  {
+    "x_id": "2108310929540833376",
+    "screen_name": "fangshimin",
+    "author": "方舟子",
+    "verified": false,
+    "created_at": "2026-10-08T21:37:50.000Z",
+    "text_raw": "川普当局宣布，禁止微软、Adobe、Cognizant,、Infosys,、Tata,、Wipro,、HCL Technologies、Capgemini公司的外籍员工申请绿卡。看来微软向川普进贡得不够多。万斯：“我们想对微软说：你们是一家伟大的美国公司，但必须聘用优秀的美国员工。微软每裁掉一名员工，就会用一名半外籍契约劳工来填补空缺。”",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/fangshimin/status/2108310929540833376",
+    "fav": 23,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:38.702577Z"
+  },
+  {
+    "x_id": "2108317470742458406",
+    "screen_name": "fangshimin",
+    "author": "方舟子",
+    "verified": false,
+    "created_at": "2026-10-08T22:03:50.000Z",
+    "text_raw": "这些亿万富豪商人真好意思把自己当成大科学家，戴上国家科学奖章。只有微软CEO好像不好意思戴。川普下令，不把人工智能改叫超级智能的都是敌人，吓得这些有钱没人格的富豪奴才一个个一口一个“超级智能”。 https://t.co/xpAvUjbxfF",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108317470742458406_0.jpg",
+        "w": 1289,
+        "h": 724
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108317470742458406_1.jpg",
+        "w": 1534,
+        "h": 532
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/fangshimin/status/2108317470742458406",
+    "fav": 51,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:37.511972Z"
+  },
+  {
+    "x_id": "2108343585942938095",
+    "screen_name": "fangshimin",
+    "author": "方舟子",
+    "verified": false,
+    "created_at": "2026-10-08T23:47:36.000Z",
+    "text_raw": "落基山绵白杨山口，海拔3700米，大陆分水岭（东流大西洋，西流太平洋），顶上有一个小湖，没见到有绵白杨。连接鸡冠丘和甘尼森的俄亥俄山口则有颤杨连绵不绝，是看秋色的佳处。 https://t.co/KOea63GTfb",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108343585942938095_0.jpg",
+        "w": 4096,
+        "h": 3072
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108343585942938095_1.jpg",
+        "w": 4032,
+        "h": 3024
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108343585942938095_2.jpg",
+        "w": 4032,
+        "h": 3024
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108343585942938095_3.jpg",
+        "w": 4032,
+        "h": 3024
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/fangshimin/status/2108343585942938095",
+    "fav": 7,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:36.313387Z"
+  },
+  {
+    "x_id": "2108348286130348451",
+    "screen_name": "fangshimin",
+    "author": "方舟子",
+    "verified": false,
+    "created_at": "2026-10-09T00:06:17.000Z",
+    "text_raw": "佐治亚第50区州众议员选举，成了两名女华人的对决，也是真假医生的对决。共和党候选人段颖哲，中国移民，自称整合医学PhD，但不说是哪个大学的博士，让人以为是美国大学的，其实是成都中医药大学的，开面向华人的包治百病的中医馆。民主党候选人欧晓瑜，美国出生，哥伦比亚大学医学博士，麻醉科医生。 https://t.co/GKy9ZfXwLc",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108348286130348451_0.jpg",
+        "w": 1086,
+        "h": 1448
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108348286130348451_1.jpg",
+        "w": 960,
+        "h": 466
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/fangshimin/status/2108348286130348451",
+    "fav": 12,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:35.109764Z"
+  },
+  {
+    "x_id": "1877032242528100746",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:54.000Z",
+    "text_raw": "Decoding Chinese Politics has lots more info on the leaders, networks, and institutions of Chinese politics\n\nAcross policy areas including the economy, environment, finance, foreign policy, military, security, Taiwan, and technology\n\nhttps://t.co/lyxKcHzGHe\n\n12/12",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032242528100746",
+    "fav": 20,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:32.718614Z"
+  },
+  {
+    "x_id": "1877032241395605946",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:54.000Z",
+    "text_raw": "Reshuffle came about because of several age-related departures:\n\nXi ally Lou Yangsheng 楼阳生 retired as Henan PS (later than he should have)\n\nWang Menghui 王蒙徽 retired as Hubei PS\n\nYi Lianhong 易炼红 retired as Zhejiang PS\n\nLikely more coming later in the year...\n\n11/12",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032241395605946",
+    "fav": 11,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:31.510924Z"
+  },
+  {
+    "x_id": "1877032239600386413",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:54.000Z",
+    "text_raw": "Ma Hancheng 马汉成 (57) promoted from Ningxia United Front boss to Deputy Party Secretary of Guizhou\n\nVeteran of planning bureaucracy and energy sector in his native Ningxia Hui Autonomous Region\n\nMember of the Hui ethnic minority, a traditionally Muslim group\n\n10/12 https://t.co/ep1LtXAavj",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1877032239600386413_0.jpg",
+        "w": 524,
+        "h": 748
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032239600386413",
+    "fav": 10,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:30.294955Z"
+  },
+  {
+    "x_id": "1877032237733937614",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:53.000Z",
+    "text_raw": "Luo Dongchuan 罗东川 (59) was promoted from Deputy Party Secretary of Fujian to Governor of Qinghai\n\nRenowned legal expert and IP judge who graduated from Peking University\n\nWorked in Supreme People's Court, CCDI, Xinjiang before parachuting into Xi's Fujian power base\n\n9/12 https://t.co/aq8qUWUD5K",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1877032237733937614_0.jpg",
+        "w": 524,
+        "h": 744
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032237733937614",
+    "fav": 11,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:29.044929Z"
+  },
+  {
+    "x_id": "1877032236010131681",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:53.000Z",
+    "text_raw": "Li Dianxun 李殿勋 (57) was promoted from Deputy Party Secretary of Hunan to Governor of Hubei\n\nDPS to Governor is also a jump from deputy-ministerial to full-ministerial level in the political hierarchy\n\nFormer legal official who built his career in Chongqing and Hunan\n\n8/12 https://t.co/IPRyAO8Hvt",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1877032236010131681_0.jpg",
+        "w": 524,
+        "h": 710
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032236010131681",
+    "fav": 11,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:27.849361Z"
+  },
+  {
+    "x_id": "1877032233615159437",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:52.000Z",
+    "text_raw": "Wang Zhonglin 王忠林 (62) was promoted from Governor of Hubei to Party Secretary of Hubei\n\nPublic security expert from Shandong dispatched to Wuhan during the initial COVID outbreak\n\nWidely criticized by netizens for saying the people of Wuhan should thank Xi and the Party\n\n7/12 https://t.co/n8CxWR21Tg",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1877032233615159437_0.jpg",
+        "w": 532,
+        "h": 662
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032233615159437",
+    "fav": 12,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:26.661016Z"
+  },
+  {
+    "x_id": "1877032231580909990",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:52.000Z",
+    "text_raw": "Liu Ning 刘宁 (63) was rotated from Party Secretary of Guangxi to Party Secretary of Henan\n\nEngineer who studied at Tsinghua when Xi and his buddy Chen Xi were there\n\nFormer deputy water minister who is a little too old for further promotion by traditional age norms\n\n6/12 https://t.co/gbCOYxTeHZ",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1877032231580909990_0.jpg",
+        "w": 528,
+        "h": 748
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032231580909990",
+    "fav": 12,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:25.452974Z"
+  },
+  {
+    "x_id": "1877032229450268756",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:51.000Z",
+    "text_raw": "Wu Xiaojun 吴晓军 (59) was promoted from Governor of Qinghai to replace Chen Gang as PS of Qinghai\n\nRose through the ranks in his native Jiangxi until moving to Qinghai in 2021 so probably needs another rotation or two to boost his CV \n\nNow China's youngest provincial PS\n\n5/12 https://t.co/8NdpiJV9SB",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1877032229450268756_0.jpg",
+        "w": 528,
+        "h": 780
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032229450268756",
+    "fav": 15,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:24.234655Z"
+  },
+  {
+    "x_id": "1877032227680223487",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:51.000Z",
+    "text_raw": "Wang Hao (王浩) (61) had previously won promotion from Governor to Party Secretary of Zhejiang\n\nShares hometown with Xi's wife Peng Liyuan so rumored part of her \"Shandong Gang\"\n\nDebatable how real this \"faction\" is but he had a good career in Shandong, Hebei &amp; Shaanxi\n\n4/12 https://t.co/3Gt0NkZT46",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1877032227680223487_0.jpg",
+        "w": 528,
+        "h": 662
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032227680223487",
+    "fav": 16,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:23.039523Z"
+  },
+  {
+    "x_id": "1877032225461383625",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:50.000Z",
+    "text_raw": "Liu Jie 刘捷 (55) was promoted from Deputy Party Secretary to Governor of Zhejiang (after only 14 mths)\n\nFormer steel boss who worked in Hunan, Jiangxi &amp; Guizhou before move to Xi power base in Zhejiang\n\nRising star; was first post-70s promoted to provincial CCP leadership\n\n3/12 https://t.co/vRrZ9WIwjb",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1877032225461383625_0.jpg",
+        "w": 532,
+        "h": 742
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032225461383625",
+    "fav": 20,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:21.829857Z"
+  },
+  {
+    "x_id": "1877032223620190365",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:50.000Z",
+    "text_raw": "Chen Gang 陈刚 (59) was rotated from Party Secretary of Qinghai to Party Secretary of Guangxi\n\nEffectively a promotion as being PS in multiple provinces is a plus for higher office\n\nServed as first leader of Xi's pet Xiong'an district and previously youngest provincial PS\n\n2/12 https://t.co/euLUeRUKe8",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1877032223620190365_0.jpg",
+        "w": 530,
+        "h": 794
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032223620190365",
+    "fav": 24,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:20.610763Z"
+  },
+  {
+    "x_id": "1877032222131155437",
+    "screen_name": "neilthomas123",
+    "author": "Neil Thomas 牛犇",
+    "verified": false,
+    "created_at": "2025-01-08T16:38:49.000Z",
+    "text_raw": "China just reshuffled several provincial leaders but it barely registered outside the country\n\nImportant as some could join the elite Politburo at the 21st Party Congress in 2027\n\n@AsiaPolicy maps 🇨🇳 leaders in our Decoding Chinese Politics product\n\nSo who got promoted?\n\n1/12 https://t.co/OYyqNuosZc",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1877032222131155437_0.jpg",
+        "w": 680,
+        "h": 486
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/neilthomas123/status/1877032222131155437",
+    "fav": 423,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:19.427267Z"
+  },
+  {
+    "x_id": "1653257352500613120",
+    "screen_name": "SafeguardDefend",
+    "author": "Safeguard Defenders (保护卫士)",
+    "verified": false,
+    "created_at": "2023-05-02T04:37:23.000Z",
+    "text_raw": "粗略估计，我们估计至少有数万人被禁止出境（不包括维吾尔族和藏族等民族宗教群体）。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/SafeguardDefend/status/1653257352500613120",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:18.231446Z"
+  },
+  {
+    "x_id": "2104785952308932854",
+    "screen_name": "BRIChina2023",
+    "author": "海外家园",
+    "verified": false,
+    "created_at": "2026-09-29T04:10:50.000Z",
+    "text_raw": "一带一路在塞尔维亚给世界的启示\n       武契奇靠中资项目换政治合法性；中资项目靠他的权力绕开招标、劳动法和环保；劳工与污染是这套交易里被长期当作“成本”的部分，也是最容易在东道国和第三市场同时爆开的部分。\n劳动力是一带一路最被低估的政治风险。 https://t.co/ZKfcGFtGYU",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2104785952308932854_0.jpg",
+        "w": 480,
+        "h": 640
+      }
+    ],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2104785952308932854.mp4",
+    "url": "https://x.com/BRIChina2023/status/2104785952308932854",
+    "fav": 6,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:17.047300Z"
+  },
+  {
+    "x_id": "2104934885953831218",
+    "screen_name": "BRIChina2023",
+    "author": "海外家园",
+    "verified": false,
+    "created_at": "2026-09-29T14:02:39.000Z",
+    "text_raw": "不是天生能抗。\n是被嵌进这条“造镍”供应链里，只能把人耗到极限。\n工牌 NNI，印尼北莫罗瓦利。\n中伟、德龙合资，俗称「德龙四期」。母公司垮了，NNI也举步维艰。\n这不是励志片。\n中国工人也不是天生坚强。\n是供应链不许他们倒下。 https://t.co/nY78kRDnZf",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2104934885953831218.mp4",
+    "url": "https://x.com/BRIChina2023/status/2104934885953831218",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:15.824063Z"
+  },
+  {
+    "x_id": "2106332047539384606",
+    "screen_name": "BRIChina2023",
+    "author": "海外家园",
+    "verified": false,
+    "created_at": "2026-10-03T10:34:28.000Z",
+    "text_raw": "印尼莫罗瓦利，10月2日，居民封堵PT Askon（Astima Konstruksi）镍矿运输路，抗议扬尘飞扬、伤作物。谈判破裂后冲突，汽车和挖掘机被焚，双方有人受伤。强厄尔尼诺让苏拉威西连续数月几乎无雨，莫罗瓦利8月降雨从约222毫米降到不足4毫米，尘土不降，矛盾被旱季点燃。 https://t.co/KInt1KOnbg",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2106332047539384606.mp4",
+    "url": "https://x.com/BRIChina2023/status/2106332047539384606",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:14.608911Z"
+  },
+  {
+    "x_id": "2107012496355930399",
+    "screen_name": "BRIChina2023",
+    "author": "海外家园",
+    "verified": false,
+    "created_at": "2026-10-05T07:38:20.000Z",
+    "text_raw": "还是出国打工吧，虽然辛苦些，但至少还像个人！\n10月4日，国庆假期，成都一小区的中海物业管理公司的工作人员用捕狗网罩住一名外卖员。\n这并非个例，早在2020年就有同类事件发生。\n《茶馆》里常四爷那句“盼哪，盼哪，只盼谁都讲理，谁也不欺负谁～～”\n“我爱咱们的国呀，可是谁爱我呢？” https://t.co/YazCs9ifhQ",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2107012496355930399.mp4",
+    "url": "https://x.com/BRIChina2023/status/2107012496355930399",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:13.408954Z"
+  },
+  {
+    "x_id": "2108157910639620350",
+    "screen_name": "BRIChina2023",
+    "author": "海外家园",
+    "verified": false,
+    "created_at": "2026-10-08T11:29:48.000Z",
+    "text_raw": "马来西亚中资工地曝欠薪：工人称干活半年未拿到工资，宿舍没电，热到无法睡觉\n\n马来西亚柔佛州一中资企业参与建设的工地，有工人反映遭遇长期拖欠工资、住宿条件恶劣等问题。 https://t.co/AsUYdkvvzv",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2108157910639620350.mp4",
+    "url": "https://x.com/BRIChina2023/status/2108157910639620350",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:12.149143Z"
+  },
+  {
+    "x_id": "2103143665560388046",
+    "screen_name": "Free06041989",
+    "author": "ZhengWei",
+    "verified": false,
+    "created_at": "2026-09-24T15:24:59.000Z",
+    "text_raw": "特工廬山真面目！ https://t.co/FMwHqd78bU",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2103143665560388046_0.jpg",
+        "w": 637,
+        "h": 1145
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Free06041989/status/2103143665560388046",
+    "fav": 71,
+    "retweet": 0,
+    "reply": 48,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:07.329731Z"
+  },
+  {
+    "x_id": "2103268282782699995",
+    "screen_name": "hgylucky2017",
+    "author": "gaiying•H",
+    "verified": false,
+    "created_at": "2026-09-24T23:40:10.000Z",
+    "text_raw": "FREE HONGKONG！\nFREE TIBET！\nFREE UYGHURS！\n\nFREEDOM CHINA!\n起来吧，不愿做奴隶的人们！\n习近平风声鹤唳 草木皆兵\n状如硕鼠首尾两盼\n只因过街人人喊打！\n这才是真相！\n这才是人权迫害现实报铁证！\n\n请大家传播到全世界！\n这才是中共天怒人怨的嘴脸！\n请某大国切莫跟魔鬼交易！",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/hgylucky2017/status/2103268282782699995",
+    "fav": 13,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T01:00:04.893705Z"
+  },
+  {
+    "x_id": "2094621797958209688",
+    "screen_name": "BreitbartNews",
+    "author": "Breitbart News",
+    "verified": false,
+    "created_at": "2026-09-01T03:02:07.000Z",
+    "text_raw": ".@jdvance responds to Abdul El-Sayed's repeated attacks on his wife https://t.co/IrVZh4qrb0",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/BreitbartNews/status/2094621797958209688",
+    "fav": 66,
+    "retweet": 0,
+    "reply": 6,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T00:59:59.943674Z"
+  },
+  {
+    "x_id": "2101332380237828597",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-09-19T15:27:34.000Z",
+    "text_raw": "我只是普通老百姓，就是接受不了预制菜，有问题？我为什么要强迫自己去接受？我想这也是大多数人的想法。这也是西贝倒闭的直接原因，咱们是认知差，不像有些人站在老百姓对立面",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/liyue_ai/status/2101332380237828597",
+    "fav": 14,
+    "retweet": 0,
+    "reply": 22,
+    "is_quote": false,
+    "fetched_at": "2026-10-09T00:59:52.659137Z"
+  },
+  {
     "x_id": "2104264526703341938",
     "screen_name": "HPizheng11983",
     "author": "HU Pizheng",
