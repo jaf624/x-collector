@@ -719,7 +719,8 @@ def main():
             title, pub, text = clean_article(md)
         # 机构稿：深抓/清洗后标题与正文可能变化（面包屑混入等），用最终内容做软新闻+主题复检
         # 注：此处不用 link_noise——Jina 全文开头普遍带面包屑/分享链接，会误伤正规报道
-        if c["route"] == "institute" and not is_snip:
+        # lead 豁免机构复检：GoFundMe/Meetup 等 L 类源本身即目标源，不套涉华相关性
+        if c["route"] == "institute" and not is_snip and not c.get("lead"):
             if soft_news(title) \
                     or not _china_ok(host_of(c["url"]), title, text[:800], text[:1500]) \
                     or not topic.search(title + " " + text[:1500]):
