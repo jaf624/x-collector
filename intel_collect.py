@@ -40,7 +40,8 @@ INST_SRC = os.path.join(ROOT, "targets", "institute_sources.json")
 INST_DAYS = int(os.environ.get("INTEL_INST_DAYS", "7"))        # 机构周报/月报，窗口 7 天
 INST_PER_FEED = int(os.environ.get("INTEL_INST_PER_FEED", "15"))  # 每源每轮最多评估条数
 INST_MAX = int(os.environ.get("INTEL_INST_MAX", "120"))        # RSS 自带正文（免费）每轮入库上限
-INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "20"))       # 摘要过短需 Jina 深抓的机构稿/L类线索上限
+INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "20"))       # 摘要过短需 Jina 深抓的机构稿上限
+MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "20"))         # L类线索源每轮深抓上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
 # 机构 RSS 按源订阅（非主题检索），在中国相关之外还必须命中"国家安全/地缘战略"主题，
 # 否则海外华文/综合媒体的民俗、体育、娱乐、生活、商业软新闻会因含"中国"二字混入。
@@ -691,10 +692,12 @@ def main():
     feed_cand = [c for c in cand if c["body_from"] == "feed"][:INST_MAX]     # 机构 RSS 自带全文：零 token
     pinned_cand = [c for c in cand if c.get("via") == "pinned"]             # 用户指定：不限量、优先抓
     deep_other = [c for c in cand if c["body_from"] == "full"
-                  and c["route"] != "institute" and c.get("via") != "pinned"][:MAX_ART]
+                  and c["route"] != "institute" and c.get("via") != "pinned"
+                  and not c.get("lead")][:MAX_ART]
+    lead_deep = [c for c in cand if c.get("lead") and c["body_from"] == "full"][:MAX_LEAD]
     deep_inst = [c for c in cand if c["body_from"] == "full"
-                 and (c["route"] == "institute" or c.get("lead"))][:INST_DEEP]
-    deep_cand = pinned_cand + deep_other + deep_inst                        # 需 Jina 深抓：指定优先
+                 and c["route"] == "institute" and not c.get("lead")][:INST_DEEP]
+    deep_cand = pinned_cand + lead_deep + deep_other + deep_inst                 # 需 Jina 深抓：指定/线索优先
     today = datetime.datetime.utcnow().date()
     f = {"fetch_fail": 0, "not_fresh": 0, "too_short": 0, "not_rel": 0, "duplicate": 0,
          "paywall": 0, "low_quality": 0, "usable": 0, "snippet_lead": 0}
