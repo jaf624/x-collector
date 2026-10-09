@@ -1,0 +1,34 @@
+name: capture-screens
+run-name: capture-screens
+on:
+  workflow_dispatch:
+    inputs:
+      targets:
+        description: 'JSON 数组 [["iid","url"],...]'
+        required: true
+        type: string
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install playwright
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Capture screens
+        run: python .github/capture_screens.py '${{ inputs.targets }}'
+      - name: Commit screens
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/screens || true
+          if ! git diff --staged --quiet; then
+            git commit -m "data: capture screens" && for i in 1 2 3; do git pull --rebase origin main && git push && break || { echo "push retry $i"; sleep 6; }; done
+          else
+            echo "无新增截图"
+          fi
