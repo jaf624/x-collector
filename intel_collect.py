@@ -655,11 +655,12 @@ def main():
                         continue
                     if it["date"] and it["date"] < inst_cut:
                         continue
-                    if soft_news(it["title"]) or link_noise(it["text"]):
+                    is_lead_src = bool(s.get("lead"))   # L类线索源：本身即目标，豁免前置相关性过滤
+                    if not is_lead_src and (soft_news(it["title"]) or link_noise(it["text"])):
                         continue
                     blob = it["title"] + " " + it["text"][:1500]  # 主题判定可看更宽
-                    if not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]) \
-                            or not topic.search(blob) or any(b in u.lower() for b in block_global):
+                    if not is_lead_src and (not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]) \
+                            or not topic.search(blob) or any(b in u.lower() for b in block_global)):
                         continue
                     src_name = clean_src_name(ftitle or s.get("name")) or s["host"]
                     src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
@@ -667,6 +668,7 @@ def main():
                     cand = {"url": u, "source": src_name,
                             "lang": lang_of(blob), "cat": s.get("cat", "institute"),
                             "via": "institute", "route": "institute",
+                            "lead": s.get("lead"),
                             "hint_date": it["date"], "hint_title": it["title"]}
                     if s.get("mode") == "titles_only":
                         snip = (it["title"] + "\n\n" + it["text"][:600]).strip()
