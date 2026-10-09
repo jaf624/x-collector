@@ -126,6 +126,27 @@
   "discovered_at": "2026-09-18T00:57:52Z"
  },
  {
+  "name": "Aliyun_4K_Movies",
+  "url": "https://t.me/Aliyun_4K_Movies",
+  "preview": "https://t.me/s/Aliyun_4K_Movies",
+  "title": "阿里、夸克、百度网盘4K影视资源",
+  "desc": "欢迎你来到4K影视频道，频道管理都是影视爱好者，主要分享以4K画质为主的电影、电视剧、纪录片、动画等影视资源。当然也有其他画质资源：如1080P、720P的稀缺资源。",
+  "posts_in_page": 20,
+  "latest": "2026-10-09",
+  "recent3": 20,
+  "recent7": 20,
+  "china_hits": 20,
+  "cat_hits": {
+   "间谍情报与涉密信息套取": 2,
+   "网络攻击与数据安全": 1
+  },
+  "related_msgs": 3,
+  "media_count_only": 20,
+  "score": 51.0,
+  "status": "pending_review",
+  "discovered_at": "2026-10-09T02:39:41Z"
+ },
+ {
   "name": "arpsyndicate",
   "url": "https://t.me/arpsyndicate",
   "preview": "https://t.me/s/arpsyndicate",
