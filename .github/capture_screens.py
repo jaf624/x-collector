@@ -48,11 +48,12 @@ with sync_playwright() as p:
         fp = os.path.join(OUT, iid + ".png")
         if os.path.isfile(fp) and os.path.getsize(fp) > 5000:
             print("skip existing", iid); continue
-        page = browser.new_page(user_agent=UA, viewport={"width": 1280, "height": 1600})
+        page = browser.new_page(user_agent=UA, viewport={"width": 1280, "height": 1400})
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=45000)
             page.wait_for_timeout(3500)
-            page.screenshot(path=fp, full_page=True)
+            # 首屏截图（不整页）：图小稳定，够作来源证据；整页大图易超 contents API 1MB 限制
+            page.screenshot(path=fp, full_page=False)
             if os.path.getsize(fp) > 5000:
                 print("captured", iid, os.path.getsize(fp)); ok += 1
                 captured.append([iid, url])
