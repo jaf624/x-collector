@@ -1,11 +1,13 @@
 name: capture-screens
 run-name: capture-screens
 on:
+  schedule:
+    - cron: "5,35 * * * *"
   workflow_dispatch:
     inputs:
       targets:
-        description: 'JSON 数组 [["iid","url"],...]'
-        required: true
+        description: 'JSON 数组 [["iid","url"],...]（留空则自动取 intel_feed.json 中 lead 条目）'
+        required: false
         type: string
 
 jobs:
@@ -26,7 +28,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/screens || true
+          git add data/screens data/screens_manifest.json || true
           if ! git diff --staged --quiet; then
             git commit -m "data: capture screens" && for i in 1 2 3; do git pull --rebase origin main && git push && break || { echo "push retry $i"; sleep 6; }; done
           else
