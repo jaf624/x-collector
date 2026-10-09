@@ -20,7 +20,7 @@ jobs:
           python-version: "3.11"
       - name: Install playwright
         run: |
-          pip install playwright
+          pip install playwright pillow
           python -m playwright install --with-deps chromium
       - name: Capture screens
         run: python .github/capture_screens.py '${{ inputs.targets }}'
