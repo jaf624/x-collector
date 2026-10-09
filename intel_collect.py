@@ -571,6 +571,8 @@ def main():
                     if h == dom or h.endswith("." + dom):
                         lead = lc
                         break
+                if not lead and (not rel.search(blob) or (d and not fresh(d, DAYS))):
+                    continue
                 add(u, tp["cat"], "en", tp["cat"], "topic", "news", news_block,
                     hint_date=d, hint_title=it.get("title", ""), lead=lead); n += 1
             print(f"[topic] {tp['cat']}: 采纳{n} tokens={tok}", flush=True)
@@ -730,7 +732,7 @@ def main():
             else:
                 f["not_fresh"] += 1; continue
         min_len = 120 if is_snip else MIN_BODY
-        if len(text) < min_len:
+        if len(text) < min_len and not c.get("lead"):   # 隐蔽线索豁免短文（社群帖/筹款页本身短）
             f["too_short"] += 1; print(f"  x 过短({len(text)}) {c['url'][:64]}", flush=True); continue
         is_pin = c.get("via") == "pinned"
         is_lead = bool(c.get("lead"))
