@@ -509,6 +509,62 @@
       "lead": "L3",
       "url": "t.me/s/ 公开预览页",
       "note": "一等证据·组织自述"
+    },
+    {
+      "name": "GiveSendGo·反华募款",
+      "platform": "givesendgo",
+      "lead": "L3",
+      "url": "https://www.givesendgo.com/",
+      "pat": "givesendgo\\.com/[a-z0-9]+"
+    },
+    {
+      "name": "Partiful·反华活动",
+      "platform": "partiful",
+      "lead": "L1",
+      "url": "https://partiful.com/",
+      "pat": "partiful\\.com/e/[^\\s)\"]+"
+    },
+    {
+      "name": "8kun·反华讨论",
+      "platform": "8kun",
+      "lead": "L4",
+      "url": "https://8kun.top/",
+      "pat": "8kun\\.top/[a-z0-9]+/res/[0-9]+\\.html"
+    },
+    {
+      "name": "Endchan·反华讨论",
+      "platform": "endchan",
+      "lead": "L4",
+      "url": "https://endchan.org/",
+      "pat": "endchan\\.org/[a-z0-9]+/res/[0-9]+\\.html"
+    },
+    {
+      "name": "Gab·反华账号",
+      "platform": "gab",
+      "lead": "L3",
+      "url": "https://gab.com/",
+      "pat": "gab\\.com/[a-zA-Z0-9_]+/posts/[0-9]+"
+    },
+    {
+      "name": "Odysee·行动视频",
+      "platform": "odysee",
+      "lead": "L4",
+      "url": "https://odysee.com/",
+      "pat": "odysee\\.com/@[^\\s)\"]+"
+    },
+    {
+      "name": "archive.org·快照追溯",
+      "platform": "archive_org",
+      "lead": "L3",
+      "url": "https://archive.org/",
+      "pat": "web\\.archive\\.org/web/[0-9]+/[^\\s)\"]+"
+    },
+    {
+      "name": "Telegram·新定向频道",
+      "platform": "telegram",
+      "lead": "L3",
+      "url": "https://t.me/s/",
+      "pat": "t\\.me/s/[a-zA-Z0-9_]+"
     }
   ],
   "manual_sources": [
