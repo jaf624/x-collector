@@ -775,6 +775,8 @@ def main():
             f["snippet_lead"] += 1
         if usable:
             f["usable"] += 1
+        _lead = c.get("lead")
+        lead_lbl = _lead if isinstance(_lead, str) and _lead.strip() else "隐蔽线索"
         item = {
             "id": hashlib.sha1(c["url"].encode()).hexdigest()[:16],
             "title": html.unescape((title or c["hint_title"] or "(无标题)").strip())[:200],
@@ -785,12 +787,12 @@ def main():
             "published": d.isoformat(), "date_inferred": inferred,
             "fetched_at": datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z",
             "summary": re.sub(r"\s+", " ", text)[:240],
-            "content": text, "lead_tag": c.get("lead"),
+            "content": text, "lead_tag": lead_lbl,
         }
         feed.insert(0, item); seen.add(c["url"]); added += 1
         existing_sets.append(_trigrams(text))
         tag = "线索" if is_snip else ("可用" if usable else "存档")
-        if is_lead: tag = "隐蔽·" + c["lead"]
+        if is_lead: tag = "隐蔽·" + lead_lbl
         print(f"  +[{tag}|{score}分|{c['cat']}] {item['title'][:42]} ({item['published']}"
               f"{'?' if inferred else ''}) {len(text)}字 tok={tok}", flush=True)
         if not is_snip and not is_feed:
