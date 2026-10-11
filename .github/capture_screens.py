@@ -35,7 +35,7 @@ if not targets:
     except Exception:
         feed = []
     picked = [x for x in feed if x.get("lead_tag")]
-    PRIO = ("隐蔽线索", "反华", "串联", "筹备", "渗透", "藏", "港", "台", "疆", "法轮", "行动", "NGO", "违禁品", "技术")
+    PRIO = ("隐蔽线索", "反华", "串联", "筹备", "渗透", "藏", "港", "台", "疆", "法轮", "行动", "NGO", "违禁品", "技术", "L3", "L2", "L1")
     def _prio(x):
         tag = (x.get("lead_tag") or "") + (x.get("title") or "") + (x.get("source") or "")
         for i, k in enumerate(PRIO):
