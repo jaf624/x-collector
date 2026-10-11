@@ -27,20 +27,32 @@ except Exception:
     sys.exit(1)
 
 if not targets:
-    # 自动从 feed 读 lead 条目（最多 15 条，跳过已有截图）
+    # 自动从 feed 读 lead 条目（最多 20 条，跳过已有截图）
+    # 优先级：反华/串联/筹备/隐蔽类线索优先截图，普通新闻靠后，
+    # 避免截图资源被 feed 前排的普通新闻占满（反华素材排后面永远截不到）
     try:
         feed = json.load(open(os.path.join(ROOT, "data", "intel_feed.json"), encoding="utf-8"))
     except Exception:
         feed = []
     picked = [x for x in feed if x.get("lead_tag")]
-    for x in picked[:15]:
+    PRIO = ("隐蔽线索", "反华", "串联", "筹备", "渗透", "藏", "港", "台", "疆", "法轮", "行动", "NGO", "违禁品", "技术")
+    def _prio(x):
+        tag = (x.get("lead_tag") or "") + (x.get("title") or "") + (x.get("source") or "")
+        for i, k in enumerate(PRIO):
+            if k in tag:
+                return i
+        return len(PRIO)
+    picked.sort(key=_prio)
+    for x in picked:
         iid = x["id"]
         if os.path.isfile(os.path.join(OUT, iid + ".jpg")) and \
                 os.path.getsize(os.path.join(OUT, iid + ".jpg")) > 5000:
             continue
         targets.append([iid, x.get("url", "")])
+        if len(targets) >= 20:
+            break
     if targets:
-        print("auto targets from feed:", len(targets))
+        print("auto targets from feed (prioritized):", len(targets))
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36")
