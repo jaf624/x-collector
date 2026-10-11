@@ -37,6 +37,42 @@
     {
       "name": "XueXi_China",
       "alias": "学习墙国🐸"
+    },
+    {
+      "name": "DemosistoOfficial",
+      "alias": "香港眾志頻道"
+    },
+    {
+      "name": "CivilHumanRightsFront",
+      "alias": "民間人權陣線"
+    },
+    {
+      "name": "ROC1912",
+      "alias": "中华民国（大陆）临时政府"
+    },
+    {
+      "name": "HKNFChannel",
+      "alias": "香港民族陣線台灣分部"
+    },
+    {
+      "name": "BoilerTacticians",
+      "alias": "暖氣軍師撑香港"
+    },
+    {
+      "name": "whyyoutouzhele_memecoin",
+      "alias": "用户定向-币圈反华频道"
+    },
+    {
+      "name": "lilaoshibushinilaoshi",
+      "alias": "用户定向隐蔽频道"
+    },
+    {
+      "name": "xinjiyuan9",
+      "alias": "用户定向隐蔽频道"
+    },
+    {
+      "name": "fandangfenzixi",
+      "alias": "用户定向隐蔽频道"
     }
   ],
   "selftest_channels": [
@@ -491,21 +527,6 @@
     {
       "name": "VanActivistsHKChannel",
       "alias": "VAHK 溫哥華手足 CHANNEL | Vancouver Activists of Hong Kong"
-    },
-    {
-      "name": "lilaoshibushinilaoshi",
-      "alias": "定向频道-讲师评论",
-      "lead": "L3"
-    },
-    {
-      "name": "xinjiyuan9",
-      "alias": "定向频道-新纪元",
-      "lead": "L3"
-    },
-    {
-      "name": "fandangfenzixi",
-      "alias": "定向频道-思潮评论",
-      "lead": "L3"
     },
     {
       "name": "ChineseNationalSocialism",
