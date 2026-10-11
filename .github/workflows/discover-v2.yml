@@ -1,0 +1,33 @@
+name: discover-v2
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run discover v2
+        env:
+          JINA_KEY: ${{ secrets.JINA_KEY }}
+        run: python3 discover_v2.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "4189828+github-actions[bot]@users.noreply.github.com"
+          git add data/discover_v2.json targets/telegram.json
+          if ! git diff --staged --quiet; then
+            git commit -m "discover: new channels found + auto-added"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break || { echo "push retry $i"; sleep 6; }
+            done
+          else
+            echo "no new channels today"
+          fi
