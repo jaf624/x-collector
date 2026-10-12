@@ -73,6 +73,10 @@
     {
       "name": "fandangfenzixi",
       "alias": "用户定向隐蔽频道"
+    },
+    {
+      "name": "Aliyun_4K_Movies",
+      "alias": "阿里、夸克、百度网盘4K影视资源"
     }
   ],
   "selftest_channels": [
@@ -527,16 +531,6 @@
     {
       "name": "VanActivistsHKChannel",
       "alias": "VAHK 溫哥華手足 CHANNEL | Vancouver Activists of Hong Kong"
-    },
-    {
-      "name": "ChineseNationalSocialism",
-      "alias": "定向频道-极端思潮",
-      "lead": "L3"
-    },
-    {
-      "name": "XueXi_China",
-      "alias": "定向频道-思想渗透观察",
-      "lead": "L3"
     }
   ],
   "archived_channels": [

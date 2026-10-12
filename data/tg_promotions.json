@@ -137,5 +137,18 @@
   "business_total": 8,
   "watch_total": 1,
   "archived_total": 4
+ },
+ {
+  "ran_at": "2026-10-12T03:35:33Z",
+  "tier1": [
+   "Aliyun_4K_Movies"
+  ],
+  "tier2": [
+   "VanActivistsHKChannel"
+  ],
+  "archived": [],
+  "business_total": 18,
+  "watch_total": 1,
+  "archived_total": 4
  }
 ]
