@@ -959,6 +959,9 @@ def main():
                 continue  # 已是中文稿
             if not (is_hardnews_url(x.get("url", "")) or x.get("route") == "institute"):
                 continue
+            # 只补硬安全/关键矿产/能源通道/军事/科技主题，跳过体育生活等软新闻，配额留给真硬料
+            if soft_news(_t) or not topic.search(_t + " " + _body[:2000]):
+                continue
             _zh_t = gtx_translate(_t)
             _zh_s = gtx_translate(re.sub(r"\s+", " ", _body)[:600])
             _zh_c = gtx_translate(_body[:3500])
