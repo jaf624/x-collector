@@ -91,7 +91,14 @@ TOPIC_RE = (
     r"great firewall|geopolit|strategic competition|coercion|gray zone|hybrid war|arms sale|military aid|"
     r"bomber|stealth|hypersonic|warhead|submarine|destroyer|frigate|\busaf\b|airlift|"
     r"prisoner|detain|dissident|jailed|forced labor|maritime militia|fishing militia|"
-    r"debt trap|belt and road|\bbri\b|overseas lending"
+    r"debt trap|belt and road|\bbri\b|overseas lending|"
+    # 资源矿产/能源通道/航运物流（2026-10-14 补，此前资源矿产/能源/多边连续0）
+    r"critical materials?|lithium|cobalt|nickel|copper ore|graphite|gallium|germanium|"
+    r"energy security|\boil\b|\bgas\b|\blng\b|natural gas|crude oil|pipeline|petroleum|"
+    r"refin(?:ery|ing)|seaborne|shipping lane|sea lane|chokepoint|\bstrait\b|suez|panama|"
+    r"canal blockade|\bports?\b|oil tanker|shadow fleet|energy corridor|"
+    r"能源安全|石油|天然气|原油|油气|管道|能源通道|锂矿|钴矿|镍矿|铜矿|石墨|镓|锗|"
+    r"关键材料|航运|海运|海峡|运河|港口|油轮|马六甲|红海|能源运输|海上通道"
 )
 # 软新闻/非情报内容（综合华文/宣传/生活站噪声）：标题命中即不收，除非标题同时含硬安全词
 SOFT_TITLE_RE = (
