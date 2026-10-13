@@ -711,13 +711,21 @@ def main():
     news_pool = [c for c in cand if c["body_from"] == "full"
                  and c["route"] != "institute" and c.get("via") != "pinned"
                  and not c.get("lead")]
-    # 硬新闻源按日期占固定深读配额，其余给原有新闻源；硬新闻不足则由其他源补足
+    # 硬新闻源按日期占固定深读配额，其余给原有新闻源；硬新闻不足则由其他源补足。
+    # 每个硬新闻源每轮限额，避免单一高产台媒（本地软新闻）占满配额，让30个名额覆盖约10个源。
+    hn_per = int(os.environ.get("INTEL_HARD_NEWS_PER_SRC", "3"))
     hn_pool = [c for c in news_pool if is_hardnews_url(c.get("url"))]
+    hn_limited, _hn_seen = [], {}
+    for c in hn_pool:           # news_pool 已按日期降序
+        h = host_of(c.get("url"))
+        if _hn_seen.get(h, 0) < hn_per:
+            hn_limited.append(c); _hn_seen[h] = _hn_seen.get(h, 0) + 1
     other_pool = [c for c in news_pool if not is_hardnews_url(c.get("url"))]
-    deep_other = (hn_pool[:HARD_NEWS_QUOTA] + other_pool)[:MAX_ART]
+    deep_other = (hn_limited[:HARD_NEWS_QUOTA] + other_pool)[:MAX_ART]
     if hn_pool:
-        print("[deepdive] 硬新闻优先：硬新闻候选%d 取%d，总深读上限%d（配额%d）" % (
-            len(hn_pool), min(len(hn_pool), HARD_NEWS_QUOTA), MAX_ART, HARD_NEWS_QUOTA), flush=True)
+        print("[deepdive] 硬新闻优先：硬新闻候选%d 覆盖%d源，取%d，总深读上限%d（每源%d）" % (
+            len(hn_pool), len(_hn_seen), min(len(hn_limited), HARD_NEWS_QUOTA),
+            MAX_ART, hn_per), flush=True)
     lead_deep = [c for c in cand if c.get("lead") and c["body_from"] == "full"][:MAX_LEAD]
     deep_inst = [c for c in cand if c["body_from"] == "full"
                  and c["route"] == "institute" and not c.get("lead")][:INST_DEEP]
