@@ -336,6 +336,51 @@ def feed_get(url, timeout=20):
         return None, ""
 
 
+# ---- 英文硬新闻机器翻译（Google gtx 免费端点，仅海外节点；逐字翻译不杜撰，供国内据中文事实成稿）----
+GTX_URL = "https://translate.googleapis.com/translate_a/single"
+def gtx_translate(text, dst="zh-CN", timeout=15):
+    """英文→中文分段翻译，返回中文译文；任一失败跳过，整体失败返回空串，绝不阻断主流程。"""
+    text = (text or "").strip()
+    if not text:
+        return ""
+    chunks, buf = [], ""
+    for para in re.split(r"(\n+)", text):
+        if len(buf) + len(para) <= 1500:
+            buf += para
+        else:
+            if buf:
+                chunks.append(buf)
+            if len(para) <= 1500:
+                buf = para
+            else:
+                buf = ""
+                for st in re.split(r"(?<=[.!?。！？])\s+", para):
+                    if len(buf) + st and len(buf) + len(st) <= 1500:
+                        buf += st + " "
+                    else:
+                        if buf:
+                            chunks.append(buf)
+                        buf = st[:1500]
+    if buf:
+        chunks.append(buf)
+    out = []
+    for ch in chunks[:6]:
+        try:
+            q = urllib.parse.quote(ch)
+            req = urllib.request.Request(
+                GTX_URL + "?client=gtx&dt=t&sl=auto&tl=%s&q=%s" % (dst, q),
+                headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+                data = json.loads(r.read().decode("utf-8", "ignore"))
+            seg = "".join(s[0] for s in (data[0] or []) if s and s.get(0))
+            if seg:
+                out.append(seg)
+        except Exception:
+            pass
+        time.sleep(0.12)
+    return "\n".join(out).strip()
+
+
 def _lc(tag):
     return (tag or "").split("}")[-1].lower()
 
@@ -836,17 +881,35 @@ def main():
             f["usable"] += 1
         _lead = c.get("lead")
         lead_lbl = _lead if isinstance(_lead, str) and _lead.strip() else "隐蔽线索"
+        _raw_title = html.unescape((title or c["hint_title"] or "(无标题)").strip())[:200]
+        _raw_summary = re.sub(r"\s+", " ", text)[:240]
+        # 英文硬新闻：海外节点用 Google gtx 逐字翻译标题/摘要/正文，供国内成稿据中文事实；
+        # 仅对高分可用、非中文、硬新闻/机构源执行（限量零成本）；原文附在正文末尾，url+截图可溯源。
+        zh_title = zh_summary = zh_content = ""
+        if usable and lang_of(_raw_title + " " + text[:300]) == "en" and \
+                (is_hardnews_url(c["url"]) or c["route"] == "institute"):
+            try:
+                zh_title = gtx_translate(_raw_title)
+                zh_summary = gtx_translate(re.sub(r"\s+", " ", text)[:600])
+                zh_content = gtx_translate(text[:3500])
+                if zh_title:
+                    print(f"  · [译中] {zh_title[:40]}", flush=True)
+            except Exception:
+                zh_title = zh_summary = zh_content = ""
         item = {
             "id": hashlib.sha1(c["url"].encode()).hexdigest()[:16],
-            "title": html.unescape((title or c["hint_title"] or "(无标题)").strip())[:200],
+            "title": _raw_title,
+            "zh_title": zh_title,
             "url": c["url"], "source": c["source"], "lang": c["lang"], "cat": c["cat"],
             "route": c["route"], "body_from": c["body_from"],
             "quality_score": score, "usable": usable,
             "needs_deepdive": is_snip,
             "published": d.isoformat(), "date_inferred": inferred,
             "fetched_at": datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z",
-            "summary": re.sub(r"\s+", " ", text)[:240],
-            "content": text, "lead_tag": lead_lbl,
+            "summary": (zh_summary or _raw_summary),
+            "content": (zh_content + "\n\n【原文 English Original】\n" + text) if zh_content else text,
+            "machine_translated": bool(zh_content),
+            "lead_tag": lead_lbl,
         }
         feed.insert(0, item); seen.add(c["url"]); added += 1
         existing_sets.append(_trigrams(text))
