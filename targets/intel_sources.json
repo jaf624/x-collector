@@ -424,10 +424,10 @@
   },
   {
    "name": "日经中文网",
-   "url": "https://cn.nikkei.com/",
+   "url": "https://cn.nikkei.com/politicsaeconomy/",
    "lang": "zh",
    "cat": "中文硬新闻",
-   "pat": "cn\\.nikkei\\.com/[^?\\s)\\]]+\\.html"
+   "pat": "(?:https?://cn\\.nikkei\\.com)?(/[a-z]+/[0-9A-Za-z_.-]+\\.html)"
   },
   {
    "name": "韩联社中文",
@@ -438,10 +438,10 @@
   },
   {
    "name": "共同社中文",
-   "url": "https://chinese.kyodonews.net/news/",
+   "url": "https://chinese.kyodonews.net/",
    "lang": "zh",
    "cat": "中文硬新闻",
-   "pat": "chinese\\.kyodonews\\.net/news/[^?\\s)\\]]+\\.html"
+   "pat": "(?:https?://chinese\\.kyodonews\\.net)?(/[0-9A-Za-z_/.-]+\\.html)"
   },
   {
    "name": "中央社-国际",
@@ -452,10 +452,10 @@
   },
   {
    "name": "自由亚洲中文",
-   "url": "https://www.rfa.org/mandarin/news/",
+   "url": "https://www.rfa.org/mandarin/",
    "lang": "zh",
    "cat": "中文硬新闻",
-   "pat": "rfa\\.org/mandarin/[^?\\s)\\]]+\\.html"
+   "pat": "(?:https?://(?:www\\.)?rfa\\.org)?(/mandarin/[0-9A-Za-z_/.-]+\\.html)"
   },
   {
    "name": "澳广ABC中文",
@@ -518,14 +518,14 @@
    "url": "https://www.worldjournal.com/",
    "lang": "zh",
    "cat": "中文硬新闻",
-   "pat": "worldjournal\\.com/story/[^?\\s)\\]]+"
+   "pat": "(?:https?://(?:www\\.)?worldjournal\\.com)?(/(?:wj|story|news|gb)/[0-9A-Za-z_/.-]+)"
   },
   {
    "name": "当今大马中文",
-   "url": "https://zh.malaysiakini.com/",
+   "url": "https://zh.malaysiakini.com/news",
    "lang": "zh",
    "cat": "中文硬新闻",
-   "pat": "zh\\.malaysiakini\\.com/news/[^?\\s)\\]]+"
+   "pat": "(?:https?://zh\\.malaysiakini\\.com)?(/news/[0-9A-Za-z_-]+)"
   },
   {
    "name": "朝鲜日报中文",
@@ -546,14 +546,14 @@
    "url": "https://www.rcinet.ca/zhongwen/",
    "lang": "zh",
    "cat": "中文硬新闻",
-   "pat": "rcinet\\.ca/(?:zhongwen|zh)/[^?\\s)\\]]+"
+   "pat": "(?:https?://(?:www\\.)?rcinet\\.ca)?(/(?:zhongwen|zh)/[0-9A-Za-z_/.-]+)"
   },
   {
    "name": "美国商务部-新闻",
    "url": "https://www.commerce.gov/news/press-releases",
    "lang": "en",
    "cat": "官方公报",
-   "pat": "commerce\\.gov/news/press-releases/[^?\\s)\\]]+"
+   "pat": "(?:https?://(?:www\\.)?commerce\\.gov)?(/news/press-releases/[0-9A-Za-z_/.-]+)"
   },
   {
    "name": "美国国防部-新闻",
@@ -574,7 +574,7 @@
    "url": "https://www.nato.int/cps/en/natohq/news.htm",
    "lang": "en",
    "cat": "官方公报",
-   "pat": "nato\\.int/cps/en/natohq/news_[^?\\s)\\]]+\\.htm"
+   "pat": "(?:https?://(?:www\\.)?nato\\.int)?(/cps/en/natohq/news_[0-9_]+\\.htm)"
   }
  ],
  "search_categories": [
