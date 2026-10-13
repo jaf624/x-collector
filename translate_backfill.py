@@ -12,12 +12,13 @@ def cn(s):
     return len(re.findall(r"[\u4e00-\u9fff]", s or ""))
 
 
-# 专业资源/能源/军事/科技硬源（补译第一优先）
-PRIO_DOMAINS = ("mining.com", "oilprice.com", "usni.org", "defensenews.com", "breakingdefense.com",
-                "asia.nikkei.com", "nikkei.com", "bis.gov", "energy.gov", "defense.gov", "state.gov",
-                "treasury.gov", "commerce.gov", "ustr.gov", "pacom.mil", "iea.org", "usgs.gov",
-                "imf.org", "wto.org", "ec.europa.eu", "nato.int", "politico.com", "ft.com",
-                "bloomberg.com", "reuters.com", "apnews.com")
+# 最优先：资源/能源/军事专业硬源（补译第0级，必须最先覆盖）
+TIER0_DOMAINS = ("mining.com", "oilprice.com", "usni.org", "defensenews.com", "breakingdefense.com",
+                 "asia.nikkei.com", "nikkei.com", "bis.gov", "energy.gov", "defense.gov",
+                 "treasury.gov", "commerce.gov", "ustr.gov", "pacom.mil", "iea.org", "usgs.gov")
+# 次优先：通讯社/官方/多边/财经大报（补译第1级）
+TIER1_DOMAINS = ("state.gov", "wto.org", "imf.org", "ec.europa.eu", "nato.int", "politico.com",
+                 "ft.com", "bloomberg.com", "reuters.com", "apnews.com", "afp.com", "bbc.com")
 # 资源/能源/军事/科技强信号词（命中即第一优先）
 PRIO_TOPIC = re.compile(
     r"rare earth|critical mineral|critical material|lithium|cobalt|nickel|graphite|gallium|"
@@ -30,11 +31,15 @@ PRIO_TOPIC = re.compile(
     re.I)
 
 
-def is_prio(x, t, body):
+def prio_tier(x, t, body):
     u = (x.get("url", "") or "").lower()
-    if any(h in u for h in PRIO_DOMAINS):
-        return True
-    return bool(PRIO_TOPIC.search(t + " " + body[:2000]))
+    if any(h in u for h in TIER0_DOMAINS):
+        return 0
+    if any(h in u for h in TIER1_DOMAINS):
+        return 1
+    if PRIO_TOPIC.search(t + " " + body[:2000]):
+        return 1
+    return 2
 
 
 def main():
@@ -60,8 +65,8 @@ def main():
 
     cand = [x for x in feed if eligible(x)]
     cand.sort(key=lambda x: x.get("published", ""), reverse=True)   # 先按时间降序
-    cand.sort(key=lambda x: 0 if is_prio(x, x.get("title", "") or "", x.get("content", "") or "") else 1)
-    # 稳定排序：专业资源/能源/军事/科技硬料优先，各组内部保持时间降序
+    cand.sort(key=lambda x: prio_tier(x, x.get("title", "") or "", x.get("content", "") or ""))
+    # 稳定排序：0级专业资源/能源/军事源最先，1级通讯社/官方/强词次之，各组内部保持时间降序
     n = 0
     for x in cand:
         if n >= cap:

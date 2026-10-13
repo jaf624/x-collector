@@ -366,19 +366,29 @@ def gtx_translate(text, dst="zh-CN", timeout=15):
         chunks.append(buf)
     out = []
     for ch in chunks[:6]:
-        try:
-            q = urllib.parse.quote(ch)
-            req = urllib.request.Request(
-                GTX_URL + "?client=gtx&dt=t&sl=auto&tl=%s&q=%s" % (dst, q),
-                headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
-                data = json.loads(r.read().decode("utf-8", "ignore"))
-            seg = "".join(s[0] for s in (data[0] or []) if s and s[0])
-            if seg:
-                out.append(seg)
-        except Exception:
-            pass
-        time.sleep(0.12)
+        seg = ""
+        for attempt in range(4):  # 遇限流/空结果退避重试，最多4轮
+            try:
+                q = urllib.parse.quote(ch)
+                req = urllib.request.Request(
+                    GTX_URL + "?client=gtx&dt=t&sl=auto&tl=%s&q=%s" % (dst, q),
+                    headers={"User-Agent": UA})
+                with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+                    data = json.loads(r.read().decode("utf-8", "ignore"))
+                seg = "".join(s[0] for s in (data[0] or []) if s and s[0])
+                if seg:
+                    break
+                time.sleep(1.2 * (attempt + 1))  # 空结果，退避后重试
+            except urllib.error.HTTPError as e:
+                if e.code in (429, 403, 500, 503):
+                    time.sleep(2.0 * (attempt + 1))
+                    continue
+                break
+            except Exception:
+                time.sleep(1.2 * (attempt + 1))
+        if seg:
+            out.append(seg)
+        time.sleep(0.25)
     return "\n".join(out).strip()
 
 
