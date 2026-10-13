@@ -372,7 +372,7 @@ def gtx_translate(text, dst="zh-CN", timeout=15):
                 headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
                 data = json.loads(r.read().decode("utf-8", "ignore"))
-            seg = "".join(s[0] for s in (data[0] or []) if s and s.get(0))
+            seg = "".join(s[0] for s in (data[0] or []) if s and s[0])
             if seg:
                 out.append(seg)
         except Exception:
