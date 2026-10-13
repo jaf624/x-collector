@@ -6174,5 +6174,718 @@
   "latest": "2026-09-16",
   "recent30": 2,
   "china_hits": 4
+ },
+ {
+  "host": "cn.nikkei.com",
+  "base": "https://cn.nikkei.com/",
+  "ref": "https://cn.nikkei.com/",
+  "name": "日经中文网",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "cn.yna.co.kr",
+  "base": "https://cn.yna.co.kr/",
+  "ref": "https://cn.yna.co.kr/",
+  "name": "韩联社中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "chinese.kyodonews.net",
+  "base": "https://chinese.kyodonews.net/",
+  "ref": "https://chinese.kyodonews.net/",
+  "name": "共同社中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.cna.com.tw",
+  "base": "https://www.cna.com.tw/",
+  "ref": "https://www.cna.com.tw/",
+  "name": "中央社",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.rfa.org",
+  "base": "https://www.rfa.org/mandarin/",
+  "ref": "https://www.rfa.org/mandarin/",
+  "name": "自由亚洲电台中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.abc.net.au",
+  "base": "https://www.abc.net.au/chinese/",
+  "ref": "https://www.abc.net.au/chinese/",
+  "name": "澳广ABC中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.rcinet.ca",
+  "base": "https://www.rcinet.ca/zhongwen/",
+  "ref": "https://www.rcinet.ca/zhongwen/",
+  "name": "加拿大国际广播中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.ftchinese.com",
+  "base": "https://www.ftchinese.com/",
+  "ref": "https://www.ftchinese.com/",
+  "name": "金融时报中文网",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "cn.wsj.com",
+  "base": "https://cn.wsj.com/",
+  "ref": "https://cn.wsj.com/",
+  "name": "华尔街日报中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "chinese.aljazeera.net",
+  "base": "https://chinese.aljazeera.net/",
+  "ref": "https://chinese.aljazeera.net/",
+  "name": "半岛电视台中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.storm.mg",
+  "base": "https://www.storm.mg/",
+  "ref": "https://www.storm.mg/",
+  "name": "风传媒",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.hk01.com",
+  "base": "https://www.hk01.com/",
+  "ref": "https://www.hk01.com/",
+  "name": "香港01",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.stheadline.com",
+  "base": "https://www.stheadline.com/",
+  "ref": "https://www.stheadline.com/",
+  "name": "星岛日报",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "news.mingpao.com",
+  "base": "https://news.mingpao.com/",
+  "ref": "https://news.mingpao.com/",
+  "name": "明报",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "cnnews.chosun.com",
+  "base": "https://cnnews.chosun.com/",
+  "ref": "https://cnnews.chosun.com/",
+  "name": "朝鲜日报中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "chinese.joins.com",
+  "base": "https://chinese.joins.com/",
+  "ref": "https://chinese.joins.com/",
+  "name": "中央日报中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.scmp.com",
+  "base": "https://www.scmp.com/",
+  "ref": "https://www.scmp.com/",
+  "name": "南华早报",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.worldjournal.com",
+  "base": "https://www.worldjournal.com/",
+  "ref": "https://www.worldjournal.com/",
+  "name": "世界新闻网",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.chinatimes.com",
+  "base": "https://www.chinatimes.com/",
+  "ref": "https://www.chinatimes.com/",
+  "name": "中时新闻网",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "udn.com",
+  "base": "https://udn.com/",
+  "ref": "https://udn.com/",
+  "name": "联合报",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "zh.malaysiakini.com",
+  "base": "https://zh.malaysiakini.com/",
+  "ref": "https://zh.malaysiakini.com/",
+  "name": "当今大马中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.dw.com",
+  "base": "https://www.dw.com/zh/",
+  "ref": "https://www.dw.com/zh/",
+  "name": "德国之声",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.rfi.fr",
+  "base": "https://www.rfi.fr/cn/",
+  "ref": "https://www.rfi.fr/cn/",
+  "name": "法国国际广播中文",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.whitehouse.gov",
+  "base": "https://www.whitehouse.gov/",
+  "ref": "https://www.whitehouse.gov/",
+  "name": "美国白宫",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.state.gov",
+  "base": "https://www.state.gov/",
+  "ref": "https://www.state.gov/",
+  "name": "美国国务院",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.commerce.gov",
+  "base": "https://www.commerce.gov/",
+  "ref": "https://www.commerce.gov/",
+  "name": "美国商务部",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.defense.gov",
+  "base": "https://www.defense.gov/",
+  "ref": "https://www.defense.gov/",
+  "name": "美国国防部",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "ec.europa.eu",
+  "base": "https://ec.europa.eu/",
+  "ref": "https://ec.europa.eu/",
+  "name": "欧盟委员会",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.nato.int",
+  "base": "https://www.nato.int/",
+  "ref": "https://www.nato.int/",
+  "name": "北约",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.meti.go.jp",
+  "base": "https://www.meti.go.jp/",
+  "ref": "https://www.meti.go.jp/",
+  "name": "日本经产省",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "www.mofa.go.jp",
+  "base": "https://www.mofa.go.jp/",
+  "ref": "https://www.mofa.go.jp/",
+  "name": "日本外务省",
+  "cat": "gov",
+  "cats": [
+   "gov",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-14"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": null,
+  "kind": null,
+  "status": "new",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
  }
 ]
