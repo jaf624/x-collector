@@ -337,10 +337,55 @@ def feed_get(url, timeout=20):
         return None, ""
 
 
-# ---- 英文硬新闻机器翻译（Google gtx 免费端点，仅海外节点；逐字翻译不杜撰，供国内据中文事实成稿）----
-GTX_URL = "https://translate.googleapis.com/translate_a/single"
+# ---- 英文硬新闻机器翻译（Google 免费端点，仅海外节点；逐字翻译不杜撰，供国内据中文事实成稿）----
+# 两个不同主机端点，任一被限流即降级到另一个，规避共享 runner IP 的 429
+GTX_ENDPOINTS = [
+    ("chrome", "https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=%s&q=%s"),
+    ("gtx", "https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&sl=auto&tl=%s&q=%s"),
+]
+
+
+def _tx_parse(kind, data):
+    try:
+        if kind == "chrome":
+            # /t + dict-chrome-ex 返回 [{"translatedText": "...", "detectedSourceLanguage": "en"}]
+            if isinstance(data, list) and data:
+                row = data[0]
+                if isinstance(row, dict):
+                    return row.get("translatedText", "") or ""
+                if isinstance(row, str):
+                    return row
+        else:
+            # /single + gtx 返回 [[["译文", "原文", ...], ...], ...]
+            return "".join(s[0] for s in (data[0] or []) if s and s[0])
+    except Exception:
+        return ""
+    return ""
+
+
+def _tx_call(ch, dst, timeout=15):
+    """对单个分段依次尝试两个端点，全部失败返回空串。"""
+    q = urllib.parse.quote(ch)
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0 Safari/537.36"}
+    for kind, tpl in GTX_ENDPOINTS:
+        try:
+            req = urllib.request.Request(tpl % (dst, q), headers=headers)
+            with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+                data = json.loads(r.read().decode("utf-8", "ignore"))
+            seg = _tx_parse(kind, data)
+            if seg:
+                return seg
+        except urllib.error.HTTPError as e:
+            print("    [tx %s HTTP %s]" % (kind, e.code), flush=True)
+            continue
+        except Exception as e:
+            print("    [tx %s ERR %s]" % (kind, repr(e)[:50]), flush=True)
+            continue
+    return ""
+
+
 def gtx_translate(text, dst="zh-CN", timeout=15):
-    """英文→中文分段翻译，返回中文译文；任一失败跳过，整体失败返回空串，绝不阻断主流程。"""
+    """英文→中文分段翻译，返回中文译文；任一失败重试，整体失败返回空串，绝不阻断主流程。"""
     text = (text or "").strip()
     if not text:
         return ""
@@ -367,30 +412,14 @@ def gtx_translate(text, dst="zh-CN", timeout=15):
     out = []
     for ch in chunks[:6]:
         seg = ""
-        for attempt in range(4):  # 遇限流/空结果退避重试，最多4轮
-            try:
-                q = urllib.parse.quote(ch)
-                req = urllib.request.Request(
-                    GTX_URL + "?client=gtx&dt=t&sl=auto&tl=%s&q=%s" % (dst, q),
-                    headers={"User-Agent": UA})
-                with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
-                    data = json.loads(r.read().decode("utf-8", "ignore"))
-                seg = "".join(s[0] for s in (data[0] or []) if s and s[0])
-                if seg:
-                    break
-                time.sleep(1.2 * (attempt + 1))  # 空结果，退避后重试
-            except urllib.error.HTTPError as e:
-                print("    [gtx HTTP %s attempt%d]" % (e.code, attempt + 1), flush=True)
-                if e.code in (429, 403, 500, 503):
-                    time.sleep(2.0 * (attempt + 1))
-                    continue
+        for attempt in range(3):  # 双端点都失败则退避，最多3轮
+            seg = _tx_call(ch, dst, timeout)
+            if seg:
                 break
-            except Exception as e:
-                print("    [gtx ERR %s attempt%d]" % (repr(e)[:60], attempt + 1), flush=True)
-                time.sleep(1.2 * (attempt + 1))
+            time.sleep(1.5 * (attempt + 1))
         if seg:
             out.append(seg)
-        time.sleep(0.25)
+        time.sleep(0.35)
     return "\n".join(out).strip()
 
 
