@@ -546,14 +546,14 @@
    "url": "https://www.rcinet.ca/zhongwen/",
    "lang": "zh",
    "cat": "中文硬新闻",
-   "pat": "(?:https?://(?:www\\.)?rcinet\\.ca)?(/(?:zhongwen|zh)/[0-9A-Za-z_/.-]+)"
+   "pat": "(?:https?://(?:www\\.)?rcinet\\.ca)?(/(?:zhongwen|zh|news|a-propos)/[0-9A-Za-z_/.-]+)"
   },
   {
    "name": "美国商务部-新闻",
-   "url": "https://www.commerce.gov/news/press-releases",
+   "url": "https://www.commerce.gov/news",
    "lang": "en",
    "cat": "官方公报",
-   "pat": "(?:https?://(?:www\\.)?commerce\\.gov)?(/news/press-releases/[0-9A-Za-z_/.-]+)"
+   "pat": "(?:https?://(?:www\\.)?commerce\\.gov)?(/news/[0-9A-Za-z_/.-]+)"
   },
   {
    "name": "美国国防部-新闻",
@@ -574,7 +574,7 @@
    "url": "https://www.nato.int/cps/en/natohq/news.htm",
    "lang": "en",
    "cat": "官方公报",
-   "pat": "(?:https?://(?:www\\.)?nato\\.int)?(/cps/en/natohq/news_[0-9_]+\\.htm)"
+   "pat": "(?:https?://(?:www\\.)?nato\\.int)?(/cps/en/[A-Za-z0-9_/.-]+\\.htm)"
   }
  ],
  "search_categories": [
