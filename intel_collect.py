@@ -380,11 +380,13 @@ def gtx_translate(text, dst="zh-CN", timeout=15):
                     break
                 time.sleep(1.2 * (attempt + 1))  # 空结果，退避后重试
             except urllib.error.HTTPError as e:
+                print("    [gtx HTTP %s attempt%d]" % (e.code, attempt + 1), flush=True)
                 if e.code in (429, 403, 500, 503):
                     time.sleep(2.0 * (attempt + 1))
                     continue
                 break
-            except Exception:
+            except Exception as e:
+                print("    [gtx ERR %s attempt%d]" % (repr(e)[:60], attempt + 1), flush=True)
                 time.sleep(1.2 * (attempt + 1))
         if seg:
             out.append(seg)

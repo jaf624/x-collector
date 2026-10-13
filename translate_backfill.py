@@ -80,6 +80,7 @@ def main():
             zt = ic.gtx_translate(t)
             zs = ic.gtx_translate(re.sub(r"\s+", " ", body)[:600])
             zc = ic.gtx_translate(body[:3500])
+            print("    diag %s zt=%d zs=%d zc=%d" % (t[:30], len(zt), len(zs), len(zc)), flush=True)
             if zt:
                 x["zh_title"] = zt
             if zs:
