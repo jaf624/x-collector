@@ -43,6 +43,7 @@ INST_MAX = int(os.environ.get("INTEL_INST_MAX", "120"))        # RSS 自带正�
 INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "20"))       # 摘要过短需 Jina 深抓的机构稿上限
 MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "20"))         # L类线索源每轮深抓上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
+MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "15"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
 # 硬新闻源（2026-10-14 扩源）：通讯社/官方公报/中文硬新闻——深读配额优先，确保新闻模式主粮来自可溯源硬新闻
 HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "30"))
 HARD_NEWS_DOMAINS = (
@@ -943,6 +944,37 @@ def main():
         feed = [_rename(x) for x in feed]
 
     feed.sort(key=lambda x: x.get("published", ""), reverse=True)
+    # 英文硬新闻统一补译回溯：feed 已按时间降序，对仍为英文、未补译的可用硬新闻/机构稿
+    # 逐篇补中文（Google gtx，海外节点）；存量一次性补齐，之后按 machine_translated/中文 summary 跳过。
+    _tx_n = 0
+    for x in feed:
+        if _tx_n >= MAX_TRANSLATE:
+            break
+        try:
+            if not x.get("usable") or x.get("machine_translated"):
+                continue
+            _t = x.get("title", "") or ""
+            _body = x.get("content", "") or ""
+            if len(re.findall(r"[\u4e00-\u9fff]", _t + _body[:300])) >= 8:
+                continue  # 已是中文稿
+            if not (is_hardnews_url(x.get("url", "")) or x.get("route") == "institute"):
+                continue
+            _zh_t = gtx_translate(_t)
+            _zh_s = gtx_translate(re.sub(r"\s+", " ", _body)[:600])
+            _zh_c = gtx_translate(_body[:3500])
+            if _zh_t:
+                x["zh_title"] = _zh_t
+            if _zh_s:
+                x["summary"] = _zh_s
+            if _zh_c:
+                x["content"] = _zh_c + "\n\n【原文 English Original】\n" + _body
+                x["machine_translated"] = True
+                _tx_n += 1
+                print(f"  · [译中] {_zh_t[:42]}", flush=True)
+        except Exception:
+            continue
+    if _tx_n:
+        print(f"[intel] 英文硬新闻补译中文 {_tx_n} 篇", flush=True)
     lead_items = [x for x in feed if x.get("lead_tag")]  # 隐蔽线索不受 MAX_FEED 截断
     feed = feed[:MAX_FEED]
     have_ids = {x["id"] for x in feed}
