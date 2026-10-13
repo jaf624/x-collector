@@ -2821,9 +2821,9 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": null,
-  "kind": null,
-  "status": "need_jina",
+  "feed_url": "https://breakingdefense.com/feed/",
+  "kind": "rss",
+  "status": "active",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6887,5 +6887,97 @@
   "latest": null,
   "recent30": 0,
   "china_hits": 0
+ },
+ {
+  "host": "www.mining.com",
+  "base": "https://www.mining.com/",
+  "ref": "https://www.mining.com/",
+  "name": "Mining.com 全球矿业资讯",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://www.mining.com/feed/",
+  "kind": "rss",
+  "status": "active",
+  "latest": "2026-10-14",
+  "recent30": 0,
+  "china_hits": 4
+ },
+ {
+  "host": "oilprice.com",
+  "base": "https://oilprice.com/",
+  "ref": "https://oilprice.com/",
+  "name": "OilPrice 国际能源资讯",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://oilprice.com/rss/main",
+  "kind": "rss",
+  "status": "active",
+  "latest": "2026-10-14",
+  "recent30": 0,
+  "china_hits": 2
+ },
+ {
+  "host": "asia.nikkei.com",
+  "base": "https://asia.nikkei.com/",
+  "ref": "https://asia.nikkei.com/",
+  "name": "日经亚洲（Nikkei Asia）",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://asia.nikkei.com/rss/feed/nar",
+  "kind": "rss",
+  "status": "active",
+  "latest": "2026-10-14",
+  "recent30": 0,
+  "china_hits": 4
+ },
+ {
+  "host": "www.defensenews.com",
+  "base": "https://www.defensenews.com/",
+  "ref": "https://www.defensenews.com/",
+  "name": "Defense News 防务新闻",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "定期提供"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://www.defensenews.com/arc/outboundfeeds/rss/",
+  "kind": "rss",
+  "status": "active",
+  "latest": "2026-10-14",
+  "recent30": 0,
+  "china_hits": 1
  }
 ]
