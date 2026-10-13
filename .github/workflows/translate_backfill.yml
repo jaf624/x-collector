@@ -11,6 +11,9 @@ jobs:
         with:
           python-version: "3.11"
       - name: Backfill Chinese translation for English hard news
+        env:
+          INTEL_TX_TIER: "0"
+          INTEL_MAX_TRANSLATE: "6"
         run: python3 translate_backfill.py
       - name: Commit feed
         run: |

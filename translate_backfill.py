@@ -44,6 +44,7 @@ def prio_tier(x, t, body):
 
 def main():
     cap = int(os.environ.get("INTEL_MAX_TRANSLATE", "60"))
+    tier_max = int(os.environ.get("INTEL_TX_TIER", "2"))  # 只补优先级≤该层级的硬料（0=专业资源/能源/军事源）
     path = "data/intel_feed.json"
     feed = json.load(open(path, encoding="utf-8"))
 
@@ -63,10 +64,12 @@ def main():
         except Exception:
             return False
 
-    cand = [x for x in feed if eligible(x)]
+    cand = [x for x in feed if eligible(x)
+            and prio_tier(x, x.get("title", "") or "", x.get("content", "") or "") <= tier_max]
     cand.sort(key=lambda x: x.get("published", ""), reverse=True)   # 先按时间降序
     cand.sort(key=lambda x: prio_tier(x, x.get("title", "") or "", x.get("content", "") or ""))
     # 稳定排序：0级专业资源/能源/军事源最先，1级通讯社/官方/强词次之，各组内部保持时间降序
+    print("待补译候选(tier<=%d): %d 篇" % (tier_max, len(cand)), flush=True)
     n = 0
     for x in cand:
         if n >= cap:
