@@ -188,25 +188,27 @@ def main():
     os.makedirs(DATA, exist_ok=True)
     srcs = json.load(open(SRC, encoding="utf-8"))
     rel = re.compile(json.load(open(INTEL, encoding="utf-8")).get("relevance_re", "."), re.I)
-    results = [None] * len(srcs)
+    # 仅探测尚无 feed_url 的源（新源/历史 need_jina），已带 feed_url 的源保留现状，避免重复探测抖动
+    todo = [(i, s) for i, s in enumerate(srcs) if not s.get("feed_url")]
+    print("待探测(无feed_url):", len(todo), "/", len(srcs), flush=True)
+    results = {}
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
-        futs = {ex.submit(probe_one, s, rel): i for i, s in enumerate(srcs)}
+        futs = {ex.submit(probe_one, s, rel): i for i, s in todo}
         done = 0
         for fu in as_completed(futs):
             i = futs[fu]; results[i] = fu.result(); done += 1
             if done % 25 == 0:
-                print(f"  ...{done}/{len(srcs)}", flush=True)
-    by_host = {r["host"]: r for r in results}
-    for s in srcs:
-        r = by_host.get(s["host"])
+                print(f"  ...{done}/{len(todo)}", flush=True)
+    for i, s in enumerate(srcs):
+        r = results.get(i)
         if r:
             s.update({"feed_url": r["feed_url"], "kind": r["kind"], "status": r["status"],
                       "latest": r["latest"], "recent30": r["recent30"], "china_hits": r["china_hits"]})
-    json.dump(results, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(list(results.values()), open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(srcs, open(SRC, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     from collections import Counter
-    c = Counter(r["status"] for r in results)
-    print("探测源总数:", len(results))
+    c = Counter(r["status"] for r in results.values())
+    print("本次探测源数:", len(results))
     print("状态计数:", dict(c))
     print("INSTITUTE_PROBE_DONE")
 
