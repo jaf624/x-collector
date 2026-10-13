@@ -28,7 +28,7 @@ SRC = os.path.join(ROOT, "targets", "intel_sources.json")
 KEY = os.environ.get("JINA_KEY", "").strip()
 DAYS = int(os.environ.get("INTEL_DAYS", "3"))
 WATCH_DAYS = int(os.environ.get("INTEL_WATCH_DAYS", "7"))
-MAX_ART = int(os.environ.get("INTEL_MAX_ART", "40"))
+MAX_ART = int(os.environ.get("INTEL_MAX_ART", "60"))
 NUM = os.environ.get("INTEL_SEARCH_NUM", "3")
 MAX_FEED = int(os.environ.get("INTEL_MAX_FEED", "800"))
 MIN_BODY = int(os.environ.get("INTEL_MIN_BODY", "400"))
@@ -43,6 +43,23 @@ INST_MAX = int(os.environ.get("INTEL_INST_MAX", "120"))        # RSS 自带正�
 INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "20"))       # 摘要过短需 Jina 深抓的机构稿上限
 MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "20"))         # L类线索源每轮深抓上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
+# 硬新闻源（2026-10-14 扩源）：通讯社/官方公报/中文硬新闻——深读配额优先，确保新闻模式主粮来自可溯源硬新闻
+HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "30"))
+HARD_NEWS_DOMAINS = (
+    "zaobao.com.sg", "cn.nikkei.com", "cn.yna.co.kr", "chinese.kyodonews.net", "cna.com.tw",
+    "rfa.org", "abc.net.au", "rcinet.ca", "ftchinese.com", "cn.wsj.com", "chinese.aljazeera.net",
+    "storm.mg", "hk01.com", "stheadline.com", "mingpao.com", "cnnews.chosun.com",
+    "chinese.joins.com", "scmp.com", "worldjournal.com", "chinatimes.com", "udn.com",
+    "malaysiakini.com", "dw.com", "rfi.fr", "reuters.com", "apnews.com", "afp.com",
+    "bbc.com", "voachinese.com", "voanews.com", "theinitium.com", "cn.nytimes.com",
+    "thediplomat.com", "thewirechina.com", "asiatimes.com", "straitstimes.com",
+    "nhk.or.jp", "focustaiwan.tw", "en.yna.co.kr", "english.kyodonews.net", "bloomberg.com",
+    "ft.com", "wsj.com", "politico.com", "whitehouse.gov", "state.gov", "commerce.gov",
+    "defense.gov", "ustr.gov", "treasury.gov", "ec.europa.eu", "nato.int",
+    "meti.go.jp", "mofa.go.jp")
+def is_hardnews_url(u):
+    u = (u or "").lower()
+    return any(h in u for h in HARD_NEWS_DOMAINS)
 # 机构 RSS 按源订阅（非主题检索），在中国相关之外还必须命中"国家安全/地缘战略"主题，
 # 否则海外华文/综合媒体的民俗、体育、娱乐、生活、商业软新闻会因含"中国"二字混入。
 TOPIC_RE = (
@@ -691,9 +708,16 @@ def main():
     snip_cand = [c for c in cand if c["body_from"] == "snippet"]             # 线索快照：零 token，全保留
     feed_cand = [c for c in cand if c["body_from"] == "feed"][:INST_MAX]     # 机构 RSS 自带全文：零 token
     pinned_cand = [c for c in cand if c.get("via") == "pinned"]             # 用户指定：不限量、优先抓
-    deep_other = [c for c in cand if c["body_from"] == "full"
-                  and c["route"] != "institute" and c.get("via") != "pinned"
-                  and not c.get("lead")][:MAX_ART]
+    news_pool = [c for c in cand if c["body_from"] == "full"
+                 and c["route"] != "institute" and c.get("via") != "pinned"
+                 and not c.get("lead")]
+    # 硬新闻源按日期占固定深读配额，其余给原有新闻源；硬新闻不足则由其他源补足
+    hn_pool = [c for c in news_pool if is_hardnews_url(c.get("url"))]
+    other_pool = [c for c in news_pool if not is_hardnews_url(c.get("url"))]
+    deep_other = (hn_pool[:HARD_NEWS_QUOTA] + other_pool)[:MAX_ART]
+    if hn_pool:
+        print("[deepdive] 硬新闻优先：硬新闻候选%d 取%d，总深读上限%d（配额%d）" % (
+            len(hn_pool), min(len(hn_pool), HARD_NEWS_QUOTA), MAX_ART, HARD_NEWS_QUOTA), flush=True)
     lead_deep = [c for c in cand if c.get("lead") and c["body_from"] == "full"][:MAX_LEAD]
     deep_inst = [c for c in cand if c["body_from"] == "full"
                  and c["route"] == "institute" and not c.get("lead")][:INST_DEEP]
