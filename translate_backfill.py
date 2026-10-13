@@ -12,25 +12,63 @@ def cn(s):
     return len(re.findall(r"[\u4e00-\u9fff]", s or ""))
 
 
+# 专业资源/能源/军事/科技硬源（补译第一优先）
+PRIO_DOMAINS = ("mining.com", "oilprice.com", "usni.org", "defensenews.com", "breakingdefense.com",
+                "asia.nikkei.com", "nikkei.com", "bis.gov", "energy.gov", "defense.gov", "state.gov",
+                "treasury.gov", "commerce.gov", "ustr.gov", "pacom.mil", "iea.org", "usgs.gov",
+                "imf.org", "wto.org", "ec.europa.eu", "nato.int", "politico.com", "ft.com",
+                "bloomberg.com", "reuters.com", "apnews.com")
+# 资源/能源/军事/科技强信号词（命中即第一优先）
+PRIO_TOPIC = re.compile(
+    r"rare earth|critical mineral|critical material|lithium|cobalt|nickel|graphite|gallium|"
+    r"germanium|copper ore|\boil\b|\bgas\b|\blng\b|crude|pipeline|tanker|strait|chokepoint|seaborne|"
+    r"missile|deploy|warship|naval|fighter|submarine|destroyer|aircraft carrier|hypersonic|"
+    r"military exercise|export control|entity list|semiconductor|microchip|\bchip\b|tariff|"
+    r"sanction|decoupl|nuclear|first island|indo-pacific|arms sale|submarine cable|"
+    r"稀土|锂|钴|镍|石墨|镓|锗|铜矿|石油|天然气|原油|管道|海峡|航运|导弹|部署|军舰|战机|"
+    r"潜艇|航母|高超音速|军演|出口管制|实体清单|半导体|芯片|关税|制裁|核动力|第一岛链|军售|海底电缆",
+    re.I)
+
+
+def is_prio(x, t, body):
+    u = (x.get("url", "") or "").lower()
+    if any(h in u for h in PRIO_DOMAINS):
+        return True
+    return bool(PRIO_TOPIC.search(t + " " + body[:2000]))
+
+
 def main():
-    cap = int(os.environ.get("INTEL_MAX_TRANSLATE", "30"))
+    cap = int(os.environ.get("INTEL_MAX_TRANSLATE", "60"))
     path = "data/intel_feed.json"
     feed = json.load(open(path, encoding="utf-8"))
-    n = 0
-    for x in feed:
-        if n >= cap:
-            break
+
+    def eligible(x):
         try:
             if not x.get("usable") or x.get("machine_translated"):
-                continue
+                return False
             t = x.get("title", "") or ""
             body = x.get("content", "") or ""
             if cn(t + body[:300]) >= 8:
-                continue
+                return False
             if not (ic.is_hardnews_url(x.get("url", "")) or x.get("route") == "institute"):
-                continue
+                return False
             if ic.soft_news(t) or not ic.topic.search(t + " " + body[:2000]):
-                continue
+                return False
+            return True
+        except Exception:
+            return False
+
+    cand = [x for x in feed if eligible(x)]
+    cand.sort(key=lambda x: x.get("published", ""), reverse=True)   # 先按时间降序
+    cand.sort(key=lambda x: 0 if is_prio(x, x.get("title", "") or "", x.get("content", "") or "") else 1)
+    # 稳定排序：专业资源/能源/军事/科技硬料优先，各组内部保持时间降序
+    n = 0
+    for x in cand:
+        if n >= cap:
+            break
+        t = x.get("title", "") or ""
+        body = x.get("content", "") or ""
+        try:
             zt = ic.gtx_translate(t)
             zs = ic.gtx_translate(re.sub(r"\s+", " ", body)[:600])
             zc = ic.gtx_translate(body[:3500])
