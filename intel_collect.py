@@ -56,7 +56,11 @@ HARD_NEWS_DOMAINS = (
     "nhk.or.jp", "focustaiwan.tw", "en.yna.co.kr", "english.kyodonews.net", "bloomberg.com",
     "ft.com", "wsj.com", "politico.com", "whitehouse.gov", "state.gov", "commerce.gov",
     "defense.gov", "ustr.gov", "treasury.gov", "ec.europa.eu", "nato.int",
-    "meti.go.jp", "mofa.go.jp")
+    "meti.go.jp", "mofa.go.jp",
+    # 扩源·资源矿产/能源通道/多边/军事/日经英文专线（2026-10-14）
+    "asia.nikkei.com", "nikkei.com", "bis.gov", "energy.gov", "wto.org",
+    "usgs.gov", "mining.com", "oilprice.com", "iea.org", "usni.org",
+    "defensenews.com", "pacom.mil", "imf.org")
 def is_hardnews_url(u):
     u = (u or "").lower()
     return any(h in u for h in HARD_NEWS_DOMAINS)
@@ -541,6 +545,14 @@ def main():
         st, body, tok = reader(sec["url"])
         if st != 200:
             print(f"[section] {sec['name']} HTTP {st}", flush=True); continue
+        # 锚文本：Jina 渲染的 Markdown 形如 [标题](https://host/path)，取出用于按标题涉华预筛深读，
+        # 避免官方源固定配额被最新的非涉华文章占满。
+        _anchors = {}
+        for _m in re.finditer(r"\[([^\[\]]{6,200})\]\((https?://[^\s\)\]]+)\)", body):
+            _t = _m.group(1).strip()
+            _u = norm(sec["url"], _m.group(2).strip())
+            if _u and _u not in _anchors and not _t.startswith("http"):
+                _anchors[_u] = _t
         links = []
         for u in re.findall(sec["pat"], body):
             u = norm(sec["url"], u)
@@ -551,7 +563,7 @@ def main():
             d = pick_date(u)
             if d is None or fresh(d, DAYS):
                 add(u, sec["name"], sec.get("lang", "?"), sec["cat"], "section", "news", news_block,
-                    hint_date=d, lead=sec.get("lead"))
+                    hint_date=d, hint_title=_anchors.get(u, ""), lead=sec.get("lead"))
                 kept += 1
         print(f"[section] {sec['name']}: 链接{len(links)} 候选{kept} tokens={tok}", flush=True)
         time.sleep(0.5)
@@ -713,13 +725,21 @@ def main():
                  and not c.get("lead")]
     # 硬新闻源按日期占固定深读配额，其余给原有新闻源；硬新闻不足则由其他源补足。
     # 每个硬新闻源每轮限额，避免单一高产台媒（本地软新闻）占满配额，让30个名额覆盖约10个源。
-    hn_per = int(os.environ.get("INTEL_HARD_NEWS_PER_SRC", "3"))
+    hn_per = int(os.environ.get("INTEL_HARD_NEWS_PER_SRC", "5"))
     hn_pool = [c for c in news_pool if is_hardnews_url(c.get("url"))]
-    hn_limited, _hn_seen = [], {}
+    _title_cn = re.compile(TITLE_CHINA_RE, re.I)
+    # 按源分组：每源固定名额内，锚文本标题命中涉华的优先，再按日期补满，避免官方源首页最新几篇
+    # 非涉华稿占满配额、漏掉排在后面的涉华法案/政策。
+    _by_host = {}
     for c in hn_pool:           # news_pool 已按日期降序
-        h = host_of(c.get("url"))
-        if _hn_seen.get(h, 0) < hn_per:
-            hn_limited.append(c); _hn_seen[h] = _hn_seen.get(h, 0) + 1
+        _by_host.setdefault(host_of(c.get("url")), []).append(c)
+    hn_limited = []
+    for _h, _lst in _by_host.items():
+        # 稳定排序：同条件保持原日期降序，仅把涉华标题整体提前
+        _lst = sorted(_lst, key=lambda c: (0 if _title_cn.search(c.get("hint_title") or "") else 1,))
+        hn_limited.extend(_lst[:hn_per])
+    hn_limited.sort(key=lambda x: x["hint_date"] or datetime.date(2000, 1, 1), reverse=True)
+    _hn_seen = {_h: min(len(_lst), hn_per) for _h, _lst in _by_host.items()}
     other_pool = [c for c in news_pool if not is_hardnews_url(c.get("url"))]
     deep_other = (hn_limited[:HARD_NEWS_QUOTA] + other_pool)[:MAX_ART]
     if hn_pool:

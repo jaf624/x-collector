@@ -577,27 +577,6 @@
       "pat": "(?:https?://(?:www\\.)?nato\\.int)?(/cps/en/[A-Za-z0-9_/.-]+\\.htm)"
     },
     {
-      "name": "路透社商业能源",
-      "url": "https://www.reuters.com/business/energy/",
-      "lang": "en",
-      "cat": "资源能源",
-      "pat": "reuters\\.com/business/[^\\s\\)\\]]+\\d{4}-\\d{2}-\\d{2}"
-    },
-    {
-      "name": "路透社科技",
-      "url": "https://www.reuters.com/technology/",
-      "lang": "en",
-      "cat": "经贸科技",
-      "pat": "reuters\\.com/technology/[^\\s\\)\\]]+\\d{4}-\\d{2}-\\d{2}"
-    },
-    {
-      "name": "路透社市场大宗",
-      "url": "https://www.reuters.com/markets/commodities/",
-      "lang": "en",
-      "cat": "资源能源",
-      "pat": "reuters\\.com/markets/[^\\s\\)\\]]+\\d{4}-\\d{2}-\\d{2}"
-    },
-    {
       "name": "日经亚洲-中国",
       "url": "https://asia.nikkei.com/Spotlight/China",
       "lang": "en",
@@ -623,7 +602,7 @@
       "url": "https://www.bis.gov/newsroom",
       "lang": "en",
       "cat": "官方公报",
-      "pat": "bis\\.gov/[^\\s\\)\\]]*press-release[^\\s\\)\\]]*"
+      "pat": "bis\\.gov/(?:newsroom|press-release|news|articles)[^\\s\\)\\]]*"
     },
     {
       "name": "美国能源部-新闻",
@@ -648,10 +627,10 @@
     },
     {
       "name": "白宫-声明与简报",
-      "url": "https://www.whitehouse.gov/briefing-room/statements-releases/",
+      "url": "https://www.whitehouse.gov/briefing-room/statements-releases/feed/",
       "lang": "en",
       "cat": "官方公报",
-      "pat": "whitehouse\\.gov/briefing-room/(?:statements-releases|press-briefings|presidential-actions)/[0-9]{4}/[0-9]{2}/[^\\s\\)\\]]+"
+      "pat": "whitehouse\\.gov/briefing-room/statements-releases/[0-9]{4}/[0-9]{2}/[^\\s\\)\\]]+"
     },
     {
       "name": "WTO-新闻",
@@ -672,7 +651,7 @@
       "url": "https://www.meti.go.jp/english/press/index.html",
       "lang": "en",
       "cat": "官方公报",
-      "pat": "meti\\.go\\.jp/english/press/[^\\s\\)\\]]+\\.html"
+      "pat": "meti\\.go\\.jp/english/press/[0-9]{4}/[^\\s\\)\\]]+\\.html"
     },
     {
       "name": "USGS美国地质调查局-新闻",
@@ -690,7 +669,7 @@
     },
     {
       "name": "IEA国际能源署-新闻",
-      "url": "https://www.iea.org/news",
+      "url": "https://www.iea.org/news.rss",
       "lang": "en",
       "cat": "资源能源",
       "pat": "iea\\.org/news/[^\\s\\)\\]]+"
@@ -704,7 +683,7 @@
     },
     {
       "name": "USNI海军学会新闻",
-      "url": "https://news.usni.org/",
+      "url": "https://news.usni.org/feed",
       "lang": "en",
       "cat": "国防动态",
       "pat": "news\\.usni\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
@@ -721,11 +700,11 @@
       "url": "https://www.pacom.mil/news/",
       "lang": "en",
       "cat": "国防动态",
-      "pat": "pacom\\.mil/News/[^\\s\\)\\]]+"
+      "pat": "pacom\\.mil/Media/News/[^\\s\\)\\]]+"
     },
     {
       "name": "IMF国际货币基金组织-新闻",
-      "url": "https://www.imf.org/en/News/Articles",
+      "url": "https://www.imf.org/en/News/RSS",
       "lang": "en",
       "cat": "多边机制",
       "pat": "imf\\.org/en/News/Articles/[^\\s\\)\\]]+"
