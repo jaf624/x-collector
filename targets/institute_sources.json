@@ -887,12 +887,12 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 2,
-  "feed_url": null,
-  "kind": null,
-  "status": "need_jina",
-  "latest": null,
-  "recent30": 0,
-  "china_hits": 0
+  "feed_url": "https://lingbaxianzhang.blogspot.com/feeds/posts/default",
+  "kind": "html_link",
+  "status": "active",
+  "latest": "2026-10-13",
+  "recent30": 25,
+  "china_hits": 21
  },
  {
   "host": "theinitium.com",
@@ -1507,12 +1507,12 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": null,
-  "kind": null,
-  "status": "need_jina",
-  "latest": null,
-  "recent30": 0,
-  "china_hits": 0
+  "feed_url": "https://www.scmp.com/rss/feed",
+  "kind": "html_link",
+  "status": "active",
+  "latest": "2026-10-13",
+  "recent30": 50,
+  "china_hits": 37
  },
  {
   "host": "foreignpolicy.com",
@@ -3990,12 +3990,12 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 2,
-  "feed_url": null,
-  "kind": null,
-  "status": "need_jina",
-  "latest": null,
-  "recent30": 0,
-  "china_hits": 0
+  "feed_url": "https://news.usni.org/feed",
+  "kind": "html_link",
+  "status": "active",
+  "latest": "2026-10-12",
+  "recent30": 30,
+  "china_hits": 7
  },
  {
   "host": "opensocietyfoundations.org",
@@ -5706,12 +5706,12 @@
   "mode": "full",
   "region": "tw/hk",
   "bookmarks": 1,
-  "feed_url": null,
-  "kind": null,
-  "status": "need_jina",
-  "latest": null,
-  "recent30": 0,
-  "china_hits": 0
+  "feed_url": "https://clb.org.hk/en/feed.xml",
+  "kind": "html_link",
+  "status": "active",
+  "latest": "2026-10-13",
+  "recent30": 30,
+  "china_hits": 19
  },
  {
   "host": "chinainperspective.com",
@@ -5750,12 +5750,12 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": null,
-  "kind": null,
-  "status": "need_jina",
-  "latest": null,
-  "recent30": 0,
-  "china_hits": 0
+  "feed_url": "https://www.dialoguechina.com/feed/",
+  "kind": "html_link",
+  "status": "active",
+  "latest": "2026-10-12",
+  "recent30": 10,
+  "china_hits": 10
  },
  {
   "host": "chinadissent.net",
@@ -6193,7 +6193,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6216,7 +6216,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6239,7 +6239,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6262,7 +6262,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6285,7 +6285,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6308,7 +6308,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6329,10 +6329,10 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 0,
-  "feed_url": null,
-  "kind": null,
-  "status": "new",
-  "latest": null,
+  "feed_url": "https://www.rcinet.ca/feed",
+  "kind": "path",
+  "status": "stale",
+  "latest": "2025-12-25",
   "recent30": 0,
   "china_hits": 0
  },
@@ -6354,7 +6354,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6377,7 +6377,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6400,7 +6400,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6423,7 +6423,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6446,7 +6446,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6467,12 +6467,12 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 0,
-  "feed_url": null,
-  "kind": null,
-  "status": "new",
-  "latest": null,
-  "recent30": 0,
-  "china_hits": 0
+  "feed_url": "https://www.stheadline.com/rss",
+  "kind": "html_link",
+  "status": "active",
+  "latest": "2026-10-13",
+  "recent30": 80,
+  "china_hits": 34
  },
  {
   "host": "news.mingpao.com",
@@ -6492,7 +6492,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6515,7 +6515,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6538,7 +6538,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6559,12 +6559,12 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 0,
-  "feed_url": null,
-  "kind": null,
-  "status": "new",
-  "latest": null,
-  "recent30": 0,
-  "china_hits": 0
+  "feed_url": "https://www.scmp.com/rss/feed",
+  "kind": "html_link",
+  "status": "active",
+  "latest": "2026-10-13",
+  "recent30": 50,
+  "china_hits": 37
  },
  {
   "host": "www.worldjournal.com",
@@ -6584,7 +6584,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6607,7 +6607,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6628,12 +6628,12 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 0,
-  "feed_url": null,
-  "kind": null,
-  "status": "new",
-  "latest": null,
-  "recent30": 0,
-  "china_hits": 0
+  "feed_url": "https://udn.com/news/rssfeed",
+  "kind": "html_link",
+  "status": "active",
+  "latest": "2026-10-13",
+  "recent30": 80,
+  "china_hits": 10
  },
  {
   "host": "zh.malaysiakini.com",
@@ -6653,7 +6653,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6676,7 +6676,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6699,7 +6699,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6720,12 +6720,12 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 0,
-  "feed_url": null,
-  "kind": null,
-  "status": "new",
-  "latest": null,
-  "recent30": 0,
-  "china_hits": 0
+  "feed_url": "https://www.whitehouse.gov/news/rss",
+  "kind": "path",
+  "status": "active",
+  "latest": "2026-10-10",
+  "recent30": 30,
+  "china_hits": 1
  },
  {
   "host": "www.state.gov",
@@ -6743,9 +6743,9 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 0,
-  "feed_url": null,
-  "kind": null,
-  "status": "new",
+  "feed_url": "https://www.state.gov/feed/",
+  "kind": "html_link",
+  "status": "watch",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6768,7 +6768,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6791,7 +6791,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6814,7 +6814,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6837,7 +6837,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6860,7 +6860,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -6883,7 +6883,7 @@
   "bookmarks": 0,
   "feed_url": null,
   "kind": null,
-  "status": "new",
+  "status": "need_jina",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
