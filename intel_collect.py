@@ -392,6 +392,37 @@ def _tx_call(ch, dst, timeout=15):
     return ""
 
 
+def _mymemory(ch, dst="zh-CN", timeout=15):
+    """非 Google 兜底：MyMemory 免费翻译（限流策略与 Google 不同，规避 Actions 共享 IP 被 Google 429）。
+    单次建议 ≤480 字符，按句切块逐译后拼接。"""
+    tl = "zh-CN" if dst.startswith("zh") else dst
+    pieces, buf = [], ""
+    for sent in re.split(r"(?<=[.!?])\s+", ch):
+        if len(buf) + len(sent) <= 480:
+            buf += sent + " "
+        else:
+            if buf:
+                pieces.append(buf)
+            buf = sent[:480]
+    if buf:
+        pieces.append(buf)
+    out = []
+    for p in pieces[:6]:
+        try:
+            u = "https://api.mymemory.translated.net/get?langpair=en|%s&q=%s" % (tl, urllib.parse.quote(p))
+            req = urllib.request.Request(u, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+                d = json.loads(r.read().decode("utf-8", "ignore"))
+            if d.get("responseStatus") == 200:
+                s = (d.get("responseData", {}) or {}).get("translatedText", "")
+                if s and not s.upper().startswith("MYMEMORY WARNING"):
+                    out.append(s)
+        except Exception as e:
+            print("    [tx mm ERR %s]" % repr(e)[:40], flush=True)
+        time.sleep(0.3)
+    return "".join(out).strip()
+
+
 def gtx_translate(text, dst="zh-CN", timeout=15):
     """英文→中文分段翻译，返回中文译文；任一失败重试，整体失败返回空串，绝不阻断主流程。"""
     text = (text or "").strip()
@@ -420,9 +451,13 @@ def gtx_translate(text, dst="zh-CN", timeout=15):
     out = []
     for ch in chunks[:6]:
         seg = ""
-        for attempt in range(3):  # 双端点都失败则退避，最多3轮
+        for attempt in range(2):  # 先双 Google 端点；仍失败则 MyMemory 兜底
             seg = _tx_call(ch, dst, timeout)
             if seg:
+                break
+            seg = _mymemory(ch, dst, timeout)
+            if seg:
+                print("    [tx MyMemory 兜底成功]", flush=True)
                 break
             time.sleep(1.5 * (attempt + 1))
         if seg:
