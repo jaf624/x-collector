@@ -1,6 +1,9 @@
 name: translate-backfill
 on:
   workflow_dispatch: {}
+  schedule:
+    # 每2小时自动补译 tier0 英文硬新闻（矿业/能源/军事/官方），与主采集(每30分钟)形成双保险
+    - cron: "7 */2 * * *"
 jobs:
   backfill:
     runs-on: ubuntu-latest
