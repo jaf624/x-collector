@@ -348,13 +348,19 @@ GTX_ENDPOINTS = [
 def _tx_parse(kind, data):
     try:
         if kind == "chrome":
-            # /t + dict-chrome-ex 返回 [{"translatedText": "...", "detectedSourceLanguage": "en"}]
+            # /t + dict-chrome-ex 不同版本返回：
+            #   [{"translatedText": "译文", "detectedSourceLanguage": "en"}]
+            #   [["译文", "en"]]  或 ["译文", "en"]
             if isinstance(data, list) and data:
                 row = data[0]
                 if isinstance(row, dict):
                     return row.get("translatedText", "") or ""
+                if isinstance(row, list) and row:
+                    return str(row[0]) if row[0] else ""
                 if isinstance(row, str):
                     return row
+            if isinstance(data, dict):
+                return data.get("translatedText", "") or ""
         else:
             # /single + gtx 返回 [[["译文", "原文", ...], ...], ...]
             return "".join(s[0] for s in (data[0] or []) if s and s[0])
@@ -375,6 +381,8 @@ def _tx_call(ch, dst, timeout=15):
             seg = _tx_parse(kind, data)
             if seg:
                 return seg
+            if kind == "chrome":
+                print("    [tx chrome EMPTY raw=%s]" % (json.dumps(data, ensure_ascii=False)[:160]), flush=True)
         except urllib.error.HTTPError as e:
             print("    [tx %s HTTP %s]" % (kind, e.code), flush=True)
             continue
