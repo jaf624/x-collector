@@ -90,7 +90,10 @@ def main():
                 x["machine_translated"] = True
                 n += 1
                 print("  · [译中] " + zt[:42], flush=True)
-        except Exception:
+        except Exception as e:
+            import traceback
+            print("    [ITEM ERR] %s | %s" % (t[:30], repr(e)[:90]), flush=True)
+            traceback.print_exc()
             continue
     json.dump(feed, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # 按 intel_collect 口径重建 brief（usable 子集，按质量分与发布时间降序）
