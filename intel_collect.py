@@ -440,7 +440,7 @@ def gtx_translate(text, dst="zh-CN", timeout=15):
             else:
                 buf = ""
                 for st in re.split(r"(?<=[.!?。！？])\s+", para):
-                    if len(buf) + st and len(buf) + len(st) <= 1500:
+                    if len(buf) + len(st) <= 1500:
                         buf += st + " "
                     else:
                         if buf:
