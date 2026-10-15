@@ -1,619 +1,170 @@
 {
- "probed_at": "2026-10-15T06:47:05.035381Z",
- "results": [
-  {
-   "name": "GNEWS-路透",
-   "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+ "diag_at": "2026-10-15T06:53:12.779178Z",
+ "results": {
+  "路透": {
+   "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "is_feed": true,
-   "sample": "China, North Korea open long-delayed border bridge to boost trade - Reuters",
-   "diag": [
+   "samples": [
     {
-     "title": "China, North Korea open long-delayed border bridge to boost ",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHV",
-     "resolved": false
+     "title": "China, North Korea open long-delayed border bridge",
+     "date": "Thu, 15 Oct 2026 02:43:00",
+     "chain": [],
+     "final": "",
+     "external": [],
+     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "pb": {
+      "raw_head": "081322c20141555f79714c4f586950716c5f4145426c6547734b5a4f77525f51",
+      "urls": [],
+      "err": ""
+     }
     },
     {
-     "title": "EXCLUSIVE: SK Hynix conditions new US factory on more US chi",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZExZLWRBZUo2NlJPa",
-     "real": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZExZLWRBZUo2NlJPaFhzSWxERFdkcGl1bklYW",
-     "resolved": false
-    },
-    {
-     "title": "China's top prosecutor arrests former Chengdu mayor suspecte",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVZoREFlcnctR053b",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVZoREFlcnctR053bmRhcDF1aUMteUQ4TzJsS",
-     "resolved": false
-    },
-    {
-     "title": "Russia's Lavrov, China's Wang discuss cooperation, Ukraine, ",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWd0VGluQkdsUm1GU",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWd0VGluQkdsUm1GUWdkQlFINnM3NzFGUEpBS",
-     "resolved": false
-    },
-    {
-     "title": "Chinese fossil of bird with undersized wings scrambles avian",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcFFpcy1qWlNxOC1BN",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcFFpcy1qWlNxOC1BNHJzcDM1WXlGWnZVZEs2N",
-     "resolved": false
+     "title": "China's top prosecutor arrests former Chengdu mayo",
+     "date": "Thu, 15 Oct 2026 02:24:00",
+     "chain": [],
+     "final": "",
+     "external": [],
+     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "pb": {
+      "raw_head": "081322b70141555f79714c4d45566844416572772d474e776e64617031756943",
+      "urls": [],
+      "err": ""
+     }
     }
    ]
   },
-  {
-   "name": "GNEWS-AP",
-   "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "AP": {
+   "feed": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "is_feed": true,
-   "sample": "New China-North Korea bridge opens after more than a decade of delay - AP News",
-   "diag": [
+   "samples": [
     {
-     "title": "New China-North Korea bridge opens after more than a decade ",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUtlWHBELVJzd1Y5W",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUtlWHBELVJzd1Y5WEhSNmVzZXJvR1FPdV9RN",
-     "resolved": false
+     "title": "New China-North Korea bridge opens after more than",
+     "date": "Thu, 15 Oct 2026 03:43:00",
+     "chain": [],
+     "final": "",
+     "external": [],
+     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "pb": {
+      "raw_head": "081322940141555f79714c50754b655870442d52737756395848523665736572",
+      "urls": [],
+      "err": ""
+     }
     },
     {
-     "title": "China opens a joint airfield in Laos with construction ongoi",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXY",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXYWgwSmdpRkxzODZ5S0twS",
-     "resolved": false
-    },
-    {
-     "title": "The not-so-secret vulnerability in Ukraine’s drone arsenal? ",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcnBFa2xFNV9LNGhGa",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcnBFa2xFNV9LNGhGaktzRUVpVVAzb2plSGxnN",
-     "resolved": false
-    },
-    {
-     "title": "A new bridge linking China and North Korea will open more th",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUUlaZzV2M2tMalVHS",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUUlaZzV2M2tMalVHS3pIWmtjMUV6UDdRQk91c",
-     "resolved": false
-    },
-    {
-     "title": "Yemen’s Houthis look to build ballistic missiles with more C",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONGx4dWpRWGtTR05JX",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONGx4dWpRWGtTR05JX0pTTVZlZ19ZVllXdnhhS",
-     "resolved": false
+     "title": "China opens a joint airfield in Laos with construc",
+     "date": "Thu, 15 Oct 2026 04:20:21",
+     "chain": [],
+     "final": "",
+     "external": [],
+     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "pb": {
+      "raw_head": "081322a60141555f79714c4d2d4557724a6b4f48326863576168304a6769464c",
+      "urls": [],
+      "err": ""
+     }
     }
    ]
   },
-  {
-   "name": "GNEWS-AFP",
-   "url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "彭博": {
+   "feed": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "is_feed": true,
-   "sample": "Business - Paris Motor Show kicks off as China-EU rivalry heats up - France 24",
-   "diag": [
+   "samples": [
     {
-     "title": "Business - Paris Motor Show kicks off as China-EU rivalry he",
-     "date": "2026-10-12",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZWFFNVhfUzBTVXpEY",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZWFFNVhfUzBTVXpEY0dNdnM2VWVHTkd1R25CZ",
-     "resolved": false
+     "title": "China’s Backdoor Bond-Buying Talk Swirls on $600 B",
+     "date": "Wed, 14 Oct 2026 23:00:00",
+     "chain": [],
+     "final": "",
+     "external": [],
+     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "pb": {
+      "raw_head": "081322b40141555f79714c505746325758696657656e7565594f584764452d4f",
+      "urls": [],
+      "err": ""
+     }
     },
     {
-     "title": "Riyadh airport to remain closed after deadly Houthi attacks ",
-     "date": "2026-10-12",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNHVLbTF3SGZYTmFDM",
-     "real": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNHVLbTF3SGZYTmFDMXlkWENBY1ppVTA5djctY",
-     "resolved": false
-    },
-    {
-     "title": "Cyberattack hits hundreds of French supermarkets, spoiling m",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMUdKRi1nSGVqTlpGM",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMUdKRi1nSGVqTlpGMEpxMXkzYzdkVkNWVi15e",
-     "resolved": false
-    },
-    {
-     "title": "'A lot of Ukrainians are feeling extremely betrayed' by Trum",
-     "date": "2026-10-12",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaU12aHdZQ0xGTUpsb",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaU12aHdZQ0xGTUpsbXlDVHVicTY4Z3EtS0lNU",
-     "resolved": false
-    },
-    {
-     "title": "US government behind any slowdown in Ukraine's Starshield sy",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSGRTY2Q0WEFuSmpzV",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSGRTY2Q0WEFuSmpzVnNWZ1dkVkxjWTJWY1Awa",
-     "resolved": false
+     "title": "Apple Prepares to Debut First AI Features in China",
+     "date": "Wed, 14 Oct 2026 19:50:37",
+     "chain": [],
+     "final": "",
+     "external": [],
+     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "pb": {
+      "raw_head": "081322b30141555f79714c4d4f397a4c44745562437155734e6e767a56677363",
+      "urls": [],
+      "err": ""
+     }
     }
    ]
   },
-  {
-   "name": "GNEWS-彭博",
-   "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "日经": {
+   "feed": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "is_feed": true,
-   "sample": "China’s Backdoor Bond-Buying Talk Swirls on $600 Billion Buildup - Bloomberg.com",
-   "diag": [
+   "samples": [
     {
-     "title": "China’s Backdoor Bond-Buying Talk Swirls on $600 Billion Bui",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0YyV1hpZldlbnVlW",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0YyV1hpZldlbnVlWU9YR2RFLU9pSW9xcUpsR",
-     "resolved": false
+     "title": "Memory breakthrough by China's CXMT puts chip riva",
+     "date": "Wed, 14 Oct 2026 08:32:00",
+     "chain": [],
+     "final": "",
+     "external": [],
+     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "pb": {
+      "raw_head": "081322ba0141555f79714c4e7872425571307a5452654a59646f75546e416c7a",
+      "urls": [],
+      "err": ""
+     }
     },
     {
-     "title": "Apple Prepares to Debut First AI Features in China in Decemb",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzl6TER0VWJDcVVzT",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzl6TER0VWJDcVVzTm52elZnc2NHWDNhd09wS",
-     "resolved": false
-    },
-    {
-     "title": "China, North Korea Open Long-Stalled Bridge, Boosting Trade ",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1VWd1RiZnhRdmJxM",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1VWd1RiZnhRdmJxMmgzVkdjdmlxTjJGMklmS",
-     "resolved": false
-    },
-    {
-     "title": "Researchers Find ‘Chinese Fleet’ of Rogue AI Probing Alibaba",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSm9QbHpSSDdXWElfN",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSm9QbHpSSDdXWElfNm5UVjhPeE9Wdk5uTzlqT",
-     "resolved": false
-    },
-    {
-     "title": "EU to Lift Sanction on Chinese Firm to Save an ASML Supplier",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM2lUQllVYjVsZFEtV",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM2lUQllVYjVsZFEtVnBjdHNGYXZxUzhwOTVtN",
-     "resolved": false
+     "title": "Analysis: How long will China's top military body ",
+     "date": "Wed, 14 Oct 2026 19:00:00",
+     "chain": [],
+     "final": "",
+     "external": [],
+     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "pb": {
+      "raw_head": "081322bf0141555f79714c4f4f424857694369565253307371386a2d43775847",
+      "urls": [],
+      "err": ""
+     }
     }
    ]
   },
-  {
-   "name": "GNEWS-日经",
-   "url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "WSJ": {
+   "feed": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "is_feed": true,
-   "sample": "Memory breakthrough by China's CXMT puts chip rivals on back foot - Nikkei Asia",
-   "diag": [
+   "samples": [
     {
-     "title": "Memory breakthrough by China's CXMT puts chip rivals on back",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHJCVXEwelRSZUpZZ",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHJCVXEwelRSZUpZZG91VG5BbHo3VUJKOUQyN",
-     "resolved": false
+     "title": "With China Facing More Trade Barriers, It Can’t Af",
+     "date": "Wed, 14 Oct 2026 18:39:00",
+     "chain": [],
+     "final": "",
+     "external": [],
+     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "pb": {
+      "raw_head": "081322af0141555f79714c4f4d44333450585f58417061583433442d4a696334",
+      "urls": [],
+      "err": ""
+     }
     },
     {
-     "title": "Analysis: How long will China's top military body remain hol",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT0JIV2lDaVZSUzBzc",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT0JIV2lDaVZSUzBzcThqLUN3WEdvYUcyQW9fd",
-     "resolved": false
-    },
-    {
-     "title": "Chinese 'king' of African phone market Transsion sinks in Ho",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNVgwdnBLZU43MGdJV",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNVgwdnBLZU43MGdJV3pGZTZrUUtDYkYyNEtlS",
-     "resolved": false
-    },
-    {
-     "title": "Taiwanese, Korean firms eye Japan grid storage market with C",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTHRPcFpWVmFtak94a",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTHRPcFpWVmFtak94ajlMdVo3Z0ZzazhYUXh6e",
-     "resolved": false
-    },
-    {
-     "title": "China's export engine hits fastest pace since February with ",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU1J0UkFWSlZMckhqY",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU1J0UkFWSlZMckhqYktfZTR5bGJYNWdMNmhZW",
-     "resolved": false
+     "title": "Exclusive | The Houthis Are Building an Advanced M",
+     "date": "Wed, 14 Oct 2026 02:00:00",
+     "chain": [],
+     "final": "",
+     "external": [],
+     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "pb": {
+      "raw_head": "0813227e41555f79714c4d484e4a42484a78355732357a6e4b4170634f36774f",
+      "urls": [],
+      "err": ""
+     }
     }
    ]
-  },
-  {
-   "name": "GNEWS-金融时报",
-   "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "EU carmakers bet on nostalgia to fight Chinese EVs - Financial Times",
-   "diag": [
-    {
-     "title": "EU carmakers bet on nostalgia to fight Chinese EVs - Financi",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTjFpQTB0RVVEOHZNR",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTjFpQTB0RVVEOHZNRzQ4M1RlRVQzeF9kQkRIW",
-     "resolved": false
-    },
-    {
-     "title": "China’s exports surge 36% as AI-related shipments boom - Fin",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOWpDeS1pemlqZUgzS",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOWpDeS1pemlqZUgzS0sxbDd0TVQzTklQR082S",
-     "resolved": false
-    },
-    {
-     "title": "West in nuclear fusion race with China, says UK atomic energ",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNazc0NlZsWGR2SGdWN",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNazc0NlZsWGR2SGdWNnVId1VHQm1jSUFPY1A4V",
-     "resolved": false
-    },
-    {
-     "title": "China faces uphill battle to wean tech firms off Nvidia chip",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwO",
-     "resolved": false
-    },
-    {
-     "title": "How not to revive Europe’s auto industry - Financial Times",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY2lwQks1M01aT2RPL",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY2lwQks1M01aT2RPLVpraGp1MXp4Vzc0T3p0R",
-     "resolved": false
-    }
-   ]
-  },
-  {
-   "name": "GNEWS-华尔街日报",
-   "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "With China Facing More Trade Barriers, It Can’t Afford to Lose Europe - WSJ",
-   "diag": [
-    {
-     "title": "With China Facing More Trade Barriers, It Can’t Afford to Lo",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYN",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYNDNELUppYzROV3VxSjE5Z",
-     "resolved": false
-    },
-    {
-     "title": "Exclusive | The Houthis Are Building an Advanced Missile Wit",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS",
-     "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS0FwY082d09qTWxQTk9ma",
-     "resolved": false
-    },
-    {
-     "title": "U.S. Defense Startups Flock to Taiwan to Build China-Free Dr",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT01pSUVlZHhld1lOT",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT01pSUVlZHhld1lOT1NycWcxc29fQ256NzdXR",
-     "resolved": false
-    },
-    {
-     "title": "A Demographic Mirage May Be Distorting China’s Economic Ambi",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORHluVUJEZHlrOGkxQ",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORHluVUJEZHlrOGkxQWZObFctX3VCTlkwUC1FN",
-     "resolved": false
-    },
-    {
-     "title": "China’s Weakening Economy Is Creating a Lost Generation - WS",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5R2p1V0RoRTdaVVBmd",
-     "real": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5R2p1V0RoRTdaVVBmd0tkM2Uxd0RqdFFYODNXc",
-     "resolved": false
-    }
-   ]
-  },
-  {
-   "name": "GNEWS-纽约时报",
-   "url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "North Korea and China Open Their Biggest Border Bridge - The New York Times",
-   "diag": [
-    {
-     "title": "North Korea and China Open Their Biggest Border Bridge - The",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTExDZ1NhbnZ4WTZpb",
-     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTExDZ1NhbnZ4WTZpbTNCaTlxclE1dzI3RWFkb",
-     "resolved": false
-    },
-    {
-     "title": "Rogue A.I. Agents from China Chatted with Researchers - The ",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRTFlzR2JGNXFsR19pa",
-     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRTFlzR2JGNXFsR19paHdHeHZqbnhKU1VuUVdDb",
-     "resolved": false
-    },
-    {
-     "title": "China’s Exports Soar, Putting Its Trade Surplus on Track for",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOamoyNjV5UDBSSC15U",
-     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOamoyNjV5UDBSSC15UTVfbGh1eG02cHgzRVJxR",
-     "resolved": false
-    },
-    {
-     "title": "Where Every Tree Hides ‘an Enemy’: How I Watched China’s Par",
-     "date": "2026-10-11",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWkhxdDgxNWgwc2szQ",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWkhxdDgxNWgwc2szQmJkc1k5Y291X3F4cHc3R",
-     "resolved": false
-    },
-    {
-     "title": "Katie Zacharia Is Trump’s New Press Secretary. But Is She a ",
-     "date": "2026-10-15",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaXluQk9jTUgwZ2lWV",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaXluQk9jTUgwZ2lWV3drUGxVcEd1aEtrSnRsa",
-     "resolved": false
-    }
-   ]
-  },
-  {
-   "name": "GNEWS-经济学人",
-   "url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Another warning sign for China’s economy: falling consumer credit - The Economist",
-   "diag": [
-    {
-     "title": "Another warning sign for China’s economy: falling consumer c",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUE5jYnlYVXJIa3doW",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUE5jYnlYVXJIa3doWUdobUxGWmpOMkpVZW1DW",
-     "resolved": false
-    },
-    {
-     "title": "China is turning trash into treasure on a vast scale - The E",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcC1BTVhIMlE5ODQ2V",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcC1BTVhIMlE5ODQ2VEktY3MybFh1Yk51NDN5Y",
-     "resolved": false
-    },
-    {
-     "title": "China’s rising political stars - The Economist",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3NmTm9mOVIzVW9Nc",
-     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3NmTm9mOVIzVW9NcHFYamo0LXBYdVZKNG9Ha",
-     "resolved": false
-    },
-    {
-     "title": "Chinese taxpayers now owe more. Is more owed to them? - The ",
-     "date": "2026-10-12",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYlFvUTQ1Mjk2MnNyT",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYlFvUTQ1Mjk2MnNyTGJzcDhhcFMxV016Rl8wd",
-     "resolved": false
-    },
-    {
-     "title": "World in Brief: Starlink limits service in Ukraine; skuldugg",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd3RPeldEQ3M5Z2YtZ",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd3RPeldEQ3M5Z2YtZUlBZzlGUGV0TXN3YmlkN",
-     "resolved": false
-    }
-   ]
-  },
-  {
-   "name": "GNEWS-路透-China",
-   "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "China September rare earth exports rise 6.7% from a year earlier - Reuters",
-   "diag": [
-    {
-     "title": "China September rare earth exports rise 6.7% from a year ear",
-     "date": "2026-10-14",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
-     "resolved": false
-    },
-    {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE China Rare Earth Group in talks to buy MP Material",
-     "date": "2026-09-21",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTkdhN0lPRzNSeXM5d",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTkdhN0lPRzNSeXM5dTFpNnJCX3NIam42ZHlIM",
-     "resolved": false
-    },
-    {
-     "title": "Aerospace suppliers test rare-earth alternatives to ease rel",
-     "date": "2026-09-21",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdmtCaDgySDB0TTRLU",
-     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdmtCaDgySDB0TTRLU2tuRzhJT3VZZEEtZVFkU",
-     "resolved": false
-    },
-    {
-     "title": "US Treasury's Bessent to discuss AI, rare earths with China'",
-     "date": "2026-09-18",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaXgxcUNDSEx5a2Vva",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaXgxcUNDSEx5a2VvaTV1MTNfVXZsOTBWaGZle",
-     "resolved": false
-    }
-   ]
-  },
-  {
-   "name": "AP直接feed",
-   "url": "https://apnews.com/feed",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "共同社英文",
-   "url": "https://english.kyodonews.net/rss/news.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "共同社中文",
-   "url": "https://chinese.kyodonews.net/rss/all.xml",
-   "status": -1,
-   "items": 0,
-   "is_feed": false,
-   "err": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "name": "日经中文",
-   "url": "https://cn.nikkei.com/rss/rss.xml",
-   "status": 202,
-   "items": 0,
-   "is_feed": false,
-   "sample": ""
-  },
-  {
-   "name": "BBC中文",
-   "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
-   "status": 200,
-   "items": 38,
-   "is_feed": true,
-   "sample": "<![CDATA[中國和印度不算老友，尼泊爾想團結他們應對氣候威脅]]>"
-  },
-  {
-   "name": "美国国务院",
-   "url": "https://www.state.gov/feed/",
-   "status": 200,
-   "items": 0,
-   "is_feed": false,
-   "sample": ""
-  },
-  {
-   "name": "美国国防部",
-   "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
-   "status": 200,
-   "items": 20,
-   "is_feed": true,
-   "sample": "Hegseth: Autonomous Warfare Command Has Always Been End State"
-  },
-  {
-   "name": "商务部新闻",
-   "url": "https://www.commerce.gov/news/press-releases/rss.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "USTR新闻",
-   "url": "https://ustr.gov/feeds/press-releases.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "能源部FE",
-   "url": "https://www.energy.gov/fe/newsroom/rss.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "NATO",
-   "url": "https://www.nato.int/webservices/rss/news.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "欧盟presscorner",
-   "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
-   "status": 406,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "日本外务省",
-   "url": "https://www.mofa.go.jp/rss/english.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "日本经产省",
-   "url": "https://www.meti.go.jp/rss/whatsnew_e.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "USNI",
-   "url": "https://news.usni.org/feed",
-   "status": 200,
-   "items": 30,
-   "is_feed": true,
-   "sample": "VIDEO: F-35C Lands on New Navy Aircraft Carrier Class for First Time"
-  },
-  {
-   "name": "DefenseNews",
-   "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-   "status": 200,
-   "items": 25,
-   "is_feed": true,
-   "sample": "<![CDATA[France mulls keeping Charles de Gaulle carrier sailing after 2038]]>"
-  },
-  {
-   "name": "Mining",
-   "url": "https://www.mining.com/feed/",
-   "status": 200,
-   "items": 36,
-   "is_feed": true,
-   "sample": "Tenaris produces new steel grade for Canadian energy operators "
-  },
-  {
-   "name": "OilPrice",
-   "url": "https://oilprice.com/rss/main",
-   "status": 200,
-   "items": 15,
-   "is_feed": true,
-   "sample": "Oil Prices Fall as Trump Considers Easing Sanctions on Shadow Fleet Tankers"
-  },
-  {
-   "name": "IMF",
-   "url": "https://www.imf.org/en/News/RSS?language=eng",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "USGS",
-   "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 504,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "IEA",
-   "url": "https://www.iea.org/news.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "WTO",
-   "url": "https://www.wto.org/library/rss/latestnews_e.xml",
-   "status": 200,
-   "items": 0,
-   "is_feed": false,
-   "sample": ""
   }
- ]
+ }
 }
