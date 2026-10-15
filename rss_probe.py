@@ -22,11 +22,14 @@ def follow_chain(link):
             chain.append(newurl)
             return urllib.request.HTTPRedirectHandler.redirect_request(self,req,fp,code,msg,hdrs,newurl)
     try:
-        op=urllib.request.build_opener(H)
-        r=op.open(urllib.request.Request(link,headers={"User-Agent":UA,"Accept-Language":"en-US,en;q=0.9"}),timeout=15,context=CTX)
+        op=urllib.request.build_opener(urllib.request.HTTPSHandler(context=CTX),H)
+        r=op.open(urllib.request.Request(link,headers={"User-Agent":UA,"Accept-Language":"en-US,en;q=0.9","Accept":"text/html,application/xhtml+xml"}),timeout=15)
         final=r.geturl(); body=r.read(80000).decode("utf-8","ignore"); r.close()
         urls=re.findall(r'https?://[A-Za-z0-9./_\-?=&%#:;]+',body)
         external=[x for x in urls if not any(k in dom(x) for k in ("google","gstatic","googleapis"))][:3]
+        # canonical/og:url 标签
+        cm=re.search(r'<link[^>]+rel="canonical"[^>]+href="([^"]+)"',body) or re.search(r'<meta[^>]+property="og:url"[^>]+content="([^"]+)"',body)
+        if cm: external.insert(0,"CANON:"+cm.group(1))
     except Exception as e:
         err=repr(e)[:100]
     return chain[:5],final[:120],external,err
@@ -36,13 +39,19 @@ def pb_decode(link):
         aid=link.split("articles/")[1].split("?")[0]
         raw=base64.urlsafe_b64decode(aid+"="*(-len(aid)%4))
         out["raw_head"]=raw[:32].hex()
-        # 在解码字节里找可打印 URL
-        hits=re.findall(rb'[A-Za-z0-9+/=]{24,}',raw)
-        for h in hits:
+        # 直接找明文 URL
+        for u in re.findall(rb'https?://[\x20-\x7e]{8,}',raw):
+            out["urls"].append("PLAIN:"+u.decode("latin1","ignore")[:110])
+        # field4 是 ASCII base64 串（AU_...），提取并尝试再解一层
+        asc=re.findall(rb'[A-Za-z0-9_\-]{20,}',raw)
+        out["ascii_seg"]=[a.decode("latin1","ignore")[:40] for a in asc][:2]
+        for h in asc:
+            hh=h.replace(b"_",b"/")
             try:
-                inner=base64.urlsafe_b64decode(h+b"="*(-len(h)%4))
+                inner=base64.urlsafe_b64decode(hh+b"="*(-len(hh)%4))
                 for u in re.findall(rb'https?://[\x20-\x7e]{8,}',inner):
-                    out["urls"].append(u.decode("latin1","ignore")[:120])
+                    out["urls"].append("L2:"+u.decode("latin1","ignore")[:110])
+                out["l2_head"]=inner[:24].hex()
             except Exception: pass
         out["urls"]=out["urls"][:3]
     except Exception as e:
