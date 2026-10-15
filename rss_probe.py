@@ -1,79 +1,64 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""探测候选 RSS feed（GitHub Actions 美国节点直连，零 Jina）：报告 HTTP/条目数/最新日期/
-涉华+国安主题命中数，挑出可直接加入 institute_sources.json 的源。workflow_dispatch 触发。"""
-import re
-import intel_collect as ic
-
-TITLE_CN = re.compile(ic.TITLE_CHINA_RE, re.I)
-TOPIC = re.compile(ic.TOPIC_RE, re.I)
-
-CAND = [
-    # —— 资源矿产 / 金属 / 矿业 ——
-    ("Mining.com矿业", "media", "https://www.mining.com/feed/"),
-    ("Kitco金属矿业", "media", "https://www.kitco.com/rss/KitcoNews.xml"),
-    ("USGS新闻发布", "gov", "https://www.usgs.gov/news.xml"),
-    # —— 能源 / 油气 / 航运 ——
-    ("OilPrice能源资讯", "media", "https://oilprice.com/rss/main"),
-    ("EIA能源信息署", "gov", "https://www.eia.gov/rss/todayinenergy.xml"),
-    # —— 军事 / 国防 ——
-    ("USNI海军学会", "media", "https://news.usni.org/feed"),
-    ("Defense News", "media", "https://www.defensenews.com/arc/outboundfeeds/rss/"),
-    ("Breaking Defense", "media", "https://breakingdefense.com/feed/"),
-    ("The War Zone", "media", "https://www.twz.com/feeds/articles/all/index.xml"),
-    ("Stars and Stripes", "media", "https://www.stripes.com/rss.xml"),
-    ("美国防部新闻", "gov", "https://www.defense.gov/desktopmodules/ArticleCS/RSS.ashx?Site=941&max=30"),
-    ("印太司令部", "gov", "https://www.pacom.mil/DesktopModules/ArticleCS/RSS.ashx?Site=1122&max=30"),
-    # —— 美国官方 ——
-    ("USTR贸易代表", "gov", "https://ustr.gov/feeds/news/rss.xml"),
-    ("财政部新闻稿", "gov", "https://home.treasury.gov/news/press-releases/rss.xml"),
-    ("能源部新闻", "gov", "https://www.energy.gov/feeds/latest-news.xml"),
-    ("国务院新闻", "gov", "https://www.state.gov/feed/"),
-    ("BIS工业安全局", "gov", "https://www.bis.gov/rss.xml"),
-    ("白宫", "gov", "https://www.whitehouse.gov/feed/"),
-    ("商务部新闻", "gov", "https://www.commerce.gov/news/rss.xml"),
-    # —— 多边 / 盟友 ——
-    ("WTO新闻", "gov", "https://www.wto.org/library/rss/latest_news_e.xml"),
-    ("IMF新闻", "gov", "https://www.imf.org/external/rss/feed_rss.aspx"),
-    ("IEA新闻", "gov", "https://www.iea.org/news/feed"),
-    ("北约新闻", "gov", "https://www.nato.int/structur/rss/nato-en.xml"),
-    ("欧盟贸易总署", "gov", "https://policy.trade.ec.europa.eu/news_en.rss"),
-    ("日本经产省METI", "gov", "https://www.meti.go.jp/english/rss/index.rss"),
-    # —— 亚太/英文媒体 ——
-    ("日经亚洲", "media", "https://asia.nikkei.com/rss/feed/nar"),
-    ("日经亚洲政治", "media", "https://asia.nikkei.com/rss/feed/politics"),
-    ("南华早报", "media", "https://www.scmp.com/rss/91/feed"),
-    ("外交学者", "media", "https://thediplomat.com/feed/"),
-    ("亚洲时报", "media", "https://asiatimes.com/feed/"),
-]
-
-usable = []
-for name, cat, url in CAND:
-    st, body = ic.feed_get(url, timeout=20)
-    if st != 200 or not body or body.startswith("EXC"):
-        print(f"[FAIL] {name:14s} HTTP {st} {url}")
-        continue
+"""权威源 RSS 通道探活（GitHub Actions 海外节点跑），结果写 data/rss_probe.json。
+只记录真实可达状态与条目数，不编造 feed_url。"""
+import urllib.request, ssl, json, datetime, re, urllib.parse
+CTX = ssl.create_default_context(); CTX.check_hostname=False; CTX.verify_mode=ssl.CERT_NONE
+UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+def gnews(site, kw="china OR chinese"):
+    q=urllib.parse.quote("site:%s (%s)" % (site, kw))
+    return "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en" % q
+CANDS={
+ "GNEWS-路透": gnews("reuters.com"),
+ "GNEWS-AP": gnews("apnews.com"),
+ "GNEWS-AFP": gnews("france24.com"),
+ "GNEWS-彭博": gnews("bloomberg.com"),
+ "GNEWS-日经": gnews("asia.nikkei.com"),
+ "GNEWS-金融时报": gnews("ft.com"),
+ "GNEWS-华尔街日报": gnews("wsj.com"),
+ "GNEWS-纽约时报": gnews("nytimes.com"),
+ "GNEWS-经济学人": gnews("economist.com"),
+ "GNEWS-路透-China": "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en" % urllib.parse.quote("reuters.com china technology OR rare earth OR tariff OR military"),
+ "AP直接feed": "https://apnews.com/feed",
+ "共同社英文": "https://english.kyodonews.net/rss/news.xml",
+ "共同社中文": "https://chinese.kyodonews.net/rss/all.xml",
+ "日经中文": "https://cn.nikkei.com/rss/rss.xml",
+ "BBC中文": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+ "美国国务院": "https://www.state.gov/feed/",
+ "美国国防部": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
+ "商务部新闻": "https://www.commerce.gov/news/press-releases/rss.xml",
+ "USTR新闻": "https://ustr.gov/feeds/press-releases.xml",
+ "能源部FE": "https://www.energy.gov/fe/newsroom/rss.xml",
+ "NATO": "https://www.nato.int/webservices/rss/news.xml",
+ "欧盟presscorner": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+ "日本外务省": "https://www.mofa.go.jp/rss/english.xml",
+ "日本经产省": "https://www.meti.go.jp/rss/whatsnew_e.xml",
+ "USNI": "https://news.usni.org/feed",
+ "DefenseNews": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+ "Mining": "https://www.mining.com/feed/",
+ "OilPrice": "https://oilprice.com/rss/main",
+ "IMF": "https://www.imf.org/en/News/RSS?language=eng",
+ "USGS": "https://www.usgs.gov/news/rss.xml",
+ "IEA": "https://www.iea.org/news.xml",
+ "WTO": "https://www.wto.org/library/rss/latestnews_e.xml",
+}
+out=[]
+for name,u in CANDS.items():
+    rec={"name":name,"url":u}
     try:
-        items = ic.parse_rss_items(body, url)
+        req=urllib.request.Request(u,headers={"User-Agent":UA,"Accept":"application/rss+xml,application/xml,atom+xml,*/*"})
+        with urllib.request.urlopen(req,timeout=25,context=CTX) as r:
+            body=r.read(200000).decode("utf-8","ignore")
+            items=len(re.findall(r"<item[ >]",body))+len(re.findall(r"<entry[ >]",body))
+            rec.update(status=r.status, items=items, is_feed=items>0,
+                       sample=re.sub(r"\s+"," ",(re.search(r"<item[\s\S]*?<title>(.*?)</title>",body) or re.search(r"<entry[\s\S]*?<title[^>]*>(.*?)</title>",body) or [None,""])[1])[:120] if items else "")
+    except urllib.error.HTTPError as e:
+        rec.update(status=e.code, items=0, is_feed=False)
     except Exception as e:
-        print(f"[PARSE] {name:14s} 解析失败 {str(e)[:60]}")
-        continue
-    hits = []
-    dates = []
-    for it in items:
-        if it.get("date"):
-            dates.append(it["date"])
-        ti, tx = it.get("title") or "", it.get("text") or ""
-        if TITLE_CN.search(ti + " " + tx[:800]) and TOPIC.search(ti + " " + tx[:1500]):
-            hits.append(ti)
-    latest = max(dates).isoformat() if dates else "?"
-    flag = "OK  " if len(hits) >= 1 else "NOCH"
-    print(f"[{flag}] {name:14s} 条目{len(items):3d} 涉华国安{len(hits):2d} 最新{latest} {url}")
-    for h in hits[:4]:
-        print(f"        · {h[:78]}")
-    if len(hits) >= 1 and len(items) >= 3:
-        usable.append((name, cat, url, len(items), len(hits)))
-
-print("\n========== 可直接采纳（200 且条目>=3 且涉华国安>=1）==========")
-for name, cat, url, n, h in usable:
-    print(f"  {name}\t{cat}\t{url}\t条目{n} 命中{h}")
+        rec.update(status=-1, items=0, is_feed=False, err=str(e)[:80])
+    out.append(rec)
+import os
+os.makedirs("data",exist_ok=True)
+json.dump({"probed_at":datetime.datetime.utcnow().isoformat()+"Z","results":out},
+          open("data/rss_probe.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
+ok=[r["name"] for r in out if r["is_feed"]]
+print("FEED_OK %d/%d: %s" % (len(ok),len(out),", ".join(ok)))
