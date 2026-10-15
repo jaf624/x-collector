@@ -1,94 +1,83 @@
 # -*- coding: utf-8 -*-
-"""权威源 RSS 通道探活（GitHub Actions 海外节点跑），结果写 data/rss_probe.json。
-只记录真实可达状态与条目数，不编造 feed_url。"""
-import urllib.request, ssl, json, datetime, re, urllib.parse
-CTX = ssl.create_default_context(); CTX.check_hostname=False; CTX.verify_mode=ssl.CERT_NONE
+"""GNEWS 采集0根因诊断：在海外 Actions 跑，测 feed获取→parse→日期→302原文解析，
+用 GITHUB_TOKEN 经 Contents API 直接提交 data/gnews_diag.json（不依赖 workflow git push）。"""
+import urllib.request, urllib.parse, urllib.error, ssl, json, re, os, base64, datetime, time
+CTX=ssl.create_default_context(); CTX.check_hostname=False; CTX.verify_mode=ssl.CERT_NONE
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-def gnews(site, kw="china OR chinese"):
-    q=urllib.parse.quote("site:%s (%s)" % (site, kw))
-    return "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en" % q
-CANDS={
- "GNEWS-路透": gnews("reuters.com"),
- "GNEWS-AP": gnews("apnews.com"),
- "GNEWS-AFP": gnews("france24.com"),
- "GNEWS-彭博": gnews("bloomberg.com"),
- "GNEWS-日经": gnews("asia.nikkei.com"),
- "GNEWS-金融时报": gnews("ft.com"),
- "GNEWS-华尔街日报": gnews("wsj.com"),
- "GNEWS-纽约时报": gnews("nytimes.com"),
- "GNEWS-经济学人": gnews("economist.com"),
- "GNEWS-路透-China": "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en" % urllib.parse.quote("reuters.com china technology OR rare earth OR tariff OR military"),
- "AP直接feed": "https://apnews.com/feed",
- "共同社英文": "https://english.kyodonews.net/rss/news.xml",
- "共同社中文": "https://chinese.kyodonews.net/rss/all.xml",
- "日经中文": "https://cn.nikkei.com/rss/rss.xml",
- "BBC中文": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
- "美国国务院": "https://www.state.gov/feed/",
- "美国国防部": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
- "商务部新闻": "https://www.commerce.gov/news/press-releases/rss.xml",
- "USTR新闻": "https://ustr.gov/feeds/press-releases.xml",
- "能源部FE": "https://www.energy.gov/fe/newsroom/rss.xml",
- "NATO": "https://www.nato.int/webservices/rss/news.xml",
- "欧盟presscorner": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
- "日本外务省": "https://www.mofa.go.jp/rss/english.xml",
- "日本经产省": "https://www.meti.go.jp/rss/whatsnew_e.xml",
- "USNI": "https://news.usni.org/feed",
- "DefenseNews": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
- "Mining": "https://www.mining.com/feed/",
- "OilPrice": "https://oilprice.com/rss/main",
- "IMF": "https://www.imf.org/en/News/RSS?language=eng",
- "USGS": "https://www.usgs.gov/news/rss.xml",
- "IEA": "https://www.iea.org/news.xml",
- "WTO": "https://www.wto.org/library/rss/latestnews_e.xml",
+def gnews(site):
+    q=urllib.parse.quote("site:%s (china OR chinese)"%site)
+    return "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en"%q
+SRC={
+ "路透":gnews("reuters.com"),"AP":gnews("apnews.com"),"AFP":gnews("france24.com"),
+ "彭博":gnews("bloomberg.com"),"日经":gnews("asia.nikkei.com"),"FT":gnews("ft.com"),
+ "WSJ":gnews("wsj.com"),"NYT":gnews("nytimes.com"),"经济学人":gnews("economist.com"),
 }
-out=[]
-for name,u in CANDS.items():
-    rec={"name":name,"url":u}
+class _GNR(urllib.request.HTTPRedirectHandler):
+    def __init__(self): self.loc=None
+    def redirect_request(self,req,fp,code,msg,headers,newurl):
+        self.loc=newurl; return None
+def resolve(u,timeout=12):
+    if not u or "news.google.com" not in u: return u,"skip"
     try:
-        req=urllib.request.Request(u,headers={"User-Agent":UA,"Accept":"application/rss+xml,application/xml,atom+xml,*/*"})
-        with urllib.request.urlopen(req,timeout=25,context=CTX) as r:
-            body=r.read(200000).decode("utf-8","ignore")
-            items=len(re.findall(r"<item[ >]",body))+len(re.findall(r"<entry[ >]",body))
-            rec.update(status=r.status, items=items, is_feed=items>0,
-                       sample=re.sub(r"\s+"," ",(re.search(r"<item[\s\S]*?<title>(.*?)</title>",body) or re.search(r"<entry[\s\S]*?<title[^>]*>(.*?)</title>",body) or [None,""])[1])[:120] if items else "")
-    except urllib.error.HTTPError as e:
-        rec.update(status=e.code, items=0, is_feed=False)
+        h=_GNR(); op=urllib.request.build_opener(h)
+        req=urllib.request.Request(u,headers={"User-Agent":UA,"Accept-Language":"en-US,en;q=0.9"})
+        try:
+            r=op.open(req,timeout=timeout); final=r.geturl(); body=r.read(200000).decode("utf-8","ignore"); r.close()
+            if "news.google.com" not in final: return final,"302-final"
+        except urllib.error.HTTPError as e:
+            if h.loc and "news.google.com" not in h.loc: return h.loc,"loc"
+            body=e.read(200000).decode("utf-8","ignore") if hasattr(e,"read") else ""
+        for m in re.findall(r'https?://[^\s"\'<>\\]+',body or ""):
+            mm=re.match(r'https?://([^/]+)',m)
+            if mm and not any(x in mm.group(1) for x in ("google.","gstatic","googlenews")):
+                return m.rstrip("\\"),"html-extract"
+        return u,"unresolved"
     except Exception as e:
-        rec.update(status=-1, items=0, is_feed=False, err=str(e)[:80])
-    out.append(rec)
-import os
-os.makedirs("data",exist_ok=True)
-json.dump({"probed_at":datetime.datetime.utcnow().isoformat()+"Z","results":out},
-          open("data/rss_probe.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
-ok=[r["name"] for r in out if r["is_feed"]]
-print("FEED_OK %d/%d: %s" % (len(ok),len(out),", ".join(ok)))
-
-# ---- 自提交：在 GitHub Actions runner 内用 GITHUB_TOKEN 提交结果（Contents API 对 workflow 文件有限制）----
-def _self_commit():
-    import subprocess, os
-    tok = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    if not tok:
-        print("no GITHUB_TOKEN, skip commit"); return
-    repo = os.environ.get("GITHUB_REPOSITORY", "jaf624/x-collector")
-    cmds = [
-        ["git", "config", "user.name", "github-actions[bot]"],
-        ["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"],
-        ["git", "add", "data/rss_probe.json"],
-    ]
-    for x in cmds:
-        subprocess.run(x, capture_output=True)
-    d = subprocess.run(["git", "diff", "--staged", "--quiet"])
-    if d.returncode == 0:
-        print("probe 无变化，无需提交"); return
-    subprocess.run(["git", "commit", "-m", "data: rss probe result"], capture_output=True)
-    url = "https://x-access-token:%s@github.com/%s.git" % (tok, repo)
-    for i in range(3):
-        r1 = subprocess.run(["git", "pull", "--rebase", "origin", "main"], capture_output=True, text=True)
-        r2 = subprocess.run(["git", "push", url, "HEAD:main"], capture_output=True, text=True)
-        if r2.returncode == 0:
-            print("probe 结果已提交"); return
-        print("push retry", i, r2.stderr[:120]); time.sleep(6)
-try:
-    _self_commit()
-except Exception as e:
-    print("self commit err", repr(e)[:120])
+        return u,"err:"+repr(e)[:50]
+def parse_items(body):
+    out=[]
+    for m in re.finditer(r"<item[\s\S]*?</item>",body):
+        blk=m.group(0)
+        t=re.search(r"<title>(.*?)</title>",blk); l=re.search(r"<link>(.*?)</link>",blk)
+        d=re.search(r"<pubDate>(.*?)</pubDate>",blk)
+        out.append({"title":(t.group(1) if t else "")[:70],"link":(l.group(1) if l else "").strip(),
+                    "date":(d.group(1) if d else "")[:40]})
+    return out
+res={"diag_at":datetime.datetime.utcnow().isoformat()+"Z","sources":{}}
+for name,u in SRC.items():
+    rec={"feed_url":u}
+    try:
+        req=urllib.request.Request(u,headers={"User-Agent":UA,"Accept":"application/rss+xml,application/xml,*/*"})
+        with urllib.request.urlopen(req,timeout=20,context=CTX) as r:
+            body=r.read(2000000).decode("utf-8","ignore")
+        items=parse_items(body)
+        rec["feed_status"]=r.status; rec["parsed"]=len(items)
+        diag=[]
+        for it in items[:3]:
+            real,how=resolve(it["link"])
+            diag.append({"title":it["title"],"date":it["date"],"real":real[:100],"how":how})
+        rec["samples"]=diag
+    except Exception as e:
+        rec["err"]=repr(e)[:150]
+    res["sources"][name]=rec
+    print(name,rec.get("parsed"),[s["how"] for s in rec.get("samples",[])],flush=True)
+# 提交
+payload=json.dumps(res,ensure_ascii=False,indent=1)
+tok=os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+repo=os.environ.get("GITHUB_REPOSITORY","jaf624/x-collector")
+if tok:
+    H={"User-Agent":"diag","Authorization":"Bearer "+tok,"Accept":"application/vnd.github+json"}
+    def api(method,path,body=None):
+        data=json.dumps(body).encode() if body is not None else None
+        r=urllib.request.Request("https://api.github.com/repos/%s/%s"%(repo,path),data=data,method=method,headers=H)
+        try:
+            with urllib.request.urlopen(r,timeout=60) as x:
+                raw=x.read(); return x.status,(json.loads(raw) if raw else {})
+        except urllib.error.HTTPError as e: return e.code,e.read().decode()[:150]
+    st,cur=api("GET","contents/data/gnews_diag.json")
+    b={"message":"data: gnews collection zero-result diagnosis","content":base64.b64encode(payload.encode()).decode(),"branch":"main"}
+    if st==200 and isinstance(cur,dict): b["sha"]=cur["sha"]
+    st,r2=api("PUT","contents/data/gnews_diag.json",b)
+    print("COMMIT",st,r2.get("commit",{}).get("sha","")[:8] if isinstance(r2,dict) else r2)
+else:
+    print("NO GITHUB_TOKEN")
