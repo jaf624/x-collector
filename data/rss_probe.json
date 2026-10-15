@@ -1,5 +1,5 @@
 {
- "diag_at": "2026-10-15T06:53:12.779178Z",
+ "diag_at": "2026-10-15T06:57:51.736506Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
@@ -9,27 +9,43 @@
     {
      "title": "China, North Korea open long-delayed border bridge",
      "date": "Thu, 15 Oct 2026 02:43:00",
-     "chain": [],
-     "final": "",
-     "external": [],
-     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHVU01U0QzYUJLUmJ4MF9CUWZWM3MwZ1B",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHVU01U0QzYUJLUmJ4MF9CUWZWM3MwZ1BQeXBIdHBEMUdKSDd1ZGZFQnJJZmh6MVVqSE1rZVJGQzZoY0o1cjhsLVRXSzlSV19uQzdCYUtfLWJtU3pNM0NiR01ENFpySUpMUVJKSzB5ZTM3a3dzZVg0YmtWWW80TUtHc2xXZTYzWVFXVUYxbjdpQWhVNDZrWDJZdUZCU0lrS0FjVXRqVld5QQ"
+     ],
+     "follow_err": "",
      "pb": {
       "raw_head": "081322c20141555f79714c4f586950716c5f4145426c6547734b5a4f77525f51",
       "urls": [],
-      "err": ""
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLOXiPql_AEBleGsKZOwR_QZ6AMTUGUM5SD3"
+      ],
+      "l2_head": "014ff2a8b39788faa5fc010195e1ac2993b047f419e80313"
      }
     },
     {
      "title": "China's top prosecutor arrests former Chengdu mayo",
      "date": "Thu, 15 Oct 2026 02:24:00",
-     "chain": [],
-     "final": "",
-     "external": [],
-     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVZoREFlcnctR053b"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVZoREFlcnctR053bmRhcDF1aUMteUQ4TzJsS0g1eWRESERXcUlKYlFtQ09fSUpVTWV",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVZoREFlcnctR053bmRhcDF1aUMteUQ4TzJsS0g1eWRESERXcUlKYlFtQ09fSUpVTWVlUnUtSWQ4UjVqYzBrcmt6Q1hwYVJBbkJYZ0xDem03YkJHQU4tUDZZMW9lMFdUTE1vOEQ1cXhQZ19IQ1ZXRnA1VnZ0SjRGYnBfdHB6bTdFQnhHYnFtTERXcV81eENnVGg0OU5GTllxUFJwTFdwSkVPb3pZajRqeWM5dWZCLWc"
+     ],
+     "follow_err": "",
      "pb": {
       "raw_head": "081322b70141555f79714c4d45566844416572772d474e776e64617031756943",
       "urls": [],
-      "err": ""
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMEVhDAerw-GNwndap1uiC-yD8O2lKH5ydD"
+      ],
+      "l2_head": "014ff2a8b3045610c07abc3e18dc2775aa75ba20bec83f0e"
      }
     }
    ]
@@ -42,27 +58,43 @@
     {
      "title": "New China-North Korea bridge opens after more than",
      "date": "Thu, 15 Oct 2026 03:43:00",
-     "chain": [],
-     "final": "",
-     "external": [],
-     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUtlWHBELVJzd1Y5W"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUtlWHBELVJzd1Y5WEhSNmVzZXJvR1FPdV9RNzN3cXMtdnNXVGJUVDY4eUZWdFRNejJ",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUtlWHBELVJzd1Y5WEhSNmVzZXJvR1FPdV9RNzN3cXMtdnNXVGJUVDY4eUZWdFRNejJqeTlSNjFmQzRQOV8xYzRpSEhiOFRvaVhtR2U3elFndUVBUVJZMFVLOGJTZmF6d19ESWxoYVlGY3hHYzJJclFfMUdFZ1J0NXQ4XzByOFNOM1YwR3Bhd3V0Ykg3"
+     ],
+     "follow_err": "",
      "pb": {
       "raw_head": "081322940141555f79714c50754b655870442d52737756395848523665736572",
       "urls": [],
-      "err": ""
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLPuKeXpD-RswV9XHR6eseroGQOu_Q73wqs-"
+      ],
+      "l2_head": "014ff2a8b3ee29e5e90fe46cc15f571d1e9eb1eae81903ae"
      }
     },
     {
      "title": "China opens a joint airfield in Laos with construc",
      "date": "Thu, 15 Oct 2026 04:20:21",
-     "chain": [],
-     "final": "",
-     "external": [],
-     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXY"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXYWgwSmdpRkxzODZ5S0twS2hoRGZUejBQbm80bzJFaG5Xc25FaFc",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXYWgwSmdpRkxzODZ5S0twS2hoRGZUejBQbm80bzJFaG5Xc25FaFc2YzFWNTg5X3UwWC1fT3dLR0N2T2s2WmlYemdwNkxFNWQxOFlLQmJaWjBkTVEwQWRBS3lNTUpKRUJUUTZmVkRKQ1VjeXpDVWd1cE5wUUNWNzdfLTU5SENaTkRzYXg1S01lMEVxaE5XeERHYmdn"
+     ],
+     "follow_err": "",
      "pb": {
       "raw_head": "081322a60141555f79714c4d2d4557724a6b4f48326863576168304a6769464c",
       "urls": [],
-      "err": ""
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLM-EWrJkOH2hcWah0JgiFLs86yKKpKhhDfT"
+      ],
+      "l2_head": "014ff2a8b33e116ac990e1f685c59a8742608852ecf3ac8a"
      }
     }
    ]
@@ -75,27 +107,43 @@
     {
      "title": "China’s Backdoor Bond-Buying Talk Swirls on $600 B",
      "date": "Wed, 14 Oct 2026 23:00:00",
-     "chain": [],
-     "final": "",
-     "external": [],
-     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0YyV1hpZldlbnVlW"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0YyV1hpZldlbnVlWU9YR2RFLU9pSW9xcUpsR2JlUExTby04SzRnM3gxVlg5QWV1aFB",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0YyV1hpZldlbnVlWU9YR2RFLU9pSW9xcUpsR2JlUExTby04SzRnM3gxVlg5QWV1aFBWdHgzeWlVYXRIQWhCZjYwZElpdkExNVJpb3Y4eTF6TnFOQVQ2MHlYN2M3em5palpXcmVLQjZ1RWgxa2ZTMmtHazJfT2VSMFZILU90VVcyckV4M3YzTHpPVTFMRHQ0NHNuaWJDUlJVeEpNR3pWclFpeXR2SENsZmltWjM"
+     ],
+     "follow_err": "",
      "pb": {
       "raw_head": "081322b40141555f79714c505746325758696657656e7565594f584764452d4f",
       "urls": [],
-      "err": ""
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLPWF2WXifWenueYOXGdE-OiIoqqJlGbePLS"
+      ],
+      "l2_head": "014ff2a8b3d617659789f59e9ee79839719d13e3a2228aaa"
      }
     },
     {
      "title": "Apple Prepares to Debut First AI Features in China",
      "date": "Wed, 14 Oct 2026 19:50:37",
-     "chain": [],
-     "final": "",
-     "external": [],
-     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzl6TER0VWJDcVVzT"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzl6TER0VWJDcVVzTm52elZnc2NHWDNhd09wS1ZfQ25XUFhOS3hqS1QwQ3VNbGlmUFV",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzl6TER0VWJDcVVzTm52elZnc2NHWDNhd09wS1ZfQ25XUFhOS3hqS1QwQ3VNbGlmUFVqbTlzeTVac21zUFVNMXRJZHM4RjZXMW5qaTE2UXQzRXA0RFRRcnlJUk1CR3lzb1BKZGljbkxvZ0RJOC1oREttNHNtTHQ4NVpUUm42MWpUTDE4Vk5LLUlBV2pNaWVYVTRzVndLbm1VUzFMRHFsejVHSURlQlc5UU5rSQ"
+     ],
+     "follow_err": "",
      "pb": {
       "raw_head": "081322b30141555f79714c4d4f397a4c44745562437155734e6e767a56677363",
       "urls": [],
-      "err": ""
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMO9zLDtUbCqUsNnvzVgscGX3awOpKV_CnW"
+      ],
+      "l2_head": "014ff2a8b30ef732c3b546c2a94b0d9efcd582c7065f76b0"
      }
     }
    ]
@@ -108,27 +156,43 @@
     {
      "title": "Memory breakthrough by China's CXMT puts chip riva",
      "date": "Wed, 14 Oct 2026 08:32:00",
-     "chain": [],
-     "final": "",
-     "external": [],
-     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHJCVXEwelRSZUpZZ"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHJCVXEwelRSZUpZZG91VG5BbHo3VUJKOUQyNDV3bkp6R2J4ZTZPS3ZkUVV0b3lKMTQ",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHJCVXEwelRSZUpZZG91VG5BbHo3VUJKOUQyNDV3bkp6R2J4ZTZPS3ZkUVV0b3lKMTQ3OU4xWjBRSmFTMXM3WW9ZNk8wdzVPaDdld0l0OGZGTG9fdFB5TW1KWVRSLWs1elBEU3J2Ri1mQjRuWEMtellMUXNnQXJ2WDNGeDhRTFExbXVJTjZnd3NuQktWTHQ0bXpXd0FKcm4tQ1VTYklLM1RqenJnMk9XY3c3WURWU0dieWc"
+     ],
+     "follow_err": "",
      "pb": {
       "raw_head": "081322ba0141555f79714c4e7872425571307a5452654a59646f75546e416c7a",
       "urls": [],
-      "err": ""
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLNxrBUq0zTReJYdouTnAlz7UBJ9D245wnJz"
+      ],
+      "l2_head": "014ff2a8b371ac152ad334d178961da2e4e7025cfb50127d"
      }
     },
     {
      "title": "Analysis: How long will China's top military body ",
      "date": "Wed, 14 Oct 2026 19:00:00",
-     "chain": [],
-     "final": "",
-     "external": [],
-     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT0JIV2lDaVZSUzBzc"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT0JIV2lDaVZSUzBzcThqLUN3WEdvYUcyQW9fdjNud2ZHZkpCb0xlZE9WYUk2MVRFSkh",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMivwFBVV95cUxPT0JIV2lDaVZSUzBzcThqLUN3WEdvYUcyQW9fdjNud2ZHZkpCb0xlZE9WYUk2MVRFSkhUcWRhbVdKQTVwRm5scVlqZG1rSDZhQ3FRR1A2UWxrTm5HT28wVUFha202cFdid1RBdXRiTkp6UEFJazI1Z3hTQ1E2SVJITE1RTDc0cGd6aUxCbUVMa05UMmR5YVhxVEthTzF1eUFFT3lVTk9yM3JjX2VWcFhaYlczV1dxV2NrT19LUXRBWQ"
+     ],
+     "follow_err": "",
      "pb": {
       "raw_head": "081322bf0141555f79714c4f4f424857694369565253307371386a2d43775847",
       "urls": [],
-      "err": ""
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLOOBHWiCiVRS0sq8j-CwXGoaG2Ao_v3nwfG"
+      ],
+      "l2_head": "014ff2a8b38e0475a20a25514b4b2af23f82c171a8686d80"
      }
     }
    ]
@@ -141,27 +205,43 @@
     {
      "title": "With China Facing More Trade Barriers, It Can’t Af",
      "date": "Wed, 14 Oct 2026 18:39:00",
-     "chain": [],
-     "final": "",
-     "external": [],
-     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYN"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYNDNELUppYzROV3VxSjE5Zlg0cHBsSDFacFBTbEY2R011SnRGT3N",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYNDNELUppYzROV3VxSjE5Zlg0cHBsSDFacFBTbEY2R011SnRGT3NuMHpDT3RiSGhfOHRnb05WQllxVVk1LVpaUzVoLUpOSlhNa3NRbU1BQmlDb1NGa3o2Tk1hRjRVWkFLeF9NSEdTeG80WC1aUEFPcFV2N2t5NVpISmg3eE01M3pwUlJNMWx3RUoyOFVRMnlGRkxNUTgxWDVuRkdn"
+     ],
+     "follow_err": "",
      "pb": {
       "raw_head": "081322af0141555f79714c4f4d44333450585f58417061583433442d4a696334",
       "urls": [],
-      "err": ""
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLOMD34PX_XApaX43D-Jic4NWuqJ19fX4ppl"
+      ],
+      "l2_head": "014ff2a8b38c0f7e0f5ff5c0a5a5f8dc3f8989ce0d5aea89"
      }
     },
     {
      "title": "Exclusive | The Houthis Are Building an Advanced M",
      "date": "Wed, 14 Oct 2026 02:00:00",
-     "chain": [],
-     "final": "",
-     "external": [],
-     "follow_err": "TypeError(\"OpenerDirector.open() got an unexpected keyword argument 'context'\")",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS0FwY082d09qTWxQTk9majc3Mnp4cFlxSjI5NFVaZE83ajhKMWl",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS0FwY082d09qTWxQTk9majc3Mnp4cFlxSjI5NFVaZE83ajhKMWlzOHZHcWlwRkRLaXJ1Z0JtM0lRcHFaQzhpalRhd3NLNFBsY2o4RWxDZUplOGNGRXRSdFBIUEZTM1BfY25uSmV4dHkyUQ"
+     ],
+     "follow_err": "",
      "pb": {
       "raw_head": "0813227e41555f79714c4d484e4a42484a78355732357a6e4b4170634f36774f",
       "urls": [],
-      "err": ""
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMHNJBHJx5W25znKApcO6wOjMlPNOfj772z"
+      ],
+      "l2_head": "014ff2a8b307349047271e56db9ce7280a5c3bac0e8cc94f"
      }
     }
    ]
