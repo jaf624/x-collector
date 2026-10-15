@@ -28,7 +28,7 @@ SRC = os.path.join(ROOT, "targets", "intel_sources.json")
 KEY = os.environ.get("JINA_KEY", "").strip()
 DAYS = int(os.environ.get("INTEL_DAYS", "3"))
 WATCH_DAYS = int(os.environ.get("INTEL_WATCH_DAYS", "7"))
-MAX_ART = int(os.environ.get("INTEL_MAX_ART", "60"))
+MAX_ART = int(os.environ.get("INTEL_MAX_ART", "120"))
 NUM = os.environ.get("INTEL_SEARCH_NUM", "3")
 MAX_FEED = int(os.environ.get("INTEL_MAX_FEED", "800"))
 MIN_BODY = int(os.environ.get("INTEL_MIN_BODY", "400"))
@@ -38,14 +38,14 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 # 第 4 路：收藏夹公开机构 RSS（智库/政府/国际媒体/NGO/OSINT），美国节点直连不烧 Jina
 INST_SRC = os.path.join(ROOT, "targets", "institute_sources.json")
 INST_DAYS = int(os.environ.get("INTEL_INST_DAYS", "7"))        # 机构周报/月报，窗口 7 天
-INST_PER_FEED = int(os.environ.get("INTEL_INST_PER_FEED", "15"))  # 每源每轮最多评估条数
-INST_MAX = int(os.environ.get("INTEL_INST_MAX", "120"))        # RSS 自带正文（免费）每轮入库上限
-INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "20"))       # 摘要过短需 Jina 深抓的机构稿上限
+INST_PER_FEED = int(os.environ.get("INTEL_INST_PER_FEED", "20"))  # 每源每轮最多评估条数
+INST_MAX = int(os.environ.get("INTEL_INST_MAX", "200"))        # RSS 自带正文（免费）每轮入库上限
+INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "40"))       # 摘要过短需 Jina 深抓的机构稿上限
 MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "20"))         # L类线索源每轮深抓上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
 MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "15"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
 # 硬新闻源（2026-10-14 扩源）：通讯社/官方公报/中文硬新闻——深读配额优先，确保新闻模式主粮来自可溯源硬新闻
-HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "30"))
+HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "60"))
 HARD_NEWS_DOMAINS = (
     "zaobao.com.sg", "cn.nikkei.com", "cn.yna.co.kr", "chinese.kyodonews.net", "cna.com.tw",
     "rfa.org", "abc.net.au", "rcinet.ca", "ftchinese.com", "cn.wsj.com", "chinese.aljazeera.net",
@@ -695,8 +695,13 @@ def main():
             u = norm(sec["url"], u)
             if u not in links:
                 links.append(u)
+        # 每栏目源限额：高产本地报/华文聚合页（马尼拉时报/唐人街）每轮最多给 40 条候选，
+        # 防止其占满硬新闻配额，把名额留给路透/日经/AP 等权威源。
+        SEC_CAP = int(os.environ.get("INTEL_SECTION_CAP", "40"))
         kept = 0
         for u in links:
+            if kept >= SEC_CAP:
+                break
             d = pick_date(u)
             if d is None or fresh(d, DAYS):
                 add(u, sec["name"], sec.get("lang", "?"), sec["cat"], "section", "news", news_block,
@@ -862,7 +867,7 @@ def main():
                  and not c.get("lead")]
     # 硬新闻源按日期占固定深读配额，其余给原有新闻源；硬新闻不足则由其他源补足。
     # 每个硬新闻源每轮限额，避免单一高产台媒（本地软新闻）占满配额，让30个名额覆盖约10个源。
-    hn_per = int(os.environ.get("INTEL_HARD_NEWS_PER_SRC", "5"))
+    hn_per = int(os.environ.get("INTEL_HARD_NEWS_PER_SRC", "10"))
     hn_pool = [c for c in news_pool if is_hardnews_url(c.get("url"))]
     _title_cn = re.compile(TITLE_CHINA_RE, re.I)
     # 按源分组：每源固定名额内，锚文本标题命中涉华的优先，再按日期补满，避免官方源首页最新几篇
