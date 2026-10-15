@@ -1,5 +1,5 @@
 {
- "diag_at": "2026-10-15T06:57:51.736506Z",
+ "diag_at": "2026-10-15T07:40:26.705829Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
@@ -7,45 +7,45 @@
    "items": 100,
    "samples": [
     {
-     "title": "China, North Korea open long-delayed border bridge",
-     "date": "Thu, 15 Oct 2026 02:43:00",
+     "title": "EU leaders to tackle China exports, energy prices,",
+     "date": "Thu, 15 Oct 2026 04:04:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc"
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNl85ZmstSVZrYnFvc"
      ],
-     "final": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHVU01U0QzYUJLUmJ4MF9CUWZWM3MwZ1B",
+     "final": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNl85ZmstSVZrYnFvc2tnZmdjWGRoMk5zRkVDY0hVYjFWNW1EVDZobXJNdHJWdWY0Qzd",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHVU01U0QzYUJLUmJ4MF9CUWZWM3MwZ1BQeXBIdHBEMUdKSDd1ZGZFQnJJZmh6MVVqSE1rZVJGQzZoY0o1cjhsLVRXSzlSV19uQzdCYUtfLWJtU3pNM0NiR01ENFpySUpMUVJKSzB5ZTM3a3dzZVg0YmtWWW80TUtHc2xXZTYzWVFXVUYxbjdpQWhVNDZrWDJZdUZCU0lrS0FjVXRqVld5QQ"
+      "CANON:https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNl85ZmstSVZrYnFvc2tnZmdjWGRoMk5zRkVDY0hVYjFWNW1EVDZobXJNdHJWdWY0QzdtQ2R5d0FNeUczUXRHSXJPY085blBETjBfbE1PM0R1eDNkdERhc2JTU3hTU2FzUjdWM0p3MlZjNTdzWm5TXzdYX2RNeTl1U2d1bll5cTFYdEVvRkk4bTNvWmxHSkQ4UHJpZlBTU1FldzlvX3pUZ1RjMnM"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322c20141555f79714c4f586950716c5f4145426c6547734b5a4f77525f51",
+      "raw_head": "081322ab0141555f79714c4d365f39666b2d49566b62716f736b676667635864",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLOXiPql_AEBleGsKZOwR_QZ6AMTUGUM5SD3"
+       "AU_yqLM6_9fk-IVkbqoskgfgcXdh2NsFECcHUb1V"
       ],
-      "l2_head": "014ff2a8b39788faa5fc010195e1ac2993b047f419e80313"
+      "l2_head": "014ff2a8b33affd7e4f885646eaa2c9207e0717761d8db05"
      }
     },
     {
-     "title": "China's top prosecutor arrests former Chengdu mayo",
-     "date": "Thu, 15 Oct 2026 02:24:00",
+     "title": "This Chinese export boom really has legs – and win",
+     "date": "Thu, 15 Oct 2026 05:00:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVZoREFlcnctR053b"
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlowanVKaFdPYlZrO"
      ],
-     "final": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVZoREFlcnctR053bmRhcDF1aUMteUQ4TzJsS0g1eWRESERXcUlKYlFtQ09fSUpVTWV",
+     "final": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlowanVKaFdPYlZrOXM4Nk1Fc01KSzRMdWpzd0czb3pqT0kzYVkxbUNGeVZTRVprck1",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVZoREFlcnctR053bmRhcDF1aUMteUQ4TzJsS0g1eWRESERXcUlKYlFtQ09fSUpVTWVlUnUtSWQ4UjVqYzBrcmt6Q1hwYVJBbkJYZ0xDem03YkJHQU4tUDZZMW9lMFdUTE1vOEQ1cXhQZ19IQ1ZXRnA1VnZ0SjRGYnBfdHB6bTdFQnhHYnFtTERXcV81eENnVGg0OU5GTllxUFJwTFdwSkVPb3pZajRqeWM5dWZCLWc"
+      "CANON:https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlowanVKaFdPYlZrOXM4Nk1Fc01KSzRMdWpzd0czb3pqT0kzYVkxbUNGeVZTRVprck16MEY0SHdKODRjMFRrQjJjMzFfRFY0ZjVGWFdhbUsxT0lKYW5nR0NqVGJOX3g2VDZMbUh6d3d1bGt5cUtPV0hrUl9yTDVZbjRENDRGSnRTMmdJdjJqUHRzYVpkRXMzTnJn"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322b70141555f79714c4d45566844416572772d474e776e64617031756943",
+      "raw_head": "0813229a0141555f79714c4d565a306a754a68574f62566b397338364d45734d",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLMEVhDAerw-GNwndap1uiC-yD8O2lKH5ydD"
+       "AU_yqLMVZ0juJhWObVk9s86MEsMJK4LujswG3ozj"
       ],
-      "l2_head": "014ff2a8b3045610c07abc3e18dc2775aa75ba20bec83f0e"
+      "l2_head": "014ff2a8b3156748ee26158e6d593db3ce8c12c3092b82ee"
      }
     }
    ]
@@ -55,27 +55,6 @@
    "status": 200,
    "items": 100,
    "samples": [
-    {
-     "title": "New China-North Korea bridge opens after more than",
-     "date": "Thu, 15 Oct 2026 03:43:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUtlWHBELVJzd1Y5W"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUtlWHBELVJzd1Y5WEhSNmVzZXJvR1FPdV9RNzN3cXMtdnNXVGJUVDY4eUZWdFRNejJ",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUtlWHBELVJzd1Y5WEhSNmVzZXJvR1FPdV9RNzN3cXMtdnNXVGJUVDY4eUZWdFRNejJqeTlSNjFmQzRQOV8xYzRpSEhiOFRvaVhtR2U3elFndUVBUVJZMFVLOGJTZmF6d19ESWxoYVlGY3hHYzJJclFfMUdFZ1J0NXQ4XzByOFNOM1YwR3Bhd3V0Ykg3"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322940141555f79714c50754b655870442d52737756395848523665736572",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLPuKeXpD-RswV9XHR6eseroGQOu_Q73wqs-"
-      ],
-      "l2_head": "014ff2a8b3ee29e5e90fe46cc15f571d1e9eb1eae81903ae"
-     }
-    },
     {
      "title": "China opens a joint airfield in Laos with construc",
      "date": "Thu, 15 Oct 2026 04:20:21",
@@ -95,6 +74,27 @@
        "AU_yqLM-EWrJkOH2hcWah0JgiFLs86yKKpKhhDfT"
       ],
       "l2_head": "014ff2a8b33e116ac990e1f685c59a8742608852ecf3ac8a"
+     }
+    },
+    {
+     "title": "The not-so-secret vulnerability in Ukraine’s drone",
+     "date": "Wed, 14 Oct 2026 04:09:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcnBFa2xFNV9LNGhGa"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcnBFa2xFNV9LNGhGaktzRUVpVVAzb2plSGxnNUZUR0h0NFJ2X1BYMHNKaDZZb0lodUh",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMikAFBVV95cUxQcnBFa2xFNV9LNGhGaktzRUVpVVAzb2plSGxnNUZUR0h0NFJ2X1BYMHNKaDZZb0lodUh3bm94RXpMRFl6WTdteUxGa0RkbGVpZWsxMm1NUmhGNHJHT1I0M3FaZFQ3ZG9wcHR6QUJaeDFLcnFZSFlISklmNFE1Nk1vbzducHBTSS10WlF0UUZidDg"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322900141555f79714c507270456b6c45355f4b3468466a4b734545695550",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLPrpEklE5_K4hFjKsEEiUP3ojeHlg5FTGHt"
+      ],
+      "l2_head": "014ff2a8b3eba44925139fcae211632ac1048943f7a23787"
      }
     }
    ]
@@ -204,7 +204,7 @@
    "samples": [
     {
      "title": "With China Facing More Trade Barriers, It Can’t Af",
-     "date": "Wed, 14 Oct 2026 18:39:00",
+     "date": "Wed, 14 Oct 2026 18:41:29",
      "chain": [
       "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYN"
      ],
