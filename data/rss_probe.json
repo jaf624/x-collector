@@ -1,11 +1,32 @@
 {
- "diag_at": "2026-10-15T15:11:12.444944Z",
+ "diag_at": "2026-10-15T16:05:27.212240Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
    "samples": [
+    {
+     "title": "For Chinese automakers, the road to survival runs ",
+     "date": "Thu, 15 Oct 2026 09:59:14",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdVlfNHVJQVdKWVBFU"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdVlfNHVJQVdKWVBFUWpOSXlCLUpWQmQybmxlNmtkV2Vya19DTGg2THI5ZnJjckxKdkJ",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiugFBVV95cUxNdVlfNHVJQVdKWVBFUWpOSXlCLUpWQmQybmxlNmtkV2Vya19DTGg2THI5ZnJjckxKdkJWdm01M01MdkpBWWFVWkk0Q3pnLVpWb2RHUVVmaGNaZndkTi0tanJSYlJtUjFiYjlheFpoNG54V0FEMHR2Z1BGVUhDUnZZTms4N3dXY0t4UV9mXy1aTmFnbllMRWl3WUtsTzJqNFVPLUFqbkFiLXF0WFVrdWJfcTRYMzJJa2I0Rmc"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322ba0141555f79714c4d75595f34754941574a595045516a4e4979422d4a",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMuY_4uIAWJYPEQjNIyB-JVBd2nle6kdWer"
+      ],
+      "l2_head": "014ff2a8b32e63fe2e20058960f1108cd23207e25505dda7"
+     }
+    },
     {
      "title": "This Chinese export boom really has legs – and win",
      "date": "Thu, 15 Oct 2026 06:54:00",
@@ -25,27 +46,6 @@
        "AU_yqLMVZ0juJhWObVk9s86MEsMJK4LujswG3ozj"
       ],
       "l2_head": "014ff2a8b3156748ee26158e6d593db3ce8c12c3092b82ee"
-     }
-    },
-    {
-     "title": "Chinese automaker Chery to launch new EV model in ",
-     "date": "Thu, 15 Oct 2026 08:38:22",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOERrMV9Qa3Vyb2ZOZ"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOERrMV9Qa3Vyb2ZOZllqd1ZucHU2ZHZVQlNmZDhBTnhJTjVaajM1M1BaTGZ5dnZhR0x",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOERrMV9Qa3Vyb2ZOZllqd1ZucHU2ZHZVQlNmZDhBTnhJTjVaajM1M1BaTGZ5dnZhR0xhdy1nRmFFcmR1QUR0alExLUphWG9LSkUzQ3FBeEFrcms5N1VrX1lhUXdwWHU0c2ktaVAtcHR5VGVfRUQxNldxT29obEdUUEdYX1B0bXRJUkg4NEcyRjJER0QyQW9LR3dFLWxua1lIelFtWW96MDA"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322a80141555f79714c4d38446b315f506b75726f664e66596a77566e7075",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLM8Dk1_PkurofNfYjwVnpu6dvUBSfd8ANxI"
-      ],
-      "l2_head": "014ff2a8b33c0e4d7f3e4baba1f35f623c159e9bba76f501"
      }
     }
    ]
@@ -204,7 +204,7 @@
    "samples": [
     {
      "title": "With China Facing More Trade Barriers, It Can’t Af",
-     "date": "Wed, 14 Oct 2026 18:39:00",
+     "date": "Wed, 14 Oct 2026 18:41:29",
      "chain": [
       "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYN"
      ],
@@ -224,24 +224,24 @@
      }
     },
     {
-     "title": "Pernod Ricard Primes Potential Mumbai Listing as D",
-     "date": "Thu, 15 Oct 2026 10:27:00",
+     "title": "Chinese Automakers Focus on International Expansio",
+     "date": "Thu, 15 Oct 2026 11:10:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNEMzV0tWQnhUaEItQ"
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSzlRMWlKNVVhVklPS"
      ],
-     "final": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNEMzV0tWQnhUaEItQl9sMzBVdndCcmFzRTh6RzBlVWZnNm9NenpVSk9KUFczUF9WVmh",
+     "final": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSzlRMWlKNVVhVklPSy1waWJ0cnFnckY4MWFVMEhwaGU5d3pWZ0VueHRUV214SXdwNU5",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMivgFBVV95cUxQNEMzV0tWQnhUaEItQl9sMzBVdndCcmFzRTh6RzBlVWZnNm9NenpVSk9KUFczUF9WVmhmMjgxeUtrWHJSMFZxeG1QanJxSkNUeG1YX2cwdENGN1VkdnBSaC1VWWV4alhGNVh3WGpGZ3FPanA0VHBacWg4YTN6SjZ1R1gzQ09uTmVYTFVlODhVZ05KSVlQOVVrSDRHUVhtR0VmOVl4LVdXYXdfRnRldEpUWWVCYUZ2SkpNMHpGTGhB"
+      "CANON:https://news.google.com/rss/articles/CBMisgFBVV95cUxQSzlRMWlKNVVhVklPSy1waWJ0cnFnckY4MWFVMEhwaGU5d3pWZ0VueHRUV214SXdwNU5QaEpiUjRYUzdHM1A4Ml91YmwwbElUOXlBanJEMlJRQlB3RURjeWRvcExFR0VLU3Fmd0R5UWJEckJPX2l6MEF5anptUjVna2xqZkF6TWNyRUhlRmVLdVdxeGdvejF0d2NLUzVrbVBHNzFSOGt2RFhudzNqdWxyZGpR"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322be0141555f79714c50344333574b5642785468422d425f6c3330557677",
+      "raw_head": "081322b20141555f79714c504b395131694a35556156494f4b2d706962747271",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLP4C3WKVBxThB-B_l30UvwBrasE8zG0eUfg"
+       "AU_yqLPK9Q1iJ5UaVIOK-pibtrqgrF81aU0Hphe9"
       ],
-      "l2_head": "014ff2a8b3f80b758a541c53841f81fe5df452fc01adab04"
+      "l2_head": "014ff2a8b3caf50d6227951a54838afa989bb6baa0ac5f35"
      }
     }
    ]
