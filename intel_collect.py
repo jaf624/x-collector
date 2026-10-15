@@ -673,11 +673,24 @@ def run_rss_probe():
         try:
             req = urllib.request.Request(_u, headers={"User-Agent": _ua, "Accept": "application/rss+xml,application/xml,atom+xml,*/*"})
             with urllib.request.urlopen(req, timeout=20, context=_ctx) as r:
-                body = r.read(200000).decode("utf-8", "ignore")
+                body = r.read(2000000).decode("utf-8", "ignore")
                 items = len(re.findall(r"<item[ >]", body)) + len(re.findall(r"<entry[ >]", body))
                 _tm = re.search(r"<item[\s\S]*?<title>(.*?)</title>", body) or re.search(r"<entry[\s\S]*?<title[^>]*>(.*?)</title>", body)
                 rec.update(status=r.status, items=items, is_feed=items > 0,
                            sample=re.sub(r"\s+", " ", (_tm.group(1) if _tm else ""))[:120] if items else "")
+                # GNEWS 深度诊断：用正式 parse_rss_items + 日期解析 + 302 原文解析，定位为何机构采集0条
+                if _name.startswith("GNEWS") and items:
+                    try:
+                        _its = parse_rss_items(body, _u)[:5]
+                        _diag = []
+                        for _it in _its:
+                            _real = resolve_gnews_url(_it["link"])
+                            _diag.append({"title": _it["title"][:60], "date": str(_it["date"]),
+                                          "link": _it["link"][:70], "real": _real[:90],
+                                          "resolved": ("news.google.com" not in _real)})
+                        rec["diag"] = _diag
+                    except Exception as _e:
+                        rec["diag_err"] = repr(_e)[:120]
         except urllib.error.HTTPError as e:
             rec.update(status=e.code, items=0, is_feed=False)
         except Exception as e:
