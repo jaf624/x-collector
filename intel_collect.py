@@ -583,6 +583,76 @@ def link_noise(text):
     return n >= 8 and len(head) / max(1, n) < 70
 
 
+
+def run_rss_probe():
+    """权威源 RSS 通道探活（随主采集在海外节点跑，结果随 data 提交）。只记录真实可达状态，不编造 feed_url。"""
+    import ssl as _ssl, datetime as _dt, urllib.parse as _up
+    _ctx = _ssl.create_default_context(); _ctx.check_hostname=False; _ctx.verify_mode=_ssl.CERT_NONE
+    _ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+    def _gnews(site, kw="china OR chinese"):
+        q = _up.quote("site:%s (%s)" % (site, kw))
+        return "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en" % q
+    _cands = {
+        "GNEWS-路透": _gnews("reuters.com"),
+        "GNEWS-AP": _gnews("apnews.com"),
+        "GNEWS-AFP": _gnews("france24.com"),
+        "GNEWS-彭博": _gnews("bloomberg.com"),
+        "GNEWS-日经": _gnews("asia.nikkei.com"),
+        "GNEWS-金融时报": _gnews("ft.com"),
+        "GNEWS-华尔街日报": _gnews("wsj.com"),
+        "GNEWS-纽约时报": _gnews("nytimes.com"),
+        "GNEWS-经济学人": _gnews("economist.com"),
+        "GNEWS-路透-China": "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en" % _up.quote("reuters.com china technology OR rare earth OR tariff OR military"),
+        "AP直接feed": "https://apnews.com/feed",
+        "共同社英文": "https://english.kyodonews.net/rss/news.xml",
+        "共同社中文": "https://chinese.kyodonews.net/rss/all.xml",
+        "日经中文": "https://cn.nikkei.com/rss/rss.xml",
+        "BBC中文": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+        "美国国务院": "https://www.state.gov/feed/",
+        "美国国防部": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
+        "商务部新闻": "https://www.commerce.gov/news/press-releases/rss.xml",
+        "USTR新闻": "https://ustr.gov/feeds/press-releases.xml",
+        "能源部FE": "https://www.energy.gov/fe/newsroom/rss.xml",
+        "NATO": "https://www.nato.int/webservices/rss/news.xml",
+        "欧盟presscorner": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+        "日本外务省": "https://www.mofa.go.jp/rss/english.xml",
+        "日本经产省": "https://www.meti.go.jp/rss/whatsnew_e.xml",
+        "USNI": "https://news.usni.org/feed",
+        "DefenseNews": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+        "Mining": "https://www.mining.com/feed/",
+        "OilPrice": "https://oilprice.com/rss/main",
+        "IMF": "https://www.imf.org/en/News/RSS?language=eng",
+        "USGS": "https://www.usgs.gov/news/rss.xml",
+        "IEA": "https://www.iea.org/news.xml",
+        "WTO": "https://www.wto.org/library/rss/latestnews_e.xml",
+    }
+    out = []
+    for _name, _u in _cands.items():
+        rec = {"name": _name, "url": _u}
+        try:
+            req = urllib.request.Request(_u, headers={"User-Agent": _ua, "Accept": "application/rss+xml,application/xml,atom+xml,*/*"})
+            with urllib.request.urlopen(req, timeout=20, context=_ctx) as r:
+                body = r.read(200000).decode("utf-8", "ignore")
+                items = len(re.findall(r"<item[ >]", body)) + len(re.findall(r"<entry[ >]", body))
+                _tm = re.search(r"<item[\s\S]*?<title>(.*?)</title>", body) or re.search(r"<entry[\s\S]*?<title[^>]*>(.*?)</title>", body)
+                rec.update(status=r.status, items=items, is_feed=items > 0,
+                           sample=re.sub(r"\s+", " ", (_tm.group(1) if _tm else ""))[:120] if items else "")
+        except urllib.error.HTTPError as e:
+            rec.update(status=e.code, items=0, is_feed=False)
+        except Exception as e:
+            rec.update(status=-1, items=0, is_feed=False, err=str(e)[:80])
+        out.append(rec)
+    try:
+        json.dump({"probed_at": _dt.datetime.utcnow().isoformat() + "Z", "results": out},
+                  open(os.path.join(DATA, "rss_probe.json"), "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=1)
+    except Exception as e:
+        print("[probe] 写文件失败 %s" % repr(e)[:80], flush=True)
+    _ok = [r["name"] for r in out if r["is_feed"]]
+    print("[probe] FEED_OK %d/%d: %s" % (len(_ok), len(out), ", ".join(_ok)), flush=True)
+
+
+
 def main():
     if not KEY:
         print("[intel] 未配置 JINA_KEY，跳过"); return
@@ -1086,6 +1156,7 @@ def main():
         print(f"[intel] 全文口径滤除率 {dropped}/{full_total} = {round(100*dropped/full_total)}%；"
               f"供模型研判仅取 intel_brief.json（{len(brief)} 篇）", flush=True)
     print(f"[intel] 本轮新增 {added}，feed 累计 {len(feed)}，brief 累计 {len(brief)}", flush=True)
+    run_rss_probe()
     print("INTEL_DONE")
 
 
