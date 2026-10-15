@@ -450,12 +450,13 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": null,
-  "kind": null,
-  "status": "need_jina",
+  "feed_url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
+  "kind": "path",
+  "status": "active",
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 80,
+  "note": "10-15海外节点探活直连可用,补RSS"
  },
  {
   "host": "international.gc.ca",
@@ -1397,12 +1398,13 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": null,
-  "kind": null,
-  "status": "need_jina",
+  "feed_url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+  "kind": "path",
+  "status": "active",
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 80,
+  "note": "10-15海外节点探活BBC中文38条可用,补RSS"
  },
  {
   "host": "abc.net.au",
@@ -6789,12 +6791,13 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 0,
-  "feed_url": null,
-  "kind": null,
-  "status": "need_jina",
+  "feed_url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
+  "kind": "path",
+  "status": "active",
   "latest": null,
   "recent30": 0,
-  "china_hits": 0
+  "china_hits": 80,
+  "note": "10-15海外节点探活直连可用,补RSS"
  },
  {
   "host": "ec.europa.eu",
@@ -6979,5 +6982,230 @@
   "latest": "2026-10-14",
   "recent30": 0,
   "china_hits": 1
+ },
+ {
+  "host": "news.google.com/reuters",
+  "base": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "路透社（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "权威硬新闻·10-15接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-10-15",
+  "note": "探活100条可用,302解析原文"
+ },
+ {
+  "host": "news.google.com/apnews",
+  "base": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "美联社AP（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "权威硬新闻·10-15接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-10-15",
+  "note": "探活100条可用"
+ },
+ {
+  "host": "news.google.com/france24",
+  "base": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "法新社AFP（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "权威硬新闻·10-15接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-10-15",
+  "note": "探活100条可用"
+ },
+ {
+  "host": "news.google.com/bloomberg",
+  "base": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "彭博社（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "权威硬新闻·10-15接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-10-15",
+  "note": "探活100条可用"
+ },
+ {
+  "host": "news.google.com/nikkei",
+  "base": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "日本经济新闻（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "权威硬新闻·10-15接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-10-15",
+  "note": "探活100条可用"
+ },
+ {
+  "host": "news.google.com/ft",
+  "base": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "金融时报（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "权威硬新闻·10-15接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-10-15",
+  "note": "探活100条可用"
+ },
+ {
+  "host": "news.google.com/wsj",
+  "base": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "华尔街日报（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "权威硬新闻·10-15接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-10-15",
+  "note": "探活100条可用"
+ },
+ {
+  "host": "news.google.com/nytimes",
+  "base": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "纽约时报（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "权威硬新闻·10-15接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-10-15",
+  "note": "探活100条可用"
+ },
+ {
+  "host": "news.google.com/economist",
+  "base": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "经济学人（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "权威硬新闻·10-15接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-10-15",
+  "note": "探活100条可用"
  }
 ]
