@@ -12,6 +12,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Probe authoritative RSS feeds
+        run: python3 rss_probe.py
       - name: International China-risk public news aggregation via Jina
         env:
           JINA_KEY: ${{ secrets.JINA_KEY }}
@@ -24,7 +26,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           if ! git diff --staged --quiet; then
-            git commit -m "data: intel watch feed update"
+            git commit -m "data: intel watch feed update + rss probe"
             for i in 1 2 3; do
               git pull --rebase origin main && git push && break || { echo "push retry $i"; sleep 6; }
             done
