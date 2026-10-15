@@ -62,3 +62,33 @@ json.dump({"probed_at":datetime.datetime.utcnow().isoformat()+"Z","results":out}
           open("data/rss_probe.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
 ok=[r["name"] for r in out if r["is_feed"]]
 print("FEED_OK %d/%d: %s" % (len(ok),len(out),", ".join(ok)))
+
+# ---- 自提交：在 GitHub Actions runner 内用 GITHUB_TOKEN 提交结果（Contents API 对 workflow 文件有限制）----
+def _self_commit():
+    import subprocess, os
+    tok = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if not tok:
+        print("no GITHUB_TOKEN, skip commit"); return
+    repo = os.environ.get("GITHUB_REPOSITORY", "jaf624/x-collector")
+    cmds = [
+        ["git", "config", "user.name", "github-actions[bot]"],
+        ["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"],
+        ["git", "add", "data/rss_probe.json"],
+    ]
+    for x in cmds:
+        subprocess.run(x, capture_output=True)
+    d = subprocess.run(["git", "diff", "--staged", "--quiet"])
+    if d.returncode == 0:
+        print("probe 无变化，无需提交"); return
+    subprocess.run(["git", "commit", "-m", "data: rss probe result"], capture_output=True)
+    url = "https://x-access-token:%s@github.com/%s.git" % (tok, repo)
+    for i in range(3):
+        r1 = subprocess.run(["git", "pull", "--rebase", "origin", "main"], capture_output=True, text=True)
+        r2 = subprocess.run(["git", "push", url, "HEAD:main"], capture_output=True, text=True)
+        if r2.returncode == 0:
+            print("probe 结果已提交"); return
+        print("push retry", i, r2.stderr[:120]); time.sleep(6)
+try:
+    _self_commit()
+except Exception as e:
+    print("self commit err", repr(e)[:120])
