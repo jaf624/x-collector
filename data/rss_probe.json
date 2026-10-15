@@ -1,11 +1,32 @@
 {
- "diag_at": "2026-10-15T11:03:25.129051Z",
+ "diag_at": "2026-10-15T12:01:32.723076Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
    "samples": [
+    {
+     "title": "Chinese automaker Chery to launch new EV model in ",
+     "date": "Thu, 15 Oct 2026 08:38:22",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOERrMV9Qa3Vyb2ZOZ"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOERrMV9Qa3Vyb2ZOZllqd1ZucHU2ZHZVQlNmZDhBTnhJTjVaajM1M1BaTGZ5dnZhR0x",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOERrMV9Qa3Vyb2ZOZllqd1ZucHU2ZHZVQlNmZDhBTnhJTjVaajM1M1BaTGZ5dnZhR0xhdy1nRmFFcmR1QUR0alExLUphWG9LSkUzQ3FBeEFrcms5N1VrX1lhUXdwWHU0c2ktaVAtcHR5VGVfRUQxNldxT29obEdUUEdYX1B0bXRJUkg4NEcyRjJER0QyQW9LR3dFLWxua1lIelFtWW96MDA"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322a80141555f79714c4d38446b315f506b75726f664e66596a77566e7075",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLM8Dk1_PkurofNfYjwVnpu6dvUBSfd8ANxI"
+      ],
+      "l2_head": "014ff2a8b33c0e4d7f3e4baba1f35f623c159e9bba76f501"
+     }
+    },
     {
      "title": "Chinese startup DexForce trains humanoid robots us",
      "date": "Thu, 15 Oct 2026 07:47:25",
@@ -25,27 +46,6 @@
        "AU_yqLNctVn_GuusTgP0ivHQJSNCanSmpG8awX1g"
       ],
       "l2_head": "014ff2a8b35cb559ff1aebac4e03f48af1d02523426a74a6"
-     }
-    },
-    {
-     "title": "China, North Korea open long-delayed border bridge",
-     "date": "Thu, 15 Oct 2026 02:43:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHVU01U0QzYUJLUmJ4MF9CUWZWM3MwZ1B",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHVU01U0QzYUJLUmJ4MF9CUWZWM3MwZ1BQeXBIdHBEMUdKSDd1ZGZFQnJJZmh6MVVqSE1rZVJGQzZoY0o1cjhsLVRXSzlSV19uQzdCYUtfLWJtU3pNM0NiR01ENFpySUpMUVJKSzB5ZTM3a3dzZVg0YmtWWW80TUtHc2xXZTYzWVFXVUYxbjdpQWhVNDZrWDJZdUZCU0lrS0FjVXRqVld5QQ"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322c20141555f79714c4f586950716c5f4145426c6547734b5a4f77525f51",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLOXiPql_AEBleGsKZOwR_QZ6AMTUGUM5SD3"
-      ],
-      "l2_head": "014ff2a8b39788faa5fc010195e1ac2993b047f419e80313"
      }
     }
    ]
@@ -105,6 +105,27 @@
    "items": 100,
    "samples": [
     {
+     "title": "Britain’s ‘Temu Range Rovers’ May Be Too Much of a",
+     "date": "Thu, 15 Oct 2026 06:00:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUzBxampyOGdmSVQtZ"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUzBxampyOGdmSVQtZF9VR1NiZnhqUHowTXRLRUVVa3lJaTgzRWt1QkVHcGJYRnNObjd",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMixwFBVV95cUxQUzBxampyOGdmSVQtZF9VR1NiZnhqUHowTXRLRUVVa3lJaTgzRWt1QkVHcGJYRnNObjdlZVI0cEpwdFlycnpnS09vbXZ5Q1E4cmloUEF4aWRWVlJFeFNmWHJEcllHeEJ0OWJ6MVlScFBiWXN0UUx2RmRfb2hTQkJPWVpUNVFxS2dwTU9aRVZOeGgyY3NuOHJEQ203RDRWbjE1X3Z0eUk2QUVBQkZZa2d3R0JZVTk3b0V6ZDJ6TDVFeHhqSFBFVDNN"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322c70141555f79714c505330716a6a7238676649542d645f554753626678",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLPS0qjjr8gfIT-d_UGSbfxjPz0MtKEEUkyI"
+      ],
+      "l2_head": "014ff2a8b3d2d2a8e3afc81f213f9dfd41926dfc633f3d0c"
+     }
+    },
+    {
      "title": "China’s Backdoor Bond-Buying Talk Swirls on $600 B",
      "date": "Wed, 14 Oct 2026 23:00:00",
      "chain": [
@@ -123,27 +144,6 @@
        "AU_yqLPWF2WXifWenueYOXGdE-OiIoqqJlGbePLS"
       ],
       "l2_head": "014ff2a8b3d617659789f59e9ee79839719d13e3a2228aaa"
-     }
-    },
-    {
-     "title": "Apple Prepares to Debut First AI Features in China",
-     "date": "Wed, 14 Oct 2026 19:50:37",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzl6TER0VWJDcVVzT"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzl6TER0VWJDcVVzTm52elZnc2NHWDNhd09wS1ZfQ25XUFhOS3hqS1QwQ3VNbGlmUFV",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzl6TER0VWJDcVVzTm52elZnc2NHWDNhd09wS1ZfQ25XUFhOS3hqS1QwQ3VNbGlmUFVqbTlzeTVac21zUFVNMXRJZHM4RjZXMW5qaTE2UXQzRXA0RFRRcnlJUk1CR3lzb1BKZGljbkxvZ0RJOC1oREttNHNtTHQ4NVpUUm42MWpUTDE4Vk5LLUlBV2pNaWVYVTRzVndLbm1VUzFMRHFsejVHSURlQlc5UU5rSQ"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b30141555f79714c4d4f397a4c44745562437155734e6e767a56677363",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMO9zLDtUbCqUsNnvzVgscGX3awOpKV_CnW"
-      ],
-      "l2_head": "014ff2a8b30ef732c3b546c2a94b0d9efcd582c7065f76b0"
      }
     }
    ]
@@ -224,24 +224,24 @@
      }
     },
     {
-     "title": "Exclusive | The Houthis Are Building an Advanced M",
-     "date": "Wed, 14 Oct 2026 02:00:00",
+     "title": "Pernod Ricard Primes Potential Mumbai Listing as D",
+     "date": "Thu, 15 Oct 2026 10:27:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS"
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNEMzV0tWQnhUaEItQ"
      ],
-     "final": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS0FwY082d09qTWxQTk9majc3Mnp4cFlxSjI5NFVaZE83ajhKMWl",
+     "final": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNEMzV0tWQnhUaEItQl9sMzBVdndCcmFzRTh6RzBlVWZnNm9NenpVSk9KUFczUF9WVmh",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS0FwY082d09qTWxQTk9majc3Mnp4cFlxSjI5NFVaZE83ajhKMWlzOHZHcWlwRkRLaXJ1Z0JtM0lRcHFaQzhpalRhd3NLNFBsY2o4RWxDZUplOGNGRXRSdFBIUEZTM1BfY25uSmV4dHkyUQ"
+      "CANON:https://news.google.com/rss/articles/CBMivgFBVV95cUxQNEMzV0tWQnhUaEItQl9sMzBVdndCcmFzRTh6RzBlVWZnNm9NenpVSk9KUFczUF9WVmhmMjgxeUtrWHJSMFZxeG1QanJxSkNUeG1YX2cwdENGN1VkdnBSaC1VWWV4alhGNVh3WGpGZ3FPanA0VHBacWg4YTN6SjZ1R1gzQ09uTmVYTFVlODhVZ05KSVlQOVVrSDRHUVhtR0VmOVl4LVdXYXdfRnRldEpUWWVCYUZ2SkpNMHpGTGhB"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "0813227e41555f79714c4d484e4a42484a78355732357a6e4b4170634f36774f",
+      "raw_head": "081322be0141555f79714c50344333574b5642785468422d425f6c3330557677",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLMHNJBHJx5W25znKApcO6wOjMlPNOfj772z"
+       "AU_yqLP4C3WKVBxThB-B_l30UvwBrasE8zG0eUfg"
       ],
-      "l2_head": "014ff2a8b307349047271e56db9ce7280a5c3bac0e8cc94f"
+      "l2_head": "014ff2a8b3f80b758a541c53841f81fe5df452fc01adab04"
      }
     }
    ]
