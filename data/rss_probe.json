@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-15T05:34:49.089741Z",
+ "probed_at": "2026-10-15T06:18:59.917260Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -15,7 +15,7 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "The not-so-secret vulnerability in Ukraine’s drone arsenal? Chinese technology - AP News"
+   "sample": "New China-North Korea bridge opens after more than a decade of delay - AP News"
   },
   {
    "name": "GNEWS-AFP",
@@ -63,7 +63,7 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Rogue A.I. Agents from China Chatted with Researchers - The New York Times"
+   "sample": "North Korea and China Open Their Biggest Border Bridge - The New York Times"
   },
   {
    "name": "GNEWS-经济学人",
@@ -117,7 +117,7 @@
    "status": 200,
    "items": 38,
    "is_feed": true,
-   "sample": "<![CDATA[令人窒息的霧霾蔓延東南亞，誰之過？]]>"
+   "sample": "<![CDATA[中國和印度不算老友，尼泊爾想團結他們應對氣候威脅]]>"
   },
   {
    "name": "美国国务院",
@@ -226,9 +226,10 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 404,
+   "status": -1,
    "items": 0,
-   "is_feed": false
+   "is_feed": false,
+   "err": "The read operation timed out"
   },
   {
    "name": "IEA",
