@@ -1,0 +1,249 @@
+{
+ "probed_at": "2026-10-15T05:34:49.089741Z",
+ "results": [
+  {
+   "name": "GNEWS-路透",
+   "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Trucks line up as long-delayed China-North Korea bridge officially opens - Reuters"
+  },
+  {
+   "name": "GNEWS-AP",
+   "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "The not-so-secret vulnerability in Ukraine’s drone arsenal? Chinese technology - AP News"
+  },
+  {
+   "name": "GNEWS-AFP",
+   "url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Business - Paris Motor Show kicks off as China-EU rivalry heats up - France 24"
+  },
+  {
+   "name": "GNEWS-彭博",
+   "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "China’s Backdoor Bond-Buying Talk Swirls on $600 Billion Buildup - Bloomberg.com"
+  },
+  {
+   "name": "GNEWS-日经",
+   "url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Memory breakthrough by China's CXMT puts chip rivals on back foot - Nikkei Asia"
+  },
+  {
+   "name": "GNEWS-金融时报",
+   "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "China’s exports surge 36% as AI-related shipments boom - Financial Times"
+  },
+  {
+   "name": "GNEWS-华尔街日报",
+   "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "With China Facing More Trade Barriers, It Can’t Afford to Lose Europe - WSJ"
+  },
+  {
+   "name": "GNEWS-纽约时报",
+   "url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Rogue A.I. Agents from China Chatted with Researchers - The New York Times"
+  },
+  {
+   "name": "GNEWS-经济学人",
+   "url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Another warning sign for China’s economy: falling consumer credit - The Economist"
+  },
+  {
+   "name": "GNEWS-路透-China",
+   "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "China September rare earth exports rise 6.7% from a year earlier - Reuters"
+  },
+  {
+   "name": "AP直接feed",
+   "url": "https://apnews.com/feed",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社英文",
+   "url": "https://english.kyodonews.net/rss/news.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社中文",
+   "url": "https://chinese.kyodonews.net/rss/all.xml",
+   "status": -1,
+   "items": 0,
+   "is_feed": false,
+   "err": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "name": "日经中文",
+   "url": "https://cn.nikkei.com/rss/rss.xml",
+   "status": 202,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "BBC中文",
+   "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+   "status": 200,
+   "items": 38,
+   "is_feed": true,
+   "sample": "<![CDATA[令人窒息的霧霾蔓延東南亞，誰之過？]]>"
+  },
+  {
+   "name": "美国国务院",
+   "url": "https://www.state.gov/feed/",
+   "status": 200,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "美国国防部",
+   "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
+   "status": 200,
+   "items": 20,
+   "is_feed": true,
+   "sample": "Hegseth: Autonomous Warfare Command Has Always Been End State"
+  },
+  {
+   "name": "商务部新闻",
+   "url": "https://www.commerce.gov/news/press-releases/rss.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USTR新闻",
+   "url": "https://ustr.gov/feeds/press-releases.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "能源部FE",
+   "url": "https://www.energy.gov/fe/newsroom/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "NATO",
+   "url": "https://www.nato.int/webservices/rss/news.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "欧盟presscorner",
+   "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+   "status": 406,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "日本外务省",
+   "url": "https://www.mofa.go.jp/rss/english.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "日本经产省",
+   "url": "https://www.meti.go.jp/rss/whatsnew_e.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USNI",
+   "url": "https://news.usni.org/feed",
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "VIDEO: F-35C Lands on New Navy Aircraft Carrier Class for First Time"
+  },
+  {
+   "name": "DefenseNews",
+   "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+   "status": 200,
+   "items": 25,
+   "is_feed": true,
+   "sample": "<![CDATA[France mulls keeping Charles de Gaulle carrier sailing after 2038]]>"
+  },
+  {
+   "name": "Mining",
+   "url": "https://www.mining.com/feed/",
+   "status": 200,
+   "items": 29,
+   "is_feed": true,
+   "sample": "Tenaris produces new steel grade for Canadian energy operators "
+  },
+  {
+   "name": "OilPrice",
+   "url": "https://oilprice.com/rss/main",
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "Oil Prices Fall as Trump Considers Easing Sanctions on Shadow Fleet Tankers"
+  },
+  {
+   "name": "IMF",
+   "url": "https://www.imf.org/en/News/RSS?language=eng",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USGS",
+   "url": "https://www.usgs.gov/news/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "IEA",
+   "url": "https://www.iea.org/news.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "WTO",
+   "url": "https://www.wto.org/library/rss/latestnews_e.xml",
+   "status": 200,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  }
+ ]
+}
