@@ -1,81 +1,17 @@
 {
- "diag_at": "2026-10-15T17:08:08.485733Z",
+ "diag_at": "2026-10-15T18:00:28.039414Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
-   "samples": [
-    {
-     "title": "For Chinese automakers, the road to survival runs ",
-     "date": "Thu, 15 Oct 2026 09:59:14",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdVlfNHVJQVdKWVBFU"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdVlfNHVJQVdKWVBFUWpOSXlCLUpWQmQybmxlNmtkV2Vya19DTGg2THI5ZnJjckxKdkJ",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiugFBVV95cUxNdVlfNHVJQVdKWVBFUWpOSXlCLUpWQmQybmxlNmtkV2Vya19DTGg2THI5ZnJjckxKdkJWdm01M01MdkpBWWFVWkk0Q3pnLVpWb2RHUVVmaGNaZndkTi0tanJSYlJtUjFiYjlheFpoNG54V0FEMHR2Z1BGVUhDUnZZTms4N3dXY0t4UV9mXy1aTmFnbllMRWl3WUtsTzJqNFVPLUFqbkFiLXF0WFVrdWJfcTRYMzJJa2I0Rmc"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322ba0141555f79714c4d75595f34754941574a595045516a4e4979422d4a",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMuY_4uIAWJYPEQjNIyB-JVBd2nle6kdWer"
-      ],
-      "l2_head": "014ff2a8b32e63fe2e20058960f1108cd23207e25505dda7"
-     }
-    },
-    {
-     "title": "This Chinese export boom really has legs – and win",
-     "date": "Thu, 15 Oct 2026 06:54:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlowanVKaFdPYlZrO"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlowanVKaFdPYlZrOXM4Nk1Fc01KSzRMdWpzd0czb3pqT0kzYVkxbUNGeVZTRVprck1",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlowanVKaFdPYlZrOXM4Nk1Fc01KSzRMdWpzd0czb3pqT0kzYVkxbUNGeVZTRVprck16MEY0SHdKODRjMFRrQjJjMzFfRFY0ZjVGWFdhbUsxT0lKYW5nR0NqVGJOX3g2VDZMbUh6d3d1bGt5cUtPV0hrUl9yTDVZbjRENDRGSnRTMmdJdjJqUHRzYVpkRXMzTnJn"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "0813229a0141555f79714c4d565a306a754a68574f62566b397338364d45734d",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMVZ0juJhWObVk9s86MEsMJK4LujswG3ozj"
-      ],
-      "l2_head": "014ff2a8b3156748ee26158e6d593db3ce8c12c3092b82ee"
-     }
-    }
-   ]
+   "items": 0,
+   "samples": []
   },
   "AP": {
    "feed": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
    "samples": [
-    {
-     "title": "China opens a joint airfield in Laos with construc",
-     "date": "Thu, 15 Oct 2026 04:20:21",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXY"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXYWgwSmdpRkxzODZ5S0twS2hoRGZUejBQbm80bzJFaG5Xc25FaFc",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXYWgwSmdpRkxzODZ5S0twS2hoRGZUejBQbm80bzJFaG5Xc25FaFc2YzFWNTg5X3UwWC1fT3dLR0N2T2s2WmlYemdwNkxFNWQxOFlLQmJaWjBkTVEwQWRBS3lNTUpKRUJUUTZmVkRKQ1VjeXpDVWd1cE5wUUNWNzdfLTU5SENaTkRzYXg1S01lMEVxaE5XeERHYmdn"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322a60141555f79714c4d2d4557724a6b4f48326863576168304a6769464c",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLM-EWrJkOH2hcWah0JgiFLs86yKKpKhhDfT"
-      ],
-      "l2_head": "014ff2a8b33e116ac990e1f685c59a8742608852ecf3ac8a"
-     }
-    },
     {
      "title": "The not-so-secret vulnerability in Ukraine’s drone",
      "date": "Wed, 14 Oct 2026 04:09:00",
@@ -95,6 +31,27 @@
        "AU_yqLPrpEklE5_K4hFjKsEEiUP3ojeHlg5FTGHt"
       ],
       "l2_head": "014ff2a8b3eba44925139fcae211632ac1048943f7a23787"
+     }
+    },
+    {
+     "title": "China opens a joint airfield in Laos with construc",
+     "date": "Thu, 15 Oct 2026 04:20:21",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXY"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXYWgwSmdpRkxzODZ5S0twS2hoRGZUejBQbm80bzJFaG5Xc25FaFc",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUVXckprT0gyaGNXYWgwSmdpRkxzODZ5S0twS2hoRGZUejBQbm80bzJFaG5Xc25FaFc2YzFWNTg5X3UwWC1fT3dLR0N2T2s2WmlYemdwNkxFNWQxOFlLQmJaWjBkTVEwQWRBS3lNTUpKRUJUUTZmVkRKQ1VjeXpDVWd1cE5wUUNWNzdfLTU5SENaTkRzYXg1S01lMEVxaE5XeERHYmdn"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322a60141555f79714c4d2d4557724a6b4f48326863576168304a6769464c",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLM-EWrJkOH2hcWah0JgiFLs86yKKpKhhDfT"
+      ],
+      "l2_head": "014ff2a8b33e116ac990e1f685c59a8742608852ecf3ac8a"
      }
     }
    ]
@@ -204,7 +161,7 @@
    "samples": [
     {
      "title": "With China Facing More Trade Barriers, It Can’t Af",
-     "date": "Wed, 14 Oct 2026 18:39:00",
+     "date": "Wed, 14 Oct 2026 18:41:29",
      "chain": [
       "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUQzNFBYX1hBcGFYN"
      ],
@@ -225,7 +182,7 @@
     },
     {
      "title": "Pernod Ricard Primes Potential Mumbai Listing as D",
-     "date": "Thu, 15 Oct 2026 10:27:00",
+     "date": "Thu, 15 Oct 2026 11:33:23",
      "chain": [
       "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNEMzV0tWQnhUaEItQ"
      ],
