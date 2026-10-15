@@ -337,6 +337,47 @@ def feed_get(url, timeout=20):
         return None, ""
 
 
+class _GNR(urllib.request.HTTPRedirectHandler):
+    """拦截 Google News 跳转，直接取 Location 真实原文 URL（不跟随）。"""
+    def __init__(self):
+        self.loc = None
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        self.loc = newurl
+        return None
+
+
+def resolve_gnews_url(u, timeout=12):
+    """Google News RSS 文章链接（news.google.com/rss/articles/...）经 302 跳到原文。
+    海外节点直接取 Location；若落到中间页则从 HTML 提取首个外部原文链接。失败返回原 URL。"""
+    if not u or "news.google.com" not in u:
+        return u
+    try:
+        h = _GNR()
+        op = urllib.request.build_opener(h)
+        req = urllib.request.Request(u, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
+        try:
+            r = op.open(req, timeout=timeout)
+            final = r.geturl()
+            body = r.read(200000).decode("utf-8", "ignore")
+            r.close()
+            if "news.google.com" not in final:
+                return final
+        except urllib.error.HTTPError as e:
+            if h.loc and "news.google.com" not in h.loc:
+                return h.loc
+            body = e.read(200000).decode("utf-8", "ignore") if hasattr(e, "read") else ""
+        except Exception:
+            body = ""
+        # 中间页兜底：提取外部原文链接（排除 google/gstatic 自有域）
+        for m in re.findall(r'https?://[^\s"\'<>\\]+', body or ""):
+            mm = re.match(r'https?://([^/]+)', m)
+            if mm and not ("google." in mm.group(1) or "gstatic" in mm.group(1) or "googlenews" in mm.group(1)):
+                return m.rstrip("\\")
+        return u
+    except Exception:
+        return u
+
+
 # ---- 英文硬新闻机器翻译（Google 免费端点，仅海外节点；逐字翻译不杜撰，供国内据中文事实成稿）----
 # 两个不同主机端点，任一被限流即降级到另一个，规避共享 runner IP 的 429
 GTX_ENDPOINTS = [
@@ -885,6 +926,14 @@ def main():
                             break
                 except Exception:
                     items = []
+            # Google News 聚合源：把跳转链接解析成真实原文 URL（识别为路透/AP等硬新闻域并直读原文）
+            if "news.google.com/rss" in s.get("feed_url", "") and items:
+                ftitle = s.get("name", "")[:48]   # Google News channel title 不可用，用配置的规范站名
+                def _res(it):
+                    it["link"] = resolve_gnews_url(it["link"]) or it["link"]
+                    return it
+                with ThreadPoolExecutor(max_workers=12) as _gx:
+                    list(_gx.map(_res, items[:INST_PER_FEED]))
             return s, items, ftitle
 
         host_name = {}
