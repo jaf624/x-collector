@@ -1,5 +1,5 @@
 {
- "diag_at": "2026-10-17T00:19:42.136479Z",
+ "diag_at": "2026-10-17T04:54:18.743232Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
@@ -29,7 +29,7 @@
     },
     {
      "title": "Chinese online retailer Temu agrees to data privac",
-     "date": "Fri, 16 Oct 2026 21:22:39",
+     "date": "Fri, 16 Oct 2026 15:48:00",
      "chain": [
       "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUURFUXU2ZzFtZmdDW"
      ],
@@ -57,7 +57,7 @@
    "samples": [
     {
      "title": "China moves to curb tech exports, including AI, ci",
-     "date": "Fri, 16 Oct 2026 14:59:03",
+     "date": "Fri, 16 Oct 2026 12:20:00",
      "chain": [
       "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGpqZzJpbGpZRmVEd"
      ],
@@ -77,24 +77,24 @@
      }
     },
     {
-     "title": "Philippines protests Chinese envoy’s remarks, call",
-     "date": "Fri, 16 Oct 2026 09:44:00",
+     "title": "China sentences 6 for lead-tainted kindergarten fo",
+     "date": "Fri, 16 Oct 2026 14:25:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRXM1UzlFMTE5c2ltZ"
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSDU3R01CcFBJLVRjN"
      ],
-     "final": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRXM1UzlFMTE5c2ltZXE0bWdCTFNkaVpYeFJLeE1pUnAySDYzVkFkRF9BNHBiU3QtZ1F",
+     "final": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSDU3R01CcFBJLVRjNGRfOHJ4ZG80cTFVWUVPcC1ITnFfS2lHRWROa2JpU05wSTlHMU5",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiywFBVV95cUxQRXM1UzlFMTE5c2ltZXE0bWdCTFNkaVpYeFJLeE1pUnAySDYzVkFkRF9BNHBiU3QtZ1FFTUJwVDdvd2xFYWhuY2RodFY5Vm1rNER1S2cyUnZwTWc4cWJPR2VhT1lGVURNS1hlY2laZWZJR2NDS00xbGFuMnFuVkZVTEFYeG9BYmRpZnhzUkM1ZjFtU1F6SUF5cm9TcVN3VnlMUTNBaUJSMzlUOXl0ekZ5aTVpSDRreDlNMG8yNDVNRlFuS2NVQzRHWk41OA"
+      "CANON:https://news.google.com/rss/articles/CBMimwFBVV95cUxPSDU3R01CcFBJLVRjNGRfOHJ4ZG80cTFVWUVPcC1ITnFfS2lHRWROa2JpU05wSTlHMU5mVGxLWkM4eDRqTVRxTkk4S2FkU0czN0dmaWNyLWthME9GNnVPSzFfZkNRc3Y3d0hSRFRmWDgyb2dKbUpLdmJUdVFDd1UwNWg5YzR0T2hsbU05eERDc3ctVkRrS1d4TUJoOA"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322cb0141555f79714c5045733553394531313973696d6571346d67424c53",
+      "raw_head": "0813229b0141555f79714c4f483537474d427050492d546334645f387278646f",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLPEs5S9E119simeq4mgBLSdiZXxRKxMiRp2"
+       "AU_yqLOH57GMBpPI-Tc4d_8rxdo4q1UYEOp-HNq_"
       ],
-      "l2_head": "014ff2a8b3c4b394bd135d7db2299eab89a004b49d8995f1"
+      "l2_head": "014ff2a8b387e7b18c0693c8f9373877ff2bc5da38ab5518"
      }
     }
    ]
@@ -105,45 +105,45 @@
    "items": 100,
    "samples": [
     {
-     "title": "China Warns EU Not to Underestimate Ability to Fig",
-     "date": "Fri, 16 Oct 2026 13:09:09",
+     "title": "Chinese Stocks Turn Biggest Losers as Global AI Tr",
+     "date": "Sat, 17 Oct 2026 00:00:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNlpYbl84OXNYR2YwZ"
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSm5XMW9DbkZqRlZJU"
      ],
-     "final": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNlpYbl84OXNYR2YwZXZ1X1J1U1J0RHNxTGZmdlF1NVYxTV90aGxfekt4OEY2blNISGJ",
+     "final": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSm5XMW9DbkZqRlZJUDVKZ3k1a1FjLVR5NE12UGhaOEo2Yk93RWE0bTJZNTZraHFTdUZ",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMisgFBVV95cUxNNlpYbl84OXNYR2YwZXZ1X1J1U1J0RHNxTGZmdlF1NVYxTV90aGxfekt4OEY2blNISGJyZXRVRWdpdEV0QlA0M0FIdlV2SmctdzNLa1I0ZHhQcU0tLV8tejUtTlBZVGU4bGpmY1ZpT1pNc3hpWnVvLVA0d0ZpckJxYWlPRHg3LW5vS2hZSU1NOE95UktCSzVBQU5tc2F6UHE4LXZaQXNWekpBMkFsRVNpUFVn"
+      "CANON:https://news.google.com/rss/articles/CBMiswFBVV95cUxQSm5XMW9DbkZqRlZJUDVKZ3k1a1FjLVR5NE12UGhaOEo2Yk93RWE0bTJZNTZraHFTdUZaOUZwdG1OYkVFdWlZVGF3UU04Y3RVSFRWTks4azd2ZU1wSDRnbFdrc1hIMlNZZWdLZzdYeFozeUxzTzV2aVZiaWVXTlN0YlV5cUNOWnpVR2VVV2h1MTFuWGt5dGtGb3o3cjVPOWV1T25HWW9leDFNTnAtMHI4ZURLbw"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322b20141555f79714c4d365a586e5f383973584766306576755f52755352",
+      "raw_head": "081322b30141555f79714c504a6e57316f436e466a46564950354a6779356b51",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLM6ZXn_89sXGf0evu_RuSRtDsqLffvQu5V1"
+       "AU_yqLPJnW1oCnFjFVIP5Jgy5kQc-Ty4MvPhZ8J6"
       ],
-      "l2_head": "014ff2a8b33a6579fff3db1719fd1ebeefd1b9246d0eca8b"
+      "l2_head": "014ff2a8b3c99d6d680a716315520fe49832e6441cf93cb8"
      }
     },
     {
-     "title": "China’s CXMT Swings to Profit After Memory Chip Pr",
-     "date": "Fri, 16 Oct 2026 15:19:50",
+     "title": "US-China Blame Game Over Global Economy Tilts in B",
+     "date": "Fri, 16 Oct 2026 11:00:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPckktSFZpNTdUaDZ3U"
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdDRPeUxManE1WE5Nc"
      ],
-     "final": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPckktSFZpNTdUaDZ3UjVOakg4azFVRXVVRXBmZWpKcl95Rzk2dDl6ZHFia1gzM1Vhay1",
+     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdDRPeUxManE1WE5NcmVPOEM1dU95NGltN0tMZnV6OGhwVDQxak00d25yOU1pNS00ZUM",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMisAFBVV95cUxPckktSFZpNTdUaDZ3UjVOakg4azFVRXVVRXBmZWpKcl95Rzk2dDl6ZHFia1gzM1Vhay1vVV8tR3ZmNUdiQjdzdEd4Ul9BbUxkWktON0tsM3pINHFfbHA0VnMwVFl1VTZCUnFtWVBxZHY2NjJjWXdmRUFzTVZzRkFaUDRPd2hmNHVEZHYxQnhPb0JUamg4ajhVSWxBcHdDS2lqWGZsMHBDNC1EMG5ZU0xMVQ"
+      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxPdDRPeUxManE1WE5NcmVPOEM1dU95NGltN0tMZnV6OGhwVDQxak00d25yOU1pNS00ZUMwREc1THFLdkNJY0VNM0VMOUwtcHhKR1VfSDF1SlMzdEROVXlzMlZiemUtRUxBNGQ4R1pDZldjLW15bWVyMGVtSElGVlduZUNxN0dMamNsYUZJRHR6cy11Y01lRW5SaGZMSDUxWUF0YkVRenNTVjZKaDZSQk1tcXY2UkZZUQ"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322b00141555f79714c4f72492d48566935375468367752354e6a48386b31",
+      "raw_head": "081322b60141555f79714c4f74344f794c4c6a7135584e4d72654f384335754f",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLOrI-HVi57Th6wR5NjH8k1UEuUEpfejJr_y"
+       "AU_yqLOt4OyLLjq5XNMreO8C5uOy4im7KLfuz8hp"
       ],
-      "l2_head": "014ff2a8b3ab23e1d58b9ed387ac11e4d8c7f24d5412e504"
+      "l2_head": "014ff2a8b3ade0ec8b2e3ab95cd32b78ef02e6e3b2e229bb"
      }
     }
    ]
@@ -224,24 +224,24 @@
      }
     },
     {
-     "title": "Exclusive | The Houthis Are Building an Advanced M",
-     "date": "Wed, 14 Oct 2026 02:00:00",
+     "title": "Science Fiction &amp; Fantasy: China Miéville’s ‘T",
+     "date": "Fri, 16 Oct 2026 15:21:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS"
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOMlVUY1Mzc0cyWUM2V"
      ],
-     "final": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS0FwY082d09qTWxQTk9majc3Mnp4cFlxSjI5NFVaZE83ajhKMWl",
+     "final": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMlVUY1Mzc0cyWUM2VWtfLVNaa3ZkWWZkWTZVMTRYSHo1dVBJd1laSFp5MnFrQ1dNVXp",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS0FwY082d09qTWxQTk9majc3Mnp4cFlxSjI5NFVaZE83ajhKMWlzOHZHcWlwRkRLaXJ1Z0JtM0lRcHFaQzhpalRhd3NLNFBsY2o4RWxDZUplOGNGRXRSdFBIUEZTM1BfY25uSmV4dHkyUQ"
+      "CANON:https://news.google.com/rss/articles/CBMingFBVV95cUxOMlVUY1Mzc0cyWUM2VWtfLVNaa3ZkWWZkWTZVMTRYSHo1dVBJd1laSFp5MnFrQ1dNVXpvakZ4SXplYklvaUJvbUtrRUNJb1NPUkZueHZjN2xGdXZ4TGd6MEtrYUZROTJNVVdHaG5lUlhldE1yZE80b1BMOHBGcENnQ1JZTGpuVldISFl0M2ZTLUh0dHVvVk10aUN4S2hkUQ"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "0813227e41555f79714c4d484e4a42484a78355732357a6e4b4170634f36774f",
+      "raw_head": "0813229e0141555f79714c4e325554635333734732594336556b5f2d535a6b76",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLMHNJBHJx5W25znKApcO6wOjMlPNOfj772z"
+       "AU_yqLN2UTcS3sG2YC6Uk_-SZkvdYfdY6U14XHz5"
       ],
-      "l2_head": "014ff2a8b307349047271e56db9ce7280a5c3bac0e8cc94f"
+      "l2_head": "014ff2a8b376513712dec1b6602e9493ff92664bdd61f758"
      }
     }
    ]
