@@ -1,250 +1,619 @@
 {
- "diag_at": "2026-10-17T16:36:47.271597Z",
- "results": {
-  "路透": {
-   "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+ "probed_at": "2026-10-17T16:56:59.937496Z",
+ "results": [
+  {
+   "name": "GNEWS-路透",
+   "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "China AI supply-chain IPOs hold firm despite valuation pullback, Citi says - Reuters",
+   "diag": [
     {
-     "title": "China AI supply-chain IPOs hold firm despite valua",
-     "date": "Sat, 17 Oct 2026 08:19:38",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcnFDdU1MSGd4Ylh4a"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcnFDdU1MSGd4Ylh4aktUWnlOM2V2RklNLXAxVm5QNThadUkzS2k1cWhoNnJpQkF3Nzk",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMixAFBVV95cUxNcnFDdU1MSGd4Ylh4aktUWnlOM2V2RklNLXAxVm5QNThadUkzS2k1cWhoNnJpQkF3Nzk2U1c5ZlJlbUhGVFVpZTIxZEJYak8yVmtjVVhBdGs5NnVjVlowQnhRaWw1enZTVjBIVS1Wd2wwMkQtV2lYelR3MTFfVVlRRTBfMlBOUTlDYlI4UXdBZEFfcUFQcVNNNHVzOTR4bnUyanUtRE9nVkdnbTk4VHJvRWVxM2xjcXhjVUI4WVh2Y3Q2Q0Fw"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322c40141555f79714c4d727143754d4c4867786258786a4b545a794e3365",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMrqCuMLHgxbXxjKTZyN3evFIM-p1VnP58Z"
-      ],
-      "l2_head": "014ff2a8b32ba82b8c2c78316d7c632936723777af14833e"
-     }
+     "title": "China AI supply-chain IPOs hold firm despite valuation pullb",
+     "date": "2026-10-17",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcnFDdU1MSGd4Ylh4a",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcnFDdU1MSGd4Ylh4aktUWnlOM2V2RklNLXAxV",
+     "resolved": false
     },
     {
-     "title": "Beijing seeks tighter grip on AI exports amid US r",
-     "date": "Fri, 16 Oct 2026 18:59:17",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMWNnS1haU3c5T3lyb"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMWNnS1haU3c5T3lybTBzQUNxZF9lMmhWaFp0Yk5UbzhDdklobHpkRHk2dExFU1dWZmV",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMWNnS1haU3c5T3lybTBzQUNxZF9lMmhWaFp0Yk5UbzhDdklobHpkRHk2dExFU1dWZmVMVENFNEVLOW9JWDdscm15VDhObXhhc1JwYjlIelZjeFJuMG9jVERmTHRNRTZtSlBRYndNc2IxZTRkdWtPUGdlWDhoSEZQTHVZNzIwMFUzWVhjT3gxUWl1X2VpM1VOM29BZElFRjlaek1uRDFQb2N5aF9FTlF4U1N4WFZRVmtyUTBLdmVJc0Rzb3E2NkZ5ZQ"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322c80141555f79714c4d3163674b585a5377394f79726d3073414371645f",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLM1cgKXZSw9Oyrm0sACqd_e2hVhZtbNTo8C"
-      ],
-      "l2_head": "014ff2a8b335720297652c3d3b2ae6d2c002a9dfdeda1561"
-     }
+     "title": "Beijing seeks tighter grip on AI exports amid US rivalry - R",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMWNnS1haU3c5T3lyb",
+     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMWNnS1haU3c5T3lybTBzQUNxZF9lMmhWaFp0Y",
+     "resolved": false
+    },
+    {
+     "title": "China's super-rich scramble to exit offshore trusts, raise c",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOHZKVXFtWXVoS3pva",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOHZKVXFtWXVoS3pva1hPOW80M3lVOE9qemFVM",
+     "resolved": false
+    },
+    {
+     "title": "Taiwan tells its people to shun Chinese anniversary events f",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOWJmMGZvT3RIdVNaN",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOWJmMGZvT3RIdVNaNi00RkxXUmxSOU1kOG9Pa",
+     "resolved": false
+    },
+    {
+     "title": "EU to propose import curbs on other Chinese sectors, says EU",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVFF1dWFoY2NKZzJmU",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVFF1dWFoY2NKZzJmU2FwQkNSVW02MXFSYV90R",
+     "resolved": false
     }
    ]
   },
-  "AP": {
-   "feed": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-AP",
+   "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "China moves to curb tech exports, including AI, citing national security risks - AP News",
+   "diag": [
     {
-     "title": "China moves to curb tech exports, including AI, ci",
-     "date": "Fri, 16 Oct 2026 14:59:03",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGpqZzJpbGpZRmVEd"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGpqZzJpbGpZRmVEdHJ1dEQzY1dTMld3RU92aGlhd0xOeFA4al9qalc4bHZLZ1BZZ1V",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGpqZzJpbGpZRmVEdHJ1dEQzY1dTMld3RU92aGlhd0xOeFA4al9qalc4bHZLZ1BZZ1ViQXI3V19Ed2gyTVNibjZqS1VkZUJaR05WMjdjVmx0LWNvaUV3Mnh4SUx5eVFKMkkySzVnUW40OW9aU2VZVVp4Q1NJbjVzQS1IZV9RWUlXc3BUY0hJMVpZT083dDR2dFVhUnZCai1mT3dqUUJR"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322a60141555f79714c4d306a6a6732696c6a594665447472757444336357",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLM0jjg2iljYFeDtrutD3cWS2WwEOvhiawLN"
-      ],
-      "l2_head": "014ff2a8b3348e38368a58d815e0edaeeb43ddc592d96c04"
-     }
+     "title": "China moves to curb tech exports, including AI, citing natio",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGpqZzJpbGpZRmVEd",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGpqZzJpbGpZRmVEdHJ1dEQzY1dTMld3RU92a",
+     "resolved": false
     },
     {
-     "title": "A humble oyster pail turned takeout icon: The Amer",
-     "date": "Fri, 16 Oct 2026 23:58:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia2ptcWl3Q0NfeDJpOFFKSUZJV1E0T1MycEcyMjdIU29YbDZFaTJ",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia2ptcWl3Q0NfeDJpOFFKSUZJV1E0T1MycEcyMjdIU29YbDZFaTJlUnRBYS1YSmdkdldRZVVmUjFabFA0UFdvNGZjR1Y5NlA1ZmhxWjRXX0lENHVrNUptTjZmZXN2OGk3QUtUOXZWZUZIbEZ2WjV5MHhHalZwcENzQVJPNmczV193UWlKaA"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322980141555f79714c4e5847476a5a6e366271546e486b6a6d7169774343",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLNXGGjZn6bqTnHkjmqiwCC_x2i8QJIFIWQ4"
-      ],
-      "l2_head": "014ff2a8b3571868d99fa6ea4e71e48e6aa2c020bfc768bc"
-     }
+     "title": "A humble oyster pail turned takeout icon: The American story",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia2ptcWl3Q0NfeDJpOFFKS",
+     "resolved": false
+    },
+    {
+     "title": "China sentences 6 for lead-tainted kindergarten food that si",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSDU3R01CcFBJLVRjN",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSDU3R01CcFBJLVRjNGRfOHJ4ZG80cTFVWUVPc",
+     "resolved": false
+    },
+    {
+     "title": "Wyoming grad student who allegedly poisoned a colleague has ",
+     "date": "2026-10-14",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWi1hdmw3WXVoZy02Z",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWi1hdmw3WXVoZy02ZnhCNmk0NERGSWlTQTBaT",
+     "resolved": false
+    },
+    {
+     "title": "China’s trade surplus nears record as pressure mounts from t",
+     "date": "2026-10-14",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQVdkTHZ3MkRKMEQyb",
+     "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQVdkTHZ3MkRKMEQybkpwQml2QmtLYmZOWjFGV",
+     "resolved": false
     }
    ]
   },
-  "彭博": {
-   "feed": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-AFP",
+   "url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "US government behind any slowdown in Ukraine's Starshield system, Musk says - France 24",
+   "diag": [
     {
-     "title": "China Warns Corrupt Officials Can’t Expect a Safe ",
-     "date": "Sat, 17 Oct 2026 05:35:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRFNXUGJmQTd2TjFnT"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRFNXUGJmQTd2TjFnTlg1QTd1WEJiVEVsU0JtM1hhRmNfYjRGR1pZaEZKcGVWZG9EaWk",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMirAFBVV95cUxQRFNXUGJmQTd2TjFnTlg1QTd1WEJiVEVsU0JtM1hhRmNfYjRGR1pZaEZKcGVWZG9EaWk3TjJ1TXVSbWZNLUJqODNxOU1oblY4dEkxdGJNR3lDM2lMbGh4Yk5SY1lEZG5zdUU4d29tX01JZFpQY3ZBYjBrdUxMd2E3NVByaTVQNERoWk9Bc2JWVTItV3Jsd1FDbVZUNVR2RkJUM0hUd2k2QTU0X2tI"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322ac0141555f79714c504453575062664137764e31674e58354137755842",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLPDSWPbfA7vN1gNX5A7uXBbTElSBm3XaFc_"
-      ],
-      "l2_head": "014ff2a8b3c34963db7c0eef37580d5f903bb9705b4c4952"
-     }
+     "title": "US government behind any slowdown in Ukraine's Starshield sy",
+     "date": "2026-10-14",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSGRTY2Q0WEFuSmpzV",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSGRTY2Q0WEFuSmpzVnNWZ1dkVkxjWTJWY1Awa",
+     "resolved": false
     },
     {
-     "title": "Chinese Stocks Turn Biggest Losers as Global AI Tr",
-     "date": "Sat, 17 Oct 2026 00:00:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSm5XMW9DbkZqRlZJU"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSm5XMW9DbkZqRlZJUDVKZ3k1a1FjLVR5NE12UGhaOEo2Yk93RWE0bTJZNTZraHFTdUZ",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiswFBVV95cUxQSm5XMW9DbkZqRlZJUDVKZ3k1a1FjLVR5NE12UGhaOEo2Yk93RWE0bTJZNTZraHFTdUZaOUZwdG1OYkVFdWlZVGF3UU04Y3RVSFRWTks4azd2ZU1wSDRnbFdrc1hIMlNZZWdLZzdYeFozeUxzTzV2aVZiaWVXTlN0YlV5cUNOWnpVR2VVV2h1MTFuWGt5dGtGb3o3cjVPOWV1T25HWW9leDFNTnAtMHI4ZURLbw"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b30141555f79714c504a6e57316f436e466a46564950354a6779356b51",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLPJnW1oCnFjFVIP5Jgy5kQc-Ty4MvPhZ8J6"
-      ],
-      "l2_head": "014ff2a8b3c99d6d680a716315520fe49832e6441cf93cb8"
-     }
+     "title": "France and Germany agree to ease EU car emissions rules in n",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0lhYnFfa2xOVThvV",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0lhYnFfa2xOVThvVGxuZnEzMzd0X3FIT3pJU",
+     "resolved": false
+    },
+    {
+     "title": "Business - Paris Motor Show kicks off as China-EU rivalry he",
+     "date": "2026-10-12",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZWFFNVhfUzBTVXpEY",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZWFFNVhfUzBTVXpEY0dNdnM2VWVHTkd1R25CZ",
+     "resolved": false
+    },
+    {
+     "title": "Access Asia - Indonesia's forest fires spark public health c",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb1RpTDgzNTJJN1Jtd",
+     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb1RpTDgzNTJJN1JtdFZqeWk4c1o2OW1Ybm01T",
+     "resolved": false
+    },
+    {
+     "title": "All contenders for UN chief receive veto: diplomat - France ",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcWxHT1pudWlXRi11Q",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcWxHT1pudWlXRi11Q29PUU40MTltVnNkQnZ5a",
+     "resolved": false
     }
    ]
   },
-  "日经": {
-   "feed": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-彭博",
+   "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "China Warns Corrupt Officials Can’t Expect a Safe Landing - Bloomberg.com",
+   "diag": [
     {
-     "title": "China rewired its army in 2016. Why is India only ",
-     "date": "Thu, 15 Oct 2026 22:59:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHFyWldWQ0lMaldHS"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHFyWldWQ0lMaldHSEkzcHlvTXE4dTA5SExBRENSeDYtdjhuVTh1bjhmNDN1NG85OU5",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHFyWldWQ0lMaldHSEkzcHlvTXE4dTA5SExBRENSeDYtdjhuVTh1bjhmNDN1NG85OU5jNTNXZW45TFI2VlNQckdFbDNUSk1pX2ZRdHhqUUZfd2s3SS1IY1Raa29ubWV4anRPSVE3bHJwX3FHdU03TWRMT1JSeE02R3QySmdRbk5VQVdnUC1ORUhFQ1NqLUZ0ejVR"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "0813229a0141555f79714c507871725a575643494c6a574748493370796f4d71",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLPxqrZWVCILjWGHI3pyoMq8u09HLADCRx6-"
-      ],
-      "l2_head": "014ff2a8b3f1aab65654220b8d6187237a72a0cabcbb4f47"
-     }
+     "title": "China Warns Corrupt Officials Can’t Expect a Safe Landing - ",
+     "date": "2026-10-17",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRFNXUGJmQTd2TjFnT",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRFNXUGJmQTd2TjFnTlg1QTd1WEJiVEVsU0JtM",
+     "resolved": false
     },
     {
-     "title": "EU seeks faster China de-risking with new diversif",
-     "date": "Fri, 16 Oct 2026 15:19:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSUFrOEZjUndtVHpOa"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSUFrOEZjUndtVHpOalNvODdFY19BUzFwa21zQ2NXc0U3bWRtdnlIM2d0c3JqUGJTdGd",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiogFBVV95cUxQSUFrOEZjUndtVHpOalNvODdFY19BUzFwa21zQ2NXc0U3bWRtdnlIM2d0c3JqUGJTdGdJdlVzYzExNWVRN1VsdXpjNmxyZWd6dW9VXzYxUjBrMUtjZC1lRGZlSGFLTnJQVHVrZ2ZqMFEyUEl4WG9vRGZDNDJkX0ZXOTRwZlpUbWlZMHhnejB4OE1WRURXZ2xrQUpUUVUtbkxaTkE"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322a20141555f79714c5049416b38466352776d547a4e6a536f383745635f",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLPIAk8FcRwmTzNjSo87Ec_AS1pkmsCcWsE7"
-      ],
-      "l2_head": "014ff2a8b3c8024f05711c264f33634a8f3b11cfc04b5a64"
-     }
+     "title": "Chinese Stocks Turn Biggest Losers as Global AI Trade Stumbl",
+     "date": "2026-10-17",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSm5XMW9DbkZqRlZJU",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSm5XMW9DbkZqRlZJUDVKZ3k1a1FjLVR5NE12U",
+     "resolved": false
+    },
+    {
+     "title": "China Plans AI Tech Export Curbs to Manage Security Risks - ",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTERMaGFSLU1xOHRlN",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTERMaGFSLU1xOHRlNmoxUlZrbU9rTm5iXzlha",
+     "resolved": false
+    },
+    {
+     "title": "Everyone Wants a Bite of China’s Egg Tart Economy - Bloomber",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaDdaeGRRaGJ5Z012c",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaDdaeGRRaGJ5Z012c0pmOTJXcFR0dmFSMlZRT",
+     "resolved": false
+    },
+    {
+     "title": "Taiwan to Curb AI Chip Exports to China as Part of US Trade ",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU1LakZhV2xQNHBFM",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU1LakZhV2xQNHBFM0lFWU9pT1JCdGMyTXY4Q",
+     "resolved": false
     }
    ]
   },
-  "WSJ": {
-   "feed": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-日经",
+   "url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "China rewired its army in 2016. Why is India only doing it now? - Nikkei Asia",
+   "diag": [
     {
-     "title": "‘China Institute Gallery at 60, 1966–2026’ Review:",
-     "date": "Sat, 17 Oct 2026 11:00:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUndSaG9HUnNaeTRBc"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUndSaG9HUnNaeTRBcy1CcFNabmlYTk4zdm9tOXl2TE5pR2xHcXdydDV5b0c2a1FDakd",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMivgFBVV95cUxPUndSaG9HUnNaeTRBcy1CcFNabmlYTk4zdm9tOXl2TE5pR2xHcXdydDV5b0c2a1FDakdGbnJ4OXcwUlhkS01ZVWVRTXJKdWE0Z3c5UzZSeU1rZ2VvVWdReG5xaFFJQ3BGSDJFOGs3dC1tNXppekR6SFg5OXhzWlpCeFkzbWpySGUwYWg2ZExyckpzOUZWNnl1S1Job2Z6eUxCR2VUYV9KYV82NXEtWHU1QS1UdFAxQTN5eGJ2ZDZn"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322be0141555f79714c4f527752686f4752735a793441732d4270535a6e69",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLORwRhoGRsZy4As-BpSZniXNN3vom9yvLNi"
-      ],
-      "l2_head": "014ff2a8b391c11868191b19cb802cf81a5266789734ddef"
-     }
+     "title": "China rewired its army in 2016. Why is India only doing it n",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHFyWldWQ0lMaldHS",
+     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHFyWldWQ0lMaldHSEkzcHlvTXE4dTA5SExBR",
+     "resolved": false
     },
     {
-     "title": "China Proposes Export Controls on AI Technologies ",
-     "date": "Fri, 16 Oct 2026 10:15:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjh5b1NsdWxQRXNwX"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjh5b1NsdWxQRXNwXzlLSi1pLU8wdlIxVEc0TU1Md0hLM1FUdEVvcnhPa3d6bFBHc2V",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjh5b1NsdWxQRXNwXzlLSi1pLU8wdlIxVEc0TU1Md0hLM1FUdEVvcnhPa3d6bFBHc2VtY1UtRzZITnI1eVlzWGYyelBocjBsRXpBa1NlVjBwMmplX2Zhd0tUSWJDUmFGQVhIVVQ2UzlxN25ZdUFHbTFXejJqM3NWOXduVDhtdmZ4R0FiM2NoaVRtMzFRZjV3"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322970141555f79714c503238796f536c756c504573705f394b4a2d692d4f",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLP28yoSlulPEsp_9KJ-i-O0vR1TG4MMLwHK"
-      ],
-      "l2_head": "014ff2a8b3f6f32a1296e94f12ca7ff4a27e8be3b4bd1d53"
-     }
+     "title": "EU seeks faster China de-risking with new diversification to",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSUFrOEZjUndtVHpOa",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSUFrOEZjUndtVHpOalNvODdFY19BUzFwa21zQ",
+     "resolved": false
+    },
+    {
+     "title": "China to add AI, biopharma and solar tech to export control ",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOFpxWEtXaXRld25WM",
+     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOFpxWEtXaXRld25WMWpESTNDUkZaUHFyN2UxY",
+     "resolved": false
+    },
+    {
+     "title": "Japan's ICC rift with US limits options in handling China, R",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeGRBR3VZMkk0dlpGV",
+     "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeGRBR3VZMkk0dlpGVUp5SWg0ZTlNVzJycDZTM",
+     "resolved": false
+    },
+    {
+     "title": "Pakistan companies move into lithium battery assembly with C",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM3lmVTdwbXJqdGtCb",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM3lmVTdwbXJqdGtCb1JTUjFhT0c3V28tZ1d1M",
+     "resolved": false
     }
    ]
+  },
+  {
+   "name": "GNEWS-金融时报",
+   "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "China unveils draft export controls on AI technologies and chips - Financial Times",
+   "diag": [
+    {
+     "title": "China unveils draft export controls on AI technologies and c",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZFJrS1d0QjRNNDFCe",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZFJrS1d0QjRNNDFCeDlGc2x2cHJhTWN6SEJtW",
+     "resolved": false
+    },
+    {
+     "title": "North Korea gets closer to China and Russia with new bridges",
+     "date": "2026-10-17",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTEJsbmNJN0xpeUJZX",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTEJsbmNJN0xpeUJZX0FwLVplZ3dUV0NiM0JQN",
+     "resolved": false
+    },
+    {
+     "title": "China faces uphill battle to wean tech firms off Nvidia chip",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwO",
+     "resolved": false
+    },
+    {
+     "title": "France and Germany to allow UK to join EU car policy if it a",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM3FCN0doMkY2S3lmd",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM3FCN0doMkY2S3lmdm1WWWI5aUZ4emIyZzBCY",
+     "resolved": false
+    },
+    {
+     "title": "China’s growing debt burden limits space for economic stimul",
+     "date": "2026-10-11",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZTlzU2hfam9KbGJuN",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZTlzU2hfam9KbGJuNmtETDdTNVlGeG5SLTVxd",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-华尔街日报",
+   "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "‘China Institute Gallery at 60, 1966–2026’ Review: A Self-Reflective Survey - WSJ",
+   "diag": [
+    {
+     "title": "‘China Institute Gallery at 60, 1966–2026’ Review: A Self-Re",
+     "date": "2026-10-17",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUndSaG9HUnNaeTRBc",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUndSaG9HUnNaeTRBcy1CcFNabmlYTk4zdm9tO",
+     "resolved": false
+    },
+    {
+     "title": "China Proposes Export Controls on AI Technologies - WSJ",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjh5b1NsdWxQRXNwX",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjh5b1NsdWxQRXNwXzlLSi1pLU8wdlIxVEc0T",
+     "resolved": false
+    },
+    {
+     "title": "A Demographic Mirage May Be Distorting China’s Economic Ambi",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORHluVUJEZHlrOGkxQ",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORHluVUJEZHlrOGkxQWZObFctX3VCTlkwUC1FN",
+     "resolved": false
+    },
+    {
+     "title": "China’s Weakening Economy Is Creating a Lost Generation - WS",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5R2p1V0RoRTdaVVBmd",
+     "real": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5R2p1V0RoRTdaVVBmd0tkM2Uxd0RqdFFYODNXc",
+     "resolved": false
+    },
+    {
+     "title": "Exclusive | The Houthis Are Building an Advanced Missile Wit",
+     "date": "2026-10-14",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS",
+     "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ITkpCSEp4NVcyNXpuS0FwY082d09qTWxQTk9ma",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-纽约时报",
+   "url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "After Welcoming China’s Electric Vehicles, This Country Is Paying the Price - The New York Times",
+   "diag": [
+    {
+     "title": "After Welcoming China’s Electric Vehicles, This Country Is P",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ad3drMEpQTjFSQjNNc",
+     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ad3drMEpQTjFSQjNNckptcHdNZktDQWdBTVA1S",
+     "resolved": false
+    },
+    {
+     "title": "North Korea and China Open Their Biggest Border Bridge - The",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTExDZ1NhbnZ4WTZpb",
+     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTExDZ1NhbnZ4WTZpbTNCaTlxclE1dzI3RWFkb",
+     "resolved": false
+    },
+    {
+     "title": "Trump’s New Press Secretary: Not-Quite Attorney at Law - The",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaXluQk9jTUgwZ2lWV",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaXluQk9jTUgwZ2lWV3drUGxVcEd1aEtrSnRsa",
+     "resolved": false
+    },
+    {
+     "title": "Chinese A.I. Agents Joined the Rogue A.I. Agent Party. I Cha",
+     "date": "2026-10-14",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRTFlzR2JGNXFsR19pa",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRTFlzR2JGNXFsR19paHdHeHZqbnhKU1VuUVdDb",
+     "resolved": false
+    },
+    {
+     "title": "Chinese Carmakers, Once a Sideshow, Take Center Stage at Par",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTlZrWTN0U01BTXM2V",
+     "real": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTlZrWTN0U01BTXM2VElvNDR5RVpfNWVPOENoM",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-经济学人",
+   "url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "China has captured the market for hobbyist 3D printers - The Economist",
+   "diag": [
+    {
+     "title": "China has captured the market for hobbyist 3D printers - The",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVTlNazBIS2FKMnBrc",
+     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVTlNazBIS2FKMnBrczItZXAzVmJrT0tFWmU5U",
+     "resolved": false
+    },
+    {
+     "title": "China is channelling much more money to poor countries - The",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRm42RE9Xc0pWTjQ0Z",
+     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRm42RE9Xc0pWTjQ0Z2RWS2RKa28wUGZEaFVfS",
+     "resolved": false
+    },
+    {
+     "title": "China wants teenagers to read a classic English novel - The ",
+     "date": "2026-10-08",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUVhQcHBuaHRLNkY4e",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUVhQcHBuaHRLNkY4eGJLTWlHeFBFQ0ZxX2tse",
+     "resolved": false
+    },
+    {
+     "title": "Another warning sign for China’s economy: falling consumer c",
+     "date": "2026-10-14",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUE5jYnlYVXJIa3doW",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUE5jYnlYVXJIa3doWUdobUxGWmpOMkpVZW1DW",
+     "resolved": false
+    },
+    {
+     "title": "How to survive a predatory world order - The Economist",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTGJKNXVuU0laMW5tN",
+     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTGJKNXVuU0laMW5tNmxJZXNlQThBUWpEVThjS",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-路透-China",
+   "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "China September rare earth exports rise 6.7% from a year earlier - Reuters",
+   "diag": [
+    {
+     "title": "China September rare earth exports rise 6.7% from a year ear",
+     "date": "2026-10-14",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
+     "date": "2026-10-14",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
+     "resolved": false
+    },
+    {
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: US holds more secret talks with Myanmar's militar",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWpMVGJHdmxrQnR6Q",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWpMVGJHdmxrQnR6QTZzWnBsTEk1VldyRmdLd",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE China Rare Earth Group in talks to buy MP Material",
+     "date": "2026-09-21",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTkdhN0lPRzNSeXM5d",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTkdhN0lPRzNSeXM5dTFpNnJCX3NIam42ZHlIM",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "AP直接feed",
+   "url": "https://apnews.com/feed",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社英文",
+   "url": "https://english.kyodonews.net/rss/news.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社中文",
+   "url": "https://chinese.kyodonews.net/rss/all.xml",
+   "status": -1,
+   "items": 0,
+   "is_feed": false,
+   "err": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "name": "日经中文",
+   "url": "https://cn.nikkei.com/rss/rss.xml",
+   "status": 202,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "BBC中文",
+   "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+   "status": 200,
+   "items": 38,
+   "is_feed": true,
+   "sample": "<![CDATA[「我擔心得不敢去中國了」：韓國脫北者接連收到警方赴華警告]]>"
+  },
+  {
+   "name": "美国国务院",
+   "url": "https://www.state.gov/feed/",
+   "status": 200,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "美国国防部",
+   "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
+   "status": 200,
+   "items": 20,
+   "is_feed": true,
+   "sample": "Landon Carves Own Path to Success on Way to Becoming Newest Chief Warrant Officer Five"
+  },
+  {
+   "name": "商务部新闻",
+   "url": "https://www.commerce.gov/news/press-releases/rss.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USTR新闻",
+   "url": "https://ustr.gov/feeds/press-releases.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "能源部FE",
+   "url": "https://www.energy.gov/fe/newsroom/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "NATO",
+   "url": "https://www.nato.int/webservices/rss/news.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "欧盟presscorner",
+   "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+   "status": 406,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "日本外务省",
+   "url": "https://www.mofa.go.jp/rss/english.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "日本经产省",
+   "url": "https://www.meti.go.jp/rss/whatsnew_e.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USNI",
+   "url": "https://news.usni.org/feed",
+   "status": 200,
+   "items": 30,
+   "is_feed": true,
+   "sample": "USNI News Western Pacific Pulse: Oct. 16, 2026"
+  },
+  {
+   "name": "DefenseNews",
+   "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+   "status": 200,
+   "items": 25,
+   "is_feed": true,
+   "sample": "<![CDATA[What is Starshield, SpaceX’s military version of Starlink?]]>"
+  },
+  {
+   "name": "Mining",
+   "url": "https://www.mining.com/feed/",
+   "status": 200,
+   "items": 36,
+   "is_feed": true,
+   "sample": "Buffalo clears potash permit hurdle in Saskatchewan"
+  },
+  {
+   "name": "OilPrice",
+   "url": "https://oilprice.com/rss/main",
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "Bolivia’s Energy Crisis Deepens as Natural Gas Reserves Run Dry"
+  },
+  {
+   "name": "IMF",
+   "url": "https://www.imf.org/en/News/RSS?language=eng",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USGS",
+   "url": "https://www.usgs.gov/news/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "IEA",
+   "url": "https://www.iea.org/news.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "WTO",
+   "url": "https://www.wto.org/library/rss/latestnews_e.xml",
+   "status": 200,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
   }
- }
+ ]
 }
