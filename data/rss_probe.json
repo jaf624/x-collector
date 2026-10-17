@@ -1,25 +1,239 @@
 {
- "diag_at": "2026-10-17T13:08:30.550490Z",
- "results": {
-  "路透": {
-   "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "err": "<HTTPError 503: 'Service Unavailable'>"
+ "probed_at": "2026-10-17T13:32:11.576488Z",
+ "results": [
+  {
+   "name": "GNEWS-路透",
+   "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
-  "AP": {
-   "feed": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "err": "<HTTPError 503: 'Service Unavailable'>"
+  {
+   "name": "GNEWS-AP",
+   "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
-  "彭博": {
-   "feed": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "err": "<HTTPError 503: 'Service Unavailable'>"
+  {
+   "name": "GNEWS-AFP",
+   "url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
-  "日经": {
-   "feed": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "err": "<HTTPError 503: 'Service Unavailable'>"
+  {
+   "name": "GNEWS-彭博",
+   "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
-  "WSJ": {
-   "feed": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "err": "<HTTPError 503: 'Service Unavailable'>"
+  {
+   "name": "GNEWS-日经",
+   "url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 503,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "GNEWS-金融时报",
+   "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 503,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "GNEWS-华尔街日报",
+   "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 503,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "GNEWS-纽约时报",
+   "url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 503,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "GNEWS-经济学人",
+   "url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 503,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "GNEWS-路透-China",
+   "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
+   "status": 503,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "AP直接feed",
+   "url": "https://apnews.com/feed",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社英文",
+   "url": "https://english.kyodonews.net/rss/news.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社中文",
+   "url": "https://chinese.kyodonews.net/rss/all.xml",
+   "status": -1,
+   "items": 0,
+   "is_feed": false,
+   "err": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "name": "日经中文",
+   "url": "https://cn.nikkei.com/rss/rss.xml",
+   "status": 202,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "BBC中文",
+   "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+   "status": 200,
+   "items": 38,
+   "is_feed": true,
+   "sample": "<![CDATA[「我擔心得不敢去中國了」：韓國脫北者接連收到警方赴華警告]]>"
+  },
+  {
+   "name": "美国国务院",
+   "url": "https://www.state.gov/feed/",
+   "status": 200,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "美国国防部",
+   "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
+   "status": 200,
+   "items": 20,
+   "is_feed": true,
+   "sample": "Landon Carves Own Path to Success on Way to Becoming Newest Chief Warrant Officer Five"
+  },
+  {
+   "name": "商务部新闻",
+   "url": "https://www.commerce.gov/news/press-releases/rss.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USTR新闻",
+   "url": "https://ustr.gov/feeds/press-releases.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "能源部FE",
+   "url": "https://www.energy.gov/fe/newsroom/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "NATO",
+   "url": "https://www.nato.int/webservices/rss/news.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "欧盟presscorner",
+   "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+   "status": 406,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "日本外务省",
+   "url": "https://www.mofa.go.jp/rss/english.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "日本经产省",
+   "url": "https://www.meti.go.jp/rss/whatsnew_e.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USNI",
+   "url": "https://news.usni.org/feed",
+   "status": 200,
+   "items": 30,
+   "is_feed": true,
+   "sample": "USNI News Western Pacific Pulse: Oct. 16, 2026"
+  },
+  {
+   "name": "DefenseNews",
+   "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+   "status": 200,
+   "items": 25,
+   "is_feed": true,
+   "sample": "<![CDATA[What is Starshield, SpaceX’s military version of Starlink?]]>"
+  },
+  {
+   "name": "Mining",
+   "url": "https://www.mining.com/feed/",
+   "status": 200,
+   "items": 36,
+   "is_feed": true,
+   "sample": "Buffalo clears potash permit hurdle in Saskatchewan"
+  },
+  {
+   "name": "OilPrice",
+   "url": "https://oilprice.com/rss/main",
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "Global Energy Import Dependence Set to Peak by 2034, Rystad Says"
+  },
+  {
+   "name": "IMF",
+   "url": "https://www.imf.org/en/News/RSS?language=eng",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USGS",
+   "url": "https://www.usgs.gov/news/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "IEA",
+   "url": "https://www.iea.org/news.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "WTO",
+   "url": "https://www.wto.org/library/rss/latestnews_e.xml",
+   "status": 200,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
   }
- }
+ ]
 }
