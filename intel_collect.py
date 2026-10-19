@@ -674,6 +674,13 @@ def run_rss_probe():
         "France24英文": "https://www.france24.com/en/rss",
         "JapanTimes": "https://www.japantimes.co.jp/feed/topstories/",
         "ReutersAgency": "https://www.reutersagency.com/feed/?best-topics=top-news&post_type=best",
+        # 10-19 失效 feed 修正候选（海外实测）
+        "共同社英文all": "https://english.kyodonews.net/rss/all.xml",
+        "共同社英文ap": "https://english.kyodonews.net/rss/asia-pacific.xml",
+        "UPI-topnews": "https://www.upi.com/rss/feeds/topnews/",
+        "StarsStripes": "https://www.stripes.com/rss.xml",
+        "BreakingDefense": "https://breakingdefense.com/feed/",
+        "MiningWeekly": "https://www.miningweekly.com/rss/news",
     }
     out = []
     for _name, _u in _cands.items():
