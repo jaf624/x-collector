@@ -6810,14 +6810,15 @@
    "rss"
   ],
   "folders": [
-   "扩源·2026-10-14"
+   "扩源·2026-10-14",
+   "扩源·2026-10-19-权威硬料"
   ],
   "mode": "full",
   "region": "over",
   "bookmarks": 0,
-  "feed_url": null,
-  "kind": null,
-  "status": "need_jina",
+  "feed_url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+  "kind": "html_link",
+  "status": "active",
   "latest": null,
   "recent30": 0,
   "china_hits": 0
@@ -7320,5 +7321,74 @@
   "china_hits": 8,
   "added": "2026-10-19",
   "note": "海外实测失效：ReutersAgency feed 404停用（2026-10-19）"
+ },
+ {
+  "host": "defensenews.com",
+  "base": "https://www.defensenews.com/",
+  "ref": "https://www.defensenews.com/",
+  "name": "Defense News 防务新闻（国防工业与军事）",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-19-权威硬料"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://www.defensenews.com/arc/outboundfeeds/rss/",
+  "kind": "html_link",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "mining.com",
+  "base": "https://www.mining.com/",
+  "ref": "https://www.mining.com/",
+  "name": "MINING.COM 全球矿业（稀土/关键矿产）",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-19-权威硬料"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://www.mining.com/feed/",
+  "kind": "html_link",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
+ },
+ {
+  "host": "navalnews.com",
+  "base": "https://www.navalnews.com/",
+  "ref": "https://www.navalnews.com/",
+  "name": "Naval News 海军装备与海上安全",
+  "cat": "media",
+  "cats": [
+   "media",
+   "rss"
+  ],
+  "folders": [
+   "扩源·2026-10-19-权威硬料"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://www.navalnews.com/feed/",
+  "kind": "html_link",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0
  }
 ]
