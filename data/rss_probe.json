@@ -1,303 +1,250 @@
 {
- "diag_at": "2026-10-19T10:43:01.390743Z",
- "results": [
-  {
-   "name": "usni.org",
+ "diag_at": "2026-10-19T10:50:21.664210Z",
+ "results": {
+  "路透": {
+   "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
    "items": 100,
-   "china": 85,
-   "latest": "Fri, 09 Oct 2026 07:00",
-   "sample": [
-    "Philippine and Chinese Incidents Spike in South China Sea, Luzon Strait - USNI News",
-    "Investigation: USS Connecticut South China Sea Grounding Result of Lax Oversight, Poor Planning - USNI News"
+   "samples": [
+    {
+     "title": "Philippines summons China's envoy over remarks con",
+     "date": "Mon, 19 Oct 2026 08:09:04",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR3FaTkFtc3lTTUZRV"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR3FaTkFtc3lTTUZRVGV2WlV4elBHTVlNb2JlcGVIbDEwd29YNlk2Sm1CR043SG1EYmF",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMirwFBVV95cUxQR3FaTkFtc3lTTUZRVGV2WlV4elBHTVlNb2JlcGVIbDEwd29YNlk2Sm1CR043SG1EYmFlT1F6d3Fwb0g2SFl5RHA2c2hkTVZ4TXpnYldWOUZ0N1pvbW90dDlkejFxaUtvRHNfOWJqOGt6Y1Q2Q295c3MtMDJvVlpZVDlFZ3RmQW5nZ2JIUjQwbWl6UDI2cG12YXBhQ0JDR0xEUHlmRDc3eUtKMVRFMENJ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322af0141555f79714c5047715a4e416d7379534d46515465765a55787a50",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLPGqZNAmsySMFQTevZUxzPGMYMobepeHl10"
+      ],
+      "l2_head": "014ff2a8b3c6a993409acc923054137af654c733c6318328"
+     }
+    },
+    {
+     "title": "Wary of instability, China calls for deeper securi",
+     "date": "Mon, 19 Oct 2026 07:52:52",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxQREFVVFRUUFU3LUFld"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQREFVVFRUUFU3LUFldjQ4SXpIM2dKdDBHSkRhX2FZOUd1Y0FFdHZTWU5sMkZEM2k3X0p",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMivAFBVV95cUxQREFVVFRUUFU3LUFldjQ4SXpIM2dKdDBHSkRhX2FZOUd1Y0FFdHZTWU5sMkZEM2k3X0pBWTFHWEJ0Q2lVVnVvNWE2d1VLRW5JeGhqYlZ3aWRzbWJpY0M0Yzh4SXI0a1hGcnRaWmdyb01yeEJDc2JvbTVrcjg2cDZ1Y0hINUtlLXhicU9CQngyNjBkdDV6Vlo5bVpmOWhOQ1g3ejhVWXJfLWtQN05wTzJBV0p1Ty1yTlRpRUh4OQ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322bc0141555f79714c504441555454545055372d4165763438497a483367",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLPDAUTTTPU7-Aev48IzH3gJt0GJDa_aY9Gu"
+      ],
+      "l2_head": "014ff2a8b3c30144d34cf53bf807afe3c2331f7809b74189"
+     }
+    }
    ]
   },
-  {
-   "name": "thedrive.com",
+  "AP": {
+   "feed": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
    "items": 100,
-   "china": 88,
-   "latest": "Fri, 09 Oct 2026 07:00",
-   "sample": [
-    "Chinese EV Brake Pedal Snaps Three Times During Testing - The Drive",
-    "Ford CEO Nervous About Chinese Automakers Entering US, Says 'It's Too Late' for Europe: TDS - The Drive"
+   "samples": [
+    {
+     "title": "China’s economy accelerated in the July-September ",
+     "date": "Mon, 19 Oct 2026 06:05:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE0ybUNYYmVXU0VLLUUyQ"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0ybUNYYmVXU0VLLUUyQXM2UEFiLXhzWFF2YmZYZ3QwUWdiSkdBdHJIOXhTVGVEemNnYWN",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMifkFVX3lxTE0ybUNYYmVXU0VLLUUyQXM2UEFiLXhzWFF2YmZYZ3QwUWdiSkdBdHJIOXhTVGVEemNnYWNaWFU2TEJKcnpqOTY5WS1WekJBXzU5ek1zQVg0Uy0yQ0ktV1ZfSmMybVB6VFY3ZVNCeDhjcllNUG9BZUFRTWFuaHM0dw"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "0813227e41555f79714c4d326d435862655753454b2d45324173365041622d78",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLM2mCXbeWSEK-E2As6PAb-xsXQvbfXgt0Qg"
+      ],
+      "l2_head": "014ff2a8b3369825db7964842be13602ce8f01bfb1b1742f"
+     }
+    },
+    {
+     "title": "A humble oyster pail turned takeout icon: The Amer",
+     "date": "Fri, 16 Oct 2026 23:58:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia2ptcWl3Q0NfeDJpOFFKSUZJV1E0T1MycEcyMjdIU29YbDZFaTJ",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia2ptcWl3Q0NfeDJpOFFKSUZJV1E0T1MycEcyMjdIU29YbDZFaTJlUnRBYS1YSmdkdldRZVVmUjFabFA0UFdvNGZjR1Y5NlA1ZmhxWjRXX0lENHVrNUptTjZmZXN2OGk3QUtUOXZWZUZIbEZ2WjV5MHhHalZwcENzQVJPNmczV193UWlKaA"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322980141555f79714c4e5847476a5a6e366271546e486b6a6d7169774343",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLNXGGjZn6bqTnHkjmqiwCC_x2i8QJIFIWQ4"
+      ],
+      "l2_head": "014ff2a8b3571868d99fa6ea4e71e48e6aa2c020bfc768bc"
+     }
+    }
    ]
   },
-  {
-   "name": "stripes.com",
+  "彭博": {
+   "feed": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
    "items": 100,
-   "china": 89,
-   "latest": "Thu, 15 Oct 2026 07:59",
-   "sample": [
-    "Chinese carrier operations near Okinawa draw Japanese fighter response - Stars and Stripes",
-    "Senators seek Pentagon inspector general probe into Ukraine internet, intelligence disruptions - Stars and Stripes"
+   "samples": [
+    {
+     "title": "China Signals Overnight Rate Set to Become Main Po",
+     "date": "Mon, 19 Oct 2026 08:58:31",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTJ2Yk9DZFpac05Xb"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTJ2Yk9DZFpac05XbzR1VnA1Wmo0OVdiN2JIdXk2YnVhMTgwTUNxT0RFUDhRdnExaC1",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTJ2Yk9DZFpac05XbzR1VnA1Wmo0OVdiN2JIdXk2YnVhMTgwTUNxT0RFUDhRdnExaC1WSlFMeUdBc2dDVDdrV3lXaVV0NXVLcWNQZm5LQWRlWi1mcHhYX05odGNEXzZ4Vi1zWmZaQ3hRQVFzX29GUUVRYjV3VGV1dkh3SDFQUkppQmo0QXN3d0gxN3BtWWpsdmZVZTE0aWVRb2NhdmdSZnFKLWNEZzdoaUs5czJwUQ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b60141555f79714c4d413276624f43645a5a734e576f34755670355a6a",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMA2vbOCdZZsNWo4uVp5Zj49Wb7bHuy6bua"
+      ],
+      "l2_head": "014ff2a8b300daf6ce09d659b0d5a8e2e569e598f8f566fb"
+     }
+    },
+    {
+     "title": "China Reveals Advanced Nuclear Sub Was Used to Tes",
+     "date": "Mon, 19 Oct 2026 04:40:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSFpXNWs5SDlSOXZBS"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSFpXNWs5SDlSOXZBSnU2eVBHaXZzWTVSSXRwRk5tbmNiNHJ4WTJfeGk0S2JyWGZNYW9",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxPSFpXNWs5SDlSOXZBSnU2eVBHaXZzWTVSSXRwRk5tbmNiNHJ4WTJfeGk0S2JyWGZNYW9TRE12MVFwbzg4WV9aMzdWLVFpcXN4SnlQXzJicWV1c18yN0ttSlJONGQ4TkR0TlMzQmFZRGU1RjMtQ01DWTZxc1VCa2oxaS1iVExjTExYYjVkT0RQUUZsQ3dYdjJYMU9GbkhQR3V4SFVLaHgydVIyYUV5TTFWS0RKb1FNQQ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b60141555f79714c4f485a57356b394839523976414a75367950476976",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLOHZW5k9H9R9vAJu6yPGivsY5RItpFNmncb"
+      ],
+      "l2_head": "014ff2a8b387656e64f47f51f6f009bbac8f1a2bec639448"
+     }
+    }
    ]
   },
-  {
-   "name": "maritime-executive.com",
+  "日经": {
+   "feed": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
    "items": 100,
-   "china": 66,
-   "latest": "Fri, 16 Oct 2026 00:24",
-   "sample": [
-    "Taiwan Plans to Invest $4.4B in Alaska LNG, Subject to Negotiations - The Maritime Executive",
-    "Chinese-Owned Bulker Driven Ashore Near Russian Resort on the Baltic - The Maritime Executive"
+   "samples": [
+    {
+     "title": "Taiwan, Philippines kindle maritime cooperation in",
+     "date": "Mon, 19 Oct 2026 01:35:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaGVGVmwycTVGaXVxb"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaGVGVmwycTVGaXVxbVctNG1WV2d0VTB0Um45eUsyTWlvRHRJQ3c0RjI4RGdJYVN1ODB",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaGVGVmwycTVGaXVxbVctNG1WV2d0VTB0Um45eUsyTWlvRHRJQ3c0RjI4RGdJYVN1ODB1ZGw5RmVvTkEtVTZGcXhPQ1M1eml1WnBhTVFjSzhBQVFUcVNoSGl6eXZLb0pHOWozVmtQWXk4SWgyb2VFTWh2RU1zY3FRcFMwLWZMeXpVdWJoLXBJTzRmbWI2R2s2QzhtWG9rc0FuSC1TazN5QjFZT3JtUXBQNU5XRUZ6bEh4NkRJNThuX2J2MEVacDNSMnh1aTRFVUdLNjFNS1R6T2EwbzhxUWVLXw"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322e00141555f79714c4d686546566c327135466975716d572d346d565767",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMheFVl2q5FiuqmW-4mVWgtU0tRn9yK2Mio"
+      ],
+      "l2_head": "014ff2a8b321785565daae458aeaa65bee2655682d534b51"
+     }
+    },
+    {
+     "title": "China rewired its army in 2016. Why is India only ",
+     "date": "Thu, 15 Oct 2026 22:59:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHFyWldWQ0lMaldHS"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHFyWldWQ0lMaldHSEkzcHlvTXE4dTA5SExBRENSeDYtdjhuVTh1bjhmNDN1NG85OU5",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHFyWldWQ0lMaldHSEkzcHlvTXE4dTA5SExBRENSeDYtdjhuVTh1bjhmNDN1NG85OU5jNTNXZW45TFI2VlNQckdFbDNUSk1pX2ZRdHhqUUZfd2s3SS1IY1Raa29ubWV4anRPSVE3bHJwX3FHdU03TWRMT1JSeE02R3QySmdRbk5VQVdnUC1ORUhFQ1NqLUZ0ejVR"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "0813229a0141555f79714c507871725a575643494c6a574748493370796f4d71",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLPxqrZWVCILjWGHI3pyoMq8u09HLADCRx6-"
+      ],
+      "l2_head": "014ff2a8b3f1aab65654220b8d6187237a72a0cabcbb4f47"
+     }
+    }
    ]
   },
-  {
-   "name": "c4isrnet.com",
+  "WSJ": {
+   "feed": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
    "items": 100,
-   "china": 65,
-   "latest": "Thu, 22 Feb 2024 08:00",
-   "sample": [
-    "Pentagon’s CJADC2 milestone is signal to China, officials say - C4ISRNet",
-    "This Chinese truck can launch a salvo of drones - C4ISRNet"
-   ]
-  },
-  {
-   "name": "naval-technology.com",
-   "items": 100,
-   "china": 81,
-   "latest": "Tue, 13 Oct 2026 14:31",
-   "sample": [
-    "Taiwan Coast Guard receives first batch of V-BAT UAVs from Shield AI - Naval Technology",
-    "China responds to US Navy’s freedom of navigation operation in SCS - Naval Technology"
-   ]
-  },
-  {
-   "name": "miningweekly.com",
-   "items": 100,
-   "china": 97,
-   "latest": "Thu, 08 Oct 2026 07:00",
-   "sample": [
-    "Australia's Fortescue cash drops over 37% amid China buying curbs - Mining Weekly",
-    "Chinese mine equipment maker Zoomlion reports meaningful international growth - Mining Weekly"
-   ]
-  },
-  {
-   "name": "spglobal.com",
-   "items": 100,
-   "china": 84,
-   "latest": "Sat, 22 Sep 2018 00:42",
-   "sample": [
-    "Taiwan Ratings 中華信用評等 - S&amp;P Global",
-    "Tata Electronics begins pilot production at Assam semiconductor facility in India - AutoTechInsight"
-   ]
-  },
-  {
-   "name": "fastmarkets.com",
-   "items": 100,
-   "china": 94,
-   "latest": "Mon, 29 Dec 2014 19:55",
-   "sample": [
-    "Launch of 61% Fe iron ore fines portside index for northern China and revised port coverage and frequency of normalization coefficient for eastern China: pricing notice - Fastmarkets",
-    "EU adds four rare earth projects to strategic list to support recycling, processing goals - Fastmarkets"
-   ]
-  },
-  {
-   "name": "kitco.com",
-   "items": 100,
-   "china": 84,
-   "latest": "Thu, 15 Oct 2026 15:14",
-   "sample": [
-    "China buys the gold dip as ETF holdings hit record and holiday demand lifts Q4 outlook – WGC - Kitco",
-    "IMF calls for US to cut deficits amid bond woes, urges China to shift away from exports - Kitco"
-   ]
-  },
-  {
-   "name": "argusmedia.com",
-   "items": 100,
-   "china": 84,
-   "latest": "Mon, 19 Oct 2026 05:42",
-   "sample": [
-    "Sponsorship | Argus Fertilizer China Conference - Argus Media",
-    "Opec sees China oil demand falling in 2026 - Argus Media"
-   ]
-  },
-  {
-   "name": "semianalysis.com",
-   "items": 100,
-   "china": 58,
-   "latest": "Fri, 24 Jan 2020 20:45",
-   "sample": [
-    "Beijing Will Not Pace the Frontier: China’s Speed-First AI Safety Regime - SemiAnalysis",
-    "The Chinese AI Infrastructure Boom: Introducing the SemiAnalysis China Datacenter Model - SemiAnalysis"
-   ]
-  },
-  {
-   "name": "theregister.com",
-   "items": 100,
-   "china": 34,
-   "latest": "Thu, 15 Oct 2026 12:45",
-   "sample": [
-    "Cheap Chinese and open source LLMs could trigger trillion-dollar AI infrastructure 'reset' - The Register",
-    "Microsoft leans on open weight model from Chinese AI lab to challenge Jev - The Register"
-   ]
-  },
-  {
-   "name": "piie.com",
-   "items": 100,
-   "china": 100,
-   "latest": "Tue, 17 Feb 2026 08:00",
-   "sample": [
-    "Trump's latter day Monroe Doctrine is aimed at China - Peterson Institute for International Economics",
-    "Estimating Industrial Policy Subsidies in China - Peterson Institute for International Economics"
-   ]
-  },
-  {
-   "name": "cnbc.com",
-   "items": 100,
-   "china": 22,
-   "latest": "Mon, 19 Oct 2026 02:05",
-   "sample": [
-    "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates - CNBC",
-    "China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround - CNBC"
-   ]
-  },
-  {
-   "name": "csis.org",
-   "items": 100,
-   "china": 82,
-   "latest": "Fri, 16 Oct 2026 18:39",
-   "sample": [
-    "Assessing the Impact of China-Russia Economic Coordination in Latin America and the Caribbean - CSIS | Center for Strategic and International Studies",
-    "Russia’s Turn to China Under Sanctions: Sanctions Decay, Substitution Elasticity, and the Challenge of Sustaining Pressure - CSIS | Center for Strategic and International Studies"
-   ]
-  },
-  {
-   "name": "usgs.gov",
-   "items": 100,
-   "china": 78,
-   "latest": "Sat, 17 Oct 2026 21:08",
-   "sample": [
-    "M 4.4 - 66 km WSW of Nuofu, China - USGS (.gov)",
-    "M 4.4 - 66 km WSW of Nuofu, China - USGS (.gov)"
-   ]
-  },
-  {
-   "name": "eia.gov",
-   "items": 100,
-   "china": 67,
-   "latest": "Thu, 19 Nov 2015 19:15",
-   "sample": [
-    "Argentina and China lead shale development outside North America in first-half 2015 - U.S. Energy Information Administration (EIA) (.gov)",
-    "China produces and consumes almost as much coal as the rest of the world combined - U.S. Energy Information Administration (EIA) (.gov)"
-   ]
-  },
-  {
-   "name": "bis.gov",
-   "items": 100,
-   "china": 44,
-   "latest": "Thu, 26 Jun 2025 19:13",
-   "sample": [
-    "Advancing national security through technology leadership and vigilant export controls - Homepage | Bureau of Industry and Security (.gov)",
-    "Updates on Semiconductor Controls - Bureau of Industry and Security (BIS) (.gov)"
-   ]
-  },
-  {
-   "name": "ustr.gov",
-   "items": 100,
-   "china": 69,
-   "latest": "Sun, 27 Sep 2026 07:00",
-   "sample": [
-    "Ambassador Greer Issues a Statement on Announcement of Recommendations from the U.S.-China Board of Trade - United States Trade Representative (.gov)",
-    "China Import List No. Tariff Heading Unofficial Translated Description 1 01012100 Live pure-bred breeding horses 2 01012900 Live - United States Trade Representative (.gov)"
-   ]
-  },
-  {
-   "name": "nato.int",
-   "items": 100,
-   "china": 96,
-   "latest": "Thu, 13 Nov 2025 21:45",
-   "sample": [
-    "North Atlantic Treaty Organization | NATO - North Atlantic Treaty Organization | NATO",
-    "Livestream - North Atlantic Treaty Organization | NATO"
-   ]
-  },
-  {
-   "name": "uscc.gov",
-   "items": 100,
-   "china": 100,
-   "latest": "Thu, 31 Oct 2019 18:31",
-   "sample": [
-    "Job Opportunities - U.S.-China Economic and Security Review Commission (.gov)",
-    "Vacancy Announcement - Research Assistant - October 2026 - U.S.-China Economic and Security Review Commission (.gov)"
-   ]
-  },
-  {
-   "name": "commerce.gov",
-   "items": 100,
-   "china": 67,
-   "latest": "Fri, 20 Oct 2006 23:54",
-   "sample": [
-    "Report on Satellite Export Control Policy Reform - Office of Space Commerce (.gov)",
-    "Commerce Department Adds 24 Chinese Companies to the Entity List for Helping Build Military Islands in the South China Sea - 2017-2021.commerce.gov"
-   ]
-  },
-  {
-   "name": "state.gov_RSS",
-   "items": 0,
-   "china": 0,
-   "latest": "",
-   "sample": []
-  },
-  {
-   "name": "treasury_RSS",
-   "items": 10,
-   "china": 0,
-   "latest": "Wed, 22 Jul 2026 18:38",
-   "sample": []
-  },
-  {
-   "name": "ustr_RSS",
-   "items": 10,
-   "china": 0,
-   "latest": "Mon, 20 Jul 2009 18:28",
-   "sample": []
-  },
-  {
-   "name": "whitehouse_RSS",
-   "items": 30,
-   "china": 0,
-   "latest": "Sat, 17 Oct 2026 00:34",
-   "sample": []
-  },
-  {
-   "name": "navalnews_RSS",
-   "items": 10,
-   "china": 2,
-   "latest": "Mon, 19 Oct 2026 09:34",
-   "sample": [
-    "Taiwan Coast Guard to Acquire MARTAC Devil Ray T24 USVs",
-    "Second Possible Chinese UUV Mothership Appears In Guangzhou"
-   ]
-  },
-  {
-   "name": "mining_RSS",
-   "items": 36,
-   "china": 5,
-   "latest": "Sun, 18 Oct 2026 17:31",
-   "sample": [
-    "Canada’s new foreign investment rules: What critical minerals miners need to know ",
-    "Energy transition faces critical minerals crunch by 2035: report"
-   ]
-  },
-  {
-   "name": "oilprice_RSS",
-   "items": 15,
-   "china": 2,
-   "latest": "Mon, 19 Oct 2026 05:43",
-   "sample": [
-    "China&#039;s Coal Production Slumps 6.8% as Winter Supply Fears Grow",
-    "America Needs 48,000 Tons of Rare Earth Magnets. It Only Makes 300"
-   ]
-  },
-  {
-   "name": "defensenews_RSS",
-   "items": 25,
-   "china": 2,
-   "latest": "Mon, 19 Oct 2026 10:00",
-   "sample": [
-    "<![CDATA[Bulgaria seeks NATO anti-drone systems, defense minister says]]>",
-    "<![CDATA[Blood supplies, autonomous systems shape US Army’s Indo-Pacific combat care plans]]>"
+   "samples": [
+    {
+     "title": "China’s Export Boom Masks Deep Economic Problems a",
+     "date": "Mon, 19 Oct 2026 09:30:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLXhoWHZKOFJ2N1cxZ"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLXhoWHZKOFJ2N1cxZkxIYjFMMEpSYnAwRWdGbEJ4VHU1VmxoOXNLM19fRFpPYVlIRmx",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMilwFBVV95cUxPLXhoWHZKOFJ2N1cxZkxIYjFMMEpSYnAwRWdGbEJ4VHU1VmxoOXNLM19fRFpPYVlIRmxWZFB2RkFIVGJVQjJscGFVcEdYWk84cWtTMVNwTlpabHNYbkR3Mm5SNDNOODJRT2JyZ3FlNEJ0RTctZkd2d0hfb0VueXFMMlpzNHNTZUZaXzNya3JTUGl1S1lxeFVV"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322970141555f79714c4f2d786858764a385276375731664c4862314c304a",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLO-xhXvJ8Rv7W1fLHb1L0JRbp0EgFlBxTu5"
+      ],
+      "l2_head": "014ff2a8b3bec615ef27c46fed6d5f2c76f52f42516e9d04"
+     }
+    },
+    {
+     "title": "China’s Economy Expanded 4.5% in Third Quarter, Po",
+     "date": "Mon, 19 Oct 2026 04:03:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbTdTLWVJN0c0aUdlW"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbTdTLWVJN0c0aUdlWG1hTlR4WEtoalRXTmt3RzZHREYtaGt6ZlZzbGs1ekNROER5ekh",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiogFBVV95cUxPbTdTLWVJN0c0aUdlWG1hTlR4WEtoalRXTmt3RzZHREYtaGt6ZlZzbGs1ekNROER5ekhBWUI2UWNpLXBubFRhc3dSXzdkemR5RXZpOVd0YTV3Tld5b3d5Q1dhV1BDSWJ2eWlIQ0FGWV9vY3lMcktNcVlkS193R1F1Y0NVTThEdVlGSzRxSjlYRGRfcEkyeVJ0VVk1OEUyVDVtbUE"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322a20141555f79714c4f6d37532d6549374734694765586d614e5478584b",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLOm7S-eI7G4iGeXmaNTxXKhjTWNkwG6GDF-"
+      ],
+      "l2_head": "014ff2a8b3a6ed2f9e23b1b888679799a353c572a18d358d"
+     }
+    }
    ]
   }
- ]
+ }
 }
