@@ -987,8 +987,14 @@ def main():
                     if not is_lead_src and (soft_news(it["title"]) or link_noise(it["text"])):
                         continue
                     blob = it["title"] + " " + it["text"][:1500]  # 主题判定可看更宽
-                    if not is_lead_src and (not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]) \
-                            or not topic.search(blob) or any(b in u.lower() for b in block_global)):
+                    # 2026-10-19 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）豁免前置涉华词：
+                    # 行业硬稿（稀土/矿产/防务/油价）标题与短摘要常不直接出现 China，须放行到深抓、
+                    # 看全文再判涉华（深抓后第1090行复检仍会把关）；仍要求 topic 安全化命中。
+                    _is_hn_pre = is_hardnews_url(u)
+                    if not is_lead_src and (
+                            not topic.search(blob)
+                            or any(b in u.lower() for b in block_global)
+                            or (not _is_hn_pre and not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]))):
                         continue
                     src_name = clean_src_name(ftitle or s.get("name")) or s["host"]
                     src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
@@ -1088,9 +1094,13 @@ def main():
         # 注：此处不用 link_noise——Jina 全文开头普遍带面包屑/分享链接，会误伤正规报道
         # lead 豁免机构复检：GoFundMe/Meetup 等 L 类源本身即目标源，不套涉华相关性
         if c["route"] == "institute" and not is_snip and not c.get("lead"):
+            # 权威硬新闻源行业稿涉华词常在正文较后位置，复检窗口扩大（前800→2500、前1500→3000）
+            _hn_check = is_hardnews_url(c["url"])
+            _w_head = text[:2500] if _hn_check else text[:800]
+            _w_topic = text[:3000] if _hn_check else text[:1500]
             if soft_news(title) \
-                    or not _china_ok(host_of(c["url"]), title, text[:800], text[:1500]) \
-                    or not topic.search(title + " " + text[:1500]):
+                    or not _china_ok(host_of(c["url"]), title, _w_head, _w_topic) \
+                    or not topic.search(title + " " + _w_topic):
                 f["not_rel"] += 1
                 print(f"  x 机构复检未过 {(title or c['url'])[:46]}", flush=True)
                 continue
