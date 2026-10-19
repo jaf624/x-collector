@@ -41,6 +41,7 @@ INST_DAYS = int(os.environ.get("INTEL_INST_DAYS", "7"))        # 机构周报/�
 INST_PER_FEED = int(os.environ.get("INTEL_INST_PER_FEED", "20"))  # 每源每轮最多评估条数
 INST_MAX = int(os.environ.get("INTEL_INST_MAX", "200"))        # RSS 自带正文（免费）每轮入库上限
 INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "40"))       # 摘要过短需 Jina 深抓的机构稿上限
+INST_HN_DEEP = int(os.environ.get("INTEL_INST_HN_DEEP", "30"))  # 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）独立深抓配额，提前跑不被台媒挤掉
 MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "20"))         # L类线索源每轮深抓上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
 MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "15"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
@@ -61,7 +62,9 @@ HARD_NEWS_DOMAINS = (
     # 扩源·资源矿产/能源通道/多边/军事/日经英文专线（2026-10-14）
     "asia.nikkei.com", "nikkei.com", "bis.gov", "energy.gov", "wto.org",
     "usgs.gov", "mining.com", "oilprice.com", "iea.org", "usni.org",
-    "defensenews.com", "pacom.mil", "imf.org")
+    "defensenews.com", "pacom.mil", "imf.org",
+    # 扩源·权威直连硬料替代通道（2026-10-19，补路透/AP直连停摆）：共同社/UPI/法24/日本时报/路透社
+    "upi.com", "japantimes.co.jp", "france24.com", "reutersagency.com")
 def is_hardnews_url(u):
     u = (u or "").lower()
     return any(h in u for h in HARD_NEWS_DOMAINS)
@@ -1021,9 +1024,16 @@ def main():
             len(hn_pool), len(_hn_seen), min(len(hn_limited), HARD_NEWS_QUOTA),
             MAX_ART, hn_per), flush=True)
     lead_deep = [c for c in cand if c.get("lead") and c["body_from"] == "full"][:MAX_LEAD]
-    deep_inst = [c for c in cand if c["body_from"] == "full"
-                 and c["route"] == "institute" and not c.get("lead")][:INST_DEEP]
-    deep_cand = pinned_cand + lead_deep + deep_other + deep_inst                 # 需 Jina 深抓：指定/线索优先
+    _inst_full_all = [c for c in cand if c["body_from"] == "full"
+                      and c["route"] == "institute" and not c.get("lead")]
+    # 权威硬新闻直连源（路透/日经/USNI/防务/矿业/油价等 HARD_NEWS_DOMAINS）独立配额并提前深抓，
+    # 抢在 Actions 时长/Jina 配额耗尽前、且不被台媒等 other_pool 挤掉（2026-10-19 硬料增产）
+    _inst_hn = [c for c in _inst_full_all if is_hardnews_url(c.get("url"))][:INST_HN_DEEP]
+    _inst_hn_urls = {c["url"] for c in _inst_hn}
+    deep_inst = [c for c in _inst_full_all if c["url"] not in _inst_hn_urls][:INST_DEEP]
+    deep_cand = pinned_cand + lead_deep + _inst_hn + deep_other + deep_inst       # 需 Jina 深抓：指定/线索/权威硬新闻优先
+    if _inst_hn:
+        print("[deepdive] 权威硬新闻直连源优先深抓 %d 篇（USNI/防务/矿业/油价/日经等）" % len(_inst_hn), flush=True)
     today = datetime.datetime.utcnow().date()
     f = {"fetch_fail": 0, "not_fresh": 0, "too_short": 0, "not_rel": 0, "duplicate": 0,
          "paywall": 0, "low_quality": 0, "usable": 0, "snippet_lead": 0}
