@@ -7390,5 +7390,330 @@
   "latest": null,
   "recent30": 0,
   "china_hits": 0
+ },
+ {
+  "host": "news.google.com/miningweekly",
+  "base": "https://news.google.com/rss/search?q=site%3Aminingweekly.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Aminingweekly.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "矿业周刊 Mining Weekly（矿业/关键矿产）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Aminingweekly.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/kitco",
+  "base": "https://news.google.com/rss/search?q=site%3Akitco.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Akitco.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "Kitco 金属与矿业（稀土/金属）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Akitco.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/usgs",
+  "base": "https://news.google.com/rss/search?q=site%3Ausgs.gov%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Ausgs.gov%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "美国地质调查局 USGS（关键矿产）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Ausgs.gov%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/usni",
+  "base": "https://news.google.com/rss/search?q=site%3Ausni.org%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Ausni.org%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "美国海军学会新闻 USNI（军事/海上）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Ausni.org%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/thedrive",
+  "base": "https://news.google.com/rss/search?q=site%3Athedrive.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Athedrive.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "The War Zone 战区（军事/装备）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Athedrive.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/stripes",
+  "base": "https://news.google.com/rss/search?q=site%3Astripes.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Astripes.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "星条旗报 Stars and Stripes（美军）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Astripes.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/navaltech",
+  "base": "https://news.google.com/rss/search?q=site%3Anaval-technology.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Anaval-technology.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "海军科技 Naval Technology（舰艇）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Anaval-technology.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/maritimeexec",
+  "base": "https://news.google.com/rss/search?q=site%3Amaritime-executive.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Amaritime-executive.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "海事执行官（海上通道/能源运输）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Amaritime-executive.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/argus",
+  "base": "https://news.google.com/rss/search?q=site%3Aargusmedia.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Aargusmedia.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "阿格斯 Argus（油气/能源）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Aargusmedia.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/register",
+  "base": "https://news.google.com/rss/search?q=site%3Atheregister.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Atheregister.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "The Register（科技/半导体）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Atheregister.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/csis",
+  "base": "https://news.google.com/rss/search?q=site%3Acsis.org%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Acsis.org%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "战略与国际研究中心 CSIS（战略/经济）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Acsis.org%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/cnbc",
+  "base": "https://news.google.com/rss/search?q=site%3Acnbc.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Acnbc.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "CNBC 财经（金融/贸易）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Acnbc.com%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
+ },
+ {
+  "host": "news.google.com/ustr",
+  "base": "https://news.google.com/rss/search?q=site%3Austr.gov%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Austr.gov%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "美国贸易代表 USTR（贸易/关税）（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "硬料扩源·2026-10-19"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Austr.gov%20%28china%20OR%20chinese%20OR%20taiwan%20OR%20taipei%20OR%20beijing%20OR%20hong%20kong%20OR%20xinjiang%20OR%20%22rare%20earth%22%20OR%20%22south%20china%20sea%22%20OR%20%22indo-pacific%22%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 0,
+  "added": "2026-10-19",
+  "note": "海外探活持续更新、涉华高"
  }
 ]
