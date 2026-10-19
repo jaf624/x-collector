@@ -1,11 +1,32 @@
 {
- "diag_at": "2026-10-19T12:39:01.139577Z",
+ "diag_at": "2026-10-19T13:17:21.686948Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
    "samples": [
+    {
+     "title": "Kremlin says Putin, Trump and Xi could hold a thre",
+     "date": "Mon, 19 Oct 2026 11:55:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWVF3TGpvSmg1YmEyM"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWVF3TGpvSmg1YmEyMnhhWXhnUFkwdS13ak14NldscXdsZm92dVkzbGdnU3lwd2VjY25",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMivgFBVV95cUxQWVF3TGpvSmg1YmEyMnhhWXhnUFkwdS13ak14NldscXdsZm92dVkzbGdnU3lwd2VjY255bXJKeGZOX09ZM3AxN1JjWHRSbXRGNDdFaTVhMU9SMWxKZXRDNDd2bnBuaE5pSjJwbkgtVXF6dzJWNWFJOUw5X2U1TjJPQjdUaG1ldHRudHRVTF9FeWhOM3gxaTloUEcxaVdJdHg2M29sUHJwc2NFWFdRV0xjS3Y2UlZ6ZEJLOEw3ZEpR"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322be0141555f79714c505951774c6a6f4a68356261323278615978675059",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLPYQwLjoJh5ba22xaYxgPY0u-wjMx6Wlqwl"
+      ],
+      "l2_head": "014ff2a8b3d84302e3a098796dadb6c5a63180f634bbec23"
+     }
+    },
     {
      "title": "Philippines summons China's envoy over remarks con",
      "date": "Mon, 19 Oct 2026 08:09:04",
@@ -25,27 +46,6 @@
        "AU_yqLPGqZNAmsySMFQTevZUxzPGMYMobepeHl10"
       ],
       "l2_head": "014ff2a8b3c6a993409acc923054137af654c733c6318328"
-     }
-    },
-    {
-     "title": "Wary of instability, China calls for deeper securi",
-     "date": "Mon, 19 Oct 2026 07:52:52",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMivAFBVV95cUxQREFVVFRUUFU3LUFld"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQREFVVFRUUFU3LUFldjQ4SXpIM2dKdDBHSkRhX2FZOUd1Y0FFdHZTWU5sMkZEM2k3X0p",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMivAFBVV95cUxQREFVVFRUUFU3LUFldjQ4SXpIM2dKdDBHSkRhX2FZOUd1Y0FFdHZTWU5sMkZEM2k3X0pBWTFHWEJ0Q2lVVnVvNWE2d1VLRW5JeGhqYlZ3aWRzbWJpY0M0Yzh4SXI0a1hGcnRaWmdyb01yeEJDc2JvbTVrcjg2cDZ1Y0hINUtlLXhicU9CQngyNjBkdDV6Vlo5bVpmOWhOQ1g3ejhVWXJfLWtQN05wTzJBV0p1Ty1yTlRpRUh4OQ"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322bc0141555f79714c504441555454545055372d4165763438497a483367",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLPDAUTTTPU7-Aev48IzH3gJt0GJDa_aY9Gu"
-      ],
-      "l2_head": "014ff2a8b3c30144d34cf53bf807afe3c2331f7809b74189"
      }
     }
    ]
@@ -77,24 +77,24 @@
      }
     },
     {
-     "title": "A humble oyster pail turned takeout icon: The Amer",
-     "date": "Fri, 16 Oct 2026 23:58:00",
+     "title": "Philippines summons Chinese ambassador to protest ",
+     "date": "Mon, 19 Oct 2026 10:04:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia"
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWE9RaVdMUmpZTWhPb"
      ],
-     "final": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia2ptcWl3Q0NfeDJpOFFKSUZJV1E0T1MycEcyMjdIU29YbDZFaTJ",
+     "final": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWE9RaVdMUmpZTWhPbHpvSjNWMEVzcFRTdHFMT3Bra0xacmJ0YnlIZnduRFdVa2hCbUU",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia2ptcWl3Q0NfeDJpOFFKSUZJV1E0T1MycEcyMjdIU29YbDZFaTJlUnRBYS1YSmdkdldRZVVmUjFabFA0UFdvNGZjR1Y5NlA1ZmhxWjRXX0lENHVrNUptTjZmZXN2OGk3QUtUOXZWZUZIbEZ2WjV5MHhHalZwcENzQVJPNmczV193UWlKaA"
+      "CANON:https://news.google.com/rss/articles/CBMiowFBVV95cUxOWE9RaVdMUmpZTWhPbHpvSjNWMEVzcFRTdHFMT3Bra0xacmJ0YnlIZnduRFdVa2hCbUU4dVFDdHF3MGR4RjBjWTJzNll4dHJ2MjBnU2ZHV2R5eG1jSmg4REt2MjIzR2VJTXItcjFKZ21DdkUtX05zektkWDMxX3Z2NDlNMjVlN3ktc0VLazZRVmkydnVRaDZBa2QyUHBlQndlNGdz"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322980141555f79714c4e5847476a5a6e366271546e486b6a6d7169774343",
+      "raw_head": "081322a30141555f79714c4e584f5169574c526a594d684f6c7a6f4a33563045",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLNXGGjZn6bqTnHkjmqiwCC_x2i8QJIFIWQ4"
+       "AU_yqLNXOQiWLRjYMhOlzoJ3V0EspTStqLOpkkLZ"
       ],
-      "l2_head": "014ff2a8b3571868d99fa6ea4e71e48e6aa2c020bfc768bc"
+      "l2_head": "014ff2a8b3573908962d18d83213a5ce827757412ca534ad"
      }
     }
    ]
@@ -104,27 +104,6 @@
    "status": 200,
    "items": 100,
    "samples": [
-    {
-     "title": "China Signals Overnight Rate Set to Become Main Po",
-     "date": "Mon, 19 Oct 2026 08:58:31",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTJ2Yk9DZFpac05Xb"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTJ2Yk9DZFpac05XbzR1VnA1Wmo0OVdiN2JIdXk2YnVhMTgwTUNxT0RFUDhRdnExaC1",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTJ2Yk9DZFpac05XbzR1VnA1Wmo0OVdiN2JIdXk2YnVhMTgwTUNxT0RFUDhRdnExaC1WSlFMeUdBc2dDVDdrV3lXaVV0NXVLcWNQZm5LQWRlWi1mcHhYX05odGNEXzZ4Vi1zWmZaQ3hRQVFzX29GUUVRYjV3VGV1dkh3SDFQUkppQmo0QXN3d0gxN3BtWWpsdmZVZTE0aWVRb2NhdmdSZnFKLWNEZzdoaUs5czJwUQ"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b60141555f79714c4d413276624f43645a5a734e576f34755670355a6a",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMA2vbOCdZZsNWo4uVp5Zj49Wb7bHuy6bua"
-      ],
-      "l2_head": "014ff2a8b300daf6ce09d659b0d5a8e2e569e598f8f566fb"
-     }
-    },
     {
      "title": "China Slaps Export Curbs on More Drones and Indust",
      "date": "Mon, 19 Oct 2026 08:54:59",
@@ -144,6 +123,27 @@
        "AU_yqLOiBpUmHGA1Ze3Iuza0kaL4YrUQ1mzqQat4"
       ],
       "l2_head": "014ff2a8b3a20695261c603565edc8bb36b491a2f862b510"
+     }
+    },
+    {
+     "title": "China Signals Overnight Rate Set to Become Main Po",
+     "date": "Mon, 19 Oct 2026 08:58:31",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTJ2Yk9DZFpac05Xb"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTJ2Yk9DZFpac05XbzR1VnA1Wmo0OVdiN2JIdXk2YnVhMTgwTUNxT0RFUDhRdnExaC1",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTJ2Yk9DZFpac05XbzR1VnA1Wmo0OVdiN2JIdXk2YnVhMTgwTUNxT0RFUDhRdnExaC1WSlFMeUdBc2dDVDdrV3lXaVV0NXVLcWNQZm5LQWRlWi1mcHhYX05odGNEXzZ4Vi1zWmZaQ3hRQVFzX29GUUVRYjV3VGV1dkh3SDFQUkppQmo0QXN3d0gxN3BtWWpsdmZVZTE0aWVRb2NhdmdSZnFKLWNEZzdoaUs5czJwUQ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b60141555f79714c4d413276624f43645a5a734e576f34755670355a6a",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMA2vbOCdZZsNWo4uVp5Zj49Wb7bHuy6bua"
+      ],
+      "l2_head": "014ff2a8b300daf6ce09d659b0d5a8e2e569e598f8f566fb"
      }
     }
    ]
