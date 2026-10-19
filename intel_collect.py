@@ -669,6 +669,11 @@ def run_rss_probe():
         "USGS": "https://www.usgs.gov/news/rss.xml",
         "IEA": "https://www.iea.org/news.xml",
         "WTO": "https://www.wto.org/library/rss/latestnews_e.xml",
+        # 10-19 新增权威直连源探活
+        "UPI": "https://www.upi.com/rss/feeds/worldnews/",
+        "France24英文": "https://www.france24.com/en/rss",
+        "JapanTimes": "https://www.japantimes.co.jp/feed/topstories/",
+        "ReutersAgency": "https://www.reutersagency.com/feed/?best-topics=top-news&post_type=best",
     }
     out = []
     for _name, _u in _cands.items():
@@ -926,6 +931,7 @@ def main():
                 continue
             seen_feed.add(s["feed_url"]); uniq.append(s)
         inst_cut = datetime.datetime.utcnow().date() - datetime.timedelta(days=INST_DAYS)
+        _diag0 = []  # 2026-10-19 权威源 0 条诊断：记录 (名称,HTTP状态,解析条数,是否新增)
 
         def fetch_src(s):
             st, body = feed_get(s["feed_url"])
@@ -942,6 +948,14 @@ def main():
                             break
                 except Exception:
                     items = []
+            # 诊断：权威源（china_hits>=5 或10-19新增）HTTP失败/解析0条要留痕，便于修 feed
+            try:
+                _h = int(s.get("china_hits") or 0)
+                if _h >= 5 or str(s.get("added", "")).startswith("2026-10-19"):
+                    _diag0.append((str(s.get("name", ""))[:24], st, len(items),
+                                   str(s.get("added", ""))[:10]))
+            except Exception:
+                pass
             # Google News 聚合源：把跳转链接解析成真实原文 URL（识别为路透/AP等硬新闻域并直读原文）
             if "news.google.com/rss" in s.get("feed_url", "") and items:
                 ftitle = s.get("name", "")[:48]   # Google News channel title 不可用，用配置的规范站名
@@ -990,6 +1004,10 @@ def main():
                 if k:
                     print(f"[inst] {str(s.get('name', ''))[:22]}: +{k}", flush=True)
         print(f"[inst] 机构 RSS 本轮候选 {inst_n}（活跃源 {len(uniq)}）", flush=True)
+        # 2026-10-19 权威源 0 条诊断（HTTP 失败/解析失败），定位新增直连 feed 为何采不到
+        for _nm, _st, _ni, _add in _diag0:
+            if _st != 200 or _ni == 0:
+                print("[inst-diag] 权威源0条 %s HTTP=%s 解析=%s %s" % (_nm, _st, _ni, _add), flush=True)
 
     # 4) 正文 / 快照 + 质量过滤（按日期新->旧，限量控成本）
     cand = list(candidates.values())
