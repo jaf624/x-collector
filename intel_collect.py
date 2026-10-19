@@ -64,7 +64,11 @@ HARD_NEWS_DOMAINS = (
     "usgs.gov", "mining.com", "oilprice.com", "iea.org", "usni.org",
     "defensenews.com", "pacom.mil", "imf.org",
     # 扩源·权威直连硬料替代通道（2026-10-19，补路透/AP直连停摆）：共同社/UPI/法24/日本时报/路透社
-    "upi.com", "japantimes.co.jp", "france24.com", "reutersagency.com")
+    "upi.com", "japantimes.co.jp", "france24.com", "reutersagency.com",
+    # 扩源·2026-10-19 矿业/能源/军事/科技/智库/财经(海外探活持续更新，补齐海军/防务)
+    "navalnews.com", "stripes.com", "breakingdefense.com",
+    "miningweekly.com", "kitco.com", "thedrive.com", "naval-technology.com",
+    "maritime-executive.com", "argusmedia.com", "theregister.com", "csis.org", "cnbc.com")
 def is_hardnews_url(u):
     u = (u or "").lower()
     return any(h in u for h in HARD_NEWS_DOMAINS)
