@@ -44,9 +44,9 @@ INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "40"))       # 摘要过短需
 INST_HN_DEEP = int(os.environ.get("INTEL_INST_HN_DEEP", "30"))  # 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）独立深抓配额，提前跑不被台媒挤掉
 MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "20"))         # L类线索源每轮深抓上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
-MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "15"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
+MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "25"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
 # 硬新闻源（2026-10-14 扩源）：通讯社/官方公报/中文硬新闻——深读配额优先，确保新闻模式主粮来自可溯源硬新闻
-HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "60"))
+HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "75"))
 HARD_NEWS_DOMAINS = (
     "zaobao.com.sg", "cn.nikkei.com", "cn.yna.co.kr", "chinese.kyodonews.net", "cna.com.tw",
     "rfa.org", "abc.net.au", "rcinet.ca", "ftchinese.com", "cn.wsj.com", "chinese.aljazeera.net",
@@ -1051,7 +1051,7 @@ def main():
                  and not c.get("lead")]
     # 硬新闻源按日期占固定深读配额，其余给原有新闻源；硬新闻不足则由其他源补足。
     # 每个硬新闻源每轮限额，避免单一高产台媒（本地软新闻）占满配额，让30个名额覆盖约10个源。
-    hn_per = int(os.environ.get("INTEL_HARD_NEWS_PER_SRC", "10"))
+    hn_per = int(os.environ.get("INTEL_HARD_NEWS_PER_SRC", "6"))
     hn_pool = [c for c in news_pool if is_hardnews_url(c.get("url"))]
     _title_cn = re.compile(TITLE_CHINA_RE, re.I)
     # 按源分组：每源固定名额内，锚文本标题命中涉华的优先，再按日期补满，避免官方源首页最新几篇
