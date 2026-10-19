@@ -150,5 +150,16 @@
   "business_total": 18,
   "watch_total": 1,
   "archived_total": 4
+ },
+ {
+  "ran_at": "2026-10-19T03:46:55Z",
+  "tier1": [],
+  "tier2": [
+   "VanActivistsHKChannel"
+  ],
+  "archived": [],
+  "business_total": 18,
+  "watch_total": 1,
+  "archived_total": 4
  }
 ]
