@@ -139,21 +139,39 @@ TITLE_CHINA_RE = (
 )
 
 
-def http(url, accept, timeout=120):
-    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {KEY}",
-                                               "Accept": accept, "User-Agent": UA})
+def http(url, accept, timeout=120, extra_headers=None):
+    headers = {"Authorization": f"Bearer {KEY}",
+               "Accept": accept, "User-Agent": UA}
+    if extra_headers:
+        headers.update(extra_headers)
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
         return r.status, r.read().decode("utf-8", "ignore"), dict(r.headers)
 
 
-def reader(target_url, accept="text/plain"):
-    try:
-        st, body, hdr = http("https://r.jina.ai/" + target_url, accept)
-        return st, body, hdr.get("x-usage-tokens", "?")
-    except urllib.error.HTTPError as e:
-        return e.code, e.read().decode("utf-8", "ignore")[:200], "?"
-    except Exception as e:
-        return None, "EXC " + repr(e)[:160], "?"
+def reader(target_url, accept="text/plain", browser_retry=True):
+    """Jina Reader 深抓。首次用默认引擎；若返回正文明显过短（JS壳/反爬只给摘要，
+    如 OilPrice 等站常 <600 字被误判低质），自动用浏览器引擎重渲染重抓一次，取更长者。
+    浏览器引擎慢且耗 token，仅在首抓过短（<1200 字符）时触发，避免拖慢全量。"""
+    def _do(engine=False):
+        eh = None
+        if engine:
+            eh = {"X-Engine": "browser", "X-Timeout": "60", "X-No-Cache": "true"}
+        try:
+            st, body, hdr = http("https://r.jina.ai/" + target_url, accept,
+                                 timeout=150 if engine else 120, extra_headers=eh)
+            return st, body, hdr.get("x-usage-tokens", "?")
+        except urllib.error.HTTPError as e:
+            return e.code, e.read().decode("utf-8", "ignore")[:200], "?"
+        except Exception as e:
+            return None, "EXC " + repr(e)[:160], "?"
+    st, body, tok = _do()
+    if browser_retry and st == 200 and body and not body.startswith("EXC") and len(body) < 1200:
+        st2, body2, tok2 = _do(engine=True)
+        if st2 == 200 and body2 and not body2.startswith("EXC") and len(body2) > len(body) + 200:
+            print(f"  ↻ browser引擎重抓成功 {len(body)}→{len(body2)} {target_url[:60]}", flush=True)
+            return st2, body2, tok2
+    return st, body, tok
 
 
 def search(query, after, num=NUM):
