@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """主动发现引擎 v2: directory scan + auto-score + auto-add + codeword learning."""
-import os, re, json, time, datetime, urllib.request, urllib.parse
+import os, re, json, socket, time, datetime, urllib.request, urllib.parse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
 CFG = os.path.join(ROOT, "targets", "telegram.json")
 OUT = os.path.join(DATA, "discover_v2.json")
 KEY = os.environ.get("JINA_KEY", "").strip()
+socket.setdefaulttimeout(30)  # 2026-10-19 全局兜底，防止挂起连接卡死整轮任务
 
 SEARCH_QUERIES = [
     "t.me tibet protest channel",
