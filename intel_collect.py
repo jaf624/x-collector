@@ -15,7 +15,7 @@
   data/intel_feed.json   过基础门槛的全量（含社媒线索，带 quality_score / usable / body_from）
   data/intel_brief.json  仅 usable=true 的高信息密度稿，供大模型研判 / 写材料（即"过滤后送模型"那一层）
 """
-import os, re, json, ssl, time, html, hashlib, datetime, urllib.request, urllib.parse, urllib.error
+import os, re, json, ssl, socket, time, html, hashlib, datetime, urllib.request, urllib.parse, urllib.error
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -34,6 +34,9 @@ MAX_FEED = int(os.environ.get("INTEL_MAX_FEED", "800"))
 MIN_BODY = int(os.environ.get("INTEL_MIN_BODY", "400"))
 Q_MIN = int(os.environ.get("INTEL_QUALITY_MIN", "55"))
 CTX = ssl.create_default_context(); CTX.check_hostname = False; CTX.verify_mode = ssl.CERT_NONE
+# 全局 socket 兜底超时（2026-10-19）：防止个别连接在 DNS/SSL/读取阶段挂起，导致整轮 Actions 卡死数小时阻塞调度
+# （urlopen 显式传入的 timeout 优先于此，仅对遗漏读取/线程池内请求兜底）
+socket.setdefaulttimeout(30)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 # 第 4 路：收藏夹公开机构 RSS（智库/政府/国际媒体/NGO/OSINT），美国节点直连不烧 Jina
 INST_SRC = os.path.join(ROOT, "targets", "institute_sources.json")
