@@ -1,250 +1,692 @@
 {
- "diag_at": "2026-10-20T15:50:30.995122Z",
- "results": {
-  "路透": {
-   "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+ "probed_at": "2026-10-20T16:32:58.923358Z",
+ "results": [
+  {
+   "name": "GNEWS-路透",
+   "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "China's CATL third-quarter profit growth slowest in nearly two years as competition intensifies - Reuters",
+   "diag": [
     {
-     "title": "China's CATL third-quarter profit growth slowest i",
-     "date": "Tue, 20 Oct 2026 12:37:27",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVHVQN3lSdVp4QTF6Y"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVHVQN3lSdVp4QTF6Y1BNMHZIakxsZGNBOTVOcGdqWndVZFlVZXR1bnlFZHlja29OZGN",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVHVQN3lSdVp4QTF6Y1BNMHZIakxsZGNBOTVOcGdqWndVZFlVZXR1bnlFZHlja29OZGNfX0t5OVB3RkNOUklyTmdGdmF0X0o2MUUyLWotWGU5YWh1TlA3WnVKZGVlaURXSkVaUjhGYWhuSjhNa1I3VTI4b25QRFNjOEx6aVdSMkNqRUh6bWQ4Umk1NEZJNFN5UlI3RFJzc2VWYkFDMnlYcWtITVhrMThHbnRyU20zRTdrZUFCWWpWMUxZMXNuR3haQXQ1VnlZUTd6"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322d00141555f79714c50547550377952755a7841317a63504d3076486a4c",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLPTuP7yRuZxA1zcPM0vHjLldcA95NpgjZwU"
-      ],
-      "l2_head": "014ff2a8b3d3b8fef246e671035cdc3ccd2f1e32e575c03d"
-     }
+     "title": "China's CATL third-quarter profit growth slowest in nearly t",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVHVQN3lSdVp4QTF6Y",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVHVQN3lSdVp4QTF6Y1BNMHZIakxsZGNBOTVOc",
+     "resolved": false
     },
     {
-     "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over ",
-     "date": "Tue, 20 Oct 2026 09:19:15",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQN"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmw",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322ce0141555f79714c5039706e5257756d7871356950364b6e526631396a",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLP9pnRWumxq5iP6KnRf19jUDYg7GbjZofXX"
-      ],
-      "l2_head": "014ff2a8b3fda67456ba6c6ae623fa2a745fd7d8d40d883b"
-     }
+     "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billio",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQN",
+     "real": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dia",
+     "resolved": false
+    },
+    {
+     "title": "China sends naval forces to monitor US warship near disputed",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOHozWXlncm9jZTU0N",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOHozWXlncm9jZTU0NmZiWUk0blJ0cHpVeDNpW",
+     "resolved": false
+    },
+    {
+     "title": "The fake commute: How China's unemployed save face - Reuters",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGNrUFg3d1QxV2UtN",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGNrUFg3d1QxV2UtNVFtdjY3SUhSdnF3Q29tb",
+     "resolved": false
+    },
+    {
+     "title": "Volkswagen bet on Xpeng to save its China business. It's not",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVF81Q3ZqWE82a1RYZ",
+     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVF81Q3ZqWE82a1RYZEpkbWFXNWVpMkZ2Z01MR",
+     "resolved": false
     }
    ]
   },
-  "AP": {
-   "feed": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-AP",
+   "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "China defends DeepSeek after US ban of its AI from government systems - AP News",
+   "diag": [
     {
-     "title": "China defends DeepSeek after US ban of its AI from",
-     "date": "Tue, 20 Oct 2026 15:10:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQW5jaGxGcHBVMHRMc"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQW5jaGxGcHBVMHRMcDVDUy15cEdmc2ZYZzQ0aGZ1a2M2WVpjM0VWZjY1YkJBc3ZfUHg",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMijAFBVV95cUxPQW5jaGxGcHBVMHRMcDVDUy15cEdmc2ZYZzQ0aGZ1a2M2WVpjM0VWZjY1YkJBc3ZfUHgtZGMxM1VXRFlEdW9TZ3EyVEdUU2tzaXBhZFd6cW8ybDI1Z2NTbG9FUzh2aTRjeFNsamtNN0xlUTYzVWxXQWdMbmJZU2E5VXc4RzFabFBid0lvVw"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "0813228c0141555f79714c4f416e63686c4670705530744c703543532d797047",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLOAnchlFppU0tLp5CS-ypGfsfXg44hfukc6"
-      ],
-      "l2_head": "014ff2a8b3809dc865169a54d2d2e9e424beca919fb1f5e0"
-     }
+     "title": "China defends DeepSeek after US ban of its AI from governmen",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQW5jaGxGcHBVMHRMc",
+     "real": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQW5jaGxGcHBVMHRMcDVDUy15cEdmc2ZYZzQ0a",
+     "resolved": false
     },
     {
-     "title": "A humble oyster pail turned takeout icon: The Amer",
-     "date": "Fri, 16 Oct 2026 23:58:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia2ptcWl3Q0NfeDJpOFFKSUZJV1E0T1MycEcyMjdIU29YbDZFaTJ",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia2ptcWl3Q0NfeDJpOFFKSUZJV1E0T1MycEcyMjdIU29YbDZFaTJlUnRBYS1YSmdkdldRZVVmUjFabFA0UFdvNGZjR1Y5NlA1ZmhxWjRXX0lENHVrNUptTjZmZXN2OGk3QUtUOXZWZUZIbEZ2WjV5MHhHalZwcENzQVJPNmczV193UWlKaA"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322980141555f79714c4e5847476a5a6e366271546e486b6a6d7169774343",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLNXGGjZn6bqTnHkjmqiwCC_x2i8QJIFIWQ4"
-      ],
-      "l2_head": "014ff2a8b3571868d99fa6ea4e71e48e6aa2c020bfc768bc"
-     }
+     "title": "A humble oyster pail turned takeout icon: The American story",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEdHalpuNmJxVG5Ia2ptcWl3Q0NfeDJpOFFKS",
+     "resolved": false
+    },
+    {
+     "title": "China moves to curb tech exports, including AI, citing natio",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGpqZzJpbGpZRmVEd",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGpqZzJpbGpZRmVEdHJ1dEQzY1dTMld3RU92a",
+     "resolved": false
+    },
+    {
+     "title": "Philippines summons Chinese ambassador to protest remarks it",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWE9RaVdMUmpZTWhPb",
+     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWE9RaVdMUmpZTWhPbHpvSjNWMEVzcFRTdHFMT",
+     "resolved": false
+    },
+    {
+     "title": "China’s economy accelerated in the July-September quarter on",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0ybUNYYmVXU0VLLUUyQ",
+     "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0ybUNYYmVXU0VLLUUyQXM2UEFiLXhzWFF2YmZYZ",
+     "resolved": false
     }
    ]
   },
-  "彭博": {
-   "feed": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-AFP",
+   "url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "EU unveils strategy to bolster Arctic presence amid pressure from Russia and the US - France 24",
+   "diag": [
     {
-     "title": "US Sanctions China’s Y Combinator in Google AI Sec",
-     "date": "Tue, 20 Oct 2026 07:11:11",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWpoclBQZGh5ZzFZX"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWpoclBQZGh5ZzFZX25ESkYzTy1JV1dTQXhFUkhsODdZZ1VUOUlFaDFjaDBkYlRIeUZ",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWpoclBQZGh5ZzFZX25ESkYzTy1JV1dTQXhFUkhsODdZZ1VUOUlFaDFjaDBkYlRIeUZEQzJoOXZyTmFkeFNxNkxKQ1l3QmFRRlhkQWM0WnlLOXdySUlwX0t5UHNXZjFzUHhfOWZoam1CWmNjdXNnQ1pMUnZFYUxCenVfd3l4SjNsM1lfTG1jdXkzRkFfdnpSdjVpSk51UnFsQmZMM0xCZmJIcWlPMjMw"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322af0141555f79714c4d496a687250506468796731595f6e444a46334f2d",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMIjhrPPdhyg1Y_nDJF3O-IWWSAxERHl87Y"
-      ],
-      "l2_head": "014ff2a8b3088e1acf3dd87283563f9c3245dcef88596480"
-     }
+     "title": "EU unveils strategy to bolster Arctic presence amid pressure",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSjN4amMtTGotOFF5Q",
+     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSjN4amMtTGotOFF5Q09wbk9OX2lNMjBHejJaL",
+     "resolved": false
     },
     {
-     "title": "China Sets Up State-Owned Data Group to Drive its ",
-     "date": "Tue, 20 Oct 2026 12:13:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTV1amNXT0VzMUNSR"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTV1amNXT0VzMUNSRHRaYy1DekJHWUVsRkptWmRvQzE3MnhIWU8wek80bURmZVpxVld",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTV1amNXT0VzMUNSRHRaYy1DekJHWUVsRkptWmRvQzE3MnhIWU8wek80bURmZVpxVldHT2FWcFFHX1ZCMzhaWHVFMnRGM19GZ1dPU3NjWEdyc3FsLWg3WHFCNHdpZURaQ3ZSTG52THBnYWd0S2IyZmd4SmpuVFUzcE82Xzg3WTE4SjIwbS1FWk9leEEyd0pqNkw2ZHRFWUQyc2ZKOXRXMlFXQlUycHVTR0ZHSQ"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b30141555f79714c4e7135756a63574f457331435244745a632d437a42",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLNq5ujcWOEs1CRDtZc-CzBGYElFJmZdoC17"
-      ],
-      "l2_head": "014ff2a8b36ae6e8dc58e12cd42443b5973e0b3046604945"
-     }
+     "title": "France: Who was behind the violence at Saturday's protests? ",
+     "date": "2026-10-18",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaUJwRUVDZ2VSYi15S",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaUJwRUVDZ2VSYi15STloQXVCYzRmRk96WjFBb",
+     "resolved": false
+    },
+    {
+     "title": "France and Germany agree to ease EU car emissions rules in n",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0lhYnFfa2xOVThvV",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0lhYnFfa2xOVThvVGxuZnEzMzd0X3FIT3pJU",
+     "resolved": false
+    },
+    {
+     "title": "Access Asia - Indonesia's forest fires spark public health c",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb1RpTDgzNTJJN1Jtd",
+     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb1RpTDgzNTJJN1JtdFZqeWk4c1o2OW1Ybm01T",
+     "resolved": false
+    },
+    {
+     "title": "Zelensky holds US talks as Trump accuses him of not wanting ",
+     "date": "2026-10-18",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSW9sbm5pOGlGZkNmQ",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSW9sbm5pOGlGZkNmQnpmWHlWZzVOTVFxNS0yU",
+     "resolved": false
     }
    ]
   },
-  "日经": {
-   "feed": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-彭博",
+   "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "China Sets Up State-Owned Data Group to Drive its AI Ambitions - Bloomberg.com",
+   "diag": [
     {
-     "title": "China announces export controls for tunnel boring ",
-     "date": "Mon, 19 Oct 2026 08:37:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWTlhZlpjS2V4NWxoV"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWTlhZlpjS2V4NWxoVE9NYkZHZWpPdlByS1M0d0tiM1pOZ29KZ0tURDl6T1lWQTd3WF9",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMilAFBVV95cUxPWTlhZlpjS2V4NWxoVE9NYkZHZWpPdlByS1M0d0tiM1pOZ29KZ0tURDl6T1lWQTd3WF9RNWtuaS15TnRSN2JwMEVoRXBnVm5jVTFkSi1LNnkzZlB3OGxLMjBtMzVFZ1hUQjBxMXZXRXJuV3FsNGJ6T3NqWWFzaHNMRjBTY2F6dUZYTEtpdlN6RDRIbFRx"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322940141555f79714c4f593961665a634b6578356c68544f4d624647656a",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLOY9afZcKex5lhTOMbFGejOvPrKS4wKb3ZN"
-      ],
-      "l2_head": "014ff2a8b398f5a7d970a7b1e6585338c6c519e8cebcfaca"
-     }
+     "title": "China Sets Up State-Owned Data Group to Drive its AI Ambitio",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTV1amNXT0VzMUNSR",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTV1amNXT0VzMUNSRHRaYy1DekJHWUVsRkptW",
+     "resolved": false
     },
     {
-     "title": "China's Chery eyes hybrid vehicle launch in Japan ",
-     "date": "Tue, 20 Oct 2026 09:12:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN3c2ZmpMbUFnVjZ1N"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN3c2ZmpMbUFnVjZ1NVZiN2x6Wk10MThMTTkxMmNzUHJLc0JwNTd6YnpwcnNQYjBBS0N",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMitAFBVV95cUxQN3c2ZmpMbUFnVjZ1NVZiN2x6Wk10MThMTTkxMmNzUHJLc0JwNTd6YnpwcnNQYjBBS0NqamRyZDIxbDUwdGdnc0p6dF9ja3pwUlJvY2p6Smh1MmJzVDI5dlRUSDJBUVM0b3F0d19raFRMREU2TUJrZ0pIaFprOExqMFAyRmVHTGREakRDck5PNVc3dGlaMVJJRnRkWEsxamdoY2stbkJsbTNPZkx2UUJIRTZsbVM"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b40141555f79714c50377736666a4c6d4167563675355662376c7a5a4d",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLP7w6fjLmAgV6u5Vb7lzZMt18LM912csPrK"
-      ],
-      "l2_head": "014ff2a8b3fbc3a7e32e602057abb955bee5cd932dd7c2cc"
-     }
+     "title": "US Sanctions China’s Y Combinator in Google AI Secrets Case ",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWpoclBQZGh5ZzFZX",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWpoclBQZGh5ZzFZX25ESkYzTy1JV1dTQXhFU",
+     "resolved": false
+    },
+    {
+     "title": "China Issues Blunt Warning on Global Turmoil at APEC Meeting",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRkZzcGdpZjRtN2xnM",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRkZzcGdpZjRtN2xnME5vcVNvU2M4V3hmaWV1W",
+     "resolved": false
+    },
+    {
+     "title": "Daiwa, Mizuho Win China Securities Permits as Some US Firms ",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZGg2R09xUVkzTUY1T",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZGg2R09xUVkzTUY1TUhEZ0ptbDQxZVZtUjJQT",
+     "resolved": false
+    },
+    {
+     "title": "PBOC Faces Multi-Month Road to New Rate Anchor, Analysts Say",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdkw4SUdIbzdQemdRZ",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdkw4SUdIbzdQemdRZDdMRU9ERFpYLWlHNGo0N",
+     "resolved": false
     }
    ]
   },
-  "WSJ": {
-   "feed": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-日经",
+   "url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "China announces export controls for tunnel boring machines - Nikkei Asia",
+   "diag": [
     {
-     "title": "China’s Ultimate Political Survivor Just Fell. Wha",
-     "date": "Tue, 20 Oct 2026 10:55:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQN"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQNVNaRk1wX0wzSXVnTnFwaWthc0MtSkp5eFVuNi1CclRnWFQ4czh",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQNVNaRk1wX0wzSXVnTnFwaWthc0MtSkp5eFVuNi1CclRnWFQ4czh5UVdhcWx5VVhzSEtXalM1Y3oxcHhsSF9ncWt4MF83OTBTS0VPZWV0ZndiSnJwRDZ3WWlnVVpaRkVhUWRrT1RhYjZJZFp2SHQxWnJ5MlpsM1Zpd2YyM3U3YWhNMDZxVFE0ak5xSVgyclFadVJkTk93TWpnQkVPa2c5TDJrQQ"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b60141555f79714c4d6d334367624b51637846525035535a464d705f4c",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMm3CgbKQcxFRP5SZFMp_L3IugNqpikasC-"
-      ],
-      "l2_head": "014ff2a8b326dc281b2907311513f949914ca7f2f722e80d"
-     }
+     "title": "China announces export controls for tunnel boring machines -",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWTlhZlpjS2V4NWxoV",
+     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWTlhZlpjS2V4NWxoVE9NYkZHZWpPdlByS1M0d",
+     "resolved": false
     },
     {
-     "title": "China’s Export Boom Masks Deep Economic Problems a",
-     "date": "Mon, 19 Oct 2026 09:30:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFRDeXZOR0V1TXd1c"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFRDeXZOR0V1TXd1cTNYR3V2Y1RkZFNlLVcwSk1qUkJlVzFNU19WYVJHNXJ4djZuY0p",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFRDeXZOR0V1TXd1cTNYR3V2Y1RkZFNlLVcwSk1qUkJlVzFNU19WYVJHNXJ4djZuY0poV19Zb3BDSUljOEdlVHFqRXhHcFI1SkhJTGUxQ2pIaXlmRUVYSzQxSnJjVFZuR3REQnd2U2tXSFk5U0VNd2xFRlZVVVlraHc0ZlU5dnAyaEt5SU5BRVloM1VXcHZqQ1BnNlc"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "0813229c0141555f79714c4e4c544379764e4745754d77757133584775766354",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLNLTCyvNGEuMwuq3XGuvcTddSe-W0JMjRBe"
-      ],
-      "l2_head": "014ff2a8b34b4c2caf34612e330baadd71aebdc4dd7527be"
-     }
+     "title": "China's Chery eyes hybrid vehicle launch in Japan amid trade",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN3c2ZmpMbUFnVjZ1N",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN3c2ZmpMbUFnVjZ1NVZiN2x6Wk10MThMTTkxM",
+     "resolved": false
+    },
+    {
+     "title": "Japan plans certifications for data centers, cloud services ",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdHR0UVRXTlFCNG52N",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdHR0UVRXTlFCNG52NkJsYjhCSExSOUpweTlGS",
+     "resolved": false
+    },
+    {
+     "title": "Japan-US drills place advanced missile launchers on front li",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSG5PN3VfVWRyZktzZ",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSG5PN3VfVWRyZktzZlU3Z3RWSFQwT3IzUWhOb",
+     "resolved": false
+    },
+    {
+     "title": "China's DeepSeek debuts improved low-cost AI as tech doubts ",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU09ReGl5NnZhcHRYa",
+     "real": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU09ReGl5NnZhcHRYaE9jRHpMWTZ5MC02X2tKa",
+     "resolved": false
     }
    ]
+  },
+  {
+   "name": "GNEWS-金融时报",
+   "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Japan ‘months’ from running out of critical rare earth as China squeezes supply - Financial Times",
+   "diag": [
+    {
+     "title": "Japan ‘months’ from running out of critical rare earth as Ch",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdGJDTEN3Z09DeWNoS",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdGJDTEN3Z09DeWNoSlBtNGNOWnBCNDNHbHJjb",
+     "resolved": false
+    },
+    {
+     "title": "Can Africa outgrow China? - Financial Times",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazFDdHl0aGo5cGxWc",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazFDdHl0aGo5cGxWci1hUHV2RHpMNGVOV3lVM",
+     "resolved": false
+    },
+    {
+     "title": "China’s villages pay the price for Beijing’s AI ambitions - ",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZGVCaXJKdkxoRGNLV",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZGVCaXJKdkxoRGNLVWpFTWYyUmRUNnJBQWFzZ",
+     "resolved": false
+    },
+    {
+     "title": "Accenture looks to sell Chinese operations for up to $1.5bn ",
+     "date": "2026-10-18",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUXQ2WWNXcnlFYXJ0S",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUXQ2WWNXcnlFYXJ0S1I1SHBXYkU2NG10emhyd",
+     "resolved": false
+    },
+    {
+     "title": "South Africa’s president eyes trade with China and India as ",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMzZveUpibnJ4d3NZX",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMzZveUpibnJ4d3NZX3M3LUcxdmtNTGdGdzJtU",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-华尔街日报",
+   "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "China’s Ultimate Political Survivor Just Fell. What That Says About Xi’s Rule. - WSJ",
+   "diag": [
+    {
+     "title": "China’s Ultimate Political Survivor Just Fell. What That Say",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQN",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQNVNaRk1wX0wzSXVnTnFwa",
+     "resolved": false
+    },
+    {
+     "title": "China’s Export Boom Masks Deep Economic Problems at Home - W",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFRDeXZOR0V1TXd1c",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFRDeXZOR0V1TXd1cTNYR3V2Y1RkZFNlLVcwS",
+     "resolved": false
+    },
+    {
+     "title": "DHS Orders DeepSeek Technology Removed From Federal Civilian",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX2MyVGNOQ1RfNzdBe",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX2MyVGNOQ1RfNzdBem5aV201TEVXX21EWUdSb",
+     "resolved": false
+    },
+    {
+     "title": "Exclusive | Putin Floats a Summit With Trump and Xi to Discu",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY3JSS1cwX2ZZSWhRM",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY3JSS1cwX2ZZSWhRMFl2SmpfZjdadXF2U3NhR",
+     "resolved": false
+    },
+    {
+     "title": "Roche Partners With China’s Hansoh in Deal That Could Top $1",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRUF5M0N2eUI5RnRId",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRUF5M0N2eUI5RnRIdENIMTExdlpFT01UWTVSU",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-纽约时报",
+   "url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Strong Exports Stabilize China’s Economic Growth in Official Statistics - The New York Times",
+   "diag": [
+    {
+     "title": "Strong Exports Stabilize China’s Economic Growth in Official",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40cnBMZmk3ZzA2bFpuN",
+     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40cnBMZmk3ZzA2bFpuN0hiUnhOZFU3ODMtbGs1N",
+     "resolved": false
+    },
+    {
+     "title": "After Welcoming China’s Electric Vehicles, This Country Is P",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ad3drMEpQTjFSQjNNc",
+     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ad3drMEpQTjFSQjNNckptcHdNZktDQWdBTVA1S",
+     "resolved": false
+    },
+    {
+     "title": "Chinese A.I. Agents Joined the Rogue A.I. Agent Party. I Cha",
+     "date": "2026-10-14",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRTFlzR2JGNXFsR19pa",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRTFlzR2JGNXFsR19paHdHeHZqbnhKU1VuUVdDb",
+     "resolved": false
+    },
+    {
+     "title": "Trump Offered to Sell Arms to China, U.S. Ambassador Says - ",
+     "date": "2026-09-27",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM0dRZWdFN1pwcTNsb",
+     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM0dRZWdFN1pwcTNsbV81WDEtVHAtazBXRF9IM",
+     "resolved": false
+    },
+    {
+     "title": "Opinion | This Is the Good Scenario? - The New York Times",
+     "date": "2026-10-18",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTnJVTlpXMDVjTmNJa",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTnJVTlpXMDVjTmNJanZlTHZ2WDdjdm5WbkQxd",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-经济学人",
+   "url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "China is giving its economy a big shot in the arm - The Economist",
+   "diag": [
+    {
+     "title": "China is giving its economy a big shot in the arm - The Econ",
+     "date": "2026-10-01",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTG4xemx2QmpBWFdXR",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTG4xemx2QmpBWFdXRlA5cUdzdTFtN0xQT2FtV",
+     "resolved": false
+    },
+    {
+     "title": "Does China really prize AI speed over safety? - The Economis",
+     "date": "2026-10-19",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbWkyWlBhV1MzcEhmQ",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbWkyWlBhV1MzcEhmQzBoVnVDeDBmM0x0NVBGY",
+     "resolved": false
+    },
+    {
+     "title": "Another warning sign for China’s economy: falling consumer c",
+     "date": "2026-10-14",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUE5jYnlYVXJIa3doW",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUE5jYnlYVXJIa3doWUdobUxGWmpOMkpVZW1DW",
+     "resolved": false
+    },
+    {
+     "title": "China wants teenagers to read a classic English novel - The ",
+     "date": "2026-10-08",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUVhQcHBuaHRLNkY4e",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUVhQcHBuaHRLNkY4eGJLTWlHeFBFQ0ZxX2tse",
+     "resolved": false
+    },
+    {
+     "title": "China has captured the market for hobbyist 3D printers - The",
+     "date": "2026-10-15",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVTlNazBIS2FKMnBrc",
+     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVTlNazBIS2FKMnBrczItZXAzVmJrT0tFWmU5U",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-路透-China",
+   "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Phoenix Tailings to build $375-million rare earths facility in New York state - Reuters",
+   "diag": [
+    {
+     "title": "Phoenix Tailings to build $375-million rare earths facility ",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR0F4SV9rdVFJMzRIdGN6T",
+     "resolved": false
+    },
+    {
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: US holds more secret talks with Myanmar's militar",
+     "date": "2026-10-16",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWpMVGJHdmxrQnR6Q",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWpMVGJHdmxrQnR6QTZzWnBsTEk1VldyRmdLd",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE China Rare Earth Group in talks to buy MP Material",
+     "date": "2026-09-21",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTkdhN0lPRzNSeXM5d",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTkdhN0lPRzNSeXM5dTFpNnJCX3NIam42ZHlIM",
+     "resolved": false
+    },
+    {
+     "title": "Aerospace suppliers test rare-earth alternatives to ease rel",
+     "date": "2026-09-21",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdmtCaDgySDB0TTRLU",
+     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdmtCaDgySDB0TTRLU2tuRzhJT3VZZEEtZVFkU",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "AP直接feed",
+   "url": "https://apnews.com/feed",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社英文",
+   "url": "https://english.kyodonews.net/rss/news.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社中文",
+   "url": "https://chinese.kyodonews.net/rss/all.xml",
+   "status": -1,
+   "items": 0,
+   "is_feed": false,
+   "err": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "name": "日经中文",
+   "url": "https://cn.nikkei.com/rss/rss.xml",
+   "status": 202,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "BBC中文",
+   "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+   "status": 200,
+   "items": 38,
+   "is_feed": true,
+   "sample": "<![CDATA[朝鮮發佈金正恩照片：為何他的死亡傳言總是捲土重來？]]>"
+  },
+  {
+   "name": "美国国务院",
+   "url": "https://www.state.gov/feed/",
+   "status": 200,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "美国国防部",
+   "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
+   "status": 200,
+   "items": 20,
+   "is_feed": true,
+   "sample": " Gen. Brunson Reinforces ROK-U.S. Alliance, Future Readiness in D.C."
+  },
+  {
+   "name": "商务部新闻",
+   "url": "https://www.commerce.gov/news/press-releases/rss.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USTR新闻",
+   "url": "https://ustr.gov/feeds/press-releases.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "能源部FE",
+   "url": "https://www.energy.gov/fe/newsroom/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "NATO",
+   "url": "https://www.nato.int/webservices/rss/news.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "欧盟presscorner",
+   "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+   "status": 406,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "日本外务省",
+   "url": "https://www.mofa.go.jp/rss/english.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "日本经产省",
+   "url": "https://www.meti.go.jp/rss/whatsnew_e.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USNI",
+   "url": "https://news.usni.org/feed",
+   "status": 200,
+   "items": 30,
+   "is_feed": true,
+   "sample": "Chinese Navy Shadows USS Charleston Near Contested Sabina Shoal"
+  },
+  {
+   "name": "DefenseNews",
+   "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+   "status": 200,
+   "items": 25,
+   "is_feed": true,
+   "sample": "<![CDATA[Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say]]>"
+  },
+  {
+   "name": "Mining",
+   "url": "https://www.mining.com/feed/",
+   "status": 200,
+   "items": 36,
+   "is_feed": true,
+   "sample": "Copper surplus masks looming $332B mine shortfall"
+  },
+  {
+   "name": "OilPrice",
+   "url": "https://oilprice.com/rss/main",
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "Russia’s Oil Export Revenue Slides as Production Declines"
+  },
+  {
+   "name": "IMF",
+   "url": "https://www.imf.org/en/News/RSS?language=eng",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USGS",
+   "url": "https://www.usgs.gov/news/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "IEA",
+   "url": "https://www.iea.org/news.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "WTO",
+   "url": "https://www.wto.org/library/rss/latestnews_e.xml",
+   "status": 200,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "UPI",
+   "url": "https://www.upi.com/rss/feeds/worldnews/",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "France24英文",
+   "url": "https://www.france24.com/en/rss",
+   "status": 200,
+   "items": 24,
+   "is_feed": true,
+   "sample": "More than 150 killed in Sudan drone strike on disputed Abyei border region"
+  },
+  {
+   "name": "JapanTimes",
+   "url": "https://www.japantimes.co.jp/feed/topstories/",
+   "status": 200,
+   "items": 5,
+   "is_feed": true,
+   "sample": "<![CDATA[ Nissan management shake-up plans reported as sharks circle ]]>"
+  },
+  {
+   "name": "ReutersAgency",
+   "url": "https://www.reutersagency.com/feed/?best-topics=top-news&post_type=best",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社英文all",
+   "url": "https://english.kyodonews.net/rss/all.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社英文ap",
+   "url": "https://english.kyodonews.net/rss/asia-pacific.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "UPI-topnews",
+   "url": "https://www.upi.com/rss/feeds/topnews/",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "StarsStripes",
+   "url": "https://www.stripes.com/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "BreakingDefense",
+   "url": "https://breakingdefense.com/feed/",
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "Russia&#8217;s naval posture in the Mediterranean has &#8216;significantly decreased&#8217;: NATO official"
+  },
+  {
+   "name": "MiningWeekly",
+   "url": "https://www.miningweekly.com/rss/news",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
   }
- }
+ ]
 }
