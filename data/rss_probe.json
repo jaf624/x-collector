@@ -1,5 +1,5 @@
 {
- "diag_at": "2026-10-21T18:13:16.839371Z",
+ "diag_at": "2026-10-21T21:56:45.236837Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
@@ -105,6 +105,27 @@
    "items": 100,
    "samples": [
     {
+     "title": "Starbucks China Will Require Purchases to Sit in I",
+     "date": "Wed, 21 Oct 2026 05:13:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWm9tM3ZSRkJadXBQM"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWm9tM3ZSRkJadXBQMjk0cWZUaHhSWTh2VldDcW51YzY2bk56dmdETnFhRXdrb1cwWVl",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMirgFBVV95cUxOWm9tM3ZSRkJadXBQMjk0cWZUaHhSWTh2VldDcW51YzY2bk56dmdETnFhRXdrb1cwWVlVLWpPSlZJTjRGUWFPVWw3OG42cFMwS0lJenlUUExXLU1CRk1YeE5feXlHS2NxNE1tRTBLNFZDeHRxY29kWXlKNi1tT1dabmZFV0tHX2FNRktBVDRFZURCUndDQ3FTdkJOWll5S3RuX2hEWlJqRkZDWEJOUkE"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322ae0141555f79714c4e5a6f6d33765246425a7570503239347166546878",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLNZom3vRFBZupP294qfThxRY8vVWCqnuc66"
+      ],
+      "l2_head": "014ff2a8b359a26def445059ba93f6f78a9f4e1c5163cbd5"
+     }
+    },
+    {
      "title": "Super Typhoon Champi on Path to Impact China, Taiw",
      "date": "Wed, 21 Oct 2026 06:17:00",
      "chain": [
@@ -123,27 +144,6 @@
        "AU_yqLMpcqbG1XKUnHb-PLf7CsaVldeibupCgiX2"
       ],
       "l2_head": "014ff2a8b32972a6c6d572949c76fe3cb7fb0ac69595d7a2"
-     }
-    },
-    {
-     "title": "Kremlin Says China Preparing for Possible Putin-Tr",
-     "date": "Wed, 21 Oct 2026 15:10:44",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMTFtU1ZmYlhkdjhvT"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMTFtU1ZmYlhkdjhvTUR2ZmFRUzVIcDNQOUpKTkp0S1NCZGJjT1RfUjdobXZ5cTRtOWF",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxOMTFtU1ZmYlhkdjhvTUR2ZmFRUzVIcDNQOUpKTkp0S1NCZGJjT1RfUjdobXZ5cTRtOWF3Sm9kaXdBdEo2NUM2VzNjaFp1WjdNRWpVeXY3VS1lbXlzRFNyd1R1SEk2WC1UZWVwdm5WcU1vSE83RmswcVZWSTdTRXVNdm1uV1Jmd1JMNFFxZU9TeXpBQ2NzVzJLV0F0TWg2cUJLdHFjalpHMHRPb3BVV29FSEV2UktyUQ"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b60141555f79714c4e31316d53566662586476386f4d44766661515335",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLN11mSVfbXdv8oMDvfaQS5Hp3P9JJNJtKSB"
-      ],
-      "l2_head": "014ff2a8b375d664957db5ddbfca0c0ef7da412e47a773fd"
      }
     }
    ]
