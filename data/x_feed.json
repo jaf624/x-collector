@@ -1,5 +1,3548 @@
 [
   {
+    "x_id": "2112465838154334655",
+    "screen_name": "NFTCPS",
+    "author": "鸟哥 | 蓝鸟会🕊️",
+    "verified": false,
+    "created_at": "2026-10-20T08:47:58.000Z",
+    "text_raw": "Win11里关不掉的AI和广告，有人用一个开源脚本全清了\n\nGitHub上有个项目叫Win11Debloat，已经攒了5.8万多颗星。\n\n它就是一个PowerShell脚本，不用安装。\n打开终端，粘一行命令就能跑。\n\n先说AI这块，下手最重。\nCopilot、Recall、Click to Do可以直接禁用并移除。 https://t.co/ye2ieUYOVJ",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112465838154334655_0.jpg",
+        "w": 1182,
+        "h": 1329
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/NFTCPS/status/2112465838154334655",
+    "fav": 12,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:09.905307Z"
+  },
+  {
+    "x_id": "2112810293055078724",
+    "screen_name": "johnAGI168",
+    "author": "John",
+    "verified": false,
+    "created_at": "2026-10-21T07:36:42.000Z",
+    "text_raw": "SEEDANCE 2.5 / 科幻反转短片导演提示词 Duration：30秒 Aspect ratio：16:9 横屏（双人同框、弧形视频墙和横向排开的手机都需要横向空间） Overall",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/johnAGI168/status/2112810293055078724",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:09.014687Z"
+  },
+  {
+    "x_id": "2112816275646984334",
+    "screen_name": "yang3izc",
+    "author": "洋仔实验室",
+    "verified": false,
+    "created_at": "2026-10-21T08:00:28.000Z",
+    "text_raw": "搞 AI 视频的，这个仓库不存真亏：Seedance 2.0 Skill OS，0 元。\n我原本以为又是提示词合集，结果它把生成流程做成能直接套用的影视工作流，从'随口编词'到'按镜头拍'。\n仓库：https://t.co/cOtVMN32LU\n有人跑过完整流程没？我卡在第二步。 https://t.co/PCq5jknlMb",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112816275646984334_0.jpg",
+        "w": 1200,
+        "h": 675
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/yang3izc/status/2112816275646984334",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:08.122657Z"
+  },
+  {
+    "x_id": "2112828882231742966",
+    "screen_name": "nicebabycat",
+    "author": "韦小宝",
+    "verified": false,
+    "created_at": "2026-10-21T08:50:34.000Z",
+    "text_raw": "太酷了，\nClaude Code 现在能替我批量调 GPT Image 出图了，\n\n一句话 20 种插画风格。\n\n人在外面，手机发一句话，家里 Mac 上的 Claude Code 就把 20 条提示词全部读完，4 张一组自动出图，20 张全部成功。\n\n🔥 背后接的是 Flatkey：\n· 做图用 OpenAI 的 GPT Image，做视频用字节的 Seedance，一个 https://t.co/qInrZOscAp",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112828882231742966.mp4",
+    "url": "https://x.com/nicebabycat/status/2112828882231742966",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 11,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:07.255662Z"
+  },
+  {
+    "x_id": "2112829050796527788",
+    "screen_name": "swordBluesy",
+    "author": "剑的 AI 实验室",
+    "verified": false,
+    "created_at": "2026-10-21T08:51:14.000Z",
+    "text_raw": "排行榜第一名，往往是你最不该选的那个视频模型\n\n每隔几周就有一个新的 AI 视频模型发布，演示片一部比一部惊艳。然后你拿它去做自己的活儿，结果……还行，有时很好，有时根本没法用。问题通常不是你选了个\"烂\"模型，而是你选之前根本没检查它合不合这个活儿。\n\n作者在 https://t.co/qni5cvig49 https://t.co/KvWCJD7eAN",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112829050796527788.mp4",
+    "url": "https://x.com/swordBluesy/status/2112829050796527788",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 9,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:06.372169Z"
+  },
+  {
+    "x_id": "2112829112859717896",
+    "screen_name": "nicebabycat",
+    "author": "韦小宝",
+    "verified": false,
+    "created_at": "2026-10-21T08:51:29.000Z",
+    "text_raw": "资料卡\n\n·官网：https://t.co/Hdfh7bj0FW\n\n·安装：npm install -g @flatkey-ai/cli，然后运行 flatkey login\n\n·给 Claude Code 的指令：读取桌面\"提示词\"文件夹里的每个 txt 文件，用 flatkey 的 GPT Image 模型，一个文件生成一张图，用文件名命名，存到\"出图\"文件夹，跑完列成功和失败清单 https://t.co/pyT730wi5B",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112829112859717896_0.jpg",
+        "w": 1440,
+        "h": 3170
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/nicebabycat/status/2112829112859717896",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:05.371044Z"
+  },
+  {
+    "x_id": "2112356718097354789",
+    "screen_name": "nanyinai888",
+    "author": "南殷用AI",
+    "verified": false,
+    "created_at": "2026-10-20T01:34:21.000Z",
+    "text_raw": "白嫖提示词还能这么爽？最近挖到一个宝藏：OpenNana 提示词图库，直接把\"找提示词\"这件事安排明白了。\n\n19888 个提示词整整齐齐码在里面，Nano Banana、GPT、Grok、Seedance 都有，图片视频全覆盖，这体量够玩很久。\n\n做 AI 生图的建议先收藏 👇\n🔗 https://t.co/NX7wfzhfKg https://t.co/qAlg6OQKbN",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112356718097354789_0.jpg",
+        "w": 2048,
+        "h": 1002
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/nanyinai888/status/2112356718097354789",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:04.488740Z"
+  },
+  {
+    "x_id": "2111273399943057458",
+    "screen_name": "AI_DVD6",
+    "author": "大卫｜AI抄作业",
+    "verified": false,
+    "created_at": "2026-10-17T01:49:38.000Z",
+    "text_raw": "https://t.co/oxF9p64Gd6",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AI_DVD6/status/2111273399943057458",
+    "fav": 111,
+    "retweet": 0,
+    "reply": 6,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:03.607777Z"
+  },
+  {
+    "x_id": "2112556991654584638",
+    "screen_name": "AI_DVD6",
+    "author": "大卫｜AI抄作业",
+    "verified": false,
+    "created_at": "2026-10-20T14:50:10.000Z",
+    "text_raw": "🎇这位高手的opus5.5 作品，看完保证让你一天都神清气爽，充满活力！🛹\n\n以下作者分享的制作步骤👇\n\n1️⃣ 用 Opus 5.5 写提示词\n让 Claude Opus 5.5 根据你的想法，生成适合 Seedance 2.5 的提示词。\n\n2️⃣用 Seedance 2.5 生成两段 30 秒视频\n拿第 1 步的提示词，在 Seedance 2.5 里各生成一条 30",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://video.twimg.com/amplify_video/2111830605491216386/vid/avc1/2560x1440/bVOMv9EmhxmYm2ew.mp4",
+    "url": "https://x.com/AI_DVD6/status/2112556991654584638",
+    "fav": 20,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:02.732675Z"
+  },
+  {
+    "x_id": "2112852126368157769",
+    "screen_name": "TanLuAI",
+    "author": "探路AI",
+    "verified": false,
+    "created_at": "2026-10-21T10:22:56.000Z",
+    "text_raw": "一张角色图 +提示词 生成  一段 日式风格 的抱枕 广告\n\n生成视频前，可以让GPT 先生成一张 故事板图片\n\n故事板图片可用于 预览镜头（注意不要当做参考图）\n\n确认没问题，再将 下面的完整提示词 发给 Seedance 2.5 https://t.co/EylhwUFnmr",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112852126368157769.mp4",
+    "url": "https://x.com/TanLuAI/status/2112852126368157769",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:01.830378Z"
+  },
+  {
+    "x_id": "1926789020597576039",
+    "screen_name": "Chin_Quency",
+    "author": "Ch'in_Quency",
+    "verified": false,
+    "created_at": "2025-05-25T23:54:35.000Z",
+    "text_raw": "@yanmin1105 这是邮票还是毒品",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/Chin_Quency/status/1926789020597576039",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:00.946678Z"
+  },
+  {
+    "x_id": "1939513796554576240",
+    "screen_name": "DtDt666",
+    "author": "看不懂的SOL",
+    "verified": false,
+    "created_at": "2025-06-30T02:38:18.000Z",
+    "text_raw": "一图搞懂什么是洗钱？\n01、洗钱（Money Laundering）\n洗钱是指将毒品犯罪、黑社会性质的组织犯罪、恐怖活动犯罪、走私犯罪或者其他犯罪的违法所得及其产生的收益，通过各种手段掩饰、隐瞒其来源和性质，使其在形式上合法化的行为。 https://t.co/xxUMbKYHVT",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1939513796554576240_0.jpg",
+        "w": 2457,
+        "h": 3276
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/DtDt666/status/1939513796554576240",
+    "fav": 1013,
+    "retweet": 0,
+    "reply": 25,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:37:00.045180Z"
+  },
+  {
+    "x_id": "1965619512914661721",
+    "screen_name": "EthenShen",
+    "author": "缠来禅去",
+    "verified": false,
+    "created_at": "2025-09-10T03:33:05.000Z",
+    "text_raw": "@Poncon9 @kuan01908771 @tN5uPwZB5de1QX2 @paooo79 毒品有黑社会诱骗年青人使用，甚至故意下毒，让你上瘾，之前不是有芬太尼邮票吗？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/EthenShen/status/1965619512914661721",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:59.120676Z"
+  },
+  {
+    "x_id": "1967514911262884267",
+    "screen_name": "OverSpring_wiki",
+    "author": "OverSpring Wiki (AnH+/acc)🏴",
+    "verified": false,
+    "created_at": "2025-09-15T09:04:44.000Z",
+    "text_raw": "Testosterone=蛋白同化制剂=体育兴奋剂\n「毒品」=镇静/麻醉剂（阿片/BZD）+致幻剂（邮票）+解离剂（K）+中枢兴奋剂（冰）\n难道是因为「兴奋剂」三个字被误伤了",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/OverSpring_wiki/status/1967514911262884267",
+    "fav": 11,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:58.221546Z"
+  },
+  {
+    "x_id": "1967509629782671651",
+    "screen_name": "jingzhny11",
+    "author": "愿望天使DesireAngel",
+    "verified": false,
+    "created_at": "2025-09-15T08:43:44.000Z",
+    "text_raw": "@aoya_toboso_01 唉⏰禁毒，林则徐千古罪人",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/jingzhny11/status/1967509629782671651",
+    "fav": 6,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:57.338143Z"
+  },
+  {
+    "x_id": "2021342527878525327",
+    "screen_name": "kricspan",
+    "author": "一只鱼CoolFish",
+    "verified": false,
+    "created_at": "2026-02-10T21:56:28.000Z",
+    "text_raw": "https://t.co/dyZtSxtKbv",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/kricspan/status/2021342527878525327",
+    "fav": 122,
+    "retweet": 0,
+    "reply": 32,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:56.455693Z"
+  },
+  {
+    "x_id": "2044604577828474977",
+    "screen_name": "DOUDEMOII_y92z0",
+    "author": "🇨🇳躺在水晶棺材裡的臘圣📕🚩",
+    "verified": false,
+    "created_at": "2026-04-16T02:31:32.000Z",
+    "text_raw": "@Numiouo 美金刚对人体的伤害比lsd大，而且美金刚的致幻效果一般吧我觉得，有段时间特别喜欢磕因为便宜，唯一优点是耐药性很低🤦‍♀️还是希望放开一些危害性不高的毒品，比方说邮票大麻依托咪酯什么的",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/DOUDEMOII_y92z0/status/2044604577828474977",
+    "fav": 3,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:55.576235Z"
+  },
+  {
+    "x_id": "2076628620014178672",
+    "screen_name": "KELMAND1",
+    "author": "Eason Mao☢",
+    "verified": false,
+    "created_at": "2026-07-13T11:23:39.000Z",
+    "text_raw": "@xiangyuli LSD（化学式为C20H25N3O）是一种俗称为“邮票”的新型毒品。下列关于该物质的说法正确的是（　　）\nA．其中氮元素和氧元素质量比为3：1\nB．LSD分子是由四种元素组成\nC．其中碳元素的质量分数最大\nD．分子由20个碳原子、25个氢原子、3个氮原子和1个氯原子构成\n\n🤣🤣🤣🤣",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/KELMAND1/status/2076628620014178672",
+    "fav": 20,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:54.698005Z"
+  },
+  {
+    "x_id": "2077576663215555061",
+    "screen_name": "Tougawanagi",
+    "author": "冬川凪",
+    "verified": false,
+    "created_at": "2026-07-16T02:10:50.000Z",
+    "text_raw": "@Snow_Xue_1 直球要买毒品什么的哪个父母都不会愿意吧\n如果你真的很想要，可以说自己想要出去旅游要个［邮票的价格］再加上网吧包七天夜的价格，在网吧睡七天就行",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/Tougawanagi/status/2077576663215555061",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:53.796901Z"
+  },
+  {
+    "x_id": "2077818227623916011",
+    "screen_name": "atashisetsunasa",
+    "author": "スマトラ警備隊",
+    "verified": false,
+    "created_at": "2026-07-16T18:10:44.000Z",
+    "text_raw": "@Snow_Xue_1 奥施康定是红处方就算了，名正言顺地要求父母给你买毒品是什么意思？邮票是货真价实的毒品（LSD）",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/atashisetsunasa/status/2077818227623916011",
+    "fav": 21,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:52.902796Z"
+  },
+  {
+    "x_id": "2112024022930375155",
+    "screen_name": "Graceruansu",
+    "author": "软苏格拉底",
+    "verified": false,
+    "created_at": "2026-10-19T03:32:21.000Z",
+    "text_raw": "https://t.co/2EXJdcMSQr",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/Graceruansu/status/2112024022930375155",
+    "fav": 32,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:52.003255Z"
+  },
+  {
+    "x_id": "2112130278814593079",
+    "screen_name": "LiaoMojo",
+    "author": "凉凉的西瓜不吃(FBI 版)",
+    "verified": false,
+    "created_at": "2026-10-19T10:34:34.000Z",
+    "text_raw": "https://t.co/U54w7uY9ee",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/LiaoMojo/status/2112130278814593079",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:51.107601Z"
+  },
+  {
+    "x_id": "2112507252888285454",
+    "screen_name": "LiaoMojo",
+    "author": "凉凉的西瓜不吃(FBI 版)",
+    "verified": false,
+    "created_at": "2026-10-20T11:32:32.000Z",
+    "text_raw": "https://t.co/f4yPZnNfkv",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/LiaoMojo/status/2112507252888285454",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:50.238673Z"
+  },
+  {
+    "x_id": "2112507505364332856",
+    "screen_name": "LiaoMojo",
+    "author": "凉凉的西瓜不吃(FBI 版)",
+    "verified": false,
+    "created_at": "2026-10-20T11:33:32.000Z",
+    "text_raw": "https://t.co/A2zYkYwAxA",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/LiaoMojo/status/2112507505364332856",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:49.346875Z"
+  },
+  {
+    "x_id": "2112507559336698229",
+    "screen_name": "LiaoMojo",
+    "author": "凉凉的西瓜不吃(FBI 版)",
+    "verified": false,
+    "created_at": "2026-10-20T11:33:45.000Z",
+    "text_raw": "https://t.co/hzoCesuGrm",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/LiaoMojo/status/2112507559336698229",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:48.461150Z"
+  },
+  {
+    "x_id": "2112695720361029873",
+    "screen_name": "bobbycn20",
+    "author": "Winning Horizons博得视野",
+    "verified": false,
+    "created_at": "2026-10-21T00:01:26.000Z",
+    "text_raw": "https://t.co/JZ1xTxuc7U",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/bobbycn20/status/2112695720361029873",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:47.583468Z"
+  },
+  {
+    "x_id": "2112767732198322616",
+    "screen_name": "SUSU_U9",
+    "author": "海哥",
+    "verified": false,
+    "created_at": "2026-10-21T04:47:35.000Z",
+    "text_raw": "https://t.co/xzTPrjdu7C",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/SUSU_U9/status/2112767732198322616",
+    "fav": 53,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:46.706231Z"
+  },
+  {
+    "x_id": "2112871495680885045",
+    "screen_name": "p4theater",
+    "author": "P4 Theater | p4剧场",
+    "verified": false,
+    "created_at": "2026-10-21T11:39:54.000Z",
+    "text_raw": "https://t.co/BKK61cWkZp",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/p4theater/status/2112871495680885045",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:45.815590Z"
+  },
+  {
+    "x_id": "2112881477449085424",
+    "screen_name": "nanyuan0412",
+    "author": "南鸢 nuyoah",
+    "verified": false,
+    "created_at": "2026-10-21T12:19:34.000Z",
+    "text_raw": "https://t.co/C3rQWK3YN4",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/nanyuan0412/status/2112881477449085424",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:44.922047Z"
+  },
+  {
+    "x_id": "2112443902900711429",
+    "screen_name": "ZitaPlus",
+    "author": "ZitaPlus",
+    "verified": false,
+    "created_at": "2026-10-20T07:20:48.000Z",
+    "text_raw": "Cheaper oil, stubborn inflation. What’s next for markets? This week’s ZitaPlus Bulletin covers Fed expectations, Treasury yields, gold, silver, and EUR/USD, plus the economic events to watch. Read the full analysis. #ZitaPlus https://t.co/apT1SmTVRe",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ZitaPlus/status/2112443902900711429",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:44.037771Z"
+  },
+  {
+    "x_id": "2112473175673987337",
+    "screen_name": "ZackEiseman",
+    "author": "trap_zack",
+    "verified": false,
+    "created_at": "2026-10-20T09:17:07.000Z",
+    "text_raw": "ICYMI O/N — TUESDAY 20 OCTOBER\n\nMACRO:\n\nChip stocks in Asia failed to follow Wall Street’s rebound: SK Hynix fell 5.3%, Samsung 3.8%, Kioxia 3.2% and TSMC closed down 0.6%. The Kospi was down 4.3% as AI-financing concerns persisted. Shares of Korean neocloud Elice Inc plunged in",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ZackEiseman/status/2112473175673987337",
+    "fav": 15,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:43.150467Z"
+  },
+  {
+    "x_id": "2112740669705863626",
+    "screen_name": "SirCensorLot",
+    "author": "SirOliverPollock(KAIZER)😎 🧐 🤫",
+    "verified": false,
+    "created_at": "2026-10-21T03:00:03.000Z",
+    "text_raw": "🚨11 PM NIGHTLY NEWZ BLITZ 🚨\n\nBECAUSE THE ALGO SUCKS!\n\n12 STORIES WORTH WATCHING\n\nOctober 20, 2026\n\n🧵👇🏽\n\n@SirCensorLot \n\n1/ 🇺🇸🗳️ FAKE POLLING DATA EXPOSED IN MISSISSIPPI\n\nWedgewood Polls acknowledged fabricating polling data after its methodology came under scrutiny.\n\nOne https://t.co/pxid7nkjnf",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112740669705863626_0.jpg",
+        "w": 1290,
+        "h": 1925
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/SirCensorLot/status/2112740669705863626",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:42.238534Z"
+  },
+  {
+    "x_id": "2112665170095087896",
+    "screen_name": "TheInsiderPaper",
+    "author": "Insider Paper",
+    "verified": false,
+    "created_at": "2026-10-20T22:00:02.000Z",
+    "text_raw": "A US military plane started to patrol the Black Sea following Bulgaria’s call for help after recent drone attacks on ships off the Bulgarian coast, prime minister said\n\nhttps://t.co/MCPIoiETTm",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/TheInsiderPaper/status/2112665170095087896",
+    "fav": 58,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:40.469514Z"
+  },
+  {
+    "x_id": "2112691126658289812",
+    "screen_name": "visegrad24",
+    "author": "Visegrád 24",
+    "verified": false,
+    "created_at": "2026-10-20T23:43:11.000Z",
+    "text_raw": "Meloni announces a new decree and 4 new measures to combat violent riots and looting.\n\nShe says that people of foreign background constitute half of the 330 people arrested and detained so far.\n\nThe new measures include prison sentences of up to 5 years and fines of €20,000 for https://t.co/lDbjNAiMFp",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112691126658289812.mp4",
+    "url": "https://x.com/visegrad24/status/2112691126658289812",
+    "fav": 5642,
+    "retweet": 0,
+    "reply": 267,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:39.593366Z"
+  },
+  {
+    "x_id": "2112709466663637301",
+    "screen_name": "EricLDaugh",
+    "author": "Eric Daugherty",
+    "verified": false,
+    "created_at": "2026-10-21T00:56:03.000Z",
+    "text_raw": "🚨 JUST IN: President Trump announces $1 BILLION in cash settlements have been delivered to the families who suffered due to water poisoning at Camp Lejeune — and he will direct DOJ to settle *ALL* remaining legitimate claims if the GOP wins the midterms, paying out to the https://t.co/VmvoLcNNPX",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112709466663637301.mp4",
+    "url": "https://x.com/EricLDaugh/status/2112709466663637301",
+    "fav": 1373,
+    "retweet": 0,
+    "reply": 54,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:38.703299Z"
+  },
+  {
+    "x_id": "2112677742995288240",
+    "screen_name": "Julio_Rosas11",
+    "author": "Julio Rosas",
+    "verified": false,
+    "created_at": "2026-10-20T22:50:00.000Z",
+    "text_raw": "BREAKING: Another large migrant caravan is leaving Mexico’s southern border right now in an attempt to reach the United States.\n\nSome members of the caravan, which is mostly comprised of Central Americans, told me they are hopeful Democrats win the midterms. https://t.co/uiFQzHNrzd",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112677742995288240.mp4",
+    "url": "https://x.com/Julio_Rosas11/status/2112677742995288240",
+    "fav": 4214,
+    "retweet": 0,
+    "reply": 2408,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:37.826735Z"
+  },
+  {
+    "x_id": "2112706628365742275",
+    "screen_name": "kennybeckWXII",
+    "author": "Kenny Beck",
+    "verified": false,
+    "created_at": "2026-10-21T00:44:47.000Z",
+    "text_raw": "President Trump, speaking at a campaign rally tonight in Greenville: \"The Department of War will be investing $1.5 billion to produce cutting edge semiconductor chips right here in North Carolina.\"",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/kennybeckWXII/status/2112706628365742275",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:36.940900Z"
+  },
+  {
+    "x_id": "2112839917285859725",
+    "screen_name": "kaptonia",
+    "author": "Aelia Capitolina",
+    "verified": false,
+    "created_at": "2026-10-21T09:34:25.000Z",
+    "text_raw": "https://t.co/3I91o3q3Yy",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/kaptonia/status/2112839917285859725",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:36.060507Z"
+  },
+  {
+    "x_id": "2106841815714553966",
+    "screen_name": "mubeitech",
+    "author": "墓碑科技",
+    "verified": false,
+    "created_at": "2026-10-04T20:20:06.000Z",
+    "text_raw": "在传统军工领域，造一枚高超音速导弹要花多少时间和钱？\n美军从 2015 年算起，立了大概 70 个项目，砸了将近 150 亿美元。\n结果陆军的远程高超音速武器因为各种部件故障，交付日期一推再推。\n欧洲那些老牌军工巨头更不用说，按部就班走流程，没有十年八年根本见不到影子。 https://t.co/AHjnCeAdGS",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2106841815714553966_0.jpg",
+        "w": 1860,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/mubeitech/status/2106841815714553966",
+    "fav": 58,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:35.164589Z"
+  },
+  {
+    "x_id": "2107287428503589097",
+    "screen_name": "hezehua5",
+    "author": "李婧🇨🇳",
+    "verified": false,
+    "created_at": "2026-10-06T01:50:49.000Z",
+    "text_raw": "【#70年前的今天郭永怀回国，今天我们格外想念他】#牺牲前他用身体护住重要资料\n 1956年10月6日，国际知名力学家、应用数学家、空气动力学家郭永怀携家人回到阔别已久的祖国，参与国家建设。 https://t.co/NmPtD6bWIU",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107287428503589097_0.jpg",
+        "w": 1000,
+        "h": 920
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/hezehua5/status/2107287428503589097",
+    "fav": 22,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:34.285125Z"
+  },
+  {
+    "x_id": "2107754347438518614",
+    "screen_name": "gpsma2025",
+    "author": "阴阳行者-おんみょうぎょうじゃ-Yin Yang Wayfarer",
+    "verified": false,
+    "created_at": "2026-10-07T08:46:11.000Z",
+    "text_raw": "中国人真正的现实主义者\n\n上世纪九十年代，景德镇，中国直升机设计研究所。\n陆军航空兵的一位负责人在研讨会上问了一个让全场沉默的问题：美国的阿帕奇在海湾战争里打坦克像点名，我们的专用武装直升机在哪里？ https://t.co/ljYEsFWGEv",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107754347438518614_0.jpg",
+        "w": 639,
+        "h": 356
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107754347438518614_1.jpg",
+        "w": 856,
+        "h": 554
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gpsma2025/status/2107754347438518614",
+    "fav": 13,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:33.402297Z"
+  },
+  {
+    "x_id": "2110607605370605839",
+    "screen_name": "RowanLuo42x",
+    "author": "Rowan Luo",
+    "verified": false,
+    "created_at": "2026-10-15T05:44:00.000Z",
+    "text_raw": "“斯普特尼克时刻”被广泛用于形容在科技、军事或其他领域，当一个国家或组织意识到自己在关键领域落后于竞争对手时，所面临的巨大挑战和压力，以及由此产生的紧迫感和行动需求。\n例如，2021年美国参联会主席米利将中国的高超音速导弹试验称为“斯普特尼克时刻”，表明美国对中国科技进步的担忧。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/RowanLuo42x/status/2110607605370605839",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:32.443056Z"
+  },
+  {
+    "x_id": "2110581295382474839",
+    "screen_name": "trumpchinese1",
+    "author": "特朗普中文推特",
+    "verified": false,
+    "created_at": "2026-10-15T03:59:28.000Z",
+    "text_raw": "美国将在蒙大拿州建立一个新的超级武器试验场，用于测试先进的武器和技术，包括潜在的自主武器、空间与电子战技术、超音速武器以及超音速导弹技术。 https://t.co/2awZyJgtHY",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2110581295382474839.mp4",
+    "url": "https://x.com/trumpchinese1/status/2110581295382474839",
+    "fav": 54,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:31.565709Z"
+  },
+  {
+    "x_id": "2110792988733661462",
+    "screen_name": "RowanLuo42x",
+    "author": "Rowan Luo",
+    "verified": false,
+    "created_at": "2026-10-15T18:00:39.000Z",
+    "text_raw": "国际上能到10马赫的飞机\n\n关于国际上能够达到10马赫（即10倍音速）的飞机，目前公开信息显示仅有极少数试验机型或概念设计达到或接近这一速度。以下是关键信息总结：\n\n---\n\n1. X-43A极音速试验机（美国）\n-",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/RowanLuo42x/status/2110792988733661462",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:30.674928Z"
+  },
+  {
+    "x_id": "2110873067891421694",
+    "screen_name": "dashdot1205",
+    "author": "dashdot",
+    "verified": false,
+    "created_at": "2026-10-15T23:18:52.000Z",
+    "text_raw": "突发！将军又试射导弹了！\n\n10月14日，朝鲜从潜艇试射两种战略巡航导弹，15日正式公布消息。\n\n几个值得关注的信息：\n\n① 两种导弹分别采用垂直发射系统和鱼雷发射管发射。\n\n② 这是朝鲜近3年来首次公开报告潜射巡航导弹试验。\n\n③ 10月12日，朝鲜刚刚进行过弹道导弹试射。\n\n④",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/dashdot1205/status/2110873067891421694",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:29.797120Z"
+  },
+  {
+    "x_id": "2110900440153944092",
+    "screen_name": "MyDream668",
+    "author": "Ma马",
+    "verified": false,
+    "created_at": "2026-10-16T01:07:38.000Z",
+    "text_raw": "@liu_yunshan @Himalaya_bear1 毕竟从二战1940年代v1导弹到今天80年都是政府主导研发 没有商业化，等中欧技术扩散，马斯克擅长把昂贵的实验室试验性研究 工程化",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/MyDream668/status/2110900440153944092",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:28.888638Z"
+  },
+  {
+    "x_id": "2111383716555817024",
+    "screen_name": "dw_chinese",
+    "author": "DW 中文- 德国之声",
+    "verified": false,
+    "created_at": "2026-10-17T09:08:00.000Z",
+    "text_raw": "据朝鲜官方媒体周六报道，该国近期测试了一种用于目标探测和制导的新型AI辅助制导鱼雷系统。\n\n这个事实上的拥核国家正在持续加快武器试验步伐。过去一段时间，有关“特金会”是否有可能再度上演的猜测也不断升温。 https://t.co/yZXB1ZcQh7",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2111383716555817024_0.jpg",
+        "w": 1080,
+        "h": 1080
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/dw_chinese/status/2111383716555817024",
+    "fav": 24,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:27.999101Z"
+  },
+  {
+    "x_id": "2112168857460765082",
+    "screen_name": "Phoenixyin13",
+    "author": "Phoenix Yin",
+    "verified": false,
+    "created_at": "2026-10-19T13:07:52.000Z",
+    "text_raw": "我最近在认真地想一个问题：最强的超级智能，也就是在RSI实现最高级别之后的智能，是否可以有能力造出超越生化武器和核武器的另一个维度的危险之物？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/Phoenixyin13/status/2112168857460765082",
+    "fav": 79,
+    "retweet": 0,
+    "reply": 13,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:27.116438Z"
+  },
+  {
+    "x_id": "2109202048453329135",
+    "screen_name": "Jonylin007",
+    "author": "Jony的美股长期策略",
+    "verified": false,
+    "created_at": "2026-10-11T08:38:50.000Z",
+    "text_raw": "这篇文章深入地讲解了中国与欧洲、美国的贸易摩擦，很值得认真看一下。 https://t.co/te4gvGi7w7",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/Jonylin007/status/2109202048453329135",
+    "fav": 12,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:26.228526Z"
+  },
+  {
+    "x_id": "2109630031890944308",
+    "screen_name": "xiax0603",
+    "author": "xiax｜AI & Agents",
+    "verified": false,
+    "created_at": "2026-10-12T12:59:29.000Z",
+    "text_raw": "💥搞笑｜马斯克公开邀约“中国马斯克”上台跳舞！\n\n活动现场主持人提起全网爆火的中国山寨马斯克，马斯克第一反应还在怀疑，这会不会是AI深度伪造的产物。\n\n紧接着直接回答：14亿人口里面，总会出现一个和我长得高度相似的人，我本身也有点亚洲面孔。",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2109630031890944308.mp4",
+    "url": "https://x.com/xiax0603/status/2109630031890944308",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:25.353493Z"
+  },
+  {
+    "x_id": "2110342323855118537",
+    "screen_name": "leige88888",
+    "author": "磊哥聊政经",
+    "verified": false,
+    "created_at": "2026-10-14T12:09:52.000Z",
+    "text_raw": "日本企业造假全记录：\n日本“躬酱精神”不完全统计（持续更新）\n\n日本造假不完全统计的清单：\n\n（持续更新，截至2026年8月31日）（将日本的造假精神从科技和产业界延展到政治、经济、社会）\n\n⭕ https://t.co/4e3BLpX55D",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2110342323855118537_0.jpg",
+        "w": 933,
+        "h": 552
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/leige88888/status/2110342323855118537",
+    "fav": 109,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:24.464007Z"
+  },
+  {
+    "x_id": "2110510052423713165",
+    "screen_name": "hihn137350",
+    "author": "海涵",
+    "verified": false,
+    "created_at": "2026-10-14T23:16:22.000Z",
+    "text_raw": "三、实验A：中美机制执行转换与制度化观察\n\n实验编号： CSS-EXP-USCHINA-2026\n今日状态： ACTIVE OBSERVATION｜执行线索更新｜履约验证继续\n\n今日新增线索",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/hihn137350/status/2110510052423713165",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:23.575414Z"
+  },
+  {
+    "x_id": "2111821363107500204",
+    "screen_name": "404jsh",
+    "author": "思索者",
+    "verified": false,
+    "created_at": "2026-10-18T14:07:03.000Z",
+    "text_raw": "https://t.co/s4F4OwQOPp",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/404jsh/status/2111821363107500204",
+    "fav": 10,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:22.689277Z"
+  },
+  {
+    "x_id": "2112192203313553735",
+    "screen_name": "fan_xiansh74976",
+    "author": "潮汐",
+    "verified": false,
+    "created_at": "2026-10-19T14:40:38.000Z",
+    "text_raw": "这瓜吃得有点快，反转也来得猝不及防。\n\n前几天刷到崔秀彬那张所谓的“私密照”时，第一反应是震惊，第二反应就是不对劲。毕竟现在AI换脸、深度伪造的技术门槛越来越低，这种模糊不清、细节经不起推敲的图片，太容易成为造谣的温床了。 https://t.co/oryiSv8k9r",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112192203313553735_0.jpg",
+        "w": 601,
+        "h": 865
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112192203313553735_1.jpg",
+        "w": 1260,
+        "h": 1590
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/fan_xiansh74976/status/2112192203313553735",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:21.787454Z"
+  },
+  {
+    "x_id": "2112366156657115404",
+    "screen_name": "BeatingOfficial",
+    "author": "动察Beating",
+    "verified": false,
+    "created_at": "2026-10-20T02:11:52.000Z",
+    "text_raw": "https://t.co/PuWkVzAH3g",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/BeatingOfficial/status/2112366156657115404",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:20.780423Z"
+  },
+  {
+    "x_id": "2112425671234621637",
+    "screen_name": "ShadowWu27415",
+    "author": "Shadow wuwu",
+    "verified": false,
+    "created_at": "2026-10-20T06:08:21.000Z",
+    "text_raw": "https://t.co/EUrJ7QHqr3",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ShadowWu27415/status/2112425671234621637",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:19.893127Z"
+  },
+  {
+    "x_id": "2112546767451336843",
+    "screen_name": "XunDavid80270",
+    "author": "xun david",
+    "verified": false,
+    "created_at": "2026-10-20T14:09:33.000Z",
+    "text_raw": "你做的 AI 短片，能不能换成美元奖金？ElevenLabs 的 AI 视频大赛第二季开赛：报名 0 元，奖池超 45 万美元，可灵、即梦、阿里云各设 1.1 万美元工具奖。\n\n我读完规则和30多个奖项页，整理成参赛门槛、叠奖思路和一段能直接抄的 30 秒广告提示词⬇️\n\n#AI视频 提示词见评论👇 https://t.co/OUKluNEY0L",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/XunDavid80270/status/2112546767451336843",
+    "fav": 6,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:19.001648Z"
+  },
+  {
+    "x_id": "2112825281597907226",
+    "screen_name": "YaoGuanXiong",
+    "author": "Yao Lucky",
+    "verified": false,
+    "created_at": "2026-10-21T08:36:16.000Z",
+    "text_raw": "AI已从技术话题变成大国战略核心。中美围绕算力、芯片、模型和军事应用展开激烈竞争：美国靠出口管制保持前沿优势，中国加速国产替代和应用落地，差距缩小但高端仍存差距。双方都把它视为未来军事与经济主导权的关键。 https://t.co/siUm1Vxd3i",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112825281597907226_0.jpg",
+        "w": 1168,
+        "h": 784
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/YaoGuanXiong/status/2112825281597907226",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:18.111961Z"
+  },
+  {
+    "x_id": "2108563934991257920",
+    "screen_name": "sundyme",
+    "author": "sundyme",
+    "verified": false,
+    "created_at": "2026-10-09T14:23:11.000Z",
+    "text_raw": "不会写代码的我，用 AI 不到一天给家人做了一台免费的 3D 推币机《金潮号》。\n\n真实物理推币、九宫格老虎机、会说话的鹦鹉，手机浏览器打开就能玩。\n\n开发全过程在文章里，手把手教程（9 步 + 全部提示词）在第一条回复 👇 https://t.co/LcmevUyMCe",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/sundyme/status/2108563934991257920",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:17.226266Z"
+  },
+  {
+    "x_id": "2109480613762007361",
+    "screen_name": "BuildWithAINo1",
+    "author": "AI效率资源库｜每日实测",
+    "verified": false,
+    "created_at": "2026-10-12T03:05:45.000Z",
+    "text_raw": "https://t.co/KvwxWwrUGM",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/BuildWithAINo1/status/2109480613762007361",
+    "fav": 9,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:16.326688Z"
+  },
+  {
+    "x_id": "2110529367793393945",
+    "screen_name": "xaiwind",
+    "author": "想风",
+    "verified": false,
+    "created_at": "2026-10-15T00:33:07.000Z",
+    "text_raw": "https://t.co/daSLmNWniY",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/xaiwind/status/2110529367793393945",
+    "fav": 530,
+    "retweet": 0,
+    "reply": 26,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:15.429913Z"
+  },
+  {
+    "x_id": "2110693109969670526",
+    "screen_name": "888semi",
+    "author": "全球半导体研究",
+    "verified": false,
+    "created_at": "2026-10-15T11:23:46.000Z",
+    "text_raw": "https://t.co/2ULkKYLFAe",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/888semi/status/2110693109969670526",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:14.543234Z"
+  },
+  {
+    "x_id": "2110942429813809176",
+    "screen_name": "yupi996",
+    "author": "程序员鱼皮",
+    "verified": false,
+    "created_at": "2026-10-16T03:54:29.000Z",
+    "text_raw": "https://t.co/EPMLr4COiU",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/yupi996/status/2110942429813809176",
+    "fav": 70,
+    "retweet": 0,
+    "reply": 5,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:13.661372Z"
+  },
+  {
+    "x_id": "2111874022158053388",
+    "screen_name": "CarsonYangk8s",
+    "author": "米开朗基杨",
+    "verified": false,
+    "created_at": "2026-10-18T17:36:18.000Z",
+    "text_raw": "在 Claude Code 统治终端、Cursor 统治编辑器的夹击下，OpenAI 的 Codex 是怎么在一年内绝地翻盘、做到 4000 万周活的？\n\nEvery 创始人 Dan Shipper 写的这篇深度长文，是我今年读过最精彩的一篇硅谷科技商业故事。我把它完整译成了中文，强烈推荐读完 👇 https://t.co/w4tjorbpEE",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/CarsonYangk8s/status/2111874022158053388",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 12,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:12.777762Z"
+  },
+  {
+    "x_id": "2112076323598516443",
+    "screen_name": "liangzhu_AI",
+    "author": "良竹",
+    "verified": false,
+    "created_at": "2026-10-19T07:00:10.000Z",
+    "text_raw": "今天手把手带你在本地搭一套内容流水线：\n每天自动出稿 1 篇，只花 15 分钟审稿。\n从定位卡、选题库到静默推草稿箱，开箱提示词全给你。\n建议先收藏关注，照着 SOP 今天就能跑起来 🧵👇 https://t.co/ub1HIjSXv8",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/liangzhu_AI/status/2112076323598516443",
+    "fav": 101,
+    "retweet": 0,
+    "reply": 50,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:11.889774Z"
+  },
+  {
+    "x_id": "2112203442647372079",
+    "screen_name": "aiyuange",
+    "author": "鑫源 Ai",
+    "verified": false,
+    "created_at": "2026-10-19T15:25:18.000Z",
+    "text_raw": "https://t.co/rZJVL51kTo",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/aiyuange/status/2112203442647372079",
+    "fav": 3,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:10.990618Z"
+  },
+  {
+    "x_id": "2112506148129804528",
+    "screen_name": "swordBluesy",
+    "author": "剑的 AI 实验室",
+    "verified": false,
+    "created_at": "2026-10-20T11:28:08.000Z",
+    "text_raw": "OpenAI 终端智能体：一个命令派出 N 个 AI 程序员，手敲代码的真要失业了？\n\n这是 OpenAI 官方开源的终端编码智能体 Codex CLI 的完整上手指南。它用 Rust 编写，直接跑在你的终端里。跟浏览器里的 AI https://t.co/CEpJiVr7iO",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112506148129804528.mp4",
+    "url": "https://x.com/swordBluesy/status/2112506148129804528",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 10,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:10.107731Z"
+  },
+  {
+    "x_id": "2112724835432550894",
+    "screen_name": "ThreeAAOfficial",
+    "author": "睿慈 Raise",
+    "verified": false,
+    "created_at": "2026-10-21T01:57:07.000Z",
+    "text_raw": "https://t.co/0gynuw6r0j",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ThreeAAOfficial/status/2112724835432550894",
+    "fav": 3,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:09.234211Z"
+  },
+  {
+    "x_id": "2112382952801964198",
+    "screen_name": "achan_5522",
+    "author": "Achan",
+    "verified": false,
+    "created_at": "2026-10-20T03:18:36.000Z",
+    "text_raw": "モンゴルで発生した大規模な草原火災。\n中国側では3400人余りの救援隊員らが7日6夜にわたって国境沿いで消火・延焼阻止にあたり、330キロ余りの火線を食い止め、国内への延焼を防ぎました。現場で奮闘した皆さんに敬意を表します。 https://t.co/hDjQHVOl1e",
+    "lang": "ja",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112382952801964198.mp4",
+    "url": "https://x.com/achan_5522/status/2112382952801964198",
+    "fav": 5371,
+    "retweet": 0,
+    "reply": 106,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:08.348261Z"
+  },
+  {
+    "x_id": "2112525351486103669",
+    "screen_name": "Chinaview0022",
+    "author": "China View",
+    "verified": false,
+    "created_at": "2026-10-20T12:44:27.000Z",
+    "text_raw": "高市早苗主动求访华，中日关系的这盘棋，日本这次是真的急了\n\n10月17日彭博社这条消息一出来，我敢说，全日本的政客看完都得暗松一口气——高市早苗这次是真的绷不住了，直接公开表态：只要国会放行，她就亲自去参加中国主办的APEC峰会。 https://t.co/XFUAQEuZNs",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112525351486103669_0.jpg",
+        "w": 1170,
+        "h": 1115
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Chinaview0022/status/2112525351486103669",
+    "fav": 63,
+    "retweet": 0,
+    "reply": 66,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:07.467499Z"
+  },
+  {
+    "x_id": "2112693393612837254",
+    "screen_name": "qxl4893",
+    "author": "秦祥林",
+    "verified": false,
+    "created_at": "2026-10-20T23:52:11.000Z",
+    "text_raw": "@pinguibosterov2 是马斯克搞的鬼吗？中国在习近平所谓“积极有为”的外交政策下，已经和美国、日本、韩国、菲律宾、越南、澳大利亚、印度、加拿大、墨西哥等国家闹过纠纷和骂战，但是个土耳其🇹🇷？闹的哪门子矛盾？无论在现实中还是在历史中，两国接触多吗？是马斯克搞的鬼吗？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/qxl4893/status/2112693393612837254",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:06.577167Z"
+  },
+  {
+    "x_id": "2112720090668187750",
+    "screen_name": "LfengNb",
+    "author": "Luo",
+    "verified": false,
+    "created_at": "2026-10-21T01:38:16.000Z",
+    "text_raw": "@HKb7EykPI625868 2015年11月，土耳其击落了疑似侵入其领空的俄罗斯战机，引发严重外交危机。作为对俄罗斯的报复，土耳其民众跑去抗议，却误砸了荷兰驻土耳其大使馆，后来还把法国国旗当成荷兰国旗烧掉。同样在2015年，土耳其民众因不满中国而发起游行，因为分不清东亚面孔，将韩国游客当成中国人殴打。反正就是很难崩。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/LfengNb/status/2112720090668187750",
+    "fav": 228,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:05.676336Z"
+  },
+  {
+    "x_id": "2112764830621065286",
+    "screen_name": "cnfinancewatch",
+    "author": "华尔街观察 Xtrader",
+    "verified": false,
+    "created_at": "2026-10-21T04:36:03.000Z",
+    "text_raw": "A股午盘分析 - 2026-10-21\n\n一、今日结论\n（一）环境分42分，属降仓档，只做回踩低吸不做追高。上证指数3723.95仅贴MA5（+0.03%），距MA10低0.97%、距MA20低2.65%；沪深300距MA20低4.87%，中证1000距MA20低5.58%，指数整体仍在均线下方，属修复初期而非趋势行情。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/cnfinancewatch/status/2112764830621065286",
+    "fav": 9,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:04.791972Z"
+  },
+  {
+    "x_id": "2112787659319812177",
+    "screen_name": "kobekl828",
+    "author": "Freedom kobe",
+    "verified": false,
+    "created_at": "2026-10-21T06:06:46.000Z",
+    "text_raw": "马斯克特斯拉工厂故事：公开讲述奥斯汀工厂一名员工因祈祷毯纠纷打人后被开除、后续涉及枪击事件🔥🔥\n【Global Hotspots】\n1.  Paredes / Maracanã / Boca Juniors vs Vasco: Leandro Paredes scored a dramatic late goal for Boca at the Maracanã, sealing a Copa Sudamericana final berth. https://t.co/XSefasFcCb",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112787659319812177_0.jpg",
+        "w": 1376,
+        "h": 768
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/kobekl828/status/2112787659319812177",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:03.906914Z"
+  },
+  {
+    "x_id": "2112807141061091381",
+    "screen_name": "Y931a",
+    "author": "中通",
+    "verified": false,
+    "created_at": "2026-10-21T07:24:11.000Z",
+    "text_raw": "@Mina971rh 针对这十条完全不符合历史事实、充满恶意歪曲的言论，我们可以基于客观史实逐条清晰反驳，所有观点都有明确的历史与法理依据：\n\n1. 关于“朝鲜战争欠下三条命债” https://t.co/l3DupzKRTU",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112807141061091381_0.jpg",
+        "w": 1360,
+        "h": 907
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Y931a/status/2112807141061091381",
+    "fav": 24,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:03.022289Z"
+  },
+  {
+    "x_id": "2112818995699335527",
+    "screen_name": "hiroe_yoshida",
+    "author": "大洋弥生mio&ocean",
+    "verified": false,
+    "created_at": "2026-10-21T08:11:17.000Z",
+    "text_raw": "@Kinako1150877 能不能要点脸？😂这也不怪你，因为你们的历史被篡改了！\n\n1910年，日本吞并朝鲜半岛，朝鲜半岛就此沦为日本殖民统治下的领土。你现在居然说是韩国主动请求日本合并？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/hiroe_yoshida/status/2112818995699335527",
+    "fav": 17,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:02.123954Z"
+  },
+  {
+    "x_id": "2112823538302472636",
+    "screen_name": "hiroe_yoshida",
+    "author": "大洋弥生mio&ocean",
+    "verified": false,
+    "created_at": "2026-10-21T08:29:20.000Z",
+    "text_raw": "你学的历史叫「合并」，韩国的历史叫「被吞并、被殖民」。\n\n既然是平等合并，为什么日本掌握统治权，朝鲜却失去了国家主权？\n\n要不现在也来一次「日韩合并」？让韩国政府领导日本，接管日本的外交、军事和内政，日本天皇也接受韩国政府的安排，你愿意吗？\n\n不愿意吧？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/hiroe_yoshida/status/2112823538302472636",
+    "fav": 232,
+    "retweet": 0,
+    "reply": 18,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:01.235478Z"
+  },
+  {
+    "x_id": "2112821531592229114",
+    "screen_name": "merkava_mk2",
+    "author": "AXL",
+    "verified": false,
+    "created_at": "2026-10-21T08:21:22.000Z",
+    "text_raw": "@hiroe_yoshida そんな詭弁じゃ誰も納得しないよおバカさん\n高麗の王が皇帝フビライ・ハンに対して日本への出兵を積極的に持ちかける記述が複数存在している",
+    "lang": "ja",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/merkava_mk2/status/2112821531592229114",
+    "fav": 3,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:36:00.330130Z"
+  },
+  {
+    "x_id": "1800321481496506574",
+    "screen_name": "Ben190920",
+    "author": "LI LIAO SHI",
+    "verified": false,
+    "created_at": "2024-06-11T00:17:44.000Z",
+    "text_raw": "经查，举报人贺某，系某高校在读大学生，为牟取经济利益、填补亏空，借助某境外社交软件，与境外间谍情报机关建立联系，在境外间谍情报机关人员蛊惑和指挥下，多次非法赴我军事禁区附近拍照，并向有关人员套取涉密信息，前后共收到间谍经费数万元。随后自编自导了主动投案的戏码，妄图逃脱法律制裁。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/Ben190920/status/1800321481496506574",
+    "fav": 3,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:59.434010Z"
+  },
+  {
+    "x_id": "2107752372600774768",
+    "screen_name": "RJDAIGOGO",
+    "author": "RJ",
+    "verified": false,
+    "created_at": "2026-10-07T08:38:20.000Z",
+    "text_raw": "骗取近两亿美元，美CIA前官员认罪\n\n美国中央情报局(CIA)前官员戴维·拉什6日在弗吉尼亚州一家联邦法院，就一项诈骗罪认罪，最高面临20年监禁。\n\n这位前CIA造假的离谱程度，堪比《猫鼠游戏》中的剧情。 https://t.co/dbrYrlEFUA",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107752372600774768_0.jpg",
+        "w": 1206,
+        "h": 1496
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/RJDAIGOGO/status/2107752372600774768",
+    "fav": 22,
+    "retweet": 0,
+    "reply": 12,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:58.547484Z"
+  },
+  {
+    "x_id": "2105910839882715332",
+    "screen_name": "TruthMedia123",
+    "author": "真相傳媒",
+    "verified": false,
+    "created_at": "2026-10-02T06:40:44.000Z",
+    "text_raw": "👊请大家签署请愿书！ \n关闭中共的警察局，并驱逐中国领事馆的恶霸！\nhttps://t.co/pN9UkVVZHa",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/TruthMedia123/status/2105910839882715332",
+    "fav": 310,
+    "retweet": 0,
+    "reply": 17,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:57.666539Z"
+  },
+  {
+    "x_id": "2106166193493270761",
+    "screen_name": "meimei1935",
+    "author": "菲菲4.0",
+    "verified": false,
+    "created_at": "2026-10-02T23:35:25.000Z",
+    "text_raw": "独立之精神，绝代之风骨：他不仅能看清眼前的局势，更能看透历史的走向。在巨变面前，他没有被狂热的口号裹挟，而是保持了清华校长一贯的理性与冷静。\n\n社会的良心，清华的终身守护者： https://t.co/WPmrvZk27r",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://video.twimg.com/amplify_video/2106165724846706688/vid/avc1/1252x1668/lGPyTdhtoFabYIW5.mp4",
+    "url": "https://x.com/meimei1935/status/2106166193493270761",
+    "fav": 142,
+    "retweet": 0,
+    "reply": 6,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:56.787805Z"
+  },
+  {
+    "x_id": "2105857499568263335",
+    "screen_name": "jielijian",
+    "author": "界立建",
+    "verified": false,
+    "created_at": "2026-10-02T03:08:47.000Z",
+    "text_raw": "這些中共啃咬美国的蛀虫抓的好，通通被重判。",
+    "lang": "ja",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/jielijian/status/2105857499568263335",
+    "fav": 17,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:55.906872Z"
+  },
+  {
+    "x_id": "2105838854972326321",
+    "screen_name": "__Inty__",
+    "author": "Inty News",
+    "verified": false,
+    "created_at": "2026-10-02T01:54:42.000Z",
+    "text_raw": "洛杉矶，中国人被逮捕\n\n这是美国司法部刚公布的一起出口管制案件。\n\n加州大洛杉矶地区的老板 Greg Lui（又名 Yiu Kong Lui，38岁）于2026年10月1日被FBI和商务部执法人员逮捕。联邦大陪审团9月29日对他提起三项指控：密谋违反出口管制法、出境走私，以及密谋洗钱。\n\n检方称，2023至2024年间，Lui https://t.co/VBIBoKlbab",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2105838854972326321.mp4",
+    "url": "https://x.com/__Inty__/status/2105838854972326321",
+    "fav": 355,
+    "retweet": 0,
+    "reply": 54,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:55.017795Z"
+  },
+  {
+    "x_id": "2105697562112004177",
+    "screen_name": "jielijian",
+    "author": "界立建",
+    "verified": false,
+    "created_at": "2026-10-01T16:33:15.000Z",
+    "text_raw": "Chen Shanzhuang, who has been accused of serving as the chief coordinator in Washington, D.C. for efforts to protect Xi Jinping and of organizing pro-CCP individuals who assaulted pro-democracy activists, has just walked out of the Chinese Consulate in New York. He and a group of https://t.co/45GRDb83G0",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2105697562112004177_0.jpg",
+        "w": 960,
+        "h": 1280
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2105697562112004177_1.jpg",
+        "w": 960,
+        "h": 1280
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2105697562112004177_2.jpg",
+        "w": 960,
+        "h": 1280
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/jielijian/status/2105697562112004177",
+    "fav": 21,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:54.128262Z"
+  },
+  {
+    "x_id": "2106895312103305367",
+    "screen_name": "HPizheng11983",
+    "author": "HU Pizheng",
+    "verified": false,
+    "created_at": "2026-10-04T23:52:41.000Z",
+    "text_raw": "中共花纳税人养的这些狗，真黑！背后使阴招捅人…… https://t.co/yI2mNa5RGZ",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2106895312103305367.mp4",
+    "url": "https://x.com/HPizheng11983/status/2106895312103305367",
+    "fav": 13,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:53.237412Z"
+  },
+  {
+    "x_id": "2106946673066799425",
+    "screen_name": "liqunchen",
+    "author": "liqun chen（陈立群）",
+    "verified": false,
+    "created_at": "2026-10-05T03:16:46.000Z",
+    "text_raw": "監視賴清德在加州的兒子\n\n一名加州房地產經紀人在洛杉磯國際機場被捕，她被指控為中國從事間諜活動。\n\n張婉瑩（音譯，Wanying Zhang），又名“Heather”，4日(週日)在機場試圖登機前往上海時被捕。 https://t.co/NReqO4l4wV",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2106946673066799425_0.jpg",
+        "w": 913,
+        "h": 1237
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/liqunchen/status/2106946673066799425",
+    "fav": 38,
+    "retweet": 0,
+    "reply": 7,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:52.344906Z"
+  },
+  {
+    "x_id": "2107002022809788912",
+    "screen_name": "HPizheng11983",
+    "author": "HU Pizheng",
+    "verified": false,
+    "created_at": "2026-10-05T06:56:43.000Z",
+    "text_raw": "中共养的这些后腿子们，或许他们一生都没有搞懂什么是政府，什么是国家……要么就是坏，为了狗粮做违背良心之事，当每一次有良知，有责任感……的人的抗争，争取来的自由，人权……之光，即照亮了他们，也照亮了他们的子孙后代……不做奴隶，不当狗，天赋人权，人人活得有自由，有人权，有尊严……他们 https://t.co/kh9Een0TGt",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107002022809788912_0.jpg",
+        "w": 1151,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107002022809788912_1.jpg",
+        "w": 942,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107002022809788912_2.jpg",
+        "w": 942,
+        "h": 2048
+      }
+    ],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2107002022809788912.mp4",
+    "url": "https://x.com/HPizheng11983/status/2107002022809788912",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:51.474154Z"
+  },
+  {
+    "x_id": "2107149163813310566",
+    "screen_name": "yajunwwz",
+    "author": "亚军&王歪嘴",
+    "verified": false,
+    "created_at": "2026-10-05T16:41:24.000Z",
+    "text_raw": "圈圈里的就是监控赖清德儿子的中共间谍张婉莹！\n这群戴红帽子的大陆人也全部都是该被驱逐的中共党奴！ https://t.co/BKkqBYZ1By",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107149163813310566_0.jpg",
+        "w": 1975,
+        "h": 1280
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/yajunwwz/status/2107149163813310566",
+    "fav": 440,
+    "retweet": 0,
+    "reply": 27,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:50.571356Z"
+  },
+  {
+    "x_id": "2107354019287191846",
+    "screen_name": "ScarlettCa78818",
+    "author": "蔡曉麗",
+    "verified": false,
+    "created_at": "2026-10-06T06:15:25.000Z",
+    "text_raw": "看看人家小英总统来美国，没看到有一个去抗议的🤣\n再看看包子，住的酒店，去的地方，栅栏都要整3米高！",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ScarlettCa78818/status/2107354019287191846",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:49.658082Z"
+  },
+  {
+    "x_id": "2107344010553835996",
+    "screen_name": "iingwen",
+    "author": "蔡英文 Tsai Ing-wen",
+    "verified": false,
+    "created_at": "2026-10-06T05:35:39.000Z",
+    "text_raw": "Arriving in San Francisco today, I was moved by the enthusiastic reception from local Taiwanese. Thank you all for the warm welcome. \nOn this trip, spurred on by your passion, I will be sharing #Taiwan's story &amp; the resilience of its people with friends from around the world. https://t.co/EF8I3mNEHt",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107344010553835996_0.jpg",
+        "w": 2349,
+        "h": 2349
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107344010553835996_1.jpg",
+        "w": 3188,
+        "h": 3188
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107344010553835996_2.jpg",
+        "w": 3018,
+        "h": 3018
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2107344010553835996_3.jpg",
+        "w": 2152,
+        "h": 2152
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/iingwen/status/2107344010553835996",
+    "fav": 9329,
+    "retweet": 0,
+    "reply": 225,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:48.751400Z"
+  },
+  {
+    "x_id": "2107631358105567624",
+    "screen_name": "lina84150038",
+    "author": "lina",
+    "verified": false,
+    "created_at": "2026-10-07T00:37:28.000Z",
+    "text_raw": "台女飯局開嗆：為什麼有人住在台灣，還天天覺得中國比較好？ https://t.co/rl4poPoQOs",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2107631358105567624.mp4",
+    "url": "https://x.com/lina84150038/status/2107631358105567624",
+    "fav": 918,
+    "retweet": 0,
+    "reply": 159,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:47.859611Z"
+  },
+  {
+    "x_id": "2109641956678844554",
+    "screen_name": "ScarlettCa78818",
+    "author": "蔡曉麗",
+    "verified": false,
+    "created_at": "2026-10-12T13:46:52.000Z",
+    "text_raw": "中国议会旧金山选民见面会，\n暨统独大辩论会，\n主持人：杨晓 袁崛，\n独派辩手：蔡    泉，\n统派辩手：李小林，\n权利和民主自由需要每个人争取，你争取什么就会得到什么。\n让我们团结，为共同的理念“推翻中共独裁暴政”而努力。💪\n\n加入中国议会，一人一票 改变中国。 https://t.co/kUBExQw18D",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109641956678844554_0.jpg",
+        "w": 2048,
+        "h": 1366
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/ScarlettCa78818/status/2109641956678844554",
+    "fav": 11,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:46.977613Z"
+  },
+  {
+    "x_id": "2109641487705354642",
+    "screen_name": "ScarlettCa78818",
+    "author": "蔡曉麗",
+    "verified": false,
+    "created_at": "2026-10-12T13:45:00.000Z",
+    "text_raw": "中国议会旧金山选民见面会，\n暨统独大辩论会\n主持人：杨晓 袁崛\n统派：李小林\n独派：蔡    泉\n杨晓最后发表讲话，加入中国议会，一人一票 改变中国。\n权利和民主自由是需要每个人争取的，你争取什么就会得到什么。\n让我们团结，为共同的理念“推翻中共独裁暴政”而努力。 https://t.co/lR2uboRqxe",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2109641487705354642.mp4",
+    "url": "https://x.com/ScarlettCa78818/status/2109641487705354642",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:46.068065Z"
+  },
+  {
+    "x_id": "2111497847292170705",
+    "screen_name": "MoQiuyao201314",
+    "author": "Qiuyao Mo",
+    "verified": false,
+    "created_at": "2026-10-17T16:41:31.000Z",
+    "text_raw": "中共不敢说的历史。七七事变前，日本在华就有驻军，并非主动侵略中国的一方，而是清政府请来抵抗沙俄入侵的。\n“篡改历史，掩盖真相”向来都是中共的拿手好戏。共产党为了达到目的不择手段。 https://t.co/6J9HKuMITd",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2111497847292170705.mp4",
+    "url": "https://x.com/MoQiuyao201314/status/2111497847292170705",
+    "fav": 1057,
+    "retweet": 0,
+    "reply": 235,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:45.156947Z"
+  },
+  {
+    "x_id": "2110938285644349937",
+    "screen_name": "truejigga",
+    "author": "Leo",
+    "verified": false,
+    "created_at": "2026-10-16T03:38:01.000Z",
+    "text_raw": "LARP it till you make it https://t.co/R6y45Ek9Ox",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2110938285644349937.mp4",
+    "url": "https://x.com/truejigga/status/2110938285644349937",
+    "fav": 433,
+    "retweet": 0,
+    "reply": 16,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:44.271456Z"
+  },
+  {
+    "x_id": "2110958483474419754",
+    "screen_name": "Sairah_0",
+    "author": "Sairah",
+    "verified": false,
+    "created_at": "2026-10-16T04:58:16.000Z",
+    "text_raw": "GPT Image 2 On ChatGPT \n\nPrompt:\nCreate one premium editorial poster for each uploaded photo, outputting each separately without combining images or reusing other photos’ designs.\n\nFORMAT: Strict vertical 3:4 composition, divided into two equal horizontal halves. The upper 50% https://t.co/H1ldb8Ovco",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2110958483474419754_0.jpg",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2110958483474419754_1.jpg",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2110958483474419754_2.jpg",
+        "w": 768,
+        "h": 1024
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Sairah_0/status/2110958483474419754",
+    "fav": 177,
+    "retweet": 0,
+    "reply": 25,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:43.376890Z"
+  },
+  {
+    "x_id": "2111188568886702146",
+    "screen_name": "higgsfield",
+    "author": "Higgsfield AI 🧩",
+    "verified": false,
+    "created_at": "2026-10-16T20:12:33.000Z",
+    "text_raw": "The only AI course you need to start creating in 2026.\n\nIntroducing Higgsfield Academy.\n\nFrom your first prompt to directing your own AI movies. Zero experience needed.\n\nAvailable now on Higgsfield. https://t.co/GzxN07aCS1",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2111188568886702146.mp4",
+    "url": "https://x.com/higgsfield/status/2111188568886702146",
+    "fav": 895,
+    "retweet": 0,
+    "reply": 73,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:42.477449Z"
+  },
+  {
+    "x_id": "2111325304493162560",
+    "screen_name": "Sairah_0",
+    "author": "Sairah",
+    "verified": false,
+    "created_at": "2026-10-17T05:15:53.000Z",
+    "text_raw": "GPT Image 2 On ChatGPT \n\nPROMPT:\nConvert the entire uploaded photograph into a clean, colorful, hand-drawn 2D cartoon illustration. Preserve the original composition, camera angle, poses, facial expressions, recognizable identities, hairstyles, clothing, accessories, and all https://t.co/enbsDcscmf",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2111325304493162560_0.jpg",
+        "w": 1170,
+        "h": 1560
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2111325304493162560_1.jpg",
+        "w": 864,
+        "h": 1152
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Sairah_0/status/2111325304493162560",
+    "fav": 107,
+    "retweet": 0,
+    "reply": 35,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:41.500076Z"
+  },
+  {
+    "x_id": "2111330148255768782",
+    "screen_name": "Sairah_0",
+    "author": "Sairah",
+    "verified": false,
+    "created_at": "2026-10-17T05:35:08.000Z",
+    "text_raw": "The tech circle has new shocks every day. Today it is this project's turn to leave me speechless in awe.\n\n#HelixWorld #RealTime #worldmodel",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/Sairah_0/status/2111330148255768782",
+    "fav": 40,
+    "retweet": 0,
+    "reply": 35,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:40.616278Z"
+  },
+  {
+    "x_id": "2110173749299610071",
+    "screen_name": "noiz_ai",
+    "author": "Noiz AI",
+    "verified": false,
+    "created_at": "2026-10-14T01:00:01.000Z",
+    "text_raw": "We bring HelixWorld 1.0, where video and stereo audio are generated in real time as you explore.  \n\nNow open sourced on GitHub: https://t.co/57OnL3upB5  \n\n🎧 Real-time video + audio: 24 FPS visuals and 48kHz stereo sound. \n🎮 Move with WASD. Look around with arrow keys. \n✍️ https://t.co/ZvilJypvqQ",
+    "lang": "en",
+    "photos": [],
+    "video": "https://video.twimg.com/amplify_video/2110042243063234560/vid/avc1/3840x2160/fMXFXEiRpi_V-4wT.mp4",
+    "url": "https://x.com/noiz_ai/status/2110173749299610071",
+    "fav": 169,
+    "retweet": 0,
+    "reply": 93,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:39.727406Z"
+  },
+  {
+    "x_id": "2111446340534436281",
+    "screen_name": "higgsfield",
+    "author": "Higgsfield AI 🧩",
+    "verified": false,
+    "created_at": "2026-10-17T13:16:51.000Z",
+    "text_raw": "We gave Higgsfield to a monkey.\n\nHere's what happened.\n\nHiggsfield Academy is live now. https://t.co/is7TEVZvgQ",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2111446340534436281.mp4",
+    "url": "https://x.com/higgsfield/status/2111446340534436281",
+    "fav": 709,
+    "retweet": 0,
+    "reply": 80,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:38.844336Z"
+  },
+  {
+    "x_id": "2111693644050960791",
+    "screen_name": "Sairah_0",
+    "author": "Sairah",
+    "verified": false,
+    "created_at": "2026-10-18T05:39:32.000Z",
+    "text_raw": "GPT Image 2 On ChatGPT \n\nPrompt:\nCreate a finished editorial character poster inspired by the uploaded reference image. Preserve the recognizable identity, hairstyle, clothing details, pose, and important visual characteristics of the subject while translating them into a https://t.co/0NeZkPG8dK",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2111693644050960791_0.jpg",
+        "w": 1144,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2111693644050960791_1.jpg",
+        "w": 1086,
+        "h": 1448
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Sairah_0/status/2111693644050960791",
+    "fav": 80,
+    "retweet": 0,
+    "reply": 25,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:37.959021Z"
+  },
+  {
+    "x_id": "2111838845453099499",
+    "screen_name": "truejigga",
+    "author": "Leo",
+    "verified": false,
+    "created_at": "2026-10-18T15:16:31.000Z",
+    "text_raw": "larpmaxxing was invented by cleopatra\n\nthanks to a flying car and @tapewarp.ai on ig https://t.co/2Ok6PyZxFG",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2111838845453099499.mp4",
+    "url": "https://x.com/truejigga/status/2111838845453099499",
+    "fav": 693,
+    "retweet": 0,
+    "reply": 22,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:37.050799Z"
+  },
+  {
+    "x_id": "2112029484434252263",
+    "screen_name": "Sairah_0",
+    "author": "Sairah",
+    "verified": false,
+    "created_at": "2026-10-19T03:54:03.000Z",
+    "text_raw": "GPT Image 2 On ChatGPT \n\nPROMPT:\nCreate a vertical 3:4 editorial memory poster inspired by the uploaded photograph. Divide the composition into two horizontal sections: the top 50% preserves the original photograph with its recognizable subject, identity, pose, clothing, https://t.co/pzcHoC5MMd",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112029484434252263_0.jpg",
+        "w": 1086,
+        "h": 1448
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112029484434252263_1.jpg",
+        "w": 1086,
+        "h": 1448
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Sairah_0/status/2112029484434252263",
+    "fav": 59,
+    "retweet": 0,
+    "reply": 29,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:36.165986Z"
+  },
+  {
+    "x_id": "2112413004935610807",
+    "screen_name": "Sairah_0",
+    "author": "Sairah",
+    "verified": false,
+    "created_at": "2026-10-20T05:18:01.000Z",
+    "text_raw": "GPT Image 2 On ChatGPT \n\nPrompt:\nCreate one vertically stacked before-and-after comparison using the supplied image as the only source.\nLAYOUT:Exactly two equal-height panels: original image on top, transformed image on bottom. Both panels have the source image's aspect ratio and https://t.co/X1RdoEKlCq",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112413004935610807_0.jpg",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112413004935610807_1.jpg",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112413004935610807_2.jpg",
+        "w": 768,
+        "h": 1024
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Sairah_0/status/2112413004935610807",
+    "fav": 100,
+    "retweet": 0,
+    "reply": 26,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:35.293090Z"
+  },
+  {
+    "x_id": "2112117431921516698",
+    "screen_name": "Swetha",
+    "author": "Swetha",
+    "verified": false,
+    "created_at": "2026-10-19T09:43:31.000Z",
+    "text_raw": "You see how nobody is saying “I could make this with Higgsfield”?",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/Swetha/status/2112117431921516698",
+    "fav": 1671,
+    "retweet": 0,
+    "reply": 40,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:34.415015Z"
+  },
+  {
+    "x_id": "2112467215534731689",
+    "screen_name": "AngryTomtweets",
+    "author": "Angry Tom",
+    "verified": false,
+    "created_at": "2026-10-20T08:53:26.000Z",
+    "text_raw": "hold my beer... https://t.co/w4lmdJixFi",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112467215534731689.mp4",
+    "url": "https://x.com/AngryTomtweets/status/2112467215534731689",
+    "fav": 1494,
+    "retweet": 0,
+    "reply": 96,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:33.515965Z"
+  },
+  {
+    "x_id": "2112515275048530300",
+    "screen_name": "higgsfield",
+    "author": "Higgsfield AI 🧩",
+    "verified": false,
+    "created_at": "2026-10-20T12:04:24.000Z",
+    "text_raw": "Higgsfield x Wan 3.0 Prime\n\nSwitch between animation styles with faster generation at the best value.\n\nAvailable now at Higgsfield. https://t.co/M4v6odu5bp",
+    "lang": "en",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112515275048530300.mp4",
+    "url": "https://x.com/higgsfield/status/2112515275048530300",
+    "fav": 645,
+    "retweet": 0,
+    "reply": 55,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:32.613150Z"
+  },
+  {
+    "x_id": "2112779843251376490",
+    "screen_name": "Sairah_0",
+    "author": "Sairah",
+    "verified": false,
+    "created_at": "2026-10-21T05:35:42.000Z",
+    "text_raw": "GPT Image 2 On ChatGPT \n\nPrompt:\nCreate one vertical 3:4 diptych for each uploaded photo, divided into equal top and bottom halves with a seamless join. No divider, frame, or collage. Swiss editorial design, experimental photography, and vintage print aesthetics.\n\nTOP HALF — https://t.co/QnKZubsQVf",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112779843251376490_0.jpg",
+        "w": 1055,
+        "h": 1491
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112779843251376490_1.jpg",
+        "w": 1086,
+        "h": 1448
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Sairah_0/status/2112779843251376490",
+    "fav": 38,
+    "retweet": 0,
+    "reply": 19,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:31.742141Z"
+  },
+  {
+    "x_id": "2112548887483544013",
+    "screen_name": "YueyueforLuis",
+    "author": "Louis and Yue",
+    "verified": false,
+    "created_at": "2026-10-20T14:17:58.000Z",
+    "text_raw": "［提示詞分享］\n\n丁達爾之光\n\n-✨✨\n\n-prompt:\n\n9:16 vertical aspect ratio, hyper-realistic cinematography, vintage oil painting aesthetic, 8K detail.\n\nAn adult woman with soft, wispy bangs; petite and slender, with porcelain-white skin and delicate, refined features.\n\nShe wears an https://t.co/muFNGFRLQO",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112548887483544013_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112548887483544013_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112548887483544013_2.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/YueyueforLuis/status/2112548887483544013",
+    "fav": 63,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:30.847377Z"
+  },
+  {
+    "x_id": "2112751271111213420",
+    "screen_name": "YueyueforLuis",
+    "author": "Louis and Yue",
+    "verified": false,
+    "created_at": "2026-10-21T03:42:10.000Z",
+    "text_raw": "Thank you for sharing. I really love Alice in Wonderland. https://t.co/G1EO3F9UUA",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112751271111213420_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112751271111213420_1.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/YueyueforLuis/status/2112751271111213420",
+    "fav": 26,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:29.959500Z"
+  },
+  {
+    "x_id": "2112605014124646593",
+    "screen_name": "Tanvir48992",
+    "author": "Tanvir 🫎",
+    "verified": false,
+    "created_at": "2026-10-20T18:01:00.000Z",
+    "text_raw": "Lost in Wonderland, guarded by shadows and secrets. 🖤🐇\n\nPrompt:\n\nCinematic, moody black and white conceptual studio portrait, vertical composition, dark Alice in Wonderland aesthetic with a gothic fairytale vibe. A young woman with long, sleek, center-parted dark hair, https://t.co/faU1qprjXn",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112605014124646593_0.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Tanvir48992/status/2112605014124646593",
+    "fav": 41,
+    "retweet": 0,
+    "reply": 15,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:29.075664Z"
+  },
+  {
+    "x_id": "2112755704004305264",
+    "screen_name": "Callmyprae",
+    "author": "Callmyprae",
+    "verified": false,
+    "created_at": "2026-10-21T03:59:47.000Z",
+    "text_raw": "Thx prompt kaa✨👌🏻\n\nเจ้าไค สมาชิกคนที่3 ของ ROGUE https://t.co/qh1l2pzj8R",
+    "lang": "und",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112755704004305264_0.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/Callmyprae/status/2112755704004305264",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:28.190626Z"
+  },
+  {
+    "x_id": "2112768001871339701",
+    "screen_name": "yukifloze",
+    "author": "千野詩織",
+    "verified": false,
+    "created_at": "2026-10-21T04:48:39.000Z",
+    "text_raw": "「欸？欸？什麼？」 https://t.co/UyH40GP1cA",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112768001871339701_0.jpg",
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112768001871339701_1.jpg",
+        "w": 1672,
+        "h": 941
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/yukifloze/status/2112768001871339701",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:27.293075Z"
+  },
+  {
+    "x_id": "2112771519567057072",
+    "screen_name": "3191Sakura",
+    "author": "韓・華流＆今はAI大好き‼",
+    "verified": false,
+    "created_at": "2026-10-21T05:02:38.000Z",
+    "text_raw": "@YueyueforLuis @ruei_jiang これ合ってますか？プロンプトお借りしました。良い感じに、出来ましたので、貼りに来ました😄ありがとう御座いました🙇🏻‍♀️💕（もし、自分のスレに、貼ったら怒りますか？）🙏 https://t.co/AKhJruWw4G",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112771519567057072_0.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/3191Sakura/status/2112771519567057072",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:26.383103Z"
+  },
+  {
+    "x_id": "2112760692172296575",
+    "screen_name": "MagsNoctis",
+    "author": "Mags Noctis 🗝️🐐 ⌞The Necessary Evil⌝",
+    "verified": false,
+    "created_at": "2026-10-21T04:19:36.000Z",
+    "text_raw": "This is such a fun Prompt! \n\nGo try it for yourself~! https://t.co/KmFn9Q6ghl",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112760692172296575_0.jpg",
+        "w": 1672,
+        "h": 941
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/MagsNoctis/status/2112760692172296575",
+    "fav": 16,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:25.477201Z"
+  },
+  {
+    "x_id": "2112839512821014692",
+    "screen_name": "franco_ana98610",
+    "author": "Ana ❄️🐦‍⬛🐺⚖️",
+    "verified": false,
+    "created_at": "2026-10-21T09:32:49.000Z",
+    "text_raw": "@YueyueforLuis Awww these are so beautiful and romantic 😍😍😍 https://t.co/Z7O0IzoeXJ",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112839512821014692_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112839512821014692_1.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/franco_ana98610/status/2112839512821014692",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:24.593460Z"
+  },
+  {
+    "x_id": "2112837001649217577",
+    "screen_name": "if_if_25",
+    "author": "이프💜🌱",
+    "verified": false,
+    "created_at": "2026-10-21T09:22:50.000Z",
+    "text_raw": "맨으로 바꿨는데 왜 여자로 출력했는지 모르게따\n그치만 예쁘다. https://t.co/x2VOHeFlqW",
+    "lang": "ko",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112837001649217577_0.jpg",
+        "w": 768,
+        "h": 1280
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112837001649217577_1.jpg",
+        "w": 768,
+        "h": 1280
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112837001649217577_2.jpg",
+        "w": 768,
+        "h": 1280
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112837001649217577_3.jpg",
+        "w": 768,
+        "h": 1280
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/if_if_25/status/2112837001649217577",
+    "fav": 9,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:23.693239Z"
+  },
+  {
+    "x_id": "2105607380901962101",
+    "screen_name": "YueyueforLuis",
+    "author": "Louis and Yue",
+    "verified": false,
+    "created_at": "2026-10-01T10:34:54.000Z",
+    "text_raw": "發育檢查🫵🏻\n\nprompt:\n\nThe painting depicts a man measuring a woman's waist. The woman, with her hands raised, shyly pursing her lips, looks at the man; she is petite and adorable. The man is clearly taller and more robust than the woman. The scene takes place inside a fitting https://t.co/VyWaG2aK32",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2105607380901962101_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2105607380901962101_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2105607380901962101_2.jpg",
+        "w": 1159,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2105607380901962101_3.jpg",
+        "w": 1159,
+        "h": 2048
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/YueyueforLuis/status/2105607380901962101",
+    "fav": 111,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:22.799889Z"
+  },
+  {
+    "x_id": "2112831793409782176",
+    "screen_name": "HaruHarutoMori",
+    "author": "Haruto Mori",
+    "verified": false,
+    "created_at": "2026-10-21T09:02:08.000Z",
+    "text_raw": "This is so cute 🤭 https://t.co/97Jx3l6W4i",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112831793409782176_0.jpg",
+        "w": 1672,
+        "h": 941
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/HaruHarutoMori/status/2112831793409782176",
+    "fav": 3,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:21.917466Z"
+  },
+  {
+    "x_id": "2112745103068737889",
+    "screen_name": "YueyueforLuis",
+    "author": "Louis and Yue",
+    "verified": false,
+    "created_at": "2026-10-21T03:17:40.000Z",
+    "text_raw": "［提示詞分享］被包圍了？\n\nModel:@o222737472gmai1\n\nprompt:\n\n16:9\n\n| Japanese-Style Cute Illustration\n\nAt the center of the frame is a young married couple, surrounded by a throng of media and fans. The overall vibe is that of a cute, humorous, and sweet romantic comedy.\n\nThe wife https://t.co/AkFYWasq8T",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112745103068737889_0.jpg",
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112745103068737889_1.jpg",
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112745103068737889_2.jpg",
+        "w": 1672,
+        "h": 941
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112745103068737889_3.jpg",
+        "w": 1672,
+        "h": 941
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/YueyueforLuis/status/2112745103068737889",
+    "fav": 57,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:21.013320Z"
+  },
+  {
+    "x_id": "2112819551394283670",
+    "screen_name": "arigatou_maruru",
+    "author": "リムセ＝オルサ【零】",
+    "verified": false,
+    "created_at": "2026-10-21T08:13:29.000Z",
+    "text_raw": "🫶 https://t.co/DOTcaxcEJ1",
+    "lang": "qme",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112819551394283670_0.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/arigatou_maruru/status/2112819551394283670",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:20.122548Z"
+  },
+  {
+    "x_id": "2112364473805938880",
+    "screen_name": "YueyueforLuis",
+    "author": "Louis and Yue",
+    "verified": false,
+    "created_at": "2026-10-20T02:05:11.000Z",
+    "text_raw": "［提示分享］\n\n［非洲菊］\n\n-自由使用\n\n**prompt**\n\n9:16 Vertical Format | \n\nHyper-realistic Couple Photography with a CCD Film Aesthetic\n\nFeaturing a low-saturation, warm-toned brown palette, \n\nthis image captures intricate skin textures and the soft glow of a golden sunset. \n\nIt https://t.co/phpVrmsfdi",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112364473805938880_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112364473805938880_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112364473805938880_2.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/YueyueforLuis/status/2112364473805938880",
+    "fav": 98,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:19.237580Z"
+  },
+  {
+    "x_id": "2112877299750359103",
+    "screen_name": "YueyueforLuis",
+    "author": "Louis and Yue",
+    "verified": false,
+    "created_at": "2026-10-21T12:02:58.000Z",
+    "text_raw": "[提示詞分享]\n\nGolden Hour\n\nprompt:\n\n9:16 Vertical Composition\n\nAn adult couple shares an intimate kiss beside a vintage European-style building at sunset, with a dark green, diamond-patterned metal mesh fence between them.\n\nThe Woman: Petite and slender, with fair, cool-toned, https://t.co/UDvZ5yEyrP",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112877299750359103_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112877299750359103_1.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/YueyueforLuis/status/2112877299750359103",
+    "fav": 12,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:18.349160Z"
+  },
+  {
+    "x_id": "2112415515083759991",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-20T05:28:00.000Z",
+    "text_raw": "公众号没有官方 RSS。\nWeRSS 是自己搭一台，把关注的号收成订阅源\n\n它能定时更新，导出 Markdown、Word、PDF、JSON，也能接到 Webhook。\n网页上扫码授权，默认 SQLite，Docker 起在 8001 端口。\n仓库大约 4.7k star，最近一次提交在 9 月 24 日。\n别把它当成稳定接口。 https://t.co/5y9TR2njVs",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112415515083759991_0.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112415515083759991",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:17.371464Z"
+  },
+  {
+    "x_id": "2112446220245332447",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-20T07:30:00.000Z",
+    "text_raw": "Mobile MCP 是让 Agent 操作手机的桥，\n不是手机上装一个 App 就完了\n\n它能连 iPhone、安卓真机、模拟器和云端设备。\nAgent 能读无障碍树，点按、滑动、输入、装卸 App、录屏、读日志。\n能读结构化元素时，不用拿截图喂视觉模型，省 token 也稳一点。\n先拿模拟器试。\niOS 需要 Xcode 和已经启动的 https://t.co/c8cdZVFToM",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112446220245332447.mp4",
+    "url": "https://x.com/gaoren7716/status/2112446220245332447",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:16.497112Z"
+  },
+  {
+    "x_id": "2112475158221042020",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-20T09:25:00.000Z",
+    "text_raw": "MiniMax 这次有点狠。。\n\nM3.1 Flash 来了，之前的 Space Bunny，原来就是它的早期版本。\n\n按官方数据，对比 M3：成本降到 1/3，速度提升到 3 倍。\n\nAPI 每百万 Token，输入 $0.15、输出 $0.60，缓存读取只要 $0.015。\n\n做 Agent 要反复跑任务的，这个价格挺想试试。。就看实际干活能不能又快又稳了。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112475158221042020",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:15.612176Z"
+  },
+  {
+    "x_id": "2112150867868541221",
+    "screen_name": "MiniMax_AI",
+    "author": "MiniMax (official)",
+    "verified": false,
+    "created_at": "2026-10-19T11:56:23.000Z",
+    "text_raw": "MiniMax M3.1 Flash: Space Performance + Bunny Speed\n\n🚀🐰 Yes, Space Bunny  - which has topped global leaderboards with 200T+ tokens - was an earlier version of M3.1 Flash.\n\n💰Redefining the performance economics of agentic AI. M3.1 Flash achieves frontier-level intelligence https://t.co/j0tCfNYYgo",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112150867868541221_0.jpg",
+        "w": 1666,
+        "h": 1204
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/MiniMax_AI/status/2112150867868541221",
+    "fav": 7353,
+    "retweet": 0,
+    "reply": 445,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:14.703524Z"
+  },
+  {
+    "x_id": "2112508125488316476",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-20T11:36:00.000Z",
+    "text_raw": "发现一个有点狠的开源 Skill。。\n\n给它一张照片，让 AI 帮你找拍摄地点，还会把推理依据列出来\n\n没路牌、没地标，也能尝试通过山形、阴影、卫星图和街景，一步步缩小范围\n\n支持 Claude Code、Codex、Cursor 等工具\n\n项目展示的一个案例，最后定位误差只有 3 米。。想拿自己的旅行照片试试了 https://t.co/SkmUgBtpwk",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112508125488316476_0.jpg",
+        "w": 1536,
+        "h": 1024
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112508125488316476",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:13.817056Z"
+  },
+  {
+    "x_id": "2112552628077101495",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-20T14:32:50.000Z",
+    "text_raw": "卧槽，网易邮箱大师现在还能这么用了。。\n\nAI 助手直接放进收件箱，不用把邮件复制出来，再切到聊天窗口问一遍。\n\n对我这种邮箱常年几百封未读的人，吸引力真不小 😂\n\n推广、通知堆了一大堆，偏偏账单、发票和重要文件也混在里面。平时懒得整理，真要找的时候又翻半天。\n\n这几个用法就挺实在：\n→",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112552628077101495",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:12.931284Z"
+  },
+  {
+    "x_id": "2112466637777781045",
+    "screen_name": "wadezone",
+    "author": "Koda",
+    "verified": false,
+    "created_at": "2026-10-20T08:51:08.000Z",
+    "text_raw": "卧槽！发现一个白嫖 DeepSeek V4 Flash 的野路子，那就是网易邮箱大师\n\n直接长在收件箱里，不用掏一分钱 Token 费。\n如果说国内最没底线的互联网大厂是百度，表现最好应该就是网易\n从网易云音乐到UU远程再到网易邮箱大师，产品力拉满 简直赛博菩萨！ https://t.co/ptoX1TOr6F",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112466637777781045_0.jpg",
+        "w": 1280,
+        "h": 720
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112466637777781045_1.jpg",
+        "w": 1280,
+        "h": 720
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/wadezone/status/2112466637777781045",
+    "fav": 58,
+    "retweet": 0,
+    "reply": 38,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:12.035791Z"
+  },
+  {
+    "x_id": "2112563238613479758",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-20T15:15:00.000Z",
+    "text_raw": "Upscayl 能把糊成像素的图放大，修不了失焦。\n\n它用 Real-ESRGAN 猜细节，本地跑，AGPL-3.0。仓库大约 5 万 star。最新发行版是 2.15，2024 年 12 月 25 日。Linux、macOS 12 以后、Windows 10 以后都能装。\n\n要有支持 Vulkan 的显卡。多数核显不行，纯 CPU 也不行。 https://t.co/SD51DYOQOh",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112563238613479758_0.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112563238613479758",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:11.149839Z"
+  },
+  {
+    "x_id": "2112687054605746554",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-20T23:27:00.000Z",
+    "text_raw": "Open Dots 是作者给 OpenAI Dots 做的开源对照，不是又一个聊天框\n\n仓库写的是：自己部署的工作区，能聊天、调工具、接应用，也能操作浏览器、终端和文件。关键动作要先经过批准。\n\n「开源替代」只说明壳子能自己跑。模型、连接器和电脑权限，还是你自己接、自己担。 https://t.co/0fhQoYdM2X",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112687054605746554_0.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112687054605746554",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:10.203184Z"
+  },
+  {
+    "x_id": "2112718763523223823",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-21T01:33:00.000Z",
+    "text_raw": "做小红书信息图，难的不只是写提示词，是先想清楚：这页信息到底该怎么组织。\n\n这个 xhs-prompt-library 值得从目录看起。除了展示入口，它还把框架、信息图分类、使用说明单独放进了项目：\n\nFRAMEWORK.md：框架文档\n小红书信息图系统性分类.md：分类文档\n怎么用.md：使用说明 https://t.co/z9Ky7GdLoF",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112718763523223823_0.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112718763523223823",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:09.324260Z"
+  },
+  {
+    "x_id": "2112744432441114709",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-21T03:15:00.000Z",
+    "text_raw": "发现一个有点意思的开源项目。。\n\nAI 干活不行，先别急着换模型，让它试着改改自己的工作方法。\n\nGoogle Research 开源的 Harness²，不改模型权重，而是让 Agent 调整提示词、工具用法、记忆和 Skills，跑一遍对比效果，再把有用的经验留下来。\n\n说白了，不是换个脑子，是改改干活流程。\n\n做 Agent、写 https://t.co/e55Q6nNfnr",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112744432441114709_0.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112744432441114709",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:08.456271Z"
+  },
+  {
+    "x_id": "2112774128185032794",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-21T05:13:00.000Z",
+    "text_raw": "AI图最烦的一种情况：\n\n这一版人物满意\n下一版背景满意\n再改一下，两边又变了\n\n如果每次拿回来的都是一张平面图，后面还得重新抠、重新拼。\nScumble 做了个更适合接着修改的编辑界面：\n\n选中局部，写要求，生成结果作为独立图层回来。 https://t.co/N8hnEmUT94",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112774128185032794_0.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112774128185032794",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:07.572415Z"
+  },
+  {
+    "x_id": "2112790737423323413",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-21T06:19:00.000Z",
+    "text_raw": "都是朋友的锅。。。\n\n做了个批量出小红书图片的工具。。\n\n输入一个主题或关键词，先批量生成提示词，再批量出图，不用一张张想、一条条写了。\n\n想围绕同一个主题多做几张图的，可以试试。\n\n开源放这了：\nhttps://t.co/EaBJhTdylO https://t.co/en88VRxP0T",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112790737423323413_0.jpg",
+        "w": 1195,
+        "h": 926
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112790737423323413_1.jpg",
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112790737423323413_2.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112790737423323413",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:06.687406Z"
+  },
+  {
+    "x_id": "2112819678414328127",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-21T08:14:00.000Z",
+    "text_raw": "小说有了，模型也能调\n\n真开始做，时间却花在：\n\n拆人物。\n找角色图。\n搬分镜。\n等视频。\n再去配音、拼接。\nAIDrama Studio 把这些放在一个可自部署的项目里：\n小说／剧本\n→ 人物、场景、道具分析\n→ 分镜\n→ 图片\n→ 视频\n→ 配音与合成。\n我觉得值得先看的，不是首页那句“全自动”。 https://t.co/uctQ2ao39B",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112819678414328127_0.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112819678414328127",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:05.789630Z"
+  },
+  {
+    "x_id": "2112864976851661060",
+    "screen_name": "gaoren7716",
+    "author": "小海豚笔记 (AI & 副业探索)",
+    "verified": false,
+    "created_at": "2026-10-21T11:14:00.000Z",
+    "text_raw": "让Agent帮你操作网页\n\n搜一下，出来一堆：\n\n浏览器插件。\nPython框架。\n云浏览器。\n网页抓取API。\n名字都像能干活，但你要准备的东西差得挺远。\nSteel整理的这个资源目录，先把它们按用途分开了：\n→ 想直接交代任务：看浏览器Agent。\n\n→ 想接进自己的程序：看开发工具与浏览器基础设施。\n\n→ https://t.co/pSRbMn0RT0",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112864976851661060_0.jpg",
+        "w": 1024,
+        "h": 1536
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/gaoren7716/status/2112864976851661060",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:04.906261Z"
+  },
+  {
+    "x_id": "2111780151172489274",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-18T11:23:17.000Z",
+    "text_raw": "15秒，9:16竖屏，写实、高张力的时尚轻喜剧，含一次摔倒变装反转。@图片1只锁定五官、发型轮廓和身材比例，不锁定姿势和服装。深茶棕眼妆，眼尾上挑，正红缎光唇，嘴唇微张，皮肤有毛孔。黑发湿着，松散波浪，一缕贴在唇角。刚洗完澡，白色浴巾裹住身体从胸口到大腿上段，裹得贴身，勾出丰满的胸型、收",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2111780151172489274",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:04.022428Z"
+  },
+  {
+    "x_id": "2100060548293698035",
+    "screen_name": "yyyole",
+    "author": "沐阳",
+    "verified": false,
+    "created_at": "2026-09-16T03:13:46.000Z",
+    "text_raw": "分享一个用AI做意外反转式商业广告的玩法！！\n基本上，很多产品都可以直接套用！！\n\n你会发现，类似的广告视频很常见。\n这个视频主要有下面几个主要的套路：\n1、视觉钩子：性感丝袜、失手意外制造停留。\n2、情境喜剧：人物狼狈处境产生趣味。\n3、视觉奇观：时间冻结、悬浮、运动轨迹特效加持。 https://t.co/GRk8Mkmd9W",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2100060548293698035.mp4",
+    "url": "https://x.com/yyyole/status/2100060548293698035",
+    "fav": 1149,
+    "retweet": 0,
+    "reply": 170,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:03.121452Z"
+  },
+  {
+    "x_id": "2111780146747519170",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-18T11:23:16.000Z",
+    "text_raw": "电商内衣广告这不就有了吗😏 来自 @yyyole 意外反转式商业广告的启发～\n\n提示词见评论👇 https://t.co/06ADXW8LB1",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2111780146747519170.mp4",
+    "url": "https://x.com/msjiaozhu/status/2111780146747519170",
+    "fav": 61,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:02.232585Z"
+  },
+  {
+    "x_id": "2112002781129355387",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-19T02:07:56.000Z",
+    "text_raw": "https://t.co/ZMHZJXequK",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2112002781129355387",
+    "fav": 0,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:01.343718Z"
+  },
+  {
+    "x_id": "2112002778247901688",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-19T02:07:56.000Z",
+    "text_raw": "Paperclip 牛逼啊，这妥妥的一行命令给你开一家一人 AI 公司啊！😍\n\n术业有专攻，Agent 也得各司其职，Paperclip 能给这群 Agent 配组织架构、预算和审批。Claude Code、Codex、Cursor、OpenClaw 都能招进来。\n\n某个岗位月预算烧完，直接停工。有活才用 Heartbeat 叫醒，不是 24 小时空转。 https://t.co/ItMlqMKGwW",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112002778247901688_0.jpg",
+        "w": 1200,
+        "h": 675
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2112002778247901688",
+    "fav": 3,
+    "retweet": 0,
+    "reply": 6,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:35:00.460295Z"
+  },
+  {
+    "x_id": "2112041043134951473",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-19T04:39:59.000Z",
+    "text_raw": "从去年刚开始接触 Tutti 时的原始接单方式，到 v1 的平台管理，再到现在 v2 的体验优化，功能完善，还真是看着 Tutti 一步步的茁壮成长～💪\n\n目前也在 Tutti 拿到了 5k+ 美刀的收益，不算多，但覆盖掉各种 AI 成本也是绰绰有余了哈哈！感兴趣的小伙伴可以看看 👉 https://t.co/ci0wZlHbp9 https://t.co/KbXK1x2DwM",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112041043134951473_0.jpg",
+        "w": 1587,
+        "h": 1112
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112041043134951473_1.jpg",
+        "w": 1595,
+        "h": 1116
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112041043134951473_2.jpg",
+        "w": 1593,
+        "h": 1115
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112041043134951473_3.jpg",
+        "w": 1593,
+        "h": 1108
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2112041043134951473",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 18,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:59.580169Z"
+  },
+  {
+    "x_id": "2112122616274440686",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-19T10:04:07.000Z",
+    "text_raw": "Actual built-in submission prompt (verbatim):",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2112122616274440686",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:58.693657Z"
+  },
+  {
+    "x_id": "2112122613900390882",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-19T10:04:07.000Z",
+    "text_raw": "Codex 越来越懂我的审美了，一直在跑的生图项目总能不经意给我一些惊喜！😍\n\n这回眸一笑是真的好看～\n\n提示词见评论👇 https://t.co/bvrCCFJMzM",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112122613900390882_0.jpg",
+        "w": 900,
+        "h": 1200
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112122613900390882_1.jpg",
+        "w": 900,
+        "h": 1200
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112122613900390882_2.jpg",
+        "w": 900,
+        "h": 1200
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112122613900390882_3.jpg",
+        "w": 900,
+        "h": 1200
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2112122613900390882",
+    "fav": 10,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:57.792646Z"
+  },
+  {
+    "x_id": "2112360385387089921",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-20T01:48:56.000Z",
+    "text_raw": "已经把一半以上的定时任务都迁到 Grok Bot 了，目前跑起来还是有点爽哈哈，特别是涉及 X 推文这块～😍 https://t.co/gT6swDvVh4",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112360385387089921_0.jpg",
+        "w": 1172,
+        "h": 891
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2112360385387089921",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 5,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:56.904691Z"
+  },
+  {
+    "x_id": "2107155004184522811",
+    "screen_name": "WildVariable01",
+    "author": "野生变量",
+    "verified": false,
+    "created_at": "2026-10-05T17:04:36.000Z",
+    "text_raw": "都说Muse的视频生成能力惊人\n\n我今天算是被震惊到了😳😳😳😳\n\n就是直接让Muse生成一个视频，质量这么高，可以直接发到抖音，小红书了，以后还需要网红吗？人人都可以是网红了吧\n\n提示词在下方评论区： https://t.co/vRZYOL4V9F",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2107155004184522811.mp4",
+    "url": "https://x.com/WildVariable01/status/2107155004184522811",
+    "fav": 666,
+    "retweet": 0,
+    "reply": 79,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:56.018629Z"
+  },
+  {
+    "x_id": "2112486478626648075",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-20T10:09:59.000Z",
+    "text_raw": "Muse 的视频生成能力确实不容小觑啊！😍\n\n但貌似二次加工让它加台Muse 的视频生成能力确实不容小觑啊！😍\n\n但貌似二次加工让它换台词，声音跟画面就分开了🤣可以拿原贴的提示词试试看👇，台词跟人是分开的🤣可以拿原贴的提示词试试看👇 https://t.co/gZ6cHHL3PA",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112486478626648075.mp4",
+    "url": "https://x.com/msjiaozhu/status/2112486478626648075",
+    "fav": 49,
+    "retweet": 0,
+    "reply": 8,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:55.129146Z"
+  },
+  {
+    "x_id": "2112727745402962236",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-21T02:08:41.000Z",
+    "text_raw": "https://t.co/PA2fKWXSIu",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2112727745402962236",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:54.235353Z"
+  },
+  {
+    "x_id": "2112727741783310586",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-21T02:08:40.000Z",
+    "text_raw": "最近“逆向一切”的概念被 REA 这个项目带火了啊！🔥\n\n看到竞品一个功能，想知道它到底怎么实现的？REA 能让你的 agent 直接去拆，没有源码也能跟着证据链走，最后还帮你在自己项目里写一版。\n\n看到有个哥们逆向了自家的智能马桶，直接通过 Mac 来操控哈哈哈！\n\n链接见评论👇 https://t.co/Eu5NsUo7Bm",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112727741783310586_0.jpg",
+        "w": 1200,
+        "h": 703
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112727741783310586_1.jpg",
+        "w": 1082,
+        "h": 711
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2112727741783310586",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 4,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:53.347977Z"
+  },
+  {
+    "x_id": "2112846201708298632",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-21T09:59:23.000Z",
+    "text_raw": "https://t.co/jjMS8yYgOz",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2112846201708298632",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:52.456727Z"
+  },
+  {
+    "x_id": "2112846198654882110",
+    "screen_name": "msjiaozhu",
+    "author": "MapleShaw",
+    "verified": false,
+    "created_at": "2026-10-21T09:59:23.000Z",
+    "text_raw": "通过我的链接在 GamsGo 下的单快一百了，几乎清一色 ChatGPT。🤔\n\n现在他们家推出了 Codex Plus 独享 $16.49/月，通过促销码 V4neg 还能再减 3%，对比官方 Plus $20/月还是很划算的！😍\n\nCLI、VS Code 扩展、网页版都能用，同样是自营交付。\n\n我自己当初在 GamsGo 买的是 ChatGPT https://t.co/09nOIGmnsk",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112846198654882110_0.jpg",
+        "w": 1497,
+        "h": 1158
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112846198654882110_1.jpg",
+        "w": 598,
+        "h": 569
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/msjiaozhu/status/2112846198654882110",
+    "fav": 16,
+    "retweet": 0,
+    "reply": 32,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:51.578285Z"
+  },
+  {
+    "x_id": "2112772248755118156",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-21T05:05:32.000Z",
+    "text_raw": "也是被卡神选中的视频！\n\n真行啊，我也要给我的家乡来一套 https://t.co/q1cr6ds3Jl",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112772248755118156_0.jpg",
+        "w": 943,
+        "h": 2048
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2112772248755118156",
+    "fav": 10,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:50.685782Z"
+  },
+  {
+    "x_id": "2111662397278847478",
+    "screen_name": "EianLu",
+    "author": "Eian",
+    "verified": false,
+    "created_at": "2026-10-18T03:35:22.000Z",
+    "text_raw": "《一座城的年轮》谨以此片，献给我的家乡。\n3,573 帧，74 亿个像素，319 平方公里，71,380 栋楼，按 1:10000 等比缩小，画面全部由 Claude 写代码渲染完成。 从公元前 1250 年到 2022 年，3,271 年的历史压进 149 秒。\n这就是我的家乡：成都。 如果喜欢，请多多支持，感谢！ https://t.co/sZloI0zO7A",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://video.twimg.com/amplify_video/2111661683718639616/vid/avc1/1920x1080/tCeFH5J5fQLa73wX.mp4",
+    "url": "https://x.com/EianLu/status/2111662397278847478",
+    "fav": 411,
+    "retweet": 0,
+    "reply": 66,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:49.791622Z"
+  },
+  {
+    "x_id": "2112778407633146071",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-21T05:30:00.000Z",
+    "text_raw": "真大企业AI转型，变现了… https://t.co/FSpj58l0tF",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112778407633146071_0.jpg",
+        "w": 1096,
+        "h": 2048
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2112778407633146071",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:48.900600Z"
+  },
+  {
+    "x_id": "2112794009164812295",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-21T06:32:00.000Z",
+    "text_raw": "铁柱哥这个网站的精美和质量都是顶级\n\n想学grokbot 找铁柱哥能解决99.9%\n\n最近起号的选题 我也就推荐grokbot\n\n甭管国内外社媒 讲清楚grokbot在某一大众领域的应用 你就成功了一半 https://t.co/mHsWMkGjbl",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112794009164812295_0.jpg",
+        "w": 1042,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112794009164812295_1.jpg",
+        "w": 1046,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112794009164812295_2.jpg",
+        "w": 1052,
+        "h": 2048
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2112794009164812295",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:48.009919Z"
+  },
+  {
+    "x_id": "2112695668670398922",
+    "screen_name": "cgnot996",
+    "author": "铁柱AGI",
+    "verified": false,
+    "created_at": "2026-10-21T00:01:14.000Z",
+    "text_raw": "感觉到了强烈的推背感！\n🎉 8000 粉达成！要感谢 @miles_mazy  麦总推荐了一波，涨了将近 600 粉\n\n也靠自己最近输出了很多内容，让人点进我主页能看到，所以才接住了这波流量，最近开源了 Grok Bot Clipper 浏览器插件，还有 Grok Bot 中文学习站（https://t.co/NQ6xSSjC5l） https://t.co/OI0Y1j3UG6",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112695668670398922_0.jpg",
+        "w": 1268,
+        "h": 1282
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/cgnot996/status/2112695668670398922",
+    "fav": 39,
+    "retweet": 0,
+    "reply": 19,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:47.088258Z"
+  },
+  {
+    "x_id": "2112718197690691657",
+    "screen_name": "ianneo_ai",
+    "author": "Ian (伊恩)",
+    "verified": false,
+    "created_at": "2026-10-21T01:30:45.000Z",
+    "text_raw": "Cloudflare 官网这排 Logo，一张图片都没用\n\n每张卡上的品牌 Logo 都是一根根竖线拼出来的。鼠标移上去，线会散开再拼回来，旁边还会冒出几个检测框。看了下，页面里一张 Logo 图片都没有，是用 canvas 实时画出来的\n\n做法其实不复杂。\n\n程序先在一块看不见的画布上把 Logo https://t.co/o2YQIE7KMl",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112718197690691657.mp4",
+    "url": "https://x.com/ianneo_ai/status/2112718197690691657",
+    "fav": 580,
+    "retweet": 0,
+    "reply": 21,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:46.193243Z"
+  },
+  {
+    "x_id": "2112795015512457385",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-21T06:36:00.000Z",
+    "text_raw": "雅，实在是雅！ https://t.co/tCcAgZGOJe",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112795015512457385.mp4",
+    "url": "https://x.com/AdrianPunk115/status/2112795015512457385",
+    "fav": 6,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:45.303110Z"
+  },
+  {
+    "x_id": "2112807598378582409",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-21T07:26:00.000Z",
+    "text_raw": "求求，如果你张口就要问我能不能教你用AI赚钱，就别联系我了\n\n我没这本事啊…\n\n这年代 大学都不包分配\n\n来我这要AI包赚钱了？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2112807598378582409",
+    "fav": 19,
+    "retweet": 0,
+    "reply": 16,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:44.408949Z"
+  },
+  {
+    "x_id": "2112437105511342406",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-20T06:53:47.000Z",
+    "text_raw": "https://t.co/P1xNcXQEW1",
+    "lang": "zxx",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2112437105511342406",
+    "fav": 177,
+    "retweet": 0,
+    "reply": 17,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:43.529525Z"
+  },
+  {
+    "x_id": "2112817460370084085",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-21T08:05:11.000Z",
+    "text_raw": "剪辑节奏案例补充：《盗梦空间》这段通过对雪山堡垒、酒店电梯和下坠汽车的交叉剪辑，让观众同时牵挂几条行动线的结果，可以营造出争分夺秒的紧张感 https://t.co/xkyMQyl5qc",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112817460370084085.mp4",
+    "url": "https://x.com/AdrianPunk115/status/2112817460370084085",
+    "fav": 8,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:42.637568Z"
+  },
+  {
+    "x_id": "2112854407880605828",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-21T10:32:00.000Z",
+    "text_raw": "不愧是Ip品牌营销大师，这个短片质感直接拉满\n\n期待一下 地表最强自媒体AI搭子",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2112854407880605828",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:41.753019Z"
+  },
+  {
+    "x_id": "2112836743183716497",
+    "screen_name": "bbkirstry",
+    "author": "小晚不在",
+    "verified": false,
+    "created_at": "2026-10-21T09:21:48.000Z",
+    "text_raw": "去年我开始策划一个AI分身，叫赛博小晚\n\n本来我只想让它替我为自己和朋友们分担烦恼，今年5月正式上线之后，发现它真的可以陪大家从更多维度思考问题、开始行动\n\n9月底开始，随着GrokBot的上线和@cgnot996 铁柱哥的推广，赛博小晚逐渐被更多人看见和喜欢\n\n这条片子，我花了一整晚用 @bot 做出来 https://t.co/H1mbCJ49pD",
+    "lang": "zh",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2112836743183716497.mp4",
+    "url": "https://x.com/bbkirstry/status/2112836743183716497",
+    "fav": 47,
+    "retweet": 0,
+    "reply": 19,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:40.841427Z"
+  },
+  {
+    "x_id": "2112857525955826088",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-21T10:44:23.000Z",
+    "text_raw": "前段时间用grokbot手机端，处处是bug\n\n经常无法加载信息…\n\n现在好像修复了？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2112857525955826088",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:39.958476Z"
+  },
+  {
+    "x_id": "2112876502023110998",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-21T11:59:48.000Z",
+    "text_raw": "今晚9:00 Space 一起听铁柱哥分享Grokbot https://t.co/9eHWUUEbqQ",
+    "lang": "ja",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112876502023110998_0.jpg",
+        "w": 1365,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112876502023110998_1.jpg",
+        "w": 1086,
+        "h": 1448
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2112876502023110998",
+    "fav": 6,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:39.104560Z"
+  },
+  {
+    "x_id": "2112825030337827189",
+    "screen_name": "cgnot996",
+    "author": "铁柱AGI",
+    "verified": false,
+    "created_at": "2026-10-21T08:35:16.000Z",
+    "text_raw": "🎉 卧槽！这回真的牛逼了！我申请 SpaceXSI 中国区大使成功了！\n\n感谢官方给予的肯定，我一直在积极参与 Grok 生态建设，Grok Bot 推广，并且参与了多次关于 Grok Bot 的线上线下分享，11 月 的长沙 Grok Bot Meetup 我也参与筹备了\n\n非常荣幸能加入 SpaceXSI 大使这个团队，后续也将继续分享 Grok https://t.co/sl3IWAuRxY",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112825030337827189_0.jpg",
+        "w": 1970,
+        "h": 998
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2112825030337827189_1.jpg",
+        "w": 1888,
+        "h": 1236
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/cgnot996/status/2112825030337827189",
+    "fav": 365,
+    "retweet": 0,
+    "reply": 215,
+    "is_quote": false,
+    "fetched_at": "2026-10-21T12:34:38.235439Z"
+  },
+  {
     "x_id": "2107459708860940606",
     "screen_name": "YueyueforLuis",
     "author": "Louis and Yue",
@@ -4824,39 +8367,6 @@
     "fetched_at": "2026-10-17T10:46:24.444462Z"
   },
   {
-    "x_id": "2105697562112004177",
-    "screen_name": "jielijian",
-    "author": "界立建",
-    "verified": false,
-    "created_at": "2026-10-01T16:33:15.000Z",
-    "text_raw": "Chen Shanzhuang, who has been accused of serving as the chief coordinator in Washington, D.C. for efforts to protect Xi Jinping and of organizing pro-CCP individuals who assaulted pro-democracy activists, has just walked out of the Chinese Consulate in New York. He and a group of https://t.co/45GRDb83G0",
-    "lang": "en",
-    "photos": [
-      {
-        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2105697562112004177_0.jpg",
-        "w": 960,
-        "h": 1280
-      },
-      {
-        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2105697562112004177_1.jpg",
-        "w": 960,
-        "h": 1280
-      },
-      {
-        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2105697562112004177_2.jpg",
-        "w": 960,
-        "h": 1280
-      }
-    ],
-    "video": "",
-    "url": "https://x.com/jielijian/status/2105697562112004177",
-    "fav": 21,
-    "retweet": 0,
-    "reply": 3,
-    "is_quote": false,
-    "fetched_at": "2026-10-17T04:28:38.782723Z"
-  },
-  {
     "x_id": "2105936385756848180",
     "screen_name": "liyue_ai",
     "author": "李岳",
@@ -9098,23 +12608,6 @@
     "fetched_at": "2026-10-15T01:27:40.509056Z"
   },
   {
-    "x_id": "2109202048453329135",
-    "screen_name": "Jonylin007",
-    "author": "Jony的美股长期策略",
-    "verified": false,
-    "created_at": "2026-10-11T08:38:50.000Z",
-    "text_raw": "这篇文章深入地讲解了中国与欧洲、美国的贸易摩擦，很值得认真看一下。 https://t.co/te4gvGi7w7",
-    "lang": "zh",
-    "photos": [],
-    "video": "",
-    "url": "https://x.com/Jonylin007/status/2109202048453329135",
-    "fav": 12,
-    "retweet": 0,
-    "reply": 2,
-    "is_quote": false,
-    "fetched_at": "2026-10-15T01:27:39.688232Z"
-  },
-  {
     "x_id": "2109578827118850099",
     "screen_name": "hk_stv",
     "author": "HKS香港衛視",
@@ -9130,63 +12623,6 @@
     "reply": 0,
     "is_quote": false,
     "fetched_at": "2026-10-15T01:27:38.857854Z"
-  },
-  {
-    "x_id": "2109630031890944308",
-    "screen_name": "xiax0603",
-    "author": "xiax｜AI & Agents",
-    "verified": false,
-    "created_at": "2026-10-12T12:59:29.000Z",
-    "text_raw": "💥搞笑｜马斯克公开邀约“中国马斯克”上台跳舞！\n\n活动现场主持人提起全网爆火的中国山寨马斯克，马斯克第一反应还在怀疑，这会不会是AI深度伪造的产物。\n\n紧接着直接回答：14亿人口里面，总会出现一个和我长得高度相似的人，我本身也有点亚洲面孔。",
-    "lang": "zh",
-    "photos": [],
-    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2109630031890944308.mp4",
-    "url": "https://x.com/xiax0603/status/2109630031890944308",
-    "fav": 4,
-    "retweet": 0,
-    "reply": 4,
-    "is_quote": false,
-    "fetched_at": "2026-10-15T01:27:38.003504Z"
-  },
-  {
-    "x_id": "2110342323855118537",
-    "screen_name": "leige88888",
-    "author": "磊哥聊政经",
-    "verified": false,
-    "created_at": "2026-10-14T12:09:52.000Z",
-    "text_raw": "日本企业造假全记录：\n日本“躬酱精神”不完全统计（持续更新）\n\n日本造假不完全统计的清单：\n\n（持续更新，截至2026年8月31日）（将日本的造假精神从科技和产业界延展到政治、经济、社会）\n\n⭕ https://t.co/4e3BLpX55D",
-    "lang": "zh",
-    "photos": [
-      {
-        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2110342323855118537_0.jpg",
-        "w": 933,
-        "h": 552
-      }
-    ],
-    "video": "",
-    "url": "https://x.com/leige88888/status/2110342323855118537",
-    "fav": 56,
-    "retweet": 0,
-    "reply": 4,
-    "is_quote": false,
-    "fetched_at": "2026-10-15T01:27:37.164284Z"
-  },
-  {
-    "x_id": "2110510052423713165",
-    "screen_name": "hihn137350",
-    "author": "海涵",
-    "verified": false,
-    "created_at": "2026-10-14T23:16:22.000Z",
-    "text_raw": "三、实验A：中美机制执行转换与制度化观察\n\n实验编号： CSS-EXP-USCHINA-2026\n今日状态： ACTIVE OBSERVATION｜执行线索更新｜履约验证继续\n\n今日新增线索",
-    "lang": "zh",
-    "photos": [],
-    "video": "",
-    "url": "https://x.com/hihn137350/status/2110510052423713165",
-    "fav": 0,
-    "retweet": 0,
-    "reply": 0,
-    "is_quote": false,
-    "fetched_at": "2026-10-15T01:27:36.327386Z"
   },
   {
     "x_id": "2099948649455169773",
@@ -15099,29 +18535,6 @@
     "reply": 1,
     "is_quote": false,
     "fetched_at": "2026-10-13T01:02:15.140129Z"
-  },
-  {
-    "x_id": "1939513796554576240",
-    "screen_name": "DtDt666",
-    "author": "看不懂的SOL",
-    "verified": false,
-    "created_at": "2025-06-30T02:38:18.000Z",
-    "text_raw": "一图搞懂什么是洗钱？\n01、洗钱（Money Laundering）\n洗钱是指将毒品犯罪、黑社会性质的组织犯罪、恐怖活动犯罪、走私犯罪或者其他犯罪的违法所得及其产生的收益，通过各种手段掩饰、隐瞒其来源和性质，使其在形式上合法化的行为。 https://t.co/xxUMbKYHVT",
-    "lang": "zh",
-    "photos": [
-      {
-        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/1939513796554576240_0.jpg",
-        "w": 2457,
-        "h": 3276
-      }
-    ],
-    "video": "",
-    "url": "https://x.com/DtDt666/status/1939513796554576240",
-    "fav": 1014,
-    "retweet": 0,
-    "reply": 25,
-    "is_quote": false,
-    "fetched_at": "2026-10-13T01:02:12.333583Z"
   },
   {
     "x_id": "1549495328382009348",
@@ -32669,23 +36082,6 @@
     "reply": 105,
     "is_quote": false,
     "fetched_at": "2026-10-02T13:07:13.075484Z"
-  },
-  {
-    "x_id": "2105838854972326321",
-    "screen_name": "__Inty__",
-    "author": "Inty News",
-    "verified": false,
-    "created_at": "2026-10-02T01:54:42.000Z",
-    "text_raw": "洛杉矶，中国人被逮捕\n\n这是美国司法部刚公布的一起出口管制案件。\n\n加州大洛杉矶地区的老板 Greg Lui（又名 Yiu Kong Lui，38岁）于2026年10月1日被FBI和商务部执法人员逮捕。联邦大陪审团9月29日对他提起三项指控：密谋违反出口管制法、出境走私，以及密谋洗钱。\n\n检方称，2023至2024年间，Lui https://t.co/VBIBoKlbab",
-    "lang": "zh",
-    "photos": [],
-    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2105838854972326321.mp4",
-    "url": "https://x.com/__Inty__/status/2105838854972326321",
-    "fav": 267,
-    "retweet": 0,
-    "reply": 43,
-    "is_quote": false,
-    "fetched_at": "2026-10-02T13:07:12.176200Z"
   },
   {
     "x_id": "2105854917600842016",
