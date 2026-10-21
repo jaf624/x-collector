@@ -1146,10 +1146,11 @@ def main():
         # 注：此处不用 link_noise——Jina 全文开头普遍带面包屑/分享链接，会误伤正规报道
         # lead 豁免机构复检：GoFundMe/Meetup 等 L 类源本身即目标源，不套涉华相关性
         if c["route"] == "institute" and not is_snip and not c.get("lead"):
-            # 权威硬新闻源行业稿涉华词常在正文较后位置，复检窗口进一步扩大（前2500→4500、前3000→5500）
+            # 权威硬新闻源行业稿（force posture/印太部署类长文）涉华与印太词可能在正文很后位置，
+            # 权威域名正文质量高，复检直接看全文（clean_article 已截到12000）；非硬新闻仍限前800/1500。
             _hn_check = is_hardnews_url(c["url"])
-            _w_head = text[:4500] if _hn_check else text[:800]
-            _w_topic = text[:5500] if _hn_check else text[:1500]
+            _w_head = text if _hn_check else text[:800]
+            _w_topic = text if _hn_check else text[:1500]
             _combo = (title or "") + " " + _w_topic
             if _hn_check:
                 # 硬新闻行业稿：除明确涉华词外，放行"印太军事围堵"强关联（印太热点/盟友 × 军事部署词），
@@ -1189,9 +1190,17 @@ def main():
         is_pin = c.get("via") == "pinned"
         is_lead = bool(c.get("lead"))
         bypass = is_pin or is_lead
-        if not bypass and not rel.search(title + " " + text[:800]):
-            f["not_rel"] += 1
-            print(f"  x 不相关 {(title or c['url'])[:48]}", flush=True); continue
+        if not bypass:
+            # 硬新闻印太军事稿：rel 涉华词表之外，同样放行"印太军事围堵"强关联（窗口放宽到前8000）
+            _rel_hit = bool(rel.search(title + " " + text[:800]))
+            if not _rel_hit and is_hardnews_url(c["url"]):
+                _rc = (title or "") + " " + text
+                _rgeo = bool(INDO_HOT_RE.search(_rc)
+                             or (INDO_ALLY_RE.search(_rc) and not EURO_EX_RE.search(_rc)))
+                _rel_hit = _rgeo and bool(MIL_POSTURE_RE.search(_rc))
+            if not _rel_hit:
+                f["not_rel"] += 1
+                print(f"  x 不相关 {(title or c['url'])[:48]}", flush=True); continue
         if is_snip:
             score, hard, why = 45, False, ["social_snippet"]
         else:
