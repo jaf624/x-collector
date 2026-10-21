@@ -144,6 +144,33 @@ TITLE_CHINA_RE = (
     r"shanghai cooperation|communist party|\bpla\b|sino-|renminbi|\byuan\b|hongkonger|"
     r"alibaba|tencent|bytedance|shein|pinduoduo|\bdidi\b"
 )
+# 印太军事围堵强关联（HARD_NEWS 行业稿专用，2026-10-21 修复检误杀）。
+# 大量防务硬稿标题/正文前部不直接出现 China，但实为针对中国的印太盟友军事部署
+# （澳 Ghost Shark 无人潜艇、美陆军 AUSA 印太无人机、五角大楼 force posture、韩美同盟、菲 EDCA 基地）。
+# 放行条件：强军事部署词 与 印太定向词 同时命中；欧洲/中东/非洲纯动态即便提及韩制装备也排除。
+INDO_HOT_RE = re.compile(
+    r"indo-pacific|indopacific|south china sea|taiwan strait|first island|second island|"
+    r"philippines|philippine|luzon|subic|\bedca\b|guam|okinawa|ryukyu|darwin|"
+    r"aukus|taiwan(?!ese\s+food)|"
+    r"印太|南海|台海|台湾海峡|第一岛链|第二岛链|菲律宾|关岛|冲绳|琉球|达尔文",
+    re.I)
+INDO_ALLY_RE = re.compile(
+    r"japan|japanese|korea|korean|australia|australian|hawaii|hawaiian|\bquad\b|日本|韩国|澳大利亚|澳洲",
+    re.I)
+EURO_EX_RE = re.compile(
+    r"norway|norwegian|ukraine|ukrainian|russia|russian|turkey|turkish|mediterranean|baltic|"
+    r"poland|polish|romania|german|france|french|britain|british|\buk\b|europe|european|\bnato\b|"
+    r"finland|sweden|denmark|netherlands|italy|italian|spain|israel|gaza|iran|middle east|"
+    r"red sea|houthi|yemen|syria|africa|libya|arctic|"
+    r"挪威|乌克兰|俄罗斯|俄方|土耳其|地中海|波罗的海|波兰|德国|法国|英国|欧洲|北约|中东|红海|非洲|北极",
+    re.I)
+MIL_POSTURE_RE = re.compile(
+    r"force posture|deploy|deployment|deployed|troops?|garrison|\bbases?\b|"
+    r"missile|submarine|warship|warplane|fighter|bomber|\bdrone\b|\buav\b|\busv\b|"
+    r"military exercise|joint drill|joint exercise|buildup|build-up|littoral|patrol|reinforce|"
+    r"deterr|posture|arsenal|defense spending|defence spending|procurement|alliance|"
+    r"部署|增兵|导弹|潜艇|无人机|无人艇|军舰|战舰|战机|轰炸机|军事基地|演训|联合演习|巡航|威慑|防务开支|军购|同盟",
+    re.I)
 
 
 def http(url, accept, timeout=120, extra_headers=None):
@@ -1119,11 +1146,26 @@ def main():
         # 注：此处不用 link_noise——Jina 全文开头普遍带面包屑/分享链接，会误伤正规报道
         # lead 豁免机构复检：GoFundMe/Meetup 等 L 类源本身即目标源，不套涉华相关性
         if c["route"] == "institute" and not is_snip and not c.get("lead"):
-            # 权威硬新闻源行业稿涉华词常在正文较后位置，复检窗口扩大（前800→2500、前1500→3000）
+            # 权威硬新闻源行业稿涉华词常在正文较后位置，复检窗口进一步扩大（前2500→4500、前3000→5500）
             _hn_check = is_hardnews_url(c["url"])
-            _w_head = text[:2500] if _hn_check else text[:800]
-            _w_topic = text[:3000] if _hn_check else text[:1500]
-            if soft_news(title) \
+            _w_head = text[:4500] if _hn_check else text[:800]
+            _w_topic = text[:5500] if _hn_check else text[:1500]
+            _combo = (title or "") + " " + _w_topic
+            if _hn_check:
+                # 硬新闻行业稿：除明确涉华词外，放行"印太军事围堵"强关联（印太热点/盟友 × 军事部署词），
+                # 欧洲/中东/非洲纯动态仍排除；主题安全化词（topic）仍必须命中。
+                _soft = soft_news(title)
+                _china = bool(_china_ok(host_of(c["url"]), title, _w_head, _w_topic))
+                _geo = bool(INDO_HOT_RE.search(_combo)
+                            or (INDO_ALLY_RE.search(_combo) and not EURO_EX_RE.search(_combo)))
+                _indo = _geo and bool(MIL_POSTURE_RE.search(_combo))
+                _ontop = bool(topic.search(_combo))
+                if _soft or not (_china or _indo) or not _ontop:
+                    f["not_rel"] += 1
+                    _why = "soft" if _soft else ("topic" if not _ontop else "china")
+                    print(f"  x 机构复检未过[{_why}] 正文{len(text)}字 {(title or c['url'])[:42]}", flush=True)
+                    continue
+            elif soft_news(title) \
                     or not _china_ok(host_of(c["url"]), title, _w_head, _w_topic) \
                     or not topic.search(title + " " + _w_topic):
                 f["not_rel"] += 1
