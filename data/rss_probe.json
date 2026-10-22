@@ -1,5 +1,5 @@
 {
- "diag_at": "2026-10-22T05:19:50.367480Z",
+ "diag_at": "2026-10-22T10:32:07.214174Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
@@ -7,45 +7,45 @@
    "items": 100,
    "samples": [
     {
-     "title": "Taiwan probes organised crime links to China's 'tr",
-     "date": "Thu, 22 Oct 2026 02:32:00",
+     "title": "How a merged SpaceX-Tesla might navigate its China",
+     "date": "Thu, 22 Oct 2026 06:19:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNejRPNmlvaDhHZDJQY"
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTmY1NjhtaFZzWlhre"
      ],
-     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNejRPNmlvaDhHZDJQYlloWDU5cnZpTHZEOU0yWHotRTRsX3Q0TGs4V1F3ZzRBLVNqMnh",
+     "final": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTmY1NjhtaFZzWlhreTlYYko3OHc5TU9QbjBvUHZ3Sm40Wm5hUTdxRzlwQ0VMQ3VFeEU",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxNejRPNmlvaDhHZDJQYlloWDU5cnZpTHZEOU0yWHotRTRsX3Q0TGs4V1F3ZzRBLVNqMnhSVUtNS3ZlWGFTVEU1VUJodkdZMUR0aFUxVnhqU1lVdWEyTlI0dVp1VmRncVIzVDU0WmtxcmI1TXo4cHh0SDhGWXJHY1lSMG8wSnJuUWRrbkI3VXhqWXlUajNuSjYwTFRyNWtOSzlDNnZkamRWRFBUdjVkQUFaTlhSNHZGQQ"
+      "CANON:https://news.google.com/rss/articles/CBMisgFBVV95cUxQTmY1NjhtaFZzWlhreTlYYko3OHc5TU9QbjBvUHZ3Sm40Wm5hUTdxRzlwQ0VMQ3VFeEU4VDYxazBpSG1Yc0VqZU4tcmYyLV9KMG1iQ19xXzBJZ3JqN0F1Q2R4dkVjVnRhZ092bmFaYldaY2ZGWWRsUHFhNUxZN1ozT3RqMHNmcVJpendlNjZta00yVHNCLS05Y3lzSV9WdzQwRGo3dFJlcXA4bzhtaUFGMzJB"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322b60141555f79714c4d7a344f36696f6838476432506259685835397276",
+      "raw_head": "081322b20141555f79714c504e663536386d6856735a586b793958624a373877",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLMz4O6ioh8Gd2PbYhX59rviLvD9M2Xz-E4l"
+       "AU_yqLPNf568mhVsZXky9XbJ78w9MOPn0oPvwJn4"
       ],
-      "l2_head": "014ff2a8b333e0eea2a21f067763db6215f9f6bbe22ef0fd"
+      "l2_head": "014ff2a8b3cd7f9ebc9a156c657932f576c9efcc3d30e3e7"
      }
     },
     {
-     "title": "Chinese-linked hackers compromise ConnectWise, tar",
-     "date": "Wed, 21 Oct 2026 21:16:00",
+     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternativ",
+     "date": "Thu, 22 Oct 2026 09:20:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb3ZjLTdlTzhLZGFpN"
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa"
      ],
-     "final": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb3ZjLTdlTzhLZGFpNGw3SzBjb3p4aUwzb21qdDd5UmZ0OWxOZXlxYVlJMWFERzRfU1p",
+     "final": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrMWlJUVhXd21CY0x2OVo3SUVLV25tNnB",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMivwFBVV95cUxQb3ZjLTdlTzhLZGFpNGw3SzBjb3p4aUwzb21qdDd5UmZ0OWxOZXlxYVlJMWFERzRfU1pRRkxOWmdBRVd3VjNWak96d1pUaHB6OHlzc2hEX3FwXzhhX2pUR1RDcTFMdExoaGVGeVlNRC16elFnMTZPbmpWTkhuQ2tCZnpBdV9vajJWNmcxRWdHSVppQ2hzYjJySTNIV3RSVEd5a0d6aGZXQUJBaVh3UnVVVkM4dzducmh3Y1h4TW9BZw"
+      "CANON:https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrMWlJUVhXd21CY0x2OVo3SUVLV25tNnBDZVBKYnN4b1E2ZHd4Rm9FTzVGMDYySmtfU1lBRkxYUFl2eGlOWjllZEptTVZ6V3BVVFVtQVBaODVqWmp1V3dTckg2WUZVQVRYNTFIZU9yLU81bVJTNEhzZG8xR0xVNnFUcTRXSkg0cFVLOHBxSjVXSzdtdS13cFF4RkpscWdLeXdPb3Q4Sk9GQ1dybDZn"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322bf0141555f79714c506f76632d37654f384b646169346c374b30636f7a",
+      "raw_head": "081322c70141555f79714c4e5436622d76773233412d58496b4837573274494f",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLPovc-7eO8Kdai4l7K0cozxiL3omjt7yRft"
+       "AU_yqLNT6b-vw23A-XIkH7W2tIOLjPKJ1k1iIQXW"
       ],
-      "l2_head": "014ff2a8b3e8bdcfbb78ef0a75a8b897b2b4728cf188bde8"
+      "l2_head": "014ff2a8b353e9bfafc36dc0f972241fb5b6b4838b8cf289"
      }
     }
    ]
@@ -56,29 +56,8 @@
    "items": 100,
    "samples": [
     {
-     "title": "Taiwan prosecutors indict 5 suspects in alleged pa",
-     "date": "Wed, 21 Oct 2026 19:20:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPamtfVkxwM2hZWm1ze"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPamtfVkxwM2hZWm1zeHF1WjBqMVVkTTMzaFl2RHJXYm1QcXByMl9yeGE2QUl2VDY2OVk",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiqwFBVV95cUxPamtfVkxwM2hZWm1zeHF1WjBqMVVkTTMzaFl2RHJXYm1QcXByMl9yeGE2QUl2VDY2OVkwdGU2M2lWcVVVUE1qQkg3M0VVMGxMcVI2MjZMSExXZGlxRGZGeldqVi0zZlk5bS1pY1FxUFZUV3JWOVpWYnZSLVEwVjRfQzY5dUpiR0NsMXhUS014dFpnS2pBNXVzUVhIRm8zTjJOVC1wbWdfOG85VzA"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322ab0141555f79714c4f6a6b5f564c703368595a6d737871755a306a3155",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLOjk_VLp3hYZmsxquZ0j1UdM33hYvDrWbmP"
-      ],
-      "l2_head": "014ff2a8b3a393f54ba77858666b31aae6748f551d337de1"
-     }
-    },
-    {
      "title": "China defends DeepSeek after US ban of its AI from",
-     "date": "Tue, 20 Oct 2026 15:10:00",
+     "date": "Tue, 20 Oct 2026 10:27:35",
      "chain": [
       "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQW5jaGxGcHBVMHRMc"
      ],
@@ -96,6 +75,27 @@
       ],
       "l2_head": "014ff2a8b3809dc865169a54d2d2e9e424beca919fb1f5e0"
      }
+    },
+    {
+     "title": "A new bridge linking China and North Korea will op",
+     "date": "Wed, 14 Oct 2026 08:25:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUUlaZzV2M2tMalVHS"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUUlaZzV2M2tMalVHS3pIWmtjMUV6UDdRQk91cVhjNnNGQjFWcjNFakhYejdMelpQaVY",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMinAFBVV95cUxOUUlaZzV2M2tMalVHS3pIWmtjMUV6UDdRQk91cVhjNnNGQjFWcjNFakhYejdMelpQaVYySkxKcWs2WklCTm4tRWJPTjRfUXJrSktuY25SOVhUV3U1UkpPd3FlQ1BpeGlzdkFycWNWMTBfSlMtT0Z0dmZLQm1OczFlZ3BocnYyY2JqYUhtX19VbkFsYmxIOUkyTmh3MEI"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "0813229c0141555f79714c4e51495a673576336b4c6a55474b7a485a6b633145",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLNQIZg5v3kLjUGKzHZkc1EzP7QBOuqXc6sF"
+      ],
+      "l2_head": "014ff2a8b350219839bf790b8d418acc76647351333fb401"
+     }
     }
    ]
   },
@@ -106,7 +106,7 @@
    "samples": [
     {
      "title": "Alibaba Shares Post Steepest Drop in Two Months on",
-     "date": "Thu, 22 Oct 2026 04:32:00",
+     "date": "Thu, 22 Oct 2026 08:28:25",
      "chain": [
       "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcjNQYUdPNm9tWmRpR"
      ],
@@ -127,7 +127,7 @@
     },
     {
      "title": "China Stocks Set for Bear Market as AI Trade, Poli",
-     "date": "Thu, 22 Oct 2026 04:37:00",
+     "date": "Thu, 22 Oct 2026 09:37:13",
      "chain": [
       "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMkp5bjg3WHRYdlFYT"
      ],
@@ -154,45 +154,45 @@
    "items": 100,
    "samples": [
     {
-     "title": "Analysis: China defies Mao's support for Japan in ",
-     "date": "Wed, 21 Oct 2026 19:00:00",
+     "title": "Japan startup touts AI for automakers to match Chi",
+     "date": "Thu, 22 Oct 2026 02:57:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUE16M2s2eURDQTlnY"
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSjl2ZzlsS2dtSm9SL"
      ],
-     "final": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUE16M2s2eURDQTlnY3NTUlNVQmxrVGo0RnV1emNhVkN4VmQ0RzdjLXhERTJWZVNxQ25",
+     "final": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSjl2ZzlsS2dtSm9SLUo3b3kwN3dKMkFTX3FYNlVoTVJmejdxNmFwNE1DUDBSZm9EUzY",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMivgFBVV95cUxOUE16M2s2eURDQTlnY3NTUlNVQmxrVGo0RnV1emNhVkN4VmQ0RzdjLXhERTJWZVNxQ253VTJsSmxFVGk5bUtyWWpaaHpVUWVwLV9pZHRpYXl1di15bUdoSmpsel9TSkl0eng5dm5zY21mZDFtbzR1U1dKYzJrQUpweWpubUNzcnpSSjByZXUtV05DalREYW04LVVWbHJwQ0tEZzI1c3VCRWNDejFsOHp5XzVxSWpaNm8tdFg4YkhB"
+      "CANON:https://news.google.com/rss/articles/CBMivAFBVV95cUxPSjl2ZzlsS2dtSm9SLUo3b3kwN3dKMkFTX3FYNlVoTVJmejdxNmFwNE1DUDBSZm9EUzYta2NFUWw1c2lKZC1kM093dlM1Z0VCcHlGYlZLc3J6azFuamhkdlo5Q3RHTUJvNEJOYXpkcEFHbGY1NDlvd2FsRGc3NlZtQmZJMjlQbFE3QVd5ZWZ2UXB6OW9WNkdxZXNUdWdqRWc3U0RMbnFQQ3FKVkFsWThLSUt4UTBSdVZvQVRSMA"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322be0141555f79714c4e504d7a336b36794443413967637353525355426c",
+      "raw_head": "081322bc0141555f79714c4f4a397667396c4b676d4a6f522d4a376f79303777",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLNPMz3k6yDCA9gcsSRSUBlkTj4FuuzcaVCx"
+       "AU_yqLOJ9vg9lKgmJoR-J7oy07wJ2AS_qX6UhMRf"
       ],
-      "l2_head": "014ff2a8b34f333de4eb20c203d81cb124525019644e3e05"
+      "l2_head": "014ff2a8b389f6f83d94a82626847e27ba32d3bc09d804bf"
      }
     },
     {
-     "title": "'De-CATLization' tests China's battery king as sha",
-     "date": "Wed, 21 Oct 2026 05:32:00",
+     "title": "Moderna CEO eyes China partnerships despite geopol",
+     "date": "Thu, 22 Oct 2026 04:00:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPME1lSUtyMG8wbjJhU"
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWnZ0VTdjck4tSkZEa"
      ],
-     "final": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPME1lSUtyMG8wbjJhUG1wOTFoX3NYSkhBbTdjcmgzMkJsTHNmdHp2ZWNjTEwwV1BzQlR",
+     "final": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWnZ0VTdjck4tSkZEaUFycG9JR2xkbnhVM0VOTW0zQjhFdjF5NE1YZnMyUURoSGNBSUF",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiqgFBVV95cUxPME1lSUtyMG8wbjJhUG1wOTFoX3NYSkhBbTdjcmgzMkJsTHNmdHp2ZWNjTEwwV1BzQlRsMEF5cGF1SkN1UzFmdFdPTERJeW84MTJCUjRXYkR0SnZFTGl1TWRVcy0zVW1MM2s4UFNXNWQySUZGNHRPZHkwUVpZNmJDSW8xa0hHd21haUQyWnVCZlFJdmZWNkk4ZzFCSkJ0eEhXWFBXelhlQ01RZw"
+      "CANON:https://news.google.com/rss/articles/CBMitAFBVV95cUxQWnZ0VTdjck4tSkZEaUFycG9JR2xkbnhVM0VOTW0zQjhFdjF5NE1YZnMyUURoSGNBSUF6Ylp0UTJGZ0dzYy11d0lIVVNqY2dEcXlncC16RjlNYkZGMnlrU3I3aEk4WXdTZVRGNXJjRzMyWFJjc0xRV3ViOU4zZzVtaDgxQTRXWGlxTWdnVVFQQUF4bmhwUmFhdlcwOGJJT1p1ZWJvRUtJbHpHdUQ4dTZXVWIyaVM"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322aa0141555f79714c4f304d65494b72306f306e3261506d703931685f73",
+      "raw_head": "081322b40141555f79714c505a7674553763724e2d4a4644694172706f49476c",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLO0MeIKr0o0n2aPmp91h_sXJHAm7crh32Bl"
+       "AU_yqLPZvtU7crN-JFDiArpoIGldnxU3ENMm3B8E"
       ],
-      "l2_head": "014ff2a8b3b431e20aaf4a349f668f9a9f7587fb17247026"
+      "l2_head": "014ff2a8b3d9bed53b72b37e2450e202ba6820695d9f1537"
      }
     }
    ]
@@ -204,7 +204,7 @@
    "samples": [
     {
      "title": "Chinese AI Tool Linked to Hacks in Japan - WSJ",
-     "date": "Wed, 21 Oct 2026 10:30:00",
+     "date": "Wed, 21 Oct 2026 10:30:54",
      "chain": [
       "https://news.google.com/rss/articles/CBMihwFBVV95cUxPXzI3bFVJdEgwYUUwT"
      ],
@@ -225,7 +225,7 @@
     },
     {
      "title": "China’s Ultimate Political Survivor Just Fell. Wha",
-     "date": "Tue, 20 Oct 2026 10:55:36",
+     "date": "Tue, 20 Oct 2026 10:55:00",
      "chain": [
       "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQN"
      ],
