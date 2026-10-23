@@ -1,692 +1,250 @@
 {
- "probed_at": "2026-10-23T18:33:01.126987Z",
- "results": [
-  {
-   "name": "GNEWS-路透",
-   "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+ "diag_at": "2026-10-23T21:13:18.188803Z",
+ "results": {
+  "路透": {
+   "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "is_feed": true,
-   "sample": "EU vows to fix 'China Shock 2.0' via talks with Beijing - Reuters",
-   "diag": [
+   "samples": [
     {
-     "title": "EU vows to fix 'China Shock 2.0' via talks with Beijing - Re",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGVLeUlRY0dMNGczW",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGVLeUlRY0dMNGczWjFFYkgxSFVzTGFzRTRfV",
-     "resolved": false
+     "title": "EU vows to fix 'China Shock 2.0' via talks with Be",
+     "date": "Fri, 23 Oct 2026 16:39:28",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGVLeUlRY0dMNGczW"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGVLeUlRY0dMNGczWjFFYkgxSFVzTGFzRTRfV3A2aHBKcjR5cEJVeFJWUmpIelNFa1p",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGVLeUlRY0dMNGczWjFFYkgxSFVzTGFzRTRfV3A2aHBKcjR5cEJVeFJWUmpIelNFa1pucXpRSjdNSVQyTmtoVkZTcWZ0OHItOXJTVVJQeGVYY3hnV204X1FrX05OdWUzMzE4a055Rmx3em5nRGx4VTU3UTIxd1FidkU0OU1GZnMxbHZ2NG5HeEpmWXBKeVBPdDhremRSWnhEemRjVW1XT2Frc2JCS1NYbW4ySQ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b30141555f79714c4d78654b79495163474c3467335a31456248314855",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMxeKyIQcGL4g3Z1EbH1HUsLasE4_Wp6hpJ"
+      ],
+      "l2_head": "014ff2a8b33178ac8841c18be20dd9d446c7d4752c2dab04"
+     }
     },
     {
-     "title": "Taiwan says China using militia boats to expand 'battlefield",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLXNRcVk0YUdENnhwW",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLXNRcVk0YUdENnhwWFpVVWlWSmEwSi0zVEhxV",
-     "resolved": false
-    },
-    {
-     "title": "GLP-1 boom in China, India, Brazil could create $22 bln mark",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSW50UXhIb0ltNzNLV",
-     "real": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSW50UXhIb0ltNzNLV2piN1NQWGlud3p2YWJSM",
-     "resolved": false
-    },
-    {
-     "title": "China's MiniMax completes export registration for open-sourc",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUDVGa0hCU3ppVlo3a",
-     "real": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUDVGa0hCU3ppVlo3amtaT1l4T18zcHNWWlFkV",
-     "resolved": false
-    },
-    {
-     "title": "Tougher discipline, and Xi's authority, key at China's Commu",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUDZRNlBHRUM0T3ZXR",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUDZRNlBHRUM0T3ZXRlRrWWQyOHZsSnU4LThjW",
-     "resolved": false
+     "title": "Taiwan says China using militia boats to expand 'b",
+     "date": "Fri, 23 Oct 2026 06:30:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLXNRcVk0YUdENnhwW"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLXNRcVk0YUdENnhwWFpVVWlWSmEwSi0zVEhxVDNQdE5yTGFzRngya0k1eFZIaGNpaDg",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLXNRcVk0YUdENnhwWFpVVWlWSmEwSi0zVEhxVDNQdE5yTGFzRngya0k1eFZIaGNpaDgyMHcwOHk5TnVkbVZZWWMwVnJ6NFVBYjJpWDJ0c1pZZWQxZmVKcUFJU0FZdjNpaGZ2N2ZZeWVVV1RPMk9EN2NKZzBJcVNXZ2dWcGtUX0JkS3JvY0ZqQWtFWGtpRTFqRER1b2NmRU1EVUZpS1h6emlhTjVjU2hZcEtIVHltemdCTHk2SHBwVldqZw"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322c20141555f79714c4d2d7351715934614744367870585a555569564a61",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLM-sQqY4aGD6xpXZUUiVJa0J-3THqT3PtNr"
+      ],
+      "l2_head": "014ff2a8b33eb10a98e1a183eb1a576545225496b427edd3"
+     }
     }
    ]
   },
-  {
-   "name": "GNEWS-AP",
-   "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "AP": {
+   "feed": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "is_feed": true,
-   "sample": "Rescuers search for survivors after deadly earthquake in China’s Tibet region - AP News",
-   "diag": [
+   "samples": [
     {
-     "title": "Rescuers search for survivors after deadly earthquake in Chi",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5Z",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5ZHRYb2VlQlNPb3hlWlVNd",
-     "resolved": false
+     "title": "Rescuers search for survivors after deadly earthqu",
+     "date": "Fri, 23 Oct 2026 08:13:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5Z"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5ZHRYb2VlQlNPb3hlWlVNdmVtMEVFc1NYVm5sUUp2eGtUTXk3LUU",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5ZHRYb2VlQlNPb3hlWlVNdmVtMEVFc1NYVm5sUUp2eGtUTXk3LUU0RlMxYnVONXd5TmpOeThfS1VqaE9RR3dQNDNBSmloU2JOUm5rYXZSZEwyWDNfenZrcnE3QUhpak84LWdSRG1MNHBlRU9VM0tZVWRpazlpNmVjTE5kUzJ4QQ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322920141555f79714c4e5a7335774734325a417a63796474586f65654253",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLNZs5wG42ZAzcydtXoeeBSOoxeZUMvem0EE"
+      ],
+      "l2_head": "014ff2a8b359b39c06e36640cdcc9db57a1e78148ea31799"
+     }
     },
     {
-     "title": "Powerful earthquake in China’s Tibet region collapses hundre",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORldaOFZPaTBpbVQ2N",
-     "real": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORldaOFZPaTBpbVQ2N05EYjc0VlEzMVFUSHNTY",
-     "resolved": false
-    },
-    {
-     "title": "US Treasury proposes a rule to crack down on high-tech inves",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSE5iNkpiZ2FiYnczN",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSE5iNkpiZ2FiYnczNGJ4Z1NXUzQ2WU1OaVhXb",
-     "resolved": false
-    },
-    {
-     "title": "China defends DeepSeek after US ban of its AI from governmen",
-     "date": "2026-10-20",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQW5jaGxGcHBVMHRMc",
-     "real": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQW5jaGxGcHBVMHRMcDVDUy15cEdmc2ZYZzQ0a",
-     "resolved": false
-    },
-    {
-     "title": "Chinese auto companies race ahead on EV technology, achievin",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQzNDbnFNTU1GNXFGZ",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQzNDbnFNTU1GNXFGZ1k5c2dBWWkwN2o0MkxoS",
-     "resolved": false
+     "title": "US Treasury proposes a rule to crack down on high-",
+     "date": "Fri, 23 Oct 2026 08:29:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSE5iNkpiZ2FiYnczN"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSE5iNkpiZ2FiYnczNGJ4Z1NXUzQ2WU1OaVhXbjlRaXpHVy1HMHg5S1Q0dFgwS1Y3ajJ",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMinAFBVV95cUxPSE5iNkpiZ2FiYnczNGJ4Z1NXUzQ2WU1OaVhXbjlRaXpHVy1HMHg5S1Q0dFgwS1Y3ajJIV1V4UjBIcWxodTMtZmJtbzZqVWZ1bVdVWEpicmI3dktxdzdfOTZkQW94bWVvR19tR01OZ3QyOFZiNGRrN0I4TFdVLWZNNWZkZk4zYzI5bk8ycjI5SExjdlVFUDNsMVJLQks"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "0813229c0141555f79714c4f484e62364a626761626277333462786753575334",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLOHNb6Jbgabbw34bxgSWS46YMNiXWn9QizG"
+      ],
+      "l2_head": "014ff2a8b38735be896e069b6f0df86f1812592e3a60c362"
+     }
     }
    ]
   },
-  {
-   "name": "GNEWS-AFP",
-   "url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "彭博": {
+   "feed": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "is_feed": true,
-   "sample": "Strong earthquake strikes China’s remote Tibet region - France 24",
-   "diag": [
+   "samples": [
     {
-     "title": "Strong earthquake strikes China’s remote Tibet region - Fran",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaVlmRkJQNGFIMzk5S",
-     "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaVlmRkJQNGFIMzk5SXh0amVyWm5ucVFvTUNHd",
-     "resolved": false
+     "title": "European Stocks Fall as China Woes Hit Volvo Car a",
+     "date": "Fri, 23 Oct 2026 15:43:07",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGRwekw1UXNmQldoN"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGRwekw1UXNmQldoNFhubWxFVHlTR1NuaF9WdWtRMXNER3JkSlRzakpXaUFobUt0dmd",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGRwekw1UXNmQldoNFhubWxFVHlTR1NuaF9WdWtRMXNER3JkSlRzakpXaUFobUt0dmd3ZVIwcnlEbmt4WjFoeDFqMU5VT251OG13R3dzbUZqY3RjZmkzTjJTWUplZ2lHdWE5Q19FTUdpQ0pldlM4SUFEbFlsZGJ2eFlVTVZlZG1EbEp0NFpkSnhQZkRMZmdwRFlYb0prb2xVWDNzOVRCQWE"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322a80141555f79714c4f6c64707a4c3551736642576834586e6d6c455479",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLOldpzL5QsfBWh4XnmlETySGSnh_VukQ1sD"
+      ],
+      "l2_head": "014ff2a8b3a5769ccbe50b1f0568785e79a5113c921929e1"
+     }
     },
     {
-     "title": "Ukraine and Russia both say ready to resume trilateral talks",
-     "date": "2026-10-21",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUnNIbllnSTRxOGl0a",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUnNIbllnSTRxOGl0aEtzUVRicTMxNWlEZGFtW",
-     "resolved": false
-    },
-    {
-     "title": "EU unveils strategy to bolster Arctic presence amid pressure",
-     "date": "2026-10-20",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSjN4amMtTGotOFF5Q",
-     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSjN4amMtTGotOFF5Q09wbk9OX2lNMjBHejJaL",
-     "resolved": false
-    },
-    {
-     "title": "Italy sends troops, toughens security laws after Milan clash",
-     "date": "2026-10-20",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaW9xMndldWN5ZTZyN",
-     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaW9xMndldWN5ZTZyNW9WZXBaTjlLY2RHMEloL",
-     "resolved": false
-    },
-    {
-     "title": "France issues curfew for major French cities including Paris",
-     "date": "2026-10-19",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbnRkcTNNX3VaMmdaR",
-     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbnRkcTNNX3VaMmdaR1ZjNzhvX196NVRvSWU2Z",
-     "resolved": false
+     "title": "Volvo CEO Says China’s Market Is Gone for Western ",
+     "date": "Fri, 23 Oct 2026 12:11:34",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbVRFQWVyYXBPeTZSe"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbVRFQWVyYXBPeTZSeUppUElEamc2RG81M2IzTHZ1LTdNazJlV042VU55Z3QzRkVhdUV",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMimgFBVV95cUxPbVRFQWVyYXBPeTZSeUppUElEamc2RG81M2IzTHZ1LTdNazJlV042VU55Z3QzRkVhdUVhdW5vOTQtYUFOUXZSZHhEbWVDVklZT3pmQXNsWmxYTmYxaDdKMUlxaEw5dndtRGlzNGlWeUY3c2VONTV4Q3QyWTlsR1NVU3lTYktORU8wQ25fZlYzcjVFVDBiT1k0MWhB"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "0813229a0141555f79714c4f6d544541657261704f793652794a695049446a67",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLOmTEAerapOy6RyJiPIDjg6Do53b3Lvu-7M"
+      ],
+      "l2_head": "014ff2a8b3a64c401eadaa4ecba4722623c80e383a0e8e77"
+     }
     }
    ]
   },
-  {
-   "name": "GNEWS-彭博",
-   "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "日经": {
+   "feed": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "is_feed": true,
-   "sample": "European Stocks Fall as China Woes Hit Volvo Car and Gucci - Bloomberg.com",
-   "diag": [
+   "samples": [
     {
-     "title": "European Stocks Fall as China Woes Hit Volvo Car and Gucci -",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGRwekw1UXNmQldoN",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGRwekw1UXNmQldoNFhubWxFVHlTR1NuaF9Wd",
-     "resolved": false
+     "title": "China's 'national team' comes to rescue as stocks ",
+     "date": "Fri, 23 Oct 2026 07:09:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOU56Zk55Y01GLWZ6M"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOU56Zk55Y01GLWZ6M29YM2tLOFQ3UEpxcmNUbldTWVZSYWZpZUwtTXpvZWRyaEhYTkx",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMirAFBVV95cUxQOU56Zk55Y01GLWZ6M29YM2tLOFQ3UEpxcmNUbldTWVZSYWZpZUwtTXpvZWRyaEhYTkxYMFd3QVEzM2thdF9mS0VNWlhQcUV2amNhR0VPV3ByVUlrX2xDOERMUVNSaGlOMnJLUTh1ekVUWFdMVF9KMTZ3ZnN3TWF5bVJqQ0I2aU8tbTFIWnNhWUxIY1AzVl8yVmhra0phQ28xeHBONEtqVjZIWTIz"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322ac0141555f79714c50394e7a664e79634d462d667a336f58336b4b3854",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLP9NzfNycMF-fz3oX3kK8T7PJqrcTnWSYVR"
+      ],
+      "l2_head": "014ff2a8b3fd3737cdc9c305f9fcf7a17de42bc4fb3c9aab"
+     }
     },
     {
-     "title": "Volvo CEO Says China’s Market Is Gone for Western Automakers",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbVRFQWVyYXBPeTZSe",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbVRFQWVyYXBPeTZSeUppUElEamc2RG81M2IzT",
-     "resolved": false
-    },
-    {
-     "title": "China Stocks Sink Deeper Into Bear Market Despite State Buyi",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEFjLUxEQldPYm14O",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEFjLUxEQldPYm14ODFIaFJxcEtYaTVPMXJVM",
-     "resolved": false
-    },
-    {
-     "title": "US Proposes Curbs on Investment in Chinese Biotech Firms - B",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZTgyRm5ESl91bFhZY",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZTgyRm5ESl91bFhZYVV5S1JXZnB6NTk0WnJKO",
-     "resolved": false
-    },
-    {
-     "title": "China Barely Eased Austerity Just Before Shift to Stimulus M",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMzNVNE5TMkFBWS1Re",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMzNVNE5TMkFBWS1ReFFlbEgwZGJTMmY2YmJib",
-     "resolved": false
+     "title": "Brazil election to impact rare-earth race as West ",
+     "date": "Fri, 23 Oct 2026 06:10:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzBIQzdKZHRSV1otd"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzBIQzdKZHRSV1otd1c0am5aLW84dFhvb2EwaUZTRHhDMTF6c1hick0xQmxoc1NKRmt",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzBIQzdKZHRSV1otd1c0am5aLW84dFhvb2EwaUZTRHhDMTF6c1hick0xQmxoc1NKRmtkS2tEYzhJNjJhZGNucGJoVk1vSHY4bzZFMHcwcjVJczg0VDZfUEZrQm1mcGVDd1hMd29odTJOQXh0OUFjVE5qQ3JtN09iWjhKckd1dnZQVmV1UmNFbWtYa0pIVm5sek1SWWZBNzRoTjllWTR1Q1V1dkdvVUV1cWVkTWM4Wjg"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b70141555f79714c4f5f304843374a647452575a2d7757346a6e5a2d6f",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLO_0HC7JdtRWZ-wW4jnZ-o8tXooa0iFSDxC"
+      ],
+      "l2_head": "014ff2a8b3bfd070bb25db51599fb05b88e767ea3cb57a28"
+     }
     }
    ]
   },
-  {
-   "name": "GNEWS-日经",
-   "url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "WSJ": {
+   "feed": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "is_feed": true,
-   "sample": "China's 'national team' comes to rescue as stocks flash bearish signs - Nikkei Asia",
-   "diag": [
+   "samples": [
     {
-     "title": "China's 'national team' comes to rescue as stocks flash bear",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOU56Zk55Y01GLWZ6M",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOU56Zk55Y01GLWZ6M29YM2tLOFQ3UEpxcmNUb",
-     "resolved": false
+     "title": "Citi Gets Regulator Nod for Wholly Owned Securitie",
+     "date": "Fri, 23 Oct 2026 09:04:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOXpRa2d6VHhsczlpc"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOXpRa2d6VHhsczlpc2ItMW9DVEZFWERsODJ2dDVGckJxaXlQQ0NINWFVc1RyX0c2QmF",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxPOXpRa2d6VHhsczlpc2ItMW9DVEZFWERsODJ2dDVGckJxaXlQQ0NINWFVc1RyX0c2QmFId2hzUHJNWTVIaS0xVnNYNmdUZEtDTFVKNnBmYmc4Vk42dU5xWmRBZWpEc3VwVUxqUVlqZVpjenVTcFFERWowci1EYjc5X3dvTzFneGRSMGNmSHFpYXRoNk1ZY1p1TzJtd0JnaDBRMk95UEpJUXpmZ1NmS0JlRm5JMTJQQQ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b60141555f79714c4f397a516b677a54786c73396973622d316f435446",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLO9zQkgzTxls9isb-1oCTFEXDl82vt5FrBq"
+      ],
+      "l2_head": "014ff2a8b3bdcd0920cd3c65b3d8ac6fed680931445c397c"
+     }
     },
     {
-     "title": "Brazil election to impact rare-earth race as West seeks Chin",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzBIQzdKZHRSV1otd",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzBIQzdKZHRSV1otd1c0am5aLW84dFhvb2Ewa",
-     "resolved": false
-    },
-    {
-     "title": "Chinese stocks fight economic gloom after slide into bear te",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVmsxT1JxZ2VOMVJDM",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVmsxT1JxZ2VOMVJDM3lvajF3bE9MQ2lDSkMwQ",
-     "resolved": false
-    },
-    {
-     "title": "China heats up race to develop solar thermal energy - Nikkei",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZzZybXg0eS1NT0ExM",
-     "real": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZzZybXg0eS1NT0ExMVJRd1lnYjFNZ3dZdGI3U",
-     "resolved": false
-    },
-    {
-     "title": "Shanghai tops world in empty offices as overseas investment ",
-     "date": "2026-10-19",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRWd6Rjd6RVFhdURXM",
-     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRWd6Rjd6RVFhdURXMUM2UE1tSG9qdU0xUG1VY",
-     "resolved": false
+     "title": "China’s Ultimate Political Survivor Just Fell. Wha",
+     "date": "Tue, 20 Oct 2026 10:55:36",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQN"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQNVNaRk1wX0wzSXVnTnFwaWthc0MtSkp5eFVuNi1CclRnWFQ4czh",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQNVNaRk1wX0wzSXVnTnFwaWthc0MtSkp5eFVuNi1CclRnWFQ4czh5UVdhcWx5VVhzSEtXalM1Y3oxcHhsSF9ncWt4MF83OTBTS0VPZWV0ZndiSnJwRDZ3WWlnVVpaRkVhUWRrT1RhYjZJZFp2SHQxWnJ5MlpsM1Zpd2YyM3U3YWhNMDZxVFE0ak5xSVgyclFadVJkTk93TWpnQkVPa2c5TDJrQQ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b60141555f79714c4d6d334367624b51637846525035535a464d705f4c",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMm3CgbKQcxFRP5SZFMp_L3IugNqpikasC-"
+      ],
+      "l2_head": "014ff2a8b326dc281b2907311513f949914ca7f2f722e80d"
+     }
     }
    ]
-  },
-  {
-   "name": "GNEWS-金融时报",
-   "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Caught between the US and China - Financial Times",
-   "diag": [
-    {
-     "title": "Caught between the US and China - Financial Times",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGw5ZGtQVTRvSVhxL",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGw5ZGtQVTRvSVhxLWVvQkNNbTl2TUl2NFBLa",
-     "resolved": false
-    },
-    {
-     "title": "US Treasury proposes tighter rules on investing in sensitive",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSVdBaWplR1NGUUZpO",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSVdBaWplR1NGUUZpOTZHWWlNU1RqWmNoZ3FQN",
-     "resolved": false
-    },
-    {
-     "title": "China’s rapid human trials draw western drugmakers — and saf",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNakRVNndEM0JDRlplN",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNakRVNndEM0JDRlplN1REY0dRd0tKb1JnT3NLX",
-     "resolved": false
-    },
-    {
-     "title": "Citi wins long-awaited approval for China securities busines",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTV9xYUNBak1aRXNIV",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTV9xYUNBak1aRXNIV0tTQkMtOW1KaWQ5SUs0U",
-     "resolved": false
-    },
-    {
-     "title": "Liquidators of Chinese property giant pursue Harvard to reco",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdHZmamtfRjJIUjZEc",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdHZmamtfRjJIUjZEc3pHQ1dBUE5lbVFrTXRiU",
-     "resolved": false
-    }
-   ]
-  },
-  {
-   "name": "GNEWS-华尔街日报",
-   "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "China’s Ultimate Political Survivor Just Fell. What That Says About Xi’s Rule. - WSJ",
-   "diag": [
-    {
-     "title": "China’s Ultimate Political Survivor Just Fell. What That Say",
-     "date": "2026-10-20",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQN",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQNVNaRk1wX0wzSXVnTnFwa",
-     "resolved": false
-    },
-    {
-     "title": "China’s Export Boom Masks Deep Economic Problems at Home - W",
-     "date": "2026-10-19",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFRDeXZOR0V1TXd1c",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFRDeXZOR0V1TXd1cTNYR3V2Y1RkZFNlLVcwS",
-     "resolved": false
-    },
-    {
-     "title": "Chinese AI Tool Linked to Hacks in Japan - WSJ",
-     "date": "2026-10-21",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPXzI3bFVJdEgwYUUwT",
-     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPXzI3bFVJdEgwYUUwTWxUY2UyZlVFYmI3QlBWU",
-     "resolved": false
-    },
-    {
-     "title": "Citi Gets Regulator Nod for Wholly Owned Securities Venture ",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOXpRa2d6VHhsczlpc",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOXpRa2d6VHhsczlpc2ItMW9DVEZFWERsODJ2d",
-     "resolved": false
-    },
-    {
-     "title": "China’s Weakening Economy Is Creating a Lost Generation - WS",
-     "date": "2026-10-12",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5R2p1V0RoRTdaVVBmd",
-     "real": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5R2p1V0RoRTdaVVBmd0tkM2Uxd0RqdFFYODNXc",
-     "resolved": false
-    }
-   ]
-  },
-  {
-   "name": "GNEWS-纽约时报",
-   "url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Volvo Shares Plunge as China Ambitions Fade for Western Carmakers - The New York Times",
-   "diag": [
-    {
-     "title": "Volvo Shares Plunge as China Ambitions Fade for Western Carm",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43QkpKXzd5VnBOcE45S",
-     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43QkpKXzd5VnBOcE45SXJWbHJKQTJtelRHNFZKZ",
-     "resolved": false
-    },
-    {
-     "title": "Map: 7.0-Magnitude Earthquake Strikes China - The New York T",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFRzQi16SkpCUmt3M",
-     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFRzQi16SkpCUmt3MUc5LUpsVlk4VU8xQ1E0V",
-     "resolved": false
-    },
-    {
-     "title": "Powerful Earthquake Kills at Least 16 People in Tibet - The ",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9kaHFyQlBNNFF4Vzl3M",
-     "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9kaHFyQlBNNFF4Vzl3M09jTG4tWHByRVdCZzlyV",
-     "resolved": false
-    },
-    {
-     "title": "China’s Free A.I. Models Are Thrown Into Uncertainty - The N",
-     "date": "2026-10-21",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVGtOTkNCaEJUNWpyT",
-     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVGtOTkNCaEJUNWpyTEJIU3dDbzJNcGxxLUNle",
-     "resolved": false
-    },
-    {
-     "title": "China wins women’s gymnastics team world title, ending U.S. ",
-     "date": "2026-10-21",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcC1ud1doU2paVGF3T",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcC1ud1doU2paVGF3TDR6VkdBZHY0RXF1Nk1hZ",
-     "resolved": false
-    }
-   ]
-  },
-  {
-   "name": "GNEWS-经济学人",
-   "url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "India is pouring money and concrete into its border with China - The Economist",
-   "diag": [
-    {
-     "title": "India is pouring money and concrete into its border with Chi",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU5vTGlFS2FJeTZJa",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU5vTGlFS2FJeTZJaGlQZ29lU2pSaTF5NFFWV",
-     "resolved": false
-    },
-    {
-     "title": "China wants to revive the spirit of the Long March - The Eco",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU1lheUpVYm15SW41N",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU1lheUpVYm15SW41NTJmNGJxLVdBUEh1NVAwO",
-     "resolved": false
-    },
-    {
-     "title": "China’s party elite gathers with purges and promotions in mi",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSC1TX0hiTDFGbUh2L",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSC1TX0hiTDFGbUh2LUtWT0hoREhhNzBMMmYtd",
-     "resolved": false
-    },
-    {
-     "title": "New research tries to defuse the “China shock” - The Economi",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVNLNkw1SlV2S21mS",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVNLNkw1SlV2S21mSGNXbFpDZFYzU0JvREdhN",
-     "resolved": false
-    },
-    {
-     "title": "China’s universities are rich. But they're getting squeezed ",
-     "date": "2026-10-20",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXBMTU5NWlg3U1VHc",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXBMTU5NWlg3U1VHcEtuSFhhTzFoU2hocmF2d",
-     "resolved": false
-    }
-   ]
-  },
-  {
-   "name": "GNEWS-路透-China",
-   "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwart China's rare earths grip, sources say - Reuters",
-   "diag": [
-    {
-     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
-     "resolved": false
-    },
-    {
-     "title": "Phoenix Tailings to build $375-million rare earths facility ",
-     "date": "2026-10-20",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR0F4SV9rdVFJMzRIdGN6T",
-     "resolved": false
-    },
-    {
-     "title": "China September rare earth exports rise 6.7% from a year ear",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
-     "resolved": false
-    },
-    {
-     "title": "China rare earth firms halt some US shipments over geopoliti",
-     "date": "2026-09-04",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
-     "resolved": false
-    },
-    {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
-     "resolved": false
-    }
-   ]
-  },
-  {
-   "name": "AP直接feed",
-   "url": "https://apnews.com/feed",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "共同社英文",
-   "url": "https://english.kyodonews.net/rss/news.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "共同社中文",
-   "url": "https://chinese.kyodonews.net/rss/all.xml",
-   "status": -1,
-   "items": 0,
-   "is_feed": false,
-   "err": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "name": "日经中文",
-   "url": "https://cn.nikkei.com/rss/rss.xml",
-   "status": 202,
-   "items": 0,
-   "is_feed": false,
-   "sample": ""
-  },
-  {
-   "name": "BBC中文",
-   "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
-   "status": 200,
-   "items": 38,
-   "is_feed": true,
-   "sample": "<![CDATA[台灣地方選舉倒數一個月：「颱風假」牽動選情？]]>"
-  },
-  {
-   "name": "美国国务院",
-   "url": "https://www.state.gov/feed/",
-   "status": 200,
-   "items": 0,
-   "is_feed": false,
-   "sample": ""
-  },
-  {
-   "name": "美国国防部",
-   "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
-   "status": 200,
-   "items": 20,
-   "is_feed": true,
-   "sample": "My DCMA Remember 9/11: Laurie Cooper, packaging policy advocate "
-  },
-  {
-   "name": "商务部新闻",
-   "url": "https://www.commerce.gov/news/press-releases/rss.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "USTR新闻",
-   "url": "https://ustr.gov/feeds/press-releases.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "能源部FE",
-   "url": "https://www.energy.gov/fe/newsroom/rss.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "NATO",
-   "url": "https://www.nato.int/webservices/rss/news.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "欧盟presscorner",
-   "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
-   "status": 406,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "日本外务省",
-   "url": "https://www.mofa.go.jp/rss/english.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "日本经产省",
-   "url": "https://www.meti.go.jp/rss/whatsnew_e.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "USNI",
-   "url": "https://news.usni.org/feed",
-   "status": 200,
-   "items": 30,
-   "is_feed": true,
-   "sample": "Army Activates Air Defense Guam Battalion Focused on Chinese, North Korean Threats"
-  },
-  {
-   "name": "DefenseNews",
-   "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-   "status": 200,
-   "items": 25,
-   "is_feed": true,
-   "sample": "<![CDATA[‘The West can’t stop me’: Space wars heat up as Russia tails a Ukraine-linked US satellite]]>"
-  },
-  {
-   "name": "Mining",
-   "url": "https://www.mining.com/feed/",
-   "status": 200,
-   "items": 36,
-   "is_feed": true,
-   "sample": "Newmont prices Red Chris expansion at up to $4.8B"
-  },
-  {
-   "name": "OilPrice",
-   "url": "https://oilprice.com/rss/main",
-   "status": 200,
-   "items": 15,
-   "is_feed": true,
-   "sample": "6 Million Barrels in Two Minutes Draws CFTC Scrutiny"
-  },
-  {
-   "name": "IMF",
-   "url": "https://www.imf.org/en/News/RSS?language=eng",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "USGS",
-   "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "IEA",
-   "url": "https://www.iea.org/news.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "WTO",
-   "url": "https://www.wto.org/library/rss/latestnews_e.xml",
-   "status": 200,
-   "items": 0,
-   "is_feed": false,
-   "sample": ""
-  },
-  {
-   "name": "UPI",
-   "url": "https://www.upi.com/rss/feeds/worldnews/",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "France24英文",
-   "url": "https://www.france24.com/en/rss",
-   "status": 200,
-   "items": 24,
-   "is_feed": true,
-   "sample": "Netanyahu weighs West Bank operation ahead of elections: ‘Politically, it will not help anybody’"
-  },
-  {
-   "name": "JapanTimes",
-   "url": "https://www.japantimes.co.jp/feed/topstories/",
-   "status": 200,
-   "items": 5,
-   "is_feed": true,
-   "sample": "<![CDATA[ Nissan management shake-up plans reported as sharks circle ]]>"
-  },
-  {
-   "name": "ReutersAgency",
-   "url": "https://www.reutersagency.com/feed/?best-topics=top-news&post_type=best",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "共同社英文all",
-   "url": "https://english.kyodonews.net/rss/all.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "共同社英文ap",
-   "url": "https://english.kyodonews.net/rss/asia-pacific.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "UPI-topnews",
-   "url": "https://www.upi.com/rss/feeds/topnews/",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "StarsStripes",
-   "url": "https://www.stripes.com/rss.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "BreakingDefense",
-   "url": "https://breakingdefense.com/feed/",
-   "status": 200,
-   "items": 15,
-   "is_feed": true,
-   "sample": "Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026"
-  },
-  {
-   "name": "MiningWeekly",
-   "url": "https://www.miningweekly.com/rss/news",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
   }
- ]
+ }
 }
