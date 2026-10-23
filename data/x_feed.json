@@ -1,5 +1,45 @@
 [
   {
+    "x_id": "2108208395048415331",
+    "screen_name": "BreitbartNews",
+    "author": "Breitbart News",
+    "verified": false,
+    "created_at": "2026-10-08T14:50:24.000Z",
+    "text_raw": ".@VP: \"There has been no company in the United States, unfortunately, that has abused this system more than Microsoft.\"",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/BreitbartNews/status/2108208395048415331",
+    "fav": 536,
+    "retweet": 0,
+    "reply": 22,
+    "is_quote": false,
+    "fetched_at": "2026-10-23T21:28:01.639049Z"
+  },
+  {
+    "x_id": "2108153714024603903",
+    "screen_name": "BubbleBrain",
+    "author": "BubbleBrain",
+    "verified": false,
+    "created_at": "2026-10-08T11:13:07.000Z",
+    "text_raw": "Portrait by image 2.5 \n\nSeems like the algorithm doesn't really vibe with Midjourney portraits. So I switch back to GPT and give it another shot.\n\n---prompt---\n9:16 vertical composition, silk qipao, soft glowing light with pronounced highlight bloom, dreamy soft focus, slightly https://t.co/NJJINTiUOv",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108153714024603903_0.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/BubbleBrain/status/2108153714024603903",
+    "fav": 106,
+    "retweet": 0,
+    "reply": 7,
+    "is_quote": false,
+    "fetched_at": "2026-10-23T21:27:57.014335Z"
+  },
+  {
     "x_id": "2108498310893814136",
     "screen_name": "liyue_ai",
     "author": "李岳",
