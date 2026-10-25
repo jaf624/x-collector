@@ -1,5 +1,150 @@
 [
   {
+    "x_id": "2109177182165844198",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-10-11T07:00:01.000Z",
+    "text_raw": "Claude Managed Agents 的动态工作流进入公开 Beta 了，一个主 Agent 可以安排多个 Agent 分阶段完成任务。\n\n比如要整理 100 份资料，主 Agent 可以编排工作流，让多个 Agent 处理不同材料，汇总结果，再交给其他 Agent 检查。\n\n需要注意一下：\n\n工作流显示 completed，不代表所有任务都成功了。",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2109177182165844198",
+    "fav": 2,
+    "retweet": 0,
+    "reply": 20,
+    "is_quote": false,
+    "fetched_at": "2026-10-25T11:32:22.664649Z"
+  },
+  {
+    "x_id": "2108907731902197884",
+    "screen_name": "DeepBlueX0",
+    "author": "DeepBlue深藍",
+    "verified": false,
+    "created_at": "2026-10-10T13:09:19.000Z",
+    "text_raw": "受到@chinagt1 返图启发，我把提示词优化了一下\n\n🔵 GPT image 2.5 Prompt:\n\n【主体】× 拾取掉落地面手机 × iPhone 意外失败9连拍 × 贴地超低机位广角透视 https://t.co/wcdWCGP03l",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108907731902197884_0.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108907731902197884_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108907731902197884_2.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108907731902197884_3.jpg",
+        "w": 941,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/DeepBlueX0/status/2108907731902197884",
+    "fav": 68,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-25T11:32:21.576306Z"
+  },
+  {
+    "x_id": "2109204991533793520",
+    "screen_name": "DeepBlueX0",
+    "author": "DeepBlue深藍",
+    "verified": false,
+    "created_at": "2026-10-11T08:50:31.000Z",
+    "text_raw": "加了点更好玩随机元素～\n\n🔵 GPT image 2.5 Prompt:\n\n【主体】 × 手机后置镜头主观视角意外脱手坠落 × 同次坠落连续九连拍 × iPhone失败多连拍 × 9:16竖版九宫格 × 夸张广角透视 × 随机旋转机位、失焦、运动模糊与画面角度 https://t.co/6DGeotxvwr",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109204991533793520_0.jpg",
+        "w": 940,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109204991533793520_1.jpg",
+        "w": 941,
+        "h": 1672
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109204991533793520_2.jpg",
+        "w": 940,
+        "h": 1672
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/DeepBlueX0/status/2109204991533793520",
+    "fav": 768,
+    "retweet": 0,
+    "reply": 17,
+    "is_quote": false,
+    "fetched_at": "2026-10-25T11:32:20.463861Z"
+  },
+  {
+    "x_id": "2108182195164819945",
+    "screen_name": "liyue_ai",
+    "author": "李岳",
+    "verified": false,
+    "created_at": "2026-10-08T13:06:18.000Z",
+    "text_raw": "已经开工一天了，国产大模型怎么还没动静？\n\n这是打算让Claude 一家独大了吗？还是没号了？",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/liyue_ai/status/2108182195164819945",
+    "fav": 29,
+    "retweet": 0,
+    "reply": 21,
+    "is_quote": false,
+    "fetched_at": "2026-10-25T11:32:16.046079Z"
+  },
+  {
+    "x_id": "2107022984724816290",
+    "screen_name": "MrLarus",
+    "author": "Larus Canus",
+    "verified": false,
+    "created_at": "2026-10-05T08:20:00.000Z",
+    "text_raw": "Prompt:\n\n【Landscape】[LANDSCAPE TYPE]  \n【Line Structure】[FLOWING / BRANCHING / CONCENTRIC / LAYERED]  \n【Palette】[COLORS]  \n【Scale Anchor】[TINY FIGURE / BOAT / BRIDGE / PAVILION]  \n【Aspect Ratio】9:16\n\nCreate a refined vertical art poster that transforms the landscape into",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/MrLarus/status/2107022984724816290",
+    "fav": 4,
+    "retweet": 0,
+    "reply": 1,
+    "is_quote": false,
+    "fetched_at": "2026-10-25T11:32:14.961727Z"
+  },
+  {
+    "x_id": "2109098407579255016",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-11T01:47:00.000Z",
+    "text_raw": "我的图文转换Skill 我以为已经很好用了\n\n直到它给我出了这种红配绿效果... https://t.co/wh5vCnboiu",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109098407579255016_0.jpg",
+        "w": 1500,
+        "h": 430
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2109098407579255016",
+    "fav": 21,
+    "retweet": 0,
+    "reply": 17,
+    "is_quote": false,
+    "fetched_at": "2026-10-25T11:32:09.419918Z"
+  },
+  {
     "x_id": "2104264526703341938",
     "screen_name": "HPizheng11983",
     "author": "HU Pizheng",
