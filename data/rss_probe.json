@@ -1,312 +1,250 @@
 {
- "probed_at": "2026-10-26T00:09:14.833226Z",
- "results": [
-  {
-   "name": "GNEWS-路透",
-   "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 503,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "GNEWS-AP",
-   "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 503,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "GNEWS-AFP",
-   "url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 503,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "GNEWS-彭博",
-   "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 503,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "GNEWS-日经",
-   "url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 503,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "GNEWS-金融时报",
-   "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 503,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "GNEWS-华尔街日报",
-   "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 503,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "GNEWS-纽约时报",
-   "url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 503,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "GNEWS-经济学人",
-   "url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 503,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "GNEWS-路透-China",
-   "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
-   "status": 503,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "AP直接feed",
-   "url": "https://apnews.com/feed",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "共同社英文",
-   "url": "https://english.kyodonews.net/rss/news.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "共同社中文",
-   "url": "https://chinese.kyodonews.net/rss/all.xml",
-   "status": -1,
-   "items": 0,
-   "is_feed": false,
-   "err": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "name": "日经中文",
-   "url": "https://cn.nikkei.com/rss/rss.xml",
-   "status": 202,
-   "items": 0,
-   "is_feed": false,
-   "sample": ""
-  },
-  {
-   "name": "BBC中文",
-   "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+ "diag_at": "2026-10-26T01:38:39.861410Z",
+ "results": {
+  "路透": {
+   "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 38,
-   "is_feed": true,
-   "sample": "<![CDATA[法國再爆大規模示威逾1300人被捕，警民衝突致53警受傷]]>"
+   "items": 100,
+   "samples": [
+    {
+     "title": "North Korea's Kim Jong Un returns from China after",
+     "date": "Sat, 24 Oct 2026 22:24:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUmFRMDdLSEpoaWR3L"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUmFRMDdLSEpoaWR3LVZkWTlFQy1DYjJiU3JObElYXzRHWkFDaXQ0YXFZaGpyQ2pSeWN",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUmFRMDdLSEpoaWR3LVZkWTlFQy1DYjJiU3JObElYXzRHWkFDaXQ0YXFZaGpyQ2pSeWN1UTV3UUFnZjA3bzRLbk1YQXJqa1E0OWk0eEttYzVrNlRRNzZvRnhVMXNUYTBSZTh2MXJROXNobTdxRThFaFRoc2hyaGMtZFlDUE1mUUZZMG13SEt3WHZYNGJ5WlpfWDloU2hkMnVCUFUtbEZxQWZYdnBhS25mbnZZUHlmS0JjOWtTWXNNbDFHRXlUOWUyLTdCOHhLYzFKZjdWRGxxTUdmZDQ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322db0141555f79714c4d52615130374b484a686964772d5664593945432d",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMRaQ07KHJhidw-VdY9EC-Cb2bSrNlIX_4G"
+      ],
+      "l2_head": "014ff2a8b311690d3b28726189dc3e55d63d102f826f66d2"
+     }
+    },
+    {
+     "title": "China urges US to halt proposed expansion of outbo",
+     "date": "Sat, 24 Oct 2026 13:51:55",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY3V2bWpZckhlWExla"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY3V2bWpZckhlWExlaDZRLTR0NG1MY3l4NmpfZzJCUkVpSkJGblR1S0RScmxSa2tWWVh",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMisgFBVV95cUxOY3V2bWpZckhlWExlaDZRLTR0NG1MY3l4NmpfZzJCUkVpSkJGblR1S0RScmxSa2tWWVhtZFdBNzkyc0ZaUnlDU2lVNEh3WUpUTkw3d0tIdGlzeTNrRnpWNFhiUk9xTEw4bENXWmxuRlRYTXQtU2N4MXRLVURsUkVxYUpGMks3R0hUaXA4eUZHSXNBWXRLRUN4VVkyVW5WQlBVUFo1dnRSVGxPYmxqMXRXUnVn"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b20141555f79714c4e6375766d6a59724865584c656836512d3474346d",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLNcuvmjYrHeXLeh6Q-4t4mLcyx6j_g2BREi"
+      ],
+      "l2_head": "014ff2a8b35cbaf9a362b1de5cb7a1e90fb8b7898b732c7a"
+     }
+    }
+   ]
   },
-  {
-   "name": "美国国务院",
-   "url": "https://www.state.gov/feed/",
+  "AP": {
+   "feed": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 0,
-   "is_feed": false,
-   "sample": ""
+   "items": 100,
+   "samples": [
+    {
+     "title": "As the US and China form AI blocs, countries are i",
+     "date": "Sun, 25 Oct 2026 04:05:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxPakhwUzlHbnJOemg0S"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPakhwUzlHbnJOemg0S0x1WlNQSUZIaEtpZlNSd0JtZmszRlg2S3QtTzZla3o2WjdDdTl",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMigwFBVV95cUxPakhwUzlHbnJOemg0S0x1WlNQSUZIaEtpZlNSd0JtZmszRlg2S3QtTzZla3o2WjdDdTlhUFk0M0UteG84UTA4TndIbUgycFJrTFhlTG4yRXQ2STNDOFBuWE10eDhfcVRuLTNJbWRTRkhMSDZzSXVrcGdCZmpkVG9jS3loUQ"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322830141555f79714c4f6a48705339476e724e7a68344b4c755a53504946",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLOjHpS9GnrNzh4KLuZSPIFHhKifSRwBmfk3"
+      ],
+      "l2_head": "014ff2a8b3a31e94bd1a7acdce1e0a2ee6523c814784a89f"
+     }
+    },
+    {
+     "title": "North Korean leader Kim Jong Un visits China to in",
+     "date": "Sat, 24 Oct 2026 09:33:45",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX0I1TVQybGpFam8xe"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX0I1TVQybGpFam8xeDVVN1NTdVFha1Q3Und2cjhZbHJnMG1CekZFTWEyMXI2VFNTVHF",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMimwFBVV95cUxPX0I1TVQybGpFam8xeDVVN1NTdVFha1Q3Und2cjhZbHJnMG1CekZFTWEyMXI2VFNTVHF0MlF5ekIxM3plalZMVU9jVjZHanE2WnozM2xQN2x6WDA2NHh1NUVXRXIwZ2JVczFsQjZ5aXY2VU9tRk1kRWg2bDZpSlJKVzVFaVlhOFc0N0pnOUp0cWVwREY0b1JlZ2xSbw"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "0813229b0141555f79714c4f5f42354d54326c6a456a6f317835553753537551",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLO_B5MT2ljEjo1x5U7SSuQakT7Rwvr8Ylrg"
+      ],
+      "l2_head": "014ff2a8b3bf079313da58c48e8d71e54ed24ae41a913ed1"
+     }
+    }
+   ]
   },
-  {
-   "name": "美国国防部",
-   "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
+  "彭博": {
+   "feed": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 20,
-   "is_feed": true,
-   "sample": "Colorado National Guard assisting with evacuations, search and rescue in southwest Colorado"
+   "items": 100,
+   "samples": [
+    {
+     "title": "Why Xi Is Using China’s Fifth Plenum to Tighten Pa",
+     "date": "Sun, 25 Oct 2026 22:32:34",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMFlTcEswcWctMHdHZ"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMFlTcEswcWctMHdHZEx2NThLdFlkcDR2N0ZXRVlJWVF4djFmMjBocnV1OEFYb2wyRXZ",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMFlTcEswcWctMHdHZEx2NThLdFlkcDR2N0ZXRVlJWVF4djFmMjBocnV1OEFYb2wyRXZ5NDB6Z2VVdFFIMkVVUl8yYUl3QWFhR0luUnlVdDlGLXl3MUZZaWhUSjgyLUNIY3FiUmtnbTA2TVNaakxyLU1zSGZRQnRVbmFXRHBDajNoTEdia0duRmZ3VFUza0hod1BLQXhJQVQ4MWkzdEpONGh2VmNpdjhjY21EbUoyek1tTGtjdF9QaXpYWVdiSWZOTA"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322c80141555f79714c4f305953704b3071672d307747644c7635384b7459",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLO0YSpK0qg-0wGdLv58KtYdp4v7FWEYIYQx"
+      ],
+      "l2_head": "014ff2a8b3b4612a4ad2a83ed3019d2efe7c2ad61da78bfb"
+     }
+    },
+    {
+     "title": "The US-China Tech Cold War Is Moving Undersea - Bl",
+     "date": "Sun, 25 Oct 2026 20:01:02",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYk1YUTlkOHNSaGtQU"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYk1YUTlkOHNSaGtQU1d0WTk5Y2xTemFfOW1SZHplZVZmMFluWm5ma0l4clpXWlUxVXl",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMioAFBVV95cUxOYk1YUTlkOHNSaGtQU1d0WTk5Y2xTemFfOW1SZHplZVZmMFluWm5ma0l4clpXWlUxVXluMFVOR0pGdzdSRThqTS1IMnBwSjBkRVM4NE80MHFzWWg0YmxrZTVOTnNIQm80cUdTMU8tR1FEOXg3ZUZwM29DLWY0Qll5bGZWSlJ1V3dqMzk0bVRtU1o2TE1XQnBiQmQ3azFScnM1"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322a00141555f79714c4e624d58513964387352686b50535774593939636c",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLNbMXQ9d8sRhkPSWtY99clSza_9mRdzeeVf"
+      ],
+      "l2_head": "014ff2a8b35b31743d77cb118643d25ad63df5c952cdaffd"
+     }
+    }
+   ]
   },
-  {
-   "name": "商务部新闻",
-   "url": "https://www.commerce.gov/news/press-releases/rss.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "USTR新闻",
-   "url": "https://ustr.gov/feeds/press-releases.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "能源部FE",
-   "url": "https://www.energy.gov/fe/newsroom/rss.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "NATO",
-   "url": "https://www.nato.int/webservices/rss/news.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "欧盟presscorner",
-   "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
-   "status": 406,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "日本外务省",
-   "url": "https://www.mofa.go.jp/rss/english.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "日本经产省",
-   "url": "https://www.meti.go.jp/rss/whatsnew_e.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "USNI",
-   "url": "https://news.usni.org/feed",
+  "日经": {
+   "feed": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 30,
-   "is_feed": true,
-   "sample": "USS McFaul Returns to Norfolk After 332 Day Deployment"
+   "items": 100,
+   "samples": [
+    {
+     "title": "North Korea's Kim Jong Un visits China via newly o",
+     "date": "Sat, 24 Oct 2026 07:57:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3OEYwandaZGpaRldzVFdveHM0Q0JIOGt",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3OEYwandaZGpaRldzVFdveHM0Q0JIOGtrT1luNlVCYktObVRlU01QVnR6RXpHZXdZMHFhYXo2eUxLbENSLXJFRUI0RktKMEFHUmdDWmMzUkVpVjczbktqaWhDRVAxQjdpWkpMX0dfbHpCOVBsVklZcnR1TkVBZVFVSFlGV1VOQlRienMzWXNrN09DamNMdnRBTUZYWGY3"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b80141555f79714c4e4f506c34564e59576a53507958656e695f384c63",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLNOPl4VNYWjSPyXeni_8LcPs9wgT78F0jwZ"
+      ],
+      "l2_head": "014ff2a8b34e3e5e153585a348fc977a78bff0b70fb3dc20"
+     }
+    },
+    {
+     "title": "China's fifth plenum, Jio listing on Indian bourse",
+     "date": "Sun, 25 Oct 2026 06:26:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNFA4UUxfTWlPbzRid"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNFA4UUxfTWlPbzRidWxMRi1HTnA3cVRhR1BGcXQxZUl2bDVNUXdId21uZTVmMERaMnp",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitAFBVV95cUxNNFA4UUxfTWlPbzRidWxMRi1HTnA3cVRhR1BGcXQxZUl2bDVNUXdId21uZTVmMERaMnp4RFNrWWFjYXVuSy1nZjhFUUdyYnBZSzhQbTlQQWFXbHJ0N2VGbFVWSE5jLU9tSU5Fd0xKMjVxWGMyMUpyZmFmRXEzdGViSDQ2OUJ1ZC02SWcxSnYwUUZTeUVwbVhvaU5TbW9KWGU5MkRyZmIyVi1LaERuNUFrQ1pmREM"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b40141555f79714c4d345038514c5f4d694f6f3462756c4c462d474e70",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLM4P8QL_MiOo4bulLF-GNp7qTaGPFqt1eIv"
+      ],
+      "l2_head": "014ff2a8b3383fc40bfcc88ea386ee94b17e18da7ba93686"
+     }
+    }
+   ]
   },
-  {
-   "name": "DefenseNews",
-   "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+  "WSJ": {
+   "feed": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 10,
-   "is_feed": true,
-   "sample": "US military needs ‘urgent revolutionary institutional change’ to prepare for modern war, Petraeus says"
-  },
-  {
-   "name": "Mining",
-   "url": "https://www.mining.com/feed/",
-   "status": 200,
-   "items": 36,
-   "is_feed": true,
-   "sample": "China&#8217;s Argentina mining footprint smaller than it looks"
-  },
-  {
-   "name": "OilPrice",
-   "url": "https://oilprice.com/rss/main",
-   "status": 200,
-   "items": 15,
-   "is_feed": true,
-   "sample": "The Pentagon&#039;s Rare Earth Deadline Is Almost Here. Is Anyone Ready?"
-  },
-  {
-   "name": "IMF",
-   "url": "https://www.imf.org/en/News/RSS?language=eng",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "USGS",
-   "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "IEA",
-   "url": "https://www.iea.org/news.xml",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "WTO",
-   "url": "https://www.wto.org/library/rss/latestnews_e.xml",
-   "status": 200,
-   "items": 0,
-   "is_feed": false,
-   "sample": ""
-  },
-  {
-   "name": "UPI",
-   "url": "https://www.upi.com/rss/feeds/worldnews/",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "France24英文",
-   "url": "https://www.france24.com/en/rss",
-   "status": 200,
-   "items": 24,
-   "is_feed": true,
-   "sample": "Report: IDF chief pushes back on Netanyahu's order"
-  },
-  {
-   "name": "JapanTimes",
-   "url": "https://www.japantimes.co.jp/feed/topstories/",
-   "status": 200,
-   "items": 5,
-   "is_feed": true,
-   "sample": "<![CDATA[ Nissan management shake-up plans reported as sharks circle ]]>"
-  },
-  {
-   "name": "ReutersAgency",
-   "url": "https://www.reutersagency.com/feed/?best-topics=top-news&post_type=best",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "共同社英文all",
-   "url": "https://english.kyodonews.net/rss/all.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "共同社英文ap",
-   "url": "https://english.kyodonews.net/rss/asia-pacific.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "UPI-topnews",
-   "url": "https://www.upi.com/rss/feeds/topnews/",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "StarsStripes",
-   "url": "https://www.stripes.com/rss.xml",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
-  },
-  {
-   "name": "BreakingDefense",
-   "url": "https://breakingdefense.com/feed/",
-   "status": 200,
-   "items": 15,
-   "is_feed": true,
-   "sample": "GDIT announces Amy Johnson as new president"
-  },
-  {
-   "name": "MiningWeekly",
-   "url": "https://www.miningweekly.com/rss/news",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
+   "items": 100,
+   "samples": [
+    {
+     "title": "Kim Jong Un Makes Surprise Trip to China, Crosses ",
+     "date": "Sun, 25 Oct 2026 14:45:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcjBPZ3dxSHBGNGpJN"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcjBPZ3dxSHBGNGpJN0dCX1JYT09lUDgyQW1SSUZKRHNRWF90SW5NVENhZEtQRHZjUzY",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMioAFBVV95cUxNcjBPZ3dxSHBGNGpJN0dCX1JYT09lUDgyQW1SSUZKRHNRWF90SW5NVENhZEtQRHZjUzYyVnVYLXdRWkxuVmt2RGtTSDVSalVrVURxbFlTQzZ5UFd3b2dxelVhVkNuS3J6cmF2Y2h4NEJfQWNsSklmZk1MSWxtbEFOb3lIUTV0RzNwenNCZVVYUGxSUVZIblpUS2VYdzMxZ1RX"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322a00141555f79714c4d72304f677771487046346a493747425f52584f4f",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMr0OgwqHpF4jI7GB_RXOOeP82AmRIFJDsQ"
+      ],
+      "l2_head": "014ff2a8b32bd0e830a87a45e2323b181fd15ce39e3fcd80"
+     }
+    },
+    {
+     "title": "China’s Most Controversial Region Has Become a Sho",
+     "date": "Fri, 23 Oct 2026 01:00:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2dGV1R1UyOFpRaFNYb"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2dGV1R1UyOFpRaFNYbTZhZENXQ1NORzA4TXc3UVZfLVJFMlJ4b3hQSDhXck1UM3NvRnB",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMif0FVX3lxTFB2dGV1R1UyOFpRaFNYbTZhZENXQ1NORzA4TXc3UVZfLVJFMlJ4b3hQSDhXck1UM3NvRnBQdnZYLXhod2RtWVJaZi1rbWlZRDZ5dU5Ra3l1VXhVdzJTOU9oWTZNeGlVeUprelNOZ3VnTmNYaE9xUnlBUjZWbkpaN2s"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "0813227f41555f79714c5076746575475532385a516853586d36616443574353",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLPvteuGU28ZQhSXm6adCWCSNG08Mw7QV_-R"
+      ],
+      "l2_head": "014ff2a8b3efb5eb86536f194214979ba69d096092346d3c"
+     }
+    }
+   ]
   }
- ]
+ }
 }
