@@ -1,5 +1,5 @@
 {
- "diag_at": "2026-10-26T15:04:59.862330Z",
+ "diag_at": "2026-10-26T20:30:34.020114Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
@@ -8,7 +8,7 @@
    "samples": [
     {
      "title": "In China, the AI bubble has already burst - Reuter",
-     "date": "Mon, 26 Oct 2026 12:09:43",
+     "date": "Mon, 26 Oct 2026 16:19:47",
      "chain": [
       "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkW"
      ],
@@ -28,24 +28,24 @@
      }
     },
     {
-     "title": "Chinese beauty brands, flush with success at home,",
-     "date": "Mon, 26 Oct 2026 08:07:02",
+     "title": "China says it opposes US 'stigmatisation' of Confu",
+     "date": "Mon, 26 Oct 2026 14:19:43",
      "chain": [
-      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd29zTzc4XzJ1dmVYN"
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWlUzaEdmQTRiZkpIQ"
      ],
-     "final": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd29zTzc4XzJ1dmVYNkJkaVUxMERuVUhjRGZWWUI5RURGV3BxWWw1S1BHODlpS0xFOWo",
+     "final": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWlUzaEdmQTRiZkpIQnllZ1VmZmZXUThEdHM1TnFDTXBfVkNHQ3ZwQThfLUR2bmdyU2F",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd29zTzc4XzJ1dmVYNkJkaVUxMERuVUhjRGZWWUI5RURGV3BxWWw1S1BHODlpS0xFOWotenNSMHQyMHJtVDVkNHdYb3FtbnpSMWE0WXNKLVJBLUxtQ08zc3VvY0Y0WVhxbklRVFlSRFJJVU9XTzdhcTRBSVBRcUtJVkhNaElrU0lJTGJZc2YxeWFOV1QzaE5tQ3pSZFB1MFhCa0dsUERmQ0dYbm5lX3hGX0Z2ZnpBay0tQ0R6TVZQLVJ4OXpEUkkzU2hyam1mQXBS"
+      "CANON:https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWlUzaEdmQTRiZkpIQnllZ1VmZmZXUThEdHM1TnFDTXBfVkNHQ3ZwQThfLUR2bmdyU2FEaWhoUHpPQk1fMzFoZG1PNWdwbzVhNUMtN1NKblZXZFlpYUdUUDFHdFd5TmR4TENGLUtpcXNEUnpFZVV6YVozRTkwTXJmWnA1ZkFrNDNzX1VuYXMxelRmSzNYX3FmM3N1V3hPTU5OZW5oak5sUmswazB4bE9wVVE2SGhhSmJzMDF6U3RaUzA"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322d00141555f79714c50776f734f37385f32757665583642646955313044",
+      "raw_head": "081322c00141555f79714c505a5533684766413462664a484279656755666666",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLPwosO78_2uveX6BdiU10DnUHcDfVYB9EDF"
+       "AU_yqLPZU3hGfA4bfJHByegUfffWQ8Dts5NqCMp_"
       ],
-      "l2_head": "014ff2a8b3f0a2c3bbf3fdaebde5fa05d894d740e7507703"
+      "l2_head": "014ff2a8b3d95378467c0e1b7c91c1c9e8147df7d643c0ed"
      }
     }
    ]
@@ -105,27 +105,6 @@
    "items": 100,
    "samples": [
     {
-     "title": "EU Plans to Hit China With More Import Curbs in Ea",
-     "date": "Mon, 26 Oct 2026 13:55:37",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcTFySmU5dkZnVmZpV"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcTFySmU5dkZnVmZpVkJsOEdjYWgtVHpxbWVkYW1Td3hnYWZBNXI3d3dWei1Ibms0T1F",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMirgFBVV95cUxOcTFySmU5dkZnVmZpVkJsOEdjYWgtVHpxbWVkYW1Td3hnYWZBNXI3d3dWei1Ibms0T1F4aE9KRjN6OTJoZHJiQmtYZlF4Wmxyb0lVY1UweWhXaEgxM0VIRE1xamUxMkV0QXZlYzZTQTNlbmxUODZiVnJfX1BIUW5fRGNmN3RqcHJiWFhJUWlvbzM5eENEUDd4MXhHeEpocXhtUnJNSkp5TTgta3F6T3c"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322ae0141555f79714c4e7131724a653976466756666956426c3847636168",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLNq1rJe9vFgVfiVBl8Gcah-TzqmedamSwxg"
-      ],
-      "l2_head": "014ff2a8b36ad6b25ef6f16055f895065f0671a87e4f3aa6"
-     }
-    },
-    {
      "title": "Chinese Carmakers Overtake Japan in Europe for Fir",
      "date": "Mon, 26 Oct 2026 08:00:15",
      "chain": [
@@ -145,6 +124,27 @@
       ],
       "l2_head": "014ff2a8b33118df7e449bac704e2f79f1c1eaf7426e0648"
      }
+    },
+    {
+     "title": "The US-China Tech Cold War Is Moving Undersea - Bl",
+     "date": "Sun, 25 Oct 2026 20:01:02",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYk1YUTlkOHNSaGtQU"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYk1YUTlkOHNSaGtQU1d0WTk5Y2xTemFfOW1SZHplZVZmMFluWm5ma0l4clpXWlUxVXl",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMioAFBVV95cUxOYk1YUTlkOHNSaGtQU1d0WTk5Y2xTemFfOW1SZHplZVZmMFluWm5ma0l4clpXWlUxVXluMFVOR0pGdzdSRThqTS1IMnBwSjBkRVM4NE80MHFzWWg0YmxrZTVOTnNIQm80cUdTMU8tR1FEOXg3ZUZwM29DLWY0Qll5bGZWSlJ1V3dqMzk0bVRtU1o2TE1XQnBiQmQ3azFScnM1"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322a00141555f79714c4e624d58513964387352686b50535774593939636c",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLNbMXQ9d8sRhkPSWtY99clSza_9mRdzeeVf"
+      ],
+      "l2_head": "014ff2a8b35b31743d77cb118643d25ad63df5c952cdaffd"
+     }
     }
    ]
   },
@@ -153,27 +153,6 @@
    "status": 200,
    "items": 100,
    "samples": [
-    {
-     "title": "Xi Jinping poised to tighten grip at discipline-fo",
-     "date": "Mon, 26 Oct 2026 01:18:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNnE4R0kzZDBFNzRqM"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNnE4R0kzZDBFNzRqMUZfVlV6OW1icXp1SWFXRV9jRXlPdkxodlRhZVFLNENrRmc5NFJ",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiowFBVV95cUxPNnE4R0kzZDBFNzRqMUZfVlV6OW1icXp1SWFXRV9jRXlPdkxodlRhZVFLNENrRmc5NFJlaC1oUzRPWDJZY2RmVEk4NURBWGEzWjMweml2Ry1DcG9WdzQwaHk5LVNSMEt0ejJ2c2pRRUlwWmlCNjExS3haUVluYS1pTHJYSUp0WkZxdzJUMW9DaVBGOTJBOHlXR2hVMUxfdDlxNmhj"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322a30141555f79714c4f36713847493364304537346a31465f56557a396d",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLO6q8GI3d0E74j1F_VUz9mbqzuIaWE_cEyO"
-      ],
-      "l2_head": "014ff2a8b3baabc188dddd04ef88f517f554cfd99bab3b88"
-     }
-    },
     {
      "title": "North Korea's Kim Jong Un visits China via newly o",
      "date": "Sat, 24 Oct 2026 07:57:00",
@@ -194,6 +173,27 @@
       ],
       "l2_head": "014ff2a8b34e3e5e153585a348fc977a78bff0b70fb3dc20"
      }
+    },
+    {
+     "title": "Xi Jinping poised to tighten grip at discipline-fo",
+     "date": "Mon, 26 Oct 2026 01:18:00",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNnE4R0kzZDBFNzRqM"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNnE4R0kzZDBFNzRqMUZfVlV6OW1icXp1SWFXRV9jRXlPdkxodlRhZVFLNENrRmc5NFJ",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMiowFBVV95cUxPNnE4R0kzZDBFNzRqMUZfVlV6OW1icXp1SWFXRV9jRXlPdkxodlRhZVFLNENrRmc5NFJlaC1oUzRPWDJZY2RmVEk4NURBWGEzWjMweml2Ry1DcG9WdzQwaHk5LVNSMEt0ejJ2c2pRRUlwWmlCNjExS3haUVluYS1pTHJYSUp0WkZxdzJUMW9DaVBGOTJBOHlXR2hVMUxfdDlxNmhj"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322a30141555f79714c4f36713847493364304537346a31465f56557a396d",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLO6q8GI3d0E74j1F_VUz9mbqzuIaWE_cEyO"
+      ],
+      "l2_head": "014ff2a8b3baabc188dddd04ef88f517f554cfd99bab3b88"
+     }
     }
    ]
   },
@@ -203,45 +203,45 @@
    "items": 100,
    "samples": [
     {
-     "title": "Opinion | Viktor Orbán, U.N. Secretary-General? - ",
-     "date": "Sun, 25 Oct 2026 20:58:00",
+     "title": "Kim Jong Un Makes Surprise Trip to China, Crosses ",
+     "date": "Sun, 25 Oct 2026 14:45:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZ"
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcjBPZ3dxSHBGNGpJN"
      ],
-     "final": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZDlyeHNtR0VkYXY4WFhld2tKZTEwS3lwVGp3Z25KeUI0ZXV2N2Z",
+     "final": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcjBPZ3dxSHBGNGpJN0dCX1JYT09lUDgyQW1SSUZKRHNRWF90SW5NVENhZEtQRHZjUzY",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZDlyeHNtR0VkYXY4WFhld2tKZTEwS3lwVGp3Z25KeUI0ZXV2N2ZZTmM0dmIwRlBCZ2owOWFSTTZLTTVmNzNJWDdlNHRoZlRMbTR1SXVZWnFFaEdjaU5Oc21IMThYU1hSUVFTYzAxQ3NEU3RETlYxbFN4V0tQYzZrN2R4NWs"
+      "CANON:https://news.google.com/rss/articles/CBMioAFBVV95cUxNcjBPZ3dxSHBGNGpJN0dCX1JYT09lUDgyQW1SSUZKRHNRWF90SW5NVENhZEtQRHZjUzYyVnVYLXdRWkxuVmt2RGtTSDVSalVrVURxbFlTQzZ5UFd3b2dxelVhVkNuS3J6cmF2Y2h4NEJfQWNsSklmZk1MSWxtbEFOb3lIUTV0RzNwenNCZVVYUGxSUVZIblpUS2VYdzMxZ1RX"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322900141555f79714c4e5f77513876754d4b6e35454364397278736d4745",
+      "raw_head": "081322a00141555f79714c4d72304f677771487046346a493747425f52584f4f",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLN_wQ8vuMKn5ECd9rxsmGEdav8XXewkJe10"
+       "AU_yqLMr0OgwqHpF4jI7GB_RXOOeP82AmRIFJDsQ"
       ],
-      "l2_head": "014ff2a8b37fc10f2fb8c2a7e4409df6bc6c98611d6aff17"
+      "l2_head": "014ff2a8b32bd0e830a87a45e2323b181fd15ce39e3fcd80"
      }
     },
     {
-     "title": "Bayer Gets China Approval for Stroke-Prevention Dr",
-     "date": "Mon, 26 Oct 2026 11:52:00",
+     "title": "China’s Ultimate Political Survivor Just Fell. Wha",
+     "date": "Tue, 20 Oct 2026 10:55:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX2s0YjdMWkNWM0xRd"
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQN"
      ],
-     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX2s0YjdMWkNWM0xRdXlDcm1OVURVLUFId1pic1ZpbU9vTzdxRUlncHZCdjhxLTRzajl",
+     "final": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQNVNaRk1wX0wzSXVnTnFwaWthc0MtSkp5eFVuNi1CclRnWFQ4czh",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxPX2s0YjdMWkNWM0xRdXlDcm1OVURVLUFId1pic1ZpbU9vTzdxRUlncHZCdjhxLTRzajliTXQwRXdtMDY4b1BzZmVBSGdWSl9rdU1wUlhaaHR2MnExNS1maXZHeWFUOVRWMVFHM1hIcEQ0UlZYV2ZxbGxMRmtVNlZsbWRIWlp5bm5KTWVfWGllVG9OY3ZxY09CMFBxb3h3WTNqYkxSa0gyXy1SZHhGTF83TWJYTVNRZw"
+      "CANON:https://news.google.com/rss/articles/CBMitgFBVV95cUxNbTNDZ2JLUWN4RlJQNVNaRk1wX0wzSXVnTnFwaWthc0MtSkp5eFVuNi1CclRnWFQ4czh5UVdhcWx5VVhzSEtXalM1Y3oxcHhsSF9ncWt4MF83OTBTS0VPZWV0ZndiSnJwRDZ3WWlnVVpaRkVhUWRrT1RhYjZJZFp2SHQxWnJ5MlpsM1Zpd2YyM3U3YWhNMDZxVFE0ak5xSVgyclFadVJkTk93TWpnQkVPa2c5TDJrQQ"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322b60141555f79714c4f5f6b3462374c5a4356334c51757943726d4e5544",
+      "raw_head": "081322b60141555f79714c4d6d334367624b51637846525035535a464d705f4c",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLO_k4b7LZCV3LQuyCrmNUDU-AHwZbsVimOo"
+       "AU_yqLMm3CgbKQcxFRP5SZFMp_L3IugNqpikasC-"
       ],
-      "l2_head": "014ff2a8b3bf9386fb2d9095dcb42ec82ae63540d4f801f0"
+      "l2_head": "014ff2a8b326dc281b2907311513f949914ca7f2f722e80d"
      }
     }
    ]
