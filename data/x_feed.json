@@ -1,5 +1,263 @@
 [
   {
+    "x_id": "2109811732352827487",
+    "screen_name": "BreitbartNews",
+    "author": "Breitbart News",
+    "verified": false,
+    "created_at": "2026-10-13T01:01:30.000Z",
+    "text_raw": "Nobel Peace Prize Winner Accused of Helping China Persecute Uyghurs https://t.co/HkGKesXjMN",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/BreitbartNews/status/2109811732352827487",
+    "fav": 4526,
+    "retweet": 0,
+    "reply": 152,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:10:11.348133Z"
+  },
+  {
+    "x_id": "2108545188532473969",
+    "screen_name": "jielijian",
+    "author": "界立建",
+    "verified": false,
+    "created_at": "2026-10-09T13:08:42.000Z",
+    "text_raw": "On the Eve of Xi Jinping’s Trip to the United States, Core Members of the Chinese Democracy Party International Alliance Were Warmly Received by U.S. Representative Chris Smith\n\nSome core members of the Chinese Democracy Party International Alliance arrived in Washington, D.C., https://t.co/b3aYoipAxE",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108545188532473969_0.jpg",
+        "w": 1558,
+        "h": 1596
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/jielijian/status/2108545188532473969",
+    "fav": 22,
+    "retweet": 0,
+    "reply": 3,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:10:08.965786Z"
+  },
+  {
+    "x_id": "2109804990764302795",
+    "screen_name": "IamEmily2050",
+    "author": "Emily",
+    "verified": false,
+    "created_at": "2026-10-13T00:34:42.000Z",
+    "text_raw": "What is happening here? I was on the Premium+ one year plan, and now I am on Plus. And I can't even change it on the web? Or the Grok app or the X app? What exactly is this? @benjitaylor, it seems like something is wrong. @poteto could you please send your bots to fix Allah these https://t.co/zDEDRdt1rO",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109804990764302795_0.jpg",
+        "w": 1112,
+        "h": 870
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/IamEmily2050/status/2109804990764302795",
+    "fav": 56,
+    "retweet": 0,
+    "reply": 15,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:10:07.769150Z"
+  },
+  {
+    "x_id": "2109840805636829652",
+    "screen_name": "IamEmily2050",
+    "author": "Emily",
+    "verified": false,
+    "created_at": "2026-10-13T02:57:01.000Z",
+    "text_raw": "Gemini \nWe are finally so back 😭",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/IamEmily2050/status/2109840805636829652",
+    "fav": 187,
+    "retweet": 0,
+    "reply": 13,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:10:01.774941Z"
+  },
+  {
+    "x_id": "2109833065128403019",
+    "screen_name": "ai_suxiaole",
+    "author": "苏乐",
+    "verified": false,
+    "created_at": "2026-10-13T02:26:16.000Z",
+    "text_raw": "Claude Code 多久没清理了？该来一波大扫除了！\n\n平时装了一堆 Skill、插件和 MCP，时间一长，哪些还在用、哪些配置已经过时，自己都记不清了。\n\nClaude Code 内置了一个 /doctor，可以检查安装环境、配置文件、扩展和 CLAUDE.md 里的问题。\n\n在 Claude Code 里输入：\n\n```text\n/doctor\n```\n\n/checkup",
+    "lang": "zh",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/ai_suxiaole/status/2109833065128403019",
+    "fav": 1,
+    "retweet": 0,
+    "reply": 2,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:10:00.593763Z"
+  },
+  {
+    "x_id": "2109806663326937310",
+    "screen_name": "AIjee_tpe",
+    "author": "jee chen",
+    "verified": false,
+    "created_at": "2026-10-13T00:41:21.000Z",
+    "text_raw": "## [Subject Description]\n\nA photorealistic full-body fashion photograph of an **adult East Asian woman** seated on a subway bench. She has fair skin, naturally full breasts, long straight dark-brown hair with soft face-framing strands, delicate facial features, and a calm,",
+    "lang": "en",
+    "photos": [],
+    "video": "",
+    "url": "https://x.com/AIjee_tpe/status/2109806663326937310",
+    "fav": 5,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:09:58.184875Z"
+  },
+  {
+    "x_id": "2109806561925480456",
+    "screen_name": "AIjee_tpe",
+    "author": "jee chen",
+    "verified": false,
+    "created_at": "2026-10-13T00:40:57.000Z",
+    "text_raw": "Photographing a beautiful woman on a tram\n\nImage 1: GPT2.5\nImage 2: Krea 2 + LoRA\nImage 3: Grok Imagine 2 + reference image\nImage 4: Qwen - Image 2.1 + Reference image\n\nRef. Prompt (SFW) See reply, welcome to send photos https://t.co/nBnwCOBhNS",
+    "lang": "en",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109806561925480456_0.jpg",
+        "w": 1024,
+        "h": 1536
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109806561925480456_1.jpg",
+        "w": 1152,
+        "h": 1728
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109806561925480456_2.jpg",
+        "w": 1152,
+        "h": 1728
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109806561925480456_3.jpg",
+        "w": 928,
+        "h": 1664
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AIjee_tpe/status/2109806561925480456",
+    "fav": 188,
+    "retweet": 0,
+    "reply": 16,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:09:56.970464Z"
+  },
+  {
+    "x_id": "2109612095411282317",
+    "screen_name": "taya_mama_AI",
+    "author": "た〜や｜スキマ時間×AI副業ママ",
+    "verified": false,
+    "created_at": "2026-10-12T11:48:12.000Z",
+    "text_raw": "のえるさんのプロンプトお借りして\n2人バージョン🦇🎃\n\n連休は子どもの予定でドタバタだったので\nスキマ時間に画像生成して息抜き🤤 https://t.co/swiTVXRuTK",
+    "lang": "ja",
+    "photos": [],
+    "video": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/videos/2109612095411282317.mp4",
+    "url": "https://x.com/taya_mama_AI/status/2109612095411282317",
+    "fav": 14,
+    "retweet": 0,
+    "reply": 0,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:09:55.772607Z"
+  },
+  {
+    "x_id": "2108464285395595526",
+    "screen_name": "VoxcatAI",
+    "author": "VoxCat",
+    "verified": false,
+    "created_at": "2026-10-09T07:47:13.000Z",
+    "text_raw": "ChatGPT 现在开始把部分回答直接做成「可交互界面」了。\n\n这个功能叫 Intelligent UI（智能界面）。\n\n以前 ChatGPT 的回答主要是文字、表格、代码块。现在它会根据任务结构，直接生成按钮、下拉菜单、单选项、表单、图表，甚至临时做出一个可以直接操作的小工具。 https://t.co/2x4iNER7iP",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108464285395595526_0.jpg",
+        "w": 945,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108464285395595526_1.jpg",
+        "w": 945,
+        "h": 2048
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/VoxcatAI/status/2108464285395595526",
+    "fav": 64,
+    "retweet": 0,
+    "reply": 14,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:09:52.213871Z"
+  },
+  {
+    "x_id": "2108114675804311803",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-08T08:38:00.000Z",
+    "text_raw": "这几天好多人问我副业，怎么挣钱。\n\n方法给你们了…\n\n现在那么多个人咖啡馆、花店、餐饮，哪怕你地推一家家跑，帮人做点单小程序，也能赚到钱啊。\n\n再不行，你在闲鱼上，就这么开单，这销量，一个月赚个几万块不是问题啊？ https://t.co/sXFsTRjXmA",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108114675804311803_0.jpg",
+        "w": 942,
+        "h": 2048
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108114675804311803_1.jpg",
+        "w": 1120,
+        "h": 1006
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108114675804311803_2.jpg",
+        "w": 1121,
+        "h": 1500
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2108114675804311803_3.jpg",
+        "w": 1119,
+        "h": 2047
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2108114675804311803",
+    "fav": 171,
+    "retweet": 0,
+    "reply": 19,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:09:47.376273Z"
+  },
+  {
+    "x_id": "2109819156946117000",
+    "screen_name": "AdrianPunk115",
+    "author": "Adrian Punk",
+    "verified": false,
+    "created_at": "2026-10-13T01:31:00.000Z",
+    "text_raw": "在追求大流量的同时，要有产品想好，有后续内容的承接，做到一整个商业的闭环 https://t.co/s3JS7UX7Pw",
+    "lang": "zh",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/jaf624/x-collector/main/data/images/2109819156946117000_0.jpg",
+        "w": 1188,
+        "h": 636
+      }
+    ],
+    "video": "",
+    "url": "https://x.com/AdrianPunk115/status/2109819156946117000",
+    "fav": 13,
+    "retweet": 0,
+    "reply": 10,
+    "is_quote": false,
+    "fetched_at": "2026-10-27T05:09:42.537266Z"
+  },
+  {
     "x_id": "2104264526703341938",
     "screen_name": "HPizheng11983",
     "author": "HU Pizheng",
