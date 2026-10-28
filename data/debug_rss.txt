@@ -1,6 +1,10 @@
 feed_get HTTP 200 len 182917
+parsed items 100
+---
+ title: Critical 'HTTP2Shell' Brotli vulnerability triggers emergenc
+ real: https://news.google.com/rss/articles/CBMitgFBVV95cUxQNGVrMWJmTkxqcDhLTzhhTGFyMU0
 Traceback (most recent call last):
-  File "/home/runner/work/x-collector/x-collector/dbg_rss.py", line 6, in <module>
-    items,ft=ic.parse_rss_items(body,srcs['feed_url'])
-    ^^^^^^^^
-ValueError: too many values to unpack (expected 2)
+  File "/home/runner/work/x-collector/x-collector/dbg_rss.py", line 14, in <module>
+    print(' hardnews:',ic.is_hardnews_url(real),'topic:',bool(ic.re.compile(ic.TOPIC_RE).search(blob)),'china:',bool(ic._china_ok(ic.host_of(real),it['title'],it['text'][:800],it['text'][:1500])),'soft:',ic.soft_news(it['title']),'textlen:',len(it['text']))
+                                                                                                                     ^^^^^^^^^^^^
+AttributeError: module 'intel_collect' has no attribute '_china_ok'
