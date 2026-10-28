@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-28T02:54:25.781694Z",
+ "probed_at": "2026-10-28T03:17:31.737198Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -152,17 +152,17 @@
      "resolved": false
     },
     {
-     "title": "China Stock Premium Over Hong Kong Widens on State Intervent",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWVHTHAtQTIzZXp2Z",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWVHTHAtQTIzZXp2ZWV6UjZmb0VMQi00NnpZR",
-     "resolved": false
-    },
-    {
      "title": "Xi’s Corruption Purges Upend Hunt for China’s Next Top Leade",
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2dRZFl6cDA0VlVpZ",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2dRZFl6cDA0VlVpZ2phbllDdHVyWEpyeTBZc",
+     "resolved": false
+    },
+    {
+     "title": "China Stock Premium Over Hong Kong Widens on State Intervent",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWVHTHAtQTIzZXp2Z",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWVHTHAtQTIzZXp2ZWV6UjZmb0VMQi00NnpZR",
      "resolved": false
     },
     {
@@ -294,17 +294,17 @@
      "resolved": false
     },
     {
-     "title": "China’s Industrial Profit Growth Surged in September - WSJ",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDRRVzVWU1hnYUtzU",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDRRVzVWU1hnYUtzUXVzU0pseUZCeFkwd3FvO",
-     "resolved": false
-    },
-    {
      "title": "Xi Wants to Play Peacemaker. Trump Has Other Ideas for a His",
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRV84N0VCX2tWQ2VxR",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRV84N0VCX2tWQ2VxR000bVZEU29DSXlOa09HZ",
+     "resolved": false
+    },
+    {
+     "title": "China’s Industrial Profit Growth Surged in September - WSJ",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDRRVzVWU1hnYUtzU",
+     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDRRVzVWU1hnYUtzUXVzU0pseUZCeFkwd3FvO",
      "resolved": false
     },
     {
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 57,
    "is_feed": true,
    "sample": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwart China's rare earths grip, sources say - Reuters",
    "diag": [
@@ -422,31 +422,31 @@
      "resolved": false
     },
     {
-     "title": "China September rare earth exports rise 6.7% from a year ear",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
-     "resolved": false
-    },
-    {
-     "title": "Phoenix Tailings to build $375-million rare earths facility ",
-     "date": "2026-10-20",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR0F4SV9rdVFJMzRIdGN6T",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
-     "resolved": false
-    },
-    {
      "title": "China rare earth firms halt some US shipments over geopoliti",
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
      "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
+     "resolved": false
+    },
+    {
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "resolved": false
+    },
+    {
+     "title": "Corporate Japan's rare-earth warnings get louder as China ke",
+     "date": "2026-07-07",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZ",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZTQ4UGhqMENYZDdmZGYtc",
+     "resolved": false
+    },
+    {
+     "title": "China's rare earth curbs endanger $6.5 trillion of Western i",
+     "date": "2026-07-15",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1JvOGNOVF9NekpFQ",
+     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1JvOGNOVF9NekpFQlJZLWowNkRlZkpZa2Jjc",
      "resolved": false
     }
    ]
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "King Charles confronts calls for slavery apology during Caribbean tour"
+   "sample": "Rights groups oppose UAE’s Lana Nusseibeh for UN chief over Sudan claims"
   },
   {
    "name": "JapanTimes",
