@@ -1,0 +1,25 @@
+DOMAIN bleepingcomputer.com -> items=1
+    "site:bleepingcomputer.com (china OR cyber OR breach OR malware OR ransomware)" - Google News
+    Google News
+    UNM Health ransomware attack disrupts patient care, surgeries - BleepingComputer
+    Energy giant ENGIE discloses data breach affecting customers - BleepingComputer
+DOMAIN theregister.com -> items=1
+    "site:theregister.com (china OR chinese OR semiconductor OR cyber OR AI)" - Google News
+    Google News
+    Alibaba's Qwen AI caught trying to contact server in China - The Register
+    AI 'hacker' finds 4 severe bugs in popular industrial control software in under 4 hours - The Register
+DOMAIN arstechnica.com -> items=1
+    "site:arstechnica.com (china OR chinese OR semiconductor OR cyber OR AI)" - Google News
+    Google News
+    China’s top-secret spaceplane can’t hide in low-Earth orbit - Ars Technica
+    Anthropic IPO warns its AI could blackmail people, become sentient, end humanity - Ars Technica
+DOMAIN federalregister.gov -> items=1
+    "site:federalregister.gov (china OR entity OR export OR sanction OR semiconductor)" - Google News
+    Google News
+    Suspension of the Commonwealth of the Northern Mariana Islands (CNMI) Economic Vitality &amp; Security Travel Authorization Program (EVS-TAP) - Federal Register (.gov)
+    Outbound Investment Security Program Regulations - Federal Register (.gov)
+DOMAIN scmp.com -> items=1
+    "site:scmp.com (china OR chinese OR semiconductor OR cyber OR AI)" - Google News
+    Google News
+    China’s battery factories could be sitting right on top of vast lithium deposits - South China Morning Post
+    How China’s ancient capital staked a claim to the nation’s fastest export growth - South China Morning Post
