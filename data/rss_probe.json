@@ -1,250 +1,692 @@
 {
- "diag_at": "2026-10-28T13:28:39.488301Z",
- "results": {
-  "路透": {
-   "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+ "probed_at": "2026-10-28T13:30:52.428363Z",
+ "results": [
+  {
+   "name": "GNEWS-路透",
+   "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "Real Madrid apologise to Chinese people after Mbappe's Mao 'dictator' comment - Reuters",
+   "diag": [
     {
-     "title": "Real Madrid apologise to Chinese people after Mbap",
-     "date": "Wed, 28 Oct 2026 11:37:13",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYndKWEVTQXdYMEhHN"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYndKWEVTQXdYMEhHNEM1UnVNb2xtdnRfUklGbDdEWUxJNjF0dVhDV1JOanNfS0tPOF9",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMitwFBVV95cUxNYndKWEVTQXdYMEhHNEM1UnVNb2xtdnRfUklGbDdEWUxJNjF0dVhDV1JOanNfS0tPOF9wazg4SExIVk5zWERBa19aRWpGX0REZEZ3WUZ0MFpqZU1lS0JQUzAtUzhYdVhXTUJFUFV0eUdjR05NUDlFc21KS3VyNEJYWjR6djNMbm1Sa0FDNUhBMWpFS0JXcWcyQkZlbUl2UTRYN1A3UHY1bU9RZU5OMVVPbndxZUFrck0"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b70141555f79714c4d62774a58455341775830484734433552754d6f6c",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMbwJXESAwX0HG4C5RuMolmvt_RIFl7DYLI"
-      ],
-      "l2_head": "014ff2a8b31bc095c4480c17d071b80b946e328966bedfd1"
-     }
+     "title": "Real Madrid apologise to Chinese people after Mbappe's Mao '",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYndKWEVTQXdYMEhHN",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYndKWEVTQXdYMEhHNEM1UnVNb2xtdnRfUklGb",
+     "resolved": false
     },
     {
-     "title": "Volkswagen, in strategy shift, plans to globalise ",
-     "date": "Wed, 28 Oct 2026 11:01:26",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUpOYjRPbVZuMzdSa"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUpOYjRPbVZuMzdSa0U4R3E2MUpiZDdzTzNxLWx4U3o4UnpnV0NaNjkwTzFlcmItSGV",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUpOYjRPbVZuMzdSa0U4R3E2MUpiZDdzTzNxLWx4U3o4UnpnV0NaNjkwTzFlcmItSGVveHhoUktBUU94MDBXVWVfeG5vd2Y1Y2xxOTNPTWl4YXMxNURsV25ieDBfUHFZSUNydUVRMC1FdGZNZ0Q3WmtuQ3lfME9UTXh2Qll2aFgxajZzWEhteFd4OEpyRE9Ic2E4bmVRTXl6eHFBQk4yLXBRNWpmdUI3QzVpal9oSUk"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b70141555f79714c4e694a4e62344f6d566e3337526b4538477136314a",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLNiJNb4OmVn37RkE8Gq61Jbd7sO3q-lxSz8"
-      ],
-      "l2_head": "014ff2a8b36224d6f83a6567dfb46413c1aaeb525b77bb0e"
-     }
+     "title": "Volkswagen, in strategy shift, plans to globalise China-deve",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUpOYjRPbVZuMzdSa",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUpOYjRPbVZuMzdSa0U4R3E2MUpiZDdzTzNxL",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: China's CXMT to start advanced AI memory producti",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTDFWeWo1UVJwSDh4O",
+     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTDFWeWo1UVJwSDh4OXB5RnJyVVhXaG1zNHZIM",
+     "resolved": false
+    },
+    {
+     "title": "China's new export curbs draw a line around its AI crown jew",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpIM3FfOEVIU0g3d",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpIM3FfOEVIU0g3dkIzdlhrWnVpRHNhd3BaQ",
+     "resolved": false
+    },
+    {
+     "title": "China's old-age dependency ratio overtakes children for firs",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3pUZTR4N3JoWDREV",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3pUZTR4N3JoWDREVnl5cDA4bW1nWXJ5NUtuR",
+     "resolved": false
     }
    ]
   },
-  "AP": {
-   "feed": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-AP",
+   "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "Soccer star Kylian Mbappé apologizes for apparent reference to Mao as a ‘dictator’ - AP News",
+   "diag": [
     {
-     "title": "Soccer star Kylian Mbappé apologizes for apparent ",
-     "date": "Wed, 28 Oct 2026 01:14:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxN"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxNUFHOVlZSk1IWHk2ai1tRGdfRkNxQ2RBUmd1eDZKMXkxTTR5cjJ",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxNUFHOVlZSk1IWHk2ai1tRGdfRkNxQ2RBUmd1eDZKMXkxTTR5cjJYTDRxem5CXzRrQ0lUd3VkMFlTVUhHVlVReEk5MWZna1NPempEXzA2UUlqREZzNGNPazdRQlNWdWJqdUZxMTktZHBBV0xkNHAzcHFBbmVhVEY0NHNaYTZmdWpTaHViMg"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322980141555f79714c4d313438523565592d4c5658713541473959594a4d",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLM148R5eY-LVXq5AG9YYJMHXy6j-mDg_FCq"
-      ],
-      "l2_head": "014ff2a8b335e3c479798f8b557ab9006f586093075f2ea3"
-     }
+     "title": "Soccer star Kylian Mbappé apologizes for apparent reference ",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxN",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxNUFHOVlZSk1IWHk2ai1tR",
+     "resolved": false
     },
     {
-     "title": "Rescuers search for survivors after deadly earthqu",
-     "date": "Fri, 23 Oct 2026 21:51:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5Z"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5ZHRYb2VlQlNPb3hlWlVNdmVtMEVFc1NYVm5sUUp2eGtUTXk3LUU",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5ZHRYb2VlQlNPb3hlWlVNdmVtMEVFc1NYVm5sUUp2eGtUTXk3LUU0RlMxYnVONXd5TmpOeThfS1VqaE9RR3dQNDNBSmloU2JOUm5rYXZSZEwyWDNfenZrcnE3QUhpak84LWdSRG1MNHBlRU9VM0tZVWRpazlpNmVjTE5kUzJ4QQ"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322920141555f79714c4e5a7335774734325a417a63796474586f65654253",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLNZs5wG42ZAzcydtXoeeBSOoxeZUMvem0EE"
-      ],
-      "l2_head": "014ff2a8b359b39c06e36640cdcc9db57a1e78148ea31799"
-     }
+     "title": "Rescuers search for survivors after deadly earthquake in Chi",
+     "date": "2026-10-23",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5Z",
+     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5ZHRYb2VlQlNPb3hlWlVNd",
+     "resolved": false
+    },
+    {
+     "title": "ByteDance founder Zhang Yiming reclaims top spot in China’s ",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2kwbFVkNzZHNVJNU",
+     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2kwbFVkNzZHNVJNU25yam4xRWRPaU1sLWdHQ",
+     "resolved": false
+    },
+    {
+     "title": "What to know about China’s plenum as Xi seeks stronger Commu",
+     "date": "2026-10-26",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE9NbzRMSEY4YkVVM",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE9NbzRMSEY4YkVVMHhZWkVVTWJ5a3RESm1Id",
+     "resolved": false
+    },
+    {
+     "title": "As the US and China form AI blocs, countries are increasingl",
+     "date": "2026-10-26",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPakhwUzlHbnJOemg0S",
+     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPakhwUzlHbnJOemg0S0x1WlNQSUZIaEtpZlNSd",
+     "resolved": false
     }
    ]
   },
-  "彭博": {
-   "feed": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-AFP",
+   "url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "Mbappé apologises over Mao Zedong joke as Chinese brands drop sponsorship deals - France 24",
+   "diag": [
     {
-     "title": "Mbappé Apologizes for Perceived Mao Insult After C",
-     "date": "Tue, 27 Oct 2026 18:01:40",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTEozYkVLU1c1QzJqV"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTEozYkVLU1c1QzJqVkVnbTJXOUFVS3plcms3RHNscVZYV2pxek8tSHZPa1NhNmtLTV8",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMixwFBVV95cUxPTEozYkVLU1c1QzJqVkVnbTJXOUFVS3plcms3RHNscVZYV2pxek8tSHZPa1NhNmtLTV8xY0hXTnFXa0NWSFJySjdsbm9KQWsxZTlham5QeFl4bno4ek13SVo2UVZxSUVPRVFjeUdZbXRvdDFCa1hRZzY5ejFzNTB0MThPbm5xUVM2ZGJrT0NnNDFBMVg3VURQdHJnYmFoWXU3emtVRVhPQ2pPZXRqeVYtN2JVYkw2aW4wMWpPZVdBNHhNTGxXNzBr"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322c70141555f79714c4f4c4a3362454b53573543326a5645676d32573941",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLOLJ3bEKSW5C2jVEgm2W9AUKzerk7DslqVX"
-      ],
-      "l2_head": "014ff2a8b38b2776c42925b90b68d51209b65bd0142b37ab"
-     }
+     "title": "Mbappé apologises over Mao Zedong joke as Chinese brands dro",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRWdDTXZrMUplc3ZLa",
+     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRWdDTXZrMUplc3ZLajZTdXFVaVNfYUdkcGVKd",
+     "resolved": false
     },
     {
-     "title": "China Set to Lead in AI Models, Other Key Areas by",
-     "date": "Wed, 28 Oct 2026 03:55:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTmNEaVdwYnk0SVBtR"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTmNEaVdwYnk0SVBtRnZLUVZJNnJZT0RwTElIWGxUVkQtdGF3bUdwTjRFY0ViYVFURFV",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMiswFBVV95cUxNTmNEaVdwYnk0SVBtRnZLUVZJNnJZT0RwTElIWGxUVkQtdGF3bUdwTjRFY0ViYVFURFVNaFN1aXlqODBldW9LSlBNUjRsTzYxck96ZFN5eEhLb2VXeHJ2cE5YdUtPb1hWcUV4SXpjRFU5TVU5bzFuTzBYVG1XaW9kbkE5ZktWVnRJRk1yN2trdDBudXdGVU51YjUtRzBQTXl4TThKSXYyOTNjTDZPU0NqcGF4OA"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b30141555f79714c4d4e634469577062793449506d46764b5156493672",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMNcDiWpby4IPmFvKQVI6rYODpLIHXlTVD-"
-      ],
-      "l2_head": "014ff2a8b30d703896a5bcb820f985bca41523aad8383a4b"
-     }
+     "title": "Mbappe dropped by Chinese brands for 'offending national sen",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY0podklrUG9oRHJwT",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY0podklrUG9oRHJwTllLN3VKNDBNc1o2eVVla",
+     "resolved": false
+    },
+    {
+     "title": "Strong earthquake strikes China’s remote Tibet region - Fran",
+     "date": "2026-10-22",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaVlmRkJQNGFIMzk5S",
+     "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaVlmRkJQNGFIMzk5SXh0amVyWm5ucVFvTUNHd",
+     "resolved": false
+    },
+    {
+     "title": "Mbappe apologises for Mao Zedong comment after Chinese spons",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmtHT3ZjVXJ3Qk1xR",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmtHT3ZjVXJ3Qk1xRjVHOHFfa281NjNqZ2s5b",
+     "resolved": false
+    },
+    {
+     "title": "‘Congratulations!’: World leaders hail Lula’s election victo",
+     "date": "2026-10-26",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbFdDN2s1endidk80O",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbFdDN2s1endidk80OE1VXzFlRFprZlN4YUgwV",
+     "resolved": false
     }
    ]
   },
-  "日经": {
-   "feed": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-彭博",
+   "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "Mbappé Apologizes for Perceived Mao Insult After China Backlash - Bloomberg.com",
+   "diag": [
     {
-     "title": "HP and Asus shift some PC making back to China due",
-     "date": "Tue, 27 Oct 2026 19:00:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc1NqYzVESkVHNEZQT"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc1NqYzVESkVHNEZQTXoxX2d4WmNNdlNkaUFxM1htOXFDdk5mWEE3MFhRcFRYWml1b0R",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMixwFBVV95cUxQc1NqYzVESkVHNEZQTXoxX2d4WmNNdlNkaUFxM1htOXFDdk5mWEE3MFhRcFRYWml1b0RhcEhxT1BSTnFxUFJEVjJrZjlveUZua2hMRFJRaUxaalJCZzNSOEdtOXRzSW9hc2pSTFRzdml0RVlfcmJJRnA4YkY1aXRoVW9pc1AxTG1MUklBVkNkQ1Z5R2VpVXVsUE5SWlJULUZaaDlCc0tOM1Jpd1M4WlFGMk9SUnNseWpTTDFkc3Nfc0ZIREV4dTl3"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322c70141555f79714c5073536a6335444a45473446504d7a315f67785a63",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLPsSjc5DJEG4FPMz1_gxZcMvSdiAq3Xm9qC"
-      ],
-      "l2_head": "014ff2a8b3ec4a37390c9106e053cccf5fe0c5970cbd2762"
-     }
+     "title": "Mbappé Apologizes for Perceived Mao Insult After China Backl",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTEozYkVLU1c1QzJqV",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTEozYkVLU1c1QzJqVkVnbTJXOUFVS3plcms3R",
+     "resolved": false
     },
     {
-     "title": "US to halt visa waivers for Chinese traveling to P",
-     "date": "Tue, 27 Oct 2026 20:38:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOGktdFNXR1V1cUkzZ"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOGktdFNXR1V1cUkzZUR0Ujc2LUFKQ0JmRU1YMU5uaGU3bUl5WjZPajNQZ3AxZDFadG5",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOGktdFNXR1V1cUkzZUR0Ujc2LUFKQ0JmRU1YMU5uaGU3bUl5WjZPajNQZ3AxZDFadG5IS0FURTFjM21TZ2VnTjhwWThoN1hLODQ3ekVPZUhGUEt1cjIyY3R6TUUzaXFhdmN4NXNfYUlKUWdpajU5bHJPWmhEOGNUeUZUQzRsU0ZDdUZ2U3VyVWhUTk9TdWRLanZkX1pCU2RWbzUwN1MtMUhvWEh6c3Y4OVZ3UHBvLTVKMkQxTlZ1RWpWbVNkUExmNndFUE1pOGduNmR4Y0FUQXI"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322d80141555f79714c4d38692d7453574755757149336544745237362d41",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLM8i-tSWGUuqI3eDtR76-AJCBfEMX1Nnhe7"
-      ],
-      "l2_head": "014ff2a8b33c8beb5258652ea88dde0ed47bebe0090817c4"
-     }
+     "title": "China Set to Lead in AI Models, Other Key Areas by 2030, BI ",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTmNEaVdwYnk0SVBtR",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTmNEaVdwYnk0SVBtRnZLUVZJNnJZT0RwTElIW",
+     "resolved": false
+    },
+    {
+     "title": "Pakistan Denies Entry to Taiwan Airlines Citing One-China Po",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTS",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTSF9pZnNBNzNpSUpPSWh3b",
+     "resolved": false
+    },
+    {
+     "title": "The US-China Tech Cold War Is Moving Undersea - Bloomberg.co",
+     "date": "2026-10-25",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYk1YUTlkOHNSaGtQU",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYk1YUTlkOHNSaGtQU1d0WTk5Y2xTemFfOW1SZ",
+     "resolved": false
+    },
+    {
+     "title": "Chinese Carmakers Overtake Japan in Europe for First Time - ",
+     "date": "2026-10-26",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeEdOOS1SSnVzY0U0d",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeEdOOS1SSnVzY0U0dmVmSEI2dmRDYmdaSXRrV",
+     "resolved": false
     }
    ]
   },
-  "WSJ": {
-   "feed": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  {
+   "name": "GNEWS-日经",
+   "url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
-   "samples": [
+   "is_feed": true,
+   "sample": "HP and Asus shift some PC making back to China due to AI-driven cost hikes - Nikkei Asia",
+   "diag": [
     {
-     "title": "Global Soccer Star Kylian Mbappé Just Apologized t",
-     "date": "Tue, 27 Oct 2026 19:48:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lYWZ3WTVEQkNMSDNTb"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lYWZ3WTVEQkNMSDNTbndQYlRpVTFXUUN1aVhGc0pTa25heUtzbWZ1MHZORi1YWm1TSlJ",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMib0FVX3lxTE5lYWZ3WTVEQkNMSDNTbndQYlRpVTFXUUN1aVhGc0pTa25heUtzbWZ1MHZORi1YWm1TSlJYTUN1dXJyOEtLQVBJa3pUMXJvQ2hsOGJqVXFveVdETHNZY09IeFl3am4wRXdWVXlZa2d1NA"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "0813226f41555f79714c4e6561667759354442434c4833536e77506254695531",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "oAU_yqLNeafwY5DBCLH3SnwPbTiU1WQCuiXFsJSk"
-      ],
-      "l2_head": "a0053fcaa2cd79a7f06390c108b1f74a7c0f6d3894d56402"
-     }
+     "title": "HP and Asus shift some PC making back to China due to AI-dri",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc1NqYzVESkVHNEZQT",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc1NqYzVESkVHNEZQTXoxX2d4WmNNdlNkaUFxM",
+     "resolved": false
     },
     {
-     "title": "China’s Electric Carmakers Are Running Out of Dome",
-     "date": "Wed, 28 Oct 2026 10:07:00",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTc"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTclpxSTNqNnY2RkUyLWZaRktXY3l0VUJJb1FhRFpOcnJxb2k3dFp",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTclpxSTNqNnY2RkUyLWZaRktXY3l0VUJJb1FhRFpOcnJxb2k3dFpyeVA1NGNtTk45MHJ3N1psWWMyODJDR1FpQ1AxNHE4dHRMUHg0Ul9tQWJGWkYxLWVSV2dtMUNMeG9sT1VfRnZRRlB0QmZjV0ZrbmVaZmZEemoweG9YdmZDcDBaVWRCeHpSUQ"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "0813229b0141555f79714c4d626c765938394e5572557a53725a7149336a3676",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMblvY89NUrUzSrZqI3j6v6FE2-fZFKWcyt"
-      ],
-      "l2_head": "014ff2a8b31b96f63cf4d52b5334ab66a2378fabfa144dbe"
-     }
+     "title": "US to halt visa waivers for Chinese traveling to Pacific ter",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOGktdFNXR1V1cUkzZ",
+     "real": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOGktdFNXR1V1cUkzZUR0Ujc2LUFKQ0JmRU1YM",
+     "resolved": false
+    },
+    {
+     "title": "With China having fewer kids, dairies rethink milk for adult",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOFcxYmdFTVprYnU5d",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOFcxYmdFTVprYnU5dXJRV2pYSDFDWDJ2MmRFT",
+     "resolved": false
+    },
+    {
+     "title": "Chinese brands drop soccer star Kylian Mbappe for 'offending",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVIycFhJd2JnQ091N",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVIycFhJd2JnQ091NDY4QXFhdUlYZlQ0UGN5W",
+     "resolved": false
+    },
+    {
+     "title": "Chinese media say Japan TV show 'Vivant' torture scenes 'sto",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb2NvcE80UjQzQVkxZ",
+     "real": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb2NvcE80UjQzQVkxZF9hVVdnT3ZxeGs0bXFvM",
+     "resolved": false
     }
    ]
+  },
+  {
+   "name": "GNEWS-金融时报",
+   "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "The AI bubble already popped — in China - Financial Times",
+   "diag": [
+    {
+     "title": "The AI bubble already popped — in China - Financial Times",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZGtNd3hLMUVPb3NRLU1TR",
+     "resolved": false
+    },
+    {
+     "title": "China rushes to shore up markets as AI trade sours - Financi",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnVPSDFLZ1NVWE1fV",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnVPSDFLZ1NVWE1fVVJTTkxTTXJOWTFYd2RjQ",
+     "resolved": false
+    },
+    {
+     "title": "Mercedes-Benz vows to stay in China as sales slump - Financi",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazJiT1NocTA3d3lFY",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazJiT1NocTA3d3lFYi1QYzlfckR3SHJxZ2hPQ",
+     "resolved": false
+    },
+    {
+     "title": "Chinese brands put boot into Kylian Mbappé after viral ‘dict",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1hyZldwQjd4b0doQ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1hyZldwQjd4b0doQnRJVzU5V3BKcE9MWjJ6Z",
+     "resolved": false
+    },
+    {
+     "title": "Toyota takes on Tesla and China in humanoid robot race - Fin",
+     "date": "2026-10-25",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNT",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNTTlwaWtmU3F6UmlUU0VZc",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-华尔街日报",
+   "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Global Soccer Star Kylian Mbappé Just Apologized to China—for a Mao Zedong Meme - WSJ",
+   "diag": [
+    {
+     "title": "Global Soccer Star Kylian Mbappé Just Apologized to China—fo",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lYWZ3WTVEQkNMSDNTb",
+     "real": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lYWZ3WTVEQkNMSDNTbndQYlRpVTFXUUN1aVhGc",
+     "resolved": false
+    },
+    {
+     "title": "China’s Electric Carmakers Are Running Out of Domestic Buyer",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTc",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTclpxSTNqNnY2RkUyLWZaR",
+     "resolved": false
+    },
+    {
+     "title": "Opinion | Viktor Orbán, U.N. Secretary-General? - WSJ",
+     "date": "2026-10-25",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZ",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZDlyeHNtR0VkYXY4WFhld",
+     "resolved": false
+    },
+    {
+     "title": "Xi Wants to Play Peacemaker. Trump Has Other Ideas for a His",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRV84N0VCX2tWQ2VxR",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRV84N0VCX2tWQ2VxR000bVZEU29DSXlOa09HZ",
+     "resolved": false
+    },
+    {
+     "title": "Mercedes-Benz Cuts Guidance on China Weakness, Higher Costs ",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdUpkWV9JMk9tS3kyT",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdUpkWV9JMk9tS3kyT0lDWEFhRUZ5Sy01UHAzU",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-纽约时报",
+   "url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Why Kylian Mbappe angered China – and the possible consequences for him, Madrid and La Liga - The New York Times",
+   "diag": [
+    {
+     "title": "Why Kylian Mbappe angered China – and the possible consequen",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcktkOWZOWFFuWTBCe",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcktkOWZOWFFuWTBCeGY2X2VSTHlMNmllZ01SX",
+     "resolved": false
+    },
+    {
+     "title": "A Chinese Port Could Be a Lifeline for Spain, but Also a Thr",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeXNNNkdCc0NBTGtka",
+     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeXNNNkdCc0NBTGtkazVEbXgzZHJTRzZTMHdMO",
+     "resolved": false
+    },
+    {
+     "title": "China Steps In to Rescue Stocks, But the Market Continues to",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUVXYUQxZUhYNnBqZ",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUVXYUQxZUhYNnBqZ2lQbjlZLVRyTkphZVhyR",
+     "resolved": false
+    },
+    {
+     "title": "Kylian Mbappe apologises after Chinese brands drop him over ",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTlFRa011N2Y5WVo1T",
+     "real": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTlFRa011N2Y5WVo1TmdEOTY5RW84WWlqb2hvZ",
+     "resolved": false
+    },
+    {
+     "title": "China’s Free A.I. Models Are Thrown Into Uncertainty - The N",
+     "date": "2026-10-21",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVGtOTkNCaEJUNWpyT",
+     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVGtOTkNCaEJUNWpyTEJIU3dDbzJNcGxxLUNle",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-经济学人",
+   "url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Kim Jong Un’s curious visit to China - The Economist",
+   "diag": [
+    {
+     "title": "Kim Jong Un’s curious visit to China - The Economist",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNemNJaGxMR0YtdTlrV",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNemNJaGxMR0YtdTlrVjVYR1NRVHl5QkFLdmVvN",
+     "resolved": false
+    },
+    {
+     "title": "A shot in the arm for China’s economy - The Economist",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWE5aFo0eVpFTXZuS",
+     "real": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWE5aFo0eVpFTXZuS3lubHk1cmtiNTltSEhLW",
+     "resolved": false
+    },
+    {
+     "title": "China’s most successful Astroturf operation: grassroots foot",
+     "date": "2026-10-26",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0FTNlpuZ2tqWHNCX",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0FTNlpuZ2tqWHNCX0UzZW5XallrNVdyeVlLM",
+     "resolved": false
+    },
+    {
+     "title": "New research tries to defuse the “China shock” - The Economi",
+     "date": "2026-10-22",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVNLNkw1SlV2S21mS",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVNLNkw1SlV2S21mSGNXbFpDZFYzU0JvREdhN",
+     "resolved": false
+    },
+    {
+     "title": "India is pouring money and concrete into its border with Chi",
+     "date": "2026-10-22",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU5vTGlFS2FJeTZJa",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU5vTGlFS2FJeTZJaGlQZ29lU2pSaTF5NFFWV",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "GNEWS-路透-China",
+   "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
+   "status": 200,
+   "items": 59,
+   "is_feed": true,
+   "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
+   "diag": [
+    {
+     "title": "France minerals envoy says rare earths diversification from ",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZN",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZNXliXzFIZGQ2NTduaXJDU",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
+     "date": "2026-10-22",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
+     "resolved": false
+    },
+    {
+     "title": "DTEC granted permit to ship raw rare earths from Malaysia to",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejJ5RFBCUDRrYXdMQ",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejJ5RFBCUDRrYXdMQk13ME54V3hDMW1rQ2N1R",
+     "resolved": false
+    },
+    {
+     "title": "China rare earth firms halt some US shipments over geopoliti",
+     "date": "2026-09-04",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
+     "resolved": false
+    },
+    {
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "resolved": false
+    }
+   ]
+  },
+  {
+   "name": "AP直接feed",
+   "url": "https://apnews.com/feed",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社英文",
+   "url": "https://english.kyodonews.net/rss/news.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社中文",
+   "url": "https://chinese.kyodonews.net/rss/all.xml",
+   "status": -1,
+   "items": 0,
+   "is_feed": false,
+   "err": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "name": "日经中文",
+   "url": "https://cn.nikkei.com/rss/rss.xml",
+   "status": 202,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "BBC中文",
+   "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+   "status": 200,
+   "items": 38,
+   "is_feed": true,
+   "sample": "<![CDATA[姆巴佩就「中國獨裁者」迷因道歉 背後的資訊真空與「毛澤東熱」]]>"
+  },
+  {
+   "name": "美国国务院",
+   "url": "https://www.state.gov/feed/",
+   "status": 200,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "美国国防部",
+   "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
+   "status": 200,
+   "items": 20,
+   "is_feed": true,
+   "sample": "Fall Back: Change your clocks, batteries as daylight saving time ends Nov. 1"
+  },
+  {
+   "name": "商务部新闻",
+   "url": "https://www.commerce.gov/news/press-releases/rss.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USTR新闻",
+   "url": "https://ustr.gov/feeds/press-releases.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "能源部FE",
+   "url": "https://www.energy.gov/fe/newsroom/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "NATO",
+   "url": "https://www.nato.int/webservices/rss/news.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "欧盟presscorner",
+   "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+   "status": 406,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "日本外务省",
+   "url": "https://www.mofa.go.jp/rss/english.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "日本经产省",
+   "url": "https://www.meti.go.jp/rss/whatsnew_e.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USNI",
+   "url": "https://news.usni.org/feed",
+   "status": 200,
+   "items": 30,
+   "is_feed": true,
+   "sample": "Navy Sees 10-year High For Class A Aviation, Afloat Mishaps"
+  },
+  {
+   "name": "DefenseNews",
+   "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+   "status": 200,
+   "items": 10,
+   "is_feed": true,
+   "sample": "Finlands defense minister talks NATO, Ukraine and fishing"
+  },
+  {
+   "name": "Mining",
+   "url": "https://www.mining.com/feed/",
+   "status": 200,
+   "items": 36,
+   "is_feed": true,
+   "sample": "Deep Sea Minerals eyes US listing as leasing auction nears"
+  },
+  {
+   "name": "OilPrice",
+   "url": "https://oilprice.com/rss/main",
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "QatarEnergy Extends LNG Force Majeure to End of 2026"
+  },
+  {
+   "name": "IMF",
+   "url": "https://www.imf.org/en/News/RSS?language=eng",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "USGS",
+   "url": "https://www.usgs.gov/news/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "IEA",
+   "url": "https://www.iea.org/news.xml",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "WTO",
+   "url": "https://www.wto.org/library/rss/latestnews_e.xml",
+   "status": 200,
+   "items": 0,
+   "is_feed": false,
+   "sample": ""
+  },
+  {
+   "name": "UPI",
+   "url": "https://www.upi.com/rss/feeds/worldnews/",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "France24英文",
+   "url": "https://www.france24.com/en/rss",
+   "status": 200,
+   "items": 24,
+   "is_feed": true,
+   "sample": "🔴 Death toll from train collision in central Spain rises to 64, regional government says"
+  },
+  {
+   "name": "JapanTimes",
+   "url": "https://www.japantimes.co.jp/feed/topstories/",
+   "status": 200,
+   "items": 5,
+   "is_feed": true,
+   "sample": "<![CDATA[ Nissan management shake-up plans reported as sharks circle ]]>"
+  },
+  {
+   "name": "ReutersAgency",
+   "url": "https://www.reutersagency.com/feed/?best-topics=top-news&post_type=best",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社英文all",
+   "url": "https://english.kyodonews.net/rss/all.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "共同社英文ap",
+   "url": "https://english.kyodonews.net/rss/asia-pacific.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "UPI-topnews",
+   "url": "https://www.upi.com/rss/feeds/topnews/",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "StarsStripes",
+   "url": "https://www.stripes.com/rss.xml",
+   "status": 404,
+   "items": 0,
+   "is_feed": false
+  },
+  {
+   "name": "BreakingDefense",
+   "url": "https://breakingdefense.com/feed/",
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "Is the Finnish-Norwegian call with Putin a crack in Nordic resolve, or the start of a new path?"
+  },
+  {
+   "name": "MiningWeekly",
+   "url": "https://www.miningweekly.com/rss/news",
+   "status": 403,
+   "items": 0,
+   "is_feed": false
   }
- }
+ ]
 }
