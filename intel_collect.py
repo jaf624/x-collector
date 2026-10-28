@@ -71,7 +71,9 @@ HARD_NEWS_DOMAINS = (
     # 扩源·2026-10-19 矿业/能源/军事/科技/智库/财经(海外探活持续更新，补齐海军/防务)
     "navalnews.com", "stripes.com", "breakingdefense.com",
     "miningweekly.com", "kitco.com", "thedrive.com", "naval-technology.com",
-    "maritime-executive.com", "argusmedia.com", "theregister.com", "csis.org", "cnbc.com")
+    "maritime-executive.com", "argusmedia.com", "theregister.com", "csis.org", "cnbc.com",
+    # 扩源·高采用题材（2026-10-28，网络安全/科技/出口管制）
+    "bleepingcomputer.com", "arstechnica.com", "federalregister.gov")
 def is_hardnews_url(u):
     u = (u or "").lower()
     return any(h in u for h in HARD_NEWS_DOMAINS)
