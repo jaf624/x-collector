@@ -5,25 +5,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Test native feeds
+      - name: Test alt feeds
         run: |
           mkdir -p data
-          : > data/debug_native.txt
-          declare -A F=(
-           [bleeping]="https://www.bleepingcomputer.com/feed/"
-           [register]="https://www.theregister.com/headlines.atom"
-           [ars]="http://feeds.arstechnica.com/arstechnica/index"
-           [fedreg]="https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=china&format=rss"
-           [scmp]="https://www.scmp.com/rss/91/feed"
-          )
-          for k in "${!F[@]}"; do
-            B=$(curl -sL --max-time 20 -A "Mozilla/5.0" "${F[$k]}")
-            N=$(echo "$B" | grep -oE "<item>|<entry>" | wc -l)
-            echo "$k -> n=$N url=${F[$k]}" | tee -a data/debug_native.txt
-          done
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+          testf(){ B=$(curl -sL --max-time 18 -A "$UA" -H "Accept: application/rss+xml,application/xml" "$1"); N=$(echo "$B"|grep -oE "<item>|<entry>"|wc -l); echo "$2 -> n=$N  $1" | tee -a data/debug2.txt; }
+          : > data/debug2.txt
+          testf "https://www.bleepingcomputer.com/feed/" "bleeping-chrome"
+          testf "https://feeds.feedburner.com/BleepingComputer" "bleeping-fb"
+          testf "https://www.federalregister.gov/documents.rss?conditions%5Bterm%5D=china" "fedreg-rss"
+          testf "https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=china&format=rss" "fedreg-search"
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/debug_native.txt
-          git commit -m "native feed test" && git push || echo none
+          git add data/debug2.txt
+          git commit -m "alt feed" && git push || echo none
