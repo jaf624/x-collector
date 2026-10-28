@@ -5,13 +5,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.11" }
-      - name: Run rss debug
-        run: python3 dbg_rss.py 2>&1 | tee data/debug_rss.txt
+      - name: Test native feeds
+        run: |
+          mkdir -p data
+          : > data/debug_native.txt
+          declare -A F=(
+           [bleeping]="https://www.bleepingcomputer.com/feed/"
+           [register]="https://www.theregister.com/headlines.atom"
+           [ars]="http://feeds.arstechnica.com/arstechnica/index"
+           [fedreg]="https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=china&format=rss"
+           [scmp]="https://www.scmp.com/rss/91/feed"
+          )
+          for k in "${!F[@]}"; do
+            B=$(curl -sL --max-time 20 -A "Mozilla/5.0" "${F[$k]}")
+            N=$(echo "$B" | grep -oE "<item>|<entry>" | wc -l)
+            echo "$k -> n=$N url=${F[$k]}" | tee -a data/debug_native.txt
+          done
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/debug_rss.txt
-          git commit -m "dbg rss" && git push || echo none
+          git add data/debug_native.txt
+          git commit -m "native feed test" && git push || echo none
