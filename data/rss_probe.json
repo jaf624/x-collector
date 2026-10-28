@@ -1,32 +1,11 @@
 {
- "diag_at": "2026-10-28T02:00:18.507854Z",
+ "diag_at": "2026-10-28T02:14:02.704019Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
    "items": 100,
    "samples": [
-    {
-     "title": "From 'Mobut' to Mao, Mbappe dictator meme turns se",
-     "date": "Tue, 27 Oct 2026 18:04:41",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJTbHNFRDVKUk1tc"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJTbHNFRDVKUk1tcDB0M0NVN1Q0bVlTMHg4WU1lalFlWmFnZE9jcjNYQ19BV08tWG5",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJTbHNFRDVKUk1tcDB0M0NVN1Q0bVlTMHg4WU1lalFlWmFnZE9jcjNYQ19BV08tWG5qV2F2dmdDOHFuaFRaQ3hYNkJpOUxMdkI3dDhBSklGelQxcUs2cGtReEVpUnVyOUpLLXBvRXVoSUZUS0RLeVhBYXRKa1RWRTV6enNabHNDZTlFRmhldDVLX1lXbXpvd1g5QzBIQ0ZsVGRHOWNCcjNRU3gyVy14TVA3SUd2QVE"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322b70141555f79714c4d7942536c734544354a524d6d7030743343553754",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLMyBSlsED5JRMmp0t3CU7T4mYS0x8YMejQe"
-      ],
-      "l2_head": "014ff2a8b33205296c103e4944c9a9d2ddc253b4f89984b4"
-     }
-    },
     {
      "title": "India deploys extra forces after protests over dam",
      "date": "Tue, 27 Oct 2026 11:39:08",
@@ -46,6 +25,27 @@
        "AU_yqLN6zWuTMYLGkjyUXF11ZMPKr6Z3h1MwDoGy"
       ],
       "l2_head": "014ff2a8b37acd6b933182c6923c945c5d7564c3caafa677"
+     }
+    },
+    {
+     "title": "From 'Mobut' to Mao, Mbappe dictator meme turns se",
+     "date": "Tue, 27 Oct 2026 18:04:41",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJTbHNFRDVKUk1tc"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJTbHNFRDVKUk1tcDB0M0NVN1Q0bVlTMHg4WU1lalFlWmFnZE9jcjNYQ19BV08tWG5",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJTbHNFRDVKUk1tcDB0M0NVN1Q0bVlTMHg4WU1lalFlWmFnZE9jcjNYQ19BV08tWG5qV2F2dmdDOHFuaFRaQ3hYNkJpOUxMdkI3dDhBSklGelQxcUs2cGtReEVpUnVyOUpLLXBvRXVoSUZUS0RLeVhBYXRKa1RWRTV6enNabHNDZTlFRmhldDVLX1lXbXpvd1g5QzBIQ0ZsVGRHOWNCcjNRU3gyVy14TVA3SUd2QVE"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b70141555f79714c4d7942536c734544354a524d6d7030743343553754",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLMyBSlsED5JRMmp0t3CU7T4mYS0x8YMejQe"
+      ],
+      "l2_head": "014ff2a8b33205296c103e4944c9a9d2ddc253b4f89984b4"
      }
     }
    ]
