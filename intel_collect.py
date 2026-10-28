@@ -46,7 +46,7 @@ INST_MAX = int(os.environ.get("INTEL_INST_MAX", "200"))        # RSS 自带正�
 INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "40"))       # 摘要过短需 Jina 深抓的机构稿上限
 INST_HN_DEEP = int(os.environ.get("INTEL_INST_HN_DEEP", "30"))  # 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）独立深抓配额，提前跑不被台媒挤掉
 MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "20"))         # L类线索源每轮深抓上限
-INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "8"))
+INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "16"))
 MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "25"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
 # 硬新闻源（2026-10-14 扩源）：通讯社/官方公报/中文硬新闻——深读配额优先，确保新闻模式主粮来自可溯源硬新闻
 HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "75"))
@@ -378,7 +378,7 @@ def load_json(path):
     return []
 
 
-def feed_get(url, timeout=20):
+def feed_get(url, timeout=12):
     """直连公开 RSS/Atom（不走 Jina，零 token）。"""
     try:
         req = urllib.request.Request(url, headers={
@@ -793,8 +793,9 @@ def main():
     after_watch = (datetime.datetime.utcnow().date() - datetime.timedelta(days=WATCH_DAYS)).isoformat()
     hour = datetime.datetime.utcnow().hour
     force = bool(os.environ.get("INTEL_FORCE_SEARCH"))
-    do_search = hour in (0, 12) or force   # 议题新闻每天 2 轮
-    do_watch = hour == 0 or force          # 反华人物/活动/路径/组织体量大，每天 1 轮控成本
+    rss_only = bool(os.environ.get("INTEL_RSS_ONLY"))  # 轻量模式：只跑机构RSS，跳过section/search/watch
+    do_search = (hour in (0, 12) or force) and not rss_only   # 议题新闻每天 2 轮
+    do_watch = (hour == 0 or force) and not rss_only          # 反华人物/活动/路径/组织体量大，每天 1 轮控成本
 
     feed = load_json(FEED)
     topic = re.compile(TOPIC_RE, re.I)
@@ -869,7 +870,7 @@ def main():
                        else "watch_full" if route == "watch" else via, 0) + 1
 
     # 1) 栏目/首页轮询（每 6 小时）
-    for sec in sections:
+    for sec in (sections if not rss_only else []):
         st, body, tok = reader(sec["url"])
         if st != 200:
             print(f"[section] {sec['name']} HTTP {st}", flush=True); continue
