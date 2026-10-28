@@ -1,5 +1,5 @@
 {
- "diag_at": "2026-10-28T01:26:21.434492Z",
+ "diag_at": "2026-10-28T02:00:18.507854Z",
  "results": {
   "路透": {
    "feed": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
@@ -57,7 +57,7 @@
    "samples": [
     {
      "title": "Soccer star Kylian Mbappé apologizes for apparent ",
-     "date": "Tue, 27 Oct 2026 21:16:00",
+     "date": "Wed, 28 Oct 2026 01:14:00",
      "chain": [
       "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxN"
      ],
@@ -105,27 +105,6 @@
    "items": 100,
    "samples": [
     {
-     "title": "Mbappé Apologizes for Perceived Mao Insult After C",
-     "date": "Tue, 27 Oct 2026 18:01:40",
-     "chain": [
-      "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTEozYkVLU1c1QzJqV"
-     ],
-     "final": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTEozYkVLU1c1QzJqVkVnbTJXOUFVS3plcms3RHNscVZYV2pxek8tSHZPa1NhNmtLTV8",
-     "external": [
-      "CANON:https://news.google.com/rss/articles/CBMixwFBVV95cUxPTEozYkVLU1c1QzJqVkVnbTJXOUFVS3plcms3RHNscVZYV2pxek8tSHZPa1NhNmtLTV8xY0hXTnFXa0NWSFJySjdsbm9KQWsxZTlham5QeFl4bno4ek13SVo2UVZxSUVPRVFjeUdZbXRvdDFCa1hRZzY5ejFzNTB0MThPbm5xUVM2ZGJrT0NnNDFBMVg3VURQdHJnYmFoWXU3emtVRVhPQ2pPZXRqeVYtN2JVYkw2aW4wMWpPZVdBNHhNTGxXNzBr"
-     ],
-     "follow_err": "",
-     "pb": {
-      "raw_head": "081322c70141555f79714c4f4c4a3362454b53573543326a5645676d32573941",
-      "urls": [],
-      "err": "",
-      "ascii_seg": [
-       "AU_yqLOLJ3bEKSW5C2jVEgm2W9AUKzerk7DslqVX"
-      ],
-      "l2_head": "014ff2a8b38b2776c42925b90b68d51209b65bd0142b37ab"
-     }
-    },
-    {
      "title": "China AI Hardware Firms Face Earnings Test After S",
      "date": "Tue, 27 Oct 2026 23:00:00",
      "chain": [
@@ -144,6 +123,27 @@
        "AU_yqLPsl8sYM4oSJ-rAMpSKr-3V57I1qy78dr-M"
       ],
       "l2_head": "014ff2a8b3ec97cb18338a1227eac032948aafedd5e7b235"
+     }
+    },
+    {
+     "title": "China Stock Premium Over Hong Kong Widens on State",
+     "date": "Tue, 27 Oct 2026 23:49:37",
+     "chain": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWVHTHAtQTIzZXp2Z"
+     ],
+     "final": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWVHTHAtQTIzZXp2ZWV6UjZmb0VMQi00NnpZRWRPWXpsTkhkc1A1blVpM2NaM1F3c1N",
+     "external": [
+      "CANON:https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWVHTHAtQTIzZXp2ZWV6UjZmb0VMQi00NnpZRWRPWXpsTkhkc1A1blVpM2NaM1F3c1NFQUZzemtHbXM0NHR2dU1ocUNWZmFiRHNNNnBvTTEtUnFJOXFlX3dXUFVacDBjTXNtd0g3eTZFazVDczdpQk9Bd1dTR1NfSWhTaDF6VndBTFZqZ0txUEUyUEd3UDZhMnkwM3RyZk9saFQ3QUxveTFTUm0ybDlKQ3pZMi0"
+     ],
+     "follow_err": "",
+     "pb": {
+      "raw_head": "081322b40141555f79714c4f4165474c702d413233657a7665657a5236666f45",
+      "urls": [],
+      "err": "",
+      "ascii_seg": [
+       "AU_yqLOAeGLp-A23ezveezR6foELB-46zYEdOYzl"
+      ],
+      "l2_head": "014ff2a8b3807862e9f80db77b3bde7b347a7e810b07ee3a"
      }
     }
    ]
@@ -204,7 +204,7 @@
    "samples": [
     {
      "title": "Global Soccer Star Kylian Mbappé Just Apologized t",
-     "date": "Tue, 27 Oct 2026 19:48:00",
+     "date": "Tue, 27 Oct 2026 19:49:05",
      "chain": [
       "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lYWZ3WTVEQkNMSDNTb"
      ],
@@ -224,24 +224,24 @@
      }
     },
     {
-     "title": "China’s Industrial Profit Growth Surged in Septemb",
-     "date": "Tue, 27 Oct 2026 04:16:00",
+     "title": "Opinion | Viktor Orbán, U.N. Secretary-General? - ",
+     "date": "Sun, 25 Oct 2026 20:58:00",
      "chain": [
-      "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDRRVzVWU1hnYUtzU"
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZ"
      ],
-     "final": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDRRVzVWU1hnYUtzUXVzU0pseUZCeFkwd3FvOG9RTmoySkpCT1d2SHd2bk1Rc3U1VFh",
+     "final": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZDlyeHNtR0VkYXY4WFhld2tKZTEwS3lwVGp3Z25KeUI0ZXV2N2Z",
      "external": [
-      "CANON:https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDRRVzVWU1hnYUtzUXVzU0pseUZCeFkwd3FvOG9RTmoySkpCT1d2SHd2bk1Rc3U1VFhxZVhmaUt2ejBENk9zY0ExYjNYVmN5SzM1Vkh2c2VlQzNaQWt6bmFYZjdxbWlxZXZ5WjZwTmhEdVBCRUZUaWRUbFZaSDRnREhnUEpuemgwOVZXTy1WWi1kQQ"
+      "CANON:https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZDlyeHNtR0VkYXY4WFhld2tKZTEwS3lwVGp3Z25KeUI0ZXV2N2ZZTmM0dmIwRlBCZ2owOWFSTTZLTTVmNzNJWDdlNHRoZlRMbTR1SXVZWnFFaEdjaU5Oc21IMThYU1hSUVFTYzAxQ3NEU3RETlYxbFN4V0tQYzZrN2R4NWs"
      ],
      "follow_err": "",
      "pb": {
-      "raw_head": "081322920141555f79714c4e703451573556535867614b73517573534a6c7946",
+      "raw_head": "081322900141555f79714c4e5f77513876754d4b6e35454364397278736d4745",
       "urls": [],
       "err": "",
       "ascii_seg": [
-       "AU_yqLNp4QW5VSXgaKsQusSJlyFBxY0wqo8oQNj2"
+       "AU_yqLN_wQ8vuMKn5ECd9rxsmGEdav8XXewkJe10"
       ],
-      "l2_head": "014ff2a8b369e105b95525e068ab10bac489972141c58d30"
+      "l2_head": "014ff2a8b37fc10f2fb8c2a7e4409df6bc6c98611d6aff17"
      }
     }
    ]
