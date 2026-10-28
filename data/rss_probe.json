@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-28T06:49:19.845556Z",
+ "probed_at": "2026-10-28T09:03:54.061885Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "EXCLUSIVE: China's CXMT to start advanced AI memory production despite poor yields, sources say - Reuters",
+   "sample": "China's new export curbs draw a line around its AI crown jewels - Reuters",
    "diag": [
+    {
+     "title": "China's new export curbs draw a line around its AI crown jew",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpIM3FfOEVIU0g3d",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpIM3FfOEVIU0g3dkIzdlhrWnVpRHNhd3BaQ",
+     "resolved": false
+    },
     {
      "title": "EXCLUSIVE: China's CXMT to start advanced AI memory producti",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTDFWeWo1UVJwSDh4O",
      "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTDFWeWo1UVJwSDh4OXB5RnJyVVhXaG1zNHZIM",
+     "resolved": false
+    },
+    {
+     "title": "France minerals envoy says rare earths diversification from ",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZN",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZNXliXzFIZGQ2NTduaXJDU",
      "resolved": false
     },
     {
@@ -28,20 +42,6 @@
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdUEtRWJxSk5SSk1MQ",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdUEtRWJxSk5SSk1MQUh1TXhtZlNxa0VwOHFZa",
-     "resolved": false
-    },
-    {
-     "title": "India deploys extra forces after protests over dam on Chines",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONnpXdVRNWUxHa2p5V",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONnpXdVRNWUxHa2p5VVhGMTFaTVBLcjZaM2gxT",
-     "resolved": false
-    },
-    {
-     "title": "China to send envoy to Middle East in near future amid confl",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVmZiSXVsLUdKMnk3a",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVmZiSXVsLUdKMnk3anBIc0VMUmpabGtQZlh0Y",
      "resolved": false
     }
    ]
@@ -142,7 +142,7 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Set to Lead in AI Models, Other Key Areas by 2030, BI Says - Bloomberg",
+   "sample": "China Set to Lead in AI Models, Other Key Areas by 2030, BI Says - Bloomberg.com",
    "diag": [
     {
      "title": "China Set to Lead in AI Models, Other Key Areas by 2030, BI ",
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
+     "title": "China Refiners Tap African, Brazilian Oil as Freight Rates F",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUjZlQ3pGc1dhUWN3T",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUjZlQ3pGc1dhUWN3TlFDbnNNWlk5ak9JXzlCM",
+     "resolved": false
+    },
+    {
      "title": "China AI Hardware Firms Face Earnings Test After Stock Sello",
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc2w4c1lNNG9TSi1yQ",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc2w4c1lNNG9TSi1yQU1wU0tyLTNWNTdJMXF5N",
-     "resolved": false
-    },
-    {
-     "title": "China Warns Global Celebrities as Mbappé Backlash Spreads - ",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkxDd25fSVE0VTZPU",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkxDd25fSVE0VTZPU0lmNDNvTzNPeVJ0WFN5S",
      "resolved": false
     }
    ]
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China rushes to shore up struggling markets - Financial Times",
+   "sample": "The AI bubble already popped — in China - Financial Times",
    "diag": [
+    {
+     "title": "The AI bubble already popped — in China - Financial Times",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZGtNd3hLMUVPb3NRLU1TR",
+     "resolved": false
+    },
     {
      "title": "China rushes to shore up struggling markets - Financial Time",
      "date": "2026-10-28",
@@ -260,13 +267,6 @@
      "date": "2026-10-25",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNT",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNTTlwaWtmU3F6UmlUU0VZc",
-     "resolved": false
-    },
-    {
-     "title": "Reckitt cuts sales outlook on disinfectant shortage and Chin",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQnZNOEZ4QkZkaEJha",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQnZNOEZ4QkZkaEJhaHA5SUpaVHEzclFtNThNU",
      "resolved": false
     }
    ]
@@ -302,7 +302,7 @@
     },
     {
      "title": "China’s Industrial Profit Growth Surged in September - WSJ",
-     "date": "2026-10-27",
+     "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDRRVzVWU1hnYUtzU",
      "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDRRVzVWU1hnYUtzUXVzU0pseUZCeFkwd3FvO",
      "resolved": false
@@ -339,6 +339,13 @@
      "resolved": false
     },
     {
+     "title": "Why Kylian Mbappe angered China – and the possible consequen",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcktkOWZOWFFuWTBCe",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcktkOWZOWFFuWTBCeGY2X2VSTHlMNmllZ01SX",
+     "resolved": false
+    },
+    {
      "title": "Kylian Mbappe apologises after Chinese brands drop him over ",
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTlFRa011N2Y5WVo1T",
@@ -350,13 +357,6 @@
      "date": "2026-10-21",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVGtOTkNCaEJUNWpyT",
      "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVGtOTkNCaEJUNWpyTEJIU3dDbzJNcGxxLUNle",
-     "resolved": false
-    },
-    {
-     "title": "‘Pull Out the Sick Trees’: Xi’s Constant Purges Pave Way for",
-     "date": "2026-10-26",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZUdVNzNoeEZIRjZKQ",
-     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZUdVNzNoeEZIRjZKQ2xkaFQ2YVpaREtDNmdLb",
      "resolved": false
     }
    ]
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "US taps Poland to host European PAC-3 missile maintenance facility"
+   "sample": "If Canada picks the Gripen fighter, these local firms would help Saab deliver the jets"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Sanctioned Oil Tankers Find a Lucrative New Trade in the Persian Gulf"
+   "sample": "Oil Traders Brace for Iran Escalation After U.S. Elections"
   },
   {
    "name": "IMF",
@@ -596,7 +596,7 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 504,
+   "status": 404,
    "items": 0,
    "is_feed": false
   },
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "🔴 Live: Israel election deadlock leaves Netanyahu and rival Eisenkot short of majority"
+   "sample": "🔴 Two high-speed trains collide in Spain, halting traffic on Madrid-Andalusia line"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "China has tripled its satellite fleet since 2018 as expansion continues: DIA"
+   "sample": "Australia pushes to beef up air defenses"
   },
   {
    "name": "MiningWeekly",
