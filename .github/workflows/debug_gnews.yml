@@ -5,25 +5,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Test gnews queries
-        run: |
-          mkdir -p data
-          : > data/debug_gnews.txt
-          for d in bleepingcomputer.com theregister.com arstechnica.com federalregister.gov scmp.com; do
-            case $d in
-              bleepingcomputer.com) Q="(china OR cyber OR breach OR malware OR ransomware)";;
-              federalregister.gov) Q="(china OR entity OR export OR sanction OR semiconductor)";;
-              *) Q="(china OR chinese OR semiconductor OR cyber OR AI)";;
-            esac
-            U="https://news.google.com/rss/search?q=site:${d}%20$(python3 -c "import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]))" "$Q")&hl=en-US&gl=US&ceid=US:en"
-            B=$(curl -sL --max-time 20 -A "Mozilla/5.0" "$U")
-            N=$(echo "$B" | grep -c "<item>" || true)
-            echo "DOMAIN $d -> items=$N" | tee -a data/debug_gnews.txt
-            echo "$B" | grep -o "<title>[^<]*</title>" | head -4 | sed 's/<[^>]*>//g' | sed 's/^/    /' | tee -a data/debug_gnews.txt
-          done
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Run rss debug
+        run: python3 dbg_rss.py 2>&1 | tee data/debug_rss.txt
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/debug_gnews.txt
-          git commit -m "debug output" && git push || echo none
+          git add data/debug_rss.txt
+          git commit -m "dbg rss" && git push || echo none
