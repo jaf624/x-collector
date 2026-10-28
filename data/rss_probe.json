@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-28T19:18:03.108898Z",
+ "probed_at": "2026-10-28T21:00:14.035410Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Mbappe's Mao remarks expose costs of crossing China's red lines - Reuters",
+   "sample": "US bans imports from BGI Genomics, MGI Tech, citing ties to forced labor in Xinjiang - Reuters",
    "diag": [
+    {
+     "title": "US bans imports from BGI Genomics, MGI Tech, citing ties to ",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN1h6RWZLcXNVQjdLO",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN1h6RWZLcXNVQjdLOTlHekdERnBUZjdrNWRLb",
+     "resolved": false
+    },
     {
      "title": "Mbappe's Mao remarks expose costs of crossing China's red li",
      "date": "2026-10-28",
@@ -31,17 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Merz invites Japan to back trade alliance as China asks Germ",
+     "title": "China's new export curbs draw a line around its AI crown jew",
      "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTJSV296X1JIblZre",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTJSV296X1JIblZreVlzNk5SRzZqYkhwSXpaX",
-     "resolved": false
-    },
-    {
-     "title": "US bans imports from BGI Genomics, MGI Tech, citing ties to ",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN1h6RWZLcXNVQjdLO",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN1h6RWZLcXNVQjdLOTlHekdERnBUZjdrNWRLb",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpIM3FfOEVIU0g3d",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpIM3FfOEVIU0g3dkIzdlhrWnVpRHNhd3BaQ",
      "resolved": false
     }
    ]
@@ -62,17 +62,17 @@
      "resolved": false
     },
     {
-     "title": "Soccer star Kylian Mbappé apologizes for apparent reference ",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxN",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxNUFHOVlZSk1IWHk2ai1tR",
-     "resolved": false
-    },
-    {
      "title": "Real Madrid issues public apology to China over Mbappé’s Mao",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWEx2MVZ4bm1WY3RYL",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWEx2MVZ4bm1WY3RYLXNBT2VTVUpJR0k3MzRNT",
+     "resolved": false
+    },
+    {
+     "title": "Soccer star Kylian Mbappé apologizes for apparent reference ",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxN",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxNUFHOVlZSk1IWHk2ai1tR",
      "resolved": false
     },
     {
@@ -142,8 +142,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Pakistan Allows Taiwan Airlines to Use Airspace in Abrupt U-Turn - Bloomberg.com",
+   "sample": "Palantir’s Defense Chief Sees Chinese Threat to Taiwan Over AI - Bloomberg.com",
    "diag": [
+    {
+     "title": "Palantir’s Defense Chief Sees Chinese Threat to Taiwan Over ",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRnBWYVZEMGZ0ek5EW",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRnBWYVZEMGZ0ek5EWFd4dklsQ3AzbHFibjM0N",
+     "resolved": false
+    },
     {
      "title": "Pakistan Allows Taiwan Airlines to Use Airspace in Abrupt U-",
      "date": "2026-10-28",
@@ -166,17 +173,10 @@
      "resolved": false
     },
     {
-     "title": "Mercedes Readies Major China Overhaul as Slump Deepens - Blo",
+     "title": "Xi’s Corruption Purges Upend Hunt for China’s Next Top Leade",
      "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZXpubjV0b3NsQUJIT",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZXpubjV0b3NsQUJIT1RPaG1lT3B6bHYxTXVYN",
-     "resolved": false
-    },
-    {
-     "title": "Chinese Government to Speed Bond Sales to Stimulate Growth -",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMWdCRmR2TU1ZaW5sL",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMWdCRmR2TU1ZaW5sLXFla0paWHNkeTBYanNnZ",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2dRZFl6cDA0VlVpZ",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2dRZFl6cDA0VlVpZ2phbllDdHVyWEpyeTBZc",
      "resolved": false
     }
    ]
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "North Korea's Kim Jong Un visits China via newly opened brid",
-     "date": "2026-10-24",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3O",
+     "title": "Chinese media say Japan TV show 'Vivant' torture scenes 'sto",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb2NvcE80UjQzQVkxZ",
+     "real": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb2NvcE80UjQzQVkxZF9hVVdnT3ZxeGs0bXFvM",
      "resolved": false
     }
    ]
@@ -367,20 +367,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Kim Jong Un’s curious visit to China - The Economist",
+   "sample": "China’s stock markets are the great global exception - The Economist",
    "diag": [
+    {
+     "title": "China’s stock markets are the great global exception - The E",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85TS1mb2FwRThEUTBZOUVmc",
+     "resolved": false
+    },
     {
      "title": "Kim Jong Un’s curious visit to China - The Economist",
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNemNJaGxMR0YtdTlrV",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNemNJaGxMR0YtdTlrVjVYR1NRVHl5QkFLdmVvN",
-     "resolved": false
-    },
-    {
-     "title": "New research tries to defuse the “China shock” - The Economi",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVNLNkw1SlV2S21mS",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVNLNkw1SlV2S21mSGNXbFpDZFYzU0JvREdhN",
      "resolved": false
     },
     {
@@ -391,17 +391,17 @@
      "resolved": false
     },
     {
+     "title": "New research tries to defuse the “China shock” - The Economi",
+     "date": "2026-10-22",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVNLNkw1SlV2S21mS",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVNLNkw1SlV2S21mSGNXbFpDZFYzU0JvREdhN",
+     "resolved": false
+    },
+    {
      "title": "India is pouring money and concrete into its border with Chi",
      "date": "2026-10-22",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU5vTGlFS2FJeTZJa",
      "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU5vTGlFS2FJeTZJaGlQZ29lU2pSaTF5NFFWV",
-     "resolved": false
-    },
-    {
-     "title": "China’s most successful Astroturf operation: grassroots foot",
-     "date": "2026-10-26",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0FTNlpuZ2tqWHNCX",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0FTNlpuZ2tqWHNCX0UzZW5XallrNVdyeVlLM",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Fall Back: Change your clocks, batteries as daylight saving time ends Nov. 1"
+   "sample": "Colorado National Guard helps save more than 40 people and their pets during ongoing flooding"
   },
   {
    "name": "商务部新闻",
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "U.S. Marines Deploy Neros Archer Drone in Camp Fuji Exercise"
+   "sample": "U.S. Marine Drone Detachment in the Philippines Operating from Palawan Airfield"
   },
   {
    "name": "DefenseNews",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Oil exploration opens door to Brazil offshore potash "
+   "sample": "Mule Canyon gold resource advances restart plans"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Why the Shipping Industry Is Turning Its Attention to Nuclear Power"
+   "sample": "Solar Has Overtaken Nuclear in the Global Power Mix"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Putin woos African leaders as Moscow seeks to expand footprint in Africa"
+   "sample": "Historic gains for Arab-majority parties in Israeli election"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "AUKUS partners test autonomous systems as Europe weighs maritime surveillance needs"
+   "sample": "Counter-UAS solution finds and classifies targets at standoff distance with “autonomous perception”"
   },
   {
    "name": "MiningWeekly",
