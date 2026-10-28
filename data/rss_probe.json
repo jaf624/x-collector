@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-28T03:17:31.737198Z",
+ "probed_at": "2026-10-28T04:11:37.472120Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,20 +7,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "From 'Mobut' to Mao, Mbappe dictator meme turns self-mockery into China storm - Reuters",
+   "sample": "India deploys extra forces after protests over dam on Chinese border escalate - Reuters",
    "diag": [
-    {
-     "title": "From 'Mobut' to Mao, Mbappe dictator meme turns self-mockery",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJTbHNFRDVKUk1tc",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJTbHNFRDVKUk1tcDB0M0NVN1Q0bVlTMHg4W",
-     "resolved": false
-    },
     {
      "title": "India deploys extra forces after protests over dam on Chines",
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONnpXdVRNWUxHa2p5V",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONnpXdVRNWUxHa2p5VVhGMTFaTVBLcjZaM2gxT",
+     "resolved": false
+    },
+    {
+     "title": "From 'Mobut' to Mao, Mbappe dictator meme turns self-mockery",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJTbHNFRDVKUk1tc",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJTbHNFRDVKUk1tcDB0M0NVN1Q0bVlTMHg4W",
      "resolved": false
     },
     {
@@ -142,20 +142,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China AI Hardware Firms Face Earnings Test After Stock Selloff - Bloomberg.com",
+   "sample": "Xi’s Corruption Purges Upend Hunt for China’s Next Top Leaders - Bloomberg",
    "diag": [
-    {
-     "title": "China AI Hardware Firms Face Earnings Test After Stock Sello",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc2w4c1lNNG9TSi1yQ",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc2w4c1lNNG9TSi1yQU1wU0tyLTNWNTdJMXF5N",
-     "resolved": false
-    },
     {
      "title": "Xi’s Corruption Purges Upend Hunt for China’s Next Top Leade",
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2dRZFl6cDA0VlVpZ",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2dRZFl6cDA0VlVpZ2phbllDdHVyWEpyeTBZc",
+     "resolved": false
+    },
+    {
+     "title": "China AI Hardware Firms Face Earnings Test After Stock Sello",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc2w4c1lNNG9TSi1yQ",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc2w4c1lNNG9TSi1yQU1wU0tyLTNWNTdJMXF5N",
      "resolved": false
     },
     {
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "Japan's Sumitomo Electric offers more low-tungsten tools to ",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMV9TUzE1N18ydi1UZ",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMV9TUzE1N18ydi1UZXN1b3M2bGQ1WThuQno1R",
+     "title": "North Korea's Kim Jong Un visits China via newly opened brid",
+     "date": "2026-10-24",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3O",
      "resolved": false
     }
    ]
@@ -353,10 +353,10 @@
      "resolved": false
     },
     {
-     "title": "In the A.I. ‘Robogym,’ Machines Train to Be More Like Humans",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVFBOaUFWYzdPdWtic",
-     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVFBOaUFWYzdPdWticUxKMVBOUS1rdDI2bFVEQ",
+     "title": "Kim Jong-un Makes First Visit to China in Over a Year - The ",
+     "date": "2026-10-24",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZUZGSkpxeVFRa05sT",
+     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZUZGSkpxeVFRa05sT2xjSExjY0JQSUFjeGxhL",
      "resolved": false
     }
    ]
@@ -391,17 +391,17 @@
      "resolved": false
     },
     {
+     "title": "A shot in the arm for China’s economy - The Economist",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWE5aFo0eVpFTXZuS",
+     "real": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWE5aFo0eVpFTXZuS3lubHk1cmtiNTltSEhLW",
+     "resolved": false
+    },
+    {
      "title": "New research tries to defuse the “China shock” - The Economi",
      "date": "2026-10-22",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVNLNkw1SlV2S21mS",
      "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaVNLNkw1SlV2S21mSGNXbFpDZFYzU0JvREdhN",
-     "resolved": false
-    },
-    {
-     "title": "India is pouring money and concrete into its border with Chi",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU5vTGlFS2FJeTZJa",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU5vTGlFS2FJeTZJaGlQZ29lU2pSaTF5NFFWV",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 57,
+   "items": 100,
    "is_feed": true,
    "sample": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwart China's rare earths grip, sources say - Reuters",
    "diag": [
@@ -422,31 +422,31 @@
      "resolved": false
     },
     {
+     "title": "China September rare earth exports rise 6.7% from a year ear",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
+     "resolved": false
+    },
+    {
+     "title": "Phoenix Tailings to build $375-million rare earths facility ",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR0F4SV9rdVFJMzRIdGN6T",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
+     "resolved": false
+    },
+    {
      "title": "China rare earth firms halt some US shipments over geopoliti",
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
      "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
-     "resolved": false
-    },
-    {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
-     "resolved": false
-    },
-    {
-     "title": "Corporate Japan's rare-earth warnings get louder as China ke",
-     "date": "2026-07-07",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZ",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZTQ4UGhqMENYZDdmZGYtc",
-     "resolved": false
-    },
-    {
-     "title": "China's rare earth curbs endanger $6.5 trillion of Western i",
-     "date": "2026-07-15",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1JvOGNOVF9NekpFQ",
-     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1JvOGNOVF9NekpFQlJZLWowNkRlZkpZa2Jjc",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "America Produces Less Than 1% of the Rare Earth Magnets It Needs"
+   "sample": "Oil Prices Climb as Houthi Attacks Reignite Saudi Supply Fears"
   },
   {
    "name": "IMF",
