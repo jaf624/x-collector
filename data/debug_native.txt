@@ -1,0 +1,5 @@
+register -> n=50 url=https://www.theregister.com/headlines.atom
+scmp -> n=50 url=https://www.scmp.com/rss/91/feed
+ars -> n=20 url=http://feeds.arstechnica.com/arstechnica/index
+bleeping -> n=0 url=https://www.bleepingcomputer.com/feed/
+fedreg -> n=0 url=https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=china&format=rss
