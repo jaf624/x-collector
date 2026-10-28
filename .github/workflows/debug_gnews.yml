@@ -1,0 +1,18 @@
+name: debug-gnews
+on: { workflow_dispatch: {} }
+jobs:
+  dbg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test gnews queries
+        run: |
+          for d in bleepingcomputer.com theregister.com arstechnica.com federalregister.gov scmp.com; do
+            case $d in
+              bleepingcomputer.com) Q="(china OR cyber OR breach OR malware OR ransomware)";;
+              federalregister.gov) Q="(china OR entity OR export OR sanction OR semiconductor)";;
+              *) Q="(china OR chinese OR semiconductor OR cyber OR AI)";;
+            esac
+            U="https://news.google.com/rss/search?q=site:${d}%20$(python3 -c "import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]))" "$Q")&hl=en-US&gl=US&ceid=US:en"
+            N=$(curl -sL --max-time 20 -A "Mozilla/5.0" "$U" | grep -c "<item>" || true)
+            echo "DOMAIN $d -> items=$N"
+          done
