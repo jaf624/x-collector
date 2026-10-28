@@ -5,17 +5,12 @@ jobs:
   call:
     runs-on: ubuntu-latest
     steps:
-      - name: call github models
+      - name: diagnose
         env:
           TK: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "=== GITHUB_TOKEN 调用 ==="
-          curl -sL -m 60 -X POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer $TK" \
-            -H "X-GitHub-Api-Version: 2026-03-10" \
-            -H "Content-Type: application/json" \
-            https://models.github.ai/inference/chat/completions \
-            -d '{"model":"openai/gpt-4.1","messages":[{"role":"user","content":"用一句话说你好"}],"max_tokens":60}'
+          echo "=== 1. CATALOG 模型列表 ==="
+          curl -sL -m 60 -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $TK" -H "X-GitHub-Api-Version: 2026-03-10" https://models.github.ai/catalog/models | head -c 600
           echo ""
-          echo "=== 结束 ==="
+          echo "=== 2. CHAT 不跟随重定向(-v) ==="
+          curl -s -m 60 -v -X POST -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $TK" -H "X-GitHub-Api-Version: 2026-03-10" -H "Content-Type: application/json" https://models.github.ai/inference/chat/completions -d '{"model":"openai/gpt-4.1","messages":[{"role":"user","content":"hi"}],"max_tokens":30}' 2>&1 | grep -iE "^< HTTP|^< location|^< content-type|^[{]|OK|error|message" | head -20
