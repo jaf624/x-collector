@@ -81,16 +81,5 @@ for name,url in SRC.items():
     print(name,rec.get("items"),"done",flush=True)
 os.makedirs("data",exist_ok=True)
 json.dump(res,open("data/rss_probe.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
-# git 提交（checkout action 已配置 GITHUB_TOKEN credential）
-def sh(cmd):
-    return subprocess.run(cmd,shell=True,capture_output=True,text=True)
-sh('git config user.name "github-actions[bot]"')
-sh('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"')
-sh("git add data/rss_probe.json")
-if sh("git diff --staged --quiet").returncode!=0:
-    sh('git commit -m "data: gnews multi-strategy decode diagnosis"')
-    for i in range(3):
-        r=sh("git pull --rebase origin main && git push")
-        if r.returncode==0: print("PUSHED"); break
-        print("retry",i,r.stderr[:100]); time.sleep(6)
-else: print("no change")
+# git 提交统一由工作流 commit_feed.sh 处理，此处不再自行 pull/push（避免 rebase 残留）
+print("rss_probe written, git handled by workflow")
