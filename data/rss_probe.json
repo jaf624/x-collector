@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-29T06:01:26.831404Z",
+ "probed_at": "2026-10-29T09:00:36.042715Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Taiwan flags 'obvious' threat from 50 Chinese vessels in wide sweep of waters - Reuters",
+   "sample": "Germany's Steinmeier says China must avoid one-sided benefits in economic ties - Reuters",
    "diag": [
+    {
+     "title": "Germany's Steinmeier says China must avoid one-sided benefit",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUs5T1hqWThVX1hLR",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUs5T1hqWThVX1hLRlNZR2NKc1Z0SjdxaHBBV",
+     "resolved": false
+    },
     {
      "title": "Taiwan flags 'obvious' threat from 50 Chinese vessels in wid",
      "date": "2026-10-29",
@@ -36,13 +43,6 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN1h6RWZLcXNVQjdLO",
      "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN1h6RWZLcXNVQjdLOTlHekdERnBUZjdrNWRLb",
      "resolved": false
-    },
-    {
-     "title": "Mbappe's Mao remarks expose costs of crossing China's red li",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQmNXNzdHQlJNTmk1S",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQmNXNzdHQlJNTmk1SG5pTWtzVEMwRGszNm1aX",
-     "resolved": false
     }
    ]
   },
@@ -52,18 +52,11 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China takes Mbappé's apology 'seriously' after backlash over his ‘Chinese dictator’ comments - AP News",
+   "sample": "US bans imports from 3 Chinese biotech companies over forced labor allegations - AP News",
    "diag": [
     {
-     "title": "China takes Mbappé's apology 'seriously' after backlash over",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXpWLW5hMndzTm54T",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXpWLW5hMndzTm54T01UdGVzeWdTQm5IR05ia",
-     "resolved": false
-    },
-    {
      "title": "US bans imports from 3 Chinese biotech companies over forced",
-     "date": "2026-10-28",
+     "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y2RSQXBjcE0xWnVtZXpmb",
      "resolved": false
@@ -73,6 +66,13 @@
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxN",
      "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTQ4UjVlWS1MVlhxNUFHOVlZSk1IWHk2ai1tR",
+     "resolved": false
+    },
+    {
+     "title": "China takes Mbappé's apology 'seriously' after backlash over",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXpWLW5hMndzTm54T",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXpWLW5hMndzTm54T01UdGVzeWdTQm5IR05ia",
      "resolved": false
     },
     {
@@ -142,8 +142,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese Tech Stocks Sink Even as Chipmaker Sales Surge 1,800% - Bloomberg.com",
+   "sample": "Copper ‘Sold Out Everywhere’ as Key China Gauge Flashes Warning - Bloomberg.com",
    "diag": [
+    {
+     "title": "Copper ‘Sold Out Everywhere’ as Key China Gauge Flashes Warn",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVZDQTFiNUJfWk9mb",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVZDQTFiNUJfWk9mb1VZS2E1VkpIU0tMOVVzM",
+     "resolved": false
+    },
+    {
+     "title": "China and the US Are Competing for Space Dominance - Bloombe",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTVsX3luU3N4cm5XR",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTVsX3luU3N4cm5XRm9JQzBERjM0MkowaUYyZ",
+     "resolved": false
+    },
     {
      "title": "Chinese Tech Stocks Sink Even as Chipmaker Sales Surge 1,800",
      "date": "2026-10-29",
@@ -152,31 +166,17 @@
      "resolved": false
     },
     {
+     "title": "Hello Kitty Owner Sanrio Axes Japan Show Ties After China Fu",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMGxlcU5PNHdSa1JsY",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMGxlcU5PNHdSa1JsYTlVNkxpV2FYNC1HQWtKT",
+     "resolved": false
+    },
+    {
      "title": "Pakistan Allows Taiwan Airlines to Use Airspace in Abrupt U-",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTS",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTSF9pZnNBNzNpSUpPSWh3b",
-     "resolved": false
-    },
-    {
-     "title": "US Bans Chinese Genomics Companies, Citing Forced Labor - Bl",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFg1YTRRYUdWaGVTS",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFg1YTRRYUdWaGVTSEcyWDhiTHRWSE03b0dyT",
-     "resolved": false
-    },
-    {
-     "title": "North Korea Launches Suspected Ballistic Missile, Japan Says",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMWxXOEdta2NaVnp2O",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMWxXOEdta2NaVnp2OXNEZ3JVeUVjdFdxeEFrM",
-     "resolved": false
-    },
-    {
-     "title": "Xi’s Corruption Purges Upend Hunt for China’s Next Top Leade",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2dRZFl6cDA0VlVpZ",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2dRZFl6cDA0VlVpZ2phbllDdHVyWEpyeTBZc",
      "resolved": false
     }
    ]
@@ -197,6 +197,13 @@
      "resolved": false
     },
     {
+     "title": "Ford says it will take on Chinese rivals by 'going into thei",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc25fU0JRSDk2WEpic",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc25fU0JRSDk2WEpicXFIY3JrMmlXVDhSV3ZzW",
+     "resolved": false
+    },
+    {
      "title": "US to halt visa waivers for Chinese traveling to Pacific ter",
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOGktdFNXR1V1cUkzZ",
@@ -204,10 +211,10 @@
      "resolved": false
     },
     {
-     "title": "UAE bank Mashreq injects $125m into Hong Kong business as Ch",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3loM01RNUowZEszd",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3loM01RNUowZEszdjBJMWFQQmdsX21ELUNwZ",
+     "title": "North Korea's Kim Jong Un visits China via newly opened brid",
+     "date": "2026-10-24",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3O",
      "resolved": false
     },
     {
@@ -215,13 +222,6 @@
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOFcxYmdFTVprYnU5d",
      "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOFcxYmdFTVprYnU5dXJRV2pYSDFDWDJ2MmRFT",
-     "resolved": false
-    },
-    {
-     "title": "North Korea's Kim Jong Un visits China via newly opened brid",
-     "date": "2026-10-24",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3O",
      "resolved": false
     }
    ]
@@ -232,8 +232,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "The AI bubble already popped — in China - Financial Times",
+   "sample": "Volkswagen losses surge to €5.9bn as China sales slump - Financial Times",
    "diag": [
+    {
+     "title": "Volkswagen losses surge to €5.9bn as China sales slump - Fin",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVNoNFdpN3d2S1hVM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVNoNFdpN3d2S1hVM2xWV3UxeC1oMG8wdzROO",
+     "resolved": false
+    },
+    {
+     "title": "Hello Kitty gets caught up in Japan-China spat - Financial T",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMVVmMThieUJydnhna",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMVVmMThieUJydnhnaENpczBTRWNrdHN3UTFvc",
+     "resolved": false
+    },
     {
      "title": "The AI bubble already popped — in China - Financial Times",
      "date": "2026-10-28",
@@ -254,20 +268,6 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazJiT1NocTA3d3lFY",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazJiT1NocTA3d3lFYi1QYzlfckR3SHJxZ2hPQ",
      "resolved": false
-    },
-    {
-     "title": "Toyota takes on Tesla and China in humanoid robot race - Fin",
-     "date": "2026-10-25",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNT",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNTTlwaWtmU3F6UmlUU0VZc",
-     "resolved": false
-    },
-    {
-     "title": "Chinese brands put boot into Kylian Mbappé after viral ‘dict",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1hyZldwQjd4b0doQ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1hyZldwQjd4b0doQnRJVzU5V3BKcE9MWjJ6Z",
-     "resolved": false
     }
    ]
   },
@@ -277,15 +277,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Electric Carmakers Are Running Out of Domestic Buyers | The 10-Point for Oct. 28 - WSJ",
+   "sample": "Mercedes-Benz to Offer Voluntary Buyouts for Support Staff as Market Worsens - WSJ",
    "diag": [
-    {
-     "title": "China’s Electric Carmakers Are Running Out of Domestic Buyer",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTc",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTclpxSTNqNnY2RkUyLWZaR",
-     "resolved": false
-    },
     {
      "title": "Mercedes-Benz to Offer Voluntary Buyouts for Support Staff a",
      "date": "2026-10-28",
@@ -294,8 +287,15 @@
      "resolved": false
     },
     {
-     "title": "China’s Car Industry Is Wowing the World—but Crashing at Hom",
+     "title": "China’s Electric Carmakers Are Running Out of Domestic Buyer",
      "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTc",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTclpxSTNqNnY2RkUyLWZaR",
+     "resolved": false
+    },
+    {
+     "title": "China’s Car Industry Is Wowing the World—but Crashing at Hom",
+     "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfb",
      "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfbzhaVG9yQTh0dmNFdzUya",
      "resolved": false
@@ -326,7 +326,7 @@
    "diag": [
     {
      "title": "U.S. Restricts Trade With Chinese Genomics Company - The New",
-     "date": "2026-10-28",
+     "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOTRzdFQxSHZIbmVzT",
      "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOTRzdFQxSHZIbmVzTlMtUmk0NHNjN3o5elI3U",
      "resolved": false
@@ -410,17 +410,10 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 59,
    "is_feed": true,
-   "sample": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwart China's rare earths grip, sources say - Reuters",
+   "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
    "diag": [
-    {
-     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
-     "resolved": false
-    },
     {
      "title": "France minerals envoy says rare earths diversification from ",
      "date": "2026-10-28",
@@ -436,17 +429,24 @@
      "resolved": false
     },
     {
-     "title": "China September rare earth exports rise 6.7% from a year ear",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
+     "title": "China rare earth firms halt some US shipments over geopoliti",
+     "date": "2026-09-04",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
      "resolved": false
     },
     {
-     "title": "Phoenix Tailings to build $375-million rare earths facility ",
-     "date": "2026-10-20",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR0F4SV9rdVFJMzRIdGN6T",
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "resolved": false
+    },
+    {
+     "title": "Corporate Japan's rare-earth warnings get louder as China ke",
+     "date": "2026-07-07",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZ",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZTQ4UGhqMENYZDdmZGYtc",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 38,
    "is_feed": true,
-   "sample": "<![CDATA[印中關係緩和之際：印邊境官員稱中國軍隊大批集結並搭帳篷]]>"
+   "sample": "<![CDATA[劉延東逝世：「紅二代」「團派」背景，政治局裡少見的女性身影]]>"
   },
   {
    "name": "美国国务院",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Trump&#8217;s Russian diesel deal benefits Moscow more than US consumers, experts say"
+   "sample": "After Vucic ouster, Serbia’s weapons-buying habits are under the microscope"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Peace Talks Won’t Save Oil Buyers From $100-Plus Oil"
+   "sample": "EU Scrambles to Contain Energy Price Crisis Ahead of Winter"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Canada and EU drop associate membership plan in bid to deepen ties"
+   "sample": "'Desolation, despair': Spain begins three days of mourning after deadly train crash"
   },
   {
    "name": "JapanTimes",
@@ -676,9 +676,10 @@
   {
    "name": "BreakingDefense",
    "url": "https://breakingdefense.com/feed/",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "Counter-UAS solution finds and classifies targets at standoff distance with “autonomous perception”"
   },
   {
    "name": "MiningWeekly",
