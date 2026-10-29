@@ -2,7 +2,7 @@ name: intel-watch
 on:
   schedule:
     - cron: "*/30 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
 jobs:
   intel:
     runs-on: ubuntu-latest
