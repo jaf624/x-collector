@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-29T09:14:40.707214Z",
+ "probed_at": "2026-10-29T15:46:19.085657Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,41 +7,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Germany's Steinmeier says China must avoid one-sided benefits in economic ties - Reuters",
+   "sample": "China's Communist Party confirms expulsion of 33 officials - Reuters",
    "diag": [
     {
-     "title": "Germany's Steinmeier says China must avoid one-sided benefit",
+     "title": "China's Communist Party confirms expulsion of 33 officials -",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUs5T1hqWThVX1hLR",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUs5T1hqWThVX1hLRlNZR2NKc1Z0SjdxaHBBV",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPblFZUFd0QWlTQ1ItU",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPblFZUFd0QWlTQ1ItUmJ6cXJKck9UdTE5X2JXM",
      "resolved": false
     },
     {
-     "title": "Taiwan flags 'obvious' threat from 50 Chinese vessels in wid",
+     "title": "Philippines-China tensions resurface at the close of ASEAN d",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNelRKZ21DWjJBX09xR",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNelRKZ21DWjJBX09xRTJyZnBicWsyLWJTQk1Cc",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlpNUVZydmhPLWpKa",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlpNUVZydmhPLWpKam5sVDc3aHJaang1akJ4Q",
      "resolved": false
     },
     {
-     "title": "Chinese AI model carries out complex cyberattacks in control",
+     "title": "China's Communist Party conclave on toughening discipline se",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVE5MN2Rib1hrX3Z1V",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVE5MN2Rib1hrX3Z1VDhFWlZiSTUyc0oydVhxN",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUEtOURjOXhiX3AyU",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUEtOURjOXhiX3AyUzZjeVhLOTByR2dqLXZyN",
      "resolved": false
     },
     {
-     "title": "Welcome to the new ‘Made in China’ - Reuters",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jWXRwMFJHeWNSdnlCL",
-     "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jWXRwMFJHeWNSdnlCLUVvNXNmTWV1bHRkS1Y4Y",
+     "title": "Volkswagen posts deepest loss since Dieselgate on Porsche wr",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPME5ta3ZpdnRTQXdPN",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPME5ta3ZpdnRTQXdPNzgwZ0pkYVEtX1N1OGR2S",
      "resolved": false
     },
     {
-     "title": "US bans imports from BGI Genomics, MGI Tech, citing ties to ",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN1h6RWZLcXNVQjdLO",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN1h6RWZLcXNVQjdLOTlHekdERnBUZjdrNWRLb",
+     "title": "Hello Kitty maker Sanrio cuts ties with TV spy show after Ch",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRlJ2VXVOdFlqN2JLV",
+     "real": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRlJ2VXVOdFlqN2JLVUdxWXlTRl9aZjBHSGQyW",
      "resolved": false
     }
    ]
@@ -52,13 +52,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US bans imports from 3 Chinese biotech companies over forced labor allegations - AP News",
+   "sample": "China's record-breaking exports of clean tech are making a big dent in emissions, report says - AP News",
    "diag": [
     {
-     "title": "US bans imports from 3 Chinese biotech companies over forced",
+     "title": "China's record-breaking exports of clean tech are making a b",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y2RSQXBjcE0xWnVtZXpmb",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQa",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQajdJVUo1YW5ONVdJNUUxN",
      "resolved": false
     },
     {
@@ -69,10 +69,17 @@
      "resolved": false
     },
     {
-     "title": "China takes Mbappé's apology 'seriously' after backlash over",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXpWLW5hMndzTm54T",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXpWLW5hMndzTm54T01UdGVzeWdTQm5IR05ia",
+     "title": "US bans imports from 3 Chinese biotech companies over forced",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y2RSQXBjcE0xWnVtZXpmb",
+     "resolved": false
+    },
+    {
+     "title": "Mongolian mining company says copper exports have dropped du",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkya",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkyaW1OYjgyU2U3SFhaUkN2X",
      "resolved": false
     },
     {
@@ -80,13 +87,6 @@
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWEx2MVZ4bm1WY3RYL",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWEx2MVZ4bm1WY3RYLXNBT2VTVUpJR0k3MzRNT",
-     "resolved": false
-    },
-    {
-     "title": "ByteDance founder Zhang Yiming reclaims top spot in China’s ",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2kwbFVkNzZHNVJNU",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2kwbFVkNzZHNVJNU25yam4xRWRPaU1sLWdHQ",
      "resolved": false
     }
    ]
@@ -142,15 +142,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Copper ‘Sold Out Everywhere’ as Key China Gauge Flashes Warning - Bloomberg",
+   "sample": "China and the US Are Competing for Space Dominance - Bloomberg.com",
    "diag": [
-    {
-     "title": "Copper ‘Sold Out Everywhere’ as Key China Gauge Flashes Warn",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVZDQTFiNUJfWk9mb",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVZDQTFiNUJfWk9mb1VZS2E1VkpIU0tMOVVzM",
-     "resolved": false
-    },
     {
      "title": "China and the US Are Competing for Space Dominance - Bloombe",
      "date": "2026-10-29",
@@ -166,10 +159,10 @@
      "resolved": false
     },
     {
-     "title": "Hello Kitty Owner Sanrio Axes Japan Show Ties After China Fu",
+     "title": "Copper ‘Sold Out Everywhere’ as Key China Gauge Flashes Warn",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMGxlcU5PNHdSa1JsY",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMGxlcU5PNHdSa1JsYTlVNkxpV2FYNC1HQWtKT",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVZDQTFiNUJfWk9mb",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVZDQTFiNUJfWk9mb1VZS2E1VkpIU0tMOVVzM",
      "resolved": false
     },
     {
@@ -177,6 +170,13 @@
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTS",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTSF9pZnNBNzNpSUpPSWh3b",
+     "resolved": false
+    },
+    {
+     "title": "China Elevates Key Actor in Xi’s Purges With Rare Politburo ",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTFEUkJPS1RkTnVsM",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTFEUkJPS1RkTnVsMk9zLVFGcUhpRkc2Y0F5Q",
      "resolved": false
     }
    ]
@@ -197,10 +197,10 @@
      "resolved": false
     },
     {
-     "title": "Ford says it will take on Chinese rivals by 'going into thei",
+     "title": "Confusion over Pakistan policy on Taiwan airlines fuels Chin",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc25fU0JRSDk2WEpic",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc25fU0JRSDk2WEpicXFIY3JrMmlXVDhSV3ZzW",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONF9KbHFXWmJRRlMxO",
+     "real": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONF9KbHFXWmJRRlMxOGQ0VEpnMUJXRFlCSFFwe",
      "resolved": false
     },
     {
@@ -211,17 +211,17 @@
      "resolved": false
     },
     {
+     "title": "BYD rolls out public test tracks to promote China's car cult",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU2RZRjNCVWRMWU9WU",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU2RZRjNCVWRMWU9WUGtZVzVsTnlpN0lXRnVfW",
+     "resolved": false
+    },
+    {
      "title": "With China having fewer kids, dairies rethink milk for adult",
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOFcxYmdFTVprYnU5d",
      "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOFcxYmdFTVprYnU5dXJRV2pYSDFDWDJ2MmRFT",
-     "resolved": false
-    },
-    {
-     "title": "UAE bank Mashreq injects $125m into Hong Kong business as Ch",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3loM01RNUowZEszd",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3loM01RNUowZEszdjBJMWFQQmdsX21ELUNwZ",
      "resolved": false
     }
    ]
@@ -232,20 +232,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Hello Kitty gets caught up in Japan-China spat - Financial Times",
+   "sample": "China’s leaders vow tougher corruption crackdown - Financial Times",
    "diag": [
+    {
+     "title": "China’s leaders vow tougher corruption crackdown - Financial",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3U1MXQ3RjZOT1N6a",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3U1MXQ3RjZOT1N6aGo1cEpJVmduYUU0VGRRW",
+     "resolved": false
+    },
+    {
+     "title": "BYD’s export surge helps offset sales weakness in China - Fi",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTEpuelBlNjZGc3E0Q",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTEpuelBlNjZGc3E0Q1M4dWlKbFdMbngwbldHU",
+     "resolved": false
+    },
     {
      "title": "Hello Kitty gets caught up in Japan-China spat - Financial T",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMVVmMThieUJydnhna",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMVVmMThieUJydnhnaENpczBTRWNrdHN3UTFvc",
-     "resolved": false
-    },
-    {
-     "title": "Volkswagen losses surge to €5.9bn as China sales slump - Fin",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVNoNFdpN3d2S1hVM",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVNoNFdpN3d2S1hVM2xWV3UxeC1oMG8wdzROO",
      "resolved": false
     },
     {
@@ -256,17 +263,10 @@
      "resolved": false
     },
     {
-     "title": "China rushes to shore up markets as AI trade sours - Financi",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnVPSDFLZ1NVWE1fV",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnVPSDFLZ1NVWE1fVVJTTkxTTXJOWTFYd2RjQ",
-     "resolved": false
-    },
-    {
-     "title": "Mercedes-Benz vows to stay in China as sales slump - Financi",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazJiT1NocTA3d3lFY",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQazJiT1NocTA3d3lFYi1QYzlfckR3SHJxZ2hPQ",
+     "title": "Alphabet spells out more AI capex, China+1 doesn’t add up - ",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaEJLbWUyMWlVWXlsY",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaEJLbWUyMWlVWXlsYzVLRmpUYmRyZGE0T3dVa",
      "resolved": false
     }
    ]
@@ -277,13 +277,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Mercedes-Benz to Offer Voluntary Buyouts for Support Staff as Market Worsens - WSJ",
+   "sample": "China’s Xi Demands More Loyalty as Purges Trim Party Elite - WSJ",
    "diag": [
     {
-     "title": "Mercedes-Benz to Offer Voluntary Buyouts for Support Staff a",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYVFrYUhlM2pzajFmS",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYVFrYUhlM2pzajFmSWJHR1JNS2tyMFFpVVd1a",
+     "title": "China’s Xi Demands More Loyalty as Purges Trim Party Elite -",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWnZ1U19KeTR0VTNBM",
+     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWnZ1U19KeTR0VTNBM1Azb1l2eGUyVERuazdtY",
      "resolved": false
     },
     {
@@ -294,10 +294,10 @@
      "resolved": false
     },
     {
-     "title": "China’s Car Industry Is Wowing the World—but Crashing at Hom",
+     "title": "Mercedes-Benz to Offer Voluntary Buyouts for Support Staff a",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfb",
-     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfbzhaVG9yQTh0dmNFdzUya",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYVFrYUhlM2pzajFmS",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYVFrYUhlM2pzajFmSWJHR1JNS2tyMFFpVVd1a",
      "resolved": false
     },
     {
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "Opinion | Viktor Orbán, U.N. Secretary-General? - WSJ",
-     "date": "2026-10-25",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZ",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZDlyeHNtR0VkYXY4WFhld",
+     "title": "Geely Profit Climbs as Overseas Sales Offset Slowing China D",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQak55S2dlYU5qSl9PT",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQak55S2dlYU5qSl9PTWFuOGt4S2VXMVo2M0otc",
      "resolved": false
     }
    ]
@@ -322,20 +322,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "U.S. Restricts Trade With Chinese Genomics Company - The New York Times",
+   "sample": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deepens - The New York Times",
    "diag": [
     {
-     "title": "U.S. Restricts Trade With Chinese Genomics Company - The New",
+     "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOTRzdFQxSHZIbmVzT",
-     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOTRzdFQxSHZIbmVzTlMtUmk0NHNjN3o5elI3U",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
+     "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9SamxqX2dmTkpnell6NEd5N",
      "resolved": false
     },
     {
-     "title": "A Chinese Port Could Be a Lifeline for Spain, but Also a Thr",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeXNNNkdCc0NBTGtka",
-     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeXNNNkdCc0NBTGtkazVEbXgzZHJTRzZTMHdMO",
+     "title": "Nvidia Chief Seen as Target of Chinese Spy Plot - The New Yo",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
+     "resolved": false
+    },
+    {
+     "title": "China Is Not Happy About Fan-made A.I. Videos of Sun Wukong ",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN0dONjM1TWMtclN4S",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN0dONjM1TWMtclN4S0RKcENwekcyWl9OQ2RvU",
      "resolved": false
     },
     {
@@ -346,17 +353,10 @@
      "resolved": false
     },
     {
-     "title": "China Steps In to Rescue Stocks, But the Market Continues to",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUVXYUQxZUhYNnBqZ",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUVXYUQxZUhYNnBqZ2lQbjlZLVRyTkphZVhyR",
-     "resolved": false
-    },
-    {
-     "title": "Kylian Mbappe apologises after Chinese brands drop him over ",
+     "title": "A Chinese Port Could Be a Lifeline for Spain, but Also a Thr",
      "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTlFRa011N2Y5WVo1T",
-     "real": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTlFRa011N2Y5WVo1TmdEOTY5RW84WWlqb2hvZ",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeXNNNkdCc0NBTGtka",
+     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeXNNNkdCc0NBTGtkazVEbXgzZHJTRzZTMHdMO",
      "resolved": false
     }
    ]
@@ -367,8 +367,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s stock markets are the great global exception - The Economist",
+   "sample": "The countries making a fortune from the US-China rivalry - The Economist",
    "diag": [
+    {
+     "title": "The countries making a fortune from the US-China rivalry - T",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb2c1a1NHS1ZMb1lScVNvU",
+     "resolved": false
+    },
     {
      "title": "China’s stock markets are the great global exception - The E",
      "date": "2026-10-28",
@@ -396,13 +403,6 @@
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWE5aFo0eVpFTXZuS",
      "real": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWE5aFo0eVpFTXZuS3lubHk1cmtiNTltSEhLW",
      "resolved": false
-    },
-    {
-     "title": "China’s most successful Astroturf operation: grassroots foot",
-     "date": "2026-10-26",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0FTNlpuZ2tqWHNCX",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0FTNlpuZ2tqWHNCX0UzZW5XallrNVdyeVlLM",
-     "resolved": false
     }
    ]
   },
@@ -410,24 +410,10 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 59,
    "is_feed": true,
-   "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
+   "sample": "DTEC granted permit to ship raw rare earths from Malaysia to US for research, CEO says - Reuters",
    "diag": [
-    {
-     "title": "France minerals envoy says rare earths diversification from ",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZN",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZNXliXzFIZGQ2NTduaXJDU",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
-     "resolved": false
-    },
     {
      "title": "DTEC granted permit to ship raw rare earths from Malaysia to",
      "date": "2026-10-27",
@@ -436,17 +422,31 @@
      "resolved": false
     },
     {
-     "title": "China September rare earth exports rise 6.7% from a year ear",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
+     "title": "France minerals envoy says rare earths diversification from ",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZN",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZNXliXzFIZGQ2NTduaXJDU",
      "resolved": false
     },
     {
-     "title": "Phoenix Tailings to build $375-million rare earths facility ",
-     "date": "2026-10-20",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR0F4SV9rdVFJMzRIdGN6T",
+     "title": "China rare earth firms halt some US shipments over geopoliti",
+     "date": "2026-09-04",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
+     "resolved": false
+    },
+    {
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "resolved": false
+    },
+    {
+     "title": "Corporate Japan's rare-earth warnings get louder as China ke",
+     "date": "2026-07-07",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZ",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZTQ4UGhqMENYZDdmZGYtc",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 38,
    "is_feed": true,
-   "sample": "<![CDATA[香港宏福苑大火報告公開：特首率官員鞠躬道歉，房屋局長請辭]]>"
+   "sample": "<![CDATA[中共五中全會閉幕：出席委員較本屆初減少四分之一 張升民罕見增選入政治局]]>"
   },
   {
    "name": "美国国务院",
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "U.S. Marine Drone Detachment in the Philippines Operating from Palawan Airfield"
+   "sample": "Report to Congress on the U.S. Army&#8217;s Infantry Squad Vehicle"
   },
   {
    "name": "DefenseNews",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "After Vucic ouster, Serbia’s weapons-buying habits are under the microscope"
+   "sample": "Destinus&#8217; monthly output tops Europe&#8217;s pre-war annual cruise missile production"
   },
   {
    "name": "Mining",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "HyProMag USA PFS outlines $2.1B upside from rare earth magnet platform expansion"
+   "sample": "Glencore cobalt output sinks 52% under DRC quotas"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "EU Scrambles to Contain Energy Price Crisis Ahead of Winter"
+   "sample": "Trafigura Signs New Gas Supply Deal with German SEFE"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "'Desolation, despair': Spain begins three days of mourning after deadly train crash"
+   "sample": "Ireland opens arms to Americans fleeing US President Donald Trump"
   },
   {
    "name": "JapanTimes",
@@ -676,10 +676,9 @@
   {
    "name": "BreakingDefense",
    "url": "https://breakingdefense.com/feed/",
-   "status": 200,
-   "items": 15,
-   "is_feed": true,
-   "sample": "Counter-UAS solution finds and classifies targets at standoff distance with “autonomous perception”"
+   "status": 403,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "MiningWeekly",
