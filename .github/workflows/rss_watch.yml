@@ -2,7 +2,7 @@ name: rss-watch
 on:
   schedule:
     - cron: "*/20 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
 jobs:
   rss:
     runs-on: ubuntu-latest
