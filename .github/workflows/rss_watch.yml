@@ -21,4 +21,5 @@ jobs:
           INTEL_RSS_ONLY: "1"
         run: python3 intel_collect.py
       - name: Commit feed
-        run: bash commit_feed.sh "data: rss watch feed update"
+        run: |
+          bash commit_feed.sh 'data: rss watch feed update'
