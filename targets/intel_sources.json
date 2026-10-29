@@ -771,6 +771,48 @@
       "lang": "en",
       "cat": "能源",
       "pat": "argusmedia\\.com/[^\\s\\)\\]]+"
+    },
+    {
+      "name": "Cybersecurity Insiders",
+      "url": "https://www.cybersecurity-insiders.com/feed/",
+      "lang": "en",
+      "cat": "网络安全",
+      "pat": "cybersecurity-insiders\\.com/[^\\s\\)\\]]+"
+    },
+    {
+      "name": "CISA公告",
+      "url": "https://www.cisa.gov/news.xml",
+      "lang": "en",
+      "cat": "网络安全",
+      "pat": "cisa\\.gov/news-events/[^\\s\\)\\]]+"
+    },
+    {
+      "name": "BIS出口管制",
+      "url": "https://www.bis.doc.gov/index.php/8-newsroom/updates?format=feed",
+      "lang": "en",
+      "cat": "出口管制",
+      "pat": "bis\\.doc\\.gov/[^\\s\\)\\]]+"
+    },
+    {
+      "name": "S&P Global资源",
+      "url": "https://www.spglobal.com/commodityinsights/en/ci/rss?feed=Platts",
+      "lang": "en",
+      "cat": "资源矿产",
+      "pat": "spglobal\\.com/commodityinsights/[^\\s\\)\\]]+"
+    },
+    {
+      "name": "Wood Mackenzie能源",
+      "url": "https://www.woodmac.com/newsroom/rss/",
+      "lang": "en",
+      "cat": "能源",
+      "pat": "woodmac\\.com/[^\\s\\)\\]]+"
+    },
+    {
+      "name": "South China Morning Post",
+      "url": "https://www.scmp.com/rss/91/feed",
+      "lang": "en",
+      "cat": "国际新闻",
+      "pat": "scmp\\.com/news/[^\\s\\)\\]]+"
     }
   ],
   "search_categories": [
@@ -1037,6 +1079,30 @@
     {
       "cat": "社会舆情风险",
       "q": "China social media public sentiment livelihood anxiety youth"
+    },
+    {
+      "cat": "涉华网络攻击",
+      "q": "China cyberattack Volt Typhoon APT hacking infrastructure US critical"
+    },
+    {
+      "cat": "稀土出口管制",
+      "q": "China rare earth export control gallium germanium antimony restriction"
+    },
+    {
+      "cat": "半导体管制",
+      "q": "China semiconductor export control chip entity list restriction"
+    },
+    {
+      "cat": "涉外机构动态",
+      "q": "China diaspora organization new activity coalition campaign"
+    },
+    {
+      "cat": "关键基础设施威胁",
+      "q": "China critical infrastructure threat submarine cable undersea"
+    },
+    {
+      "cat": "数据跨境与安全",
+      "q": "China data cross-border transfer security personal information law"
     }
   ],
   "watch_categories": [
