@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-29T00:44:53.168121Z",
+ "probed_at": "2026-10-29T02:36:13.917493Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -52,20 +52,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China takes Mbappé's apology 'seriously' after backlash over his ‘Chinese dictator’ comments - AP News",
+   "sample": "US bans imports from 3 Chinese biotech companies over forced labor allegations - AP News",
    "diag": [
-    {
-     "title": "China takes Mbappé's apology 'seriously' after backlash over",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXpWLW5hMndzTm54T",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXpWLW5hMndzTm54T01UdGVzeWdTQm5IR05ia",
-     "resolved": false
-    },
     {
      "title": "US bans imports from 3 Chinese biotech companies over forced",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y2RSQXBjcE0xWnVtZXpmb",
+     "resolved": false
+    },
+    {
+     "title": "China takes Mbappé's apology 'seriously' after backlash over",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXpWLW5hMndzTm54T",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXpWLW5hMndzTm54T01UdGVzeWdTQm5IR05ia",
      "resolved": false
     },
     {
@@ -83,10 +83,10 @@
      "resolved": false
     },
     {
-     "title": "What to know about China’s plenum as Xi seeks stronger Commu",
-     "date": "2026-10-26",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE9NbzRMSEY4YkVVM",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE9NbzRMSEY4YkVVMHhZWkVVTWJ5a3RESm1Id",
+     "title": "ByteDance founder Zhang Yiming reclaims top spot in China’s ",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2kwbFVkNzZHNVJNU",
+     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2kwbFVkNzZHNVJNU25yam4xRWRPaU1sLWdHQ",
      "resolved": false
     }
    ]
@@ -142,20 +142,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Palantir’s Defense Chief Sees Chinese Threat to Taiwan Over AI - Bloomberg",
+   "sample": "Pakistan Allows Taiwan Airlines to Use Airspace in Abrupt U-Turn - Bloomberg",
    "diag": [
-    {
-     "title": "Palantir’s Defense Chief Sees Chinese Threat to Taiwan Over ",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRnBWYVZEMGZ0ek5EW",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRnBWYVZEMGZ0ek5EWFd4dklsQ3AzbHFibjM0N",
-     "resolved": false
-    },
     {
      "title": "Pakistan Allows Taiwan Airlines to Use Airspace in Abrupt U-",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTS",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTSF9pZnNBNzNpSUpPSWh3b",
+     "resolved": false
+    },
+    {
+     "title": "US Bans Chinese Genomics Companies, Citing Forced Labor - Bl",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFg1YTRRYUdWaGVTS",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFg1YTRRYUdWaGVTSEcyWDhiTHRWSE03b0dyT",
      "resolved": false
     },
     {
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China Set to Lead in AI Models, Other Key Areas by 2030, BI ",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTmNEaVdwYnk0SVBtR",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTmNEaVdwYnk0SVBtRnZLUVZJNnJZT0RwTElIW",
-     "resolved": false
-    },
-    {
      "title": "Xi’s Corruption Purges Upend Hunt for China’s Next Top Leade",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2dRZFl6cDA0VlVpZ",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2dRZFl6cDA0VlVpZ2phbllDdHVyWEpyeTBZc",
+     "resolved": false
+    },
+    {
+     "title": "China Set to Lead in AI Models, Other Key Areas by 2030, BI ",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTmNEaVdwYnk0SVBtR",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTmNEaVdwYnk0SVBtRnZLUVZJNnJZT0RwTElIW",
      "resolved": false
     }
    ]
@@ -332,17 +332,17 @@
      "resolved": false
     },
     {
-     "title": "Why Kylian Mbappe angered China – and the possible consequen",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcktkOWZOWFFuWTBCe",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcktkOWZOWFFuWTBCeGY2X2VSTHlMNmllZ01SX",
-     "resolved": false
-    },
-    {
      "title": "A Chinese Port Could Be a Lifeline for Spain, but Also a Thr",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeXNNNkdCc0NBTGtka",
      "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeXNNNkdCc0NBTGtkazVEbXgzZHJTRzZTMHdMO",
+     "resolved": false
+    },
+    {
+     "title": "Why Kylian Mbappe angered China – and the possible consequen",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcktkOWZOWFFuWTBCe",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcktkOWZOWFFuWTBCeGY2X2VSTHlMNmllZ01SX",
      "resolved": false
     },
     {
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
+     "title": "China September rare earth exports rise 6.7% from a year ear",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
+     "resolved": false
+    },
+    {
      "title": "Phoenix Tailings to build $375-million rare earths facility ",
      "date": "2026-10-20",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR",
      "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR0F4SV9rdVFJMzRIdGN6T",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
      "resolved": false
     }
    ]
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Rail safety questioned after Spain suffers second fatal high-speed train crash in a year"
+   "sample": "Canada and EU drop associate membership plan in bid to deepen ties"
   },
   {
    "name": "JapanTimes",
