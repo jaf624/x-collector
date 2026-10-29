@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-28T23:15:10.941410Z",
+ "probed_at": "2026-10-29T00:44:53.168121Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -17,17 +17,17 @@
      "resolved": false
     },
     {
-     "title": "Real Madrid apologise to Chinese people after Mbappe's Mao '",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYndKWEVTQXdYMEhHN",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYndKWEVTQXdYMEhHNEM1UnVNb2xtdnRfUklGb",
-     "resolved": false
-    },
-    {
      "title": "Mbappe's Mao remarks expose costs of crossing China's red li",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQmNXNzdHQlJNTmk1S",
      "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQmNXNzdHQlJNTmk1SG5pTWtzVEMwRGszNm1aX",
+     "resolved": false
+    },
+    {
+     "title": "Real Madrid apologise to Chinese people after Mbappe's Mao '",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYndKWEVTQXdYMEhHN",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYndKWEVTQXdYMEhHNEM1UnVNb2xtdnRfUklGb",
      "resolved": false
     },
     {
@@ -62,6 +62,13 @@
      "resolved": false
     },
     {
+     "title": "US bans imports from 3 Chinese biotech companies over forced",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y2RSQXBjcE0xWnVtZXpmb",
+     "resolved": false
+    },
+    {
      "title": "Real Madrid issues public apology to China over Mbappé’s Mao",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWEx2MVZ4bm1WY3RYL",
@@ -80,13 +87,6 @@
      "date": "2026-10-26",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE9NbzRMSEY4YkVVM",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE9NbzRMSEY4YkVVMHhZWkVVTWJ5a3RESm1Id",
-     "resolved": false
-    },
-    {
-     "title": "ByteDance founder Zhang Yiming reclaims top spot in China’s ",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2kwbFVkNzZHNVJNU",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2kwbFVkNzZHNVJNU25yam4xRWRPaU1sLWdHQ",
      "resolved": false
     }
    ]
@@ -142,7 +142,7 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Palantir’s Defense Chief Sees Chinese Threat to Taiwan Over AI - Bloomberg.com",
+   "sample": "Palantir’s Defense Chief Sees Chinese Threat to Taiwan Over AI - Bloomberg",
    "diag": [
     {
      "title": "Palantir’s Defense Chief Sees Chinese Threat to Taiwan Over ",
@@ -277,8 +277,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Mercedes-Benz to Offer Voluntary Buyouts for Support Staff as Market Worsens - WSJ",
+   "sample": "China’s Electric Carmakers Are Running Out of Domestic Buyers | The 10-Point for Oct. 28 - WSJ",
    "diag": [
+    {
+     "title": "China’s Electric Carmakers Are Running Out of Domestic Buyer",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTc",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTclpxSTNqNnY2RkUyLWZaR",
+     "resolved": false
+    },
     {
      "title": "Mercedes-Benz to Offer Voluntary Buyouts for Support Staff a",
      "date": "2026-10-28",
@@ -294,10 +301,10 @@
      "resolved": false
     },
     {
-     "title": "China’s Electric Carmakers Are Running Out of Domestic Buyer",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTc",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmx2WTg5TlVyVXpTclpxSTNqNnY2RkUyLWZaR",
+     "title": "Xi Wants to Play Peacemaker. Trump Has Other Ideas for a His",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRV84N0VCX2tWQ2VxR",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRV84N0VCX2tWQ2VxR000bVZEU29DSXlOa09HZ",
      "resolved": false
     },
     {
@@ -305,13 +312,6 @@
      "date": "2026-10-25",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZ",
      "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZDlyeHNtR0VkYXY4WFhld",
-     "resolved": false
-    },
-    {
-     "title": "Xi Wants to Play Peacemaker. Trump Has Other Ideas for a His",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRV84N0VCX2tWQ2VxR",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRV84N0VCX2tWQ2VxR000bVZEU29DSXlOa09HZ",
      "resolved": false
     }
    ]
@@ -398,10 +398,10 @@
      "resolved": false
     },
     {
-     "title": "India is pouring money and concrete into its border with Chi",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU5vTGlFS2FJeTZJa",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOU5vTGlFS2FJeTZJaGlQZ29lU2pSaTF5NFFWV",
+     "title": "China’s most successful Astroturf operation: grassroots foot",
+     "date": "2026-10-26",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0FTNlpuZ2tqWHNCX",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0FTNlpuZ2tqWHNCX0UzZW5XallrNVdyeVlLM",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 100,
    "is_feed": true,
    "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
    "diag": [
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
-     "title": "China rare earth firms halt some US shipments over geopoliti",
-     "date": "2026-09-04",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
+     "title": "Phoenix Tailings to build $375-million rare earths facility ",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR0F4SV9rdVFJMzRIdGN6T",
      "resolved": false
     },
     {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 38,
    "is_feed": true,
-   "sample": "<![CDATA[姆巴佩就「中國獨裁者」迷因道歉 背後的資訊真空與「毛澤東熱」]]>"
+   "sample": "<![CDATA[印中關係緩和之際：印邊境官員稱中國軍隊大批集結並搭帳篷]]>"
   },
   {
    "name": "美国国务院",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Green Manganese trials deliver high recovery rates alongside zinc extraction"
+   "sample": "HyProMag USA PFS outlines $2.1B upside from rare earth magnet platform expansion"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Oil Refineries Become Prime Targets as Global Fuel Shortage Worsens"
+   "sample": "Peace Talks Won’t Save Oil Buyers From $100-Plus Oil"
   },
   {
    "name": "IMF",
