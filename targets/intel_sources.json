@@ -708,6 +708,34 @@
       "lang": "en",
       "cat": "多边机制",
       "pat": "imf\\.org/en/News/Articles/[^\\s\\)\\]]+"
+    },
+    {
+      "name": "Krebs网络安全",
+      "url": "https://krebsonsecurity.com/feed/",
+      "lang": "en",
+      "cat": "网络安全",
+      "pat": "krebsonsecurity\\.com/[0-9]{4}/[0-9]{2}/[^\\s\\)\\]]+"
+    },
+    {
+      "name": "美国联邦公报",
+      "url": "https://www.federalregister.gov/documents.rss",
+      "lang": "en",
+      "cat": "官方公报",
+      "pat": "federalregister\\.gov/documents/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
+    },
+    {
+      "name": "Dark Reading网络安全",
+      "url": "https://www.darkreading.com/rss.xml",
+      "lang": "en",
+      "cat": "网络安全",
+      "pat": "darkreading\\.com/[a-z\\-]+/[a-z0-9\\-]+"
+    },
+    {
+      "name": "TechCrunch科技",
+      "url": "https://techcrunch.com/feed/",
+      "lang": "en",
+      "cat": "科技产业",
+      "pat": "techcrunch\\.com/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
     }
   ],
   "search_categories": [
@@ -934,6 +962,26 @@
     {
       "cat": "装备开源情报",
       "q": "China new naval vessel aircraft carrier UUV drone shipyard satellite imagery deployment"
+    },
+    {
+      "cat": "社会民生舆情",
+      "q": "China social media public opinion anxiety youth livelihood viral"
+    },
+    {
+      "cat": "关键矿产管制",
+      "q": "China critical minerals rare earth gallium germanium export restriction"
+    },
+    {
+      "cat": "货币金融避险",
+      "q": "China cross-border payment yuan SWIFT sanction treasury"
+    },
+    {
+      "cat": "海外涉华行动",
+      "q": "China overseas NGO diaspora influence campaign new coalition"
+    },
+    {
+      "cat": "数据泄露事件",
+      "q": "China database leak breach dark web personal records"
     }
   ],
   "watch_categories": [
