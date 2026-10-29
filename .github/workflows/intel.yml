@@ -23,4 +23,5 @@ jobs:
           INTEL_FORCE_SEARCH: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
         run: python3 intel_collect.py
       - name: Commit feed
-        run: bash commit_feed.sh "data: intel watch feed update + rss probe"
+        run: |
+          bash commit_feed.sh 'data: intel watch feed update and rss probe'
