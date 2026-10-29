@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-29T15:46:19.085657Z",
+ "probed_at": "2026-10-29T16:21:21.035263Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's Communist Party confirms expulsion of 33 officials - Reuters",
+   "sample": "China's Communist Party conclave on toughening discipline sees record expulsions, absences - Reuters",
    "diag": [
+    {
+     "title": "China's Communist Party conclave on toughening discipline se",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUEtOURjOXhiX3AyU",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUEtOURjOXhiX3AyUzZjeVhLOTByR2dqLXZyN",
+     "resolved": false
+    },
     {
      "title": "China's Communist Party confirms expulsion of 33 officials -",
      "date": "2026-10-29",
@@ -21,13 +28,6 @@
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlpNUVZydmhPLWpKa",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlpNUVZydmhPLWpKam5sVDc3aHJaang1akJ4Q",
-     "resolved": false
-    },
-    {
-     "title": "China's Communist Party conclave on toughening discipline se",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUEtOURjOXhiX3AyU",
-     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUEtOURjOXhiX3AyUzZjeVhLOTByR2dqLXZyN",
      "resolved": false
     },
     {
@@ -142,20 +142,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China and the US Are Competing for Space Dominance - Bloomberg.com",
+   "sample": "Chinese Tech Stocks Sink Even as Chipmaker Sales Surge 1,800% - Bloomberg.com",
    "diag": [
-    {
-     "title": "China and the US Are Competing for Space Dominance - Bloombe",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTVsX3luU3N4cm5XR",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTVsX3luU3N4cm5XRm9JQzBERjM0MkowaUYyZ",
-     "resolved": false
-    },
     {
      "title": "Chinese Tech Stocks Sink Even as Chipmaker Sales Surge 1,800",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdVNRVVpvS1l2MTdyM",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdVNRVVpvS1l2MTdyM2oxTXNDRktlZmlCWndLd",
+     "resolved": false
+    },
+    {
+     "title": "China and the US Are Competing for Space Dominance - Bloombe",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTVsX3luU3N4cm5XR",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTVsX3luU3N4cm5XRm9JQzBERjM0MkowaUYyZ",
      "resolved": false
     },
     {
@@ -173,10 +173,10 @@
      "resolved": false
     },
     {
-     "title": "China Elevates Key Actor in Xi’s Purges With Rare Politburo ",
+     "title": "US Bans Chinese Genomics Companies, Citing Forced Labor - Bl",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTFEUkJPS1RkTnVsM",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTFEUkJPS1RkTnVsMk9zLVFGcUhpRkc2Y0F5Q",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFg1YTRRYUdWaGVTS",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFg1YTRRYUdWaGVTSEcyWDhiTHRWSE03b0dyT",
      "resolved": false
     }
    ]
@@ -187,15 +187,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "HP and Asus shift some PC making back to China due to AI-driven cost hikes - Nikkei Asia",
+   "sample": "Confusion over Pakistan policy on Taiwan airlines fuels China squeeze fears - Nikkei Asia",
    "diag": [
-    {
-     "title": "HP and Asus shift some PC making back to China due to AI-dri",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc1NqYzVESkVHNEZQT",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc1NqYzVESkVHNEZQTXoxX2d4WmNNdlNkaUFxM",
-     "resolved": false
-    },
     {
      "title": "Confusion over Pakistan policy on Taiwan airlines fuels Chin",
      "date": "2026-10-29",
@@ -204,24 +197,31 @@
      "resolved": false
     },
     {
-     "title": "North Korea's Kim Jong Un visits China via newly opened brid",
-     "date": "2026-10-24",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3O",
+     "title": "HP and Asus shift some PC making back to China due to AI-dri",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc1NqYzVESkVHNEZQT",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc1NqYzVESkVHNEZQTXoxX2d4WmNNdlNkaUFxM",
      "resolved": false
     },
     {
-     "title": "BYD rolls out public test tracks to promote China's car cult",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU2RZRjNCVWRMWU9WU",
-     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU2RZRjNCVWRMWU9WUGtZVzVsTnlpN0lXRnVfW",
+     "title": "Ford says it will take on Chinese rivals by 'going into thei",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc25fU0JRSDk2WEpic",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc25fU0JRSDk2WEpicXFIY3JrMmlXVDhSV3ZzW",
      "resolved": false
     },
     {
-     "title": "With China having fewer kids, dairies rethink milk for adult",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOFcxYmdFTVprYnU5d",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOFcxYmdFTVprYnU5dXJRV2pYSDFDWDJ2MmRFT",
+     "title": "BYD, Geely lean on global growth as China market enters 'har",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdmxzNHFjRjAyaHhBN",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdmxzNHFjRjAyaHhBNGR1Vi1KSG1lby1wLU11U",
+     "resolved": false
+    },
+    {
+     "title": "China issues fade in US as midterm voters focus on prices - ",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeVZfdktQdDE1eDU2e",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeVZfdktQdDE1eDU2emVrWXlZRVJmSGxvdEZmZ",
      "resolved": false
     }
    ]
@@ -322,20 +322,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deepens - The New York Times",
+   "sample": "Nvidia Chief Seen as Target of Chinese Spy Plot - The New York Times",
    "diag": [
-    {
-     "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
-     "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9SamxqX2dmTkpnell6NEd5N",
-     "resolved": false
-    },
     {
      "title": "Nvidia Chief Seen as Target of Chinese Spy Plot - The New Yo",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
      "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
+     "resolved": false
+    },
+    {
+     "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
+     "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9SamxqX2dmTkpnell6NEd5N",
      "resolved": false
     },
     {
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 100,
    "is_feed": true,
    "sample": "DTEC granted permit to ship raw rare earths from Malaysia to US for research, CEO says - Reuters",
    "diag": [
@@ -429,6 +429,13 @@
      "resolved": false
     },
     {
+     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
+     "date": "2026-10-22",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
+     "resolved": false
+    },
+    {
      "title": "China rare earth firms halt some US shipments over geopoliti",
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
@@ -436,17 +443,10 @@
      "resolved": false
     },
     {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
-     "resolved": false
-    },
-    {
-     "title": "Corporate Japan's rare-earth warnings get louder as China ke",
-     "date": "2026-07-07",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZ",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZTQ4UGhqMENYZDdmZGYtc",
+     "title": "China September rare earth exports rise 6.7% from a year ear",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Trafigura Signs New Gas Supply Deal with German SEFE"
+   "sample": "UK Budget Signals Wave of New North Sea Oil and Gas Drilling"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Ireland opens arms to Americans fleeing US President Donald Trump"
+   "sample": "Flavio Bolsonaro’s great escape: Is this the beginning of the end for ‘Bolsonarism’?"
   },
   {
    "name": "JapanTimes",
@@ -676,9 +676,10 @@
   {
    "name": "BreakingDefense",
    "url": "https://breakingdefense.com/feed/",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "Giving counter-UAS operators 75 km of advance warning throws the advantage to them"
   },
   {
    "name": "MiningWeekly",
