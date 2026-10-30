@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-30T22:46:27.412484Z",
+ "probed_at": "2026-10-30T23:28:18.668895Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,27 +7,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Welcome to the new ‘Made in China’ - Reuters",
+   "sample": "China's Xi hails new chapter with Germany, urges friendly policy towards Beijing - Reuters",
    "diag": [
     {
-     "title": "Welcome to the new ‘Made in China’ - Reuters",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jWXRwMFJHeWNSdnlCL",
-     "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jWXRwMFJHeWNSdnlCLUVvNXNmTWV1bHRkS1Y4Y",
+     "title": "China's Xi hails new chapter with Germany, urges friendly po",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVrYU5aZnNQc2p4R",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVrYU5aZnNQc2p4R2ZDOEVtdmtqb3lQWTIyQ",
      "resolved": false
     },
     {
-     "title": "In China, the AI bubble has already burst - Reuters",
-     "date": "2026-10-26",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkW",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkWmMyZDZqTHlsckJwbEsxW",
-     "resolved": false
-    },
-    {
-     "title": "Mbappe seeks to defuse anger in China after Mao 'dictator' c",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdUEtRWJxSk5SSk1MQ",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdUEtRWJxSk5SSk1MQUh1TXhtZlNxa0VwOHFZa",
+     "title": "China's Xi calls on EU to work with China, says Beijing hand",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR3QwUUVoWXk4Smo4MjNOe",
      "resolved": false
     },
     {
@@ -38,10 +31,17 @@
      "resolved": false
     },
     {
-     "title": "China's Communist Party conclave on toughening discipline se",
+     "title": "China says stealth attack drone makes first takeoff, landing",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VWQy1ja0pYZnMwN",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VWQy1ja0pYZnMwNjRsalVpOWNRdW1haW42N",
+     "resolved": false
+    },
+    {
+     "title": "Chinese EVs win over some in South Korea, but Japan is provi",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUEtOURjOXhiX3AyU",
-     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUEtOURjOXhiX3AyUzZjeVhLOTByR2dqLXZyN",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeHUyYjM0LWdIc1R1U",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeHUyYjM0LWdIc1R1UmFmY1NCYkQ1YTB4eWVlS",
      "resolved": false
     }
    ]
@@ -83,7 +83,7 @@
      "resolved": false
     },
     {
-     "title": "US scraps G20 photo after European diplomats object to being",
+     "title": "Consensus looks elusive at G20 talks after European objectio",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05KUnNfZG1OODZTY",
      "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05KUnNfZG1OODZTY3RxWXpQTFozVkVHUkp1S",
@@ -97,15 +97,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Mbappé, Real Madrid, La Liga face ongoing backlash in China over Mao Zedong comments - France 24",
+   "sample": "Mbappé apologises over Mao Zedong joke as Chinese brands drop sponsorship deals - France 24",
    "diag": [
-    {
-     "title": "Mbappé, Real Madrid, La Liga face ongoing backlash in China ",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT2Z2dWw4QlZ4WV9Xa",
-     "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT2Z2dWw4QlZ4WV9XaU95aThab3FORlA0TW5wd",
-     "resolved": false
-    },
     {
      "title": "Mbappé apologises over Mao Zedong joke as Chinese brands dro",
      "date": "2026-10-27",
@@ -133,6 +126,13 @@
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZ",
      "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZGsxZ1Q1d3VYUnMzaVdxV",
      "resolved": false
+    },
+    {
+     "title": "Mbappe apologises for Mao Zedong comment after Chinese spons",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmtHT3ZjVXJ3Qk1xR",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmtHT3ZjVXJ3Qk1xRjVHOHFfa281NjNqZ2s5b",
+     "resolved": false
     }
    ]
   },
@@ -152,13 +152,6 @@
      "resolved": false
     },
     {
-     "title": "China’s Mega Banks Report Profit Jumps as Margins Recover - ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUk5NZFJBS29USUZDd",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUk5NZFJBS29USUZDdUR0T1g5dTdlOWROeUJVU",
-     "resolved": false
-    },
-    {
      "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ",
@@ -170,6 +163,13 @@
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd3liZ1B6Ym5aR1dLd",
      "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd3liZ1B6Ym5aR1dLdkIyZjZidEFTUzZDd3haU",
+     "resolved": false
+    },
+    {
+     "title": "China’s Mega Banks Report Profit Jumps as Margins Recover - ",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUk5NZFJBS29USUZDd",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUk5NZFJBS29USUZDdUR0T1g5dTdlOWROeUJVU",
      "resolved": false
     },
     {
@@ -277,8 +277,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information - WSJ",
+   "sample": "China Scoops Up Data That Could Aid Its Forces in Waters Around Taiwan - WSJ",
    "diag": [
+    {
+     "title": "China Scoops Up Data That Could Aid Its Forces in Waters Aro",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVhHSV9DYXI0RlhhU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVhHSV9DYXI0RlhhUjFjWjliVFg3S2FvdGp2T",
+     "resolved": false
+    },
     {
      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
      "date": "2026-10-30",
@@ -305,13 +312,6 @@
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfb",
      "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfbzhaVG9yQTh0dmNFdzUya",
-     "resolved": false
-    },
-    {
-     "title": "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOM",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOMGthclBzd0hQQ093MUozZ",
      "resolved": false
     }
    ]
@@ -384,17 +384,17 @@
      "resolved": false
     },
     {
-     "title": "China’s stock markets are the great global exception - The E",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85TS1mb2FwRThEUTBZOUVmc",
-     "resolved": false
-    },
-    {
      "title": "The countries making a fortune from the US-China rivalry - T",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb2c1a1NHS1ZMb1lScVNvU",
+     "resolved": false
+    },
+    {
+     "title": "China’s stock markets are the great global exception - The E",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85TS1mb2FwRThEUTBZOUVmc",
      "resolved": false
     },
     {
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "Phoenix Tailings to build $375-million rare earths facility ",
-     "date": "2026-10-20",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR0F4SV9rdVFJMzRIdGN6T",
+     "title": "EXCLUSIVE: Pentagon treating military base freezer malfuncti",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ0RoX2hseFpyajltZE5vb",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Gasoline Up 34% and Heating Oil Up 74% as Voters Head to the Midterms"
+   "sample": "Europe Is Now Seriously Rethinking Its Oil Refinery Phase Down"
   },
   {
    "name": "IMF",
