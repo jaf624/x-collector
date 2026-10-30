@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-30T06:25:26.906095Z",
+ "probed_at": "2026-10-30T07:33:41.666617Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -159,13 +159,6 @@
      "resolved": false
     },
     {
-     "title": "China’s Oil Majors Get More Firepower for Energy Security Pu",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVkJmcVRibXE3N3lBc",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVkJmcVRibXE3N3lBcjZjVzlFcmg4dGs1cnY1Y",
-     "resolved": false
-    },
-    {
      "title": "China Upends Global Drug Development With Cheap and Rapid Hu",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd3liZ1B6Ym5aR1dLd",
@@ -177,6 +170,13 @@
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ",
      "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ2ZPZlBmZjNTdWRJV2l6N",
+     "resolved": false
+    },
+    {
+     "title": "China’s Oil Majors Get More Firepower for Energy Security Pu",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVkJmcVRibXE3N3lBc",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVkJmcVRibXE3N3lBcjZjVzlFcmg4dGs1cnY1Y",
      "resolved": false
     }
    ]
@@ -204,17 +204,17 @@
      "resolved": false
     },
     {
-     "title": "Toyota, Honda, Nissan slash China output as gasoline car mar",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSkFuSnp4ZmpBMGt2T",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSkFuSnp4ZmpBMGt2TlY3OUpNdWVSS29zX2pGS",
-     "resolved": false
-    },
-    {
      "title": "China elevates key military official as expulsions remove 'h",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0lYOFJSV2owajh4U",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0lYOFJSV2owajh4UHR3c01vcWZHVW1TRjNNe",
+     "resolved": false
+    },
+    {
+     "title": "Toyota, Honda, Nissan slash China output as gasoline car mar",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSkFuSnp4ZmpBMGt2T",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSkFuSnp4ZmpBMGt2TlY3OUpNdWVSS29zX2pGS",
      "resolved": false
     },
     {
@@ -332,8 +332,15 @@
      "resolved": false
     },
     {
-     "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
+     "title": "How a Japanese Spy Drama Became the Target of China’s Anger ",
      "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdXV2cWkwdW9JX1dRc",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdXV2cWkwdW9JX1dRcmRaZ1R4M2xPZ29wMWtMZ",
+     "resolved": false
+    },
+    {
+     "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
+     "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
      "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9SamxqX2dmTkpnell6NEd5N",
      "resolved": false
@@ -347,16 +354,9 @@
     },
     {
      "title": "China Is Not Happy About Fan-made A.I. Videos of Sun Wukong ",
-     "date": "2026-10-30",
+     "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN0dONjM1TWMtclN4S",
      "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN0dONjM1TWMtclN4S0RKcENwekcyWl9OQ2RvU",
-     "resolved": false
-    },
-    {
-     "title": "Volkswagen ‘Must Act Quickly’ After Largest Loss in Over a D",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JM2dwX0RyV1owOVFZR",
-     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JM2dwX0RyV1owOVFZRXA2WEhsaUNnRzJRdmJxc",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 58,
+   "items": 100,
    "is_feed": true,
    "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
    "diag": [
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
+     "title": "Phoenix Tailings to build $375-million rare earths facility ",
+     "date": "2026-10-20",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlF0S1VoaWtIMFNnR0F4SV9rdVFJMzRIdGN6T",
+     "resolved": false
+    },
+    {
      "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
      "date": "2026-10-13",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
      "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
-     "resolved": false
-    },
-    {
-     "title": "China rare earth firms halt some US shipments over geopoliti",
-     "date": "2026-09-04",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Oil Prices Head for Fourth Monthly Gain as Middle East Tensions Escalate"
+   "sample": "Houthis Claim Fresh Strikes on Saudi Oil Refineries and Aramco Facilities"
   },
   {
    "name": "IMF",
@@ -629,7 +629,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Binance security breach has $6.3 billion impact in potential record crypto heist"
+   "sample": "Russia strikes energy facilities in Kyiv as aid convoy heads for besieged town of Oleshky"
   },
   {
    "name": "JapanTimes",
