@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-30T13:32:05.188639Z",
+ "probed_at": "2026-10-30T14:29:57.398379Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US plans to ban Chinese telecom firms from direct access to US phone numbers - Reuters",
+   "sample": "China's Xi calls on EU to work with China, says Beijing handles ties with sincerity, goodwill - Reuters",
    "diag": [
     {
-     "title": "US plans to ban Chinese telecom firms from direct access to ",
+     "title": "China's Xi calls on EU to work with China, says Beijing hand",
      "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUS",
-     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUSUtxUkN2cFFlb2tzcG81R",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR3QwUUVoWXk4Smo4MjNOe",
      "resolved": false
     },
     {
@@ -24,10 +24,10 @@
      "resolved": false
     },
     {
-     "title": "China's Xi calls on EU to work with China, says Beijing hand",
+     "title": "US plans to ban Chinese telecom firms from direct access to ",
      "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR3QwUUVoWXk4Smo4MjNOe",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUS",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUSUtxUkN2cFFlb2tzcG81R",
      "resolved": false
     },
     {
@@ -152,7 +152,7 @@
      "resolved": false
     },
     {
-     "title": "Chinese Chip Leader CXMT’s Sales Rise Sevenfold Yet Growth S",
+     "title": "Chinese Memory Leader CXMT’s Sales Surge Yet Growth Slows - ",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUM3b21reFgycF9BW",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUM3b21reFgycF9BWDNEcFdDNERZeGhLYTNCR",
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
+     "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ2ZPZlBmZjNTdWRJV2l6N",
+     "resolved": false
+    },
+    {
      "title": "Hong Kong Stocks Lose a Key Backer as Chinese Investors Head",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeU5nUUh0aU4wcVVpU",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeU5nUUh0aU4wcVVpU2czZUJNQzdma2N6cE9zL",
-     "resolved": false
-    },
-    {
-     "title": "Chinese Investors Seek Shelter in Long-Bond ETFs as Stocks S",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ3pCM1ZfX0lSWUwyV",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ3pCM1ZfX0lSWUwyVVc5NXhGUkEwbjgzdXJvS",
      "resolved": false
     }
    ]
@@ -309,7 +309,7 @@
     },
     {
      "title": "Geely Profit Climbs as Overseas Sales Offset Slowing China D",
-     "date": "2026-10-30",
+     "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQak55S2dlYU5qSl9PT",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQak55S2dlYU5qSl9PTWFuOGt4S2VXMVo2M0otc",
      "resolved": false
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "Long Deployments to Be Navy Standard For Next Couple Years, MCPON, CNO Say"
+   "sample": "Hanwha Philly Shipyard to Build Navy Landing Ship Mediums"
   },
   {
    "name": "DefenseNews",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Japan to Tap $7 Billion from Government Fund to Subsidize Gasoline Prices"
+   "sample": "Trump Considers Lifting Sanctions on Putin’s ‘Slush Fund’"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Russia recruits Africans to fight in Ukraine, families seek answers"
+   "sample": "Third weekend of protests looms as tensions persist across France"
   },
   {
    "name": "JapanTimes",
