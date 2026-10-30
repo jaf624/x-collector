@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-30T00:32:29.087315Z",
+ "probed_at": "2026-10-30T01:15:23.091894Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -69,17 +69,17 @@
      "resolved": false
     },
     {
-     "title": "Mongolian mining company says copper exports have dropped du",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkya",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkyaW1OYjgyU2U3SFhaUkN2X",
-     "resolved": false
-    },
-    {
      "title": "China elevates a military general to the Politburo and seeks",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQN",
      "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQNE94WTNEOHhPRkxFMzFCa",
+     "resolved": false
+    },
+    {
+     "title": "Mongolian mining company says copper exports have dropped du",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkya",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkyaW1OYjgyU2U3SFhaUkN2X",
      "resolved": false
     },
     {
@@ -173,10 +173,10 @@
      "resolved": false
     },
     {
-     "title": "China and the US Are Competing for Space Dominance - Bloombe",
+     "title": "BYD Profit Misses Estimates as Export-Led Recovery Loses Ste",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTVsX3luU3N4cm5XR",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTVsX3luU3N4cm5XRm9JQzBERjM0MkowaUYyZ",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPalJfZ0I1eUxFaS1ac",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPalJfZ0I1eUxFaS1acnNmbG0yTDdnTXhTWXk4W",
      "resolved": false
     }
    ]
@@ -232,20 +232,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Xi Jinping elevates general who led purge of China’s military - Financial Times",
+   "sample": "The AI bubble already popped — in China - Financial Times",
    "diag": [
+    {
+     "title": "The AI bubble already popped — in China - Financial Times",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZGtNd3hLMUVPb3NRLU1TR",
+     "resolved": false
+    },
+    {
+     "title": "China rushes to shore up markets as AI trade sours - Financi",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnVPSDFLZ1NVWE1fV",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnVPSDFLZ1NVWE1fVVJTTkxTTXJOWTFYd2RjQ",
+     "resolved": false
+    },
     {
      "title": "Xi Jinping elevates general who led purge of China’s militar",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3U1MXQ3RjZOT1N6a",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3U1MXQ3RjZOT1N6aGo1cEpJVmduYUU0VGRRW",
-     "resolved": false
-    },
-    {
-     "title": "BYD’s export surge helps offset sales weakness in China - Fi",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTEpuelBlNjZGc3E0Q",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTEpuelBlNjZGc3E0Q1M4dWlKbFdMbngwbldHU",
      "resolved": false
     },
     {
@@ -256,17 +263,10 @@
      "resolved": false
     },
     {
-     "title": "The AI bubble already popped — in China - Financial Times",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZGtNd3hLMUVPb3NRLU1TR",
-     "resolved": false
-    },
-    {
-     "title": "Starbucks to resume share buybacks but China shift clouds gr",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOFNHTjcxZjVQM0llO",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOFNHTjcxZjVQM0llOVI0d0xScWNTSXJnaEswO",
+     "title": "Caught between the US and China - Financial Times",
+     "date": "2026-10-23",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGw5ZGtQVTRvSVhxL",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGw5ZGtQVTRvSVhxLWVvQkNNbTl2TUl2NFBLa",
      "resolved": false
     }
    ]
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
-     "title": "Volkswagen ‘Must Act Quickly’ After Largest Loss in Over a D",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JM2dwX0RyV1owOVFZR",
-     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JM2dwX0RyV1owOVFZRXA2WEhsaUNnRzJRdmJxc",
-     "resolved": false
-    },
-    {
      "title": "Why Kylian Mbappe angered China – and the possible consequen",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcktkOWZOWFFuWTBCe",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcktkOWZOWFFuWTBCeGY2X2VSTHlMNmllZ01SX",
+     "resolved": false
+    },
+    {
+     "title": "Volkswagen ‘Must Act Quickly’ After Largest Loss in Over a D",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JM2dwX0RyV1owOVFZR",
+     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JM2dwX0RyV1owOVFZRXA2WEhsaUNnRzJRdmJxc",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "NUWC Division, Keyport tests asset tracking system"
+   "sample": "NUWC Division, Keyport’s Hawthorne Operating Site turns 50"
   },
   {
    "name": "商务部新闻",
