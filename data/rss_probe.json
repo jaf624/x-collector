@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-31T01:57:24.761017Z",
+ "probed_at": "2026-10-31T02:40:18.367494Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -24,17 +24,17 @@
      "resolved": false
     },
     {
-     "title": "China says stealth attack drone makes first takeoff, landing",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VWQy1ja0pYZnMwN",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VWQy1ja0pYZnMwNjRsalVpOWNRdW1haW42N",
-     "resolved": false
-    },
-    {
      "title": "US plans to ban Chinese telecom firms from direct access to ",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUS",
      "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUSUtxUkN2cFFlb2tzcG81R",
+     "resolved": false
+    },
+    {
+     "title": "China says stealth attack drone makes first takeoff, landing",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VWQy1ja0pYZnMwN",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VWQy1ja0pYZnMwNjRsalVpOWNRdW1haW42N",
      "resolved": false
     },
     {
@@ -52,15 +52,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Graphika finds China-linked Spamouflage accounts posing as US voters on X - AP News",
+   "sample": "China's record-breaking exports of clean tech are making a big dent in emissions, report says - AP News",
    "diag": [
-    {
-     "title": "Graphika finds China-linked Spamouflage accounts posing as U",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
-     "resolved": false
-    },
     {
      "title": "China's record-breaking exports of clean tech are making a b",
      "date": "2026-10-29",
@@ -87,6 +80,13 @@
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQN",
      "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQNE94WTNEOHhPRkxFMzFCa",
+     "resolved": false
+    },
+    {
+     "title": "US bans imports from 3 Chinese biotech companies over forced",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y2RSQXBjcE0xWnVtZXpmb",
      "resolved": false
     }
    ]
@@ -159,17 +159,17 @@
      "resolved": false
     },
     {
-     "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Nor",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzO",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc",
-     "resolved": false
-    },
-    {
      "title": "Xi Urges Germany to Maintain ‘Pragmatic’ Policy Toward China",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPME1wUUozV1NTZnFpU",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPME1wUUozV1NTZnFpU2pZZUtTRXlBUmVJVHNDZ",
+     "resolved": false
+    },
+    {
+     "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Nor",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzO",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc",
      "resolved": false
     },
     {
@@ -242,13 +242,6 @@
      "resolved": false
     },
     {
-     "title": "Xi Jinping elevates general who led purge of China’s militar",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3U1MXQ3RjZOT1N6a",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3U1MXQ3RjZOT1N6aGo1cEpJVmduYUU0VGRRW",
-     "resolved": false
-    },
-    {
      "title": "Gates-backed miner says China is frustrating DR Congo explor",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhR",
@@ -267,6 +260,13 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekQtbDNKaXctUHVMb",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekQtbDNKaXctUHVMbTRobzJtRVVManc3ZlZDe",
+     "resolved": false
+    },
+    {
+     "title": "Xi Jinping elevates general who led purge of China’s militar",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3U1MXQ3RjZOT1N6a",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3U1MXQ3RjZOT1N6aGo1cEpJVmduYUU0VGRRW",
      "resolved": false
     }
    ]
@@ -353,10 +353,10 @@
      "resolved": false
     },
     {
-     "title": "Volkswagen ‘Must Act Quickly’ After Largest Loss in Over a D",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JM2dwX0RyV1owOVFZR",
-     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JM2dwX0RyV1owOVFZRXA2WEhsaUNnRzJRdmJxc",
+     "title": "Mosquito Lasers - The New York Times",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE53N25OXzBydndOdXN1X",
+     "real": "https://news.google.com/rss/articles/CBMickFVX3lxTE53N25OXzBydndOdXN1X0NTeGhuS3hYdHVOQnJKV",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 64,
    "is_feed": true,
    "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
    "diag": [
