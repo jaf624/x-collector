@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-31T07:45:11.078620Z",
+ "probed_at": "2026-10-31T09:13:24.996443Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -24,6 +24,13 @@
      "resolved": false
     },
     {
+     "title": "China's factory activity shrinks in October, third contracti",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQekp5UHR1VTVUUkhHc",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQekp5UHR1VTVUUkhHc28wR0hhYlFhbUNaR0VUZ",
+     "resolved": false
+    },
+    {
      "title": "China's Xi calls on EU to work with China, says Beijing hand",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR",
@@ -35,13 +42,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUS",
      "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUSUtxUkN2cFFlb2tzcG81R",
-     "resolved": false
-    },
-    {
-     "title": "China's factory activity shrinks in October, third contracti",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQekp5UHR1VTVUUkhHc",
-     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQekp5UHR1VTVUUkhHc28wR0hhYlFhbUNaR0VUZ",
      "resolved": false
     }
    ]
@@ -62,17 +62,17 @@
      "resolved": false
     },
     {
+     "title": "China’s factory activity slips as new export orders weaken -",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfV",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfVXowN2ZEM0ppaVNFV2NMT",
+     "resolved": false
+    },
+    {
      "title": "China’s plenum backs tighter party discipline, a priority fo",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU084UkpObDVKWlBpd",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU084UkpObDVKWlBpdHNjdWpRc241OVc2T0s1d",
-     "resolved": false
-    },
-    {
-     "title": "Mongolian mining company says copper exports have dropped du",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkya",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkyaW1OYjgyU2U3SFhaUkN2X",
      "resolved": false
     },
     {
@@ -83,10 +83,10 @@
      "resolved": false
     },
     {
-     "title": "China elevates a military general to the Politburo and seeks",
+     "title": "Mongolian mining company says copper exports have dropped du",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQN",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQNE94WTNEOHhPRkxFMzFCa",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkya",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkyaW1OYjgyU2U3SFhaUkN2X",
      "resolved": false
     }
    ]
@@ -114,13 +114,6 @@
      "resolved": false
     },
     {
-     "title": "Strong earthquake strikes China’s remote Tibet region - Fran",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaVlmRkJQNGFIMzk5S",
-     "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaVlmRkJQNGFIMzk5SXh0amVyWm5ucVFvTUNHd",
-     "resolved": false
-    },
-    {
      "title": "Real Madrid apologises to China over Mbappé's Mao Zedong com",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZ",
@@ -133,6 +126,13 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdW0xdW82MWJSSTBRe",
      "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdW0xdW82MWJSSTBReGVjVHoyZ3FyMmgtWEpTS",
      "resolved": false
+    },
+    {
+     "title": "Mbappe apologises for Mao Zedong comment after Chinese spons",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmtHT3ZjVXJ3Qk1xR",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmtHT3ZjVXJ3Qk1xRjVHOHFfa281NjNqZ2s5b",
+     "resolved": false
     }
    ]
   },
@@ -142,10 +142,10 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Factory Activity Eases Into Decline as Growth Wobbles - Bloomberg",
+   "sample": "China Factory Activity Drops Back Into Decline as Growth Wobbles - Bloomberg",
    "diag": [
     {
-     "title": "China Factory Activity Eases Into Decline as Growth Wobbles ",
+     "title": "China Factory Activity Drops Back Into Decline as Growth Wob",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZ2aDdPUjkzcE1we",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZ2aDdPUjkzcE1wenJ1eXVaRlJBZUlDUFl6b",
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "China elevates key military official as expulsions remove 'h",
+     "title": "Toyota, Honda, Nissan slash China output as gasoline car mar",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0lYOFJSV2owajh4U",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0lYOFJSV2owajh4UHR3c01vcWZHVW1TRjNNe",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSkFuSnp4ZmpBMGt2T",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSkFuSnp4ZmpBMGt2TlY3OUpNdWVSS29zX2pGS",
      "resolved": false
     }
    ]
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
-     "title": "How One Country Became the Unlikely Crossroads of the Global",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ",
-     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ2NlWlBld2lpTEgyTzF4R",
-     "resolved": false
-    },
-    {
      "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
      "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9SamxqX2dmTkpnell6NEd5N",
+     "resolved": false
+    },
+    {
+     "title": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 38,
    "is_feed": true,
-   "sample": "<![CDATA[中共五中全會「空椅子」背後：常態化高壓反腐如何改變中國官場？]]>"
+   "sample": "<![CDATA[裝扮成哈利波特，公開質疑泰國王室——他如今面臨34年監禁]]>"
   },
   {
    "name": "美国国务院",
