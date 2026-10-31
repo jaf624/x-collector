@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-30T23:28:18.668895Z",
+ "probed_at": "2026-10-31T01:57:24.761017Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -24,13 +24,6 @@
      "resolved": false
     },
     {
-     "title": "US plans to ban Chinese telecom firms from direct access to ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUS",
-     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUSUtxUkN2cFFlb2tzcG81R",
-     "resolved": false
-    },
-    {
      "title": "China says stealth attack drone makes first takeoff, landing",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VWQy1ja0pYZnMwN",
@@ -38,10 +31,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese EVs win over some in South Korea, but Japan is provi",
+     "title": "US plans to ban Chinese telecom firms from direct access to ",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUS",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUSUtxUkN2cFFlb2tzcG81R",
+     "resolved": false
+    },
+    {
+     "title": "China trade accord with Swiss bucks wider trend towards prot",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeHUyYjM0LWdIc1R1U",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeHUyYjM0LWdIc1R1UmFmY1NCYkQ1YTB4eWVlS",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNkQ4YmJ3dHdaYVYzc",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNkQ4YmJ3dHdaYVYzcXlkcUQ1V19QMU9mQ2tFd",
      "resolved": false
     }
    ]
@@ -52,8 +52,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's record-breaking exports of clean tech are making a big dent in emissions, report says - AP News",
+   "sample": "Graphika finds China-linked Spamouflage accounts posing as US voters on X - AP News",
    "diag": [
+    {
+     "title": "Graphika finds China-linked Spamouflage accounts posing as U",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
+     "resolved": false
+    },
     {
      "title": "China's record-breaking exports of clean tech are making a b",
      "date": "2026-10-29",
@@ -80,13 +87,6 @@
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQN",
      "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQNE94WTNEOHhPRkxFMzFCa",
-     "resolved": false
-    },
-    {
-     "title": "Consensus looks elusive at G20 talks after European objectio",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05KUnNfZG1OODZTY",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05KUnNfZG1OODZTY3RxWXpQTFozVkVHUkp1S",
      "resolved": false
     }
    ]
@@ -142,15 +142,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Xi Urges Germany to Maintain ‘Pragmatic’ Policy Toward China - Bloomberg.com",
+   "sample": "China’s Hottest Night Club Is Bringing In $150 Million a Year - Bloomberg.com",
    "diag": [
-    {
-     "title": "Xi Urges Germany to Maintain ‘Pragmatic’ Policy Toward China",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPME1wUUozV1NTZnFpU",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPME1wUUozV1NTZnFpU2pZZUtTRXlBUmVJVHNDZ",
-     "resolved": false
-    },
     {
      "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
      "date": "2026-10-29",
@@ -166,10 +159,17 @@
      "resolved": false
     },
     {
-     "title": "China’s Mega Banks Report Profit Jumps as Margins Recover - ",
+     "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Nor",
      "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUk5NZFJBS29USUZDd",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUk5NZFJBS29USUZDdUR0T1g5dTdlOWROeUJVU",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzO",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc",
+     "resolved": false
+    },
+    {
+     "title": "Xi Urges Germany to Maintain ‘Pragmatic’ Policy Toward China",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPME1wUUozV1NTZnFpU",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPME1wUUozV1NTZnFpU2pZZUtTRXlBUmVJVHNDZ",
      "resolved": false
     },
     {
@@ -242,17 +242,17 @@
      "resolved": false
     },
     {
-     "title": "Gates-backed miner says China is frustrating DR Congo explor",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhR",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhRmgyRWhLU3NLNEhsbkY0a",
-     "resolved": false
-    },
-    {
      "title": "Xi Jinping elevates general who led purge of China’s militar",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3U1MXQ3RjZOT1N6a",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3U1MXQ3RjZOT1N6aGo1cEpJVmduYUU0VGRRW",
+     "resolved": false
+    },
+    {
+     "title": "Gates-backed miner says China is frustrating DR Congo explor",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhR",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhRmgyRWhLU3NLNEhsbkY0a",
      "resolved": false
     },
     {
@@ -301,17 +301,17 @@
      "resolved": false
     },
     {
+     "title": "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOM",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOMGthclBzd0hQQ093MUozZ",
+     "resolved": false
+    },
+    {
      "title": "Memory Crunch Cements CXMT as China’s Chip Champion - WSJ",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFk1YklyYnNaSW56Z",
      "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFk1YklyYnNaSW56ZzNzS2kySTBMeklaTzAxQ",
-     "resolved": false
-    },
-    {
-     "title": "China’s Car Industry Is Wowing the World—but Crashing at Hom",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfb",
-     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfbzhaVG9yQTh0dmNFdzUya",
      "resolved": false
     }
    ]
@@ -322,10 +322,10 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "How a Japanese Spy Drama Became the Target of China’s Anger - The New York Times",
+   "sample": "How the Japanese Spy Drama ‘Vivant’ Became The Target of China’s Anger - The New York Times",
    "diag": [
     {
-     "title": "How a Japanese Spy Drama Became the Target of China’s Anger ",
+     "title": "How the Japanese Spy Drama ‘Vivant’ Became The Target of Chi",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdXV2cWkwdW9JX1dRc",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdXV2cWkwdW9JX1dRcmRaZ1R4M2xPZ29wMWtMZ",
@@ -353,10 +353,10 @@
      "resolved": false
     },
     {
-     "title": "China Is Not Happy About Fan-made A.I. Videos of Sun Wukong ",
+     "title": "Volkswagen ‘Must Act Quickly’ After Largest Loss in Over a D",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN0dONjM1TWMtclN4S",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN0dONjM1TWMtclN4S0RKcENwekcyWl9OQ2RvU",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JM2dwX0RyV1owOVFZR",
+     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JM2dwX0RyV1owOVFZRXA2WEhsaUNnRzJRdmJxc",
      "resolved": false
     }
    ]
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "First Youth Olympic Games in Africa"
+   "sample": "<![CDATA[Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?]]>"
   },
   {
    "name": "JapanTimes",
