@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-31T02:40:18.367494Z",
+ "probed_at": "2026-10-31T07:45:11.078620Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's Xi hails new chapter with Germany, urges friendly policy towards Beijing - Reuters",
+   "sample": "China willing to import more German goods, Premier Li says - Reuters",
    "diag": [
+    {
+     "title": "China willing to import more German goods, Premier Li says -",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON2ZDVGVDQUhtbjF4c",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON2ZDVGVDQUhtbjF4cTk2bE4tRTloNnBzNW9ya",
+     "resolved": false
+    },
     {
      "title": "China's Xi hails new chapter with Germany, urges friendly po",
      "date": "2026-10-30",
@@ -31,17 +38,10 @@
      "resolved": false
     },
     {
-     "title": "China says stealth attack drone makes first takeoff, landing",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VWQy1ja0pYZnMwN",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VWQy1ja0pYZnMwNjRsalVpOWNRdW1haW42N",
-     "resolved": false
-    },
-    {
-     "title": "China trade accord with Swiss bucks wider trend towards prot",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNkQ4YmJ3dHdaYVYzc",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNkQ4YmJ3dHdaYVYzcXlkcUQ1V19QMU9mQ2tFd",
+     "title": "China's factory activity shrinks in October, third contracti",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQekp5UHR1VTVUUkhHc",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQekp5UHR1VTVUUkhHc28wR0hhYlFhbUNaR0VUZ",
      "resolved": false
     }
    ]
@@ -52,13 +52,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's record-breaking exports of clean tech are making a big dent in emissions, report says - AP News",
+   "sample": "Graphika finds China-linked Spamouflage accounts posing as US voters on X - AP News",
    "diag": [
     {
-     "title": "China's record-breaking exports of clean tech are making a b",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQa",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQajdJVUo1YW5ONVdJNUUxN",
+     "title": "Graphika finds China-linked Spamouflage accounts posing as U",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
      "resolved": false
     },
     {
@@ -76,17 +76,17 @@
      "resolved": false
     },
     {
+     "title": "China's record-breaking exports of clean tech are making a b",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQa",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQajdJVUo1YW5ONVdJNUUxN",
+     "resolved": false
+    },
+    {
      "title": "China elevates a military general to the Politburo and seeks",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQN",
      "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQNE94WTNEOHhPRkxFMzFCa",
-     "resolved": false
-    },
-    {
-     "title": "US bans imports from 3 Chinese biotech companies over forced",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXlLZ25Dcmo2Q2U4Y2RSQXBjcE0xWnVtZXpmb",
      "resolved": false
     }
    ]
@@ -128,10 +128,10 @@
      "resolved": false
     },
     {
-     "title": "Mbappe apologises for Mao Zedong comment after Chinese spons",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmtHT3ZjVXJ3Qk1xR",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmtHT3ZjVXJ3Qk1xRjVHOHFfa281NjNqZ2s5b",
+     "title": "New levy on non-EU parcels kicks in Sunday - France 24",
+     "date": "2026-10-26",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdW0xdW82MWJSSTBRe",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdW0xdW82MWJSSTBReGVjVHoyZ3FyMmgtWEpTS",
      "resolved": false
     }
    ]
@@ -142,8 +142,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Hottest Night Club Is Bringing In $150 Million a Year - Bloomberg.com",
+   "sample": "China Factory Activity Eases Into Decline as Growth Wobbles - Bloomberg",
    "diag": [
+    {
+     "title": "China Factory Activity Eases Into Decline as Growth Wobbles ",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZ2aDdPUjkzcE1we",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZ2aDdPUjkzcE1wenJ1eXVaRlJBZUlDUFl6b",
+     "resolved": false
+    },
+    {
+     "title": "China Warns of Retaliation Over US Test Lab Restrictions - B",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa0hUcGk2LUZiU1VzS",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa0hUcGk2LUZiU1VzSTFvazhSLXB6VUw0cWFtN",
+     "resolved": false
+    },
     {
      "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
      "date": "2026-10-29",
@@ -156,20 +170,6 @@
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd3liZ1B6Ym5aR1dLd",
      "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd3liZ1B6Ym5aR1dLdkIyZjZidEFTUzZDd3haU",
-     "resolved": false
-    },
-    {
-     "title": "Xi Urges Germany to Maintain ‘Pragmatic’ Policy Toward China",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPME1wUUozV1NTZnFpU",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPME1wUUozV1NTZnFpU2pZZUtTRXlBUmVJVHNDZ",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Nor",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzO",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc",
      "resolved": false
     },
     {
@@ -211,10 +211,10 @@
      "resolved": false
     },
     {
-     "title": "Toyota, Honda, Nissan slash China output as gasoline car mar",
+     "title": "BYD, Geely lean on global growth as China market enters 'har",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSkFuSnp4ZmpBMGt2T",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSkFuSnp4ZmpBMGt2TlY3OUpNdWVSS29zX2pGS",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdmxzNHFjRjAyaHhBN",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdmxzNHFjRjAyaHhBNGR1Vi1KSG1lby1wLU11U",
      "resolved": false
     },
     {
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Private equity firm swoops on China Evergrande unit in rare win for creditors - Financial Times",
+   "sample": "Muji takes its China playbook global - Financial Times",
    "diag": [
+    {
+     "title": "Muji takes its China playbook global - Financial Times",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdTRYMnBCdUo2ZWN1T",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdTRYMnBCdUo2ZWN1TlZZWU1YT2RZdEQzT0VVO",
+     "resolved": false
+    },
     {
      "title": "Private equity firm swoops on China Evergrande unit in rare ",
      "date": "2026-10-30",
@@ -246,13 +253,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhR",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhRmgyRWhLU3NLNEhsbkY0a",
-     "resolved": false
-    },
-    {
-     "title": "Starbucks to resume share buybacks but China shift clouds gr",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOFNHTjcxZjVQM0llO",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOFNHTjcxZjVQM0llOVI0d0xScWNTSXJnaEswO",
      "resolved": false
     },
     {
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "Memory Crunch Cements CXMT as China’s Chip Champion - WSJ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFk1YklyYnNaSW56Z",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFk1YklyYnNaSW56ZzNzS2kySTBMeklaTzAxQ",
+     "title": "China’s Car Industry Is Wowing the World—but Crashing at Hom",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfb",
+     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfbzhaVG9yQTh0dmNFdzUya",
      "resolved": false
     }
    ]
@@ -322,8 +322,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "How the Japanese Spy Drama ‘Vivant’ Became The Target of China’s Anger - The New York Times",
+   "sample": "Liu Yandong, Rare Woman Among China’s Political Elite, Dies at 80 - The New York Times",
    "diag": [
+    {
+     "title": "Liu Yandong, Rare Woman Among China’s Political Elite, Dies ",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSb2ttMW1YS0pjbHgzS",
+     "real": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSb2ttMW1YS0pjbHgzSU53M0lOQi1tSWFaeHE1M",
+     "resolved": false
+    },
     {
      "title": "How the Japanese Spy Drama ‘Vivant’ Became The Target of Chi",
      "date": "2026-10-30",
@@ -339,24 +346,17 @@
      "resolved": false
     },
     {
+     "title": "How One Country Became the Unlikely Crossroads of the Global",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ",
+     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ2NlWlBld2lpTEgyTzF4R",
+     "resolved": false
+    },
+    {
      "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
      "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9SamxqX2dmTkpnell6NEd5N",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
-     "resolved": false
-    },
-    {
-     "title": "Mosquito Lasers - The New York Times",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE53N25OXzBydndOdXN1X",
-     "real": "https://news.google.com/rss/articles/CBMickFVX3lxTE53N25OXzBydndOdXN1X0NTeGhuS3hYdHVOQnJKV",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 64,
+   "items": 100,
    "is_feed": true,
    "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
    "diag": [
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "<![CDATA[Halloween Protests & French Promises, US Mid Term Mood, What now for Israel?]]>"
+   "sample": "France braces for Halloween protests, shops board up storefronts"
   },
   {
    "name": "JapanTimes",
