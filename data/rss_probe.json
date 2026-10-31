@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-31T09:13:24.996443Z",
+ "probed_at": "2026-10-31T14:02:57.077290Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -24,13 +24,6 @@
      "resolved": false
     },
     {
-     "title": "China's factory activity shrinks in October, third contracti",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQekp5UHR1VTVUUkhHc",
-     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQekp5UHR1VTVUUkhHc28wR0hhYlFhbUNaR0VUZ",
-     "resolved": false
-    },
-    {
      "title": "China's Xi calls on EU to work with China, says Beijing hand",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR",
@@ -42,6 +35,13 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUS",
      "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUSUtxUkN2cFFlb2tzcG81R",
+     "resolved": false
+    },
+    {
+     "title": "China's factory activity shrinks in October, third contracti",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQekp5UHR1VTVUUkhHc",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQekp5UHR1VTVUUkhHc28wR0hhYlFhbUNaR0VUZ",
      "resolved": false
     }
    ]
@@ -173,10 +173,10 @@
      "resolved": false
     },
     {
-     "title": "Expats Who Can't Speak Chinese Struggle to Land Hong Kong Jo",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3FLUjFpZXc2SzVUM",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3FLUjFpZXc2SzVUM0t2SEJVek1tcThGNF94d",
+     "title": "Swiss Firms Plan Investment Boost in China Drug, Finance Sec",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUtxWHdTNzZKNDI5Z",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUtxWHdTNzZKNDI5Z1RHdnhaT0d2Mm1BVUd5V",
      "resolved": false
     }
    ]
@@ -288,7 +288,7 @@
     },
     {
      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
-     "date": "2026-10-30",
+     "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
      "resolved": false
@@ -332,13 +332,6 @@
      "resolved": false
     },
     {
-     "title": "How the Japanese Spy Drama ‘Vivant’ Became The Target of Chi",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdXV2cWkwdW9JX1dRc",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdXV2cWkwdW9JX1dRcmRaZ1R4M2xPZ29wMWtMZ",
-     "resolved": false
-    },
-    {
      "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pe",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
@@ -357,6 +350,13 @@
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
      "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
+     "resolved": false
+    },
+    {
+     "title": "A Monkey King and a Maiden Fell in Love. For China’s Regulat",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN0dONjM1TWMtclN4S",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN0dONjM1TWMtclN4S0RKcENwekcyWl9OQ2RvU",
      "resolved": false
     }
    ]
@@ -429,17 +429,17 @@
      "resolved": false
     },
     {
-     "title": "DTEC granted permit to ship raw rare earths from Malaysia to",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejJ5RFBCUDRrYXdMQ",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejJ5RFBCUDRrYXdMQk13ME54V3hDMW1rQ2N1R",
-     "resolved": false
-    },
-    {
      "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
      "date": "2026-10-22",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
      "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
+     "resolved": false
+    },
+    {
+     "title": "DTEC granted permit to ship raw rare earths from Malaysia to",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejJ5RFBCUDRrYXdMQ",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejJ5RFBCUDRrYXdMQk13ME54V3hDMW1rQ2N1R",
      "resolved": false
     },
     {
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "France braces for Halloween protests, shops board up storefronts"
+   "sample": "Binance hit by 6.3 billion dollar crypto theft"
   },
   {
    "name": "JapanTimes",
