@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-01T08:33:14.589002Z",
+ "probed_at": "2026-11-01T13:56:49.122742Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,20 +7,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Taiwan says China harassing shipping with east coast patrol - Reuters",
+   "sample": "China's BYD extends sales growth streak on strong exports - Reuters",
    "diag": [
+    {
+     "title": "China's BYD extends sales growth streak on strong exports - ",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS21scll6NjBGOTVLU",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS21scll6NjBGOTVLUm15YmNsNE9saEN4SE1oL",
+     "resolved": false
+    },
     {
      "title": "Taiwan says China harassing shipping with east coast patrol ",
      "date": "2026-11-01",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNmpudFJ3RHh6NXBMa",
      "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNmpudFJ3RHh6NXBMa1hnRnV6WFRyZ0VXM3d2d",
-     "resolved": false
-    },
-    {
-     "title": "Real, Mbappe have moved on from China controversy, says Mour",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6Q",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6QXRmSWJheXBJS3A3dFVTN",
      "resolved": false
     },
     {
@@ -31,17 +31,17 @@
      "resolved": false
     },
     {
+     "title": "Real, Mbappe have moved on from China controversy, says Mour",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6Q",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6QXRmSWJheXBJS3A3dFVTN",
+     "resolved": false
+    },
+    {
      "title": "China's Xi hails new chapter with Germany, urges friendly po",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVrYU5aZnNQc2p4R",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVrYU5aZnNQc2p4R2ZDOEVtdmtqb3lQWTIyQ",
-     "resolved": false
-    },
-    {
-     "title": "China's Xi calls on EU to work with China, says Beijing hand",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR3QwUUVoWXk4Smo4MjNOe",
      "resolved": false
     }
    ]
@@ -76,10 +76,10 @@
      "resolved": false
     },
     {
-     "title": "Mongolian mining company says copper exports have dropped du",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkya",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkyaW1OYjgyU2U3SFhaUkN2X",
+     "title": "Consensus looks elusive at G20 talks after European objectio",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05KUnNfZG1OODZTY",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05KUnNfZG1OODZTY3RxWXpQTFozVkVHUkp1S",
      "resolved": false
     },
     {
@@ -142,8 +142,29 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Hottest Night Club Is Bringing In $150 Million a Year - Bloomberg.com",
+   "sample": "China to Convene Meeting on Supporting Stock Market, Reports Say - Bloomberg.com",
    "diag": [
+    {
+     "title": "China to Convene Meeting on Supporting Stock Market, Reports",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q25VVXptSDk0dU1FQkJkc",
+     "resolved": false
+    },
+    {
+     "title": "China Communist Party Urges Tougher Action on Crypto Corrupt",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTV3WU5XNFZ5b0ctU",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTV3WU5XNFZ5b0ctUm1LZ2tHVElfcHU2eDRXN",
+     "resolved": false
+    },
+    {
+     "title": "China’s ‘Upgraded’ Peru Trade Deal Takes Effect, Widening Ti",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHc1WGNITmJSTDNOb",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHc1WGNITmJSTDNObWtJSDlPd0ZPYktkemdIM",
+     "resolved": false
+    },
     {
      "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
      "date": "2026-10-29",
@@ -157,27 +178,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa0hUcGk2LUZiU1VzS",
      "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa0hUcGk2LUZiU1VzSTFvazhSLXB6VUw0cWFtN",
      "resolved": false
-    },
-    {
-     "title": "Expats Who Can't Speak Chinese Struggle to Land Hong Kong Jo",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3FLUjFpZXc2SzVUM",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3FLUjFpZXc2SzVUM0t2SEJVek1tcThGNF94d",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Nor",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzO",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc",
-     "resolved": false
-    },
-    {
-     "title": "Pakistan Allows Taiwan Airlines to Use Airspace in Abrupt U-",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTS",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTSF9pZnNBNzNpSUpPSWh3b",
-     "resolved": false
     }
    ]
   },
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's factory activity marks third contraction in four months - Nikkei Asia",
+   "sample": "China mega complex in Dalian puts spotlight on investment push - Nikkei Asia",
    "diag": [
+    {
+     "title": "China mega complex in Dalian puts spotlight on investment pu",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3BwS0hNaUJGOHFyd",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3BwS0hNaUJGOHFydm9Pb19FMFVZU1hQdmNJR",
+     "resolved": false
+    },
     {
      "title": "China's factory activity marks third contraction in four mon",
      "date": "2026-10-31",
@@ -215,13 +222,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlR",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlRGIzUjhMU0FCRWxZZDYxN",
-     "resolved": false
-    },
-    {
-     "title": "PAG to buy 51% of China Evergrande services arm for $510m - ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMXRBdmF6eEFoS0Y3M",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMXRBdmF6eEFoS0Y3MXVQZWRObEJyU2RaS1Rwb",
      "resolved": false
     }
    ]
@@ -332,20 +332,6 @@
      "resolved": false
     },
     {
-     "title": "Liu Yandong, Rare Woman Among China’s Political Elite, Dies ",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSb2ttMW1YS0pjbHgzS",
-     "real": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSb2ttMW1YS0pjbHgzSU53M0lOQi1tSWFaeHE1M",
-     "resolved": false
-    },
-    {
-     "title": "Jose Mourinho says Kylian Mbappe’s China backlash ‘highlight",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX20zVkZzRUdFQm83NjhGd",
-     "resolved": false
-    },
-    {
      "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
@@ -358,6 +344,20 @@
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
      "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
      "resolved": false
+    },
+    {
+     "title": "Jose Mourinho says Kylian Mbappe’s China backlash ‘highlight",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX",
+     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX20zVkZzRUdFQm83NjhGd",
+     "resolved": false
+    },
+    {
+     "title": "I Covered the Tiananmen Square Massacre. It Still Weighs on ",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3e",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3eF8zV1hWSnJHM280N01jO",
+     "resolved": false
     }
    ]
   },
@@ -367,13 +367,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s investment in transport infrastructure has peaked - The Economist",
+   "sample": "Chinese spy or chump? The case of the Fed economist - The Economist",
    "diag": [
+    {
+     "title": "Chinese spy or chump? The case of the Fed economist - The Ec",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkJPUnVWMnJka3Z0V",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkJPUnVWMnJka3Z0VkpNeUpKTFJzdktiM09Cd",
+     "resolved": false
+    },
     {
      "title": "China’s investment in transport infrastructure has peaked - ",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdm0wRFdXQzJUZzBLN",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdm0wRFdXQzJUZzBLNDdjbWJfN1pnZmowT2VtW",
+     "resolved": false
+    },
+    {
+     "title": "Let China copy American AI - The Economist",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZO",
+     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZOWlZWlI3OVJRbmhycEpIR",
      "resolved": false
     },
     {
@@ -389,20 +403,6 @@
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85T",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85TS1mb2FwRThEUTBZOUVmc",
      "resolved": false
-    },
-    {
-     "title": "Chinese spy or chump? The case of the Fed economist - The Ec",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkJPUnVWMnJka3Z0V",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkJPUnVWMnJka3Z0VkpNeUpKTFJzdktiM09Cd",
-     "resolved": false
-    },
-    {
-     "title": "Let China copy American AI - The Economist",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZO",
-     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZOWlZWlI3OVJRbmhycEpIR",
-     "resolved": false
     }
    ]
   },
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 61,
    "is_feed": true,
    "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
    "diag": [
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[「我們從地獄回來」——在俄羅斯佔領城市撤離的烏克蘭人說]]>"
+   "sample": "<![CDATA[德國生活成本抗議演變成暴力事件 商店遭洗劫]]>"
   },
   {
    "name": "美国国务院",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Uranium shares slide even as analysts see tighter supply"
+   "sample": "Cutifani warns mining sector&#8217;s failure to innovate opens door to takeovers"
   },
   {
    "name": "OilPrice",
@@ -596,10 +596,9 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": -1,
+   "status": 404,
    "items": 0,
-   "is_feed": false,
-   "err": "The read operation timed out"
+   "is_feed": false
   },
   {
    "name": "IEA",
@@ -629,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Indian opposition stage mega rally seeking election chief’s resignation"
+   "sample": "The week in pictures: Lula's victory, Israeli elections and Spain train crash"
   },
   {
    "name": "JapanTimes",
