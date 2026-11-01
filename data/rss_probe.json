@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-01T00:34:57.743958Z",
+ "probed_at": "2026-11-01T01:47:30.795301Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -31,17 +31,17 @@
      "resolved": false
     },
     {
-     "title": "China's Xi calls on EU to work with China, says Beijing hand",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR3QwUUVoWXk4Smo4MjNOe",
-     "resolved": false
-    },
-    {
      "title": "China's Xi hails new chapter with Germany, urges friendly po",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVrYU5aZnNQc2p4R",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVrYU5aZnNQc2p4R2ZDOEVtdmtqb3lQWTIyQ",
+     "resolved": false
+    },
+    {
+     "title": "China's Xi calls on EU to work with China, says Beijing hand",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUJSUmlkMEFPVXdGR3QwUUVoWXk4Smo4MjNOe",
      "resolved": false
     }
    ]
@@ -76,17 +76,17 @@
      "resolved": false
     },
     {
-     "title": "China's record-breaking exports of clean tech are making a b",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQa",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQajdJVUo1YW5ONVdJNUUxN",
-     "resolved": false
-    },
-    {
      "title": "Mongolian mining company says copper exports have dropped du",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkya",
      "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmx4Wno2RDJMaVkyaW1OYjgyU2U3SFhaUkN2X",
+     "resolved": false
+    },
+    {
+     "title": "China elevates a military general to the Politburo and seeks",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQN",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQNE94WTNEOHhPRkxFMzFCa",
      "resolved": false
     }
    ]
@@ -142,15 +142,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Upends Global Drug Development With Cheap and Rapid Human Trials - Bloomberg.com",
+   "sample": "China’s Hottest Night Club Is Bringing In $150 Million a Year - Bloomberg.com",
    "diag": [
-    {
-     "title": "China Upends Global Drug Development With Cheap and Rapid Hu",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd3liZ1B6Ym5aR1dLd",
-     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd3liZ1B6Ym5aR1dLdkIyZjZidEFTUzZDd3haU",
-     "resolved": false
-    },
     {
      "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
      "date": "2026-10-29",
@@ -178,6 +171,13 @@
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZ2aDdPUjkzcE1we",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZ2aDdPUjkzcE1wenJ1eXVaRlJBZUlDUFl6b",
      "resolved": false
+    },
+    {
+     "title": "China Graft Agency Probes Former Sinopec Chairman Fu Chengyu",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc1EtTHJnR3hmUS1OS",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc1EtTHJnR3hmUS1OS08yY3o0VUY3OTM0Sm0zQ",
+     "resolved": false
     }
    ]
   },
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Who fell and who rose at China's fifth plenum - Nikkei Asia",
+   "sample": "China's factory activity marks third contraction in four months - Nikkei Asia",
    "diag": [
+    {
+     "title": "China's factory activity marks third contraction in four mon",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODZIaDlzRjBOcXFXZ",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODZIaDlzRjBOcXFXZ0IxTU85SDN4cFlDUng4S",
+     "resolved": false
+    },
     {
      "title": "Who fell and who rose at China's fifth plenum - Nikkei Asia",
      "date": "2026-10-30",
@@ -215,13 +222,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMXRBdmF6eEFoS0Y3M",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMXRBdmF6eEFoS0Y3MXVQZWRObEJyU2RaS1Rwb",
-     "resolved": false
-    },
-    {
-     "title": "BYD, Geely lean on global growth as China market enters 'har",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdmxzNHFjRjAyaHhBN",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdmxzNHFjRjAyaHhBNGR1Vi1KSG1lby1wLU11U",
      "resolved": false
     }
    ]
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
+     "title": "I Covered the Tiananmen Square Massacre. It Still Weighs on ",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3e",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3eF8zV1hWSnJHM280N01jO",
+     "resolved": false
+    },
+    {
      "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
      "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9SamxqX2dmTkpnell6NEd5N",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
      "resolved": false
     }
    ]
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Some 320,000 demonstrators take part in largely peaceful protests across France"
+   "sample": "Testimonies from Oleshky"
   },
   {
    "name": "JapanTimes",
