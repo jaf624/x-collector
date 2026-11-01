@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-01T01:47:30.795301Z",
+ "probed_at": "2026-11-01T06:48:57.109976Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Meta builds humanoid robot with Chinese startup Fourier, The Information says - Reuters",
+   "sample": "Taiwan says China harassing shipping with east coast patrol - Reuters",
    "diag": [
     {
-     "title": "Meta builds humanoid robot with Chinese startup Fourier, The",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTFWdC1PaTBpUG1YS",
-     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTFWdC1PaTBpUG1YSmt0aW9XWTNEdzJsdjRYe",
+     "title": "Taiwan says China harassing shipping with east coast patrol ",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNmpudFJ3RHh6NXBMa",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNmpudFJ3RHh6NXBMa1hnRnV6WFRyZ0VXM3d2d",
      "resolved": false
     },
     {
@@ -24,10 +24,10 @@
      "resolved": false
     },
     {
-     "title": "China's coast guard conducts patrols east of Taiwan, CCTV re",
+     "title": "Meta builds humanoid robot with Chinese startup Fourier, The",
      "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRkd6WXdmaWtsU1FOM",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRkd6WXdmaWtsU1FOM05LUHZxS3NqOS0zY1UzM",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTFWdC1PaTBpUG1YS",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTFWdC1PaTBpUG1YSmt0aW9XWTNEdzJsdjRYe",
      "resolved": false
     },
     {
@@ -52,20 +52,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Graphika finds China-linked Spamouflage accounts posing as US voters on X - AP News",
+   "sample": "China’s factory activity slips as new export orders weaken - AP News",
    "diag": [
-    {
-     "title": "Graphika finds China-linked Spamouflage accounts posing as U",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
-     "resolved": false
-    },
     {
      "title": "China’s factory activity slips as new export orders weaken -",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfV",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfVXowN2ZEM0ppaVNFV2NMT",
+     "resolved": false
+    },
+    {
+     "title": "Graphika finds China-linked Spamouflage accounts posing as U",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
      "resolved": false
     },
     {
@@ -128,10 +128,10 @@
      "resolved": false
     },
     {
-     "title": "Mbappe apologises for Mao Zedong comment after Chinese spons",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmtHT3ZjVXJ3Qk1xR",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmtHT3ZjVXJ3Qk1xRjVHOHFfa281NjNqZ2s5b",
+     "title": "Focus - Texas Republicans accused of changing electoral rule",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcHNaSGR1bHVhRDliV",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcHNaSGR1bHVhRDliV3YtaFNSX2JJZXBWNGhUW",
      "resolved": false
     }
    ]
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China Factory Activity Drops Back Into Decline as Growth Wob",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZ2aDdPUjkzcE1we",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZ2aDdPUjkzcE1wenJ1eXVaRlJBZUlDUFl6b",
+     "title": "Nvidia CEO Says Ties to Company Under Spying Probe Were ‘Nor",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzO",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlQ0Nm5tbUdiYXFzOXhqNkEwQzlYUGZ3QzNRc",
      "resolved": false
     },
     {
-     "title": "China Graft Agency Probes Former Sinopec Chairman Fu Chengyu",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc1EtTHJnR3hmUS1OS",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc1EtTHJnR3hmUS1OS08yY3o0VUY3OTM0Sm0zQ",
+     "title": "Pakistan Allows Taiwan Airlines to Use Airspace in Abrupt U-",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTS",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFBvYUx2ZkJWcWRTSF9pZnNBNzNpSUpPSWh3b",
      "resolved": false
     }
    ]
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Muji takes its China playbook global - Financial Times",
+   "sample": "Toyota-backed truckmaker bets on aftersales service to fend off Chinese EV rivals - Financial Times",
    "diag": [
+    {
+     "title": "Toyota-backed truckmaker bets on aftersales service to fend ",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGlwRVV5UTYzOXVJU",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGlwRVV5UTYzOXVJUDhuMUNESkx2dWc5bnMwR",
+     "resolved": false
+    },
     {
      "title": "Muji takes its China playbook global - Financial Times",
      "date": "2026-10-31",
@@ -249,13 +256,6 @@
      "resolved": false
     },
     {
-     "title": "Gates-backed miner says China is frustrating DR Congo explor",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhR",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhRmgyRWhLU3NLNEhsbkY0a",
-     "resolved": false
-    },
-    {
      "title": "Toyota takes on Tesla and China in humanoid robot race - Fin",
      "date": "2026-10-25",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNT",
@@ -263,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "Caught between the US and China - Financial Times",
-     "date": "2026-10-23",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGw5ZGtQVTRvSVhxL",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGw5ZGtQVTRvSVhxLWVvQkNNbTl2TUl2NFBLa",
+     "title": "Gates-backed miner says China is frustrating DR Congo explor",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhR",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhRmgyRWhLU3NLNEhsbkY0a",
      "resolved": false
     }
    ]
@@ -322,20 +322,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Jose Mourinho says Kylian Mbappe’s China backlash ‘highlight dangers of today’s world’ - The New York Times",
+   "sample": "Liu Yandong, Rare Woman Among China’s Political Elite, Dies at 80 - The New York Times",
    "diag": [
-    {
-     "title": "Jose Mourinho says Kylian Mbappe’s China backlash ‘highlight",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX20zVkZzRUdFQm83NjhGd",
-     "resolved": false
-    },
     {
      "title": "Liu Yandong, Rare Woman Among China’s Political Elite, Dies ",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSb2ttMW1YS0pjbHgzS",
      "real": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSb2ttMW1YS0pjbHgzSU53M0lOQi1tSWFaeHE1M",
+     "resolved": false
+    },
+    {
+     "title": "Jose Mourinho says Kylian Mbappe’s China backlash ‘highlight",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX",
+     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX20zVkZzRUdFQm83NjhGd",
      "resolved": false
     },
     {
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
-     "title": "I Covered the Tiananmen Square Massacre. It Still Weighs on ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3e",
-     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3eF8zV1hWSnJHM280N01jO",
-     "resolved": false
-    },
-    {
      "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
      "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9SamxqX2dmTkpnell6NEd5N",
+     "resolved": false
+    },
+    {
+     "title": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
      "resolved": false
     }
    ]
@@ -367,15 +367,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Let China copy American AI - The Economist",
+   "sample": "China’s investment in transport infrastructure has peaked - The Economist",
    "diag": [
-    {
-     "title": "Let China copy American AI - The Economist",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZO",
-     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZOWlZWlI3OVJRbmhycEpIR",
-     "resolved": false
-    },
     {
      "title": "China’s investment in transport infrastructure has peaked - ",
      "date": "2026-10-29",
@@ -402,6 +395,13 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkJPUnVWMnJka3Z0V",
      "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkJPUnVWMnJka3Z0VkpNeUpKTFJzdktiM09Cd",
+     "resolved": false
+    },
+    {
+     "title": "Let China copy American AI - The Economist",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZO",
+     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZOWlZWlI3OVJRbmhycEpIR",
      "resolved": false
     }
    ]
@@ -485,9 +485,9 @@
    "name": "BBC中文",
    "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
    "status": 200,
-   "items": 38,
+   "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[裝扮成哈利波特，公開質疑泰國王室——他如今面臨34年監禁]]>"
+   "sample": "<![CDATA[「我們從地獄回來」——在俄羅斯佔領城市撤離的烏克蘭人說]]>"
   },
   {
    "name": "美国国务院",
@@ -596,9 +596,10 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 404,
+   "status": -1,
    "items": 0,
-   "is_feed": false
+   "is_feed": false,
+   "err": "The read operation timed out"
   },
   {
    "name": "IEA",
@@ -628,7 +629,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Testimonies from Oleshky"
+   "sample": "India tightens security as opposition holds mega rally demanding election chief’s resignation"
   },
   {
    "name": "JapanTimes",
