@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-01T06:48:57.109976Z",
+ "probed_at": "2026-11-01T08:33:14.589002Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -204,17 +204,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese shipping, coal stocks outperform AI as earnings outl",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlR",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlRGIzUjhMU0FCRWxZZDYxN",
-     "resolved": false
-    },
-    {
      "title": "North Korea's Kim Jong Un visits China via newly opened brid",
      "date": "2026-10-24",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
      "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3O",
+     "resolved": false
+    },
+    {
+     "title": "Chinese shipping, coal stocks outperform AI as earnings outl",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlR",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlRGIzUjhMU0FCRWxZZDYxN",
      "resolved": false
     },
     {
@@ -249,17 +249,17 @@
      "resolved": false
     },
     {
-     "title": "Private equity firm swoops on China Evergrande unit in rare ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGN0SUE3UEZEZmR2a",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGN0SUE3UEZEZmR2aEFBaWdZX09rZFJOYXY0T",
-     "resolved": false
-    },
-    {
      "title": "Toyota takes on Tesla and China in humanoid robot race - Fin",
      "date": "2026-10-25",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNT",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNTTlwaWtmU3F6UmlUU0VZc",
+     "resolved": false
+    },
+    {
+     "title": "Private equity firm swoops on China Evergrande unit in rare ",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGN0SUE3UEZEZmR2a",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGN0SUE3UEZEZmR2aEFBaWdZX09rZFJOYXY0T",
      "resolved": false
     },
     {
@@ -277,8 +277,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Scoops Up Data That Could Aid Its Forces in Waters Around Taiwan - WSJ",
+   "sample": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of Doing Nothing - WSJ",
    "diag": [
+    {
+     "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
+     "resolved": false
+    },
     {
      "title": "China Scoops Up Data That Could Aid Its Forces in Waters Aro",
      "date": "2026-10-30",
@@ -306,13 +313,6 @@
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfb",
      "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfbzhaVG9yQTh0dmNFdzUya",
      "resolved": false
-    },
-    {
-     "title": "Memory Crunch Cements CXMT as China’s Chip Champion - WSJ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFk1YklyYnNaSW56Z",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFk1YklyYnNaSW56ZzNzS2kySTBMeklaTzAxQ",
-     "resolved": false
     }
    ]
   },
@@ -322,8 +322,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Liu Yandong, Rare Woman Among China’s Political Elite, Dies at 80 - The New York Times",
+   "sample": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pests - The New York Times",
    "diag": [
+    {
+     "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pe",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
+     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX2lPaVlieXNmSjFXc2ZPN",
+     "resolved": false
+    },
     {
      "title": "Liu Yandong, Rare Woman Among China’s Political Elite, Dies ",
      "date": "2026-10-31",
@@ -336,13 +343,6 @@
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX",
      "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX20zVkZzRUdFQm83NjhGd",
-     "resolved": false
-    },
-    {
-     "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pe",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
-     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX2lPaVlieXNmSjFXc2ZPN",
      "resolved": false
     },
     {
@@ -629,7 +629,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "India tightens security as opposition holds mega rally demanding election chief’s resignation"
+   "sample": "Indian opposition stage mega rally seeking election chief’s resignation"
   },
   {
    "name": "JapanTimes",
