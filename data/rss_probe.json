@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-10-31T22:44:29.773560Z",
+ "probed_at": "2026-11-01T00:34:57.743958Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
+     "title": "Expats Who Can't Speak Chinese Struggle to Land Hong Kong Jo",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3FLUjFpZXc2SzVUM",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3FLUjFpZXc2SzVUM0t2SEJVek1tcThGNF94d",
+     "resolved": false
+    },
+    {
      "title": "China Factory Activity Drops Back Into Decline as Growth Wob",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZ2aDdPUjkzcE1we",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeTZ2aDdPUjkzcE1wenJ1eXVaRlJBZUlDUFl6b",
-     "resolved": false
-    },
-    {
-     "title": "China Graft Agency Probes Former Sinopec Chairman Fu Chengyu",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc1EtTHJnR3hmUS1OS",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc1EtTHJnR3hmUS1OS08yY3o0VUY3OTM0Sm0zQ",
      "resolved": false
     }
    ]
@@ -263,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "China’s homegrown cosmetics contenders face battle to glow u",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekQtbDNKaXctUHVMb",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekQtbDNKaXctUHVMbTRobzJtRVVManc3ZlZDe",
+     "title": "Caught between the US and China - Financial Times",
+     "date": "2026-10-23",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGw5ZGtQVTRvSVhxL",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGw5ZGtQVTRvSVhxLWVvQkNNbTl2TUl2NFBLa",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 60,
+   "items": 100,
    "is_feed": true,
    "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
    "diag": [
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "U.S. Intelligence: China Could Put Laser Weapons in Space by 2030"
+   "sample": "Chevron Raises Exploration Spending By 50%"
   },
   {
    "name": "IMF",
