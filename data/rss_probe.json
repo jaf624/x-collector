@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-01T18:42:33.629847Z",
+ "probed_at": "2026-11-01T20:05:31.040300Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -31,17 +31,17 @@
      "resolved": false
     },
     {
-     "title": "Real, Mbappe have moved on from China controversy, says Mour",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6Q",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6QXRmSWJheXBJS3A3dFVTN",
-     "resolved": false
-    },
-    {
      "title": "China's Xi hails new chapter with Germany, urges friendly po",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVrYU5aZnNQc2p4R",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVrYU5aZnNQc2p4R2ZDOEVtdmtqb3lQWTIyQ",
+     "resolved": false
+    },
+    {
+     "title": "Real, Mbappe have moved on from China controversy, says Mour",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6Q",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6QXRmSWJheXBJS3A3dFVTN",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 100,
    "is_feed": true,
    "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
    "diag": [
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
+     "title": "China September rare earth exports rise 6.7% from a year ear",
      "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "U.S. Labs Look to New Materials to Close China&#039;s Nuclear Lead"
+   "sample": "Massive AI Data Center Sparks Backlash Despite Clean Energy Promises"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "France: Route du Rhum yacht race sets off"
+   "sample": "<![CDATA[Michigan ‘Betrayal’ & Mid Term Manouvres]]>"
   },
   {
    "name": "JapanTimes",
