@@ -175,14 +175,57 @@ MIL_POSTURE_RE = re.compile(
     re.I)
 
 
-def http(url, accept, timeout=120, extra_headers=None):
-    headers = {"Authorization": f"Bearer {KEY}",
-               "Accept": accept, "User-Agent": UA}
+# 付费账户余额是否已耗尽（402 InsufficientBalance）。一旦确认，本run内全部走匿名免费层，
+# 避免每次请求先撞402再重试，拖慢整轮采集。
+_BALANCE_DEAD = False
+
+def _build_headers(accept, extra_headers, anonymous):
+    h = {"Accept": accept, "User-Agent": UA}
+    if not anonymous and KEY:
+        h["Authorization"] = "Bearer " + KEY
     if extra_headers:
-        headers.update(extra_headers)
+        h.update(extra_headers)
+    return h
+
+def _open_once(url, headers, timeout):
     req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
         return r.status, r.read().decode("utf-8", "ignore"), dict(r.headers)
+
+def http(url, accept, timeout=120, extra_headers=None):
+    """Jina HTTP 封装。
+    - 付费账户余额不足(402)：自动降级匿名免费层，并在本run内记住该状态；
+    - 匿名层限流(429)：有限退避重试，避免直接丢料。
+    成功返回 (status, body, headers)；其余错误照常向上抛出。"""
+    global _BALANCE_DEAD
+    anonymous = _BALANCE_DEAD or not KEY
+    try:
+        return _open_once(url, _build_headers(accept, extra_headers, anonymous), timeout)
+    except urllib.error.HTTPError as e:
+        if e.code == 402 and not anonymous:
+            _BALANCE_DEAD = True
+            print("[jina] 付费账户余额不足(402)，本轮降级匿名免费层: %s" % url[:70], flush=True)
+            try:
+                return _open_once(url, _build_headers(accept, extra_headers, True), timeout)
+            except urllib.error.HTTPError as e2:
+                if e2.code == 429:
+                    return _retry_429(url, accept, extra_headers, timeout)
+                raise
+        if e.code == 429:
+            return _retry_429(url, accept, extra_headers, timeout)
+        raise
+
+def _retry_429(url, accept, extra_headers, timeout, tries=2):
+    for i in range(tries):
+        wait = 6 * (i + 1)
+        print("[jina] 匿名层限流(429)，%d秒后重试(%d/%d): %s" % (wait, i + 1, tries, url[:60]), flush=True)
+        time.sleep(wait)
+        try:
+            return _open_once(url, _build_headers(accept, extra_headers, True), timeout)
+        except urllib.error.HTTPError as e3:
+            if e3.code != 429:
+                raise
+    raise urllib.error.HTTPError(url, 429, "rate limited after retries", None, None)
 
 
 def reader(target_url, accept="text/plain", browser_retry=True):
