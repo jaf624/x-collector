@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-01T15:42:28.715560Z",
+ "probed_at": "2026-11-01T18:42:33.629847Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -204,6 +204,13 @@
      "resolved": false
     },
     {
+     "title": "Who fell and who rose at China's fifth plenum - Nikkei Asia",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWIxOHRQQ0xkQ1F6N",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWIxOHRQQ0xkQ1F6NWc5c0ZQSjZxSnlMUkt1b",
+     "resolved": false
+    },
+    {
      "title": "North Korea's Kim Jong Un visits China via newly opened brid",
      "date": "2026-10-24",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
@@ -215,13 +222,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlR",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlRGIzUjhMU0FCRWxZZDYxN",
-     "resolved": false
-    },
-    {
-     "title": "Who fell and who rose at China's fifth plenum - Nikkei Asia",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWIxOHRQQ0xkQ1F6N",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWIxOHRQQ0xkQ1F6NWc5c0ZQSjZxSnlMUkt1b",
      "resolved": false
     }
    ]
@@ -367,8 +367,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese spy or chump? The case of the Fed economist - The Economist",
+   "sample": "Hit podcasts reveal the angst of China’s youth - The Economist",
    "diag": [
+    {
+     "title": "Hit podcasts reveal the angst of China’s youth - The Economi",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUThxTXJxWVJGM2Iyd",
+     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUThxTXJxWVJGM2IydTNSTW44TG9CLWVGaE5GY",
+     "resolved": false
+    },
     {
      "title": "Chinese spy or chump? The case of the Fed economist - The Ec",
      "date": "2026-10-30",
@@ -396,13 +403,6 @@
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb2c1a1NHS1ZMb1lScVNvU",
      "resolved": false
-    },
-    {
-     "title": "China’s stock markets are the great global exception - The E",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHp6ajdhVDZUMl85TS1mb2FwRThEUTBZOUVmc",
-     "resolved": false
     }
    ]
   },
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 61,
+   "items": 59,
    "is_feed": true,
    "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
    "diag": [
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
-     "title": "DTEC granted permit to ship raw rare earths from Malaysia to",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejJ5RFBCUDRrYXdMQ",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejJ5RFBCUDRrYXdMQk13ME54V3hDMW1rQ2N1R",
-     "resolved": false
-    },
-    {
      "title": "EXCLUSIVE: Pentagon treating military base freezer malfuncti",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ",
      "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ0RoX2hseFpyajltZE5vb",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
      "resolved": false
     }
    ]
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Cutifani warns mining sector&#8217;s failure to innovate opens door to takeovers"
+   "sample": "Global resource squeeze signals market shift: report "
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Chevron Raises Exploration Spending By 50%"
+   "sample": "U.S. Labs Look to New Materials to Close China&#039;s Nuclear Lead"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "French high school blockades to restart on Monday, student unions say"
+   "sample": "France: Route du Rhum yacht race sets off"
   },
   {
    "name": "JapanTimes",
@@ -676,9 +676,10 @@
   {
    "name": "BreakingDefense",
    "url": "https://breakingdefense.com/feed/",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be paid by allies"
   },
   {
    "name": "MiningWeekly",
