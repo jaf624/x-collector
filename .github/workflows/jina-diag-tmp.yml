@@ -1,0 +1,21 @@
+name: jina-diag-tmp
+on:
+  workflow_dispatch:
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jina diagnostics
+        env:
+          JINA_KEY: ${{ secrets.JINA_KEY }}
+        run: |
+          echo "== JINA_KEY 长度: ${#JINA_KEY} 前缀: ${JINA_KEY:0:6}"
+          echo "== 1) 匿名访问 r.jina.ai =="
+          curl -s -o /tmp/a.txt -w "HTTP=%{http_code}\n" "https://r.jina.ai/https://example.com"
+          head -c 200 /tmp/a.txt; echo
+          echo "== 2) 带key访问 r.jina.ai =="
+          curl -s -o /tmp/b.txt -w "HTTP=%{http_code}\n" -H "Authorization: Bearer $JINA_KEY" "https://r.jina.ai/https://example.com"
+          head -c 200 /tmp/b.txt; echo
+          echo "== 3) 带key访问 s.jina.ai 搜索 =="
+          curl -s -o /tmp/c.txt -w "HTTP=%{http_code}\n" -H "Authorization: Bearer $JINA_KEY" "https://s.jina.ai/China?num=1"
+          head -c 200 /tmp/c.txt; echo
