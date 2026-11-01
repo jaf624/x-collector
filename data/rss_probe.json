@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-01T22:34:32.201284Z",
+ "probed_at": "2026-11-01T23:46:21.432963Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -24,17 +24,17 @@
      "resolved": false
     },
     {
-     "title": "Meta builds humanoid robot with Chinese startup Fourier, The",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTFWdC1PaTBpUG1YS",
-     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTFWdC1PaTBpUG1YSmt0aW9XWTNEdzJsdjRYe",
-     "resolved": false
-    },
-    {
      "title": "China's Xi hails new chapter with Germany, urges friendly po",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVrYU5aZnNQc2p4R",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVrYU5aZnNQc2p4R2ZDOEVtdmtqb3lQWTIyQ",
+     "resolved": false
+    },
+    {
+     "title": "Meta builds humanoid robot with Chinese startup Fourier, The",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTFWdC1PaTBpUG1YS",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTFWdC1PaTBpUG1YSmt0aW9XWTNEdzJsdjRYe",
      "resolved": false
     },
     {
@@ -353,10 +353,10 @@
      "resolved": false
     },
     {
-     "title": "Jose Mourinho says Kylian Mbappe’s China backlash ‘highlight",
+     "title": "How One Country Became the Unlikely Crossroads of the Global",
      "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE5qRW5oN09BQmdRX20zVkZzRUdFQm83NjhGd",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ",
+     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ2NlWlBld2lpTEgyTzF4R",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 59,
    "is_feed": true,
    "sample": "Soy, rare earths and fuels: how Brazil vote impacts the global flow of resources - Reuters",
    "diag": [
@@ -436,10 +436,10 @@
      "resolved": false
     },
     {
-     "title": "China September rare earth exports rise 6.7% from a year ear",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
+     "title": "China rare earth firms halt some US shipments over geopoliti",
+     "date": "2026-09-04",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
      "resolved": false
     },
     {
