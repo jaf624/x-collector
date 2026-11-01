@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-01T20:05:31.040300Z",
+ "probed_at": "2026-11-01T22:34:32.201284Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -38,10 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Real, Mbappe have moved on from China controversy, says Mour",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6Q",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6QXRmSWJheXBJS3A3dFVTN",
+     "title": "US plans to ban Chinese telecom firms from direct access to ",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUS",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUSUtxUkN2cFFlb2tzcG81R",
      "resolved": false
     }
    ]
@@ -52,8 +52,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s factory activity slips as new export orders weaken - AP News",
+   "sample": "Taiwan accuses China of harassment after standoff between coast guard ships - AP News",
    "diag": [
+    {
+     "title": "Taiwan accuses China of harassment after standoff between co",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBPeHlzc3NpUmRad",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBPeHlzc3NpUmRadkhGZFJaVlowSGU2emlPM",
+     "resolved": false
+    },
+    {
+     "title": "China's record-breaking exports of clean tech are making a b",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQa",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQajdJVUo1YW5ONVdJNUUxN",
+     "resolved": false
+    },
     {
      "title": "China’s factory activity slips as new export orders weaken -",
      "date": "2026-10-31",
@@ -73,20 +87,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU084UkpObDVKWlBpd",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU084UkpObDVKWlBpdHNjdWpRc241OVc2T0s1d",
-     "resolved": false
-    },
-    {
-     "title": "Consensus looks elusive at G20 talks after European objectio",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05KUnNfZG1OODZTY",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05KUnNfZG1OODZTY3RxWXpQTFozVkVHUkp1S",
-     "resolved": false
-    },
-    {
-     "title": "China elevates a military general to the Politburo and seeks",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQN",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNER6WXc1bGVpUXhQNE94WTNEOHhPRkxFMzFCa",
      "resolved": false
     }
    ]
@@ -142,7 +142,7 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China to Convene Meeting on Supporting Stock Market, Reports Say - Bloomberg.com",
+   "sample": "China to Convene Meeting on Supporting Stock Market, Reports Say - Bloomberg",
    "diag": [
     {
      "title": "China to Convene Meeting on Supporting Stock Market, Reports",
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China’s ‘Upgraded’ Peru Trade Deal Takes Effect, Widening Ti",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHc1WGNITmJSTDNOb",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHc1WGNITmJSTDNObWtJSDlPd0ZPYktkemdIM",
-     "resolved": false
-    },
-    {
      "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ",
      "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ2ZPZlBmZjNTdWRJV2l6N",
+     "resolved": false
+    },
+    {
+     "title": "China Warns of Retaliation Over US Test Lab Restrictions - B",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa0hUcGk2LUZiU1VzS",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa0hUcGk2LUZiU1VzSTFvazhSLXB6VUw0cWFtN",
      "resolved": false
     }
    ]
@@ -204,13 +204,6 @@
      "resolved": false
     },
     {
-     "title": "Who fell and who rose at China's fifth plenum - Nikkei Asia",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWIxOHRQQ0xkQ1F6N",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWIxOHRQQ0xkQ1F6NWc5c0ZQSjZxSnlMUkt1b",
-     "resolved": false
-    },
-    {
      "title": "North Korea's Kim Jong Un visits China via newly opened brid",
      "date": "2026-10-24",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
@@ -222,6 +215,13 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlR",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlRGIzUjhMU0FCRWxZZDYxN",
+     "resolved": false
+    },
+    {
+     "title": "Who fell and who rose at China's fifth plenum - Nikkei Asia",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWIxOHRQQ0xkQ1F6N",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWIxOHRQQ0xkQ1F6NWc5c0ZQSjZxSnlMUkt1b",
      "resolved": false
     }
    ]
@@ -294,13 +294,6 @@
      "resolved": false
     },
     {
-     "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
-     "resolved": false
-    },
-    {
      "title": "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOM",
@@ -308,8 +301,15 @@
      "resolved": false
     },
     {
+     "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
+     "resolved": false
+    },
+    {
      "title": "China’s Car Industry Is Wowing the World—but Crashing at Hom",
-     "date": "2026-10-28",
+     "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfb",
      "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfbzhaVG9yQTh0dmNFdzUya",
      "resolved": false
@@ -332,6 +332,13 @@
      "resolved": false
     },
     {
+     "title": "I Covered the Tiananmen Square Massacre. It Still Weighs on ",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3e",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3eF8zV1hWSnJHM280N01jO",
+     "resolved": false
+    },
+    {
      "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
@@ -343,13 +350,6 @@
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
      "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
-     "resolved": false
-    },
-    {
-     "title": "I Covered the Tiananmen Square Massacre. It Still Weighs on ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3e",
-     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3eF8zV1hWSnJHM280N01jO",
      "resolved": false
     },
     {
@@ -412,15 +412,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "France minerals envoy says rare earths diversification from China possible within 3-5 years - Reuters",
+   "sample": "Soy, rare earths and fuels: how Brazil vote impacts the global flow of resources - Reuters",
    "diag": [
-    {
-     "title": "France minerals envoy says rare earths diversification from ",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZN",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZNXliXzFIZGQ2NTduaXJDU",
-     "resolved": false
-    },
     {
      "title": "Soy, rare earths and fuels: how Brazil vote impacts the glob",
      "date": "2026-10-29",
@@ -447,6 +440,13 @@
      "date": "2026-10-13",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "NUWC Division, Keyport saves millions through parts reclamation"
+   "sample": "Colorado National Guard Black Hawk lands in Boulder County following blade strike during SAR "
   },
   {
    "name": "商务部新闻",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "<![CDATA[Michigan ‘Betrayal’ & Mid Term Manouvres]]>"
+   "sample": "French presidential candidate Édouard Philippe rejects centre-right primary"
   },
   {
    "name": "JapanTimes",
