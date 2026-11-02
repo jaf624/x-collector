@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-02T01:52:04.883510Z",
+ "probed_at": "2026-11-02T03:28:10.179305Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -114,17 +114,17 @@
      "resolved": false
     },
     {
-     "title": "Real Madrid apologises to China over Mbappé's Mao Zedong com",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZ",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZGsxZ1Q1d3VYUnMzaVdxV",
-     "resolved": false
-    },
-    {
      "title": "New levy on non-EU parcels kicks in Sunday - France 24",
      "date": "2026-10-26",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdW0xdW82MWJSSTBRe",
      "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdW0xdW82MWJSSTBReGVjVHoyZ3FyMmgtWEpTS",
+     "resolved": false
+    },
+    {
+     "title": "Real Madrid apologises to China over Mbappé's Mao Zedong com",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZ",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZGsxZ1Q1d3VYUnMzaVdxV",
      "resolved": false
     },
     {
@@ -142,13 +142,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China to Convene Meeting on Supporting Stock Market, Reports Say - Bloomberg.com",
+   "sample": "China Factory Activity Expands But Ends Streak of Faster Growth - Bloomberg.com",
    "diag": [
+    {
+     "title": "China Factory Activity Expands But Ends Streak of Faster Gro",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYVgyV0NaWmJKNS0yU",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYVgyV0NaWmJKNS0yUDZVcFJyaDJhcThxWk9KM",
+     "resolved": false
+    },
     {
      "title": "China to Convene Meeting on Supporting Stock Market, Reports",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q25VVXptSDk0dU1FQkJkc",
+     "resolved": false
+    },
+    {
+     "title": "China’s 5,000-Ton Digging Machines Are a Trade War Risk to I",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTd2YzlxNEVRbFZDZ",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTd2YzlxNEVRbFZDZU95azllUlVZQ1pSZmpEO",
      "resolved": false
     },
     {
@@ -159,24 +173,10 @@
      "resolved": false
     },
     {
-     "title": "China Communist Party Urges Tougher Action on Crypto Corrupt",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTV3WU5XNFZ5b0ctU",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTV3WU5XNFZ5b0ctUm1LZ2tHVElfcHU2eDRXN",
-     "resolved": false
-    },
-    {
      "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ",
      "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ2ZPZlBmZjNTdWRJV2l6N",
-     "resolved": false
-    },
-    {
-     "title": "China Warns of Retaliation Over US Test Lab Restrictions - B",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa0hUcGk2LUZiU1VzS",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa0hUcGk2LUZiU1VzSTFvazhSLXB6VUw0cWFtN",
      "resolved": false
     }
    ]
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China mega complex in Dalian puts spotlight on investment push - Nikkei Asia",
+   "sample": "Chinese Communist Party taps big data surveillance to combat corruption - Nikkei Asia",
    "diag": [
+    {
+     "title": "Chinese Communist Party taps big data surveillance to combat",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnFDWGVVSm42MEdBU",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnFDWGVVSm42MEdBUXcycUoyMTN5amFibk93M",
+     "resolved": false
+    },
     {
      "title": "China mega complex in Dalian puts spotlight on investment pu",
      "date": "2026-10-31",
@@ -215,13 +222,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlR",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlRGIzUjhMU0FCRWxZZDYxN",
-     "resolved": false
-    },
-    {
-     "title": "Who fell and who rose at China's fifth plenum - Nikkei Asia",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWIxOHRQQ0xkQ1F6N",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWIxOHRQQ0xkQ1F6NWc5c0ZQSjZxSnlMUkt1b",
      "resolved": false
     }
    ]
@@ -277,8 +277,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of Doing Nothing - WSJ",
+   "sample": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Changing That. - WSJ",
    "diag": [
+    {
+     "title": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Ch",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtN",
+     "real": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtNzgwdVZDalJFVmhObFlmV",
+     "resolved": false
+    },
     {
      "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
      "date": "2026-11-01",
@@ -305,13 +312,6 @@
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
-     "resolved": false
-    },
-    {
-     "title": "China’s Car Industry Is Wowing the World—but Crashing at Hom",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfb",
-     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfbzhaVG9yQTh0dmNFdzUya",
      "resolved": false
     }
    ]
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
+     "title": "China September rare earth exports rise 6.7% from a year ear",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
+     "resolved": false
+    },
+    {
      "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
      "date": "2026-10-13",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
      "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
-     "resolved": false
-    },
-    {
-     "title": "China rare earth firms halt some US shipments over geopoliti",
-     "date": "2026-09-04",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
      "resolved": false
     }
    ]
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Ukraine suspects nationwide air raid alert app has been hacked"
+   "sample": "Russia and Ukraine accuse each other of hacking emergency alert apps"
   },
   {
    "name": "JapanTimes",
