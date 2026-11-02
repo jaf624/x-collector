@@ -17712,5 +17712,775 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 0
+  },
+  {
+    "host": "wirechina.substack.com",
+    "base": "https://wirechina.substack.com/",
+    "ref": "https://wirechina.substack.com/",
+    "name": "The Wire China",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://wirechina.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "chinafile.substack.com",
+    "base": "https://chinafile.substack.com/",
+    "ref": "https://chinafile.substack.com/",
+    "name": "ChinaFile",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://chinafile.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "sinopsis.substack.com",
+    "base": "https://sinopsis.substack.com/",
+    "ref": "https://sinopsis.substack.com/",
+    "name": "Sinopsis",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://sinopsis.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "chinaspeak.substack.com",
+    "base": "https://chinaspeak.substack.com/",
+    "ref": "https://chinaspeak.substack.com/",
+    "name": "ChinaSpeak",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://chinaspeak.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "asiatimes.substack.com",
+    "base": "https://asiatimes.substack.com/",
+    "ref": "https://asiatimes.substack.com/",
+    "name": "Asia Times",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://asiatimes.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "diplomat.substack.com",
+    "base": "https://diplomat.substack.com/",
+    "ref": "https://diplomat.substack.com/",
+    "name": "The Diplomat",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://thediplomat.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "foreignpolicy.substack.com",
+    "base": "https://foreignpolicy.substack.com/",
+    "ref": "https://foreignpolicy.substack.com/",
+    "name": "Foreign Policy",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://foreignpolicy.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "nationalinterest.substack.com",
+    "base": "https://nationalinterest.substack.com/",
+    "ref": "https://nationalinterest.substack.com/",
+    "name": "National Interest",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://nationalinterest.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "waronrocks.substack.com",
+    "base": "https://waronrocks.substack.com/",
+    "ref": "https://waronrocks.substack.com/",
+    "name": "War on the Rocks",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://warontherocks.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "defenseone.substack.com",
+    "base": "https://defenseone.substack.com/",
+    "ref": "https://defenseone.substack.com/",
+    "name": "Defense One",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://defenseone.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "breakingdefense.substack.com",
+    "base": "https://breakingdefense.substack.com/",
+    "ref": "https://breakingdefense.substack.com/",
+    "name": "Breaking Defense",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://breakingdefense.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "securityaffairs.substack.com",
+    "base": "https://securityaffairs.substack.com/",
+    "ref": "https://securityaffairs.substack.com/",
+    "name": "Security Affairs",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://securityaffairs.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "cyberscoop.substack.com",
+    "base": "https://cyberscoop.substack.com/",
+    "ref": "https://cyberscoop.substack.com/",
+    "name": "Cyberscoop",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://cyberscoop.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "thecyberwire.substack.com",
+    "base": "https://thecyberwire.substack.com/",
+    "ref": "https://thecyberwire.substack.com/",
+    "name": "CyberWire",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://thecyberwire.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "spacenews.substack.com",
+    "base": "https://spacenews.substack.com/",
+    "ref": "https://spacenews.substack.com/",
+    "name": "SpaceNews",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://spacenews.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "aviationweek.substack.com",
+    "base": "https://aviationweek.substack.com/",
+    "ref": "https://aviationweek.substack.com/",
+    "name": "Aviation Week",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://aviationweek.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "mining.com.substack.com",
+    "base": "https://mining.com.substack.com/",
+    "ref": "https://mining.com.substack.com/",
+    "name": "Mining.com",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://miningdotcom.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "oilprice.substack.com",
+    "base": "https://oilprice.substack.com/",
+    "ref": "https://oilprice.substack.com/",
+    "name": "OilPrice",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://oilprice.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "recharge.substack.com",
+    "base": "https://recharge.substack.com/",
+    "ref": "https://recharge.substack.com/",
+    "name": "Recharge",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://rechargenews.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "pv-magazine.substack.com",
+    "base": "https://pv-magazine.substack.com/",
+    "ref": "https://pv-magazine.substack.com/",
+    "name": "PV Magazine",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://pv-magazine.substack.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "medcitynews.com",
+    "base": "https://medcitynews.com/",
+    "ref": "https://medcitynews.com/",
+    "name": "MedCity News",
+    "cat": "hardnews",
+    "cats": [
+      "vertical"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.medcitynews.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "healthcareitnews.com",
+    "base": "https://healthcareitnews.com/",
+    "ref": "https://healthcareitnews.com/",
+    "name": "Healthcare IT News",
+    "cat": "hardnews",
+    "cats": [
+      "vertical"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.healthcareitnews.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "space.com",
+    "base": "https://space.com/",
+    "ref": "https://space.com/",
+    "name": "Space.com",
+    "cat": "hardnews",
+    "cats": [
+      "vertical"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.space.com/feeds/news",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "detroitnews.com",
+    "base": "https://detroitnews.com/",
+    "ref": "https://detroitnews.com/",
+    "name": "底特律新闻",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.detroitnews.com/rss/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "cleveland.com",
+    "base": "https://cleveland.com/",
+    "ref": "https://cleveland.com/",
+    "name": "克利夫兰实话报",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.cleveland.com/rss/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "cincinnati.com",
+    "base": "https://cincinnati.com/",
+    "ref": "https://cincinnati.com/",
+    "name": "辛辛那提问询报",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.cincinnati.com/rss/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "pittsburghpost-gazette.com",
+    "base": "https://pittsburghpost-gazette.com/",
+    "ref": "https://pittsburghpost-gazette.com/",
+    "name": "匹兹堡邮报",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.post-gazette.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "minnpost.com",
+    "base": "https://minnpost.com/",
+    "ref": "https://minnpost.com/",
+    "name": "明尼阿波利斯星坛报",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.minnpost.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "texastribune.org",
+    "base": "https://texastribune.org/",
+    "ref": "https://texastribune.org/",
+    "name": "德克萨斯论坛报",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.texastribune.org/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "calmatters.org",
+    "base": "https://calmatters.org/",
+    "ref": "https://calmatters.org/",
+    "name": "加州事务",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://calmatters.org/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "citylab.com",
+    "base": "https://citylab.com/",
+    "ref": "https://citylab.com/",
+    "name": "CityLab",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.citylab.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "governing.com",
+    "base": "https://governing.com/",
+    "ref": "https://governing.com/",
+    "name": "Governing",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.governing.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "stateline.org",
+    "base": "https://stateline.org/",
+    "ref": "https://stateline.org/",
+    "name": "Stateline",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.stateline.org/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "pewresearch.org",
+    "base": "https://pewresearch.org/",
+    "ref": "https://pewresearch.org/",
+    "name": "皮尤研究中心",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.pewresearch.org/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "urban.org",
+    "base": "https://urban.org/",
+    "ref": "https://urban.org/",
+    "name": "城市研究所",
+    "cat": "hardnews",
+    "cats": [
+      "local"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.urban.org/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
   }
 ]
