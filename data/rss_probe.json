@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-02T03:28:10.179305Z",
+ "probed_at": "2026-11-02T04:23:26.695196Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -142,20 +142,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Factory Activity Expands But Ends Streak of Faster Growth - Bloomberg.com",
+   "sample": "China Factory Activity Expands But Ends Streak of Faster Growth - Bloomberg",
    "diag": [
     {
      "title": "China Factory Activity Expands But Ends Streak of Faster Gro",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYVgyV0NaWmJKNS0yU",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYVgyV0NaWmJKNS0yUDZVcFJyaDJhcThxWk9KM",
-     "resolved": false
-    },
-    {
-     "title": "China to Convene Meeting on Supporting Stock Market, Reports",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q25VVXptSDk0dU1FQkJkc",
      "resolved": false
     },
     {
@@ -166,17 +159,24 @@
      "resolved": false
     },
     {
+     "title": "China Should Take ‘Much Bolder Actions,’ Says Primavera’s Hu",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNFRWellHclIzY21oe",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNFRWellHclIzY21oeUhtVThILXFFc0d5V3BGR",
+     "resolved": false
+    },
+    {
+     "title": "China to Convene Meeting on Supporting Stock Market, Reports",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q25VVXptSDk0dU1FQkJkc",
+     "resolved": false
+    },
+    {
      "title": "China’s Top Regulators to Address Global Bankers at HK Summi",
      "date": "2026-11-01",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMl9rZG5XR1REd1A3S",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMl9rZG5XR1REd1A3SWZmZ2k2VTdXVmVUS3RrU",
-     "resolved": false
-    },
-    {
-     "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ2ZPZlBmZjNTdWRJV2l6N",
      "resolved": false
     }
    ]
@@ -242,6 +242,13 @@
      "resolved": false
     },
     {
+     "title": "The AI bubble already popped — in China - Financial Times",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZGtNd3hLMUVPb3NRLU1TR",
+     "resolved": false
+    },
+    {
      "title": "Muji takes its China playbook global - Financial Times",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdTRYMnBCdUo2ZWN1T",
@@ -260,13 +267,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGN0SUE3UEZEZmR2a",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGN0SUE3UEZEZmR2aEFBaWdZX09rZFJOYXY0T",
-     "resolved": false
-    },
-    {
-     "title": "Gates-backed miner says China is frustrating DR Congo explor",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhR",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa2RzWnE5QVNnX3VhRmgyRWhLU3NLNEhsbkY0a",
      "resolved": false
     }
    ]
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
+     "title": "China’s Car Industry Is Wowing the World—but Crashing at Hom",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfb",
+     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfbzhaVG9yQTh0dmNFdzUya",
      "resolved": false
     }
    ]
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
+     "title": "China rare earth firms halt some US shipments over geopoliti",
+     "date": "2026-09-04",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
      "resolved": false
     }
    ]
