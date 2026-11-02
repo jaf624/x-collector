@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-02T12:27:26.801991Z",
+ "probed_at": "2026-11-02T18:54:41.854676Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,20 +7,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's foreign minister pushes for dialogue to resolve Middle East conflict - Reuters",
+   "sample": "China's Wang urges Middle East dialogue in meetings with Iranian, Saudi officials - Reuters",
    "diag": [
     {
-     "title": "China's foreign minister pushes for dialogue to resolve Midd",
+     "title": "China's Wang urges Middle East dialogue in meetings with Ira",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ",
      "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ2VTVHZ5bkxnbmVXd3BUS",
-     "resolved": false
-    },
-    {
-     "title": "China's Xi says Middle East should not become battleground f",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xT",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnV",
      "resolved": false
     },
     {
@@ -31,17 +24,24 @@
      "resolved": false
     },
     {
-     "title": "China's robot makers have mastered the moves. Now comes the ",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYmlUM050M0RzRW9uN",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYmlUM050M0RzRW9uN2VCN1k4cFZFM1VrVjBnQ",
+     "title": "China's Xi says Middle East should not become battleground f",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xT",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnV",
      "resolved": false
     },
     {
-     "title": "China's shift to new policy rate signals easier funding cond",
+     "title": "Tesla's monthly registrations rise across Europe as Chinese ",
      "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1Y5OGZoNEh2ZzdKN",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1Y5OGZoNEh2ZzdKN3pfVGlFWG8zT0tUdk9xO",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGxMVkRlMy14clJIR",
+     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGxMVkRlMy14clJIR0dtYmlpSGRyajRjOWJqQ",
+     "resolved": false
+    },
+    {
+     "title": "Facing Chinese pressure, Taiwan says it must be master of it",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2w3d21udTZ6N2J6Y",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2w3d21udTZ6N2J6Ym0tSlRJNzhqb1BUZS1pU",
      "resolved": false
     }
    ]
@@ -114,13 +114,6 @@
      "resolved": false
     },
     {
-     "title": "New levy on non-EU parcels kicks in Sunday - France 24",
-     "date": "2026-10-26",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdW0xdW82MWJSSTBRe",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdW0xdW82MWJSSTBReGVjVHoyZ3FyMmgtWEpTS",
-     "resolved": false
-    },
-    {
      "title": "Real Madrid apologises to China over Mbappé's Mao Zedong com",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZ",
@@ -133,6 +126,13 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcHNaSGR1bHVhRDliV",
      "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcHNaSGR1bHVhRDliV3YtaFNSX2JJZXBWNGhUW",
      "resolved": false
+    },
+    {
+     "title": "French connections - Paris neighbourhoods: Exploring the les",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONWVuSEd5S0NrSXBrN",
+     "real": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONWVuSEd5S0NrSXBrNmhudlhuRExiOUZsc2ljR",
+     "resolved": false
     }
    ]
   },
@@ -142,8 +142,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s 5,000-Ton Digging Machines Are a Trade War Risk to India - Bloomberg",
+   "sample": "China to Boost Use of Stock Support Tools to Stabilize Market - Bloomberg.com",
    "diag": [
+    {
+     "title": "China to Boost Use of Stock Support Tools to Stabilize Marke",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT2REcVBvTEpNNWdOTXo0O",
+     "resolved": false
+    },
     {
      "title": "China’s 5,000-Ton Digging Machines Are a Trade War Risk to I",
      "date": "2026-11-02",
@@ -166,17 +173,10 @@
      "resolved": false
     },
     {
-     "title": "Taiwan Criticizes China for Diplomatic Slight in APEC Invita",
+     "title": "China Stocks Rise on Report of Regulator Market Support Meet",
      "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd25TZ0NHaFhZYjVic",
-     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd25TZ0NHaFhZYjVicGJiZ0FpaWliMjh2WF9Za",
-     "resolved": false
-    },
-    {
-     "title": "China Should Take ‘Much Bolder Actions,’ Says Primavera’s Hu",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNFRWellHclIzY21oe",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNFRWellHclIzY21oeUhtVThILXFFc0d5V3BGR",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q25VVXptSDk0dU1FQkJkc",
      "resolved": false
     }
    ]
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "China mega complex in Dalian puts spotlight on investment pu",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3BwS0hNaUJGOHFyd",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3BwS0hNaUJGOHFydm9Pb19FMFVZU1hQdmNJR",
+     "title": "North Korea's Kim Jong Un visits China via newly opened brid",
+     "date": "2026-10-24",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3O",
      "resolved": false
     }
    ]
@@ -263,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "Toyota takes on Tesla and China in humanoid robot race - Fin",
-     "date": "2026-10-25",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNT",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOay04eC1KWXJvNXZNTTlwaWtmU3F6UmlUU0VZc",
+     "title": "Private equity firm swoops on China Evergrande unit in rare ",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGN0SUE3UEZEZmR2a",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGN0SUE3UEZEZmR2aEFBaWdZX09rZFJOYXY0T",
      "resolved": false
     }
    ]
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "China Scoops Up Data That Could Aid Its Forces in Waters Aro",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVhHSV9DYXI0RlhhU",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVhHSV9DYXI0RlhhUjFjWjliVFg3S2FvdGp2T",
+     "title": "Opinion | Viktor Orbán, U.N. Secretary-General? - WSJ",
+     "date": "2026-10-25",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZ",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZDlyeHNtR0VkYXY4WFhld",
      "resolved": false
     }
    ]
@@ -332,17 +332,10 @@
      "resolved": false
     },
     {
-     "title": "Opinion | U.S.-China Relations Will Never Be the Same in the",
+     "title": "Opinion | The Big Change Coming in U.S.-China Relations in t",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDBCYnIyYzFCMnhOQ",
      "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDBCYnIyYzFCMnhOQThxTHJXTUVkQ0VRb0txR",
-     "resolved": false
-    },
-    {
-     "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pe",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
-     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX2lPaVlieXNmSjFXc2ZPN",
      "resolved": false
     },
     {
@@ -353,10 +346,17 @@
      "resolved": false
     },
     {
-     "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deep",
+     "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pe",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
+     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX2lPaVlieXNmSjFXc2ZPN",
+     "resolved": false
+    },
+    {
+     "title": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy",
      "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9Sa",
-     "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUNkZlJBRi1Jel9SamxqX2dmTkpnell6NEd5N",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 60,
+   "items": 100,
    "is_feed": true,
    "sample": "Soy, rare earths and fuels: how Brazil vote impacts the global flow of resources - Reuters",
    "diag": [
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "China rare earth firms halt some US shipments over geopoliti",
-     "date": "2026-09-04",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
+     "title": "China September rare earth exports rise 6.7% from a year ear",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "PaCER recent graduate spotlight: Dylan Frank"
+   "sample": "DLA Energy Equips Workforce with Essential Petroleum Quality Training"
   },
   {
    "name": "商务部新闻",
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "Russia, North Korea Test Missiles in the Western Pacific"
+   "sample": "Enterprise Hulk Towed from Newport News Shipbuilding"
   },
   {
    "name": "DefenseNews",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Australia unveils secretive Ghost Shark underwater drone payloads"
+   "sample": "Russia is giving its drones bigger antennas to beat Ukrainian jamming"
   },
   {
    "name": "Mining",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Global resource squeeze signals market shift: report "
+   "sample": "$712 billion wiped off world’s biggest mining companies since start of Iran war"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "TotalEnergies to Acquire 30% Stake in Two Major Malaysian Gas Fields"
+   "sample": "Rare Iranian Strike On Vessel Hundreds Of Miles From Strait Of Hormuz"
   },
   {
    "name": "IMF",
@@ -596,10 +596,9 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": -1,
+   "status": 404,
    "items": 0,
-   "is_feed": false,
-   "err": "The read operation timed out"
+   "is_feed": false
   },
   {
    "name": "IEA",
@@ -629,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "How Antonelli became Formula One's youngest world champion"
+   "sample": "Iran engages US in 'intensive' negotiations to avert fresh war outbreak"
   },
   {
    "name": "JapanTimes",
@@ -680,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be paid by allies"
+   "sample": "The fiscal risks of bringing US troops out of Europe"
   },
   {
    "name": "MiningWeekly",
