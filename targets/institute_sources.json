@@ -15710,5 +15710,1787 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 0
+  },
+  {
+    "host": "resourceinvestor.com",
+    "base": "https://resourceinvestor.com/",
+    "ref": "https://resourceinvestor.com/",
+    "name": "Resource Investor",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.resourceinvestor.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "stockhouse.com",
+    "base": "https://stockhouse.com/",
+    "ref": "https://stockhouse.com/",
+    "name": "Stockhouse",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.stockhouse.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "ceo.ca",
+    "base": "https://ceo.ca/",
+    "ref": "https://ceo.ca/",
+    "name": "CEO.ca",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://ceo.ca/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "miningreview.com",
+    "base": "https://miningreview.com/",
+    "ref": "https://miningreview.com/",
+    "name": "Mining Review",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.miningreview.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "miningrecord.com",
+    "base": "https://miningrecord.com/",
+    "ref": "https://miningrecord.com/",
+    "name": "Mining Record",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.miningrecord.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "miningpeople.com",
+    "base": "https://miningpeople.com/",
+    "ref": "https://miningpeople.com/",
+    "name": "Mining People",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.miningpeople.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "mining-journal.com",
+    "base": "https://mining-journal.com/",
+    "ref": "https://mining-journal.com/",
+    "name": "Mining Journal",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.mining-journal.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "miningglobal.com",
+    "base": "https://miningglobal.com/",
+    "ref": "https://miningglobal.com/",
+    "name": "Mining Global",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.miningglobal.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "miningnews.com",
+    "base": "https://miningnews.com/",
+    "ref": "https://miningnews.com/",
+    "name": "Mining News",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.miningnews.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "globeandmail.com",
+    "base": "https://globeandmail.com/",
+    "ref": "https://globeandmail.com/",
+    "name": "Globe and Mail",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.theglobeandmail.com/rss/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "mexicobusiness.news",
+    "base": "https://mexicobusiness.news/",
+    "ref": "https://mexicobusiness.news/",
+    "name": "Mexico Business",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://mexicobusiness.news/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "investmentnews.com",
+    "base": "https://investmentnews.com/",
+    "ref": "https://investmentnews.com/",
+    "name": "Investment News",
+    "cat": "hardnews",
+    "cats": [
+      "more_mine"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.investmentnews.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "lloydslist.com",
+    "base": "https://lloydslist.com/",
+    "ref": "https://lloydslist.com/",
+    "name": "Lloyd's List",
+    "cat": "hardnews",
+    "cats": [
+      "more_energy"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://lloydslist.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "gazette.com",
+    "base": "https://gazette.com/",
+    "ref": "https://gazette.com/",
+    "name": "Gazette",
+    "cat": "hardnews",
+    "cats": [
+      "more_energy"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.gazette.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "gasworld.com",
+    "base": "https://gasworld.com/",
+    "ref": "https://gasworld.com/",
+    "name": "Gas World",
+    "cat": "hardnews",
+    "cats": [
+      "more_energy"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.gasworld.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "elfinanciero.com.mx",
+    "base": "https://elfinanciero.com.mx/",
+    "ref": "https://elfinanciero.com.mx/",
+    "name": "墨西哥金融报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.elfinanciero.com.mx/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "eleconomista.com.mx",
+    "base": "https://eleconomista.com.mx/",
+    "ref": "https://eleconomista.com.mx/",
+    "name": "墨西哥经济报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.eleconomista.com.mx/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "excelsior.com.mx",
+    "base": "https://excelsior.com.mx/",
+    "ref": "https://excelsior.com.mx/",
+    "name": "墨西哥快报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.excelsior.com.mx/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "jornada.com.mx",
+    "base": "https://jornada.com.mx/",
+    "ref": "https://jornada.com.mx/",
+    "name": "墨西哥日报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.jornada.com.mx/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "clarin.com",
+    "base": "https://clarin.com/",
+    "ref": "https://clarin.com/",
+    "name": "阿根廷号角报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.clarin.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "lanacion.com.ar",
+    "base": "https://lanacion.com.ar/",
+    "ref": "https://lanacion.com.ar/",
+    "name": "阿根廷国家报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.lanacion.com.ar.ar/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "pagina12.com.ar",
+    "base": "https://pagina12.com.ar/",
+    "ref": "https://pagina12.com.ar/",
+    "name": "阿根廷十二页报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.pagina12.com.ar/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "elpaís.com",
+    "base": "https://elpaís.com/",
+    "ref": "https://elpaís.com/",
+    "name": "西班牙国家报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://elpais.com/rss/feed.html",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "elimparcial.com",
+    "base": "https://elimparcial.com/",
+    "ref": "https://elimparcial.com/",
+    "name": "墨西哥地方报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.elimparcial.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "larepublica.co",
+    "base": "https://larepublica.co/",
+    "ref": "https://larepublica.co/",
+    "name": "哥伦比亚共和国报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.larepublica.co/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "elespectador.com",
+    "base": "https://elespectador.com/",
+    "ref": "https://elespectador.com/",
+    "name": "哥伦比亚观察家报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.elespectador.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "elcomercio.pe",
+    "base": "https://elcomercio.pe/",
+    "ref": "https://elcomercio.pe/",
+    "name": "秘鲁商报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://elcomercio.pe/arc/outboundfeeds/rss/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "gestion.pe",
+    "base": "https://gestion.pe/",
+    "ref": "https://gestion.pe/",
+    "name": "秘鲁管理报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://gestion.pe/arc/outboundfeeds/rss/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "folha.uol.com.br",
+    "base": "https://folha.uol.com.br/",
+    "ref": "https://folha.uol.com.br/",
+    "name": "巴西页报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "estadao.com.br",
+    "base": "https://estadao.com.br/",
+    "ref": "https://estadao.com.br/",
+    "name": "巴西圣保罗报",
+    "cat": "media",
+    "cats": [
+      "latam"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.estadao.com.br/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "mg.co.za",
+    "base": "https://mg.co.za/",
+    "ref": "https://mg.co.za/",
+    "name": "南非Mail & Guardian",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://mg.co.za/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "timeslive.co.za",
+    "base": "https://timeslive.co.za/",
+    "ref": "https://timeslive.co.za/",
+    "name": "南非时报",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.timeslive.co.za/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "news24.com",
+    "base": "https://news24.com/",
+    "ref": "https://news24.com/",
+    "name": "南非News24",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.news24.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "daily Maverick.com",
+    "base": "https://daily Maverick.com/",
+    "ref": "https://daily Maverick.com/",
+    "name": "南非每日快报",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.dailymaverick.co.za/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "theeastafrican.co.ke",
+    "base": "https://theeastafrican.co.ke/",
+    "ref": "https://theeastafrican.co.ke/",
+    "name": "东非人报",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.theeastafrican.co.ke/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "nation.africa",
+    "base": "https://nation.africa/",
+    "ref": "https://nation.africa/",
+    "name": "肯尼亚民族报",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://nation.africa/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "standardmedia.co.ke",
+    "base": "https://standardmedia.co.ke/",
+    "ref": "https://standardmedia.co.ke/",
+    "name": "肯尼亚旗帜报",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.standardmedia.co.ke/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "vanguardngr.com",
+    "base": "https://vanguardngr.com/",
+    "ref": "https://vanguardngr.com/",
+    "name": "尼日利亚先锋报",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.vanguardngr.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "punchng.com",
+    "base": "https://punchng.com/",
+    "ref": "https://punchng.com/",
+    "name": "尼日利亚Punch",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://punchng.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "guardian.ng",
+    "base": "https://guardian.ng/",
+    "ref": "https://guardian.ng/",
+    "name": "尼日利亚卫报",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://guardian.ng/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "dailytrust.com",
+    "base": "https://dailytrust.com/",
+    "ref": "https://dailytrust.com/",
+    "name": "尼日利亚每日信报",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.dailytrust.com.rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "egypttoday.com",
+    "base": "https://egypttoday.com/",
+    "ref": "https://egypttoday.com/",
+    "name": "埃及今日",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.egypttoday.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "ahram.org.eg",
+    "base": "https://ahram.org.eg/",
+    "ref": "https://ahram.org.eg/",
+    "name": "埃及金字塔报",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.ahram.org.eg/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "thenational.com",
+    "base": "https://thenational.com/",
+    "ref": "https://thenational.com/",
+    "name": "阿联酋国家报",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.thenationalnews.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "gulfnews.com",
+    "base": "https://gulfnews.com/",
+    "ref": "https://gulfnews.com/",
+    "name": "海湾新闻",
+    "cat": "media",
+    "cats": [
+      "africa"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://gulfnews.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "alarabiya.net",
+    "base": "https://alarabiya.net/",
+    "ref": "https://alarabiya.net/",
+    "name": "阿拉伯电视台",
+    "cat": "media",
+    "cats": [
+      "me"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.alarabiya.net/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "haaretz.co.il",
+    "base": "https://haaretz.co.il/",
+    "ref": "https://haaretz.co.il/",
+    "name": "以色列国土报希伯来语",
+    "cat": "media",
+    "cats": [
+      "me"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.haaretz.co.il/cmlink/1.1627040",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "gulfnews.com",
+    "base": "https://gulfnews.com/",
+    "ref": "https://gulfnews.com/",
+    "name": "海湾新闻",
+    "cat": "media",
+    "cats": [
+      "me"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://gulfnews.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "arabnews.com",
+    "base": "https://arabnews.com/",
+    "ref": "https://arabnews.com/",
+    "name": "阿拉伯新闻",
+    "cat": "media",
+    "cats": [
+      "me"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.arabnews.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "saudigazette.com.sa",
+    "base": "https://saudigazette.com.sa/",
+    "ref": "https://saudigazette.com.sa/",
+    "name": "沙特公报",
+    "cat": "media",
+    "cats": [
+      "me"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.saudigazette.com.sa/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "armed-services.senate.gov",
+    "base": "https://armed-services.senate.gov/",
+    "ref": "https://armed-services.senate.gov/",
+    "name": "参议院军事委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://armed-services.senate.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "intelligence.senate.gov",
+    "base": "https://intelligence.senate.gov/",
+    "ref": "https://intelligence.senate.gov/",
+    "name": "参议院情报委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://intelligence.senate.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "judiciary.senate.gov",
+    "base": "https://judiciary.senate.gov/",
+    "ref": "https://judiciary.senate.gov/",
+    "name": "参议院司法委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://judiciary.senate.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "banking.senate.gov",
+    "base": "https://banking.senate.gov/",
+    "ref": "https://banking.senate.gov/",
+    "name": "参议院银行委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://banking.senate.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "finance.senate.gov",
+    "base": "https://finance.senate.gov/",
+    "ref": "https://finance.senate.gov/",
+    "name": "参议院财政委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://finance.senate.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "armedservices.house.gov",
+    "base": "https://armedservices.house.gov/",
+    "ref": "https://armedservices.house.gov/",
+    "name": "众议院军事委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://armedservices.house.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "foreignaffairs.house.gov",
+    "base": "https://foreignaffairs.house.gov/",
+    "ref": "https://foreignaffairs.house.gov/",
+    "name": "众议院外交委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://foreignaffairs.house.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "judiciary.house.gov",
+    "base": "https://judiciary.house.gov/",
+    "ref": "https://judiciary.house.gov/",
+    "name": "众议院司法委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://judiciary.house.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "waysandmeans.house.gov",
+    "base": "https://waysandmeans.house.gov/",
+    "ref": "https://waysandmeans.house.gov/",
+    "name": "众议院筹款委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://waysandmeans.house.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "energycommerce.house.gov",
+    "base": "https://energycommerce.house.gov/",
+    "ref": "https://energycommerce.house.gov/",
+    "name": "众议院能源商业委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://energycommerce.house.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "transportation.house.gov",
+    "base": "https://transportation.house.gov/",
+    "ref": "https://transportation.house.gov/",
+    "name": "众议院交通委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://transportation.house.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "appropriations.house.gov",
+    "base": "https://appropriations.house.gov/",
+    "ref": "https://appropriations.house.gov/",
+    "name": "众议院拨款委员会",
+    "cat": "media",
+    "cats": [
+      "congress"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://appropriations.house.gov/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "lefigaro.fr",
+    "base": "https://lefigaro.fr/",
+    "ref": "https://lefigaro.fr/",
+    "name": "费加罗报",
+    "cat": "media",
+    "cats": [
+      "eu"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.lefigaro.fr/rss/figaro_actualites.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "lesechos.fr",
+    "base": "https://lesechos.fr/",
+    "ref": "https://lesechos.fr/",
+    "name": "回声报",
+    "cat": "media",
+    "cats": [
+      "eu"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://business.lesechos.fr/rss/rss.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "faz.net",
+    "base": "https://faz.net/",
+    "ref": "https://faz.net/",
+    "name": "法兰克福汇报",
+    "cat": "media",
+    "cats": [
+      "eu"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.faz.net/rss/aktuell/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "sueddeutsche.de",
+    "base": "https://sueddeutsche.de/",
+    "ref": "https://sueddeutsche.de/",
+    "name": "南德意志报",
+    "cat": "media",
+    "cats": [
+      "eu"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://rss.sueddeutsche.de/alles",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "welt.de",
+    "base": "https://welt.de/",
+    "ref": "https://welt.de/",
+    "name": "世界报",
+    "cat": "media",
+    "cats": [
+      "eu"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.welt.de/feeds/newsticker.rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "repubblica.it",
+    "base": "https://repubblica.it/",
+    "ref": "https://repubblica.it/",
+    "name": "共和国报",
+    "cat": "media",
+    "cats": [
+      "eu"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.repubblica.it/rss/homepage.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "abc.es",
+    "base": "https://abc.es/",
+    "ref": "https://abc.es/",
+    "name": "ABC报",
+    "cat": "media",
+    "cats": [
+      "eu"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.abc.es/rss/feeds/abc_Espana.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "rtve.es",
+    "base": "https://rtve.es/",
+    "ref": "https://rtve.es/",
+    "name": "西班牙国家电视台",
+    "cat": "media",
+    "cats": [
+      "eu"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.rtve.es/rss/temas_actualidad.jsp",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "semiconductors.org",
+    "base": "https://semiconductors.org/",
+    "ref": "https://semiconductors.org/",
+    "name": "SIA半导体协会",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.semiconductors.org/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "api.org",
+    "base": "https://api.org/",
+    "ref": "https://api.org/",
+    "name": "美国石油学会",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.api.org/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "aga.org",
+    "base": "https://aga.org/",
+    "ref": "https://aga.org/",
+    "name": "美国天然气协会",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.aga.org/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "awea.org",
+    "base": "https://awea.org/",
+    "ref": "https://awea.org/",
+    "name": "美国风能协会",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.awea.org/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "seia.org",
+    "base": "https://seia.org/",
+    "ref": "https://seia.org/",
+    "name": "太阳能产业协会",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.seia.org/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "nrdc.org",
+    "base": "https://nrdc.org/",
+    "ref": "https://nrdc.org/",
+    "name": "自然资源保护委员会",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.nrdc.org/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "sierraclub.org",
+    "base": "https://sierraclub.org/",
+    "ref": "https://sierraclub.org/",
+    "name": "塞拉俱乐部",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.sierraclub.org/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "opec.org",
+    "base": "https://opec.org/",
+    "ref": "https://opec.org/",
+    "name": "OPEC",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.opec.org/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "cepr.net",
+    "base": "https://cepr.net/",
+    "ref": "https://cepr.net/",
+    "name": "经济政策研究中心",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://cepr.net/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "epi.org",
+    "base": "https://epi.org/",
+    "ref": "https://epi.org/",
+    "name": "经济政策研究所",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.epi.org/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "chathamhouse.org",
+    "base": "https://chathamhouse.org/",
+    "ref": "https://chathamhouse.org/",
+    "name": "英国皇家国际事务研究所",
+    "cat": "media",
+    "cats": [
+      "assoc"
+    ],
+    "folders": [
+      "区域媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.chathamhouse.org/feed/rss.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
   }
 ]
