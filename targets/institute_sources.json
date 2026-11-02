@@ -10270,5 +10270,649 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 0
+  },
+  {
+    "host": "insidehighered.com",
+    "base": "https://www.insidehighered.com/",
+    "ref": "https://www.insidehighered.com/",
+    "name": "Inside Higher Ed 高等教育",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "edu"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.insidehighered.com/rss.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "chronicle.com",
+    "base": "https://www.chronicle.com/",
+    "ref": "https://www.chronicle.com/",
+    "name": "The Chronicle 高等教育纪事",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "edu"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.chronicle.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "law360.com",
+    "base": "https://www.law360.com/",
+    "ref": "https://www.law360.com/",
+    "name": "Law360 法律快讯",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "law"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.law360.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "jdsupra.com",
+    "base": "https://www.jdsupra.com/",
+    "ref": "https://www.jdsupra.com/",
+    "name": "JD Supra 法律评论",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "law"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.jdsupra.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "climatehomereport.com",
+    "base": "https://www.climatehome.com/",
+    "ref": "https://www.climatehome.com/",
+    "name": "Climate Home News 气候",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "climate"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.climatehome.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "carbonbrief.org",
+    "base": "https://www.carbonbrief.org/",
+    "ref": "https://www.carbonbrief.org/",
+    "name": "Carbon Brief 碳简报",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "climate"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.carbonbrief.org/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "migrationpolicy.org",
+    "base": "https://www.migrationpolicy.org/",
+    "ref": "https://www.migrationpolicy.org/",
+    "name": "Migration Policy Institute 移民",
+    "cat": "thinktank",
+    "cats": [
+      "thinktank",
+      "migration"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.migrationpolicy.org/news/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "lightreading.com",
+    "base": "https://www.lightreading.com/",
+    "ref": "https://www.lightreading.com/",
+    "name": "Light Reading 电信",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "telecom"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.lightreading.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "fiercetelecom.com",
+    "base": "https://www.fiercetelecom.com/",
+    "ref": "https://www.fiercetelecom.com/",
+    "name": "Fierce Telecom 电信",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "telecom"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.fiercetelecom.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "arctictoday.com",
+    "base": "https://www.arctictoday.com/",
+    "ref": "https://www.arctictoday.com/",
+    "name": "Arctic Today 北极",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "arctic"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.arctictoday.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "devex.com",
+    "base": "https://www.devex.com/",
+    "ref": "https://www.devex.com/",
+    "name": "Devex 发展援助",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "dev"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.devex.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "devdiscourse.com",
+    "base": "https://devdiscourse.com/",
+    "ref": "https://devdiscourse.com/",
+    "name": "Dev Discourse 发展",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "dev"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://devdiscourse.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "electoral-vote.com",
+    "base": "https://www.electoral-vote.com/",
+    "ref": "https://www.electoral-vote.com/",
+    "name": "Electoral Vote 选举分析",
+    "cat": "media",
+    "cats": [
+      "media",
+      "election"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.electoral-vote.com/evp2024/rss.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "insightcrime.org",
+    "base": "https://insightcrime.org/",
+    "ref": "https://insightcrime.org/",
+    "name": "InSight Crime 跨国犯罪",
+    "cat": "osint",
+    "cats": [
+      "osint",
+      "crime"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://insightcrime.org/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "insurancejournal.com",
+    "base": "https://www.insurancejournal.com/",
+    "ref": "https://www.insurancejournal.com/",
+    "name": "Insurance Journal 保险",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "finance"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.insurancejournal.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "globest.com",
+    "base": "https://www.globest.com/",
+    "ref": "https://www.globest.com/",
+    "name": "GlobeSt 商业地产",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "finance"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.globest.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "insidethegames.biz",
+    "base": "https://www.insidethegames.biz/",
+    "ref": "https://www.insidethegames.biz/",
+    "name": "Inside the Games 奥运体育",
+    "cat": "media",
+    "cats": [
+      "media",
+      "sport"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.insidethegames.biz/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "world.wng.org",
+    "base": "https://world.wng.org/",
+    "ref": "https://world.wng.org/",
+    "name": "World News Group 宗教",
+    "cat": "media",
+    "cats": [
+      "media",
+      "religion"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://world.wng.org/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "theverge.com",
+    "base": "https://www.theverge.com/",
+    "ref": "https://www.theverge.com/",
+    "name": "The Verge 科技",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "tech"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.theverge.com/rss/index.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "wired.com",
+    "base": "https://www.wired.com/",
+    "ref": "https://www.wired.com/",
+    "name": "Wired 连线",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "tech"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.wired.com/feed/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "supplychaindive.com",
+    "base": "https://www.supplychaindive.com/",
+    "ref": "https://www.supplychaindive.com/",
+    "name": "Supply Chain Dive 供应链",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "supply"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.supplychaindive.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "freightwaves.com",
+    "base": "https://www.freightwaves.com/",
+    "ref": "https://www.freightwaves.com/",
+    "name": "FreightWaves 货运物流",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "supply"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.freightwaves.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "miningweekly.com",
+    "base": "https://www.miningweekly.com/",
+    "ref": "https://www.miningweekly.com/",
+    "name": "Mining Weekly 矿业周刊",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "resource"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.miningweekly.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "bloomberg.com",
+    "base": "https://www.bloomberg.com/",
+    "ref": "https://www.bloomberg.com/",
+    "name": "Bloomberg 彭博",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "finance"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.bloomberg.com/feed/podcast/etf-report",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "marketwatch.com",
+    "base": "https://www.marketwatch.com/",
+    "ref": "https://www.marketwatch.com/",
+    "name": "MarketWatch 市场观察",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "finance"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.marketwatch.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "maritime-executive.com",
+    "base": "https://www.maritime-executive.com/",
+    "ref": "https://www.maritime-executive.com/",
+    "name": "Maritime Executive 海事",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "energy"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.maritime-executive.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "politico.eu",
+    "base": "https://www.politico.eu/",
+    "ref": "https://www.politico.eu/",
+    "name": "Politico Europe 欧洲政论",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "europe"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.politico.eu/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "euractiv.com",
+    "base": "https://www.euractiv.com/",
+    "ref": "https://www.euractiv.com/",
+    "name": "EurActiv 欧盟政策",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "europe"
+    ],
+    "folders": [
+      "垂直领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.euractiv.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
   }
 ]
