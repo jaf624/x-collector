@@ -527,12 +527,7 @@
     "keep_max": 200
   },
   "watch_max_per_channel": 25,
-  "watch_channels": [
-    {
-      "name": "VanActivistsHKChannel",
-      "alias": "VAHK 溫哥華手足 CHANNEL | Vancouver Activists of Hong Kong"
-    }
-  ],
+  "watch_channels": [],
   "archived_channels": [
     {
       "name": "DemosistoOfficial",
