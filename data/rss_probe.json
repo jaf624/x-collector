@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-02T18:54:41.854676Z",
+ "probed_at": "2026-11-02T21:46:48.114577Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's Wang urges Middle East dialogue in meetings with Iranian, Saudi officials - Reuters",
+   "sample": "Major automakers urge US Congress to pass permanent ban on Chinese vehicles - Reuters",
    "diag": [
+    {
+     "title": "Major automakers urge US Congress to pass permanent ban on C",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwV",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwVnVwdGZHQkpGcEtJbWVjc",
+     "resolved": false
+    },
     {
      "title": "China's Wang urges Middle East dialogue in meetings with Ira",
      "date": "2026-11-02",
@@ -35,13 +42,6 @@
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGxMVkRlMy14clJIR",
      "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGxMVkRlMy14clJIR0dtYmlpSGRyajRjOWJqQ",
-     "resolved": false
-    },
-    {
-     "title": "Facing Chinese pressure, Taiwan says it must be master of it",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2w3d21udTZ6N2J6Y",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2w3d21udTZ6N2J6Ym0tSlRJNzhqb1BUZS1pU",
      "resolved": false
     }
    ]
@@ -121,17 +121,17 @@
      "resolved": false
     },
     {
+     "title": "Iran engages US in 'intensive' negotiations to avert fresh w",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFS",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFSVZkUjZSWTJoMmNNSXIyQ",
+     "resolved": false
+    },
+    {
      "title": "Focus - Texas Republicans accused of changing electoral rule",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcHNaSGR1bHVhRDliV",
      "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcHNaSGR1bHVhRDliV3YtaFNSX2JJZXBWNGhUW",
-     "resolved": false
-    },
-    {
-     "title": "French connections - Paris neighbourhoods: Exploring the les",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONWVuSEd5S0NrSXBrN",
-     "real": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONWVuSEd5S0NrSXBrNmhudlhuRExiOUZsc2ljR",
      "resolved": false
     }
    ]
@@ -159,17 +159,17 @@
      "resolved": false
     },
     {
-     "title": "China’s Mbappé Blackout Continues as Real Madrid Games Dropp",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbHlaeGlCLUliUWhjd",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbHlaeGlCLUliUWhjd3E3TmlsMFdQRkpDcUpiO",
-     "resolved": false
-    },
-    {
      "title": "China Factory Activity Expands But Ends Streak of Faster Gro",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYVgyV0NaWmJKNS0yU",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYVgyV0NaWmJKNS0yUDZVcFJyaDJhcThxWk9KM",
+     "resolved": false
+    },
+    {
+     "title": "China’s Mbappé Blackout Continues as Real Madrid Games Dropp",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbHlaeGlCLUliUWhjd",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbHlaeGlCLUliUWhjd3E3TmlsMFdQRkpDcUpiO",
      "resolved": false
     },
     {
@@ -242,17 +242,17 @@
      "resolved": false
     },
     {
-     "title": "Toyota-backed truckmaker bets on aftersales service to fend ",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGlwRVV5UTYzOXVJU",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGlwRVV5UTYzOXVJUDhuMUNESkx2dWc5bnMwR",
-     "resolved": false
-    },
-    {
      "title": "The AI bubble already popped — in China - Financial Times",
      "date": "2026-10-28",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZ",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZGtNd3hLMUVPb3NRLU1TR",
+     "resolved": false
+    },
+    {
+     "title": "Toyota-backed truckmaker bets on aftersales service to fend ",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGlwRVV5UTYzOXVJU",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGlwRVV5UTYzOXVJUDhuMUNESkx2dWc5bnMwR",
      "resolved": false
     },
     {
@@ -294,17 +294,17 @@
      "resolved": false
     },
     {
-     "title": "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOM",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOMGthclBzd0hQQ093MUozZ",
-     "resolved": false
-    },
-    {
      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
+     "resolved": false
+    },
+    {
+     "title": "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOM",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOMGthclBzd0hQQ093MUozZ",
      "resolved": false
     },
     {
@@ -367,8 +367,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Hit podcasts reveal the angst of China’s youth - The Economist",
+   "sample": "A new path to political power in China runs through state firms - The Economist",
    "diag": [
+    {
+     "title": "A new path to political power in China runs through state fi",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDAtNEJTcnRXYm5oW",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDAtNEJTcnRXYm5oWjlDUl9OOGUyNWFTTjRJQ",
+     "resolved": false
+    },
     {
      "title": "Hit podcasts reveal the angst of China’s youth - The Economi",
      "date": "2026-11-01",
@@ -384,10 +391,10 @@
      "resolved": false
     },
     {
-     "title": "China’s investment in transport infrastructure has peaked - ",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdm0wRFdXQzJUZzBLN",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdm0wRFdXQzJUZzBLNDdjbWJfN1pnZmowT2VtW",
+     "title": "China’s rising political stars - The Economist",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3NmTm9mOVIzVW9Nc",
+     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3NmTm9mOVIzVW9NcHFYamo0LXBYdVZKNG9Ha",
      "resolved": false
     },
     {
@@ -396,13 +403,6 @@
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZO",
      "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZOWlZWlI3OVJRbmhycEpIR",
      "resolved": false
-    },
-    {
-     "title": "The countries making a fortune from the US-China rivalry - T",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb2c1a1NHS1ZMb1lScVNvU",
-     "resolved": false
     }
    ]
   },
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 61,
    "is_feed": true,
    "sample": "Soy, rare earths and fuels: how Brazil vote impacts the global flow of resources - Reuters",
    "diag": [
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
+     "title": "China rare earth firms halt some US shipments over geopoliti",
+     "date": "2026-09-04",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
+     "resolved": false
+    },
+    {
      "title": "EXCLUSIVE: Pentagon treating military base freezer malfuncti",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ",
      "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ0RoX2hseFpyajltZE5vb",
-     "resolved": false
-    },
-    {
-     "title": "China September rare earth exports rise 6.7% from a year ear",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "DLA Energy Equips Workforce with Essential Petroleum Quality Training"
+   "sample": "Colorado National Guard helps defend against cyber-attacks during election "
   },
   {
    "name": "商务部新闻",
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "Enterprise Hulk Towed from Newport News Shipbuilding"
+   "sample": "USNI News Fleet and Marine Tracker: Nov. 2, 2026"
   },
   {
    "name": "DefenseNews",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Rare Iranian Strike On Vessel Hundreds Of Miles From Strait Of Hormuz"
+   "sample": "Trump’s Trillion-Dollar Oil Play: A Trap For Big Oil?"
   },
   {
    "name": "IMF",
@@ -596,7 +596,7 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 404,
+   "status": 504,
    "items": 0,
    "is_feed": false
   },
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Iran engages US in 'intensive' negotiations to avert fresh war outbreak"
+   "sample": "Trump promised 'no more wars'. His foreign policy tells another story"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "The fiscal risks of bringing US troops out of Europe"
+   "sample": "Industry needs more consistent demand signal to scale UGV production: Autonomy consortium exec"
   },
   {
    "name": "MiningWeekly",
