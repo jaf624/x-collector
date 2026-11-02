@@ -1823,6 +1823,270 @@
     {
       "cat": "南海任务组",
       "q": "south china sea task force patrol"
+    },
+    {
+      "cat": "微型核反应堆",
+      "q": "small modular nuclear reactor military"
+    },
+    {
+      "cat": "核潜艇",
+      "q": "nuclear submarine deployment patrol"
+    },
+    {
+      "cat": "核动力商船",
+      "q": "nuclear powered merchant ship cargo"
+    },
+    {
+      "cat": "海底电缆",
+      "q": "submarine cable undersea tapping"
+    },
+    {
+      "cat": "激光雕刻机",
+      "q": "laser engraver export control"
+    },
+    {
+      "cat": "中程防空",
+      "q": "NASAMS air defense missile system"
+    },
+    {
+      "cat": "航母",
+      "q": "aircraft carrier deployment western pacific"
+    },
+    {
+      "cat": "机器狗",
+      "q": "robot dog quadruped military exercise"
+    },
+    {
+      "cat": "甲醇船",
+      "q": "methanol fueled ship green methanol"
+    },
+    {
+      "cat": "造船产能",
+      "q": "shipbuilding merchant fleet overcapacity"
+    },
+    {
+      "cat": "轮胎关税",
+      "q": "tire tariff China import"
+    },
+    {
+      "cat": "钢铁关税",
+      "q": "steel overcapacity tariff China"
+    },
+    {
+      "cat": "光伏供应链",
+      "q": "solar panel supply chain polysilicon"
+    },
+    {
+      "cat": "锂矿",
+      "q": "lithium mine Chile Bolivia production"
+    },
+    {
+      "cat": "钴矿",
+      "q": "cobalt DRC Congo mining China"
+    },
+    {
+      "cat": "镍矿",
+      "q": "nickel Indonesia battery production"
+    },
+    {
+      "cat": "石墨",
+      "q": "graphite anode battery China export"
+    },
+    {
+      "cat": "战略石油储备",
+      "q": "strategic petroleum reserve release"
+    },
+    {
+      "cat": "能源走廊",
+      "q": "energy corridor pipeline central asia"
+    },
+    {
+      "cat": "苏伊士运河",
+      "q": "suez canal shipping disruption"
+    },
+    {
+      "cat": "巴拿马运河",
+      "q": "panama canal drought shipping"
+    },
+    {
+      "cat": "马六甲海峡",
+      "q": "malacca strait shipping lane"
+    },
+    {
+      "cat": "高超音速",
+      "q": "hypersonic missile test deployment"
+    },
+    {
+      "cat": "电磁弹射",
+      "q": "electromagnetic catapult aircraft carrier"
+    },
+    {
+      "cat": "五代机",
+      "q": "fifth generation stealth fighter"
+    },
+    {
+      "cat": "盾舰",
+      "q": "destroyer Aegis air defense"
+    },
+    {
+      "cat": "反舰弹道导弹",
+      "q": "anti-ship ballistic missile DF"
+    },
+    {
+      "cat": "预警机",
+      "q": "airborne early warning aircraft"
+    },
+    {
+      "cat": "无人机反制",
+      "q": "drone countermeasure air defense"
+    },
+    {
+      "cat": "芯片代工",
+      "q": "chip foundry TSMC Samsung"
+    },
+    {
+      "cat": "先进封装",
+      "q": "advanced packaging chiplet"
+    },
+    {
+      "cat": "EDA软件",
+      "q": "EDA software chip design export"
+    },
+    {
+      "cat": "工业软件",
+      "q": "industrial software CAD CAAM"
+    },
+    {
+      "cat": "数控机床",
+      "q": "CNC machine tool export control"
+    },
+    {
+      "cat": "科学仪器",
+      "q": "scientific instrument export restriction"
+    },
+    {
+      "cat": "医疗设备",
+      "q": "medical device export control"
+    },
+    {
+      "cat": "药品专利",
+      "q": "pharmaceutical patent waiver"
+    },
+    {
+      "cat": "转基因作物",
+      "q": "GMO seed patent agriculture"
+    },
+    {
+      "cat": "农业种子",
+      "q": "seed industry breeding patent"
+    },
+    {
+      "cat": "稀土永磁",
+      "q": "rare earth permanent magnet neodymium"
+    },
+    {
+      "cat": "磁体出口",
+      "q": "magnet export China restriction"
+    },
+    {
+      "cat": "电池回收",
+      "q": "battery recycling EV supply"
+    },
+    {
+      "cat": "电动车关税",
+      "q": "EV electric vehicle tariff China"
+    },
+    {
+      "cat": "充电桩",
+      "q": "charging station infrastructure"
+    },
+    {
+      "cat": "低空经济",
+      "q": "low altitude economy drone eVTOL"
+    },
+    {
+      "cat": "商业航天",
+      "q": "commercial space launch satellite"
+    },
+    {
+      "cat": "可重复火箭",
+      "q": "reusable rocket SpaceX China"
+    },
+    {
+      "cat": "量子计算",
+      "q": "quantum computing encryption"
+    },
+    {
+      "cat": "量子通信",
+      "q": "quantum communication satellite"
+    },
+    {
+      "cat": "脑机接口",
+      "q": "brain computer interface neural"
+    },
+    {
+      "cat": "合成生物",
+      "q": "synthetic biology biosecurity"
+    },
+    {
+      "cat": "基因编辑",
+      "q": "gene editing CRISPR regulation"
+    },
+    {
+      "cat": "mRNA疫苗",
+      "q": "mRNA vaccine biosecurity"
+    },
+    {
+      "cat": "数据跨境",
+      "q": "data cross border transfer regulation"
+    },
+    {
+      "cat": "算法歧视",
+      "q": "algorithm discrimination audit"
+    },
+    {
+      "cat": "深度伪造",
+      "q": "deepfake election disinformation"
+    },
+    {
+      "cat": "换脸软件",
+      "q": "face swap app deepfake"
+    },
+    {
+      "cat": "虚拟人",
+      "q": "virtual influencer AI avatar"
+    },
+    {
+      "cat": "数字人",
+      "q": "digital human avatar livestream"
+    },
+    {
+      "cat": "自动驾驶",
+      "q": "autonomous driving regulation"
+    },
+    {
+      "cat": "车联网",
+      "q": "vehicle to network cybersecurity"
+    },
+    {
+      "cat": "工业互联网",
+      "q": "industrial internet cybersecurity"
+    },
+    {
+      "cat": "智慧城市",
+      "q": "smart city surveillance China"
+    },
+    {
+      "cat": "人脸识别",
+      "q": "facial recognition technology export"
+    },
+    {
+      "cat": "监控设备",
+      "q": "surveillance equipment export Huawei"
+    },
+    {
+      "cat": "审查技术",
+      "q": "censorship technology export China"
     }
   ],
   "watch_categories": [
