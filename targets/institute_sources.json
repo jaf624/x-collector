@@ -25,7 +25,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "cfr.org",
@@ -49,7 +50,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "rand.org",
@@ -75,7 +77,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "epochtimes.com",
@@ -101,7 +104,8 @@
     "status": "active",
     "latest": "2026-09-18",
     "recent30": 60,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "A"
   },
   {
     "host": "dni.gov",
@@ -125,7 +129,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "state.gov",
@@ -147,7 +152,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "home.treasury.gov",
@@ -169,7 +175,8 @@
     "status": "stale",
     "latest": "2026-07-22",
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "castro.house.gov",
@@ -191,7 +198,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 6,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "A"
   },
   {
     "host": "odni.gov",
@@ -213,7 +221,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "uscirf.gov",
@@ -235,7 +244,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 9,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "A"
   },
   {
     "host": "oversight.house.gov",
@@ -257,7 +267,8 @@
     "status": "stale",
     "latest": "2020-12-04",
     "recent30": 0,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "A"
   },
   {
     "host": "uscc.gov",
@@ -279,7 +290,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "dhs.gov",
@@ -301,7 +313,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "disa.mil",
@@ -323,7 +336,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "whitehouse.gov",
@@ -345,7 +359,8 @@
     "status": "watch",
     "latest": "2026-09-17",
     "recent30": 30,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "nukib.gov.cz",
@@ -367,7 +382,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 5,
-    "china_hits": 2
+    "china_hits": 2,
+    "grade": "A"
   },
   {
     "host": "isc.independent.gov.uk",
@@ -389,7 +405,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "foreign.senate.gov",
@@ -411,7 +428,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "cisa.gov",
@@ -433,7 +451,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "defense.gov",
@@ -456,7 +475,8 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 80,
-    "note": "10-15海外节点探活直连可用,补RSS"
+    "note": "10-15海外节点探活直连可用,补RSS",
+    "grade": "A"
   },
   {
     "host": "international.gc.ca",
@@ -478,7 +498,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "hsgac.senate.gov",
@@ -500,7 +521,8 @@
     "status": "watch",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "ustr.gov",
@@ -522,7 +544,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 7,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "usagm.gov",
@@ -544,7 +567,8 @@
     "status": "watch",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "asd.gov.au",
@@ -566,7 +590,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "cse-cst.gc.ca",
@@ -588,7 +613,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "gcsb.govt.nz",
@@ -610,7 +636,8 @@
     "status": "stale",
     "latest": "2026-03-10",
     "recent30": 0,
-    "china_hits": 5
+    "china_hits": 5,
+    "grade": "A"
   },
   {
     "host": "gchq.gov.uk",
@@ -632,7 +659,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "nsa.gov",
@@ -654,7 +682,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "homeaffairs.gov.au",
@@ -676,7 +705,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mac.gov.tw",
@@ -699,7 +729,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mnd.gov.tw",
@@ -721,7 +752,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "dset.tw",
@@ -743,7 +775,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "chinadigitaltimes.net",
@@ -769,7 +802,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "aboluowang.com",
@@ -793,7 +827,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "voachinese.com",
@@ -819,7 +854,8 @@
     "status": "active",
     "latest": "2026-09-18",
     "recent30": 20,
-    "china_hits": 16
+    "china_hits": 16,
+    "grade": "C"
   },
   {
     "host": "rfa.org",
@@ -845,7 +881,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "zaobao.com.sg",
@@ -870,7 +907,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "lingbaxianzhang.blogspot.com",
@@ -893,7 +931,8 @@
     "status": "active",
     "latest": "2026-10-13",
     "recent30": 25,
-    "china_hits": 21
+    "china_hits": 21,
+    "grade": "C"
   },
   {
     "host": "theinitium.com",
@@ -915,7 +954,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 15,
-    "china_hits": 2
+    "china_hits": 2,
+    "grade": "C"
   },
   {
     "host": "dw.com",
@@ -939,7 +979,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "chinademocrats.org",
@@ -963,7 +1004,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 6,
-    "china_hits": 9
+    "china_hits": 9,
+    "grade": "C"
   },
   {
     "host": "thediplomat.com",
@@ -985,7 +1027,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 80,
-    "china_hits": 28
+    "china_hits": 28,
+    "grade": "B"
   },
   {
     "host": "timesofchina.org",
@@ -1007,7 +1050,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "thewirechina.com",
@@ -1029,7 +1073,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 41,
-    "china_hits": 50
+    "china_hits": 50,
+    "grade": "C"
   },
   {
     "host": "molihua.org",
@@ -1051,7 +1096,8 @@
     "status": "active",
     "latest": "2026-09-18",
     "recent30": 10,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "C"
   },
   {
     "host": "backchina.com",
@@ -1073,7 +1119,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "wenxuecity.com",
@@ -1095,7 +1142,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "news.creaders.net",
@@ -1117,7 +1165,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "ntdtv.com",
@@ -1139,7 +1188,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "bannedbook.org",
@@ -1161,7 +1211,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "chinaworker.info",
@@ -1183,7 +1234,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 3,
-    "china_hits": 6
+    "china_hits": 6,
+    "grade": "C"
   },
   {
     "host": "ftchinese.com",
@@ -1205,7 +1257,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "66.ca",
@@ -1227,7 +1280,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "boxun.com",
@@ -1249,7 +1303,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "lutounet.com",
@@ -1271,7 +1326,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "ihuawen.com",
@@ -1293,7 +1349,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "huaxia.net.au",
@@ -1315,7 +1372,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "ouhua.info",
@@ -1337,7 +1395,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "fm961.com",
@@ -1359,7 +1418,8 @@
     "status": "watch",
     "latest": "2026-09-17",
     "recent30": 8,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "dawanews.com",
@@ -1381,7 +1441,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "bbc.com",
@@ -1404,7 +1465,8 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 80,
-    "note": "10-15海外节点探活BBC中文38条可用,补RSS"
+    "note": "10-15海外节点探活BBC中文38条可用,补RSS",
+    "grade": "A"
   },
   {
     "host": "abc.net.au",
@@ -1426,7 +1488,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www3.nhk.or.jp",
@@ -1448,7 +1511,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "voanews.com",
@@ -1470,7 +1534,8 @@
     "status": "stale",
     "latest": "2025-03-15",
     "recent30": 0,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "C"
   },
   {
     "host": "asiatimes.com",
@@ -1492,7 +1557,8 @@
     "status": "active",
     "latest": "2026-09-18",
     "recent30": 20,
-    "china_hits": 7
+    "china_hits": 7,
+    "grade": "C"
   },
   {
     "host": "scmp.com",
@@ -1514,7 +1580,8 @@
     "status": "active",
     "latest": "2026-10-13",
     "recent30": 50,
-    "china_hits": 37
+    "china_hits": 37,
+    "grade": "C"
   },
   {
     "host": "foreignpolicy.com",
@@ -1536,7 +1603,8 @@
     "status": "watch",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "aljazeera.com",
@@ -1558,7 +1626,8 @@
     "status": "active",
     "latest": "2026-09-18",
     "recent30": 25,
-    "china_hits": 5
+    "china_hits": 5,
+    "grade": "A"
   },
   {
     "host": "amnesty.org",
@@ -1580,7 +1649,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 12,
-    "china_hits": 7
+    "china_hits": 7,
+    "grade": "C"
   },
   {
     "host": "lianows.com",
@@ -1602,7 +1672,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "nnews.eu",
@@ -1624,7 +1695,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "blog.creaders.net",
@@ -1646,7 +1718,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "2newcenturynet.blogspot.com",
@@ -1668,7 +1741,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 25,
-    "china_hits": 21
+    "china_hits": 21,
+    "grade": "C"
   },
   {
     "host": "cn.nytimes.com",
@@ -1690,7 +1764,8 @@
     "status": "active",
     "latest": "2026-09-18",
     "recent30": 20,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "C"
   },
   {
     "host": "understandingwar.org",
@@ -1714,7 +1789,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "cecc.gov",
@@ -1738,7 +1814,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 4,
-    "china_hits": 9
+    "china_hits": 9,
+    "grade": "C"
   },
   {
     "host": "thecfhk.org",
@@ -1762,7 +1839,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "rfi.fr",
@@ -1786,7 +1864,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "safeguarddefenders.com",
@@ -1810,7 +1889,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "selectcommitteeontheccp.house.gov",
@@ -1833,7 +1913,8 @@
     "status": "active",
     "latest": "2026-09-03",
     "recent30": 2,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "C"
   },
   {
     "host": "shahit.biz",
@@ -1855,7 +1936,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "darkreading.com",
@@ -1878,7 +1960,8 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 0,
-    "note": "RSS实测50条可用"
+    "note": "RSS实测50条可用",
+    "grade": "B"
   },
   {
     "host": "eurasiagroup.net",
@@ -1900,7 +1983,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "sentinelone.com",
@@ -1922,7 +2006,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 1,
-    "china_hits": 6
+    "china_hits": 6,
+    "grade": "C"
   },
   {
     "host": "recordedfuture.com",
@@ -1944,7 +2029,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "intelligenceonline.com",
@@ -1966,7 +2052,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "osintteam.com",
@@ -1988,7 +2075,8 @@
     "status": "stale",
     "latest": "2025-10-01",
     "recent30": 0,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "C"
   },
   {
     "host": "welivesecurity.com",
@@ -2010,7 +2098,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 6,
-    "china_hits": 9
+    "china_hits": 9,
+    "grade": "C"
   },
   {
     "host": "bleepingcomputer.com",
@@ -2032,7 +2121,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 15,
-    "china_hits": 5
+    "china_hits": 5,
+    "grade": "B"
   },
   {
     "host": "thehackernews.com",
@@ -2054,7 +2144,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 50,
-    "china_hits": 15
+    "china_hits": 15,
+    "grade": "B"
   },
   {
     "host": "osintonchina.com",
@@ -2076,7 +2167,8 @@
     "status": "stale",
     "latest": "2022-10-28",
     "recent30": 0,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "C"
   },
   {
     "host": "blog.tibcert.org",
@@ -2098,7 +2190,8 @@
     "status": "stale",
     "latest": "2026-03-31",
     "recent30": 0,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "C"
   },
   {
     "host": "bellingcat.com",
@@ -2120,7 +2213,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 5,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "C"
   },
   {
     "host": "gfw.report",
@@ -2142,7 +2236,8 @@
     "status": "watch",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "sankei.com",
@@ -2164,7 +2259,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "opentech.fund",
@@ -2186,7 +2282,8 @@
     "status": "active",
     "latest": "2026-08-25",
     "recent30": 1,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "C"
   },
   {
     "host": "smallwarsjournal.com",
@@ -2208,7 +2305,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "C"
   },
   {
     "host": "chinapower.csis.org",
@@ -2230,7 +2328,8 @@
     "status": "stale",
     "latest": "2026-07-06",
     "recent30": 0,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "C"
   },
   {
     "host": "intelligence.house.gov",
@@ -2252,7 +2351,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 7,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "C"
   },
   {
     "host": "twz.com",
@@ -2274,7 +2374,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 49,
-    "china_hits": 22
+    "china_hits": 22,
+    "grade": "A"
   },
   {
     "host": "feed.laborinfocn7.com",
@@ -2296,7 +2397,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 2,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "C"
   },
   {
     "host": "fnvaworld.org",
@@ -2318,7 +2420,8 @@
     "status": "stale",
     "latest": "2026-05-10",
     "recent30": 0,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "C"
   },
   {
     "host": "cdpweb.org",
@@ -2340,7 +2443,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "uschinadialogue.georgetown.edu",
@@ -2362,7 +2466,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "csri.global",
@@ -2384,7 +2489,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "yingjiexinshiji.com",
@@ -2406,7 +2512,8 @@
     "status": "watch",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "citizenlab.ca",
@@ -2428,7 +2535,8 @@
     "status": "active",
     "latest": "2026-09-10",
     "recent30": 3,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "C"
   },
   {
     "host": "endtransplantabuse.org",
@@ -2450,7 +2558,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "chinaaction.org",
@@ -2472,7 +2581,8 @@
     "status": "stale",
     "latest": "2026-06-03",
     "recent30": 0,
-    "china_hits": 9
+    "china_hits": 9,
+    "grade": "C"
   },
   {
     "host": "tenchu.org",
@@ -2494,7 +2604,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "utjd.org",
@@ -2516,7 +2627,8 @@
     "status": "watch",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "sinchew.com.my",
@@ -2538,7 +2650,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "indsr.org.tw",
@@ -2562,7 +2675,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "secretchina.com",
@@ -2584,7 +2698,8 @@
     "status": "active",
     "latest": "2026-09-18",
     "recent30": 40,
-    "china_hits": 22
+    "china_hits": 22,
+    "grade": "B"
   },
   {
     "host": "asiasociety.org",
@@ -2607,7 +2722,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "csis.org",
@@ -2630,7 +2746,8 @@
     "status": "stale",
     "latest": "2016-03-03",
     "recent30": 0,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "A"
   },
   {
     "host": "smhric.org",
@@ -2652,7 +2769,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "reaganfoundation.org",
@@ -2675,7 +2793,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "features.csis.org",
@@ -2697,7 +2816,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "chinaglobalsouth.com",
@@ -2719,7 +2839,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "cato.org",
@@ -2741,7 +2862,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 25,
-    "china_hits": 5
+    "china_hits": 5,
+    "grade": "B"
   },
   {
     "host": "fraserinstitute.org",
@@ -2763,7 +2885,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "gallup.com",
@@ -2785,7 +2908,8 @@
     "status": "watch",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "merics.org",
@@ -2807,7 +2931,8 @@
     "status": "active",
     "latest": "2026-09-09",
     "recent30": 7,
-    "china_hits": 18
+    "china_hits": 18,
+    "grade": "B"
   },
   {
     "host": "breakingdefense.com",
@@ -2829,7 +2954,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "geostrategy.org.uk",
@@ -2851,7 +2977,8 @@
     "status": "watch",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "globaltaiwan.org",
@@ -2873,7 +3000,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 10,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "B"
   },
   {
     "host": "cnas.org",
@@ -2895,7 +3023,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "jamestown.org",
@@ -2917,7 +3046,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "B"
   },
   {
     "host": "fpri.org",
@@ -2939,7 +3069,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "cepa.org",
@@ -2961,7 +3092,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 10,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "B"
   },
   {
     "host": "sipri.org",
@@ -2983,7 +3115,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "globalaffairs.org",
@@ -3005,7 +3138,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 3,
-    "china_hits": 2
+    "china_hits": 2,
+    "grade": "B"
   },
   {
     "host": "hinrichfoundation.com",
@@ -3027,7 +3161,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "thinktankwatch.com",
@@ -3049,7 +3184,8 @@
     "status": "active",
     "latest": "2026-09-14",
     "recent30": 4,
-    "china_hits": 11
+    "china_hits": 11,
+    "grade": "B"
   },
   {
     "host": "ember-climate.org",
@@ -3071,7 +3207,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "crsreports.congress.gov",
@@ -3093,7 +3230,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "inss.ndu.edu",
@@ -3115,7 +3253,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ukctransparency.org",
@@ -3137,7 +3276,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "dfrlab.org",
@@ -3159,7 +3299,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 3,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "B"
   },
   {
     "host": "etnc.info",
@@ -3181,7 +3322,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "weforum.org",
@@ -3203,7 +3345,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "crisisgroup.org",
@@ -3225,7 +3368,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "foreignaffairs.com",
@@ -3247,7 +3391,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 20,
-    "china_hits": 6
+    "china_hits": 6,
+    "grade": "B"
   },
   {
     "host": "ecfr.eu",
@@ -3269,7 +3414,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 25,
-    "china_hits": 9
+    "china_hits": 9,
+    "grade": "B"
   },
   {
     "host": "ui4freedom.org",
@@ -3291,7 +3437,8 @@
     "status": "stale",
     "latest": "2024-11-30",
     "recent30": 0,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "B"
   },
   {
     "host": "fdd.org",
@@ -3313,7 +3460,8 @@
     "status": "active",
     "latest": "2026-09-18",
     "recent30": 50,
-    "china_hits": 5
+    "china_hits": 5,
+    "grade": "B"
   },
   {
     "host": "brookings.edu",
@@ -3335,7 +3483,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "carnegieendowment.org",
@@ -3357,7 +3506,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "heritage.org",
@@ -3379,7 +3529,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "aei.org",
@@ -3401,7 +3552,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "hudson.org",
@@ -3423,7 +3575,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 2
+    "china_hits": 2,
+    "grade": "B"
   },
   {
     "host": "americanprogress.org",
@@ -3445,7 +3598,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "piie.com",
@@ -3467,7 +3621,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "rsis.edu.sg",
@@ -3489,7 +3644,8 @@
     "status": "watch",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "bigdatachina.csis.org",
@@ -3511,7 +3667,8 @@
     "status": "stale",
     "latest": "2024-11-19",
     "recent30": 0,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "B"
   },
   {
     "host": "itif.org",
@@ -3533,7 +3690,8 @@
     "status": "active",
     "latest": "2026-11-17",
     "recent30": 45,
-    "china_hits": 12
+    "china_hits": 12,
+    "grade": "B"
   },
   {
     "host": "theoutlawocean.com",
@@ -3555,7 +3713,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "jp.sentinelone.com",
@@ -3577,7 +3736,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 1,
-    "china_hits": 6
+    "china_hits": 6,
+    "grade": "B"
   },
   {
     "host": "amro-asia.org",
@@ -3599,7 +3759,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "B"
   },
   {
     "host": "jiia.or.jp",
@@ -3621,7 +3782,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "sejong.org",
@@ -3643,7 +3805,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "imi.org.ua",
@@ -3665,7 +3828,8 @@
     "status": "watch",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ifw-kiel.de",
@@ -3687,7 +3851,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "theatlantic.com",
@@ -3709,7 +3874,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 25,
-    "china_hits": 9
+    "china_hits": 9,
+    "grade": "B"
   },
   {
     "host": "ipsos.com",
@@ -3731,7 +3897,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "eastasiaforum.org",
@@ -3753,7 +3920,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "deutschland.de",
@@ -3775,7 +3943,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "B"
   },
   {
     "host": "conflictarm.com",
@@ -3797,7 +3966,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ejfoundation.org",
@@ -3819,7 +3989,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "gids-hamburg.de",
@@ -3841,7 +4012,8 @@
     "status": "active",
     "latest": "2026-09-01",
     "recent30": 1,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "B"
   },
   {
     "host": "pori.hk",
@@ -3863,7 +4035,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "dasheng.media",
@@ -3885,7 +4058,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ipac.global",
@@ -3907,7 +4081,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "hkdc.us",
@@ -3930,7 +4105,8 @@
     "status": "stale",
     "latest": "2022-09-25",
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "usali.org",
@@ -3952,7 +4128,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "seajunction.org",
@@ -3974,7 +4151,8 @@
     "status": "active",
     "latest": "2026-09-02",
     "recent30": 1,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "B"
   },
   {
     "host": "news.usni.org",
@@ -3998,7 +4176,8 @@
     "status": "active",
     "latest": "2026-10-12",
     "recent30": 30,
-    "china_hits": 7
+    "china_hits": 7,
+    "grade": "B"
   },
   {
     "host": "opensocietyfoundations.org",
@@ -4020,7 +4199,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "atc.org.au",
@@ -4042,7 +4222,8 @@
     "status": "active",
     "latest": "2026-09-03",
     "recent30": 4,
-    "china_hits": 9
+    "china_hits": 9,
+    "grade": "B"
   },
   {
     "host": "youthforhumanrights.org",
@@ -4064,7 +4245,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "new.hrichina.org",
@@ -4086,7 +4268,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "worldjusticeproject.org",
@@ -4108,7 +4291,8 @@
     "status": "stale",
     "latest": "2015-12-22",
     "recent30": 0,
-    "china_hits": 2
+    "china_hits": 2,
+    "grade": "B"
   },
   {
     "host": "news.china.com.au",
@@ -4130,7 +4314,8 @@
     "status": "active",
     "latest": "2026-09-18",
     "recent30": 10,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "B"
   },
   {
     "host": "fdc64.org",
@@ -4152,7 +4337,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "libertysculpturepark.com",
@@ -4174,7 +4360,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "indexoncensorship.org",
@@ -4196,7 +4383,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 7
+    "china_hits": 7,
+    "grade": "B"
   },
   {
     "host": "hausderdemokratie.de",
@@ -4218,7 +4406,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "chinadeviants.org",
@@ -4240,7 +4429,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "tadc.ca",
@@ -4262,7 +4452,8 @@
     "status": "active",
     "latest": "2026-09-13",
     "recent30": 5,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "B"
   },
   {
     "host": "doublethinklab.org",
@@ -4284,7 +4475,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "factchecklab.org",
@@ -4306,7 +4498,8 @@
     "status": "watch",
     "latest": "2026-09-16",
     "recent30": 8,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "sfquantum.github.io",
@@ -4328,7 +4521,8 @@
     "status": "stale",
     "latest": "2022-11-30",
     "recent30": 0,
-    "china_hits": 40
+    "china_hits": 40,
+    "grade": "B"
   },
   {
     "host": "zhuichaguoji.org",
@@ -4350,7 +4544,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "rsf.org",
@@ -4372,7 +4567,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "counterhate.com",
@@ -4394,7 +4590,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "samadamsaward.ch",
@@ -4416,7 +4613,8 @@
     "status": "stale",
     "latest": "2026-01-14",
     "recent30": 0,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "B"
   },
   {
     "host": "americanswhotellthetruth.org",
@@ -4438,7 +4636,8 @@
     "status": "active",
     "latest": "2026-09-11",
     "recent30": 2,
-    "china_hits": 2
+    "china_hits": 2,
+    "grade": "B"
   },
   {
     "host": "aiddata.org",
@@ -4460,7 +4659,8 @@
     "status": "active",
     "latest": "2026-09-04",
     "recent30": 2,
-    "china_hits": 37
+    "china_hits": 37,
+    "grade": "B"
   },
   {
     "host": "icij.org",
@@ -4482,7 +4682,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 10,
-    "china_hits": 8
+    "china_hits": 8,
+    "grade": "B"
   },
   {
     "host": "twreporter.org",
@@ -4504,7 +4705,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 10,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "B"
   },
   {
     "host": "westca.com",
@@ -4526,7 +4728,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ndi.org",
@@ -4548,7 +4751,8 @@
     "status": "watch",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "iri.org",
@@ -4570,7 +4774,8 @@
     "status": "active",
     "latest": "2026-09-10",
     "recent30": 2,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "B"
   },
   {
     "host": "cipe.org",
@@ -4592,7 +4797,8 @@
     "status": "stale",
     "latest": "2026-08-11",
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "solidaritycenter.org",
@@ -4614,7 +4820,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "globalhand.org",
@@ -4636,7 +4843,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "hongkongfp.com",
@@ -4658,7 +4866,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 30,
-    "china_hits": 29
+    "china_hits": 29,
+    "grade": "B"
   },
   {
     "host": "chinadem.org",
@@ -4680,7 +4889,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "aspi.org.au",
@@ -4702,7 +4912,8 @@
     "status": "active",
     "latest": "2026-09-09",
     "recent30": 6,
-    "china_hits": 7
+    "china_hits": 7,
+    "grade": "B"
   },
   {
     "host": "chinatechthreat.com",
@@ -4724,7 +4935,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "govtribe.com",
@@ -4746,7 +4958,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "cira.exovera.com",
@@ -4768,7 +4981,8 @@
     "status": "stale",
     "latest": "2023-10-19",
     "recent30": 0,
-    "china_hits": 7
+    "china_hits": 7,
+    "grade": "B"
   },
   {
     "host": "dpcla.org",
@@ -4790,7 +5004,8 @@
     "status": "active",
     "latest": "2026-09-08",
     "recent30": 8,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "B"
   },
   {
     "host": "jinian64.org",
@@ -4812,7 +5027,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 1,
-    "china_hits": 5
+    "china_hits": 5,
+    "grade": "B"
   },
   {
     "host": "nmsl.website",
@@ -4834,7 +5050,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "shanghainationalparty.com",
@@ -4856,7 +5073,8 @@
     "status": "stale",
     "latest": "2026-03-08",
     "recent30": 0,
-    "china_hits": 5
+    "china_hits": 5,
+    "grade": "B"
   },
   {
     "host": "endccp.ueuo.com",
@@ -4878,7 +5096,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ichka.org",
@@ -4900,7 +5119,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "fdcusa.org",
@@ -4922,7 +5142,8 @@
     "status": "active",
     "latest": "2026-09-13",
     "recent30": 4,
-    "china_hits": 9
+    "china_hits": 9,
+    "grade": "B"
   },
   {
     "host": "lacd01.com",
@@ -4944,7 +5165,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "anticcp.nl",
@@ -4966,7 +5188,8 @@
     "status": "active",
     "latest": "2026-09-18",
     "recent30": 6,
-    "china_hits": 25
+    "china_hits": 25,
+    "grade": "B"
   },
   {
     "host": "hkers.org.uk",
@@ -4988,7 +5211,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "bonhamtreeaid.org",
@@ -5010,7 +5234,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "freechinablog.com",
@@ -5032,7 +5257,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "minzhen.org",
@@ -5054,7 +5280,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "global-unions.org",
@@ -5076,7 +5303,8 @@
     "status": "watch",
     "latest": "2026-08-27",
     "recent30": 1,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "workersrights.org",
@@ -5098,7 +5326,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "walkfree.org",
@@ -5120,7 +5349,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 3,
-    "china_hits": 7
+    "china_hits": 7,
+    "grade": "B"
   },
   {
     "host": "polarisproject.org",
@@ -5142,7 +5372,8 @@
     "status": "stale",
     "latest": "2026-03-26",
     "recent30": 0,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "B"
   },
   {
     "host": "ijm.org",
@@ -5164,7 +5395,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "freetheslaves.net",
@@ -5186,7 +5418,8 @@
     "status": "active",
     "latest": "2026-08-25",
     "recent30": 2,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "B"
   },
   {
     "host": "iom.int",
@@ -5208,7 +5441,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "unodc.org",
@@ -5230,7 +5464,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ilo.org",
@@ -5252,7 +5487,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "snopes.com",
@@ -5274,7 +5510,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 20,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "B"
   },
   {
     "host": "factcheck.org",
@@ -5296,7 +5533,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 2
+    "china_hits": 2,
+    "grade": "B"
   },
   {
     "host": "poynter.org",
@@ -5318,7 +5556,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "fullfact.org",
@@ -5340,7 +5579,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "B"
   },
   {
     "host": "mediabiasfactcheck.com",
@@ -5362,7 +5602,8 @@
     "status": "watch",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "mediamatters.org",
@@ -5384,7 +5625,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 10,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "B"
   },
   {
     "host": "openleaks.org",
@@ -5406,7 +5648,8 @@
     "status": "stale",
     "latest": "2026-07-20",
     "recent30": 0,
-    "china_hits": 5
+    "china_hits": 5,
+    "grade": "B"
   },
   {
     "host": "transparency.org",
@@ -5428,7 +5671,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 2,
-    "china_hits": 5
+    "china_hits": 5,
+    "grade": "B"
   },
   {
     "host": "cryptome.org",
@@ -5450,7 +5694,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "publicintelligence.net",
@@ -5472,7 +5717,8 @@
     "status": "stale",
     "latest": "2025-06-14",
     "recent30": 0,
-    "china_hits": 18
+    "china_hits": 18,
+    "grade": "B"
   },
   {
     "host": "privacyinternational.org",
@@ -5494,7 +5740,8 @@
     "status": "stale",
     "latest": "2026-08-11",
     "recent30": 0,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "B"
   },
   {
     "host": "opensecrets.org",
@@ -5516,7 +5763,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "documentcloud.org",
@@ -5538,7 +5786,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "wikileaks.org",
@@ -5560,7 +5809,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "muckrock.com",
@@ -5582,7 +5832,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ait.org.tw",
@@ -5604,7 +5855,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 6,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "B"
   },
   {
     "host": "hkja.org.hk",
@@ -5626,7 +5878,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "tidf.org.tw",
@@ -5648,7 +5901,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "newtalk.tw",
@@ -5670,7 +5924,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "chinatimes.com.hk",
@@ -5692,7 +5947,8 @@
     "status": "stale",
     "latest": "2026-07-08",
     "recent30": 0,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "B"
   },
   {
     "host": "clb.org.hk",
@@ -5714,7 +5970,8 @@
     "status": "active",
     "latest": "2026-10-13",
     "recent30": 30,
-    "china_hits": 19
+    "china_hits": 19,
+    "grade": "B"
   },
   {
     "host": "chinainperspective.com",
@@ -5736,7 +5993,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 10,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "C"
   },
   {
     "host": "dialoguechina.com",
@@ -5758,7 +6016,8 @@
     "status": "active",
     "latest": "2026-10-12",
     "recent30": 10,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "C"
   },
   {
     "host": "chinadissent.net",
@@ -5780,7 +6039,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "hackread.com",
@@ -5802,7 +6062,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "hrichina.substack.com",
@@ -5824,7 +6085,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "worldview.stratfor.com",
@@ -5846,7 +6108,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "rhg.com",
@@ -5868,7 +6131,8 @@
     "status": "stale",
     "latest": "2026-05-06",
     "recent30": 0,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "C"
   },
   {
     "host": "studentsforafreetibet.org",
@@ -5890,7 +6154,8 @@
     "status": "active",
     "latest": "2026-09-11",
     "recent30": 1,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "C"
   },
   {
     "host": "duihua.org",
@@ -5912,7 +6177,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 1,
-    "china_hits": 7
+    "china_hits": 7,
+    "grade": "C"
   },
   {
     "host": "uyghurstudy.org",
@@ -5934,7 +6200,8 @@
     "status": "active",
     "latest": "2026-09-08",
     "recent30": 1,
-    "china_hits": 12
+    "china_hits": 12,
+    "grade": "C"
   },
   {
     "host": "jpolrisk.com",
@@ -5956,7 +6223,8 @@
     "status": "stale",
     "latest": "2026-08-14",
     "recent30": 0,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "C"
   },
   {
     "host": "h-china.org",
@@ -5978,7 +6246,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "minzhuzhongguo.org",
@@ -6000,7 +6269,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 20,
-    "china_hits": 9
+    "china_hits": 9,
+    "grade": "C"
   },
   {
     "host": "turquoiseroof.org",
@@ -6022,7 +6292,8 @@
     "status": "stale",
     "latest": "2025-06-18",
     "recent30": 0,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "C"
   },
   {
     "host": "feedx.net",
@@ -6044,7 +6315,8 @@
     "status": "stale",
     "latest": "2025-08-13",
     "recent30": 0,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "C"
   },
   {
     "host": "freedomhouse.org",
@@ -6066,7 +6338,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 10,
-    "china_hits": 3
+    "china_hits": 3,
+    "grade": "C"
   },
   {
     "host": "thegrayzone.com",
@@ -6088,7 +6361,8 @@
     "status": "active",
     "latest": "2026-09-15",
     "recent30": 5,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "C"
   },
   {
     "host": "thebureauinvestigates.com",
@@ -6110,7 +6384,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "hkaccountability.org",
@@ -6132,7 +6407,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "energyandcleanair.org",
@@ -6154,7 +6430,8 @@
     "status": "active",
     "latest": "2026-09-17",
     "recent30": 3,
-    "china_hits": 14
+    "china_hits": 14,
+    "grade": "C"
   },
   {
     "host": "feed.laborinfocn3.com",
@@ -6176,7 +6453,8 @@
     "status": "active",
     "latest": "2026-09-16",
     "recent30": 2,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "C"
   },
   {
     "host": "cn.nikkei.com",
@@ -6199,7 +6477,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "cn.yna.co.kr",
@@ -6222,7 +6501,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "chinese.kyodonews.net",
@@ -6245,7 +6525,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.cna.com.tw",
@@ -6268,7 +6549,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.rfa.org",
@@ -6291,7 +6573,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.abc.net.au",
@@ -6314,7 +6597,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.rcinet.ca",
@@ -6337,7 +6621,8 @@
     "status": "stale",
     "latest": "2025-12-25",
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.ftchinese.com",
@@ -6360,7 +6645,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "cn.wsj.com",
@@ -6383,7 +6669,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "chinese.aljazeera.net",
@@ -6406,7 +6693,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.storm.mg",
@@ -6429,7 +6717,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.hk01.com",
@@ -6452,7 +6741,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.stheadline.com",
@@ -6475,7 +6765,8 @@
     "status": "active",
     "latest": "2026-10-13",
     "recent30": 80,
-    "china_hits": 34
+    "china_hits": 34,
+    "grade": "C"
   },
   {
     "host": "news.mingpao.com",
@@ -6498,7 +6789,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "cnnews.chosun.com",
@@ -6521,7 +6813,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "chinese.joins.com",
@@ -6544,7 +6837,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.scmp.com",
@@ -6567,7 +6861,8 @@
     "status": "active",
     "latest": "2026-10-13",
     "recent30": 50,
-    "china_hits": 37
+    "china_hits": 37,
+    "grade": "C"
   },
   {
     "host": "www.worldjournal.com",
@@ -6590,7 +6885,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.chinatimes.com",
@@ -6613,7 +6909,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "udn.com",
@@ -6636,7 +6933,8 @@
     "status": "active",
     "latest": "2026-10-13",
     "recent30": 80,
-    "china_hits": 10
+    "china_hits": 10,
+    "grade": "C"
   },
   {
     "host": "zh.malaysiakini.com",
@@ -6659,7 +6957,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.dw.com",
@@ -6682,7 +6981,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.rfi.fr",
@@ -6705,7 +7005,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "www.whitehouse.gov",
@@ -6728,7 +7029,8 @@
     "status": "active",
     "latest": "2026-10-10",
     "recent30": 30,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "A"
   },
   {
     "host": "www.state.gov",
@@ -6751,7 +7053,8 @@
     "status": "watch",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "www.commerce.gov",
@@ -6774,7 +7077,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "www.defense.gov",
@@ -6798,7 +7102,8 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 80,
-    "note": "10-15海外节点探活直连可用,补RSS"
+    "note": "10-15海外节点探活直连可用,补RSS",
+    "grade": "A"
   },
   {
     "host": "ec.europa.eu",
@@ -6822,7 +7127,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "www.nato.int",
@@ -6845,7 +7151,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "www.meti.go.jp",
@@ -6868,7 +7175,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "www.mofa.go.jp",
@@ -6891,7 +7199,8 @@
     "status": "need_jina",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "www.mining.com",
@@ -6914,7 +7223,8 @@
     "status": "active",
     "latest": "2026-10-14",
     "recent30": 0,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "C"
   },
   {
     "host": "oilprice.com",
@@ -6937,7 +7247,8 @@
     "status": "active",
     "latest": "2026-10-14",
     "recent30": 0,
-    "china_hits": 2
+    "china_hits": 2,
+    "grade": "B"
   },
   {
     "host": "asia.nikkei.com",
@@ -6960,7 +7271,8 @@
     "status": "active",
     "latest": "2026-10-14",
     "recent30": 0,
-    "china_hits": 4
+    "china_hits": 4,
+    "grade": "C"
   },
   {
     "host": "www.defensenews.com",
@@ -6983,7 +7295,8 @@
     "status": "active",
     "latest": "2026-10-14",
     "recent30": 0,
-    "china_hits": 1
+    "china_hits": 1,
+    "grade": "C"
   },
   {
     "host": "news.google.com/reuters",
@@ -7008,7 +7321,8 @@
     "recent30": 0,
     "china_hits": 100,
     "added": "2026-10-15",
-    "note": "探活100条可用,302解析原文"
+    "note": "探活100条可用,302解析原文",
+    "grade": "C"
   },
   {
     "host": "news.google.com/apnews",
@@ -7033,7 +7347,8 @@
     "recent30": 0,
     "china_hits": 100,
     "added": "2026-10-15",
-    "note": "探活100条可用"
+    "note": "探活100条可用",
+    "grade": "C"
   },
   {
     "host": "news.google.com/france24",
@@ -7058,7 +7373,8 @@
     "recent30": 0,
     "china_hits": 100,
     "added": "2026-10-15",
-    "note": "探活100条可用"
+    "note": "探活100条可用",
+    "grade": "C"
   },
   {
     "host": "news.google.com/bloomberg",
@@ -7083,7 +7399,8 @@
     "recent30": 0,
     "china_hits": 100,
     "added": "2026-10-15",
-    "note": "探活100条可用"
+    "note": "探活100条可用",
+    "grade": "C"
   },
   {
     "host": "news.google.com/nikkei",
@@ -7108,7 +7425,8 @@
     "recent30": 0,
     "china_hits": 100,
     "added": "2026-10-15",
-    "note": "探活100条可用"
+    "note": "探活100条可用",
+    "grade": "C"
   },
   {
     "host": "news.google.com/ft",
@@ -7133,7 +7451,8 @@
     "recent30": 0,
     "china_hits": 100,
     "added": "2026-10-15",
-    "note": "探活100条可用"
+    "note": "探活100条可用",
+    "grade": "C"
   },
   {
     "host": "news.google.com/wsj",
@@ -7158,7 +7477,8 @@
     "recent30": 0,
     "china_hits": 100,
     "added": "2026-10-15",
-    "note": "探活100条可用"
+    "note": "探活100条可用",
+    "grade": "C"
   },
   {
     "host": "news.google.com/nytimes",
@@ -7183,7 +7503,8 @@
     "recent30": 0,
     "china_hits": 100,
     "added": "2026-10-15",
-    "note": "探活100条可用"
+    "note": "探活100条可用",
+    "grade": "C"
   },
   {
     "host": "news.google.com/economist",
@@ -7208,7 +7529,8 @@
     "recent30": 0,
     "china_hits": 100,
     "added": "2026-10-15",
-    "note": "探活100条可用"
+    "note": "探活100条可用",
+    "grade": "C"
   },
   {
     "host": "english.kyodonews.net",
@@ -7231,7 +7553,8 @@
     "status": "need_jina",
     "china_hits": 8,
     "added": "2026-10-19",
-    "note": "海外实测失效：Kyodo英文RSS全部404（news/all/asia-pacific）（2026-10-19）"
+    "note": "海外实测失效：Kyodo英文RSS全部404（news/all/asia-pacific）（2026-10-19）",
+    "grade": "C"
   },
   {
     "host": "www.upi.com",
@@ -7254,7 +7577,8 @@
     "status": "need_jina",
     "china_hits": 6,
     "added": "2026-10-19",
-    "note": "海外实测失效：UPI反爬403（worldnews/topnews）（2026-10-19）"
+    "note": "海外实测失效：UPI反爬403（worldnews/topnews）（2026-10-19）",
+    "grade": "C"
   },
   {
     "host": "www.france24.com",
@@ -7276,7 +7600,8 @@
     "kind": "rss",
     "status": "active",
     "china_hits": 5,
-    "added": "2026-10-19"
+    "added": "2026-10-19",
+    "grade": "C"
   },
   {
     "host": "www.japantimes.co.jp",
@@ -7298,7 +7623,8 @@
     "kind": "rss",
     "status": "active",
     "china_hits": 7,
-    "added": "2026-10-19"
+    "added": "2026-10-19",
+    "grade": "C"
   },
   {
     "host": "www.reutersagency.com",
@@ -7321,7 +7647,8 @@
     "status": "need_jina",
     "china_hits": 8,
     "added": "2026-10-19",
-    "note": "海外实测失效：ReutersAgency feed 404停用（2026-10-19）"
+    "note": "海外实测失效：ReutersAgency feed 404停用（2026-10-19）",
+    "grade": "C"
   },
   {
     "host": "defensenews.com",
@@ -7344,7 +7671,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mining.com",
@@ -7367,7 +7695,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "navalnews.com",
@@ -7390,7 +7719,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "news.google.com/miningweekly",
@@ -7415,7 +7745,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/kitco",
@@ -7440,7 +7771,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/usgs",
@@ -7465,7 +7797,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/usni",
@@ -7490,7 +7823,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/thedrive",
@@ -7515,7 +7849,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/stripes",
@@ -7540,7 +7875,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/navaltech",
@@ -7565,7 +7901,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/maritimeexec",
@@ -7590,7 +7927,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/argus",
@@ -7615,7 +7953,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/register",
@@ -7640,7 +7979,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/csis",
@@ -7665,7 +8005,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/cnbc",
@@ -7690,7 +8031,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/ustr",
@@ -7715,7 +8057,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "janes.com",
@@ -7736,7 +8079,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.janes.com/rss?level1=defence",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "rusi.org",
@@ -7756,7 +8100,8 @@
     "bookmarks": 1,
     "feed_url": "https://rusi.org/explore-our-research/publications",
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "B"
   },
   {
     "host": "iiss.org",
@@ -7776,7 +8121,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "A"
   },
   {
     "host": "armyrecognition.com",
@@ -7797,7 +8143,8 @@
     "bookmarks": 1,
     "feed_url": "https://armyrecognition.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "theaviationist.com",
@@ -7818,7 +8165,8 @@
     "bookmarks": 1,
     "feed_url": "https://theaviationist.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "nationaldefensemagazine.org",
@@ -7839,7 +8187,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.nationaldefensemagazine.org/rss",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "defence-blog.com",
@@ -7860,7 +8209,8 @@
     "bookmarks": 1,
     "feed_url": "https://defence-blog.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "military.com",
@@ -7881,7 +8231,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "aerotime.aero",
@@ -7902,7 +8253,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.aerotime.aero/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "militarywatchmagazine.com",
@@ -7923,7 +8275,8 @@
     "bookmarks": 1,
     "feed_url": "https://militarywatchmagazine.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "eia.gov",
@@ -7944,7 +8297,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.eia.gov/rss/rss.xml",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "A"
   },
   {
     "host": "worldoil.com",
@@ -7965,7 +8319,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.worldoil.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "rigzone.com",
@@ -7986,7 +8341,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "upstreamonline.com",
@@ -8007,7 +8363,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "hellenicshippingnews.com",
@@ -8028,7 +8385,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.hellenicshippingnews.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "spglobal.com",
@@ -8050,7 +8408,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "rystadenergy.com",
@@ -8070,7 +8429,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "B"
   },
   {
     "host": "fastmarkets.com",
@@ -8091,7 +8451,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.fastmarkets.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "im-mining.com",
@@ -8112,7 +8473,8 @@
     "bookmarks": 1,
     "feed_url": "https://im-mining.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "northernminer.com",
@@ -8133,7 +8495,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.northernminer.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "miningmx.com",
@@ -8154,7 +8517,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.miningmx.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "benchmarkminerals.com",
@@ -8175,7 +8539,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "mining-technology.com",
@@ -8196,7 +8561,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.mining-technology.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "fatf-gafi.org",
@@ -8217,7 +8583,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "A"
   },
   {
     "host": "bis.org",
@@ -8238,7 +8605,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.bis.org/rss/releases.rss",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "A"
   },
   {
     "host": "imf.org",
@@ -8259,7 +8627,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "A"
   },
   {
     "host": "ecb.europa.eu",
@@ -8280,7 +8649,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.ecb.europa.eu/rss/press.html",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "A"
   },
   {
     "host": "cbp.gov",
@@ -8301,7 +8671,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "A"
   },
   {
     "host": "worldbank.org",
@@ -8322,7 +8693,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.worldbank.org/en/news/all?rss=1",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "A"
   },
   {
     "host": "semianalysis.com",
@@ -8343,7 +8715,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "semiengineering.com",
@@ -8364,7 +8737,8 @@
     "bookmarks": 1,
     "feed_url": "https://semiengineering.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "eetimes.com",
@@ -8385,7 +8759,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.eetimes.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "semi.org",
@@ -8406,7 +8781,8 @@
     "bookmarks": 1,
     "feed_url": null,
     "kind": "page",
-    "status": "active"
+    "status": "active",
+    "grade": "B"
   },
   {
     "host": "semiwiki.com",
@@ -8427,7 +8803,8 @@
     "bookmarks": 1,
     "feed_url": "https://semiwiki.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "nextplatform.com",
@@ -8448,7 +8825,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.nextplatform.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "lowyinstitute.org",
@@ -8469,7 +8847,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.lowyinstitute.org/rss",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "B"
   },
   {
     "host": "thehindu.com",
@@ -8490,7 +8869,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.thehindu.com/feeder/default.rss",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "vnexpress.net",
@@ -8511,7 +8891,8 @@
     "bookmarks": 1,
     "feed_url": "https://e.vnexpress.net/rss/world.rss",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "philstar.com",
@@ -8532,7 +8913,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.philstar.com/rss/headlines",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "rappler.com",
@@ -8553,7 +8935,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.rappler.com/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "koreaherald.com",
@@ -8574,7 +8957,8 @@
     "bookmarks": 1,
     "feed_url": "http://www.koreaherald.com/rss/1.xml",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "nippon.com",
@@ -8595,7 +8979,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.nippon.com/en/feed/",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "middleeasteye.net",
@@ -8616,7 +9001,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.middleeasteye.net/rss.xml",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "malwarebytes.com",
@@ -8637,7 +9023,8 @@
     "bookmarks": 1,
     "feed_url": "https://www.malwarebytes.com/blog/feed",
     "kind": "rss",
-    "status": "active"
+    "status": "active",
+    "grade": "C"
   },
   {
     "host": "news.google.com/bleeping",
@@ -8662,7 +9049,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/theregister",
@@ -8687,7 +9075,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/arstechnica",
@@ -8712,7 +9101,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/scmp",
@@ -8737,7 +9127,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "news.google.com/fedregister",
@@ -8762,7 +9153,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-19",
-    "note": "海外探活持续更新、涉华高"
+    "note": "海外探活持续更新、涉华高",
+    "grade": "C"
   },
   {
     "host": "federalregister.gov/export",
@@ -8787,7 +9179,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-29",
-    "note": "出口管制/实体清单官方,78条"
+    "note": "出口管制/实体清单官方,78条",
+    "grade": "A"
   },
   {
     "host": "federalregister.gov/china",
@@ -8812,7 +9205,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-29",
-    "note": "涉华规则/公告,108条"
+    "note": "涉华规则/公告,108条",
+    "grade": "A"
   },
   {
     "host": "cyberscoop.com",
@@ -8837,7 +9231,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-29",
-    "note": "网络安全新闻"
+    "note": "网络安全新闻",
+    "grade": "B"
   },
   {
     "host": "krebsonsecurity.com",
@@ -8861,7 +9256,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-29",
-    "note": "深度网络安全调查"
+    "note": "深度网络安全调查",
+    "grade": "B"
   },
   {
     "host": "wired.com/security",
@@ -8886,7 +9282,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-29",
-    "note": "网络安全/科技"
+    "note": "网络安全/科技",
+    "grade": "C"
   },
   {
     "host": "techcrunch.com",
@@ -8910,7 +9307,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-29",
-    "note": "科技产业/初创"
+    "note": "科技产业/初创",
+    "grade": "B"
   },
   {
     "host": "arstechnica.com",
@@ -8934,7 +9332,8 @@
     "recent30": 0,
     "china_hits": 0,
     "added": "2026-10-29",
-    "note": "科技/安全深度"
+    "note": "科技/安全深度",
+    "grade": "B"
   },
   {
     "host": "news.google.com/nato",
@@ -8959,7 +9358,8 @@
     "recent30": 0,
     "china_hits": 60,
     "added": "2026-11-02",
-    "note": "替代官方feed 403"
+    "note": "替代官方feed 403",
+    "grade": "C"
   },
   {
     "host": "news.google.com/upi",
@@ -8984,7 +9384,8 @@
     "recent30": 0,
     "china_hits": 55,
     "added": "2026-11-02",
-    "note": "替代官方feed 403"
+    "note": "替代官方feed 403",
+    "grade": "C"
   },
   {
     "host": "news.google.com/kyodonews",
@@ -9009,7 +9410,8 @@
     "recent30": 0,
     "china_hits": 55,
     "added": "2026-11-02",
-    "note": "替代英文feed 404"
+    "note": "替代英文feed 404",
+    "grade": "C"
   },
   {
     "host": "news.google.com/thediplomat",
@@ -9034,7 +9436,8 @@
     "recent30": 0,
     "china_hits": 50,
     "added": "2026-11-02",
-    "note": "印太/军事高价值"
+    "note": "印太/军事高价值",
+    "grade": "C"
   },
   {
     "host": "news.google.com/france24",
@@ -9059,7 +9462,8 @@
     "recent30": 0,
     "china_hits": 45,
     "added": "2026-11-02",
-    "note": "AFP背景全球安全"
+    "note": "AFP背景全球安全",
+    "grade": "C"
   },
   {
     "host": "news.google.com/bbc",
@@ -9084,7 +9488,8 @@
     "recent30": 0,
     "china_hits": 45,
     "added": "2026-11-02",
-    "note": "含中文/英文涉华"
+    "note": "含中文/英文涉华",
+    "grade": "C"
   },
   {
     "host": "news.google.com/aljazeera",
@@ -9109,7 +9514,8 @@
     "recent30": 0,
     "china_hits": 40,
     "added": "2026-11-02",
-    "note": "全球时政"
+    "note": "全球时政",
+    "grade": "C"
   },
   {
     "host": "news.google.com/defensenews",
@@ -9134,7 +9540,8 @@
     "recent30": 0,
     "china_hits": 45,
     "added": "2026-11-02",
-    "note": "短摘要源零token替代"
+    "note": "短摘要源零token替代",
+    "grade": "C"
   },
   {
     "host": "news.google.com/breakingdefense",
@@ -9159,7 +9566,8 @@
     "recent30": 0,
     "china_hits": 45,
     "added": "2026-11-02",
-    "note": "短摘要源零token替代"
+    "note": "短摘要源零token替代",
+    "grade": "C"
   },
   {
     "host": "news.google.com/oilprice",
@@ -9184,7 +9592,8 @@
     "recent30": 0,
     "china_hits": 40,
     "added": "2026-11-02",
-    "note": "能源/稀土/军事"
+    "note": "能源/稀土/军事",
+    "grade": "C"
   },
   {
     "host": "news.google.com/mining",
@@ -9209,7 +9618,8 @@
     "recent30": 0,
     "china_hits": 40,
     "added": "2026-11-02",
-    "note": "短摘要源零token替代"
+    "note": "短摘要源零token替代",
+    "grade": "C"
   },
   {
     "host": "news.google.com/navalnews",
@@ -9234,7 +9644,8 @@
     "recent30": 0,
     "china_hits": 35,
     "added": "2026-11-02",
-    "note": "舰艇/海上安全"
+    "note": "舰艇/海上安全",
+    "grade": "C"
   },
   {
     "host": "usni.org",
@@ -9257,7 +9668,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "semimedia.com",
@@ -9280,7 +9692,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "spectrum.ieee.org",
@@ -9303,7 +9716,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "tomshardware.com",
@@ -9326,7 +9740,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "gcaptain.com",
@@ -9349,7 +9764,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "tradewindsnews.com",
@@ -9372,7 +9788,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "ft.com",
@@ -9395,7 +9812,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "reuters.com",
@@ -9418,7 +9836,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "nikkei.com",
@@ -9441,7 +9860,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "japantimes.co.jp",
@@ -9464,7 +9884,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "koreatimes.co.kr",
@@ -9487,7 +9908,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "straitstimes.com",
@@ -9510,7 +9932,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "benarnews.org",
@@ -9533,7 +9956,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "france24.com",
@@ -9556,7 +9980,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "politico.com",
@@ -9579,7 +10004,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "thehill.com",
@@ -9602,7 +10028,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "defenseone.com",
@@ -9625,7 +10052,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "fifthdomain.com",
@@ -9648,7 +10076,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "therecord.media",
@@ -9671,7 +10100,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "sputniknews.com",
@@ -9694,7 +10124,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "tass.com",
@@ -9717,7 +10148,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "atlanticcouncil.org",
@@ -9740,7 +10172,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "warontherocks.com",
@@ -9763,7 +10196,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "spacenews.com",
@@ -9786,7 +10220,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "nasaspaceflight.com",
@@ -9809,7 +10244,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "aviationweek.com",
@@ -9832,7 +10268,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "nature.com",
@@ -9855,7 +10292,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "science.org",
@@ -9878,7 +10316,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "statnews.com",
@@ -9901,7 +10340,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "agropages.com",
@@ -9924,7 +10364,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "foodnavigator.com",
@@ -9947,7 +10388,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "insideevs.com",
@@ -9970,7 +10412,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "electrek.co",
@@ -9993,7 +10436,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "wto.org",
@@ -10016,7 +10460,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "un.org",
@@ -10039,7 +10484,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "thenationalnews.com",
@@ -10062,7 +10508,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "jpost.com",
@@ -10085,7 +10532,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "timesofisrael.com",
@@ -10108,7 +10556,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "allafrica.com",
@@ -10131,7 +10580,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "myjoyonline.com",
@@ -10154,7 +10604,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "bnamericas.com",
@@ -10177,7 +10628,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mercoPress.com",
@@ -10200,7 +10652,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "osintcurio.us",
@@ -10223,7 +10676,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "gatewaypundit.com",
@@ -10246,7 +10700,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "breitbart.com",
@@ -10269,7 +10724,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "insidehighered.com",
@@ -10292,7 +10748,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "chronicle.com",
@@ -10315,7 +10772,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "law360.com",
@@ -10338,7 +10796,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "jdsupra.com",
@@ -10361,7 +10820,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "climatehomereport.com",
@@ -10384,7 +10844,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "carbonbrief.org",
@@ -10407,7 +10868,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "migrationpolicy.org",
@@ -10430,7 +10892,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "lightreading.com",
@@ -10453,7 +10916,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "fiercetelecom.com",
@@ -10476,7 +10940,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "arctictoday.com",
@@ -10499,7 +10964,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "devex.com",
@@ -10522,7 +10988,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "devdiscourse.com",
@@ -10545,7 +11012,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "electoral-vote.com",
@@ -10568,7 +11036,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "insightcrime.org",
@@ -10591,7 +11060,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "insurancejournal.com",
@@ -10614,7 +11084,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "globest.com",
@@ -10637,7 +11108,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "insidethegames.biz",
@@ -10660,7 +11132,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "world.wng.org",
@@ -10683,7 +11156,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "theverge.com",
@@ -10706,7 +11180,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "wired.com",
@@ -10729,7 +11204,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "supplychaindive.com",
@@ -10752,7 +11228,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "freightwaves.com",
@@ -10775,7 +11252,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "miningweekly.com",
@@ -10798,7 +11276,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "bloomberg.com",
@@ -10821,7 +11300,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "marketwatch.com",
@@ -10844,7 +11324,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "maritime-executive.com",
@@ -10867,7 +11348,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "politico.eu",
@@ -10890,7 +11372,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "euractiv.com",
@@ -10913,7 +11396,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "treasury.gov",
@@ -10935,7 +11419,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "dod.gov",
@@ -10957,7 +11442,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "justice.gov",
@@ -10979,7 +11465,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "commerce.gov",
@@ -11001,7 +11488,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "energy.gov",
@@ -11023,7 +11511,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "epa.gov",
@@ -11045,7 +11534,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "education.gov",
@@ -11067,7 +11557,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "hhs.gov",
@@ -11089,7 +11580,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "usda.gov",
@@ -11111,7 +11603,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "dol.gov",
@@ -11133,7 +11626,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "transportation.gov",
@@ -11155,7 +11649,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "hud.gov",
@@ -11177,7 +11672,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "va.gov",
@@ -11199,7 +11695,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "usaid.gov",
@@ -11221,7 +11718,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "fbi.gov",
@@ -11243,7 +11741,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "dea.gov",
@@ -11265,7 +11764,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "atf.gov",
@@ -11287,7 +11787,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "fcc.gov",
@@ -11309,7 +11810,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "ftc.gov",
@@ -11331,7 +11833,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "sec.gov",
@@ -11353,7 +11856,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "cfpb.gov",
@@ -11375,7 +11879,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "irs.gov",
@@ -11397,7 +11902,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "nasa.gov",
@@ -11419,7 +11925,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "noaa.gov",
@@ -11441,7 +11948,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "nsf.gov",
@@ -11463,7 +11971,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "nih.gov",
@@ -11485,7 +11994,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "cdc.gov",
@@ -11507,7 +12017,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "fda.gov",
@@ -11529,7 +12040,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "fema.gov",
@@ -11551,7 +12063,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "ssa.gov",
@@ -11573,7 +12086,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "uscis.gov",
@@ -11595,7 +12109,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "usps.com",
@@ -11617,7 +12132,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "southcom.mil",
@@ -11639,7 +12155,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "pacom.mil",
@@ -11661,7 +12178,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "eucom.mil",
@@ -11683,7 +12201,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "centcom.mil",
@@ -11705,7 +12224,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "africom.mil",
@@ -11727,7 +12247,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "northcom.mil",
@@ -11749,7 +12270,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "stratcom.mil",
@@ -11771,7 +12293,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "cybercom.mil",
@@ -11793,7 +12316,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "navy.mil",
@@ -11815,7 +12339,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "army.mil",
@@ -11837,7 +12362,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mod.gov.uk",
@@ -11859,7 +12385,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "gov.uk",
@@ -11881,7 +12408,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "defense.gouv.fr",
@@ -11903,7 +12431,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "diplomatie.gouv.fr",
@@ -11925,7 +12454,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "bundeswehr.de",
@@ -11947,7 +12477,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "auswaertiges-amt.de",
@@ -11969,7 +12500,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mod.go.jp",
@@ -11991,7 +12523,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mofa.go.jp",
@@ -12013,7 +12546,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mnd.go.kr",
@@ -12035,7 +12569,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mofa.go.kr",
@@ -12057,7 +12592,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mod.in.ua",
@@ -12079,7 +12615,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mfa.gov.ua",
@@ -12101,7 +12638,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mod.gov.au",
@@ -12123,7 +12661,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "dfat.gov.au",
@@ -12145,7 +12684,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "forces.gc.ca",
@@ -12167,7 +12707,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "gov.il",
@@ -12189,7 +12730,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mfa.gov.il",
@@ -12211,7 +12753,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mod.pl",
@@ -12233,7 +12776,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "gov.pl",
@@ -12255,7 +12799,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "mod.it",
@@ -12277,7 +12822,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "esteri.it",
@@ -12299,7 +12845,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "defensa.gob.es",
@@ -12321,7 +12868,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "exteriores.gob.es",
@@ -12343,7 +12891,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "af.mil",
@@ -12365,7 +12914,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "spaceforce.mil",
@@ -12387,7 +12937,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "marine.mil",
@@ -12409,7 +12960,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "dia.mil",
@@ -12431,7 +12983,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "nro.mil",
@@ -12453,7 +13006,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "dcsa.mil",
@@ -12475,7 +13029,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "who.int",
@@ -12497,7 +13052,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "unctad.org",
@@ -12519,7 +13075,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "undp.org",
@@ -12541,7 +13098,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "unhcr.org",
@@ -12563,7 +13121,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "oecd.org",
@@ -12585,7 +13144,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "nato.int",
@@ -12607,7 +13167,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "eeas.europa.eu",
@@ -12629,7 +13190,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "osce.org",
@@ -12651,7 +13213,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "coe.int",
@@ -12673,7 +13236,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "afdb.org",
@@ -12695,7 +13259,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "adb.org",
@@ -12717,7 +13282,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "iadb.org",
@@ -12739,7 +13305,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "iea.org",
@@ -12761,7 +13328,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "resourceworld.com",
@@ -12783,7 +13351,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "kitco.com",
@@ -12805,7 +13374,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "argusmedia.com",
@@ -12827,7 +13397,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "woodmac.com",
@@ -12849,7 +13420,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "metal.com",
@@ -12871,7 +13443,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "oilandgasjournal.com",
@@ -12893,7 +13466,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "naturalgasintel.com",
@@ -12915,7 +13489,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "splash247.com",
@@ -12937,7 +13512,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "offshore-mag.com",
@@ -12959,7 +13535,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "rechargenews.com",
@@ -12981,7 +13558,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "pv-magazine.com",
@@ -13003,7 +13581,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "windpowermonthly.com",
@@ -13025,7 +13604,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "hydrogeninsight.com",
@@ -13047,7 +13627,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "utilities-dive.com",
@@ -13069,7 +13650,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "energyintel.com",
@@ -13091,7 +13673,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "platts.com",
@@ -13113,7 +13696,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "icis.com",
@@ -13135,7 +13719,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "bnef.com",
@@ -13157,7 +13742,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "engadget.com",
@@ -13179,7 +13765,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "gizmodo.com",
@@ -13201,7 +13788,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "mashable.com",
@@ -13223,7 +13811,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "zdnet.com",
@@ -13245,7 +13834,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "cnet.com",
@@ -13267,7 +13857,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "theregister.com",
@@ -13289,7 +13880,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "fastcompany.com",
@@ -13311,7 +13903,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "venturebeat.com",
@@ -13333,7 +13926,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "the-decoder.com",
@@ -13355,7 +13949,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "marktechpost.com",
@@ -13377,7 +13972,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "syncedreview.com",
@@ -13399,7 +13995,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "artificialintelligence-news.com",
@@ -13421,7 +14018,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "stratechery.com",
@@ -13443,7 +14041,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "platformer.news",
@@ -13465,7 +14064,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "404media.co",
@@ -13487,7 +14087,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "semiconductor-digest.com",
@@ -13509,7 +14110,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "techinsights.com",
@@ -13531,7 +14133,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ieee.org",
@@ -13553,7 +14156,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "schneier.com",
@@ -13575,7 +14179,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "securityweek.com",
@@ -13597,7 +14202,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "unit42.paloaltonetworks.com",
@@ -13619,7 +14225,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "thecyberwire.com",
@@ -13641,7 +14248,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "securityaffairs.co",
@@ -13663,7 +14271,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "thisisdefense.com",
@@ -13685,7 +14294,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "eff.org",
@@ -13707,7 +14317,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "cdt.org",
@@ -13729,7 +14340,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "jakartapost.com",
@@ -13751,7 +14363,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "bangkokpost.com",
@@ -13773,7 +14386,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "timesofindia.indiatimes.com",
@@ -13795,7 +14409,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "indianexpress.com",
@@ -13817,7 +14432,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "theprint.in",
@@ -13839,7 +14455,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "smh.com.au",
@@ -13861,7 +14478,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "afr.com",
@@ -13883,7 +14501,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "nzherald.co.nz",
@@ -13905,7 +14524,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "haaretz.com",
@@ -13927,7 +14547,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "theguardian.com",
@@ -13949,7 +14570,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "telegraph.co.uk",
@@ -13971,7 +14593,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "independent.co.uk",
@@ -13993,7 +14616,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "economist.com",
@@ -14015,7 +14639,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "lemonde.fr",
@@ -14037,7 +14662,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "spiegel.de",
@@ -14059,7 +14685,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "elpais.com",
@@ -14081,7 +14708,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "corriere.it",
@@ -14103,7 +14731,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "nationalinterest.org",
@@ -14125,7 +14754,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "worldpoliticsreview.com",
@@ -14147,7 +14777,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ctc.usma.edu",
@@ -14169,7 +14800,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "longwarjournal.org",
@@ -14191,7 +14823,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "lawfareblog.com",
@@ -14213,7 +14846,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "justsecurity.org",
@@ -14235,7 +14869,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "navytimes.com",
@@ -14257,7 +14892,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "armytimes.com",
@@ -14279,7 +14915,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "airforcetimes.com",
@@ -14301,7 +14938,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "nytimes.com",
@@ -14323,7 +14961,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "washingtonpost.com",
@@ -14345,7 +14984,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "wsj.com",
@@ -14367,7 +15007,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "usatoday.com",
@@ -14389,7 +15030,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "latimes.com",
@@ -14411,7 +15053,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "chicagotribune.com",
@@ -14433,7 +15076,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "newyorker.com",
@@ -14455,7 +15099,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "nationalreview.com",
@@ -14477,7 +15122,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "reason.com",
@@ -14499,7 +15145,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "motherjones.com",
@@ -14521,7 +15168,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "prospect.org",
@@ -14543,7 +15191,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "theamericanconservative.com",
@@ -14565,7 +15214,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "city-journal.org",
@@ -14587,7 +15237,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "tabletmag.com",
@@ -14609,7 +15260,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "thefederalist.com",
@@ -14631,7 +15283,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "dailywire.com",
@@ -14653,7 +15306,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "axios.com",
@@ -14675,7 +15329,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "cnbc.com",
@@ -14697,7 +15352,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "barrons.com",
@@ -14719,7 +15375,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "forbes.com",
@@ -14741,7 +15398,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "businessinsider.com",
@@ -14763,7 +15421,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "finance.yahoo.com",
@@ -14785,7 +15444,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "seekingalpha.com",
@@ -14807,7 +15467,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "zerohedge.com",
@@ -14829,7 +15490,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "wolfstreet.com",
@@ -14851,7 +15513,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "investing.com",
@@ -14873,7 +15536,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "tradingview.com",
@@ -14895,7 +15559,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "marketbeat.com",
@@ -14917,7 +15582,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "zacks.com",
@@ -14939,7 +15605,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "nasdaq.com",
@@ -14961,7 +15628,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "wsj.com",
@@ -14983,7 +15651,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "sais.jhu.edu",
@@ -15005,7 +15674,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "harvard.edu",
@@ -15027,7 +15697,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "stanford.edu",
@@ -15049,7 +15720,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "bakerinstitute.org",
@@ -15071,7 +15743,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "belfercenter.org",
@@ -15093,7 +15766,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "utilitiesdive.com",
@@ -15115,7 +15789,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "transportdive.com",
@@ -15137,7 +15812,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "logisticsdive.com",
@@ -15159,7 +15835,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "constructiondive.com",
@@ -15181,7 +15858,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "retaildive.com",
@@ -15203,7 +15881,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "fooddive.com",
@@ -15225,7 +15904,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "fiercepharma.com",
@@ -15247,7 +15927,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "fiercebiotech.com",
@@ -15269,7 +15950,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "fiercehealthcare.com",
@@ -15291,7 +15973,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "fierceenergy.com",
@@ -15313,7 +15996,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "modernhealthcare.com",
@@ -15335,7 +16019,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "beckershospitalreview.com",
@@ -15357,7 +16042,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "endpts.com",
@@ -15379,7 +16065,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "lanl.gov",
@@ -15401,7 +16088,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "llnl.gov",
@@ -15423,7 +16111,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "sandia.gov",
@@ -15445,7 +16134,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "ornl.gov",
@@ -15467,7 +16157,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "anl.gov",
@@ -15489,7 +16180,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "bnl.gov",
@@ -15511,7 +16203,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "pnnl.gov",
@@ -15533,7 +16226,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "slac.stanford.edu",
@@ -15555,7 +16249,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "nrel.gov",
@@ -15577,7 +16272,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "inl.gov",
@@ -15599,7 +16295,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "federalreserve.gov",
@@ -15621,7 +16318,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "newyorkfed.org",
@@ -15643,7 +16341,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "frbchi.org",
@@ -15665,7 +16364,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "frbsf.org",
@@ -15687,7 +16387,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "frbdallas.org",
@@ -15709,7 +16410,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "resourceinvestor.com",
@@ -15731,7 +16433,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "stockhouse.com",
@@ -15753,7 +16456,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "ceo.ca",
@@ -15775,7 +16479,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "miningreview.com",
@@ -15797,7 +16502,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "miningrecord.com",
@@ -15819,7 +16525,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "miningpeople.com",
@@ -15841,7 +16548,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "mining-journal.com",
@@ -15863,7 +16571,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "miningglobal.com",
@@ -15885,7 +16594,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "miningnews.com",
@@ -15907,7 +16617,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "globeandmail.com",
@@ -15929,7 +16640,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "mexicobusiness.news",
@@ -15951,7 +16663,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "investmentnews.com",
@@ -15973,7 +16686,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "lloydslist.com",
@@ -15995,7 +16709,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "gazette.com",
@@ -16017,7 +16732,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "gasworld.com",
@@ -16039,7 +16755,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "elfinanciero.com.mx",
@@ -16061,7 +16778,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "eleconomista.com.mx",
@@ -16083,7 +16801,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "excelsior.com.mx",
@@ -16105,7 +16824,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "jornada.com.mx",
@@ -16127,7 +16847,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "clarin.com",
@@ -16149,7 +16870,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "lanacion.com.ar",
@@ -16171,7 +16893,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "pagina12.com.ar",
@@ -16193,7 +16916,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "elpaís.com",
@@ -16215,7 +16939,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "elimparcial.com",
@@ -16237,7 +16962,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "larepublica.co",
@@ -16259,7 +16985,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "elespectador.com",
@@ -16281,7 +17008,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "elcomercio.pe",
@@ -16303,7 +17031,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "gestion.pe",
@@ -16325,7 +17054,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "folha.uol.com.br",
@@ -16347,7 +17077,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "estadao.com.br",
@@ -16369,7 +17100,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "mg.co.za",
@@ -16391,7 +17123,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "timeslive.co.za",
@@ -16413,7 +17146,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "news24.com",
@@ -16435,7 +17169,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "daily Maverick.com",
@@ -16457,7 +17192,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "theeastafrican.co.ke",
@@ -16479,7 +17215,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "nation.africa",
@@ -16501,7 +17238,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "standardmedia.co.ke",
@@ -16523,7 +17261,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "vanguardngr.com",
@@ -16545,7 +17284,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "punchng.com",
@@ -16567,7 +17307,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "guardian.ng",
@@ -16589,7 +17330,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "dailytrust.com",
@@ -16611,7 +17353,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "egypttoday.com",
@@ -16633,7 +17376,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "ahram.org.eg",
@@ -16655,7 +17399,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "thenational.com",
@@ -16677,7 +17422,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "gulfnews.com",
@@ -16699,7 +17445,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "alarabiya.net",
@@ -16721,7 +17468,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "haaretz.co.il",
@@ -16743,7 +17491,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "gulfnews.com",
@@ -16765,7 +17514,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "arabnews.com",
@@ -16787,7 +17537,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "saudigazette.com.sa",
@@ -16809,7 +17560,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "armed-services.senate.gov",
@@ -16831,7 +17583,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "intelligence.senate.gov",
@@ -16853,7 +17606,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "judiciary.senate.gov",
@@ -16875,7 +17629,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "banking.senate.gov",
@@ -16897,7 +17652,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "finance.senate.gov",
@@ -16919,7 +17675,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "armedservices.house.gov",
@@ -16941,7 +17698,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "foreignaffairs.house.gov",
@@ -16963,7 +17721,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "judiciary.house.gov",
@@ -16985,7 +17744,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "waysandmeans.house.gov",
@@ -17007,7 +17767,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "energycommerce.house.gov",
@@ -17029,7 +17790,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "transportation.house.gov",
@@ -17051,7 +17813,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "appropriations.house.gov",
@@ -17073,7 +17836,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "A"
   },
   {
     "host": "lefigaro.fr",
@@ -17095,7 +17859,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "lesechos.fr",
@@ -17117,7 +17882,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "faz.net",
@@ -17139,7 +17905,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "sueddeutsche.de",
@@ -17161,7 +17928,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "welt.de",
@@ -17183,7 +17951,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "repubblica.it",
@@ -17205,7 +17974,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "abc.es",
@@ -17227,7 +17997,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "rtve.es",
@@ -17249,7 +18020,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "semiconductors.org",
@@ -17271,7 +18043,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "api.org",
@@ -17293,7 +18066,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "aga.org",
@@ -17315,7 +18089,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "awea.org",
@@ -17337,7 +18112,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "seia.org",
@@ -17359,7 +18135,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "nrdc.org",
@@ -17381,7 +18158,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "sierraclub.org",
@@ -17403,7 +18181,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "opec.org",
@@ -17425,7 +18204,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "cepr.net",
@@ -17447,7 +18227,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "epi.org",
@@ -17469,7 +18250,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "chathamhouse.org",
@@ -17491,7 +18273,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "B"
   },
   {
     "host": "boston.com",
@@ -17513,7 +18296,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "sfgate.com",
@@ -17535,7 +18319,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "dallasnews.com",
@@ -17557,7 +18342,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "myajc.com",
@@ -17579,7 +18365,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "orlandosentinel.com",
@@ -17601,7 +18388,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "miamiherald.com",
@@ -17623,7 +18411,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "philly.com",
@@ -17645,7 +18434,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "defpost.com",
@@ -17667,7 +18457,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "overtdefense.com",
@@ -17689,7 +18480,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "bulgarianmilitary.com",
@@ -17711,7 +18503,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "wirechina.substack.com",
@@ -17733,7 +18526,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "chinafile.substack.com",
@@ -17755,7 +18549,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "sinopsis.substack.com",
@@ -17777,7 +18572,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "chinaspeak.substack.com",
@@ -17799,7 +18595,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "asiatimes.substack.com",
@@ -17821,7 +18618,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "diplomat.substack.com",
@@ -17843,7 +18641,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "foreignpolicy.substack.com",
@@ -17865,7 +18664,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "nationalinterest.substack.com",
@@ -17887,7 +18687,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "waronrocks.substack.com",
@@ -17909,7 +18710,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "defenseone.substack.com",
@@ -17931,7 +18733,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "breakingdefense.substack.com",
@@ -17953,7 +18756,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "securityaffairs.substack.com",
@@ -17975,7 +18779,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "cyberscoop.substack.com",
@@ -17997,7 +18802,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "thecyberwire.substack.com",
@@ -18019,7 +18825,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "spacenews.substack.com",
@@ -18041,7 +18848,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "aviationweek.substack.com",
@@ -18063,7 +18871,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "mining.com.substack.com",
@@ -18085,7 +18894,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "oilprice.substack.com",
@@ -18107,7 +18917,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "recharge.substack.com",
@@ -18129,7 +18940,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "pv-magazine.substack.com",
@@ -18151,7 +18963,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "medcitynews.com",
@@ -18173,7 +18986,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "healthcareitnews.com",
@@ -18195,7 +19009,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "space.com",
@@ -18217,7 +19032,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "detroitnews.com",
@@ -18239,7 +19055,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "cleveland.com",
@@ -18261,7 +19078,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "cincinnati.com",
@@ -18283,7 +19101,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "pittsburghpost-gazette.com",
@@ -18305,7 +19124,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "minnpost.com",
@@ -18327,7 +19147,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "texastribune.org",
@@ -18349,7 +19170,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "calmatters.org",
@@ -18371,7 +19193,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "citylab.com",
@@ -18393,7 +19216,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "governing.com",
@@ -18415,7 +19239,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "stateline.org",
@@ -18437,7 +19262,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "pewresearch.org",
@@ -18459,7 +19285,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "urban.org",
@@ -18481,7 +19308,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "chinafile.com",
@@ -18503,7 +19331,8 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   },
   {
     "host": "securityaffairs.com",
@@ -18525,6 +19354,7 @@
     "status": "active",
     "latest": null,
     "recent30": 0,
-    "china_hits": 0
+    "china_hits": 0,
+    "grade": "C"
   }
 ]
