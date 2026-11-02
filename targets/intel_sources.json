@@ -1247,6 +1247,582 @@
     {
       "cat": "稀土加工",
       "q": "rare earth processing magnet neodymium supply"
+    },
+    {
+      "cat": "军控条约",
+      "q": "arms control treaty nuclear negotiation"
+    },
+    {
+      "cat": "ASML光刻",
+      "q": "ASML EUV lithography export restriction"
+    },
+    {
+      "cat": "金砖军演",
+      "q": "BRICS military exercise joint"
+    },
+    {
+      "cat": "链式威慑",
+      "q": "chain deterrence missile defense deployment"
+    },
+    {
+      "cat": "国防预算",
+      "q": "defense budget military spending increase"
+    },
+    {
+      "cat": "国防工业",
+      "q": "defense industrial base revitalization"
+    },
+    {
+      "cat": "作战概念",
+      "q": "military doctrine new strategy naming"
+    },
+    {
+      "cat": "演习拆解",
+      "q": "military exercise analysis order battle"
+    },
+    {
+      "cat": "五眼南太",
+      "q": "Five Eyes south Pacific security"
+    },
+    {
+      "cat": "岛礁军事化",
+      "q": "island militarization outpost base"
+    },
+    {
+      "cat": "联合空袭",
+      "q": "joint airstrike operation middle east"
+    },
+    {
+      "cat": "海上民兵",
+      "q": "maritime militia fishing vessel patrol"
+    },
+    {
+      "cat": "军援失败",
+      "q": "military aid package failure delay"
+    },
+    {
+      "cat": "军机对峙",
+      "q": "military aircraft intercept confrontation"
+    },
+    {
+      "cat": "军事对峙",
+      "q": "military standoff border deployment"
+    },
+    {
+      "cat": "导弹墙",
+      "q": "missile defense wall deployment intercept"
+    },
+    {
+      "cat": "多边军事机制",
+      "q": "multilateral military pact mechanism"
+    },
+    {
+      "cat": "海外基地",
+      "q": "overseas military base expansion"
+    },
+    {
+      "cat": "私人安保",
+      "q": "private military contractor PMC"
+    },
+    {
+      "cat": "准同盟",
+      "q": "quasi-alliance defense pact"
+    },
+    {
+      "cat": "对台无人机",
+      "q": "Taiwan drone asymmetric warfare"
+    },
+    {
+      "cat": "中国军力报告",
+      "q": "annual military report China congress"
+    },
+    {
+      "cat": "AI意识形态战",
+      "q": "AI ideological warfare large model"
+    },
+    {
+      "cat": "AI多模型窃密",
+      "q": "AI multi model spy pipeline"
+    },
+    {
+      "cat": "开源AI供应链",
+      "q": "open source AI supply chain risk"
+    },
+    {
+      "cat": "AI研究同质",
+      "q": "AI research homogenization duplication"
+    },
+    {
+      "cat": "AI技术霸权",
+      "q": "AI technology hegemony frontier model"
+    },
+    {
+      "cat": "AI工具投毒",
+      "q": "AI tool poisoning supply chain"
+    },
+    {
+      "cat": "电池卡点",
+      "q": "battery technology choke point lithium"
+    },
+    {
+      "cat": "算力超市",
+      "q": "computing power cloud export control"
+    },
+    {
+      "cat": "数据中心",
+      "q": "data center investment overseas"
+    },
+    {
+      "cat": "两用技术",
+      "q": "dual use technology export control"
+    },
+    {
+      "cat": "设备拆解",
+      "q": "equipment teardown analysis chip"
+    },
+    {
+      "cat": "硬件后门",
+      "q": "hardware backdoor chip supply"
+    },
+    {
+      "cat": "知识库投毒",
+      "q": "knowledge base poisoning AI"
+    },
+    {
+      "cat": "开源投毒",
+      "q": "open source poisoning ML supply chain"
+    },
+    {
+      "cat": "专利战",
+      "q": "patent war trade dispute ITC"
+    },
+    {
+      "cat": "平台算法",
+      "q": "platform algorithm governance regulation"
+    },
+    {
+      "cat": "侧信道攻击",
+      "q": "side channel attack chip vulnerability"
+    },
+    {
+      "cat": "供应链数据泄露",
+      "q": "supply chain data leak breach"
+    },
+    {
+      "cat": "技术脱钩",
+      "q": "tech decoupling supply chain reshoring"
+    },
+    {
+      "cat": "技术许可",
+      "q": "technology licensing restriction"
+    },
+    {
+      "cat": "航空锂电",
+      "q": "aviation lithium battery supply"
+    },
+    {
+      "cat": "气候链条",
+      "q": "climate policy supply chain transmission"
+    },
+    {
+      "cat": "非洲矿产融资",
+      "q": "DFC Africa mining investment counter"
+    },
+    {
+      "cat": "能源制裁",
+      "q": "energy sanctions oil pipeline LNG"
+    },
+    {
+      "cat": "欧盟原材料",
+      "q": "EU raw materials act critical"
+    },
+    {
+      "cat": "海外采矿权",
+      "q": "overseas mining rights acquisition"
+    },
+    {
+      "cat": "资源股权",
+      "q": "resource equity battle investment"
+    },
+    {
+      "cat": "页岩资源",
+      "q": "shale resource speculation penetration"
+    },
+    {
+      "cat": "航道保险",
+      "q": "shipping route sanction insurance premium"
+    },
+    {
+      "cat": "供应链争夺",
+      "q": "supply chain battle reshoring friendshoring"
+    },
+    {
+      "cat": "央行货币",
+      "q": "central bank digital currency CBDC"
+    },
+    {
+      "cat": "可转债波动",
+      "q": "convertible bond fluctuation market"
+    },
+    {
+      "cat": "跨境证券",
+      "q": "cross border securities regulation"
+    },
+    {
+      "cat": "汇率摩擦",
+      "q": "currency friction exchange rate"
+    },
+    {
+      "cat": "汇率干预",
+      "q": "currency intervention dollar reserve"
+    },
+    {
+      "cat": "金融数据霸权",
+      "q": "financial data hegemony SWIFT messaging"
+    },
+    {
+      "cat": "金融中心",
+      "q": "financial hub offshore Shanghai"
+    },
+    {
+      "cat": "金融人员布局",
+      "q": "financial personnel layout bank"
+    },
+    {
+      "cat": "非法跨境证券",
+      "q": "illegal cross border securities fraud"
+    },
+    {
+      "cat": "钱骡洗钱",
+      "q": "mule run money laundering ring"
+    },
+    {
+      "cat": "评级政治化",
+      "q": "credit rating politicization downgrade"
+    },
+    {
+      "cat": "房地产风险",
+      "q": "real estate risk crisis developer"
+    },
+    {
+      "cat": "补贴欺诈",
+      "q": "subsidy fraud green energy EV"
+    },
+    {
+      "cat": "科技公司威胁",
+      "q": "tech company national security threat"
+    },
+    {
+      "cat": "审美异化",
+      "q": "aesthetic cultural alienation narrative"
+    },
+    {
+      "cat": "预言认知战",
+      "q": "ancient prophecy cognitive war"
+    },
+    {
+      "cat": "双边关系虚假信息",
+      "q": "bilateral relation disinformation"
+    },
+    {
+      "cat": "慈善欺诈",
+      "q": "charity fraud scandal NGO"
+    },
+    {
+      "cat": "儿童产品",
+      "q": "children product safety recall"
+    },
+    {
+      "cat": "企业质量危机",
+      "q": "corporate quality crisis scandal"
+    },
+    {
+      "cat": "跨区诈骗",
+      "q": "cross region fraud scam telecom"
+    },
+    {
+      "cat": "邪教纪录片",
+      "q": "cult documentary evidence group"
+    },
+    {
+      "cat": "深伪造谣",
+      "q": "deepfake livelihood rumor viral"
+    },
+    {
+      "cat": "残障利用叙事",
+      "q": "disability exploitation narrative"
+    },
+    {
+      "cat": "电商黑灰产",
+      "q": "ecommerce black industry counterfeit"
+    },
+    {
+      "cat": "情绪渗透",
+      "q": "emotional infiltration social media"
+    },
+    {
+      "cat": "饭圈商业",
+      "q": "fandom business model controversy"
+    },
+    {
+      "cat": "饭圈乱象",
+      "q": "fandom chaos celebrity"
+    },
+    {
+      "cat": "电影文化攻击",
+      "q": "film cultural attack movie Hollywood"
+    },
+    {
+      "cat": "民俗炒作",
+      "q": "folk custom hype trend"
+    },
+    {
+      "cat": "谐音梗",
+      "q": "homophonic meme internet slang"
+    },
+    {
+      "cat": "婚恋疾病叙事",
+      "q": "marriage disease social narrative"
+    },
+    {
+      "cat": "医美诱导",
+      "q": "medical beauty inducement surgery"
+    },
+    {
+      "cat": "医疗资本",
+      "q": "medical capital crossover hospital"
+    },
+    {
+      "cat": "农民工问题",
+      "q": "migrant worker issue rights"
+    },
+    {
+      "cat": "网络色情",
+      "q": "online pornography platform regulation"
+    },
+    {
+      "cat": "平台隐私泄露",
+      "q": "platform privacy leak data breach"
+    },
+    {
+      "cat": "乡村养娃",
+      "q": "rural raising youth population"
+    },
+    {
+      "cat": "性别叙事",
+      "q": "gender narrative feminism"
+    },
+    {
+      "cat": "社会道德事件",
+      "q": "social moral event foreign media"
+    },
+    {
+      "cat": "电视剧辱",
+      "q": "TV drama insult detail scene"
+    },
+    {
+      "cat": "青年地下社群",
+      "q": "youth underground community subculture"
+    },
+    {
+      "cat": "语音克隆",
+      "q": "voice cloning deepfake scam"
+    },
+    {
+      "cat": "假下载站",
+      "q": "fake download site malware"
+    },
+    {
+      "cat": "假截图炒作",
+      "q": "fake screenshot hype rumor"
+    },
+    {
+      "cat": "二维码钓鱼",
+      "q": "QR code phishing scam"
+    },
+    {
+      "cat": "恶意插件",
+      "q": "malicious browser extension stealer"
+    },
+    {
+      "cat": "抢购恐慌",
+      "q": "panic buying shortage hoarding"
+    },
+    {
+      "cat": "科研经费审查",
+      "q": "academic funding review grant investigation"
+    },
+    {
+      "cat": "学术司法构陷",
+      "q": "academic judicial frameup arrest"
+    },
+    {
+      "cat": "反间谍执法",
+      "q": "counter espionage arrest China"
+    },
+    {
+      "cat": "反渗透执法",
+      "q": "counter infiltration enforcement"
+    },
+    {
+      "cat": "流亡议会",
+      "q": "exiled parliament government in waiting"
+    },
+    {
+      "cat": "人权制裁",
+      "q": "human rights sanction visa asset"
+    },
+    {
+      "cat": "情报机构威胁",
+      "q": "intelligence agency threat report annual"
+    },
+    {
+      "cat": "情报联盟",
+      "q": "intelligence alliance sharing five eyes"
+    },
+    {
+      "cat": "法律追责链",
+      "q": "legal accountability chain lawsuit"
+    },
+    {
+      "cat": "法律战",
+      "q": "legal warfare litigation trade"
+    },
+    {
+      "cat": "选择性执法",
+      "q": "selective enforcement law scrutiny"
+    },
+    {
+      "cat": "分离主义演化",
+      "q": "separatist evolution movement"
+    },
+    {
+      "cat": "跨国垄断",
+      "q": "transnational monopoly antitrust"
+    },
+    {
+      "cat": "旅行间谋",
+      "q": "travel espionage allegation detention"
+    },
+    {
+      "cat": "海外政治组织",
+      "q": "overseas political group organization"
+    },
+    {
+      "cat": "联网汽车数据",
+      "q": "connected car data privacy"
+    },
+    {
+      "cat": "消费者生物数据",
+      "q": "consumer biological data DNA"
+    },
+    {
+      "cat": "数据炒作",
+      "q": "data center hype investment"
+    },
+    {
+      "cat": "数字监管",
+      "q": "digital regulation platform DMA"
+    },
+    {
+      "cat": "移民政策",
+      "q": "immigration policy border wall"
+    },
+    {
+      "cat": "物联网安全",
+      "q": "IoT security vulnerability device"
+    },
+    {
+      "cat": "ITC禁令",
+      "q": "ITC injunction import ban tariff"
+    },
+    {
+      "cat": "IP武器化",
+      "q": "IP weaponization trade secret"
+    },
+    {
+      "cat": "圣战动员",
+      "q": "jihad mobilization radicalization fighter"
+    },
+    {
+      "cat": "长新冠生物",
+      "q": "long covid biomedical study"
+    },
+    {
+      "cat": "叙事围堵",
+      "q": "narrative encirclement media campaign"
+    },
+    {
+      "cat": "北约东扩",
+      "q": "NATO expansion narrative membership"
+    },
+    {
+      "cat": "宗教包装",
+      "q": "religious packaging extremism"
+    },
+    {
+      "cat": "种业安全",
+      "q": "seed industry anti espionage patent"
+    },
+    {
+      "cat": "小事化大",
+      "q": "small event escalate big security"
+    },
+    {
+      "cat": "峰会组合",
+      "q": "summit meeting combo bilateral"
+    },
+    {
+      "cat": "旅游扩张",
+      "q": "tourism expansion foreign visa"
+    },
+    {
+      "cat": "推墙运动",
+      "q": "wall pushing movement protest"
+    },
+    {
+      "cat": "撤离趋势",
+      "q": "withdrawal trend company exit"
+    },
+    {
+      "cat": "双轨围堵",
+      "q": "dual track encirclement chip export"
+    },
+    {
+      "cat": "任务部队",
+      "q": "task force military deployment"
+    },
+    {
+      "cat": "印太战略",
+      "q": "indo pacific strategy treaty"
+    },
+    {
+      "cat": "脱钩分析",
+      "q": "tech decoupling analysis supply chain"
+    },
+    {
+      "cat": "退出浪潮",
+      "q": "withdrawal wave company market"
+    },
+    {
+      "cat": "金融恐吓",
+      "q": "financial intimidation sanction threat"
+    },
+    {
+      "cat": "认知渗透",
+      "q": "cognitive infiltration narrative influence"
+    },
+    {
+      "cat": "技术联盟",
+      "q": "multilateral tech alliance chip"
+    },
+    {
+      "cat": "情报系统升级",
+      "q": "intelligence system reform upgrade"
+    },
+    {
+      "cat": "南海任务组",
+      "q": "south china sea task force patrol"
     }
   ],
   "watch_categories": [
