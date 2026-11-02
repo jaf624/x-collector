@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-02T08:41:43.676325Z",
+ "probed_at": "2026-11-02T12:27:26.801991Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's Xi says Middle East should not become battleground for great power rivalry - Reuters",
+   "sample": "China's foreign minister pushes for dialogue to resolve Middle East conflict - Reuters",
    "diag": [
+    {
+     "title": "China's foreign minister pushes for dialogue to resolve Midd",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ2VTVHZ5bkxnbmVXd3BUS",
+     "resolved": false
+    },
     {
      "title": "China's Xi says Middle East should not become battleground f",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xT",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnV",
+     "resolved": false
+    },
+    {
+     "title": "China's slow buying of US farm goods tests $17 billion trade",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGp4TlZzUzhLZkJsb",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGp4TlZzUzhLZkJsbVoyLWVtTVNHUmMtWVNte",
      "resolved": false
     },
     {
@@ -24,24 +38,10 @@
      "resolved": false
     },
     {
-     "title": "China's top three airlines head for full-year losses as fuel",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcmV1OVhiRlI2ekNte",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcmV1OVhiRlI2ekNteEh6aW9hamxvdnBZbHpae",
-     "resolved": false
-    },
-    {
      "title": "China's shift to new policy rate signals easier funding cond",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1Y5OGZoNEh2ZzdKN",
      "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1Y5OGZoNEh2ZzdKN3pfVGlFWG8zT0tUdk9xO",
-     "resolved": false
-    },
-    {
-     "title": "China's BYD extends sales growth streak on strong exports - ",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS21scll6NjBGOTVLU",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS21scll6NjBGOTVLUm15YmNsNE9saEN4SE1oL",
      "resolved": false
     }
    ]
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
+     "title": "Taiwan Criticizes China for Diplomatic Slight in APEC Invita",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd25TZ0NHaFhZYjVic",
+     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd25TZ0NHaFhZYjVicGJiZ0FpaWliMjh2WF9Za",
+     "resolved": false
+    },
+    {
      "title": "China Should Take ‘Much Bolder Actions,’ Says Primavera’s Hu",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNFRWellHclIzY21oe",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNFRWellHclIzY21oeUhtVThILXFFc0d5V3BGR",
-     "resolved": false
-    },
-    {
-     "title": "China Stocks Rise on Report of Regulator Market Support Meet",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q25VVXptSDk0dU1FQkJkc",
      "resolved": false
     }
    ]
@@ -187,8 +187,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese Communist Party taps big data surveillance to combat corruption - Nikkei Asia",
+   "sample": "Chinese steel industry losses snowball as demand falls and costs rise - Nikkei Asia",
    "diag": [
+    {
+     "title": "Chinese steel industry losses snowball as demand falls and c",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNnRiMVAyQXpDUWtiW",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNnRiMVAyQXpDUWtiWWNOMlgxVGFrcGU4aXlue",
+     "resolved": false
+    },
+    {
+     "title": "Surging costs and China trade war test US farmers' loyalty t",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZXJqTFdEbnRiRnVtR",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZXJqTFdEbnRiRnVtRTc2dmN0VmNUNzRHYnNNS",
+     "resolved": false
+    },
     {
      "title": "Chinese Communist Party taps big data surveillance to combat",
      "date": "2026-11-01",
@@ -197,31 +211,17 @@
      "resolved": false
     },
     {
+     "title": "Bangladesh turns to China for worker training amid graduate ",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkdTV01XajhCQlVpO",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkdTV01XajhCQlVpOG04VVBOTHROZExNcjR3e",
+     "resolved": false
+    },
+    {
      "title": "China mega complex in Dalian puts spotlight on investment pu",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3BwS0hNaUJGOHFyd",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3BwS0hNaUJGOHFydm9Pb19FMFVZU1hQdmNJR",
-     "resolved": false
-    },
-    {
-     "title": "North Korea's Kim Jong Un visits China via newly opened brid",
-     "date": "2026-10-24",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3O",
-     "resolved": false
-    },
-    {
-     "title": "China's factory activity marks third contraction in four mon",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODZIaDlzRjBOcXFXZ",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODZIaDlzRjBOcXFXZ0IxTU85SDN4cFlDUng4S",
-     "resolved": false
-    },
-    {
-     "title": "Chinese shipping, coal stocks outperform AI as earnings outl",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlR",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnp0MGViN0NIcXBlRGIzUjhMU0FCRWxZZDYxN",
      "resolved": false
     }
    ]
@@ -301,17 +301,17 @@
      "resolved": false
     },
     {
-     "title": "China’s Car Industry Is Wowing the World—but Crashing at Hom",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfb",
-     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFdqdUxqV09OVDVfbzhaVG9yQTh0dmNFdzUya",
-     "resolved": false
-    },
-    {
      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
+     "resolved": false
+    },
+    {
+     "title": "China Scoops Up Data That Could Aid Its Forces in Waters Aro",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVhHSV9DYXI0RlhhU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVhHSV9DYXI0RlhhUjFjWjliVFg3S2FvdGp2T",
      "resolved": false
     }
    ]
@@ -327,8 +327,8 @@
     {
      "title": "China’s Message to Its Rivals: You Need What We Make - The N",
      "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcWtnWjBiNk1wV2VZQ",
-     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcWtnWjBiNk1wV2VZQXR6a1J1RzhfN2MtbUJXM",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
+     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
      "resolved": false
     },
     {
@@ -429,6 +429,13 @@
      "resolved": false
     },
     {
+     "title": "EXCLUSIVE: Fluor Corp among US firms vying for Kenya critica",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOTkweEtDRnI3c1FYY",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOTkweEtDRnI3c1FYYnFyMUl4SzhhVkE4clMya",
+     "resolved": false
+    },
+    {
      "title": "EXCLUSIVE: Pentagon treating military base freezer malfuncti",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ",
@@ -440,13 +447,6 @@
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
      "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
-     "resolved": false
-    },
-    {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Colorado National Guard Black Hawk lands in Boulder County following blade strike during SAR "
+   "sample": "PaCER recent graduate spotlight: Dylan Frank"
   },
   {
    "name": "商务部新闻",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "U.S. Pushes to Restore Russian Gas Flows to Europe"
+   "sample": "TotalEnergies to Acquire 30% Stake in Two Major Malaysian Gas Fields"
   },
   {
    "name": "IMF",
@@ -596,9 +596,10 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 404,
+   "status": -1,
    "items": 0,
-   "is_feed": false
+   "is_feed": false,
+   "err": "The read operation timed out"
   },
   {
    "name": "IEA",
@@ -628,7 +629,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Michigan Democrat stuns party to back Republican candidate in critical Senate race"
+   "sample": "How Antonelli became Formula One's youngest world champion"
   },
   {
    "name": "JapanTimes",
