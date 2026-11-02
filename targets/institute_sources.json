@@ -17492,5 +17492,225 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 0
+  },
+  {
+    "host": "boston.com",
+    "base": "https://boston.com/",
+    "ref": "https://boston.com/",
+    "name": "波士顿环球报",
+    "cat": "media",
+    "cats": [
+      "us_papers"
+    ],
+    "folders": [
+      "主流媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.boston.com/rss/boston-globe/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "sfgate.com",
+    "base": "https://sfgate.com/",
+    "ref": "https://sfgate.com/",
+    "name": "旧金山纪事报",
+    "cat": "media",
+    "cats": [
+      "us_papers"
+    ],
+    "folders": [
+      "主流媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.sfgate.com/rss/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "dallasnews.com",
+    "base": "https://dallasnews.com/",
+    "ref": "https://dallasnews.com/",
+    "name": "达拉斯晨报",
+    "cat": "media",
+    "cats": [
+      "us_papers"
+    ],
+    "folders": [
+      "主流媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.dallasnews.com/arcio/rss/category/news/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "myajc.com",
+    "base": "https://myajc.com/",
+    "ref": "https://myajc.com/",
+    "name": "亚特兰大宪报",
+    "cat": "media",
+    "cats": [
+      "us_papers"
+    ],
+    "folders": [
+      "主流媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.ajc.com/rss/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "orlandosentinel.com",
+    "base": "https://orlandosentinel.com/",
+    "ref": "https://orlandosentinel.com/",
+    "name": "奥兰多哨兵报",
+    "cat": "media",
+    "cats": [
+      "us_papers"
+    ],
+    "folders": [
+      "主流媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.orlandosentinel.com/rss/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "miamiherald.com",
+    "base": "https://miamiherald.com/",
+    "ref": "https://miamiherald.com/",
+    "name": "迈阿密先驱报",
+    "cat": "media",
+    "cats": [
+      "us_papers"
+    ],
+    "folders": [
+      "主流媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.miamiherald.com/arcio/rss/category/news/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "philly.com",
+    "base": "https://philly.com/",
+    "ref": "https://philly.com/",
+    "name": "费城询问报",
+    "cat": "media",
+    "cats": [
+      "us_papers"
+    ],
+    "folders": [
+      "主流媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.inquirer.com/rss/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "defpost.com",
+    "base": "https://defpost.com/",
+    "ref": "https://defpost.com/",
+    "name": "DefPost",
+    "cat": "media",
+    "cats": [
+      "mil_media"
+    ],
+    "folders": [
+      "主流媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.defpost.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "overtdefense.com",
+    "base": "https://overtdefense.com/",
+    "ref": "https://overtdefense.com/",
+    "name": "Overt Defense",
+    "cat": "media",
+    "cats": [
+      "mil_media"
+    ],
+    "folders": [
+      "主流媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.overtdefense.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "bulgarianmilitary.com",
+    "base": "https://bulgarianmilitary.com/",
+    "ref": "https://bulgarianmilitary.com/",
+    "name": "Bulgarian Military",
+    "cat": "media",
+    "cats": [
+      "mil_media"
+    ],
+    "folders": [
+      "主流媒体"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.bulgarianmilitary.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
   }
 ]
