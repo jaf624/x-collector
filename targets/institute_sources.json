@@ -18482,5 +18482,49 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 0
+  },
+  {
+    "host": "chinafile.com",
+    "base": "https://chinafile.com/",
+    "ref": "https://chinafile.com/",
+    "name": "ChinaFile",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.chinafile.com/rss.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "securityaffairs.com",
+    "base": "https://securityaffairs.com/",
+    "ref": "https://securityaffairs.com/",
+    "name": "Security Affairs",
+    "cat": "hardnews",
+    "cats": [
+      "substack"
+    ],
+    "folders": [
+      "垂直领域"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://securityaffairs.co/wordpress/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
   }
 ]
