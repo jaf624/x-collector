@@ -5,16 +5,21 @@ jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
-      - name: Anonymous real-URL test
+      - name: Probe Jina balance headers and endpoints
+        env:
+          JINA_KEY: ${{ secrets.JINA_KEY }}
         run: |
-          for u in \
-            "https://news.usni.org/2026/10/30/western-pacific-pulse-oct-30-2026" \
-            "https://www.bbc.com/zhongwen/simp" \
-            "https://thediplomat.com/" ; do
-            echo "===== 匿名抓 $u ====="
-            curl -s -o /tmp/x.txt -w "HTTP=%{http_code} 字节=%{size_download}\n" "https://r.jina.ai/$u"
-            echo "正文前150字:"; head -c 150 /tmp/x.txt; echo; echo
+          echo "===== 1) 带key 402响应头（看是否含余额/账单） ====="
+          curl -s -D /tmp/h.txt -o /tmp/b.txt -w "HTTP=%{http_code}\n" \
+            -H "Authorization: Bearer $JINA_KEY" "https://r.jina.ai/https://example.com"
+          echo "--- 响应头 ---"; cat /tmp/h.txt
+          echo "--- 响应体前300 ---"; head -c 300 /tmp/b.txt; echo; echo
+          echo "===== 2) 匿名200响应头（看ratelimit额度） ====="
+          curl -s -D /tmp/h2.txt -o /dev/null -w "HTTP=%{http_code}\n" "https://r.jina.ai/https://example.com"
+          cat /tmp/h2.txt; echo
+          echo "===== 3) 探测可能的余额/用户端点 ====="
+          for ep in "https://api.jina.ai/v1/user" "https://api.jina.ai/v1/balance" \
+                    "https://api.jina.ai/balance" "https://r.jina.ai/balance"; do
+            code=$(curl -s -o /tmp/e.txt -w "%{http_code}" -H "Authorization: Bearer $JINA_KEY" "$ep")
+            echo "[$code] $ep"; head -c 200 /tmp/e.txt; echo; echo
           done
-          echo "===== 匿名 s.jina.ai 搜索 ====="
-          curl -s -o /tmp/s.txt -w "HTTP=%{http_code} 字节=%{size_download}\n" "https://s.jina.ai/China%20security?num=2"
-          head -c 200 /tmp/s.txt; echo
