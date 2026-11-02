@@ -9419,5 +9419,304 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 0
+  },
+  {
+    "host": "nikkei.com",
+    "base": "https://www.nikkei.com/",
+    "ref": "https://www.nikkei.com/",
+    "name": "日经新闻",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "asia"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.nikkei.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "japantimes.co.jp",
+    "base": "https://www.japantimes.co.jp/",
+    "ref": "https://www.japantimes.co.jp/",
+    "name": "日本时报",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "asia"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.japantimes.co.jp/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "koreatimes.co.kr",
+    "base": "https://www.koreatimes.co.kr/",
+    "ref": "https://www.koreatimes.co.kr/",
+    "name": "韩国时报",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "asia"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.koreatimes.co.kr/www/news/rss/index.html",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "straitstimes.com",
+    "base": "https://www.straitstimes.com/",
+    "ref": "https://www.straitstimes.com/",
+    "name": "海峡时报",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "asia"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.straitstimes.com/news/asia/rss.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "benarnews.org",
+    "base": "https://www.benarnews.org/",
+    "ref": "https://www.benarnews.org/",
+    "name": "BenarNews 东南亚",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "asia"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.benarnews.org/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "france24.com",
+    "base": "https://www.france24.com/",
+    "ref": "https://www.france24.com/",
+    "name": "法国24",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "europe"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.france24.com/en/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "politico.com",
+    "base": "https://www.politico.com/",
+    "ref": "https://www.politico.com/",
+    "name": "Politico 美国政治",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "us"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.politico.com/rss/politics08.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "thehill.com",
+    "base": "https://thehill.com/",
+    "ref": "https://thehill.com/",
+    "name": "The Hill 国会山",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "us"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://thehill.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "defenseone.com",
+    "base": "https://www.defenseone.com/",
+    "ref": "https://www.defenseone.com/",
+    "name": "Defense One 防务一号",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "mil"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.defenseone.com/rss/all",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "fifthdomain.com",
+    "base": "https://www.fifthdomain.com/",
+    "ref": "https://www.fifthdomain.com/",
+    "name": "Fifth Domain 网络战",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "cyber"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.fifthdomain.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "therecord.media",
+    "base": "https://therecord.media/",
+    "ref": "https://therecord.media/",
+    "name": "The Record 网络安全",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "cyber"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://therecord.media/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "sputniknews.com",
+    "base": "https://sputniknews.com/",
+    "ref": "https://sputniknews.com/",
+    "name": "Sputnik 卫星社",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "russia"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://sputniknews.com/export/rss2/index.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "tass.com",
+    "base": "https://tass.com/",
+    "ref": "https://tass.com/",
+    "name": "塔斯社",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "russia"
+    ],
+    "folders": [
+      "核心权威RSS"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://tass.com/rss/v2.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
   }
 ]
