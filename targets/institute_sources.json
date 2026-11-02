@@ -9718,5 +9718,557 @@
     "latest": null,
     "recent30": 0,
     "china_hits": 0
+  },
+  {
+    "host": "atlanticcouncil.org",
+    "base": "https://www.atlanticcouncil.org/",
+    "ref": "https://www.atlanticcouncil.org/",
+    "name": "大西洋理事会",
+    "cat": "thinktank",
+    "cats": [
+      "thinktank",
+      "us"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.atlanticcouncil.org/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "warontherocks.com",
+    "base": "https://warontherocks.com/",
+    "ref": "https://warontherocks.com/",
+    "name": "War on the Rocks 战争论丛",
+    "cat": "thinktank",
+    "cats": [
+      "thinktank",
+      "mil"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://warontherocks.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "spacenews.com",
+    "base": "https://spacenews.com/",
+    "ref": "https://spacenews.com/",
+    "name": "SpaceNews 航天新闻",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "space"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://spacenews.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "nasaspaceflight.com",
+    "base": "https://www.nasaspaceflight.com/",
+    "ref": "https://www.nasaspaceflight.com/",
+    "name": "NASASpaceflight 航天",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "space"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.nasaspaceflight.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "aviationweek.com",
+    "base": "https://aviationweek.com/",
+    "ref": "https://aviationweek.com/",
+    "name": "Aviation Week 航空周刊",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "space"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://aviationweek.com/rss.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "nature.com",
+    "base": "https://www.nature.com/",
+    "ref": "https://www.nature.com/",
+    "name": "Nature 自然杂志",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "bio"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.nature.com/nature.rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "science.org",
+    "base": "https://www.science.org/",
+    "ref": "https://www.science.org/",
+    "name": "Science 科学杂志",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "bio"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "statnews.com",
+    "base": "https://www.statnews.com/",
+    "ref": "https://www.statnews.com/",
+    "name": "STAT 生物医药",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "bio"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.statnews.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "agropages.com",
+    "base": "https://www.agropages.com/",
+    "ref": "https://www.agropages.com/",
+    "name": "AgroPages 农矿食品",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "agri"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.agropages.com/feed",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "foodnavigator.com",
+    "base": "https://www.foodnavigator.com/",
+    "ref": "https://www.foodnavigator.com/",
+    "name": "FoodNavigator 食品",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "agri"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.foodnavigator.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "insideevs.com",
+    "base": "https://insideevs.com/",
+    "ref": "https://insideevs.com/",
+    "name": "InsideEVs 电动车",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "auto"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://insideevs.com/rss/news",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "electrek.co",
+    "base": "https://electrek.co/",
+    "ref": "https://electrek.co/",
+    "name": "Electrek 电动车",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "auto"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://electrek.co/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "wto.org",
+    "base": "https://www.wto.org/",
+    "ref": "https://www.wto.org/",
+    "name": "WTO 世贸组织",
+    "cat": "gov",
+    "cats": [
+      "gov",
+      "intl"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.wto.org/library/rss_e.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "un.org",
+    "base": "https://www.un.org/",
+    "ref": "https://www.un.org/",
+    "name": "联合国新闻",
+    "cat": "gov",
+    "cats": [
+      "gov",
+      "intl"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://news.un.org/en/rss.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "thenationalnews.com",
+    "base": "https://www.thenationalnews.com/",
+    "ref": "https://www.thenationalnews.com/",
+    "name": "The National 阿联酋",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "me"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.thenationalnews.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "jpost.com",
+    "base": "https://www.jpost.com/",
+    "ref": "https://www.jpost.com/",
+    "name": "耶路撒冷邮报",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "me"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.jpost.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "timesofisrael.com",
+    "base": "https://www.timesofisrael.com/",
+    "ref": "https://www.timesofisrael.com/",
+    "name": "以色列时报",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "me"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.timesofisrael.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "allafrica.com",
+    "base": "https://allafrica.com/",
+    "ref": "https://allafrica.com/",
+    "name": "AllAfrica 全非网",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "africa"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://allafrica.com/feeds/all/rss.xml",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "myjoyonline.com",
+    "base": "https://www.myjoyonline.com/",
+    "ref": "https://www.myjoyonline.com/",
+    "name": "Joy News 加纳",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "africa"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.myjoyonline.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "bnamericas.com",
+    "base": "https://www.bnamericas.com/",
+    "ref": "https://www.bnamericas.com/",
+    "name": "BNamericas 拉美矿业",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "latam"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.bnamericas.com/rss",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "mercoPress.com",
+    "base": "https://en.mercopress.com/",
+    "ref": "https://en.mercopress.com/",
+    "name": "MercoPress 南美",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "latam"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://en.mercopress.com/rss.aspx",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "osintcurio.us",
+    "base": "https://osintcurio.us/",
+    "ref": "https://osintcurio.us/",
+    "name": "OSINT Curious 开源情报",
+    "cat": "osint",
+    "cats": [
+      "osint",
+      "osint"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://osintcurio.us/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "gatewaypundit.com",
+    "base": "https://www.thegatewaypundit.com/",
+    "ref": "https://www.thegatewaypundit.com/",
+    "name": "Gateway Pundit 右翼媒体",
+    "cat": "media",
+    "cats": [
+      "media",
+      "right"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.thegatewaypundit.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
+  },
+  {
+    "host": "breitbart.com",
+    "base": "https://www.breitbart.com/",
+    "ref": "https://www.breitbart.com/",
+    "name": "Breitbart 布莱巴特",
+    "cat": "media",
+    "cats": [
+      "media",
+      "right"
+    ],
+    "folders": [
+      "八大领域权威源"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 1,
+    "feed_url": "https://www.breitbart.com/feed/",
+    "kind": "rss",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0
   }
 ]
