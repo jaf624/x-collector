@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
+    inputs:
+      rss_only:
+        description: "勾选后仅跑RSS直连（零token轻量验证，不做搜索/深抓Jina）"
+        type: boolean
+        default: false
 jobs:
   intel:
     runs-on: ubuntu-latest
@@ -20,7 +25,8 @@ jobs:
         env:
           JINA_KEY: ${{ secrets.JINA_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          INTEL_FORCE_SEARCH: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+          INTEL_RSS_ONLY: ${{ github.event.inputs.rss_only == 'true' && '1' || '' }}
+          INTEL_FORCE_SEARCH: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.rss_only != 'true' && '1' || '' }}
         run: python3 intel_collect.py
       - name: Commit feed
         run: |
