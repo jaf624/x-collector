@@ -19,6 +19,8 @@ import os, re, json, ssl, socket, time, html, hashlib, datetime, urllib.request,
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
+from html.parser import HTMLParser
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
@@ -179,6 +181,23 @@ MIL_POSTURE_RE = re.compile(
 # 避免每次请求先撞402再重试，拖慢整轮采集。
 _BALANCE_DEAD = False
 
+# 主动限速（2026-11-02）：匿名免费层速率上限 20 次/分钟（响应头 x-ratelimit-limit: 20;w=60）。
+# 撞限后再被动退避既慢又浪费请求，改为在发送前主动节流，留余量按 18 次/分钟（间隔≈3.4 秒）。
+# 仅作用于走 http() 的 Jina 请求；feed_get/resolve_gnews 不经过 http，保持高速不受影响。
+_RATE_INTERVAL = float(os.environ.get("INTEL_JINA_INTERVAL", "3.4"))  # 匿名两次请求最小间隔（秒）；0=关闭
+_rate_lock = threading.Lock()
+_last_jina_ts = [0.0]
+
+def _rate_gate(anonymous):
+    if not anonymous or _RATE_INTERVAL <= 0:
+        return  # 付费层无 20/分钟限制，不节流
+    with _rate_lock:
+        now = time.monotonic()
+        wait = _last_jina_ts[0] + _RATE_INTERVAL - now
+        if wait > 0:
+            time.sleep(wait)
+        _last_jina_ts[0] = time.monotonic()
+
 def _build_headers(accept, extra_headers, anonymous):
     h = {"Accept": accept, "User-Agent": UA}
     if not anonymous and KEY:
@@ -199,12 +218,14 @@ def http(url, accept, timeout=120, extra_headers=None):
     成功返回 (status, body, headers)；其余错误照常向上抛出。"""
     global _BALANCE_DEAD
     anonymous = _BALANCE_DEAD or not KEY
+    _rate_gate(anonymous)
     try:
         return _open_once(url, _build_headers(accept, extra_headers, anonymous), timeout)
     except urllib.error.HTTPError as e:
         if e.code == 402 and not anonymous:
             _BALANCE_DEAD = True
             print("[jina] 付费账户余额不足(402)，本轮降级匿名免费层: %s" % url[:70], flush=True)
+            _rate_gate(True)
             try:
                 return _open_once(url, _build_headers(accept, extra_headers, True), timeout)
             except urllib.error.HTTPError as e2:
@@ -435,6 +456,59 @@ def feed_get(url, timeout=12):
         return e.code, ""
     except Exception:
         return None, ""
+
+
+class _ParaExtractor(HTMLParser):
+    """轻量正文提取：跳过脚本/导航/页脚等，按块级标签切分，收集候选段落。"""
+    _SKIP = ("script", "style", "nav", "footer", "header", "aside", "form", "noscript")
+    _BLOCK = ("p", "div", "br", "li", "h1", "h2", "h3", "h4", "article", "section")
+
+    def __init__(self):
+        super().__init__()
+        self.skip = 0
+        self.parts, self.cur = [], []
+
+    def _flush(self):
+        t = "".join(self.cur).strip()
+        if t:
+            self.parts.append(t)
+        self.cur = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in self._SKIP:
+            self.skip += 1
+        if tag in self._BLOCK:
+            self._flush()
+
+    def handle_endtag(self, tag):
+        if tag in self._SKIP and self.skip:
+            self.skip -= 1
+        if tag in self._BLOCK:
+            self._flush()
+
+    def handle_data(self, data):
+        if not self.skip:
+            self.cur.append(data)
+
+
+def direct_fetch(url, timeout=20):
+    """免费原文直读（不经过 Jina、零 token）：直接拉原文 HTML，用段落密度提取正文。
+    真实可溯源；对 JS 渲染/反爬站点可能失败，返回 (0,"") 由调用方回退 Jina。"""
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": UA, "Accept": "text/html,application/xhtml+xml,*/*"})
+        with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+            raw = r.read(3_000_000).decode("utf-8", "ignore")
+        p = _ParaExtractor(); p.feed(raw); p._flush()
+        good = []
+        for x in p.parts:
+            x = re.sub(r"\s+", " ", x).strip()
+            if len(x) >= 40 or (len(x) >= 25 and ("." in x or "。" in x or "," in x)):
+                good.append(x)
+        text = "\n".join(good).strip()
+        return (200, text) if len(text) >= 120 else (0, "")
+    except Exception:
+        return (0, "")
 
 
 class _GNR(urllib.request.HTTPRedirectHandler):
@@ -1184,10 +1258,15 @@ def main():
             title, pub, text, tok = c["hint_title"], "", c.get("content", ""), "0(feed)"
         else:
             full_total += 1
-            st, md, tok = reader(c["url"])
-            if st != 200 or not md or md.startswith("EXC"):
-                f["fetch_fail"] += 1; print(f"  x 抓取失败 HTTP{st} {c['url'][:64]}", flush=True); continue
-            title, pub, text = clean_article(md)
+            _df, _dt = direct_fetch(c["url"])          # 先免费原文直读（零 token、可溯源）
+            if _df == 200 and _dt:
+                st, md, tok = 200, _dt, "0(direct)"
+                title, pub, text = c["hint_title"], "", _dt
+            else:
+                st, md, tok = reader(c["url"])          # 直读失败再回退 Jina
+                if st != 200 or not md or md.startswith("EXC"):
+                    f["fetch_fail"] += 1; print(f"  x 抓取失败 HTTP{st} {c['url'][:64]}", flush=True); continue
+                title, pub, text = clean_article(md)
         # 机构稿：深抓/清洗后标题与正文可能变化（面包屑混入等），用最终内容做软新闻+主题复检
         # 注：此处不用 link_noise——Jina 全文开头普遍带面包屑/分享链接，会误伤正规报道
         # lead 豁免机构复检：GoFundMe/Meetup 等 L 类源本身即目标源，不套涉华相关性
