@@ -1103,6 +1103,24 @@ def main():
         inst_srcs = [s for s in load_json(INST_SRC)
                      if s.get("status") == "active" and s.get("feed_url")
                      and "sitemap" not in s["feed_url"]]
+        # A/B/C 分级过滤（2026-11-03）：
+        # A级源：每30分钟一采（核心硬料，时效就是生命线）
+        # B级源：每90分钟一采（优质行业垂直，质量稳定但不需要太频）
+        # C级源：每180分钟一采（扩量发现，量大但噪音大）
+        # 自动按当天半小时序号判断：A=所有轮次，B=每3轮一次，C=每6轮一次
+        _now = datetime.datetime.utcnow()
+        _hh_idx = _now.hour * 2 + (1 if _now.minute >= 30 else 0)  # 当天第几个半小时
+        _grades_env = os.environ.get("INST_GRADES", "").strip().upper()
+        if _grades_env:
+            _allowed_grades = set(g for g in _grades_env if g in "ABC")
+        else:
+            _allowed_grades = {"A"}
+            if _hh_idx % 3 == 0:   # 每3轮=90分钟，加B级
+                _allowed_grades.add("B")
+            if _hh_idx % 6 == 0:   # 每6轮=180分钟，加C级
+                _allowed_grades.add("C")
+        inst_srcs = [s for s in inst_srcs if s.get("grade", "C") in _allowed_grades]
+        print(f"[inst] 分级过滤：本轮跑 {''.join(sorted(_allowed_grades))} 级源（半小时序号={_hh_idx}），共{len(inst_srcs)}个", flush=True)
         inst_srcs.sort(key=lambda s: -int(s.get("china_hits") or 0))
         uniq, seen_feed = [], set()
         for s in inst_srcs:
