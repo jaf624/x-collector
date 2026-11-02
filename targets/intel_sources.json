@@ -1103,6 +1103,150 @@
     {
       "cat": "数据跨境与安全",
       "q": "China data cross-border transfer security personal information law"
+    },
+    {
+      "cat": "芯片围堵",
+      "q": "chip enclosure semiconductor alliance export restriction migration"
+    },
+    {
+      "cat": "芯片供应链监控",
+      "q": "chip supply chain inspection surveillance due diligence"
+    },
+    {
+      "cat": "芯片执法",
+      "q": "entity list chip enforcement penalty smuggling"
+    },
+    {
+      "cat": "稀土博弈",
+      "q": "rare earth magnet export quota china processing"
+    },
+    {
+      "cat": "稀土封锁",
+      "q": "rare earth blockade processing dominant share bottleneck"
+    },
+    {
+      "cat": "非洲稀土",
+      "q": "africa rare earth mine china investment lithium cobalt"
+    },
+    {
+      "cat": "深海稀土",
+      "q": "deep sea mining pacific polymetallic nodule china"
+    },
+    {
+      "cat": "北极博弈",
+      "q": "arctic council nato china route resource dispute"
+    },
+    {
+      "cat": "北极航道",
+      "q": "northern sea route shipping icebreaker china"
+    },
+    {
+      "cat": "北极军事",
+      "q": "arctic military exercise nuclear patrol defense"
+    },
+    {
+      "cat": "红海危机",
+      "q": "red sea houthi shipping insurance tanker attack"
+    },
+    {
+      "cat": "海峡危机",
+      "q": "strait of malacca hormuz chokepoint shipping lane"
+    },
+    {
+      "cat": "二级制裁",
+      "q": "secondary sanctions china bank SWIFT oil trade"
+    },
+    {
+      "cat": "无人舰队",
+      "q": "unmanned surface vessel drone fleet naval exercise"
+    },
+    {
+      "cat": "蜂群作战",
+      "q": "drone swarm warfare anti-ship tactic"
+    },
+    {
+      "cat": "卫星对峙",
+      "q": "satellite confrontation anti-satellite debris orbit"
+    },
+    {
+      "cat": "太空军事化",
+      "q": "space militarization space force weapon satellite"
+    },
+    {
+      "cat": "联合军演",
+      "q": "joint military exercise quad trilateral indo-pacific"
+    },
+    {
+      "cat": "对台军售",
+      "q": "arms sale taiwan defense weapon package"
+    },
+    {
+      "cat": "人才安全",
+      "q": "talent security visa restriction scholar academy"
+    },
+    {
+      "cat": "人才竞争",
+      "q": "global talent competition recruitment science"
+    },
+    {
+      "cat": "认知战链条",
+      "q": "cognitive warfare narrative influence operation chain"
+    },
+    {
+      "cat": "网络攻击指认",
+      "q": "cyber attack attribution hacking allegation state"
+    },
+    {
+      "cat": "贸易制裁纵深",
+      "q": "tariff trade sanction escalation export control"
+    },
+    {
+      "cat": "美联储货币",
+      "q": "fed rate cut dollar swap emerging market debt"
+    },
+    {
+      "cat": "数据安全供应链",
+      "q": "data security cross-border supply chain cloud"
+    },
+    {
+      "cat": "智库叙事",
+      "q": "think tank report china threat assessment narrative"
+    },
+    {
+      "cat": "AI安全",
+      "q": "ai safety frontier model export restriction"
+    },
+    {
+      "cat": "AI武器化",
+      "q": "ai weaponization autonomous lethal drone military"
+    },
+    {
+      "cat": "AI认知威胁",
+      "q": "ai cognitive threat misinformation synthetic media"
+    },
+    {
+      "cat": "海外警务",
+      "q": "overseas police station transnational repression"
+    },
+    {
+      "cat": "投资审查",
+      "q": "cfius outbound investment screening national security"
+    },
+    {
+      "cat": "港口投资",
+      "q": "port investment belt and road africa pakistan greece"
+    },
+    {
+      "cat": "渔业执法",
+      "q": "coast guard fishing disputed island enforcement"
+    },
+    {
+      "cat": "油气管道",
+      "q": "gas pipeline europe sanctions energy transit"
+    },
+    {
+      "cat": "稀土加工",
+      "q": "rare earth processing magnet neodymium supply"
     }
   ],
   "watch_categories": [
