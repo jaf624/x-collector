@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-03T03:34:43.362913Z",
+ "probed_at": "2026-11-03T08:34:20.245134Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,29 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Major automakers urge US Congress to pass permanent ban on Chinese vehicles - Reuters",
+   "sample": "China regulator tells banks to pause IPOs, FT reports - Reuters",
    "diag": [
+    {
+     "title": "China regulator tells banks to pause IPOs, FT reports - Reut",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjN6YlQ3VTFGbEdFb",
+     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjN6YlQ3VTFGbEdFbkIwWDc1NzBsaDg3RlUyc",
+     "resolved": false
+    },
+    {
+     "title": "China to raise FX reserve requirement to slow yuan's rally -",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDB4ZFZKQmtlWTg4R",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDB4ZFZKQmtlWTg4RlI1Tng1by1TNV9FMlZCS",
+     "resolved": false
+    },
+    {
+     "title": "AI investment is becoming overly concentrated, Chinese offic",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1NiaC1pcnFMbDRfV",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1NiaC1pcnFMbDRfV0N3WTU2SXM0YlVCRkx0Z",
+     "resolved": false
+    },
     {
      "title": "Major automakers urge US Congress to pass permanent ban on C",
      "date": "2026-11-02",
@@ -17,31 +38,10 @@
      "resolved": false
     },
     {
-     "title": "China's slow buying of US farm goods tests $17 billion trade",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGp4TlZzUzhLZkJsb",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGp4TlZzUzhLZkJsbVoyLWVtTVNHUmMtWVNte",
-     "resolved": false
-    },
-    {
-     "title": "China's Wang urges Middle East dialogue in meetings with Ira",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ2VTVHZ5bkxnbmVXd3BUS",
-     "resolved": false
-    },
-    {
-     "title": "Tesla's monthly registrations rise across Europe as Chinese ",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGxMVkRlMy14clJIR",
-     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGxMVkRlMy14clJIR0dtYmlpSGRyajRjOWJqQ",
-     "resolved": false
-    },
-    {
-     "title": "China's Xi says Middle East should not become battleground f",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xT",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnV",
+     "title": "China's 'Lipstick King' touts AI tokens in first for Singles",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVFhBT1lnS0xzTk9PO",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVFhBT1lnS0xzTk9POHBCNUlEYmh6d3JkYW9xM",
      "resolved": false
     }
    ]
@@ -128,10 +128,10 @@
      "resolved": false
     },
     {
-     "title": "Real Madrid apologises to China over Mbappé's Mao Zedong com",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZ",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZGsxZ1Q1d3VYUnMzaVdxV",
+     "title": "Down to Earth - Scientists begin tests on human composting, ",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3c",
+     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3cmZYRUpiNkdZR1QwRUJLZ",
      "resolved": false
     }
    ]
@@ -142,41 +142,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s He Says Will Support Free, Open Economy in Hong Kong - Bloomberg.com",
+   "sample": "Nvidia Tells Data Center Clients to Trim China Business, FT Says - Bloomberg.com",
    "diag": [
+    {
+     "title": "Nvidia Tells Data Center Clients to Trim China Business, FT ",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEJRRjh3WWlKcE9PT",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEJRRjh3WWlKcE9PTlBDM19qaEVoSUtzSmRzQ",
+     "resolved": false
+    },
+    {
+     "title": "China Plans Broad AI Guardrails After Global Security Lapses",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzNPU2lPQ0J6NnhJU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzNPU2lPQ0J6NnhJUUswMHpxVkozRlZfU1JvW",
+     "resolved": false
+    },
+    {
+     "title": "China Talks Up Market Openness While Steering Stocks and Yua",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTVDWmowaVJ1b0JmR",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTVDWmowaVJ1b0JmR2x6VGJKcFpETFB6NXA0c",
+     "resolved": false
+    },
+    {
+     "title": "Huafa’s $62 Billion Debt Strain Shakes China’s Credit Market",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOel9nM3BfRnp4ZkwtN",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOel9nM3BfRnp4ZkwtNDVJa2liWVhmM0ZlUTQ1d",
+     "resolved": false
+    },
     {
      "title": "China’s He Says Will Support Free, Open Economy in Hong Kong",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMFBqYTdVYlVZX2lKS",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMFBqYTdVYlVZX2lKSFU3LWVLMzM5TmV2ckFsV",
-     "resolved": false
-    },
-    {
-     "title": "Apple’s Tightening Margins Overshadow Upbeat Holiday Forecas",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVqdFViRENfaVVnV",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVqdFViRENfaVVnVkZiWUdtVVZlVEp2ZDBnU",
-     "resolved": false
-    },
-    {
-     "title": "China’s Revival of 2024 Stock Rescue Tools Faces Skepticism ",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT2REcVBvTEpNNWdOTXo0O",
-     "resolved": false
-    },
-    {
-     "title": "Apple Sets New Sales Highs in China Even as Increased Costs ",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVl1blg2Q2VFWlJvS",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVl1blg2Q2VFWlJvSU1RYVBXNXBSVDN4STdUX",
-     "resolved": false
-    },
-    {
-     "title": "China’s 5,000-Ton Digging Machines Are a Trade War Risk to I",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTd2YzlxNEVRbFZDZ",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTd2YzlxNEVRbFZDZU95azllUlVZQ1pSZmpEO",
      "resolved": false
     }
    ]
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US experts warm to Japanese nuclear subs as check on China in Asian waters - Nikkei Asia",
+   "sample": "Why PC makers are turning back to China - Nikkei Asia",
    "diag": [
+    {
+     "title": "Why PC makers are turning back to China - Nikkei Asia",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRjdHMkFrM2ZZcGpxV",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRjdHMkFrM2ZZcGpxV3dsdHhGbnJlOXpqLTdFN",
+     "resolved": false
+    },
     {
      "title": "US experts warm to Japanese nuclear subs as check on China i",
      "date": "2026-11-02",
@@ -211,13 +218,6 @@
      "resolved": false
     },
     {
-     "title": "Chinese Communist Party taps big data surveillance to combat",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnFDWGVVSm42MEdBU",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnFDWGVVSm42MEdBUXcycUoyMTN5amFibk93M",
-     "resolved": false
-    },
-    {
      "title": "Bangladesh turns to China for worker training amid graduate ",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkdTV01XajhCQlVpO",
@@ -232,8 +232,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese and Russian AI cyber attacks will be routine by 2028, says GCHQ - Financial Times",
+   "sample": "China halts listings in bid to bolster struggling markets - Financial Times",
    "diag": [
+    {
+     "title": "China halts listings in bid to bolster struggling markets - ",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWRIVmFzanBxYUk3d",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWRIVmFzanBxYUk3dEZxMUdxVURNZlVMakljM",
+     "resolved": false
+    },
+    {
+     "title": "Nvidia orders data centre clients to reduce China exposure -",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcERsWE1GekIyVGJ1c",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcERsWE1GekIyVGJ1cmZzdHdvQnp2TkUtUi00e",
+     "resolved": false
+    },
     {
      "title": "Chinese and Russian AI cyber attacks will be routine by 2028",
      "date": "2026-11-03",
@@ -254,20 +268,6 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEtzWkxwZnNULXVXb",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEtzWkxwZnNULXVXbUdmbTlmdXhzVFdBby1uR",
      "resolved": false
-    },
-    {
-     "title": "Toyota-backed truckmaker bets on aftersales service to fend ",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGlwRVV5UTYzOXVJU",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGlwRVV5UTYzOXVJUDhuMUNESkx2dWc5bnMwR",
-     "resolved": false
-    },
-    {
-     "title": "Muji takes its China playbook global - Financial Times",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdTRYMnBCdUo2ZWN1T",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdTRYMnBCdUo2ZWN1TlZZWU1YT2RZdEQzT0VVO",
-     "resolved": false
     }
    ]
   },
@@ -277,20 +277,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Changing That. - WSJ",
+   "sample": "China’s Central Bank Tweaks Forex Reserve Rules to Steady Yuan - WSJ",
    "diag": [
-    {
-     "title": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Ch",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtN",
-     "real": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtNzgwdVZDalJFVmhObFlmV",
-     "resolved": false
-    },
     {
      "title": "China’s Central Bank Tweaks Forex Reserve Rules to Steady Yu",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaUVpai1RSG9LWk82a",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaUVpai1RSG9LWk82anFJT1hrZlgtM0t3LTQ5Z",
+     "resolved": false
+    },
+    {
+     "title": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Ch",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtN",
+     "real": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtNzgwdVZDalJFVmhObFlmV",
      "resolved": false
     },
     {
@@ -301,17 +301,17 @@
      "resolved": false
     },
     {
-     "title": "These Trucks Haul 90 Tons of Coal on Battery Power—and Drive",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnNBT3NFWU00OExpM",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnNBT3NFWU00OExpM1Z1b3FON1pSSmh6cUM5d",
+     "title": "China’s Forward Earnings Outlook Continues to Soften - WSJ",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSjBmQ1Q4YzhWSG5aQ",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSjBmQ1Q4YzhWSG5aQ3VvWU1ITFBDLVBxbWhHQ",
      "resolved": false
     },
     {
-     "title": "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOM",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOMGthclBzd0hQQ093MUozZ",
+     "title": "These Trucks Haul 90 Tons of Coal on Battery Power—and Drive",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnNBT3NFWU00OExpM",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnNBT3NFWU00OExpM1Z1b3FON1pSSmh6cUM5d",
      "resolved": false
     }
    ]
@@ -339,6 +339,13 @@
      "resolved": false
     },
     {
+     "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The N",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3a",
+     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfR",
+     "resolved": false
+    },
+    {
      "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pe",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
@@ -350,13 +357,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3e",
      "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3eF8zV1hWSnJHM280N01jO",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[金與正發文 朝鮮否認策劃63億美元幣安黑客攻擊]]>"
+   "sample": "<![CDATA[《蘋果日報》前社長張劍虹提早獲釋，赴深圳交流、向官媒稱「好懊悔」]]>"
   },
   {
    "name": "美国国务院",
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": " USFK Commander to Industry at TechNet: ‘Design Combined from the First Line of Code’"
+   "sample": "‘Game of Drones’ goes underground"
   },
   {
    "name": "商务部新闻",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Questions Mount Over Venezuela’s Biggest Oil Deal"
+   "sample": "CVR Energy Nears $4 Billion Refinery Deal With Marathon"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "US strikes Iran's Qeshm Island as Trump signals progress in talks"
+   "sample": "PSG face Villarreal as they aim to keep top Champions league spot"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Industry needs more consistent demand signal to scale UGV production: Autonomy consortium exec"
+   "sample": "Sweden&#8217;s Saab launches family of AI agents for future aircraft projects"
   },
   {
    "name": "MiningWeekly",
