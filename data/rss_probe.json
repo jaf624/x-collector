@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-03T01:27:23.471869Z",
+ "probed_at": "2026-11-03T03:34:43.362913Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -17,17 +17,17 @@
      "resolved": false
     },
     {
-     "title": "China's Wang urges Middle East dialogue in meetings with Ira",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ2VTVHZ5bkxnbmVXd3BUS",
-     "resolved": false
-    },
-    {
      "title": "China's slow buying of US farm goods tests $17 billion trade",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGp4TlZzUzhLZkJsb",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGp4TlZzUzhLZkJsbVoyLWVtTVNHUmMtWVNte",
+     "resolved": false
+    },
+    {
+     "title": "China's Wang urges Middle East dialogue in meetings with Ira",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ2VTVHZ5bkxnbmVXd3BUS",
      "resolved": false
     },
     {
@@ -52,20 +52,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Taiwan accuses China of harassment after standoff between coast guard ships - AP News",
+   "sample": "China's record-breaking exports of clean tech are making a big dent in emissions, report says - AP News",
    "diag": [
-    {
-     "title": "Taiwan accuses China of harassment after standoff between co",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBPeHlzc3NpUmRad",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBPeHlzc3NpUmRadkhGZFJaVlowSGU2emlPM",
-     "resolved": false
-    },
     {
      "title": "China's record-breaking exports of clean tech are making a b",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQa",
      "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQajdJVUo1YW5ONVdJNUUxN",
+     "resolved": false
+    },
+    {
+     "title": "Taiwan accuses China of harassment after standoff between co",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBPeHlzc3NpUmRad",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBPeHlzc3NpUmRadkhGZFJaVlowSGU2emlPM",
      "resolved": false
     },
     {
@@ -142,20 +142,34 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Apple Forecast Disappoints Investors, Even as It Tops Estimates - Bloomberg.com",
+   "sample": "China’s He Says Will Support Free, Open Economy in Hong Kong - Bloomberg.com",
    "diag": [
     {
-     "title": "Apple Forecast Disappoints Investors, Even as It Tops Estima",
+     "title": "China’s He Says Will Support Free, Open Economy in Hong Kong",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMFBqYTdVYlVZX2lKS",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMFBqYTdVYlVZX2lKSFU3LWVLMzM5TmV2ckFsV",
+     "resolved": false
+    },
+    {
+     "title": "Apple’s Tightening Margins Overshadow Upbeat Holiday Forecas",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVqdFViRENfaVVnV",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVqdFViRENfaVVnVkZiWUdtVVZlVEp2ZDBnU",
      "resolved": false
     },
     {
-     "title": "China Boosts Use of Stock Support Tools to Stabilize Market ",
+     "title": "China’s Revival of 2024 Stock Rescue Tools Faces Skepticism ",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT2REcVBvTEpNNWdOTXo0O",
+     "resolved": false
+    },
+    {
+     "title": "Apple Sets New Sales Highs in China Even as Increased Costs ",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVl1blg2Q2VFWlJvS",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVl1blg2Q2VFWlJvSU1RYVBXNXBSVDN4STdUX",
      "resolved": false
     },
     {
@@ -163,20 +177,6 @@
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTd2YzlxNEVRbFZDZ",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTd2YzlxNEVRbFZDZU95azllUlVZQ1pSZmpEO",
-     "resolved": false
-    },
-    {
-     "title": "China Factory Activity Expands But Ends Streak of Faster Gro",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYVgyV0NaWmJKNS0yU",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYVgyV0NaWmJKNS0yUDZVcFJyaDJhcThxWk9KM",
-     "resolved": false
-    },
-    {
-     "title": "China Stocks Rise on Report of Regulator Market Support Meet",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q25VVXptSDk0dU1FQkJkc",
      "resolved": false
     }
    ]
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s soaring chemical exports threaten new trade war front - Financial Times",
+   "sample": "Chinese and Russian AI cyber attacks will be routine by 2028, says GCHQ - Financial Times",
    "diag": [
+    {
+     "title": "Chinese and Russian AI cyber attacks will be routine by 2028",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRMzZsWktaTndnSjBBMDBxZ",
+     "resolved": false
+    },
     {
      "title": "China’s soaring chemical exports threaten new trade war fron",
      "date": "2026-11-02",
@@ -242,10 +249,10 @@
      "resolved": false
     },
     {
-     "title": "The AI bubble already popped — in China - Financial Times",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1loUTBCZ3N2WlVpZGtNd3hLMUVPb3NRLU1TR",
+     "title": "Apple warns ‘unprecedented’ memory chip costs will hit margi",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEtzWkxwZnNULXVXb",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEtzWkxwZnNULXVXbUdmbTlmdXhzVFdBby1uR",
      "resolved": false
     },
     {
@@ -253,13 +260,6 @@
      "date": "2026-11-01",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGlwRVV5UTYzOXVJU",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGlwRVV5UTYzOXVJUDhuMUNESkx2dWc5bnMwR",
-     "resolved": false
-    },
-    {
-     "title": "Apple warns on rising costs from memory chip shortage - Fina",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEtzWkxwZnNULXVXb",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEtzWkxwZnNULXVXbUdmbTlmdXhzVFdBby1uR",
      "resolved": false
     },
     {
@@ -287,17 +287,17 @@
      "resolved": false
     },
     {
+     "title": "China’s Central Bank Tweaks Forex Reserve Rules to Steady Yu",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaUVpai1RSG9LWk82a",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaUVpai1RSG9LWk82anFJT1hrZlgtM0t3LTQ5Z",
+     "resolved": false
+    },
+    {
      "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
      "date": "2026-11-01",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
-     "resolved": false
-    },
-    {
-     "title": "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOM",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOMGthclBzd0hQQ093MUozZ",
      "resolved": false
     },
     {
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "Opinion | Viktor Orbán, U.N. Secretary-General? - WSJ",
-     "date": "2026-10-25",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZ",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZDlyeHNtR0VkYXY4WFhld",
+     "title": "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOM",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOMGthclBzd0hQQ093MUozZ",
      "resolved": false
     }
    ]
@@ -391,17 +391,17 @@
      "resolved": false
     },
     {
-     "title": "China’s rising political stars - The Economist",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3NmTm9mOVIzVW9Nc",
-     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3NmTm9mOVIzVW9NcHFYamo0LXBYdVZKNG9Ha",
-     "resolved": false
-    },
-    {
      "title": "Let China copy American AI - The Economist",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZO",
      "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZOWlZWlI3OVJRbmhycEpIR",
+     "resolved": false
+    },
+    {
+     "title": "The countries making a fortune from the US-China rivalry - T",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb2c1a1NHS1ZMb1lScVNvU",
      "resolved": false
     }
    ]
@@ -410,10 +410,17 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 61,
    "is_feed": true,
-   "sample": "Soy, rare earths and fuels: how Brazil vote impacts the global flow of resources - Reuters",
+   "sample": "US strategy links Myanmar peace talks to rare-earth access - Reuters",
    "diag": [
+    {
+     "title": "US strategy links Myanmar peace talks to rare-earth access -",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQektPMXRENjNVbGZYb",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQektPMXRENjNVbGZYbW9uOE5TdHFnWkxqTWh0b",
+     "resolved": false
+    },
     {
      "title": "Soy, rare earths and fuels: how Brazil vote impacts the glob",
      "date": "2026-10-29",
@@ -436,17 +443,10 @@
      "resolved": false
     },
     {
-     "title": "China rare earth firms halt some US shipments over geopoliti",
-     "date": "2026-09-04",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
-     "resolved": false
-    },
-    {
-     "title": "China September rare earth exports rise 6.7% from a year ear",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
+     "title": "EXCLUSIVE: Pentagon treating military base freezer malfuncti",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ0RoX2hseFpyajltZE5vb",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[台灣地方選舉：四成「陸配」參選遭剔除，「法理死結」如何困住參政之路？]]>"
+   "sample": "<![CDATA[金與正發文 朝鮮否認策劃63億美元幣安黑客攻擊]]>"
   },
   {
    "name": "美国国务院",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Russian strikes kill 26 in Ukraine after longest ceasefire ends"
+   "sample": "US strikes Iran's Qeshm Island as Trump signals progress in talks"
   },
   {
    "name": "JapanTimes",
