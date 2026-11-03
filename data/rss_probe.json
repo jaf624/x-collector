@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-03T08:34:20.245134Z",
+ "probed_at": "2026-11-03T11:04:17.629772Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -17,6 +17,13 @@
      "resolved": false
     },
     {
+     "title": "Nvidia orders data centre clients to reduce China exposure, ",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcDF4VTJJTTNQYW1ke",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcDF4VTJJTTNQYW1keXlqU2pZWks4ak1McFRsV",
+     "resolved": false
+    },
+    {
      "title": "China to raise FX reserve requirement to slow yuan's rally -",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDB4ZFZKQmtlWTg4R",
@@ -28,13 +35,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1NiaC1pcnFMbDRfV",
      "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1NiaC1pcnFMbDRfV0N3WTU2SXM0YlVCRkx0Z",
-     "resolved": false
-    },
-    {
-     "title": "Major automakers urge US Congress to pass permanent ban on C",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwV",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwVnVwdGZHQkpGcEtJbWVjc",
      "resolved": false
     },
     {
@@ -97,22 +97,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Mbappé apologises over Mao Zedong joke as Chinese brands drop sponsorship deals - France 24",
+   "sample": "Trump says deal with Tehran 'could happen' amid 'intensive' talks - France 24",
    "diag": [
-    {
-     "title": "Mbappé apologises over Mao Zedong joke as Chinese brands dro",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRWdDTXZrMUplc3ZLa",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRWdDTXZrMUplc3ZLajZTdXFVaVNfYUdkcGVKd",
-     "resolved": false
-    },
-    {
-     "title": "Mbappe dropped by Chinese brands for 'offending national sen",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY0podklrUG9oRHJwT",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY0podklrUG9oRHJwTllLN3VKNDBNc1o2eVVla",
-     "resolved": false
-    },
     {
      "title": "Trump says deal with Tehran 'could happen' amid 'intensive' ",
      "date": "2026-11-02",
@@ -132,6 +118,20 @@
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3c",
      "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3cmZYRUpiNkdZR1QwRUJLZ",
+     "resolved": false
+    },
+    {
+     "title": "Real Madrid apologises to China over Mbappé's Mao Zedong com",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZ",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZGsxZ1Q1d3VYUnMzaVdxV",
+     "resolved": false
+    },
+    {
+     "title": "Reporters - Ireland becomes refuge for anti-Trump Americans ",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V3lDejl0ZzBYM0pBS0Y1c",
      "resolved": false
     }
    ]
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Why PC makers are turning back to China - Nikkei Asia",
+   "sample": "Thailand to raise tax on imported EVs to 35% as Chinese brands gain ground - Nikkei Asia",
    "diag": [
+    {
+     "title": "Thailand to raise tax on imported EVs to 35% as Chinese bran",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMmV1aS0zWjBzZ2E2c",
+     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMmV1aS0zWjBzZ2E2cHNuaVpmNjJGTXJXWHl1S",
+     "resolved": false
+    },
     {
      "title": "Why PC makers are turning back to China - Nikkei Asia",
      "date": "2026-11-03",
@@ -216,13 +223,6 @@
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZXJqTFdEbnRiRnVtR",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZXJqTFdEbnRiRnVtRTc2dmN0VmNUNzRHYnNNS",
      "resolved": false
-    },
-    {
-     "title": "Bangladesh turns to China for worker training amid graduate ",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkdTV01XajhCQlVpO",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkdTV01XajhCQlVpOG04VVBOTHROZExNcjR3e",
-     "resolved": false
     }
    ]
   },
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China halts listings in bid to bolster struggling markets - Financial Times",
+   "sample": "US, Russia and China discuss meeting between Trump, Putin and Xi - Financial Times",
    "diag": [
+    {
+     "title": "US, Russia and China discuss meeting between Trump, Putin an",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONGJZallVNk90VkJFb",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONGJZallVNk90VkJFbk9DZjNpc3VZMEtIODlPY",
+     "resolved": false
+    },
     {
      "title": "China halts listings in bid to bolster struggling markets - ",
      "date": "2026-11-03",
@@ -260,13 +267,6 @@
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZ",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZkRET2ZJRmh3dWNrQXFGN",
-     "resolved": false
-    },
-    {
-     "title": "Apple warns ‘unprecedented’ memory chip costs will hit margi",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEtzWkxwZnNULXVXb",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEtzWkxwZnNULXVXbUdmbTlmdXhzVFdBby1uR",
      "resolved": false
     }
    ]
@@ -301,15 +301,15 @@
      "resolved": false
     },
     {
-     "title": "China’s Forward Earnings Outlook Continues to Soften - WSJ",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSjBmQ1Q4YzhWSG5aQ",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSjBmQ1Q4YzhWSG5aQ3VvWU1ITFBDLVBxbWhHQ",
+     "title": "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOM",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOMGthclBzd0hQQ093MUozZ",
      "resolved": false
     },
     {
      "title": "These Trucks Haul 90 Tons of Coal on Battery Power—and Drive",
-     "date": "2026-11-03",
+     "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnNBT3NFWU00OExpM",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnNBT3NFWU00OExpM1Z1b3FON1pSSmh6cUM5d",
      "resolved": false
@@ -322,11 +322,18 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Message to Its Rivals: You Need What We Make - The New York Times",
+   "sample": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The New York Times",
    "diag": [
     {
+     "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The N",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3a",
+     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfR",
+     "resolved": false
+    },
+    {
      "title": "China’s Message to Its Rivals: You Need What We Make - The N",
-     "date": "2026-11-02",
+     "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
      "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
      "resolved": false
@@ -336,13 +343,6 @@
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDBCYnIyYzFCMnhOQ",
      "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDBCYnIyYzFCMnhOQThxTHJXTUVkQ0VRb0txR",
-     "resolved": false
-    },
-    {
-     "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The N",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3a",
-     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfR",
      "resolved": false
     },
     {
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 61,
+   "items": 100,
    "is_feed": true,
    "sample": "US strategy links Myanmar peace talks to rare-earth access - Reuters",
    "diag": [
@@ -436,10 +436,10 @@
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: Fluor Corp among US firms vying for Kenya critica",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOTkweEtDRnI3c1FYY",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOTkweEtDRnI3c1FYYnFyMUl4SzhhVkE4clMya",
+     "title": "China September rare earth exports rise 6.7% from a year ear",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
      "resolved": false
     },
     {
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "‘Game of Drones’ goes underground"
+   "sample": "PACE Spotlight: Manuel “Manny” Solf Cardenas"
   },
   {
    "name": "商务部新闻",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "CVR Energy Nears $4 Billion Refinery Deal With Marathon"
+   "sample": "Shell Sells North West Shelf LNG Stake to Abu Dhabi&#039;s XRG for $1.45 Billion"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "PSG face Villarreal as they aim to keep top Champions league spot"
+   "sample": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site"
   },
   {
    "name": "JapanTimes",
