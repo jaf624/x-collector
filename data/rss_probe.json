@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-02T21:46:48.114577Z",
+ "probed_at": "2026-11-03T01:27:23.471869Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -31,17 +31,17 @@
      "resolved": false
     },
     {
-     "title": "China's Xi says Middle East should not become battleground f",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xT",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnV",
-     "resolved": false
-    },
-    {
      "title": "Tesla's monthly registrations rise across Europe as Chinese ",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGxMVkRlMy14clJIR",
      "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGxMVkRlMy14clJIR0dtYmlpSGRyajRjOWJqQ",
+     "resolved": false
+    },
+    {
+     "title": "China's Xi says Middle East should not become battleground f",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xT",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnV",
      "resolved": false
     }
    ]
@@ -69,17 +69,17 @@
      "resolved": false
     },
     {
-     "title": "China’s factory activity slips as new export orders weaken -",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfV",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfVXowN2ZEM0ppaVNFV2NMT",
-     "resolved": false
-    },
-    {
      "title": "Graphika finds China-linked Spamouflage accounts posing as U",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
      "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
+     "resolved": false
+    },
+    {
+     "title": "China’s factory activity slips as new export orders weaken -",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfV",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfVXowN2ZEM0ppaVNFV2NMT",
      "resolved": false
     },
     {
@@ -114,14 +114,7 @@
      "resolved": false
     },
     {
-     "title": "Real Madrid apologises to China over Mbappé's Mao Zedong com",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZ",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZGsxZ1Q1d3VYUnMzaVdxV",
-     "resolved": false
-    },
-    {
-     "title": "Iran engages US in 'intensive' negotiations to avert fresh w",
+     "title": "Trump says deal with Tehran 'could happen' amid 'intensive' ",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFS",
      "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFSVZkUjZSWTJoMmNNSXIyQ",
@@ -133,6 +126,13 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcHNaSGR1bHVhRDliV",
      "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcHNaSGR1bHVhRDliV3YtaFNSX2JJZXBWNGhUW",
      "resolved": false
+    },
+    {
+     "title": "Real Madrid apologises to China over Mbappé's Mao Zedong com",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZ",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZGsxZ1Q1d3VYUnMzaVdxV",
+     "resolved": false
     }
    ]
   },
@@ -142,11 +142,18 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China to Boost Use of Stock Support Tools to Stabilize Market - Bloomberg.com",
+   "sample": "Apple Forecast Disappoints Investors, Even as It Tops Estimates - Bloomberg.com",
    "diag": [
     {
-     "title": "China to Boost Use of Stock Support Tools to Stabilize Marke",
+     "title": "Apple Forecast Disappoints Investors, Even as It Tops Estima",
      "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVqdFViRENfaVVnV",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVqdFViRENfaVVnVkZiWUdtVVZlVEp2ZDBnU",
+     "resolved": false
+    },
+    {
+     "title": "China Boosts Use of Stock Support Tools to Stabilize Market ",
+     "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenZrelR1TmRUa08wT2REcVBvTEpNNWdOTXo0O",
      "resolved": false
@@ -166,13 +173,6 @@
      "resolved": false
     },
     {
-     "title": "China’s Mbappé Blackout Continues as Real Madrid Games Dropp",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbHlaeGlCLUliUWhjd",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbHlaeGlCLUliUWhjd3E3TmlsMFdQRkpDcUpiO",
-     "resolved": false
-    },
-    {
      "title": "China Stocks Rise on Report of Regulator Market Support Meet",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOendaOF9OYUpHU1R3Q",
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese steel industry losses snowball as demand falls and costs rise - Nikkei Asia",
+   "sample": "US experts warm to Japanese nuclear subs as check on China in Asian waters - Nikkei Asia",
    "diag": [
+    {
+     "title": "US experts warm to Japanese nuclear subs as check on China i",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRm9NRTV0U1VpUVRFZ",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRm9NRTV0U1VpUVRFZnJQZWU4UGRHdGxDTkxqc",
+     "resolved": false
+    },
     {
      "title": "Chinese steel industry losses snowball as demand falls and c",
      "date": "2026-11-02",
@@ -215,13 +222,6 @@
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkdTV01XajhCQlVpO",
      "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkdTV01XajhCQlVpOG04VVBOTHROZExNcjR3e",
-     "resolved": false
-    },
-    {
-     "title": "North Korea's Kim Jong Un visits China via newly opened brid",
-     "date": "2026-10-24",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5W",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1BsNFZOWVdqU1B5WGVuaV84TGNQczl3Z1Q3O",
      "resolved": false
     }
    ]
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
+     "title": "Apple warns on rising costs from memory chip shortage - Fina",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEtzWkxwZnNULXVXb",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEtzWkxwZnNULXVXbUdmbTlmdXhzVFdBby1uR",
+     "resolved": false
+    },
+    {
      "title": "Muji takes its China playbook global - Financial Times",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdTRYMnBCdUo2ZWN1T",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdTRYMnBCdUo2ZWN1TlZZWU1YT2RZdEQzT0VVO",
-     "resolved": false
-    },
-    {
-     "title": "Private equity firm swoops on China Evergrande unit in rare ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGN0SUE3UEZEZmR2a",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGN0SUE3UEZEZmR2aEFBaWdZX09rZFJOYXY0T",
      "resolved": false
     }
    ]
@@ -294,17 +294,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
-     "resolved": false
-    },
-    {
      "title": "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOM",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlpYYndWVXNLLXlOMGthclBzd0hQQ093MUozZ",
+     "resolved": false
+    },
+    {
+     "title": "These Trucks Haul 90 Tons of Coal on Battery Power—and Drive",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnNBT3NFWU00OExpM",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnNBT3NFWU00OExpM1Z1b3FON1pSSmh6cUM5d",
      "resolved": false
     },
     {
@@ -339,17 +339,17 @@
      "resolved": false
     },
     {
-     "title": "I Covered the Tiananmen Square Massacre. It Still Weighs on ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3e",
-     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3eF8zV1hWSnJHM280N01jO",
-     "resolved": false
-    },
-    {
      "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pe",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
      "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX2lPaVlieXNmSjFXc2ZPN",
+     "resolved": false
+    },
+    {
+     "title": "I Covered the Tiananmen Square Massacre. It Still Weighs on ",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3e",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3eF8zV1hWSnJHM280N01jO",
      "resolved": false
     },
     {
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 61,
+   "items": 100,
    "is_feed": true,
    "sample": "Soy, rare earths and fuels: how Brazil vote impacts the global flow of resources - Reuters",
    "diag": [
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: Pentagon treating military base freezer malfuncti",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ0RoX2hseFpyajltZE5vb",
+     "title": "China September rare earth exports rise 6.7% from a year ear",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Colorado National Guard helps defend against cyber-attacks during election "
+   "sample": " USFK Commander to Industry at TechNet: ‘Design Combined from the First Line of Code’"
   },
   {
    "name": "商务部新闻",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "$712 billion wiped off world’s biggest mining companies since start of Iran war"
+   "sample": "Gordon Mining acquires Tungsten Tail project in New Mexico "
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Trump’s Trillion-Dollar Oil Play: A Trap For Big Oil?"
+   "sample": "Questions Mount Over Venezuela’s Biggest Oil Deal"
   },
   {
    "name": "IMF",
@@ -596,7 +596,7 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 504,
+   "status": 404,
    "items": 0,
    "is_feed": false
   },
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Trump promised 'no more wars'. His foreign policy tells another story"
+   "sample": "Russian strikes kill 26 in Ukraine after longest ceasefire ends"
   },
   {
    "name": "JapanTimes",
