@@ -1,2537 +1,2800 @@
 {
-  "_comment": "国际涉华公开舆情聚合配置。仅读取公开网页/公开账号/公开请愿，不进入任何非公开社群。sections=媒体栏目首页轮询(每6小时)；search_categories=议题新闻检索(每天2轮,近3天)；watch_categories=反华人物/活动/新路径/新群追踪(每天2轮,近7天)。信源自由增删。",
-  "sections": [
-    {
-      "name": "美国之音中文-中国",
-      "url": "https://www.voachinese.com/p/6197.html",
-      "lang": "zh",
-      "cat": "中国议题",
-      "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"
-    },
-    {
-      "name": "美国之音中文-亚太",
-      "url": "https://www.voachinese.com/z/1745",
-      "lang": "zh",
-      "cat": "亚太动态",
-      "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"
-    },
-    {
-      "name": "美国之音中文-经贸",
-      "url": "https://www.voachinese.com/z/1748",
-      "lang": "zh",
-      "cat": "经贸科技",
-      "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"
-    },
-    {
-      "name": "BBC中文",
-      "url": "https://www.bbc.com/zhongwen/simp",
-      "lang": "zh",
-      "cat": "国际中文媒体",
-      "pat": "bbc\\.com/zhongwen/articles/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "德国之声DW中文",
-      "url": "https://www.dw.com/zh",
-      "lang": "zh",
-      "cat": "国际中文媒体",
-      "pat": "dw\\.com/zh/[^\\s\\)\\]]+/a-\\d+"
-    },
-    {
-      "name": "路透社世界",
-      "url": "https://www.reuters.com/world/",
-      "lang": "en",
-      "cat": "国际通讯社",
-      "pat": "reuters\\.com/world/[^\\s\\)\\]]+\\d{4}-\\d{2}-\\d{2}"
-    },
-    {
-      "name": "美联社AP",
-      "url": "https://apnews.com/hub/china",
-      "lang": "en",
-      "cat": "国际通讯社",
-      "pat": "apnews\\.com/article/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "日经亚洲",
-      "url": "https://asia.nikkei.com/Politics",
-      "lang": "en",
-      "cat": "亚太媒体",
-      "pat": "asia\\.nikkei\\.com/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Church in Rowland Heights",
-      "url": "https://churchinrowlandheights.org",
-      "lang": "en",
-      "cat": "海外华人宗教",
-      "pat": "churchinrowlandheights\\.org/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Armstrong Economics",
-      "url": "https://armstrongeconomics.com",
-      "lang": "en",
-      "cat": "国际评论",
-      "pat": "armstrongeconomics\\.com/[^\\s\\)\\]\\[]+"
-    },
-    {
-      "name": "zyd1998",
-      "url": "https://zyd1998.com",
-      "lang": "zh",
-      "cat": "国际中文媒体",
-      "pat": "zyd1998\\.com/[^\\s\\)\\]\\[]+"
-    },
-    {
-      "name": "ChinaCongress",
-      "url": "https://chinacongress.net",
-      "lang": "zh",
-      "cat": "境外组织站点",
-      "pat": "chinacongress\\.net/[^\\s\\)\\]\\[]+"
-    },
-    {
-      "name": "CongressCenter",
-      "url": "https://congresscenter.org",
-      "lang": "zh",
-      "cat": "境外组织站点",
-      "pat": "congresscenter\\.org/[^\\s\\)\\]\\[]+"
-    },
-    {
-      "name": "GoFundMe·藏独筹款",
-      "url": "https://www.gofundme.com/s?q=tibet",
-      "lang": "?",
-      "cat": "L3·隐蔽线索",
-      "pat": "gofundme\\.com/f/[^?\\s)]+",
-      "lead": "L3"
-    },
-    {
-      "name": "GoFundMe·维吾尔筹款",
-      "url": "https://www.gofundme.com/s?q=uyghur",
-      "lang": "?",
-      "cat": "L3·隐蔽线索",
-      "pat": "gofundme\\.com/f/[^?\\s)]+",
-      "lead": "L3"
-    },
-    {
-      "name": "GoFundMe·反华筹款",
-      "url": "https://www.gofundme.com/s?q=china%20dissident",
-      "lang": "?",
-      "cat": "L3·隐蔽线索",
-      "pat": "gofundme\\.com/f/[^?\\s)]+",
-      "lead": "L3"
-    },
-    {
-      "name": "Meetup·藏人港人活动",
-      "url": "https://www.meetup.com/find/?keywords=tibet",
-      "lang": "?",
-      "cat": "L1·隐蔽线索",
-      "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+",
-      "lead": "L1"
-    },
-    {
-      "name": "Reddit·投影行动讨论",
-      "url": "https://old.reddit.com/search.rss?q=projection+protest&sort=new&t=month",
-      "lang": "?",
-      "cat": "L1·隐蔽线索",
-      "pat": "(?:old\\.)?reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+",
-      "lead": "L1"
-    },
-    {
-      "name": "Reddit·新型毒品讨论",
-      "url": "https://old.reddit.com/r/researchchemicals/new/.rss?limit=100",
-      "lang": "?",
-      "cat": "L2·隐蔽线索",
-      "pat": "(?:old\\.)?reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+",
-      "lead": "L2"
-    },
-    {
-      "name": "Bluelight·新精神活性物质",
-      "url": "https://bluelight.org/xf/forums/new-reports.213/",
-      "lang": "?",
-      "cat": "L2·隐蔽线索",
-      "pat": "(?:bluelight\\.org)?/xf/threads/[^?\\s)]+",
-      "lead": "L2"
-    },
-    {
-      "name": "Bluelight·合成大麻素",
-      "url": "https://bluelight.org/xf/forums/synthetic-cannabinoids.175/",
-      "lang": "?",
-      "cat": "L2·隐蔽线索",
-      "pat": "(?:bluelight\\.org)?/xf/threads/[^?\\s)]+",
-      "lead": "L2"
-    },
-    {
-      "name": "日本共同社",
-      "url": "https://english.kyodonews.net/",
-      "lang": "en",
-      "cat": "日韩",
-      "pat": "english\\.kyodonews\\.net/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "韩联社英文",
-      "url": "https://en.yna.co.kr/",
-      "lang": "en",
-      "cat": "日韩",
-      "pat": "en\\.yna\\.co\\.kr/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "新加坡海峡时报",
-      "url": "https://www.straitstimes.com/asia",
-      "lang": "en",
-      "cat": "东南亚",
-      "pat": "straitstimes\\.com/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "AllAfrica-中国",
-      "url": "https://allafrica.com/china/",
-      "lang": "en",
-      "cat": "非洲",
-      "pat": "allafrica\\.com/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "NHK World",
-      "url": "https://www3.nhk.or.jp/nhkworld/en/news/",
-      "lang": "en",
-      "cat": "日韩",
-      "pat": "nhk\\.or\\.jp/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "台湾聚焦",
-      "url": "https://focustaiwan.tw/",
-      "lang": "en",
-      "cat": "台海",
-      "pat": "focustaiwan\\.tw/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "CSIS中国力量",
-      "url": "https://chinapower.csis.org/",
-      "lang": "en",
-      "cat": "智库",
-      "pat": "chinapower\\.csis\\.org/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "澳洲ASPI",
-      "url": "https://www.aspi.org.au/",
-      "lang": "en",
-      "cat": "智库",
-      "pat": "aspi\\.org\\.au/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Jamestown中国简报",
-      "url": "https://jamestown.org/programs/china-brief/",
-      "lang": "en",
-      "cat": "智库",
-      "pat": "jamestown\\.org/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "菲律宾马尼拉时报",
-      "url": "https://www.manilatimes.net/",
-      "lang": "en",
-      "cat": "东南亚",
-      "pat": "manilatimes\\.net/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Daily Maverick",
-      "url": "https://www.dailymaverick.co.za/",
-      "lang": "en",
-      "cat": "非洲",
-      "pat": "dailymaverick\\.co\\.za/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "自由时报",
-      "url": "https://news.ltn.com.tw/",
-      "lang": "zh-TW",
-      "cat": "台海",
-      "pat": "ltn\\.com\\.tw/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "法广中文",
-      "url": "https://www.rfi.fr/cn/",
-      "lang": "zh",
-      "cat": "中国议题",
-      "pat": "rfi\\.fr/cn/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "GoFundMe·港独筹款",
-      "url": "https://www.gofundme.com/s?q=hong%20kong%20protest",
-      "lang": "en",
-      "cat": "L3·隐蔽线索",
-      "pat": "gofundme\\.com/f/[^?\\s)]+",
-      "lead": "L3"
-    },
-    {
-      "name": "GoFundMe·台湾独立筹款",
-      "url": "https://www.gofundme.com/s?q=taiwan%20independence",
-      "lang": "en",
-      "cat": "L3·隐蔽线索",
-      "pat": "gofundme\\.com/f/[^?\\s)]+",
-      "lead": "L3"
-    },
-    {
-      "name": "GoFundMe·维权律师基金",
-      "url": "https://www.gofundme.com/s?q=china%20lawyer%20defense%20fund",
-      "lang": "en",
-      "cat": "L3·隐蔽线索",
-      "pat": "gofundme\\.com/f/[^?\\s)]+",
-      "lead": "L3"
-    },
-    {
-      "name": "Meetup·反华抗议活动",
-      "url": "https://www.meetup.com/find/?keywords=china%20protest",
-      "lang": "en",
-      "cat": "L1·隐蔽线索",
-      "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+",
-      "lead": "L1"
-    },
-    {
-      "name": "Meetup·港人集会",
-      "url": "https://www.meetup.com/find/?keywords=hong%20kong%20rally",
-      "lang": "en",
-      "cat": "L1·隐蔽线索",
-      "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+",
-      "lead": "L1"
-    },
-    {
-      "name": "Disboard·政治活动服务器",
-      "url": "https://disboard.org/search?keyword=china%20protest",
-      "lang": "en",
-      "cat": "L1·隐蔽线索",
-      "pat": "disboard\\.org/server/[0-9]+",
-      "lead": "L1"
-    },
-    {
-      "name": "Disboard·异见社群服务器",
-      "url": "https://disboard.org/search?keyword=dissident",
-      "lang": "en",
-      "cat": "L3·隐蔽线索",
-      "pat": "disboard\\.org/server/[0-9]+",
-      "lead": "L3"
-    },
-    {
-      "name": "TGStat·涉华频道目录",
-      "url": "https://tgstat.com/search?q=china",
-      "lang": "en",
-      "cat": "L3·隐蔽线索",
-      "pat": "tgstat\\.com/channel/@[A-Za-z0-9_]+",
-      "lead": "L3"
-    },
-    {
-      "name": "TG·用户定向频道·老李",
-      "url": "https://t.me/s/lilaoshibushinilaoshi",
-      "lang": "zh",
-      "cat": "反华组织动向",
-      "pat": "t\\.me/s/[^\\s\\)\\]]+",
-      "lead": true
-    },
-    {
-      "name": "TG·用户定向频道·投者频道",
-      "url": "https://t.me/s/whyyoutouzhele_memecoin",
-      "lang": "zh",
-      "cat": "反华组织动向",
-      "pat": "t\\.me/s/[^\\s\\)\\]]+",
-      "lead": true
-    },
-    {
-      "name": "TG·用户定向频道·反党分子系",
-      "url": "https://t.me/s/fandangfenzixi",
-      "lang": "zh",
-      "cat": "反华组织动向",
-      "pat": "t\\.me/s/[^\\s\\)\\]]+",
-      "lead": true
-    },
-    {
-      "name": "TG·用户定向频道·新纪元",
-      "url": "https://t.me/s/xinjiyuan9",
-      "lang": "zh",
-      "cat": "反华组织动向",
-      "pat": "t\\.me/s/[^\\s\\)\\]]+",
-      "lead": true
-    },
-    {
-      "name": "TG·用户定向频道·国社系",
-      "url": "https://t.me/s/ChineseNationalSocialism",
-      "lang": "zh",
-      "cat": "反华组织动向",
-      "pat": "t\\.me/s/[^\\s\\)\\]]+",
-      "lead": true
-    },
-    {
-      "name": "TG目录·藏人频道",
-      "url": "https://tgstat.com/search?q=tibet",
-      "lang": "en",
-      "cat": "反华组织动向",
-      "pat": "[a-z0-9_/\\-\\.]",
-      "lead": true
-    },
-    {
-      "name": "TG目录·维吾尔频道",
-      "url": "https://tgstat.com/search?q=uyghur",
-      "lang": "en",
-      "cat": "反华组织动向",
-      "pat": "[a-z0-9_/\\-\\.]",
-      "lead": true
-    },
-    {
-      "name": "TG目录·港台频道",
-      "url": "https://tgstat.com/search?q=hong%20kong",
-      "lang": "en",
-      "cat": "反华组织动向",
-      "pat": "[a-z0-9_/\\-\\.]",
-      "lead": true
-    },
-    {
-      "name": "TG目录·异见频道",
-      "url": "https://tgstat.com/search?q=dissident",
-      "lang": "en",
-      "cat": "反华组织动向",
-      "pat": "[a-z0-9_/\\-\\.]",
-      "lead": true
-    },
-    {
-      "name": "TG目录·反华频道",
-      "url": "https://tgstat.com/search?q=anti%20china",
-      "lang": "en",
-      "cat": "反华组织动向",
-      "pat": "[a-z0-9_/\\-\\.]",
-      "lead": true
-    },
-    {
-      "name": "TG目录·抗议频道",
-      "url": "https://tgstat.com/search?q=protest%20china",
-      "lang": "en",
-      "cat": "反华组织动向",
-      "pat": "[a-z0-9_/\\-\\.]",
-      "lead": true
-    },
-    {
-      "name": "TG频道站·涉华频道",
-      "url": "https://telegramchannels.me/search/china",
-      "lang": "en",
-      "cat": "反华组织动向",
-      "pat": "[a-z0-9_/\\-\\.]",
-      "lead": true
-    },
-    {
-      "name": "TG频道站·异见频道",
-      "url": "https://telegramchannels.me/search/dissident",
-      "lang": "en",
-      "cat": "反华组织动向",
-      "pat": "[a-z0-9_/\\-\\.]",
-      "lead": true
-    },
-    {
-      "name": "联合早报-中国",
-      "url": "https://www.zaobao.com.sg/news/china",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "zaobao\\.com\\.sg/(?:news|realtime)/china/[^?\\s)\\]]+"
-    },
-    {
-      "name": "日经中文网",
-      "url": "https://cn.nikkei.com/politicsaeconomy/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "(?:https?://cn\\.nikkei\\.com)?(/[a-z]+/[0-9A-Za-z_.-]+\\.html)"
-    },
-    {
-      "name": "韩联社中文",
-      "url": "https://cn.yna.co.kr/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "cn\\.yna\\.co\\.kr/view/[A-Z0-9_]+"
-    },
-    {
-      "name": "共同社中文",
-      "url": "https://chinese.kyodonews.net/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "(?:https?://chinese\\.kyodonews\\.net)?(/[0-9A-Za-z_/.-]+\\.html)"
-    },
-    {
-      "name": "中央社-国际",
-      "url": "https://www.cna.com.tw/list/aopl.aspx",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "cna\\.com\\.tw/news/[a-z]+/[^?\\s)\\]]+\\.aspx"
-    },
-    {
-      "name": "自由亚洲中文",
-      "url": "https://www.rfa.org/mandarin/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "(?:https?://(?:www\\.)?rfa\\.org)?(/mandarin/[0-9A-Za-z_/.-]+\\.html)"
-    },
-    {
-      "name": "澳广ABC中文",
-      "url": "https://www.abc.net.au/chinese/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "abc\\.net\\.au/chinese/[^?\\s)\\]]+"
-    },
-    {
-      "name": "金融时报中文",
-      "url": "https://www.ftchinese.com/channel/china.html",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "ftchinese\\.com/story/[^?\\s)\\]]+"
-    },
-    {
-      "name": "华尔街日报中文",
-      "url": "https://cn.wsj.com/zh-hant/world",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "cn\\.wsj\\.com/[^?\\s)\\]]+"
-    },
-    {
-      "name": "半岛中文",
-      "url": "https://chinese.aljazeera.net/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "chinese\\.aljazeera\\.net/[^?\\s)\\]]+"
-    },
-    {
-      "name": "风传媒-国际",
-      "url": "https://www.storm.mg/category/118",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "storm\\.mg/article/[^?\\s)\\]]+"
-    },
-    {
-      "name": "香港01-中国",
-      "url": "https://www.hk01.com/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "hk01\\.com/[^?\\s)\\]]+"
-    },
-    {
-      "name": "明报-国际",
-      "url": "https://news.mingpao.com/ins/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "mingpao\\.com/[a-z]+/[^?\\s)\\]]+"
-    },
-    {
-      "name": "中时新闻网",
-      "url": "https://www.chinatimes.com/realtimenews/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "chinatimes\\.com/[^?\\s)\\]]+"
-    },
-    {
-      "name": "世界新闻网",
-      "url": "https://www.worldjournal.com/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "(?:https?://(?:www\\.)?worldjournal\\.com)?(/(?:wj|story|news|gb)/[0-9A-Za-z_/.-]+)"
-    },
-    {
-      "name": "当今大马中文",
-      "url": "https://zh.malaysiakini.com/news",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "(?:https?://zh\\.malaysiakini\\.com)?(/news/[0-9A-Za-z_-]+)"
-    },
-    {
-      "name": "朝鲜日报中文",
-      "url": "https://cnnews.chosun.com/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "cnnews\\.chosun\\.com/[^?\\s)\\]]+"
-    },
-    {
-      "name": "中央日报中文",
-      "url": "https://chinese.joins.com/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "chinese\\.joins\\.com/news/[^?\\s)\\]]+"
-    },
-    {
-      "name": "加广RCI中文",
-      "url": "https://www.rcinet.ca/zhongwen/",
-      "lang": "zh",
-      "cat": "中文硬新闻",
-      "pat": "(?:https?://(?:www\\.)?rcinet\\.ca)?(/(?:zhongwen|zh|news|a-propos)/[0-9A-Za-z_/.-]+)"
-    },
-    {
-      "name": "美国商务部-新闻",
-      "url": "https://www.commerce.gov/news",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "(?:https?://(?:www\\.)?commerce\\.gov)?(/news/[0-9A-Za-z_/.-]+)"
-    },
-    {
-      "name": "美国国防部-新闻",
-      "url": "https://www.defense.gov/news/",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "defense\\.gov/news/[^?\\s)\\]]+"
-    },
-    {
-      "name": "欧盟委员会-新闻",
-      "url": "https://ec.europa.eu/commission/presscorner/home/en",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "ec\\.europa\\.eu/commission/presscorner/detail/[^?\\s)\\]]+"
-    },
-    {
-      "name": "北约-新闻",
-      "url": "https://www.nato.int/cps/en/natohq/news.htm",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "(?:https?://(?:www\\.)?nato\\.int)?(/cps/en/[A-Za-z0-9_/.-]+\\.htm)"
-    },
-    {
-      "name": "日经亚洲-中国",
-      "url": "https://asia.nikkei.com/Spotlight/China",
-      "lang": "en",
-      "cat": "亚太媒体",
-      "pat": "asia\\.nikkei\\.com/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "日经亚洲-商业",
-      "url": "https://asia.nikkei.com/Business",
-      "lang": "en",
-      "cat": "亚太媒体",
-      "pat": "asia\\.nikkei\\.com/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "美贸易代表办公室-新闻稿",
-      "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "ustr\\.gov/[^\\s\\)\\]]*press-release[^\\s\\)\\]]*"
-    },
-    {
-      "name": "美工业与安全局BIS-新闻",
-      "url": "https://www.bis.gov/newsroom",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "bis\\.gov/(?:newsroom|press-release|news|articles)[^\\s\\)\\]]*"
-    },
-    {
-      "name": "美国能源部-新闻",
-      "url": "https://www.energy.gov/newsroom",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "energy\\.gov/[a-z0-9\\-]+/[a-z0-9\\-]+/[a-z0-9\\-]+"
-    },
-    {
-      "name": "美国国务院-新闻稿",
-      "url": "https://www.state.gov/press-releases/",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "state\\.gov/press-releases/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "美国财政部-新闻稿",
-      "url": "https://home.treasury.gov/news/press-releases",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "home\\.treasury\\.gov/news/press-releases/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "白宫-声明与简报",
-      "url": "https://www.whitehouse.gov/briefing-room/statements-releases/feed/",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "whitehouse\\.gov/briefing-room/statements-releases/[0-9]{4}/[0-9]{2}/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "WTO-新闻",
-      "url": "https://www.wto.org/english/news_e/news_e.htm",
-      "lang": "en",
-      "cat": "多边机制",
-      "pat": "wto\\.org/english/news_e/(?:news|press|sp|statements_e)[^\\s\\)\\]]*\\.htm"
-    },
-    {
-      "name": "欧盟贸易总署-新闻",
-      "url": "https://policy.trade.ec.europa.eu/news_en",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "policy\\.trade\\.ec\\.europa\\.eu/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "日本经产省METI-新闻",
-      "url": "https://www.meti.go.jp/english/press/index.html",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "meti\\.go\\.jp/english/press/[0-9]{4}/[^\\s\\)\\]]+\\.html"
-    },
-    {
-      "name": "USGS美国地质调查局-新闻",
-      "url": "https://www.usgs.gov/news",
-      "lang": "en",
-      "cat": "资源能源",
-      "pat": "usgs\\.gov/news/[a-z0-9\\-]+/[a-z0-9\\-]+"
-    },
-    {
-      "name": "Mining.com矿业资讯",
-      "url": "https://www.mining.com/feed/",
-      "lang": "en",
-      "cat": "资源能源",
-      "pat": "mining\\.com/[a-z0-9\\-/]*\\d{4,}/?"
-    },
-    {
-      "name": "IEA国际能源署-新闻",
-      "url": "https://www.iea.org/news.rss",
-      "lang": "en",
-      "cat": "资源能源",
-      "pat": "iea\\.org/news/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "OilPrice能源资讯",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/",
-      "lang": "en",
-      "cat": "资源能源",
-      "pat": "oilprice\\.com/[^\\s\\)\\]]+\\.html"
-    },
-    {
-      "name": "USNI海军学会新闻",
-      "url": "https://news.usni.org/feed",
-      "lang": "en",
-      "cat": "国防动态",
-      "pat": "news\\.usni\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Defense News防务新闻",
-      "url": "https://www.defensenews.com/",
-      "lang": "en",
-      "cat": "国防动态",
-      "pat": "defensenews\\.com/[a-z\\-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "美军印太司令部-新闻",
-      "url": "https://www.pacom.mil/news/",
-      "lang": "en",
-      "cat": "国防动态",
-      "pat": "pacom\\.mil/Media/News/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "IMF国际货币基金组织-新闻",
-      "url": "https://www.imf.org/en/News/RSS",
-      "lang": "en",
-      "cat": "多边机制",
-      "pat": "imf\\.org/en/News/Articles/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Krebs网络安全",
-      "url": "https://krebsonsecurity.com/feed/",
-      "lang": "en",
-      "cat": "网络安全",
-      "pat": "krebsonsecurity\\.com/[0-9]{4}/[0-9]{2}/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "美国联邦公报",
-      "url": "https://www.federalregister.gov/documents.rss",
-      "lang": "en",
-      "cat": "官方公报",
-      "pat": "federalregister\\.gov/documents/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Dark Reading网络安全",
-      "url": "https://www.darkreading.com/rss.xml",
-      "lang": "en",
-      "cat": "网络安全",
-      "pat": "darkreading\\.com/[a-z\\-]+/[a-z0-9\\-]+"
-    },
-    {
-      "name": "TechCrunch科技",
-      "url": "https://techcrunch.com/feed/",
-      "lang": "en",
-      "cat": "科技产业",
-      "pat": "techcrunch\\.com/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "BleepingComputer安全",
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "lang": "en",
-      "cat": "网络安全",
-      "pat": "bleepingcomputer\\.com/news/[a-z\\-]+/[a-z0-9\\-]+"
-    },
-    {
-      "name": "The Record网络安全",
-      "url": "https://therecord.media/feed",
-      "lang": "en",
-      "cat": "网络安全",
-      "pat": "therecord\\.media/[a-z0-9\\-]+"
-    },
-    {
-      "name": "Semianalysis半导体",
-      "url": "https://semianalysis.com/feed/",
-      "lang": "en",
-      "cat": "科技产业",
-      "pat": "semianalysis\\.com/[0-9]{4}/[0-9]{2}/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Fastmarkets资源金属",
-      "url": "https://www.fastmarkets.com/feed/",
-      "lang": "en",
-      "cat": "资源矿产",
-      "pat": "fastmarkets\\.com/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Argus Media能源",
-      "url": "https://www.argusmedia.com/en/rss",
-      "lang": "en",
-      "cat": "能源",
-      "pat": "argusmedia\\.com/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Cybersecurity Insiders",
-      "url": "https://www.cybersecurity-insiders.com/feed/",
-      "lang": "en",
-      "cat": "网络安全",
-      "pat": "cybersecurity-insiders\\.com/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "CISA公告",
-      "url": "https://www.cisa.gov/news.xml",
-      "lang": "en",
-      "cat": "网络安全",
-      "pat": "cisa\\.gov/news-events/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "BIS出口管制",
-      "url": "https://www.bis.doc.gov/index.php/8-newsroom/updates?format=feed",
-      "lang": "en",
-      "cat": "出口管制",
-      "pat": "bis\\.doc\\.gov/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "S&P Global资源",
-      "url": "https://www.spglobal.com/commodityinsights/en/ci/rss?feed=Platts",
-      "lang": "en",
-      "cat": "资源矿产",
-      "pat": "spglobal\\.com/commodityinsights/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "Wood Mackenzie能源",
-      "url": "https://www.woodmac.com/newsroom/rss/",
-      "lang": "en",
-      "cat": "能源",
-      "pat": "woodmac\\.com/[^\\s\\)\\]]+"
-    },
-    {
-      "name": "South China Morning Post",
-      "url": "https://www.scmp.com/rss/91/feed",
-      "lang": "en",
-      "cat": "国际新闻",
-      "pat": "scmp\\.com/news/[^\\s\\)\\]]+"
-    }
-  ],
-  "search_categories": [
-    {
-      "cat": "区域安全",
-      "q": "China Taiwan regional security military defense"
-    },
-    {
-      "cat": "海上动态",
-      "q": "South China Sea maritime coast guard naval"
-    },
-    {
-      "cat": "科技产业",
-      "q": "China semiconductor chip export control technology"
-    },
-    {
-      "cat": "网络安全",
-      "q": "China cybersecurity data breach online security"
-    },
-    {
-      "cat": "贸易往来",
-      "q": "China trade tariff export restriction customs"
-    },
-    {
-      "cat": "资源供应链",
-      "q": "China rare earth supply chain critical minerals"
-    },
-    {
-      "cat": "地区治理",
-      "q": "China Hong Kong Xinjiang Tibet policy"
-    },
-    {
-      "cat": "信息生态",
-      "q": "China online misinformation media campaign"
-    },
-    {
-      "cat": "国防动态",
-      "q": "China defense nuclear military buildup"
-    },
-    {
-      "cat": "外交动态",
-      "q": "China diplomacy summit foreign policy bilateral"
-    },
-    {
-      "cat": "金砖与全球南方",
-      "q": "China BRICS summit Global South cooperation"
-    },
-    {
-      "cat": "出入境政策",
-      "q": "China exit entry ban visa passport border policy"
-    },
-    {
-      "cat": "日韩动向",
-      "q": "China Japan Korea relations policy move"
-    },
-    {
-      "cat": "非洲动向",
-      "q": "China Africa policy Chinese workers projects security"
-    },
-    {
-      "cat": "领导人变动",
-      "q": "China leadership reshuffle senior official change"
-    },
-    {
-      "cat": "节日重要节点",
-      "q": "China National Day October anniversary sensitive date"
-    },
-    {
-      "cat": "科研限制",
-      "q": "China NSF grant restriction entity list academic research sanction university"
-    },
-    {
-      "cat": "科研人才流动",
-      "q": "China scientist academic exchange visa talent program restriction"
-    },
-    {
-      "cat": "供应链围堵",
-      "q": "EU supply chain decoupling solidarity mechanism subsidy critical materials China"
-    },
-    {
-      "cat": "网络攻击",
-      "q": "China website deface hacktivist military school information warfare cyberattack"
-    },
-    {
-      "cat": "跨境黑产",
-      "q": "gambling source code leak Telegram money laundering scam underground market"
-    },
-    {
-      "cat": "活动筹备痕迹",
-      "q": "protest event recruitment poster volunteers meeting point location announcement"
-    },
-    {
-      "cat": "快闪行动预告",
-      "q": "flash mob surprise action street demonstration announcement date"
-    },
-    {
-      "cat": "线上串联协调",
-      "q": "organize rally coordination volunteers signal channel private group"
-    },
-    {
-      "cat": "Eventbrite活动",
-      "q": "site:eventbrite.com tibet OR uyghur OR \"hong kong\" protest event"
-    },
-    {
-      "cat": "GoFundMe筹款新",
-      "q": "site:gofundme.com china dissident OR uyghur OR \"hong kong\" fundraiser"
-    },
-    {
-      "cat": "Discord服务器",
-      "q": "site:disboard.org china OR chinese OR dissident discord server"
-    },
-    {
-      "cat": "海外华人论坛",
-      "q": "site:mitbbs.com 集会 招募 串联 活动 众筹 快闪 投影 组织"
-    },
-    {
-      "cat": "海外华人论坛",
-      "q": "site:club.6parkbbs.com 集会 招募 串联 活动 众筹 快闪 投影 组织"
-    },
-    {
-      "cat": "海外华人论坛",
-      "q": "site:bbs.wenxuecity.com 集会 招募 串联 活动 众筹 快闪 投影 组织"
-    },
-    {
-      "cat": "视频平台动员",
-      "q": "site:rumble.com 中国 行动 招募 集结 投影 抗议 集会"
-    },
-    {
-      "cat": "视频平台动员",
-      "q": "site:bitchute.com 中国 行动 招募 集结 投影 抗议 集会"
-    },
-    {
-      "cat": "快照追溯",
-      "q": "site:archive.ph 集会 招募 募捐 活动预告 抗议 被删除 召集"
-    },
-    {
-      "cat": "众筹经费",
-      "q": "site:patreon.com OR site:ko-fi.com OR site:buymeacoffee.com 活动经费 政治献金 维权基金 宣传费用"
-    },
-    {
-      "cat": "Discord目录",
-      "q": "site:discords.com OR site:top.gg china politics protest server"
-    },
-    {
-      "cat": "论坛行动讨论",
-      "q": "site:boards.4chan.org/pol/ china action protest recruitment gathering"
-    },
-    {
-      "cat": "深度伪造认知战",
-      "q": "deepfake China disinformation AI manipulation overseas Chinese"
-    },
-    {
-      "cat": "无人机投影行动",
-      "q": "China protest drone projection LED overseas Chinese community"
-    },
-    {
-      "cat": "虚拟货币政治募资",
-      "q": "China dissident cryptocurrency fundraising sanctions crypto donations"
-    },
-    {
-      "cat": "海外华人社团渗透",
-      "q": "overseas Chinese church underground infiltration human rights organization recruitment"
-    },
-    {
-      "cat": "敏感节点集会筹备",
-      "q": "overseas protest anniversary sensitive date China embassy demonstration planning"
-    },
-    {
-      "cat": "新众筹平台",
-      "q": "site:chuffed.org OR site:fundly.com OR site:indiegogo.com China OR Chinese political protest fundraiser"
-    },
-    {
-      "cat": "活动平台新源",
-      "q": "site:luma.events OR site:mobilize.us China OR Hong Kong OR Taiwan protest gathering event"
-    },
-    {
-      "cat": "请愿平台",
-      "q": "site:change.org China OR Chinese OR Hong Kong OR Uyghur petition"
-    },
-    {
-      "cat": "反华博客",
-      "q": "site:substack.com China dissident protest recruitment fundraising campaign"
-    },
-    {
-      "cat": "右翼视频社交",
-      "q": "site:rumble.com OR site:truthsocial.com OR site:parler.com China protest action recruitment"
-    },
-    {
-      "cat": "涉外法律动向",
-      "q": "China extraterritorial jurisdiction sanctions court case overseas asset freeze"
-    },
-    {
-      "cat": "宗教渗透新载体",
-      "q": "overseas China church fellowship campus ministry infiltration underground network report"
-    },
-    {
-      "cat": "TG公开频道定向",
-      "q": "site:t.me/s/ China OR Chinese OR Tibet OR Uyghur OR Hong Kong protest rally recruitment"
-    },
-    {
-      "cat": "Telegram频道发现",
-      "q": "telegram channel anti China Uyghur Tibet Hong Kong protest new group recruitment"
-    },
-    {
-      "cat": "能源通道",
-      "q": "China oil gas LNG pipeline Strait of Malacca energy corridor shipping security"
-    },
-    {
-      "cat": "油气海运",
-      "q": "China LNG carrier crude oil tanker port terminal chokepoint Hormuz energy import"
-    },
-    {
-      "cat": "关键矿产",
-      "q": "China lithium gallium germanium graphite copper critical minerals export restriction mining"
-    },
-    {
-      "cat": "金融清算",
-      "q": "China yuan renminbi cross-border payment SWIFT clearing financial sanctions de-risk"
-    },
-    {
-      "cat": "去美元化",
-      "q": "China BRICS de-dollarization renminbi local currency trade settlement Global South"
-    },
-    {
-      "cat": "装备开源情报",
-      "q": "China new naval vessel aircraft carrier UUV drone shipyard satellite imagery deployment"
-    },
-    {
-      "cat": "社会民生舆情",
-      "q": "China social media public opinion anxiety youth livelihood viral"
-    },
-    {
-      "cat": "关键矿产管制",
-      "q": "China critical minerals rare earth gallium germanium export restriction"
-    },
-    {
-      "cat": "货币金融避险",
-      "q": "China cross-border payment yuan SWIFT sanction treasury"
-    },
-    {
-      "cat": "海外涉华行动",
-      "q": "China overseas NGO diaspora influence campaign new coalition"
-    },
-    {
-      "cat": "数据泄露事件",
-      "q": "China database leak breach dark web personal records"
-    },
-    {
-      "cat": "科技管制出口",
-      "q": "China export control semiconductor chip entity list sanction restriction"
-    },
-    {
-      "cat": "经贸摩擦",
-      "q": "China trade tariff retaliation commerce section 301 WTO dispute"
-    },
-    {
-      "cat": "金融制裁",
-      "q": "China treasury OFAC sanction bank cross-border payment"
-    },
-    {
-      "cat": "数据安全事件",
-      "q": "China data breach leak dark web personal info database"
-    },
-    {
-      "cat": "社会舆情风险",
-      "q": "China social media public sentiment livelihood anxiety youth"
-    },
-    {
-      "cat": "涉华网络攻击",
-      "q": "China cyberattack Volt Typhoon APT hacking infrastructure US critical"
-    },
-    {
-      "cat": "稀土出口管制",
-      "q": "China rare earth export control gallium germanium antimony restriction"
-    },
-    {
-      "cat": "半导体管制",
-      "q": "China semiconductor export control chip entity list restriction"
-    },
-    {
-      "cat": "涉外机构动态",
-      "q": "China diaspora organization new activity coalition campaign"
-    },
-    {
-      "cat": "关键基础设施威胁",
-      "q": "China critical infrastructure threat submarine cable undersea"
-    },
-    {
-      "cat": "数据跨境与安全",
-      "q": "China data cross-border transfer security personal information law"
-    },
-    {
-      "cat": "芯片围堵",
-      "q": "chip enclosure semiconductor alliance export restriction migration"
-    },
-    {
-      "cat": "芯片供应链监控",
-      "q": "chip supply chain inspection surveillance due diligence"
-    },
-    {
-      "cat": "芯片执法",
-      "q": "entity list chip enforcement penalty smuggling"
-    },
-    {
-      "cat": "稀土博弈",
-      "q": "rare earth magnet export quota china processing"
-    },
-    {
-      "cat": "稀土封锁",
-      "q": "rare earth blockade processing dominant share bottleneck"
-    },
-    {
-      "cat": "非洲稀土",
-      "q": "africa rare earth mine china investment lithium cobalt"
-    },
-    {
-      "cat": "深海稀土",
-      "q": "deep sea mining pacific polymetallic nodule china"
-    },
-    {
-      "cat": "北极博弈",
-      "q": "arctic council nato china route resource dispute"
-    },
-    {
-      "cat": "北极航道",
-      "q": "northern sea route shipping icebreaker china"
-    },
-    {
-      "cat": "北极军事",
-      "q": "arctic military exercise nuclear patrol defense"
-    },
-    {
-      "cat": "红海危机",
-      "q": "red sea houthi shipping insurance tanker attack"
-    },
-    {
-      "cat": "海峡危机",
-      "q": "strait of malacca hormuz chokepoint shipping lane"
-    },
-    {
-      "cat": "二级制裁",
-      "q": "secondary sanctions china bank SWIFT oil trade"
-    },
-    {
-      "cat": "无人舰队",
-      "q": "unmanned surface vessel drone fleet naval exercise"
-    },
-    {
-      "cat": "蜂群作战",
-      "q": "drone swarm warfare anti-ship tactic"
-    },
-    {
-      "cat": "卫星对峙",
-      "q": "satellite confrontation anti-satellite debris orbit"
-    },
-    {
-      "cat": "太空军事化",
-      "q": "space militarization space force weapon satellite"
-    },
-    {
-      "cat": "联合军演",
-      "q": "joint military exercise quad trilateral indo-pacific"
-    },
-    {
-      "cat": "对台军售",
-      "q": "arms sale taiwan defense weapon package"
-    },
-    {
-      "cat": "人才安全",
-      "q": "talent security visa restriction scholar academy"
-    },
-    {
-      "cat": "人才竞争",
-      "q": "global talent competition recruitment science"
-    },
-    {
-      "cat": "认知战链条",
-      "q": "cognitive warfare narrative influence operation chain"
-    },
-    {
-      "cat": "网络攻击指认",
-      "q": "cyber attack attribution hacking allegation state"
-    },
-    {
-      "cat": "贸易制裁纵深",
-      "q": "tariff trade sanction escalation export control"
-    },
-    {
-      "cat": "美联储货币",
-      "q": "fed rate cut dollar swap emerging market debt"
-    },
-    {
-      "cat": "数据安全供应链",
-      "q": "data security cross-border supply chain cloud"
-    },
-    {
-      "cat": "智库叙事",
-      "q": "think tank report china threat assessment narrative"
-    },
-    {
-      "cat": "AI安全",
-      "q": "ai safety frontier model export restriction"
-    },
-    {
-      "cat": "AI武器化",
-      "q": "ai weaponization autonomous lethal drone military"
-    },
-    {
-      "cat": "AI认知威胁",
-      "q": "ai cognitive threat misinformation synthetic media"
-    },
-    {
-      "cat": "海外警务",
-      "q": "overseas police station transnational repression"
-    },
-    {
-      "cat": "投资审查",
-      "q": "cfius outbound investment screening national security"
-    },
-    {
-      "cat": "港口投资",
-      "q": "port investment belt and road africa pakistan greece"
-    },
-    {
-      "cat": "渔业执法",
-      "q": "coast guard fishing disputed island enforcement"
-    },
-    {
-      "cat": "油气管道",
-      "q": "gas pipeline europe sanctions energy transit"
-    },
-    {
-      "cat": "稀土加工",
-      "q": "rare earth processing magnet neodymium supply"
-    },
-    {
-      "cat": "军控条约",
-      "q": "arms control treaty nuclear negotiation"
-    },
-    {
-      "cat": "ASML光刻",
-      "q": "ASML EUV lithography export restriction"
-    },
-    {
-      "cat": "金砖军演",
-      "q": "BRICS military exercise joint"
-    },
-    {
-      "cat": "链式威慑",
-      "q": "chain deterrence missile defense deployment"
-    },
-    {
-      "cat": "国防预算",
-      "q": "defense budget military spending increase"
-    },
-    {
-      "cat": "国防工业",
-      "q": "defense industrial base revitalization"
-    },
-    {
-      "cat": "作战概念",
-      "q": "military doctrine new strategy naming"
-    },
-    {
-      "cat": "演习拆解",
-      "q": "military exercise analysis order battle"
-    },
-    {
-      "cat": "五眼南太",
-      "q": "Five Eyes south Pacific security"
-    },
-    {
-      "cat": "岛礁军事化",
-      "q": "island militarization outpost base"
-    },
-    {
-      "cat": "联合空袭",
-      "q": "joint airstrike operation middle east"
-    },
-    {
-      "cat": "海上民兵",
-      "q": "maritime militia fishing vessel patrol"
-    },
-    {
-      "cat": "军援失败",
-      "q": "military aid package failure delay"
-    },
-    {
-      "cat": "军机对峙",
-      "q": "military aircraft intercept confrontation"
-    },
-    {
-      "cat": "军事对峙",
-      "q": "military standoff border deployment"
-    },
-    {
-      "cat": "导弹墙",
-      "q": "missile defense wall deployment intercept"
-    },
-    {
-      "cat": "多边军事机制",
-      "q": "multilateral military pact mechanism"
-    },
-    {
-      "cat": "海外基地",
-      "q": "overseas military base expansion"
-    },
-    {
-      "cat": "私人安保",
-      "q": "private military contractor PMC"
-    },
-    {
-      "cat": "准同盟",
-      "q": "quasi-alliance defense pact"
-    },
-    {
-      "cat": "对台无人机",
-      "q": "Taiwan drone asymmetric warfare"
-    },
-    {
-      "cat": "中国军力报告",
-      "q": "annual military report China congress"
-    },
-    {
-      "cat": "AI意识形态战",
-      "q": "AI ideological warfare large model"
-    },
-    {
-      "cat": "AI多模型窃密",
-      "q": "AI multi model spy pipeline"
-    },
-    {
-      "cat": "开源AI供应链",
-      "q": "open source AI supply chain risk"
-    },
-    {
-      "cat": "AI研究同质",
-      "q": "AI research homogenization duplication"
-    },
-    {
-      "cat": "AI技术霸权",
-      "q": "AI technology hegemony frontier model"
-    },
-    {
-      "cat": "AI工具投毒",
-      "q": "AI tool poisoning supply chain"
-    },
-    {
-      "cat": "电池卡点",
-      "q": "battery technology choke point lithium"
-    },
-    {
-      "cat": "算力超市",
-      "q": "computing power cloud export control"
-    },
-    {
-      "cat": "数据中心",
-      "q": "data center investment overseas"
-    },
-    {
-      "cat": "两用技术",
-      "q": "dual use technology export control"
-    },
-    {
-      "cat": "设备拆解",
-      "q": "equipment teardown analysis chip"
-    },
-    {
-      "cat": "硬件后门",
-      "q": "hardware backdoor chip supply"
-    },
-    {
-      "cat": "知识库投毒",
-      "q": "knowledge base poisoning AI"
-    },
-    {
-      "cat": "开源投毒",
-      "q": "open source poisoning ML supply chain"
-    },
-    {
-      "cat": "专利战",
-      "q": "patent war trade dispute ITC"
-    },
-    {
-      "cat": "平台算法",
-      "q": "platform algorithm governance regulation"
-    },
-    {
-      "cat": "侧信道攻击",
-      "q": "side channel attack chip vulnerability"
-    },
-    {
-      "cat": "供应链数据泄露",
-      "q": "supply chain data leak breach"
-    },
-    {
-      "cat": "技术脱钩",
-      "q": "tech decoupling supply chain reshoring"
-    },
-    {
-      "cat": "技术许可",
-      "q": "technology licensing restriction"
-    },
-    {
-      "cat": "航空锂电",
-      "q": "aviation lithium battery supply"
-    },
-    {
-      "cat": "气候链条",
-      "q": "climate policy supply chain transmission"
-    },
-    {
-      "cat": "非洲矿产融资",
-      "q": "DFC Africa mining investment counter"
-    },
-    {
-      "cat": "能源制裁",
-      "q": "energy sanctions oil pipeline LNG"
-    },
-    {
-      "cat": "欧盟原材料",
-      "q": "EU raw materials act critical"
-    },
-    {
-      "cat": "海外采矿权",
-      "q": "overseas mining rights acquisition"
-    },
-    {
-      "cat": "资源股权",
-      "q": "resource equity battle investment"
-    },
-    {
-      "cat": "页岩资源",
-      "q": "shale resource speculation penetration"
-    },
-    {
-      "cat": "航道保险",
-      "q": "shipping route sanction insurance premium"
-    },
-    {
-      "cat": "供应链争夺",
-      "q": "supply chain battle reshoring friendshoring"
-    },
-    {
-      "cat": "央行货币",
-      "q": "central bank digital currency CBDC"
-    },
-    {
-      "cat": "可转债波动",
-      "q": "convertible bond fluctuation market"
-    },
-    {
-      "cat": "跨境证券",
-      "q": "cross border securities regulation"
-    },
-    {
-      "cat": "汇率摩擦",
-      "q": "currency friction exchange rate"
-    },
-    {
-      "cat": "汇率干预",
-      "q": "currency intervention dollar reserve"
-    },
-    {
-      "cat": "金融数据霸权",
-      "q": "financial data hegemony SWIFT messaging"
-    },
-    {
-      "cat": "金融中心",
-      "q": "financial hub offshore Shanghai"
-    },
-    {
-      "cat": "金融人员布局",
-      "q": "financial personnel layout bank"
-    },
-    {
-      "cat": "非法跨境证券",
-      "q": "illegal cross border securities fraud"
-    },
-    {
-      "cat": "钱骡洗钱",
-      "q": "mule run money laundering ring"
-    },
-    {
-      "cat": "评级政治化",
-      "q": "credit rating politicization downgrade"
-    },
-    {
-      "cat": "房地产风险",
-      "q": "real estate risk crisis developer"
-    },
-    {
-      "cat": "补贴欺诈",
-      "q": "subsidy fraud green energy EV"
-    },
-    {
-      "cat": "科技公司威胁",
-      "q": "tech company national security threat"
-    },
-    {
-      "cat": "审美异化",
-      "q": "aesthetic cultural alienation narrative"
-    },
-    {
-      "cat": "预言认知战",
-      "q": "ancient prophecy cognitive war"
-    },
-    {
-      "cat": "双边关系虚假信息",
-      "q": "bilateral relation disinformation"
-    },
-    {
-      "cat": "慈善欺诈",
-      "q": "charity fraud scandal NGO"
-    },
-    {
-      "cat": "儿童产品",
-      "q": "children product safety recall"
-    },
-    {
-      "cat": "企业质量危机",
-      "q": "corporate quality crisis scandal"
-    },
-    {
-      "cat": "跨区诈骗",
-      "q": "cross region fraud scam telecom"
-    },
-    {
-      "cat": "邪教纪录片",
-      "q": "cult documentary evidence group"
-    },
-    {
-      "cat": "深伪造谣",
-      "q": "deepfake livelihood rumor viral"
-    },
-    {
-      "cat": "残障利用叙事",
-      "q": "disability exploitation narrative"
-    },
-    {
-      "cat": "电商黑灰产",
-      "q": "ecommerce black industry counterfeit"
-    },
-    {
-      "cat": "情绪渗透",
-      "q": "emotional infiltration social media"
-    },
-    {
-      "cat": "饭圈商业",
-      "q": "fandom business model controversy"
-    },
-    {
-      "cat": "饭圈乱象",
-      "q": "fandom chaos celebrity"
-    },
-    {
-      "cat": "电影文化攻击",
-      "q": "film cultural attack movie Hollywood"
-    },
-    {
-      "cat": "民俗炒作",
-      "q": "folk custom hype trend"
-    },
-    {
-      "cat": "谐音梗",
-      "q": "homophonic meme internet slang"
-    },
-    {
-      "cat": "婚恋疾病叙事",
-      "q": "marriage disease social narrative"
-    },
-    {
-      "cat": "医美诱导",
-      "q": "medical beauty inducement surgery"
-    },
-    {
-      "cat": "医疗资本",
-      "q": "medical capital crossover hospital"
-    },
-    {
-      "cat": "农民工问题",
-      "q": "migrant worker issue rights"
-    },
-    {
-      "cat": "网络色情",
-      "q": "online pornography platform regulation"
-    },
-    {
-      "cat": "平台隐私泄露",
-      "q": "platform privacy leak data breach"
-    },
-    {
-      "cat": "乡村养娃",
-      "q": "rural raising youth population"
-    },
-    {
-      "cat": "性别叙事",
-      "q": "gender narrative feminism"
-    },
-    {
-      "cat": "社会道德事件",
-      "q": "social moral event foreign media"
-    },
-    {
-      "cat": "电视剧辱",
-      "q": "TV drama insult detail scene"
-    },
-    {
-      "cat": "青年地下社群",
-      "q": "youth underground community subculture"
-    },
-    {
-      "cat": "语音克隆",
-      "q": "voice cloning deepfake scam"
-    },
-    {
-      "cat": "假下载站",
-      "q": "fake download site malware"
-    },
-    {
-      "cat": "假截图炒作",
-      "q": "fake screenshot hype rumor"
-    },
-    {
-      "cat": "二维码钓鱼",
-      "q": "QR code phishing scam"
-    },
-    {
-      "cat": "恶意插件",
-      "q": "malicious browser extension stealer"
-    },
-    {
-      "cat": "抢购恐慌",
-      "q": "panic buying shortage hoarding"
-    },
-    {
-      "cat": "科研经费审查",
-      "q": "academic funding review grant investigation"
-    },
-    {
-      "cat": "学术司法构陷",
-      "q": "academic judicial frameup arrest"
-    },
-    {
-      "cat": "反间谍执法",
-      "q": "counter espionage arrest China"
-    },
-    {
-      "cat": "反渗透执法",
-      "q": "counter infiltration enforcement"
-    },
-    {
-      "cat": "流亡议会",
-      "q": "exiled parliament government in waiting"
-    },
-    {
-      "cat": "人权制裁",
-      "q": "human rights sanction visa asset"
-    },
-    {
-      "cat": "情报机构威胁",
-      "q": "intelligence agency threat report annual"
-    },
-    {
-      "cat": "情报联盟",
-      "q": "intelligence alliance sharing five eyes"
-    },
-    {
-      "cat": "法律追责链",
-      "q": "legal accountability chain lawsuit"
-    },
-    {
-      "cat": "法律战",
-      "q": "legal warfare litigation trade"
-    },
-    {
-      "cat": "选择性执法",
-      "q": "selective enforcement law scrutiny"
-    },
-    {
-      "cat": "分离主义演化",
-      "q": "separatist evolution movement"
-    },
-    {
-      "cat": "跨国垄断",
-      "q": "transnational monopoly antitrust"
-    },
-    {
-      "cat": "旅行间谋",
-      "q": "travel espionage allegation detention"
-    },
-    {
-      "cat": "海外政治组织",
-      "q": "overseas political group organization"
-    },
-    {
-      "cat": "联网汽车数据",
-      "q": "connected car data privacy"
-    },
-    {
-      "cat": "消费者生物数据",
-      "q": "consumer biological data DNA"
-    },
-    {
-      "cat": "数据炒作",
-      "q": "data center hype investment"
-    },
-    {
-      "cat": "数字监管",
-      "q": "digital regulation platform DMA"
-    },
-    {
-      "cat": "移民政策",
-      "q": "immigration policy border wall"
-    },
-    {
-      "cat": "物联网安全",
-      "q": "IoT security vulnerability device"
-    },
-    {
-      "cat": "ITC禁令",
-      "q": "ITC injunction import ban tariff"
-    },
-    {
-      "cat": "IP武器化",
-      "q": "IP weaponization trade secret"
-    },
-    {
-      "cat": "圣战动员",
-      "q": "jihad mobilization radicalization fighter"
-    },
-    {
-      "cat": "长新冠生物",
-      "q": "long covid biomedical study"
-    },
-    {
-      "cat": "叙事围堵",
-      "q": "narrative encirclement media campaign"
-    },
-    {
-      "cat": "北约东扩",
-      "q": "NATO expansion narrative membership"
-    },
-    {
-      "cat": "宗教包装",
-      "q": "religious packaging extremism"
-    },
-    {
-      "cat": "种业安全",
-      "q": "seed industry anti espionage patent"
-    },
-    {
-      "cat": "小事化大",
-      "q": "small event escalate big security"
-    },
-    {
-      "cat": "峰会组合",
-      "q": "summit meeting combo bilateral"
-    },
-    {
-      "cat": "旅游扩张",
-      "q": "tourism expansion foreign visa"
-    },
-    {
-      "cat": "推墙运动",
-      "q": "wall pushing movement protest"
-    },
-    {
-      "cat": "撤离趋势",
-      "q": "withdrawal trend company exit"
-    },
-    {
-      "cat": "双轨围堵",
-      "q": "dual track encirclement chip export"
-    },
-    {
-      "cat": "任务部队",
-      "q": "task force military deployment"
-    },
-    {
-      "cat": "印太战略",
-      "q": "indo pacific strategy treaty"
-    },
-    {
-      "cat": "脱钩分析",
-      "q": "tech decoupling analysis supply chain"
-    },
-    {
-      "cat": "退出浪潮",
-      "q": "withdrawal wave company market"
-    },
-    {
-      "cat": "金融恐吓",
-      "q": "financial intimidation sanction threat"
-    },
-    {
-      "cat": "认知渗透",
-      "q": "cognitive infiltration narrative influence"
-    },
-    {
-      "cat": "技术联盟",
-      "q": "multilateral tech alliance chip"
-    },
-    {
-      "cat": "情报系统升级",
-      "q": "intelligence system reform upgrade"
-    },
-    {
-      "cat": "南海任务组",
-      "q": "south china sea task force patrol"
-    },
-    {
-      "cat": "微型核反应堆",
-      "q": "small modular nuclear reactor military"
-    },
-    {
-      "cat": "核潜艇",
-      "q": "nuclear submarine deployment patrol"
-    },
-    {
-      "cat": "核动力商船",
-      "q": "nuclear powered merchant ship cargo"
-    },
-    {
-      "cat": "海底电缆",
-      "q": "submarine cable undersea tapping"
-    },
-    {
-      "cat": "激光雕刻机",
-      "q": "laser engraver export control"
-    },
-    {
-      "cat": "中程防空",
-      "q": "NASAMS air defense missile system"
-    },
-    {
-      "cat": "航母",
-      "q": "aircraft carrier deployment western pacific"
-    },
-    {
-      "cat": "机器狗",
-      "q": "robot dog quadruped military exercise"
-    },
-    {
-      "cat": "甲醇船",
-      "q": "methanol fueled ship green methanol"
-    },
-    {
-      "cat": "造船产能",
-      "q": "shipbuilding merchant fleet overcapacity"
-    },
-    {
-      "cat": "轮胎关税",
-      "q": "tire tariff China import"
-    },
-    {
-      "cat": "钢铁关税",
-      "q": "steel overcapacity tariff China"
-    },
-    {
-      "cat": "光伏供应链",
-      "q": "solar panel supply chain polysilicon"
-    },
-    {
-      "cat": "锂矿",
-      "q": "lithium mine Chile Bolivia production"
-    },
-    {
-      "cat": "钴矿",
-      "q": "cobalt DRC Congo mining China"
-    },
-    {
-      "cat": "镍矿",
-      "q": "nickel Indonesia battery production"
-    },
-    {
-      "cat": "石墨",
-      "q": "graphite anode battery China export"
-    },
-    {
-      "cat": "战略石油储备",
-      "q": "strategic petroleum reserve release"
-    },
-    {
-      "cat": "能源走廊",
-      "q": "energy corridor pipeline central asia"
-    },
-    {
-      "cat": "苏伊士运河",
-      "q": "suez canal shipping disruption"
-    },
-    {
-      "cat": "巴拿马运河",
-      "q": "panama canal drought shipping"
-    },
-    {
-      "cat": "马六甲海峡",
-      "q": "malacca strait shipping lane"
-    },
-    {
-      "cat": "高超音速",
-      "q": "hypersonic missile test deployment"
-    },
-    {
-      "cat": "电磁弹射",
-      "q": "electromagnetic catapult aircraft carrier"
-    },
-    {
-      "cat": "五代机",
-      "q": "fifth generation stealth fighter"
-    },
-    {
-      "cat": "盾舰",
-      "q": "destroyer Aegis air defense"
-    },
-    {
-      "cat": "反舰弹道导弹",
-      "q": "anti-ship ballistic missile DF"
-    },
-    {
-      "cat": "预警机",
-      "q": "airborne early warning aircraft"
-    },
-    {
-      "cat": "无人机反制",
-      "q": "drone countermeasure air defense"
-    },
-    {
-      "cat": "芯片代工",
-      "q": "chip foundry TSMC Samsung"
-    },
-    {
-      "cat": "先进封装",
-      "q": "advanced packaging chiplet"
-    },
-    {
-      "cat": "EDA软件",
-      "q": "EDA software chip design export"
-    },
-    {
-      "cat": "工业软件",
-      "q": "industrial software CAD CAAM"
-    },
-    {
-      "cat": "数控机床",
-      "q": "CNC machine tool export control"
-    },
-    {
-      "cat": "科学仪器",
-      "q": "scientific instrument export restriction"
-    },
-    {
-      "cat": "医疗设备",
-      "q": "medical device export control"
-    },
-    {
-      "cat": "药品专利",
-      "q": "pharmaceutical patent waiver"
-    },
-    {
-      "cat": "转基因作物",
-      "q": "GMO seed patent agriculture"
-    },
-    {
-      "cat": "农业种子",
-      "q": "seed industry breeding patent"
-    },
-    {
-      "cat": "稀土永磁",
-      "q": "rare earth permanent magnet neodymium"
-    },
-    {
-      "cat": "磁体出口",
-      "q": "magnet export China restriction"
-    },
-    {
-      "cat": "电池回收",
-      "q": "battery recycling EV supply"
-    },
-    {
-      "cat": "电动车关税",
-      "q": "EV electric vehicle tariff China"
-    },
-    {
-      "cat": "充电桩",
-      "q": "charging station infrastructure"
-    },
-    {
-      "cat": "低空经济",
-      "q": "low altitude economy drone eVTOL"
-    },
-    {
-      "cat": "商业航天",
-      "q": "commercial space launch satellite"
-    },
-    {
-      "cat": "可重复火箭",
-      "q": "reusable rocket SpaceX China"
-    },
-    {
-      "cat": "量子计算",
-      "q": "quantum computing encryption"
-    },
-    {
-      "cat": "量子通信",
-      "q": "quantum communication satellite"
-    },
-    {
-      "cat": "脑机接口",
-      "q": "brain computer interface neural"
-    },
-    {
-      "cat": "合成生物",
-      "q": "synthetic biology biosecurity"
-    },
-    {
-      "cat": "基因编辑",
-      "q": "gene editing CRISPR regulation"
-    },
-    {
-      "cat": "mRNA疫苗",
-      "q": "mRNA vaccine biosecurity"
-    },
-    {
-      "cat": "数据跨境",
-      "q": "data cross border transfer regulation"
-    },
-    {
-      "cat": "算法歧视",
-      "q": "algorithm discrimination audit"
-    },
-    {
-      "cat": "深度伪造",
-      "q": "deepfake election disinformation"
-    },
-    {
-      "cat": "换脸软件",
-      "q": "face swap app deepfake"
-    },
-    {
-      "cat": "虚拟人",
-      "q": "virtual influencer AI avatar"
-    },
-    {
-      "cat": "数字人",
-      "q": "digital human avatar livestream"
-    },
-    {
-      "cat": "自动驾驶",
-      "q": "autonomous driving regulation"
-    },
-    {
-      "cat": "车联网",
-      "q": "vehicle to network cybersecurity"
-    },
-    {
-      "cat": "工业互联网",
-      "q": "industrial internet cybersecurity"
-    },
-    {
-      "cat": "智慧城市",
-      "q": "smart city surveillance China"
-    },
-    {
-      "cat": "人脸识别",
-      "q": "facial recognition technology export"
-    },
-    {
-      "cat": "监控设备",
-      "q": "surveillance equipment export Huawei"
-    },
-    {
-      "cat": "审查技术",
-      "q": "censorship technology export China"
-    },
-    {
-      "cat": "妙瓦底诈骗园区",
-      "q": "Shwe Kokko Myanmar scam park human trafficking"
-    },
-    {
-      "cat": "缅甸偷渡",
-      "q": "Myanmar border crossing scam forced labor"
-    },
-    {
-      "cat": "智能眼镜出海",
-      "q": "smart glasses privacy import ban"
-    },
-    {
-      "cat": "债务责任论",
-      "q": "debt trap narrative Global South China"
-    },
-    {
-      "cat": "第三国转口",
-      "q": "third country transshipment sanctions evasion"
-    },
-    {
-      "cat": "银行代理行",
-      "q": "correspondent bank shell company procurement"
-    },
-    {
-      "cat": "电影节渗透",
-      "q": "film festival cultural infiltration youth"
-    },
-    {
-      "cat": "欧盟混动稀土",
-      "q": "EU hybrid electric vehicle rare earth"
-    },
-    {
-      "cat": "超微芯片案",
-      "q": "Super Micro chip indictment transshipment"
-    },
-    {
-      "cat": "叠层光伏",
-      "q": "tandem solar cell perovskite efficiency"
-    },
-    {
-      "cat": "生育旅游免签",
-      "q": "birth tourism visa waiver China"
-    },
-    {
-      "cat": "防卫白皮书",
-      "q": "defense white paper Japan military expansion"
-    },
-    {
-      "cat": "反舰导弹",
-      "q": "anti-ship missile exercise Japan India"
-    },
-    {
-      "cat": "空中加油机",
-      "q": "aerial tanker refueling fleet upgrade"
-    },
-    {
-      "cat": "印太战略",
-      "q": "Indo Pacific strategy G7 summit"
-    },
-    {
-      "cat": "社会治理画像",
-      "q": "child abuse reporting AI family surveillance"
-    },
-    {
-      "cat": "网络攻击募资",
-      "q": "cyber attack fundraising crowdfunding"
-    },
-    {
-      "cat": "天基定向能",
-      "q": "space based directed energy weapon laser"
-    },
-    {
-      "cat": "黄金股权清退",
-      "q": "gold mine ownership China nationalization"
-    },
-    {
-      "cat": "莱纳斯稀土",
-      "q": "Lynas rare earth processing Australia"
-    },
-    {
-      "cat": "西班牙钨矿",
-      "q": "Spain tungsten mine IPO Europe"
-    },
-    {
-      "cat": "甘其毛都口岸",
-      "q": "Ganqimaodu border Mongolia copper export"
-    },
-    {
-      "cat": "奥尤陶勒盖",
-      "q": "Oyu Tolgoi copper mine Mongolia"
-    },
-    {
-      "cat": "北极关键材料",
-      "q": "Arctic critical minerals Canada EU"
-    },
-    {
-      "cat": "俄朝导弹",
-      "q": "Russia North Korea missile test Pacific"
-    },
-    {
-      "cat": "朝鲜黑客虚拟币",
-      "q": "North Korea hacker cryptocurrency theft"
-    },
-    {
-      "cat": "幽灵鲨无人机",
-      "q": "Ghost Shark Australian autonomous submarine"
-    },
-    {
-      "cat": "法国数据主权",
-      "q": "France data sovereignty regulation"
-    },
-    {
-      "cat": "法国对华军事",
-      "q": "France military Indo Pacific China"
-    },
-    {
-      "cat": "菲律宾海军",
-      "q": "Philippines navy patrol new ship"
-    },
-    {
-      "cat": "可穿戴设备",
-      "q": "wearable device privacy regulation"
-    },
-    {
-      "cat": "铜出口",
-      "q": "copper export Chile Peru supply"
-    },
-    {
-      "cat": "钨矿",
-      "q": "tungsten mine China export processing"
-    },
-    {
-      "cat": "锂矿投资",
-      "q": "lithium investment Ghana UK company"
-    },
-    {
-      "cat": "中资清退",
-      "q": "Chinese investment nationalization mineral"
-    },
-    {
-      "cat": "反补贴税",
-      "q": "anti-subsidy tariff EV investigation"
-    },
-    {
-      "cat": "港口使用费",
-      "q": "port fee tariff China shipping"
-    },
-    {
-      "cat": "核潜艇轮换",
-      "q": "nuclear submarine rotation Australia AUKUS"
-    },
-    {
-      "cat": "无人潜航器",
-      "q": "unmanned underwater vehicle UUV AI"
-    },
-    {
-      "cat": "海上AI传感器",
-      "q": "naval AI sensor fusion maritime"
-    },
-    {
-      "cat": "中程反导",
-      "q": "medium range missile defense Europe"
-    },
-    {
-      "cat": "卫星舰队",
-      "q": "satellite constellation expansion China"
-    },
-    {
-      "cat": "远程投送",
-      "q": "strategic airlift projection force"
-    },
-    {
-      "cat": "第二岛链",
-      "q": "second island chain deterrence deployment"
-    },
-    {
-      "cat": "西南离岛",
-      "q": "southwest islands Japan deployment"
-    },
-    {
-      "cat": "南海前推",
-      "q": "South China Sea forward base Palawan"
-    },
-    {
-      "cat": "辽宁舰",
-      "q": "Liaoning carrier group patrol"
-    },
-    {
-      "cat": "科罗拉多核潜艇",
-      "q": "USS Colorado submarine Australia"
-    },
-    {
-      "cat": "富士营演习",
-      "q": "Fuji combined exercise US Japan"
-    },
-    {
-      "cat": "Neros Archer",
-      "q": "Neros Archer drone Japan"
-    },
-    {
-      "cat": "西太平洋导弹",
-      "q": "Western Pacific missile test Russia"
-    },
-    {
-      "cat": "关键矿产收缩",
-      "q": "critical minerals supply contraction"
-    },
-    {
-      "cat": "对华关系试探",
-      "q": "China relations envoy visit thaw"
-    },
-    {
-      "cat": "稀土锁价",
-      "q": "rare earth long term price contract"
-    },
-    {
-      "cat": "对华数据施压",
-      "q": "China data cross border pressure"
-    },
-    {
-      "cat": "技术遏制",
-      "q": "technology containment export control"
-    },
-    {
-      "cat": "科技人才围堵",
-      "q": "tech talent visa restriction research"
-    },
-    {
-      "cat": "海外利益风险",
-      "q": "overseas Chinese interest risk"
-    },
-    {
-      "cat": "关键信息设施",
-      "q": "critical information infrastructure threat"
-    }
-  ],
-  "watch_categories": [
-    {
-      "cat": "反华人物账号",
-      "queries": [
-        "overseas Chinese dissident exile activist new spokesperson account",
-        "China critic exile YouTuber influencer dissident channel",
-        "Uyghur Tibetan Hong Kong activist leader overseas new statement"
-      ]
-    },
-    {
-      "cat": "反华活动事件",
-      "queries": [
-        "anti-China protest rally overseas Tibet Uyghur Hong Kong this week",
-        "China hearing petition boycott campaign event Washington London Brussels",
-        "overseas rally anniversary Tiananmen Tibet Uyghur demonstration event"
-      ]
-    },
-    {
-      "cat": "反华新路径手法",
-      "queries": [
-        "China disinformation deepfake AI sockpuppet covert influence operation new",
-        "transnational repression China overseas police station new tactic",
-        "China espionage honeypot Telegram WhatsApp covert campaign new method"
-      ]
-    },
-    {
-      "cat": "反华组织新群",
-      "queries": [
-        "new anti-China coalition NGO diaspora group launched",
-        "Uyghur Tibetan Hong Kong diaspora alliance new organization formed",
-        "China accountability campaign new overseas group statement"
-      ]
-    }
-  ],
-  "block_global": [
-    "amazon.",
-    "ebay.",
-    "baidu.com",
-    "zhihu.com",
-    "taobao",
-    "/funds/",
-    "etf",
-    "wikipedia.org",
-    "booking.",
-    "aliexpress"
-  ],
-  "social_domains": [
-    "facebook.com",
-    "instagram.com",
-    "youtube.com",
-    "youtu.be",
-    "twitter.com",
-    "x.com",
-    "t.me",
-    "reddit.com",
-    "change.org"
-  ],
-  "shell_social": [
-    "facebook.com",
-    "instagram.com",
-    "twitter.com",
-    "x.com",
-    "t.me",
-    "youtube.com",
-    "youtu.be"
-  ],
-  "deep_social": [
-    "reddit.com",
-    "change.org"
-  ],
-  "relevance_re": "(?i)(china|chinese|beijing|ccp|prc|taiwan|taipei|pla|xi jinping|hong kong|xinjiang|uyghur|uighur|tibet|south china sea|dissident|exile|protest|rally|coalition|activist|中共|中国|北京|台湾|台北|港|疆|藏|南海|台海|解放军|习近平|异见|流亡|抗议|集会|反华|维吾尔|西藏)",
-  "junk_markers": [
-    "Powered by",
-    "Print Options",
-    "Google Translate",
-    "URL Source:",
-    "Markdown Content",
-    "cookie",
-    "Cookie",
-    "隐私政策",
-    "用户协议",
-    "copyright",
-    "All rights reserved",
-    "版权所有"
-  ],
-  "paywall_markers": [
-    "subscribe to continue",
-    "to continue reading",
-    "subscribers can read",
-    "become a subscriber",
-    "sign up to continue",
-    "this content is for subscribers",
-    "付费阅读",
-    "订阅后阅读",
-    "订阅即可阅读",
-    "please subscribe to read"
-  ],
-  "ad_markers": [
-    "discount code",
-    "promo code",
-    "use code",
-    "% off",
-    "limited time offer",
-    "sponsored post",
-    "affiliate link",
-    "点击购买",
-    "立即购买",
-    "立即下单",
-    "优惠码",
-    "赞助内容",
-    "下载APP",
-    "注册领取",
-    "关注领",
-    "加微信",
-    "扫码进群",
-    "广告"
-  ],
-  "pinned_urls": [
-    {
-      "url": "https://armstrongeconomics.com/world-news/war/chinese-v-american-views-on-war-with-taiwan",
-      "name": "Armstrong Economics",
-      "lang": "en",
-      "cat": "国际评论"
-    },
-    {
-      "url": "https://zyd1998.com/archives/8159",
-      "name": "zyd1998",
-      "lang": "zh",
-      "cat": "国际中文媒体"
-    },
-    {
-      "url": "https://chinacongress.net",
-      "name": "ChinaCongress",
-      "lang": "zh",
-      "cat": "境外组织站点"
-    },
-    {
-      "url": "https://congresscenter.org",
-      "name": "CongressCenter",
-      "lang": "zh",
-      "cat": "境外组织站点"
-    },
-    {
-      "url": "https://t.me/s/lilaoshibushinilaoshi",
-      "name": "TG-李老师不是李老师",
-      "lang": "zh",
-      "cat": "反华动向"
-    },
-    {
-      "url": "https://t.me/s/fandangfenzixi",
-      "name": "TG-反党分子系",
-      "lang": "zh",
-      "cat": "反华动向"
-    },
-    {
-      "url": "https://t.me/s/xinjiyuan9",
-      "name": "TG-新纪元9",
-      "lang": "zh",
-      "cat": "反华动向"
-    },
-    {
-      "url": "https://t.me/s/ChineseNationalSocialism",
-      "name": "TG-中国国家社会主义",
-      "lang": "zh",
-      "cat": "反华动向"
-    },
-    {
-      "url": "https://x.com/jielijian",
-      "name": "X-杰里简",
-      "lang": "zh",
-      "cat": "反华人物账号"
-    },
-    {
-      "url": "https://x.com/standwithfree",
-      "name": "X-自由之声",
-      "lang": "zh",
-      "cat": "反华人物账号"
-    },
-    {
-      "url": "https://x.com/wangxiqing4625",
-      "name": "X-王西青",
-      "lang": "zh",
-      "cat": "反华人物账号"
-    },
-    {
-      "url": "https://x.com/hgylucky2017",
-      "name": "X-hgylucky",
-      "lang": "zh",
-      "cat": "反华人物账号"
-    },
-    {
-      "url": "https://x.com/hpizheng11983",
-      "name": "X-hpizheng",
-      "lang": "zh",
-      "cat": "反华人物账号"
-    },
-    {
-      "url": "https://x.com/Free06041989",
-      "name": "X-Free06041989",
-      "lang": "zh",
-      "cat": "反华人物账号"
-    },
-    {
-      "url": "https://churchinrowlandheights.org",
-      "name": "罗兰岗教会",
-      "lang": "en",
-      "cat": "NGO宗教渗透"
-    }
-  ]
+ "_comment": "国际涉华公开舆情聚合配置。仅读取公开网页/公开账号/公开请愿，不进入任何非公开社群。sections=媒体栏目首页轮询(每6小时)；search_categories=议题新闻检索(每天2轮,近3天)；watch_categories=反华人物/活动/新路径/新群追踪(每天2轮,近7天)。信源自由增删。",
+ "sections": [
+  {
+   "name": "美国之音中文-中国",
+   "url": "https://www.voachinese.com/p/6197.html",
+   "lang": "zh",
+   "cat": "中国议题",
+   "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"
+  },
+  {
+   "name": "美国之音中文-亚太",
+   "url": "https://www.voachinese.com/z/1745",
+   "lang": "zh",
+   "cat": "亚太动态",
+   "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"
+  },
+  {
+   "name": "美国之音中文-经贸",
+   "url": "https://www.voachinese.com/z/1748",
+   "lang": "zh",
+   "cat": "经贸科技",
+   "pat": "voachinese\\.com/a/[^\\s\\)\\]]+\\.html"
+  },
+  {
+   "name": "BBC中文",
+   "url": "https://www.bbc.com/zhongwen/simp",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "bbc\\.com/zhongwen/articles/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "德国之声DW中文",
+   "url": "https://www.dw.com/zh",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "dw\\.com/zh/[^\\s\\)\\]]+/a-\\d+"
+  },
+  {
+   "name": "路透社世界",
+   "url": "https://www.reuters.com/world/",
+   "lang": "en",
+   "cat": "国际通讯社",
+   "pat": "reuters\\.com/world/[^\\s\\)\\]]+\\d{4}-\\d{2}-\\d{2}"
+  },
+  {
+   "name": "美联社AP",
+   "url": "https://apnews.com/hub/china",
+   "lang": "en",
+   "cat": "国际通讯社",
+   "pat": "apnews\\.com/article/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "日经亚洲",
+   "url": "https://asia.nikkei.com/Politics",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "asia\\.nikkei\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Church in Rowland Heights",
+   "url": "https://churchinrowlandheights.org",
+   "lang": "en",
+   "cat": "海外华人宗教",
+   "pat": "churchinrowlandheights\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Armstrong Economics",
+   "url": "https://armstrongeconomics.com",
+   "lang": "en",
+   "cat": "国际评论",
+   "pat": "armstrongeconomics\\.com/[^\\s\\)\\]\\[]+"
+  },
+  {
+   "name": "zyd1998",
+   "url": "https://zyd1998.com",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "zyd1998\\.com/[^\\s\\)\\]\\[]+"
+  },
+  {
+   "name": "ChinaCongress",
+   "url": "https://chinacongress.net",
+   "lang": "zh",
+   "cat": "境外组织站点",
+   "pat": "chinacongress\\.net/[^\\s\\)\\]\\[]+"
+  },
+  {
+   "name": "CongressCenter",
+   "url": "https://congresscenter.org",
+   "lang": "zh",
+   "cat": "境外组织站点",
+   "pat": "congresscenter\\.org/[^\\s\\)\\]\\[]+"
+  },
+  {
+   "name": "GoFundMe·藏独筹款",
+   "url": "https://www.gofundme.com/s?q=tibet",
+   "lang": "?",
+   "cat": "L3·隐蔽线索",
+   "pat": "gofundme\\.com/f/[^?\\s)]+",
+   "lead": "L3"
+  },
+  {
+   "name": "GoFundMe·维吾尔筹款",
+   "url": "https://www.gofundme.com/s?q=uyghur",
+   "lang": "?",
+   "cat": "L3·隐蔽线索",
+   "pat": "gofundme\\.com/f/[^?\\s)]+",
+   "lead": "L3"
+  },
+  {
+   "name": "GoFundMe·反华筹款",
+   "url": "https://www.gofundme.com/s?q=china%20dissident",
+   "lang": "?",
+   "cat": "L3·隐蔽线索",
+   "pat": "gofundme\\.com/f/[^?\\s)]+",
+   "lead": "L3"
+  },
+  {
+   "name": "Meetup·藏人港人活动",
+   "url": "https://www.meetup.com/find/?keywords=tibet",
+   "lang": "?",
+   "cat": "L1·隐蔽线索",
+   "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+",
+   "lead": "L1"
+  },
+  {
+   "name": "Reddit·投影行动讨论",
+   "url": "https://old.reddit.com/search.rss?q=projection+protest&sort=new&t=month",
+   "lang": "?",
+   "cat": "L1·隐蔽线索",
+   "pat": "(?:old\\.)?reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+",
+   "lead": "L1"
+  },
+  {
+   "name": "Reddit·新型毒品讨论",
+   "url": "https://old.reddit.com/r/researchchemicals/new/.rss?limit=100",
+   "lang": "?",
+   "cat": "L2·隐蔽线索",
+   "pat": "(?:old\\.)?reddit\\.com/r/[^?\\s)]+/comments/[^?\\s)]+",
+   "lead": "L2"
+  },
+  {
+   "name": "Bluelight·新精神活性物质",
+   "url": "https://bluelight.org/xf/forums/new-reports.213/",
+   "lang": "?",
+   "cat": "L2·隐蔽线索",
+   "pat": "(?:bluelight\\.org)?/xf/threads/[^?\\s)]+",
+   "lead": "L2"
+  },
+  {
+   "name": "Bluelight·合成大麻素",
+   "url": "https://bluelight.org/xf/forums/synthetic-cannabinoids.175/",
+   "lang": "?",
+   "cat": "L2·隐蔽线索",
+   "pat": "(?:bluelight\\.org)?/xf/threads/[^?\\s)]+",
+   "lead": "L2"
+  },
+  {
+   "name": "日本共同社",
+   "url": "https://english.kyodonews.net/",
+   "lang": "en",
+   "cat": "日韩",
+   "pat": "english\\.kyodonews\\.net/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "韩联社英文",
+   "url": "https://en.yna.co.kr/",
+   "lang": "en",
+   "cat": "日韩",
+   "pat": "en\\.yna\\.co\\.kr/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "新加坡海峡时报",
+   "url": "https://www.straitstimes.com/asia",
+   "lang": "en",
+   "cat": "东南亚",
+   "pat": "straitstimes\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "AllAfrica-中国",
+   "url": "https://allafrica.com/china/",
+   "lang": "en",
+   "cat": "非洲",
+   "pat": "allafrica\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "NHK World",
+   "url": "https://www3.nhk.or.jp/nhkworld/en/news/",
+   "lang": "en",
+   "cat": "日韩",
+   "pat": "nhk\\.or\\.jp/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "台湾聚焦",
+   "url": "https://focustaiwan.tw/",
+   "lang": "en",
+   "cat": "台海",
+   "pat": "focustaiwan\\.tw/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "CSIS中国力量",
+   "url": "https://chinapower.csis.org/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "chinapower\\.csis\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "澳洲ASPI",
+   "url": "https://www.aspi.org.au/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "aspi\\.org\\.au/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Jamestown中国简报",
+   "url": "https://jamestown.org/programs/china-brief/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "jamestown\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "菲律宾马尼拉时报",
+   "url": "https://www.manilatimes.net/",
+   "lang": "en",
+   "cat": "东南亚",
+   "pat": "manilatimes\\.net/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Daily Maverick",
+   "url": "https://www.dailymaverick.co.za/",
+   "lang": "en",
+   "cat": "非洲",
+   "pat": "dailymaverick\\.co\\.za/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "自由时报",
+   "url": "https://news.ltn.com.tw/",
+   "lang": "zh-TW",
+   "cat": "台海",
+   "pat": "ltn\\.com\\.tw/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "法广中文",
+   "url": "https://www.rfi.fr/cn/",
+   "lang": "zh",
+   "cat": "中国议题",
+   "pat": "rfi\\.fr/cn/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "GoFundMe·港独筹款",
+   "url": "https://www.gofundme.com/s?q=hong%20kong%20protest",
+   "lang": "en",
+   "cat": "L3·隐蔽线索",
+   "pat": "gofundme\\.com/f/[^?\\s)]+",
+   "lead": "L3"
+  },
+  {
+   "name": "GoFundMe·台湾独立筹款",
+   "url": "https://www.gofundme.com/s?q=taiwan%20independence",
+   "lang": "en",
+   "cat": "L3·隐蔽线索",
+   "pat": "gofundme\\.com/f/[^?\\s)]+",
+   "lead": "L3"
+  },
+  {
+   "name": "GoFundMe·维权律师基金",
+   "url": "https://www.gofundme.com/s?q=china%20lawyer%20defense%20fund",
+   "lang": "en",
+   "cat": "L3·隐蔽线索",
+   "pat": "gofundme\\.com/f/[^?\\s)]+",
+   "lead": "L3"
+  },
+  {
+   "name": "Meetup·反华抗议活动",
+   "url": "https://www.meetup.com/find/?keywords=china%20protest",
+   "lang": "en",
+   "cat": "L1·隐蔽线索",
+   "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+",
+   "lead": "L1"
+  },
+  {
+   "name": "Meetup·港人集会",
+   "url": "https://www.meetup.com/find/?keywords=hong%20kong%20rally",
+   "lang": "en",
+   "cat": "L1·隐蔽线索",
+   "pat": "meetup\\.com/[^?\\s)]+/events/[^?\\s)]+",
+   "lead": "L1"
+  },
+  {
+   "name": "Disboard·政治活动服务器",
+   "url": "https://disboard.org/search?keyword=china%20protest",
+   "lang": "en",
+   "cat": "L1·隐蔽线索",
+   "pat": "disboard\\.org/server/[0-9]+",
+   "lead": "L1"
+  },
+  {
+   "name": "Disboard·异见社群服务器",
+   "url": "https://disboard.org/search?keyword=dissident",
+   "lang": "en",
+   "cat": "L3·隐蔽线索",
+   "pat": "disboard\\.org/server/[0-9]+",
+   "lead": "L3"
+  },
+  {
+   "name": "TGStat·涉华频道目录",
+   "url": "https://tgstat.com/search?q=china",
+   "lang": "en",
+   "cat": "L3·隐蔽线索",
+   "pat": "tgstat\\.com/channel/@[A-Za-z0-9_]+",
+   "lead": "L3"
+  },
+  {
+   "name": "TG·用户定向频道·老李",
+   "url": "https://t.me/s/lilaoshibushinilaoshi",
+   "lang": "zh",
+   "cat": "反华组织动向",
+   "pat": "t\\.me/s/[^\\s\\)\\]]+",
+   "lead": true
+  },
+  {
+   "name": "TG·用户定向频道·投者频道",
+   "url": "https://t.me/s/whyyoutouzhele_memecoin",
+   "lang": "zh",
+   "cat": "反华组织动向",
+   "pat": "t\\.me/s/[^\\s\\)\\]]+",
+   "lead": true
+  },
+  {
+   "name": "TG·用户定向频道·反党分子系",
+   "url": "https://t.me/s/fandangfenzixi",
+   "lang": "zh",
+   "cat": "反华组织动向",
+   "pat": "t\\.me/s/[^\\s\\)\\]]+",
+   "lead": true
+  },
+  {
+   "name": "TG·用户定向频道·新纪元",
+   "url": "https://t.me/s/xinjiyuan9",
+   "lang": "zh",
+   "cat": "反华组织动向",
+   "pat": "t\\.me/s/[^\\s\\)\\]]+",
+   "lead": true
+  },
+  {
+   "name": "TG·用户定向频道·国社系",
+   "url": "https://t.me/s/ChineseNationalSocialism",
+   "lang": "zh",
+   "cat": "反华组织动向",
+   "pat": "t\\.me/s/[^\\s\\)\\]]+",
+   "lead": true
+  },
+  {
+   "name": "TG目录·藏人频道",
+   "url": "https://tgstat.com/search?q=tibet",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG目录·维吾尔频道",
+   "url": "https://tgstat.com/search?q=uyghur",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG目录·港台频道",
+   "url": "https://tgstat.com/search?q=hong%20kong",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG目录·异见频道",
+   "url": "https://tgstat.com/search?q=dissident",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG目录·反华频道",
+   "url": "https://tgstat.com/search?q=anti%20china",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG目录·抗议频道",
+   "url": "https://tgstat.com/search?q=protest%20china",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG频道站·涉华频道",
+   "url": "https://telegramchannels.me/search/china",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "TG频道站·异见频道",
+   "url": "https://telegramchannels.me/search/dissident",
+   "lang": "en",
+   "cat": "反华组织动向",
+   "pat": "[a-z0-9_/\\-\\.]",
+   "lead": true
+  },
+  {
+   "name": "联合早报-中国",
+   "url": "https://www.zaobao.com.sg/news/china",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "zaobao\\.com\\.sg/(?:news|realtime)/china/[^?\\s)\\]]+"
+  },
+  {
+   "name": "日经中文网",
+   "url": "https://cn.nikkei.com/politicsaeconomy/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "(?:https?://cn\\.nikkei\\.com)?(/[a-z]+/[0-9A-Za-z_.-]+\\.html)"
+  },
+  {
+   "name": "韩联社中文",
+   "url": "https://cn.yna.co.kr/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "cn\\.yna\\.co\\.kr/view/[A-Z0-9_]+"
+  },
+  {
+   "name": "共同社中文",
+   "url": "https://chinese.kyodonews.net/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "(?:https?://chinese\\.kyodonews\\.net)?(/[0-9A-Za-z_/.-]+\\.html)"
+  },
+  {
+   "name": "中央社-国际",
+   "url": "https://www.cna.com.tw/list/aopl.aspx",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "cna\\.com\\.tw/news/[a-z]+/[^?\\s)\\]]+\\.aspx"
+  },
+  {
+   "name": "自由亚洲中文",
+   "url": "https://www.rfa.org/mandarin/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "(?:https?://(?:www\\.)?rfa\\.org)?(/mandarin/[0-9A-Za-z_/.-]+\\.html)"
+  },
+  {
+   "name": "澳广ABC中文",
+   "url": "https://www.abc.net.au/chinese/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "abc\\.net\\.au/chinese/[^?\\s)\\]]+"
+  },
+  {
+   "name": "金融时报中文",
+   "url": "https://www.ftchinese.com/channel/china.html",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "ftchinese\\.com/story/[^?\\s)\\]]+"
+  },
+  {
+   "name": "华尔街日报中文",
+   "url": "https://cn.wsj.com/zh-hant/world",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "cn\\.wsj\\.com/[^?\\s)\\]]+"
+  },
+  {
+   "name": "半岛中文",
+   "url": "https://chinese.aljazeera.net/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "chinese\\.aljazeera\\.net/[^?\\s)\\]]+"
+  },
+  {
+   "name": "风传媒-国际",
+   "url": "https://www.storm.mg/category/118",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "storm\\.mg/article/[^?\\s)\\]]+"
+  },
+  {
+   "name": "香港01-中国",
+   "url": "https://www.hk01.com/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "hk01\\.com/[^?\\s)\\]]+"
+  },
+  {
+   "name": "明报-国际",
+   "url": "https://news.mingpao.com/ins/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "mingpao\\.com/[a-z]+/[^?\\s)\\]]+"
+  },
+  {
+   "name": "中时新闻网",
+   "url": "https://www.chinatimes.com/realtimenews/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "chinatimes\\.com/[^?\\s)\\]]+"
+  },
+  {
+   "name": "世界新闻网",
+   "url": "https://www.worldjournal.com/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "(?:https?://(?:www\\.)?worldjournal\\.com)?(/(?:wj|story|news|gb)/[0-9A-Za-z_/.-]+)"
+  },
+  {
+   "name": "当今大马中文",
+   "url": "https://zh.malaysiakini.com/news",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "(?:https?://zh\\.malaysiakini\\.com)?(/news/[0-9A-Za-z_-]+)"
+  },
+  {
+   "name": "朝鲜日报中文",
+   "url": "https://cnnews.chosun.com/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "cnnews\\.chosun\\.com/[^?\\s)\\]]+"
+  },
+  {
+   "name": "中央日报中文",
+   "url": "https://chinese.joins.com/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "chinese\\.joins\\.com/news/[^?\\s)\\]]+"
+  },
+  {
+   "name": "加广RCI中文",
+   "url": "https://www.rcinet.ca/zhongwen/",
+   "lang": "zh",
+   "cat": "中文硬新闻",
+   "pat": "(?:https?://(?:www\\.)?rcinet\\.ca)?(/(?:zhongwen|zh|news|a-propos)/[0-9A-Za-z_/.-]+)"
+  },
+  {
+   "name": "美国商务部-新闻",
+   "url": "https://www.commerce.gov/news",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "(?:https?://(?:www\\.)?commerce\\.gov)?(/news/[0-9A-Za-z_/.-]+)"
+  },
+  {
+   "name": "美国国防部-新闻",
+   "url": "https://www.defense.gov/news/",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "defense\\.gov/news/[^?\\s)\\]]+"
+  },
+  {
+   "name": "欧盟委员会-新闻",
+   "url": "https://ec.europa.eu/commission/presscorner/home/en",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "ec\\.europa\\.eu/commission/presscorner/detail/[^?\\s)\\]]+"
+  },
+  {
+   "name": "北约-新闻",
+   "url": "https://www.nato.int/cps/en/natohq/news.htm",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "(?:https?://(?:www\\.)?nato\\.int)?(/cps/en/[A-Za-z0-9_/.-]+\\.htm)"
+  },
+  {
+   "name": "日经亚洲-中国",
+   "url": "https://asia.nikkei.com/Spotlight/China",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "asia\\.nikkei\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "日经亚洲-商业",
+   "url": "https://asia.nikkei.com/Business",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "asia\\.nikkei\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "美贸易代表办公室-新闻稿",
+   "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "ustr\\.gov/[^\\s\\)\\]]*press-release[^\\s\\)\\]]*"
+  },
+  {
+   "name": "美工业与安全局BIS-新闻",
+   "url": "https://www.bis.gov/newsroom",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "bis\\.gov/(?:newsroom|press-release|news|articles)[^\\s\\)\\]]*"
+  },
+  {
+   "name": "美国能源部-新闻",
+   "url": "https://www.energy.gov/newsroom",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "energy\\.gov/[a-z0-9\\-]+/[a-z0-9\\-]+/[a-z0-9\\-]+"
+  },
+  {
+   "name": "美国国务院-新闻稿",
+   "url": "https://www.state.gov/press-releases/",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "state\\.gov/press-releases/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "美国财政部-新闻稿",
+   "url": "https://home.treasury.gov/news/press-releases",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "home\\.treasury\\.gov/news/press-releases/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "白宫-声明与简报",
+   "url": "https://www.whitehouse.gov/briefing-room/statements-releases/feed/",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "whitehouse\\.gov/briefing-room/statements-releases/[0-9]{4}/[0-9]{2}/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "WTO-新闻",
+   "url": "https://www.wto.org/english/news_e/news_e.htm",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "wto\\.org/english/news_e/(?:news|press|sp|statements_e)[^\\s\\)\\]]*\\.htm"
+  },
+  {
+   "name": "欧盟贸易总署-新闻",
+   "url": "https://policy.trade.ec.europa.eu/news_en",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "policy\\.trade\\.ec\\.europa\\.eu/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "日本经产省METI-新闻",
+   "url": "https://www.meti.go.jp/english/press/index.html",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "meti\\.go\\.jp/english/press/[0-9]{4}/[^\\s\\)\\]]+\\.html"
+  },
+  {
+   "name": "USGS美国地质调查局-新闻",
+   "url": "https://www.usgs.gov/news",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "usgs\\.gov/news/[a-z0-9\\-]+/[a-z0-9\\-]+"
+  },
+  {
+   "name": "Mining.com矿业资讯",
+   "url": "https://www.mining.com/feed/",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "mining\\.com/[a-z0-9\\-/]*\\d{4,}/?"
+  },
+  {
+   "name": "IEA国际能源署-新闻",
+   "url": "https://www.iea.org/news.rss",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "iea\\.org/news/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "OilPrice能源资讯",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "oilprice\\.com/[^\\s\\)\\]]+\\.html"
+  },
+  {
+   "name": "USNI海军学会新闻",
+   "url": "https://news.usni.org/feed",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "news\\.usni\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Defense News防务新闻",
+   "url": "https://www.defensenews.com/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "defensenews\\.com/[a-z\\-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "美军印太司令部-新闻",
+   "url": "https://www.pacom.mil/news/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "pacom\\.mil/Media/News/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "IMF国际货币基金组织-新闻",
+   "url": "https://www.imf.org/en/News/RSS",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "imf\\.org/en/News/Articles/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Krebs网络安全",
+   "url": "https://krebsonsecurity.com/feed/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "krebsonsecurity\\.com/[0-9]{4}/[0-9]{2}/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "美国联邦公报",
+   "url": "https://www.federalregister.gov/documents.rss",
+   "lang": "en",
+   "cat": "官方公报",
+   "pat": "federalregister\\.gov/documents/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Dark Reading网络安全",
+   "url": "https://www.darkreading.com/rss.xml",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "darkreading\\.com/[a-z\\-]+/[a-z0-9\\-]+"
+  },
+  {
+   "name": "TechCrunch科技",
+   "url": "https://techcrunch.com/feed/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "techcrunch\\.com/[0-9]{4}/[0-9]{2}/[0-9]{2}/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "BleepingComputer安全",
+   "url": "https://www.bleepingcomputer.com/feed/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "bleepingcomputer\\.com/news/[a-z\\-]+/[a-z0-9\\-]+"
+  },
+  {
+   "name": "The Record网络安全",
+   "url": "https://therecord.media/feed",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "therecord\\.media/[a-z0-9\\-]+"
+  },
+  {
+   "name": "Semianalysis半导体",
+   "url": "https://semianalysis.com/feed/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "semianalysis\\.com/[0-9]{4}/[0-9]{2}/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Fastmarkets资源金属",
+   "url": "https://www.fastmarkets.com/feed/",
+   "lang": "en",
+   "cat": "资源矿产",
+   "pat": "fastmarkets\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Argus Media能源",
+   "url": "https://www.argusmedia.com/en/rss",
+   "lang": "en",
+   "cat": "能源",
+   "pat": "argusmedia\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Cybersecurity Insiders",
+   "url": "https://www.cybersecurity-insiders.com/feed/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "cybersecurity-insiders\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "CISA公告",
+   "url": "https://www.cisa.gov/news.xml",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "cisa\\.gov/news-events/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "BIS出口管制",
+   "url": "https://www.bis.doc.gov/index.php/8-newsroom/updates?format=feed",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "bis\\.doc\\.gov/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "S&P Global资源",
+   "url": "https://www.spglobal.com/commodityinsights/en/ci/rss?feed=Platts",
+   "lang": "en",
+   "cat": "资源矿产",
+   "pat": "spglobal\\.com/commodityinsights/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Wood Mackenzie能源",
+   "url": "https://www.woodmac.com/newsroom/rss/",
+   "lang": "en",
+   "cat": "能源",
+   "pat": "woodmac\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "South China Morning Post",
+   "url": "https://www.scmp.com/rss/91/feed",
+   "lang": "en",
+   "cat": "国际新闻",
+   "pat": "scmp\\.com/news/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "The Register Security",
+   "url": "https://www.theregister.com/security/headlines.atom",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "theregister\\.com/20\\d\\d/[^/\\\"]+/"
+  },
+  {
+   "name": "CyberScoop",
+   "url": "https://cyberscoop.com/feed/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "cyberscoop\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "SecurityWeek",
+   "url": "https://www.securityweek.com/feed/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "securityweek\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "The Record",
+   "url": "https://therecord.media/feed/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "therecord\\.media/[^/\\\"]+/"
+  },
+  {
+   "name": "Mining Technology",
+   "url": "https://www.mining-technology.com/feed/",
+   "lang": "en",
+   "cat": "资源矿产",
+   "pat": "mining-technology\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "S&P Global Mining",
+   "url": "https://www.spglobal.com/commodityinsights/en/about-us/rss",
+   "lang": "en",
+   "cat": "资源矿产",
+   "pat": "spglobal\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "Defense One",
+   "url": "https://www.defenseone.com/rss/",
+   "lang": "en",
+   "cat": "外交防务",
+   "pat": "defenseone\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "War on the Rocks",
+   "url": "https://warontherocks.com/feed/",
+   "lang": "en",
+   "cat": "外交防务",
+   "pat": "warontherocks\\.com/20\\d\\d/[^/\\\"]+/"
+  },
+  {
+   "name": "Foreign Policy",
+   "url": "https://foreignpolicy.com/feed/",
+   "lang": "en",
+   "cat": "外交防务",
+   "pat": "foreignpolicy\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "The Diplomat",
+   "url": "https://thediplomat.com/feed/",
+   "lang": "en",
+   "cat": "外交防务",
+   "pat": "thediplomat\\.com/20\\d\\d/[^/\\\"]+/"
+  },
+  {
+   "name": "Defense News",
+   "url": "https://www.defensenews.com/arc/outboundfeeds/rss/",
+   "lang": "en",
+   "cat": "外交防务",
+   "pat": "defensenews\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "USNI News",
+   "url": "https://www.usni.org/rss",
+   "lang": "en",
+   "cat": "外交防务",
+   "pat": "usni\\.org/[^/\\\"]+"
+  },
+  {
+   "name": "Ars Technica",
+   "url": "https://feeds.arstechnica.com/arstechnica/index",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "arstechnica\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "Wired",
+   "url": "https://www.wired.com/feed/rss",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "wired\\.com/story/[^/\\\"]+/"
+  },
+  {
+   "name": "The Information",
+   "url": "https://www.theinformation.com/feed",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "theinformation\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "gCaptain",
+   "url": "https://gcaptain.com/feed/",
+   "lang": "en",
+   "cat": "航运能源",
+   "pat": "gcaptain\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "TradeWinds",
+   "url": "https://tradewindsnews.com/feed/",
+   "lang": "en",
+   "cat": "航运能源",
+   "pat": "tradewindsnews\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "Reuters World",
+   "url": "https://feeds.reuters.com/reuters/worldNews",
+   "lang": "en",
+   "cat": "综合硬闻",
+   "pat": "reuters\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "AP News",
+   "url": "https://apnews.com/rss/hq",
+   "lang": "en",
+   "cat": "综合硬闻",
+   "pat": "apnews\\.com/article/[^/\\\"]+"
+  },
+  {
+   "name": "BBC World",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+   "lang": "en",
+   "cat": "综合硬闻",
+   "pat": "bbc\\.com/news/articles/[^/\\\"]+"
+  },
+  {
+   "name": "Nikkei Asia",
+   "url": "https://asia.nikkei.com/rss/feed.xml",
+   "lang": "en",
+   "cat": "综合硬闻",
+   "pat": "asia\\.nikkei\\.com/[^/\\\"]+/"
+  },
+  {
+   "name": "FT",
+   "url": "https://www.ft.com/rss/home",
+   "lang": "en",
+   "cat": "综合硬闻",
+   "pat": "ft\\.com/content/[^/\\\"]+"
+  },
+  {
+   "name": "CSIS ChinaPower",
+   "url": "https://chinapower.csis.org/feed/",
+   "lang": "en",
+   "cat": "智库报告",
+   "pat": "chinapower\\.csis\\.org/[^/\\\"]+/"
+  },
+  {
+   "name": "ASPI",
+   "url": "https://www.aspi.org.au/feed/",
+   "lang": "en",
+   "cat": "智库报告",
+   "pat": "aspi\\.org\\.au/[^/\\\"]+/"
+  },
+  {
+   "name": "RAND",
+   "url": "https://www.rand.org/about/news.rss",
+   "lang": "en",
+   "cat": "智库报告",
+   "pat": "rand\\.org/pubs/[^/\\\"]+"
+  }
+ ],
+ "search_categories": [
+  {
+   "cat": "区域安全",
+   "q": "China Taiwan regional security military defense"
+  },
+  {
+   "cat": "海上动态",
+   "q": "South China Sea maritime coast guard naval"
+  },
+  {
+   "cat": "科技产业",
+   "q": "China semiconductor chip export control technology"
+  },
+  {
+   "cat": "网络安全",
+   "q": "China cybersecurity data breach online security"
+  },
+  {
+   "cat": "贸易往来",
+   "q": "China trade tariff export restriction customs"
+  },
+  {
+   "cat": "资源供应链",
+   "q": "China rare earth supply chain critical minerals"
+  },
+  {
+   "cat": "地区治理",
+   "q": "China Hong Kong Xinjiang Tibet policy"
+  },
+  {
+   "cat": "信息生态",
+   "q": "China online misinformation media campaign"
+  },
+  {
+   "cat": "国防动态",
+   "q": "China defense nuclear military buildup"
+  },
+  {
+   "cat": "外交动态",
+   "q": "China diplomacy summit foreign policy bilateral"
+  },
+  {
+   "cat": "金砖与全球南方",
+   "q": "China BRICS summit Global South cooperation"
+  },
+  {
+   "cat": "出入境政策",
+   "q": "China exit entry ban visa passport border policy"
+  },
+  {
+   "cat": "日韩动向",
+   "q": "China Japan Korea relations policy move"
+  },
+  {
+   "cat": "非洲动向",
+   "q": "China Africa policy Chinese workers projects security"
+  },
+  {
+   "cat": "领导人变动",
+   "q": "China leadership reshuffle senior official change"
+  },
+  {
+   "cat": "节日重要节点",
+   "q": "China National Day October anniversary sensitive date"
+  },
+  {
+   "cat": "科研限制",
+   "q": "China NSF grant restriction entity list academic research sanction university"
+  },
+  {
+   "cat": "科研人才流动",
+   "q": "China scientist academic exchange visa talent program restriction"
+  },
+  {
+   "cat": "供应链围堵",
+   "q": "EU supply chain decoupling solidarity mechanism subsidy critical materials China"
+  },
+  {
+   "cat": "网络攻击",
+   "q": "China website deface hacktivist military school information warfare cyberattack"
+  },
+  {
+   "cat": "跨境黑产",
+   "q": "gambling source code leak Telegram money laundering scam underground market"
+  },
+  {
+   "cat": "活动筹备痕迹",
+   "q": "protest event recruitment poster volunteers meeting point location announcement"
+  },
+  {
+   "cat": "快闪行动预告",
+   "q": "flash mob surprise action street demonstration announcement date"
+  },
+  {
+   "cat": "线上串联协调",
+   "q": "organize rally coordination volunteers signal channel private group"
+  },
+  {
+   "cat": "Eventbrite活动",
+   "q": "site:eventbrite.com tibet OR uyghur OR \"hong kong\" protest event"
+  },
+  {
+   "cat": "GoFundMe筹款新",
+   "q": "site:gofundme.com china dissident OR uyghur OR \"hong kong\" fundraiser"
+  },
+  {
+   "cat": "Discord服务器",
+   "q": "site:disboard.org china OR chinese OR dissident discord server"
+  },
+  {
+   "cat": "海外华人论坛",
+   "q": "site:mitbbs.com 集会 招募 串联 活动 众筹 快闪 投影 组织"
+  },
+  {
+   "cat": "海外华人论坛",
+   "q": "site:club.6parkbbs.com 集会 招募 串联 活动 众筹 快闪 投影 组织"
+  },
+  {
+   "cat": "海外华人论坛",
+   "q": "site:bbs.wenxuecity.com 集会 招募 串联 活动 众筹 快闪 投影 组织"
+  },
+  {
+   "cat": "视频平台动员",
+   "q": "site:rumble.com 中国 行动 招募 集结 投影 抗议 集会"
+  },
+  {
+   "cat": "视频平台动员",
+   "q": "site:bitchute.com 中国 行动 招募 集结 投影 抗议 集会"
+  },
+  {
+   "cat": "快照追溯",
+   "q": "site:archive.ph 集会 招募 募捐 活动预告 抗议 被删除 召集"
+  },
+  {
+   "cat": "众筹经费",
+   "q": "site:patreon.com OR site:ko-fi.com OR site:buymeacoffee.com 活动经费 政治献金 维权基金 宣传费用"
+  },
+  {
+   "cat": "Discord目录",
+   "q": "site:discords.com OR site:top.gg china politics protest server"
+  },
+  {
+   "cat": "论坛行动讨论",
+   "q": "site:boards.4chan.org/pol/ china action protest recruitment gathering"
+  },
+  {
+   "cat": "深度伪造认知战",
+   "q": "deepfake China disinformation AI manipulation overseas Chinese"
+  },
+  {
+   "cat": "无人机投影行动",
+   "q": "China protest drone projection LED overseas Chinese community"
+  },
+  {
+   "cat": "虚拟货币政治募资",
+   "q": "China dissident cryptocurrency fundraising sanctions crypto donations"
+  },
+  {
+   "cat": "海外华人社团渗透",
+   "q": "overseas Chinese church underground infiltration human rights organization recruitment"
+  },
+  {
+   "cat": "敏感节点集会筹备",
+   "q": "overseas protest anniversary sensitive date China embassy demonstration planning"
+  },
+  {
+   "cat": "新众筹平台",
+   "q": "site:chuffed.org OR site:fundly.com OR site:indiegogo.com China OR Chinese political protest fundraiser"
+  },
+  {
+   "cat": "活动平台新源",
+   "q": "site:luma.events OR site:mobilize.us China OR Hong Kong OR Taiwan protest gathering event"
+  },
+  {
+   "cat": "请愿平台",
+   "q": "site:change.org China OR Chinese OR Hong Kong OR Uyghur petition"
+  },
+  {
+   "cat": "反华博客",
+   "q": "site:substack.com China dissident protest recruitment fundraising campaign"
+  },
+  {
+   "cat": "右翼视频社交",
+   "q": "site:rumble.com OR site:truthsocial.com OR site:parler.com China protest action recruitment"
+  },
+  {
+   "cat": "涉外法律动向",
+   "q": "China extraterritorial jurisdiction sanctions court case overseas asset freeze"
+  },
+  {
+   "cat": "宗教渗透新载体",
+   "q": "overseas China church fellowship campus ministry infiltration underground network report"
+  },
+  {
+   "cat": "TG公开频道定向",
+   "q": "site:t.me/s/ China OR Chinese OR Tibet OR Uyghur OR Hong Kong protest rally recruitment"
+  },
+  {
+   "cat": "Telegram频道发现",
+   "q": "telegram channel anti China Uyghur Tibet Hong Kong protest new group recruitment"
+  },
+  {
+   "cat": "能源通道",
+   "q": "China oil gas LNG pipeline Strait of Malacca energy corridor shipping security"
+  },
+  {
+   "cat": "油气海运",
+   "q": "China LNG carrier crude oil tanker port terminal chokepoint Hormuz energy import"
+  },
+  {
+   "cat": "关键矿产",
+   "q": "China lithium gallium germanium graphite copper critical minerals export restriction mining"
+  },
+  {
+   "cat": "金融清算",
+   "q": "China yuan renminbi cross-border payment SWIFT clearing financial sanctions de-risk"
+  },
+  {
+   "cat": "去美元化",
+   "q": "China BRICS de-dollarization renminbi local currency trade settlement Global South"
+  },
+  {
+   "cat": "装备开源情报",
+   "q": "China new naval vessel aircraft carrier UUV drone shipyard satellite imagery deployment"
+  },
+  {
+   "cat": "社会民生舆情",
+   "q": "China social media public opinion anxiety youth livelihood viral"
+  },
+  {
+   "cat": "关键矿产管制",
+   "q": "China critical minerals rare earth gallium germanium export restriction"
+  },
+  {
+   "cat": "货币金融避险",
+   "q": "China cross-border payment yuan SWIFT sanction treasury"
+  },
+  {
+   "cat": "海外涉华行动",
+   "q": "China overseas NGO diaspora influence campaign new coalition"
+  },
+  {
+   "cat": "数据泄露事件",
+   "q": "China database leak breach dark web personal records"
+  },
+  {
+   "cat": "科技管制出口",
+   "q": "China export control semiconductor chip entity list sanction restriction"
+  },
+  {
+   "cat": "经贸摩擦",
+   "q": "China trade tariff retaliation commerce section 301 WTO dispute"
+  },
+  {
+   "cat": "金融制裁",
+   "q": "China treasury OFAC sanction bank cross-border payment"
+  },
+  {
+   "cat": "数据安全事件",
+   "q": "China data breach leak dark web personal info database"
+  },
+  {
+   "cat": "社会舆情风险",
+   "q": "China social media public sentiment livelihood anxiety youth"
+  },
+  {
+   "cat": "涉华网络攻击",
+   "q": "China cyberattack Volt Typhoon APT hacking infrastructure US critical"
+  },
+  {
+   "cat": "稀土出口管制",
+   "q": "China rare earth export control gallium germanium antimony restriction"
+  },
+  {
+   "cat": "半导体管制",
+   "q": "China semiconductor export control chip entity list restriction"
+  },
+  {
+   "cat": "涉外机构动态",
+   "q": "China diaspora organization new activity coalition campaign"
+  },
+  {
+   "cat": "关键基础设施威胁",
+   "q": "China critical infrastructure threat submarine cable undersea"
+  },
+  {
+   "cat": "数据跨境与安全",
+   "q": "China data cross-border transfer security personal information law"
+  },
+  {
+   "cat": "芯片围堵",
+   "q": "chip enclosure semiconductor alliance export restriction migration"
+  },
+  {
+   "cat": "芯片供应链监控",
+   "q": "chip supply chain inspection surveillance due diligence"
+  },
+  {
+   "cat": "芯片执法",
+   "q": "entity list chip enforcement penalty smuggling"
+  },
+  {
+   "cat": "稀土博弈",
+   "q": "rare earth magnet export quota china processing"
+  },
+  {
+   "cat": "稀土封锁",
+   "q": "rare earth blockade processing dominant share bottleneck"
+  },
+  {
+   "cat": "非洲稀土",
+   "q": "africa rare earth mine china investment lithium cobalt"
+  },
+  {
+   "cat": "深海稀土",
+   "q": "deep sea mining pacific polymetallic nodule china"
+  },
+  {
+   "cat": "北极博弈",
+   "q": "arctic council nato china route resource dispute"
+  },
+  {
+   "cat": "北极航道",
+   "q": "northern sea route shipping icebreaker china"
+  },
+  {
+   "cat": "北极军事",
+   "q": "arctic military exercise nuclear patrol defense"
+  },
+  {
+   "cat": "红海危机",
+   "q": "red sea houthi shipping insurance tanker attack"
+  },
+  {
+   "cat": "海峡危机",
+   "q": "strait of malacca hormuz chokepoint shipping lane"
+  },
+  {
+   "cat": "二级制裁",
+   "q": "secondary sanctions china bank SWIFT oil trade"
+  },
+  {
+   "cat": "无人舰队",
+   "q": "unmanned surface vessel drone fleet naval exercise"
+  },
+  {
+   "cat": "蜂群作战",
+   "q": "drone swarm warfare anti-ship tactic"
+  },
+  {
+   "cat": "卫星对峙",
+   "q": "satellite confrontation anti-satellite debris orbit"
+  },
+  {
+   "cat": "太空军事化",
+   "q": "space militarization space force weapon satellite"
+  },
+  {
+   "cat": "联合军演",
+   "q": "joint military exercise quad trilateral indo-pacific"
+  },
+  {
+   "cat": "对台军售",
+   "q": "arms sale taiwan defense weapon package"
+  },
+  {
+   "cat": "人才安全",
+   "q": "talent security visa restriction scholar academy"
+  },
+  {
+   "cat": "人才竞争",
+   "q": "global talent competition recruitment science"
+  },
+  {
+   "cat": "认知战链条",
+   "q": "cognitive warfare narrative influence operation chain"
+  },
+  {
+   "cat": "网络攻击指认",
+   "q": "cyber attack attribution hacking allegation state"
+  },
+  {
+   "cat": "贸易制裁纵深",
+   "q": "tariff trade sanction escalation export control"
+  },
+  {
+   "cat": "美联储货币",
+   "q": "fed rate cut dollar swap emerging market debt"
+  },
+  {
+   "cat": "数据安全供应链",
+   "q": "data security cross-border supply chain cloud"
+  },
+  {
+   "cat": "智库叙事",
+   "q": "think tank report china threat assessment narrative"
+  },
+  {
+   "cat": "AI安全",
+   "q": "ai safety frontier model export restriction"
+  },
+  {
+   "cat": "AI武器化",
+   "q": "ai weaponization autonomous lethal drone military"
+  },
+  {
+   "cat": "AI认知威胁",
+   "q": "ai cognitive threat misinformation synthetic media"
+  },
+  {
+   "cat": "海外警务",
+   "q": "overseas police station transnational repression"
+  },
+  {
+   "cat": "投资审查",
+   "q": "cfius outbound investment screening national security"
+  },
+  {
+   "cat": "港口投资",
+   "q": "port investment belt and road africa pakistan greece"
+  },
+  {
+   "cat": "渔业执法",
+   "q": "coast guard fishing disputed island enforcement"
+  },
+  {
+   "cat": "油气管道",
+   "q": "gas pipeline europe sanctions energy transit"
+  },
+  {
+   "cat": "稀土加工",
+   "q": "rare earth processing magnet neodymium supply"
+  },
+  {
+   "cat": "军控条约",
+   "q": "arms control treaty nuclear negotiation"
+  },
+  {
+   "cat": "ASML光刻",
+   "q": "ASML EUV lithography export restriction"
+  },
+  {
+   "cat": "金砖军演",
+   "q": "BRICS military exercise joint"
+  },
+  {
+   "cat": "链式威慑",
+   "q": "chain deterrence missile defense deployment"
+  },
+  {
+   "cat": "国防预算",
+   "q": "defense budget military spending increase"
+  },
+  {
+   "cat": "国防工业",
+   "q": "defense industrial base revitalization"
+  },
+  {
+   "cat": "作战概念",
+   "q": "military doctrine new strategy naming"
+  },
+  {
+   "cat": "演习拆解",
+   "q": "military exercise analysis order battle"
+  },
+  {
+   "cat": "五眼南太",
+   "q": "Five Eyes south Pacific security"
+  },
+  {
+   "cat": "岛礁军事化",
+   "q": "island militarization outpost base"
+  },
+  {
+   "cat": "联合空袭",
+   "q": "joint airstrike operation middle east"
+  },
+  {
+   "cat": "海上民兵",
+   "q": "maritime militia fishing vessel patrol"
+  },
+  {
+   "cat": "军援失败",
+   "q": "military aid package failure delay"
+  },
+  {
+   "cat": "军机对峙",
+   "q": "military aircraft intercept confrontation"
+  },
+  {
+   "cat": "军事对峙",
+   "q": "military standoff border deployment"
+  },
+  {
+   "cat": "导弹墙",
+   "q": "missile defense wall deployment intercept"
+  },
+  {
+   "cat": "多边军事机制",
+   "q": "multilateral military pact mechanism"
+  },
+  {
+   "cat": "海外基地",
+   "q": "overseas military base expansion"
+  },
+  {
+   "cat": "私人安保",
+   "q": "private military contractor PMC"
+  },
+  {
+   "cat": "准同盟",
+   "q": "quasi-alliance defense pact"
+  },
+  {
+   "cat": "对台无人机",
+   "q": "Taiwan drone asymmetric warfare"
+  },
+  {
+   "cat": "中国军力报告",
+   "q": "annual military report China congress"
+  },
+  {
+   "cat": "AI意识形态战",
+   "q": "AI ideological warfare large model"
+  },
+  {
+   "cat": "AI多模型窃密",
+   "q": "AI multi model spy pipeline"
+  },
+  {
+   "cat": "开源AI供应链",
+   "q": "open source AI supply chain risk"
+  },
+  {
+   "cat": "AI研究同质",
+   "q": "AI research homogenization duplication"
+  },
+  {
+   "cat": "AI技术霸权",
+   "q": "AI technology hegemony frontier model"
+  },
+  {
+   "cat": "AI工具投毒",
+   "q": "AI tool poisoning supply chain"
+  },
+  {
+   "cat": "电池卡点",
+   "q": "battery technology choke point lithium"
+  },
+  {
+   "cat": "算力超市",
+   "q": "computing power cloud export control"
+  },
+  {
+   "cat": "数据中心",
+   "q": "data center investment overseas"
+  },
+  {
+   "cat": "两用技术",
+   "q": "dual use technology export control"
+  },
+  {
+   "cat": "设备拆解",
+   "q": "equipment teardown analysis chip"
+  },
+  {
+   "cat": "硬件后门",
+   "q": "hardware backdoor chip supply"
+  },
+  {
+   "cat": "知识库投毒",
+   "q": "knowledge base poisoning AI"
+  },
+  {
+   "cat": "开源投毒",
+   "q": "open source poisoning ML supply chain"
+  },
+  {
+   "cat": "专利战",
+   "q": "patent war trade dispute ITC"
+  },
+  {
+   "cat": "平台算法",
+   "q": "platform algorithm governance regulation"
+  },
+  {
+   "cat": "侧信道攻击",
+   "q": "side channel attack chip vulnerability"
+  },
+  {
+   "cat": "供应链数据泄露",
+   "q": "supply chain data leak breach"
+  },
+  {
+   "cat": "技术脱钩",
+   "q": "tech decoupling supply chain reshoring"
+  },
+  {
+   "cat": "技术许可",
+   "q": "technology licensing restriction"
+  },
+  {
+   "cat": "航空锂电",
+   "q": "aviation lithium battery supply"
+  },
+  {
+   "cat": "气候链条",
+   "q": "climate policy supply chain transmission"
+  },
+  {
+   "cat": "非洲矿产融资",
+   "q": "DFC Africa mining investment counter"
+  },
+  {
+   "cat": "能源制裁",
+   "q": "energy sanctions oil pipeline LNG"
+  },
+  {
+   "cat": "欧盟原材料",
+   "q": "EU raw materials act critical"
+  },
+  {
+   "cat": "海外采矿权",
+   "q": "overseas mining rights acquisition"
+  },
+  {
+   "cat": "资源股权",
+   "q": "resource equity battle investment"
+  },
+  {
+   "cat": "页岩资源",
+   "q": "shale resource speculation penetration"
+  },
+  {
+   "cat": "航道保险",
+   "q": "shipping route sanction insurance premium"
+  },
+  {
+   "cat": "供应链争夺",
+   "q": "supply chain battle reshoring friendshoring"
+  },
+  {
+   "cat": "央行货币",
+   "q": "central bank digital currency CBDC"
+  },
+  {
+   "cat": "可转债波动",
+   "q": "convertible bond fluctuation market"
+  },
+  {
+   "cat": "跨境证券",
+   "q": "cross border securities regulation"
+  },
+  {
+   "cat": "汇率摩擦",
+   "q": "currency friction exchange rate"
+  },
+  {
+   "cat": "汇率干预",
+   "q": "currency intervention dollar reserve"
+  },
+  {
+   "cat": "金融数据霸权",
+   "q": "financial data hegemony SWIFT messaging"
+  },
+  {
+   "cat": "金融中心",
+   "q": "financial hub offshore Shanghai"
+  },
+  {
+   "cat": "金融人员布局",
+   "q": "financial personnel layout bank"
+  },
+  {
+   "cat": "非法跨境证券",
+   "q": "illegal cross border securities fraud"
+  },
+  {
+   "cat": "钱骡洗钱",
+   "q": "mule run money laundering ring"
+  },
+  {
+   "cat": "评级政治化",
+   "q": "credit rating politicization downgrade"
+  },
+  {
+   "cat": "房地产风险",
+   "q": "real estate risk crisis developer"
+  },
+  {
+   "cat": "补贴欺诈",
+   "q": "subsidy fraud green energy EV"
+  },
+  {
+   "cat": "科技公司威胁",
+   "q": "tech company national security threat"
+  },
+  {
+   "cat": "审美异化",
+   "q": "aesthetic cultural alienation narrative"
+  },
+  {
+   "cat": "预言认知战",
+   "q": "ancient prophecy cognitive war"
+  },
+  {
+   "cat": "双边关系虚假信息",
+   "q": "bilateral relation disinformation"
+  },
+  {
+   "cat": "慈善欺诈",
+   "q": "charity fraud scandal NGO"
+  },
+  {
+   "cat": "儿童产品",
+   "q": "children product safety recall"
+  },
+  {
+   "cat": "企业质量危机",
+   "q": "corporate quality crisis scandal"
+  },
+  {
+   "cat": "跨区诈骗",
+   "q": "cross region fraud scam telecom"
+  },
+  {
+   "cat": "邪教纪录片",
+   "q": "cult documentary evidence group"
+  },
+  {
+   "cat": "深伪造谣",
+   "q": "deepfake livelihood rumor viral"
+  },
+  {
+   "cat": "残障利用叙事",
+   "q": "disability exploitation narrative"
+  },
+  {
+   "cat": "电商黑灰产",
+   "q": "ecommerce black industry counterfeit"
+  },
+  {
+   "cat": "情绪渗透",
+   "q": "emotional infiltration social media"
+  },
+  {
+   "cat": "饭圈商业",
+   "q": "fandom business model controversy"
+  },
+  {
+   "cat": "饭圈乱象",
+   "q": "fandom chaos celebrity"
+  },
+  {
+   "cat": "电影文化攻击",
+   "q": "film cultural attack movie Hollywood"
+  },
+  {
+   "cat": "民俗炒作",
+   "q": "folk custom hype trend"
+  },
+  {
+   "cat": "谐音梗",
+   "q": "homophonic meme internet slang"
+  },
+  {
+   "cat": "婚恋疾病叙事",
+   "q": "marriage disease social narrative"
+  },
+  {
+   "cat": "医美诱导",
+   "q": "medical beauty inducement surgery"
+  },
+  {
+   "cat": "医疗资本",
+   "q": "medical capital crossover hospital"
+  },
+  {
+   "cat": "农民工问题",
+   "q": "migrant worker issue rights"
+  },
+  {
+   "cat": "网络色情",
+   "q": "online pornography platform regulation"
+  },
+  {
+   "cat": "平台隐私泄露",
+   "q": "platform privacy leak data breach"
+  },
+  {
+   "cat": "乡村养娃",
+   "q": "rural raising youth population"
+  },
+  {
+   "cat": "性别叙事",
+   "q": "gender narrative feminism"
+  },
+  {
+   "cat": "社会道德事件",
+   "q": "social moral event foreign media"
+  },
+  {
+   "cat": "电视剧辱",
+   "q": "TV drama insult detail scene"
+  },
+  {
+   "cat": "青年地下社群",
+   "q": "youth underground community subculture"
+  },
+  {
+   "cat": "语音克隆",
+   "q": "voice cloning deepfake scam"
+  },
+  {
+   "cat": "假下载站",
+   "q": "fake download site malware"
+  },
+  {
+   "cat": "假截图炒作",
+   "q": "fake screenshot hype rumor"
+  },
+  {
+   "cat": "二维码钓鱼",
+   "q": "QR code phishing scam"
+  },
+  {
+   "cat": "恶意插件",
+   "q": "malicious browser extension stealer"
+  },
+  {
+   "cat": "抢购恐慌",
+   "q": "panic buying shortage hoarding"
+  },
+  {
+   "cat": "科研经费审查",
+   "q": "academic funding review grant investigation"
+  },
+  {
+   "cat": "学术司法构陷",
+   "q": "academic judicial frameup arrest"
+  },
+  {
+   "cat": "反间谍执法",
+   "q": "counter espionage arrest China"
+  },
+  {
+   "cat": "反渗透执法",
+   "q": "counter infiltration enforcement"
+  },
+  {
+   "cat": "流亡议会",
+   "q": "exiled parliament government in waiting"
+  },
+  {
+   "cat": "人权制裁",
+   "q": "human rights sanction visa asset"
+  },
+  {
+   "cat": "情报机构威胁",
+   "q": "intelligence agency threat report annual"
+  },
+  {
+   "cat": "情报联盟",
+   "q": "intelligence alliance sharing five eyes"
+  },
+  {
+   "cat": "法律追责链",
+   "q": "legal accountability chain lawsuit"
+  },
+  {
+   "cat": "法律战",
+   "q": "legal warfare litigation trade"
+  },
+  {
+   "cat": "选择性执法",
+   "q": "selective enforcement law scrutiny"
+  },
+  {
+   "cat": "分离主义演化",
+   "q": "separatist evolution movement"
+  },
+  {
+   "cat": "跨国垄断",
+   "q": "transnational monopoly antitrust"
+  },
+  {
+   "cat": "旅行间谋",
+   "q": "travel espionage allegation detention"
+  },
+  {
+   "cat": "海外政治组织",
+   "q": "overseas political group organization"
+  },
+  {
+   "cat": "联网汽车数据",
+   "q": "connected car data privacy"
+  },
+  {
+   "cat": "消费者生物数据",
+   "q": "consumer biological data DNA"
+  },
+  {
+   "cat": "数据炒作",
+   "q": "data center hype investment"
+  },
+  {
+   "cat": "数字监管",
+   "q": "digital regulation platform DMA"
+  },
+  {
+   "cat": "移民政策",
+   "q": "immigration policy border wall"
+  },
+  {
+   "cat": "物联网安全",
+   "q": "IoT security vulnerability device"
+  },
+  {
+   "cat": "ITC禁令",
+   "q": "ITC injunction import ban tariff"
+  },
+  {
+   "cat": "IP武器化",
+   "q": "IP weaponization trade secret"
+  },
+  {
+   "cat": "圣战动员",
+   "q": "jihad mobilization radicalization fighter"
+  },
+  {
+   "cat": "长新冠生物",
+   "q": "long covid biomedical study"
+  },
+  {
+   "cat": "叙事围堵",
+   "q": "narrative encirclement media campaign"
+  },
+  {
+   "cat": "北约东扩",
+   "q": "NATO expansion narrative membership"
+  },
+  {
+   "cat": "宗教包装",
+   "q": "religious packaging extremism"
+  },
+  {
+   "cat": "种业安全",
+   "q": "seed industry anti espionage patent"
+  },
+  {
+   "cat": "小事化大",
+   "q": "small event escalate big security"
+  },
+  {
+   "cat": "峰会组合",
+   "q": "summit meeting combo bilateral"
+  },
+  {
+   "cat": "旅游扩张",
+   "q": "tourism expansion foreign visa"
+  },
+  {
+   "cat": "推墙运动",
+   "q": "wall pushing movement protest"
+  },
+  {
+   "cat": "撤离趋势",
+   "q": "withdrawal trend company exit"
+  },
+  {
+   "cat": "双轨围堵",
+   "q": "dual track encirclement chip export"
+  },
+  {
+   "cat": "任务部队",
+   "q": "task force military deployment"
+  },
+  {
+   "cat": "印太战略",
+   "q": "indo pacific strategy treaty"
+  },
+  {
+   "cat": "脱钩分析",
+   "q": "tech decoupling analysis supply chain"
+  },
+  {
+   "cat": "退出浪潮",
+   "q": "withdrawal wave company market"
+  },
+  {
+   "cat": "金融恐吓",
+   "q": "financial intimidation sanction threat"
+  },
+  {
+   "cat": "认知渗透",
+   "q": "cognitive infiltration narrative influence"
+  },
+  {
+   "cat": "技术联盟",
+   "q": "multilateral tech alliance chip"
+  },
+  {
+   "cat": "情报系统升级",
+   "q": "intelligence system reform upgrade"
+  },
+  {
+   "cat": "南海任务组",
+   "q": "south china sea task force patrol"
+  },
+  {
+   "cat": "微型核反应堆",
+   "q": "small modular nuclear reactor military"
+  },
+  {
+   "cat": "核潜艇",
+   "q": "nuclear submarine deployment patrol"
+  },
+  {
+   "cat": "核动力商船",
+   "q": "nuclear powered merchant ship cargo"
+  },
+  {
+   "cat": "海底电缆",
+   "q": "submarine cable undersea tapping"
+  },
+  {
+   "cat": "激光雕刻机",
+   "q": "laser engraver export control"
+  },
+  {
+   "cat": "中程防空",
+   "q": "NASAMS air defense missile system"
+  },
+  {
+   "cat": "航母",
+   "q": "aircraft carrier deployment western pacific"
+  },
+  {
+   "cat": "机器狗",
+   "q": "robot dog quadruped military exercise"
+  },
+  {
+   "cat": "甲醇船",
+   "q": "methanol fueled ship green methanol"
+  },
+  {
+   "cat": "造船产能",
+   "q": "shipbuilding merchant fleet overcapacity"
+  },
+  {
+   "cat": "轮胎关税",
+   "q": "tire tariff China import"
+  },
+  {
+   "cat": "钢铁关税",
+   "q": "steel overcapacity tariff China"
+  },
+  {
+   "cat": "光伏供应链",
+   "q": "solar panel supply chain polysilicon"
+  },
+  {
+   "cat": "锂矿",
+   "q": "lithium mine Chile Bolivia production"
+  },
+  {
+   "cat": "钴矿",
+   "q": "cobalt DRC Congo mining China"
+  },
+  {
+   "cat": "镍矿",
+   "q": "nickel Indonesia battery production"
+  },
+  {
+   "cat": "石墨",
+   "q": "graphite anode battery China export"
+  },
+  {
+   "cat": "战略石油储备",
+   "q": "strategic petroleum reserve release"
+  },
+  {
+   "cat": "能源走廊",
+   "q": "energy corridor pipeline central asia"
+  },
+  {
+   "cat": "苏伊士运河",
+   "q": "suez canal shipping disruption"
+  },
+  {
+   "cat": "巴拿马运河",
+   "q": "panama canal drought shipping"
+  },
+  {
+   "cat": "马六甲海峡",
+   "q": "malacca strait shipping lane"
+  },
+  {
+   "cat": "高超音速",
+   "q": "hypersonic missile test deployment"
+  },
+  {
+   "cat": "电磁弹射",
+   "q": "electromagnetic catapult aircraft carrier"
+  },
+  {
+   "cat": "五代机",
+   "q": "fifth generation stealth fighter"
+  },
+  {
+   "cat": "盾舰",
+   "q": "destroyer Aegis air defense"
+  },
+  {
+   "cat": "反舰弹道导弹",
+   "q": "anti-ship ballistic missile DF"
+  },
+  {
+   "cat": "预警机",
+   "q": "airborne early warning aircraft"
+  },
+  {
+   "cat": "无人机反制",
+   "q": "drone countermeasure air defense"
+  },
+  {
+   "cat": "芯片代工",
+   "q": "chip foundry TSMC Samsung"
+  },
+  {
+   "cat": "先进封装",
+   "q": "advanced packaging chiplet"
+  },
+  {
+   "cat": "EDA软件",
+   "q": "EDA software chip design export"
+  },
+  {
+   "cat": "工业软件",
+   "q": "industrial software CAD CAAM"
+  },
+  {
+   "cat": "数控机床",
+   "q": "CNC machine tool export control"
+  },
+  {
+   "cat": "科学仪器",
+   "q": "scientific instrument export restriction"
+  },
+  {
+   "cat": "医疗设备",
+   "q": "medical device export control"
+  },
+  {
+   "cat": "药品专利",
+   "q": "pharmaceutical patent waiver"
+  },
+  {
+   "cat": "转基因作物",
+   "q": "GMO seed patent agriculture"
+  },
+  {
+   "cat": "农业种子",
+   "q": "seed industry breeding patent"
+  },
+  {
+   "cat": "稀土永磁",
+   "q": "rare earth permanent magnet neodymium"
+  },
+  {
+   "cat": "磁体出口",
+   "q": "magnet export China restriction"
+  },
+  {
+   "cat": "电池回收",
+   "q": "battery recycling EV supply"
+  },
+  {
+   "cat": "电动车关税",
+   "q": "EV electric vehicle tariff China"
+  },
+  {
+   "cat": "充电桩",
+   "q": "charging station infrastructure"
+  },
+  {
+   "cat": "低空经济",
+   "q": "low altitude economy drone eVTOL"
+  },
+  {
+   "cat": "商业航天",
+   "q": "commercial space launch satellite"
+  },
+  {
+   "cat": "可重复火箭",
+   "q": "reusable rocket SpaceX China"
+  },
+  {
+   "cat": "量子计算",
+   "q": "quantum computing encryption"
+  },
+  {
+   "cat": "量子通信",
+   "q": "quantum communication satellite"
+  },
+  {
+   "cat": "脑机接口",
+   "q": "brain computer interface neural"
+  },
+  {
+   "cat": "合成生物",
+   "q": "synthetic biology biosecurity"
+  },
+  {
+   "cat": "基因编辑",
+   "q": "gene editing CRISPR regulation"
+  },
+  {
+   "cat": "mRNA疫苗",
+   "q": "mRNA vaccine biosecurity"
+  },
+  {
+   "cat": "数据跨境",
+   "q": "data cross border transfer regulation"
+  },
+  {
+   "cat": "算法歧视",
+   "q": "algorithm discrimination audit"
+  },
+  {
+   "cat": "深度伪造",
+   "q": "deepfake election disinformation"
+  },
+  {
+   "cat": "换脸软件",
+   "q": "face swap app deepfake"
+  },
+  {
+   "cat": "虚拟人",
+   "q": "virtual influencer AI avatar"
+  },
+  {
+   "cat": "数字人",
+   "q": "digital human avatar livestream"
+  },
+  {
+   "cat": "自动驾驶",
+   "q": "autonomous driving regulation"
+  },
+  {
+   "cat": "车联网",
+   "q": "vehicle to network cybersecurity"
+  },
+  {
+   "cat": "工业互联网",
+   "q": "industrial internet cybersecurity"
+  },
+  {
+   "cat": "智慧城市",
+   "q": "smart city surveillance China"
+  },
+  {
+   "cat": "人脸识别",
+   "q": "facial recognition technology export"
+  },
+  {
+   "cat": "监控设备",
+   "q": "surveillance equipment export Huawei"
+  },
+  {
+   "cat": "审查技术",
+   "q": "censorship technology export China"
+  },
+  {
+   "cat": "妙瓦底诈骗园区",
+   "q": "Shwe Kokko Myanmar scam park human trafficking"
+  },
+  {
+   "cat": "缅甸偷渡",
+   "q": "Myanmar border crossing scam forced labor"
+  },
+  {
+   "cat": "智能眼镜出海",
+   "q": "smart glasses privacy import ban"
+  },
+  {
+   "cat": "债务责任论",
+   "q": "debt trap narrative Global South China"
+  },
+  {
+   "cat": "第三国转口",
+   "q": "third country transshipment sanctions evasion"
+  },
+  {
+   "cat": "银行代理行",
+   "q": "correspondent bank shell company procurement"
+  },
+  {
+   "cat": "电影节渗透",
+   "q": "film festival cultural infiltration youth"
+  },
+  {
+   "cat": "欧盟混动稀土",
+   "q": "EU hybrid electric vehicle rare earth"
+  },
+  {
+   "cat": "超微芯片案",
+   "q": "Super Micro chip indictment transshipment"
+  },
+  {
+   "cat": "叠层光伏",
+   "q": "tandem solar cell perovskite efficiency"
+  },
+  {
+   "cat": "生育旅游免签",
+   "q": "birth tourism visa waiver China"
+  },
+  {
+   "cat": "防卫白皮书",
+   "q": "defense white paper Japan military expansion"
+  },
+  {
+   "cat": "反舰导弹",
+   "q": "anti-ship missile exercise Japan India"
+  },
+  {
+   "cat": "空中加油机",
+   "q": "aerial tanker refueling fleet upgrade"
+  },
+  {
+   "cat": "印太战略",
+   "q": "Indo Pacific strategy G7 summit"
+  },
+  {
+   "cat": "社会治理画像",
+   "q": "child abuse reporting AI family surveillance"
+  },
+  {
+   "cat": "网络攻击募资",
+   "q": "cyber attack fundraising crowdfunding"
+  },
+  {
+   "cat": "天基定向能",
+   "q": "space based directed energy weapon laser"
+  },
+  {
+   "cat": "黄金股权清退",
+   "q": "gold mine ownership China nationalization"
+  },
+  {
+   "cat": "莱纳斯稀土",
+   "q": "Lynas rare earth processing Australia"
+  },
+  {
+   "cat": "西班牙钨矿",
+   "q": "Spain tungsten mine IPO Europe"
+  },
+  {
+   "cat": "甘其毛都口岸",
+   "q": "Ganqimaodu border Mongolia copper export"
+  },
+  {
+   "cat": "奥尤陶勒盖",
+   "q": "Oyu Tolgoi copper mine Mongolia"
+  },
+  {
+   "cat": "北极关键材料",
+   "q": "Arctic critical minerals Canada EU"
+  },
+  {
+   "cat": "俄朝导弹",
+   "q": "Russia North Korea missile test Pacific"
+  },
+  {
+   "cat": "朝鲜黑客虚拟币",
+   "q": "North Korea hacker cryptocurrency theft"
+  },
+  {
+   "cat": "幽灵鲨无人机",
+   "q": "Ghost Shark Australian autonomous submarine"
+  },
+  {
+   "cat": "法国数据主权",
+   "q": "France data sovereignty regulation"
+  },
+  {
+   "cat": "法国对华军事",
+   "q": "France military Indo Pacific China"
+  },
+  {
+   "cat": "菲律宾海军",
+   "q": "Philippines navy patrol new ship"
+  },
+  {
+   "cat": "可穿戴设备",
+   "q": "wearable device privacy regulation"
+  },
+  {
+   "cat": "铜出口",
+   "q": "copper export Chile Peru supply"
+  },
+  {
+   "cat": "钨矿",
+   "q": "tungsten mine China export processing"
+  },
+  {
+   "cat": "锂矿投资",
+   "q": "lithium investment Ghana UK company"
+  },
+  {
+   "cat": "中资清退",
+   "q": "Chinese investment nationalization mineral"
+  },
+  {
+   "cat": "反补贴税",
+   "q": "anti-subsidy tariff EV investigation"
+  },
+  {
+   "cat": "港口使用费",
+   "q": "port fee tariff China shipping"
+  },
+  {
+   "cat": "核潜艇轮换",
+   "q": "nuclear submarine rotation Australia AUKUS"
+  },
+  {
+   "cat": "无人潜航器",
+   "q": "unmanned underwater vehicle UUV AI"
+  },
+  {
+   "cat": "海上AI传感器",
+   "q": "naval AI sensor fusion maritime"
+  },
+  {
+   "cat": "中程反导",
+   "q": "medium range missile defense Europe"
+  },
+  {
+   "cat": "卫星舰队",
+   "q": "satellite constellation expansion China"
+  },
+  {
+   "cat": "远程投送",
+   "q": "strategic airlift projection force"
+  },
+  {
+   "cat": "第二岛链",
+   "q": "second island chain deterrence deployment"
+  },
+  {
+   "cat": "西南离岛",
+   "q": "southwest islands Japan deployment"
+  },
+  {
+   "cat": "南海前推",
+   "q": "South China Sea forward base Palawan"
+  },
+  {
+   "cat": "辽宁舰",
+   "q": "Liaoning carrier group patrol"
+  },
+  {
+   "cat": "科罗拉多核潜艇",
+   "q": "USS Colorado submarine Australia"
+  },
+  {
+   "cat": "富士营演习",
+   "q": "Fuji combined exercise US Japan"
+  },
+  {
+   "cat": "Neros Archer",
+   "q": "Neros Archer drone Japan"
+  },
+  {
+   "cat": "西太平洋导弹",
+   "q": "Western Pacific missile test Russia"
+  },
+  {
+   "cat": "关键矿产收缩",
+   "q": "critical minerals supply contraction"
+  },
+  {
+   "cat": "对华关系试探",
+   "q": "China relations envoy visit thaw"
+  },
+  {
+   "cat": "稀土锁价",
+   "q": "rare earth long term price contract"
+  },
+  {
+   "cat": "对华数据施压",
+   "q": "China data cross border pressure"
+  },
+  {
+   "cat": "技术遏制",
+   "q": "technology containment export control"
+  },
+  {
+   "cat": "科技人才围堵",
+   "q": "tech talent visa restriction research"
+  },
+  {
+   "cat": "海外利益风险",
+   "q": "overseas Chinese interest risk"
+  },
+  {
+   "cat": "关键信息设施",
+   "q": "critical information infrastructure threat"
+  },
+  {
+   "cat": "资源矿产",
+   "q": "China rare earth export restriction mining"
+  },
+  {
+   "cat": "资源矿产",
+   "q": "China critical minerals gallium germanium graphite"
+  },
+  {
+   "cat": "资源矿产",
+   "q": "China lithium cobalt copper supply chain"
+  },
+  {
+   "cat": "资源矿产",
+   "q": "China overseas mining investment Africa"
+  },
+  {
+   "cat": "资源矿产",
+   "q": "US strategic minerals stockpile China"
+  },
+  {
+   "cat": "网络安全",
+   "q": "China hacking vulnerability CVE state sponsored"
+  },
+  {
+   "cat": "网络安全",
+   "q": "China ransomware APT group"
+  },
+  {
+   "cat": "网络安全",
+   "q": "China data breach semiconductor telecom"
+  },
+  {
+   "cat": "科技产业",
+   "q": "China chip semiconductor export control entity list"
+  },
+  {
+   "cat": "科技产业",
+   "q": "China AI chip Nvidia H20 H100 restriction"
+  },
+  {
+   "cat": "科技产业",
+   "q": "China quantum computing research breakthrough"
+  },
+  {
+   "cat": "科技产业",
+   "q": "China biotech gene editing dual use"
+  },
+  {
+   "cat": "外交防务",
+   "q": "China military base overseas Djibouti"
+  },
+  {
+   "cat": "外交防务",
+   "q": "China naval exercise Pacific Taiwan"
+  },
+  {
+   "cat": "外交防务",
+   "q": "China Russia military cooperation arms"
+  },
+  {
+   "cat": "外交防务",
+   "q": "China Japan territorial dispute Senkaku"
+  },
+  {
+   "cat": "外交防务",
+   "q": "China Philippines South China Sea"
+  },
+  {
+   "cat": "经济金融",
+   "q": "China tariff trade war export"
+  },
+  {
+   "cat": "经济金融",
+   "q": "China semiconductor subsidy export"
+  },
+  {
+   "cat": "经济金融",
+   "q": "China rare earth tariff WTO"
+  },
+  {
+   "cat": "经济金融",
+   "q": "China central bank digital currency cross border"
+  },
+  {
+   "cat": "经济金融",
+   "q": "China sanctions evasion North Korea Iran"
+  }
+ ],
+ "watch_categories": [
+  {
+   "cat": "反华人物账号",
+   "queries": [
+    "overseas Chinese dissident exile activist new spokesperson account",
+    "China critic exile YouTuber influencer dissident channel",
+    "Uyghur Tibetan Hong Kong activist leader overseas new statement"
+   ]
+  },
+  {
+   "cat": "反华活动事件",
+   "queries": [
+    "anti-China protest rally overseas Tibet Uyghur Hong Kong this week",
+    "China hearing petition boycott campaign event Washington London Brussels",
+    "overseas rally anniversary Tiananmen Tibet Uyghur demonstration event"
+   ]
+  },
+  {
+   "cat": "反华新路径手法",
+   "queries": [
+    "China disinformation deepfake AI sockpuppet covert influence operation new",
+    "transnational repression China overseas police station new tactic",
+    "China espionage honeypot Telegram WhatsApp covert campaign new method"
+   ]
+  },
+  {
+   "cat": "反华组织新群",
+   "queries": [
+    "new anti-China coalition NGO diaspora group launched",
+    "Uyghur Tibetan Hong Kong diaspora alliance new organization formed",
+    "China accountability campaign new overseas group statement"
+   ]
+  }
+ ],
+ "block_global": [
+  "amazon.",
+  "ebay.",
+  "baidu.com",
+  "zhihu.com",
+  "taobao",
+  "/funds/",
+  "etf",
+  "wikipedia.org",
+  "booking.",
+  "aliexpress"
+ ],
+ "social_domains": [
+  "facebook.com",
+  "instagram.com",
+  "youtube.com",
+  "youtu.be",
+  "twitter.com",
+  "x.com",
+  "t.me",
+  "reddit.com",
+  "change.org"
+ ],
+ "shell_social": [
+  "facebook.com",
+  "instagram.com",
+  "twitter.com",
+  "x.com",
+  "t.me",
+  "youtube.com",
+  "youtu.be"
+ ],
+ "deep_social": [
+  "reddit.com",
+  "change.org"
+ ],
+ "relevance_re": "(?i)(china|chinese|beijing|ccp|prc|taiwan|taipei|pla|xi jinping|hong kong|xinjiang|uyghur|uighur|tibet|south china sea|dissident|exile|protest|rally|coalition|activist|中共|中国|北京|台湾|台北|港|疆|藏|南海|台海|解放军|习近平|异见|流亡|抗议|集会|反华|维吾尔|西藏)",
+ "junk_markers": [
+  "Powered by",
+  "Print Options",
+  "Google Translate",
+  "URL Source:",
+  "Markdown Content",
+  "cookie",
+  "Cookie",
+  "隐私政策",
+  "用户协议",
+  "copyright",
+  "All rights reserved",
+  "版权所有"
+ ],
+ "paywall_markers": [
+  "subscribe to continue",
+  "to continue reading",
+  "subscribers can read",
+  "become a subscriber",
+  "sign up to continue",
+  "this content is for subscribers",
+  "付费阅读",
+  "订阅后阅读",
+  "订阅即可阅读",
+  "please subscribe to read"
+ ],
+ "ad_markers": [
+  "discount code",
+  "promo code",
+  "use code",
+  "% off",
+  "limited time offer",
+  "sponsored post",
+  "affiliate link",
+  "点击购买",
+  "立即购买",
+  "立即下单",
+  "优惠码",
+  "赞助内容",
+  "下载APP",
+  "注册领取",
+  "关注领",
+  "加微信",
+  "扫码进群",
+  "广告"
+ ],
+ "pinned_urls": [
+  {
+   "url": "https://armstrongeconomics.com/world-news/war/chinese-v-american-views-on-war-with-taiwan",
+   "name": "Armstrong Economics",
+   "lang": "en",
+   "cat": "国际评论"
+  },
+  {
+   "url": "https://zyd1998.com/archives/8159",
+   "name": "zyd1998",
+   "lang": "zh",
+   "cat": "国际中文媒体"
+  },
+  {
+   "url": "https://chinacongress.net",
+   "name": "ChinaCongress",
+   "lang": "zh",
+   "cat": "境外组织站点"
+  },
+  {
+   "url": "https://congresscenter.org",
+   "name": "CongressCenter",
+   "lang": "zh",
+   "cat": "境外组织站点"
+  },
+  {
+   "url": "https://t.me/s/lilaoshibushinilaoshi",
+   "name": "TG-李老师不是李老师",
+   "lang": "zh",
+   "cat": "反华动向"
+  },
+  {
+   "url": "https://t.me/s/fandangfenzixi",
+   "name": "TG-反党分子系",
+   "lang": "zh",
+   "cat": "反华动向"
+  },
+  {
+   "url": "https://t.me/s/xinjiyuan9",
+   "name": "TG-新纪元9",
+   "lang": "zh",
+   "cat": "反华动向"
+  },
+  {
+   "url": "https://t.me/s/ChineseNationalSocialism",
+   "name": "TG-中国国家社会主义",
+   "lang": "zh",
+   "cat": "反华动向"
+  },
+  {
+   "url": "https://x.com/jielijian",
+   "name": "X-杰里简",
+   "lang": "zh",
+   "cat": "反华人物账号"
+  },
+  {
+   "url": "https://x.com/standwithfree",
+   "name": "X-自由之声",
+   "lang": "zh",
+   "cat": "反华人物账号"
+  },
+  {
+   "url": "https://x.com/wangxiqing4625",
+   "name": "X-王西青",
+   "lang": "zh",
+   "cat": "反华人物账号"
+  },
+  {
+   "url": "https://x.com/hgylucky2017",
+   "name": "X-hgylucky",
+   "lang": "zh",
+   "cat": "反华人物账号"
+  },
+  {
+   "url": "https://x.com/hpizheng11983",
+   "name": "X-hpizheng",
+   "lang": "zh",
+   "cat": "反华人物账号"
+  },
+  {
+   "url": "https://x.com/Free06041989",
+   "name": "X-Free06041989",
+   "lang": "zh",
+   "cat": "反华人物账号"
+  },
+  {
+   "url": "https://churchinrowlandheights.org",
+   "name": "罗兰岗教会",
+   "lang": "en",
+   "cat": "NGO宗教渗透"
+  }
+ ]
 }
