@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-04T13:18:09.687019Z",
+ "probed_at": "2026-11-04T16:27:46.750008Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -17,6 +17,13 @@
      "resolved": false
     },
     {
+     "title": "China seeks extradition of five Uyghurs from Thailand - Reut",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjJJRHFVWko3YW1FR",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjJJRHFVWko3YW1FRHZyN2tiTmdRbnBrZ0ppM",
+     "resolved": false
+    },
+    {
      "title": "Chinese court hears COVID defamation case against US state o",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ3hObTZxWjV1UTFDb",
@@ -31,17 +38,10 @@
      "resolved": false
     },
     {
-     "title": "China's services growth slows to three-month low as confiden",
+     "title": "Philippines, China pledge to maintain dialogue despite tensi",
      "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSHVNb2NBaHZZLVVTb",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSHVNb2NBaHZZLVVTbXctQndZbExMODNJU0JmS",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: SK Hynix's New York chip plans hit snag over US r",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlpsRXVkdXRtR00xT",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlpsRXVkdXRtR00xTmR6NndmaHV0RE55OEVwc",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbDFXZUNaVjdfaHRaQ",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbDFXZUNaVjdfaHRaQ0M4VTg5bDVwUTRweXMwZ",
      "resolved": false
     }
    ]
@@ -52,8 +52,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's record-breaking exports of clean tech are making a big dent in emissions, report says - AP News",
+   "sample": "China warns Philippines to be cautious over South China Sea - AP News",
    "diag": [
+    {
+     "title": "China warns Philippines to be cautious over South China Sea ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3O",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3OWlENlFwemZHa0paa2tmM",
+     "resolved": false
+    },
     {
      "title": "China's record-breaking exports of clean tech are making a b",
      "date": "2026-10-29",
@@ -81,13 +88,6 @@
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfV",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfVXowN2ZEM0ppaVNFV2NMT",
      "resolved": false
-    },
-    {
-     "title": "Graphika finds China-linked Spamouflage accounts posing as U",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
-     "resolved": false
     }
    ]
   },
@@ -114,14 +114,7 @@
      "resolved": false
     },
     {
-     "title": "Iconic Paris department store BHV Marais granted bankruptcy ",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4d",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4dmpZZEdZcUhRRUFYNVZVY",
-     "resolved": false
-    },
-    {
-     "title": "Ireland becomes refuge for anti-Trump Americans - Reporters ",
+     "title": "Reporters - Ireland becomes refuge for anti-Trump Americans ",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V",
      "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V3lDejl0ZzBYM0pBS0Y1c",
@@ -132,6 +125,13 @@
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeDREWF9JTjFwTzI2U",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeDREWF9JTjFwTzI2UTBZMHQza182VUtzZVk3S",
+     "resolved": false
+    },
+    {
+     "title": "'Desolation, despair': Spain begins three days of mourning a",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMGRPNEdST3hRMm5pY",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMGRPNEdST3hRMm5pY0JzTDViWnBWNzlub1RmZ",
      "resolved": false
     }
    ]
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
+     "title": "China Keeps Faith in Trump Even as ‘Total Defeat’ Adds New R",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcnZreU9qMWlnZ2R0a",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcnZreU9qMWlnZ2R0aml1QzVpNW5YYnFXcEZwe",
+     "resolved": false
+    },
+    {
      "title": "China Boosts Market Defense With National Team Buying, Buyba",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQUtvb3lwUzJuQjFxN",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQUtvb3lwUzJuQjFxNlFVeExIN0tHeUhtVjdld",
-     "resolved": false
-    },
-    {
-     "title": "China Robot Funding Slows to $1.6 Billion as Shakeout Fears ",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVl5ajFZZi1EeGhzb",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVl5ajFZZi1EeGhzbS1oVklzMVF4STNiTThRR",
      "resolved": false
     }
    ]
@@ -197,17 +197,17 @@
      "resolved": false
     },
     {
-     "title": "China's Temu, JD.com revamp business models amid tariff head",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zS",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zSVZHU3doQnl1aXRKUC1hc",
-     "resolved": false
-    },
-    {
      "title": "China's slumping state airlines pin hopes on overseas demand",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb3Z4Uzl5ZzRCanpfT",
      "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb3Z4Uzl5ZzRCanpfTzQ3YUJuT0M3RHUxdVRGe",
+     "resolved": false
+    },
+    {
+     "title": "China's Temu, JD.com revamp business models amid tariff head",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zS",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zSVZHU3doQnl1aXRKUC1hc",
      "resolved": false
     },
     {
@@ -232,27 +232,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Combustion engine not dead in China, says BMW as profits slide - Financial Times",
+   "sample": "Solvay strikes rare earths deal that will reduce global dependence on China - Financial Times",
    "diag": [
+    {
+     "title": "Solvay strikes rare earths deal that will reduce global depe",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVFc1bDRBc2poRGc5O",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVFc1bDRBc2poRGc5OWQ5bjlvZUF3ajJoT1BCS",
+     "resolved": false
+    },
     {
      "title": "Combustion engine not dead in China, says BMW as profits sli",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGk3YWpEOG9ScWNUV",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGk3YWpEOG9ScWNUVlBnNUNVQ0laMnZmRkNPZ",
-     "resolved": false
-    },
-    {
-     "title": "US, Russia and China discuss meeting between Trump, Putin an",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONGJZallVNk90VkJFb",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONGJZallVNk90VkJFbk9DZjNpc3VZMEtIODlPY",
-     "resolved": false
-    },
-    {
-     "title": "China halts listings in bid to bolster struggling markets - ",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWRIVmFzanBxYUk3d",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWRIVmFzanBxYUk3dEZxMUdxVURNZlVMakljM",
      "resolved": false
     },
     {
@@ -263,10 +256,17 @@
      "resolved": false
     },
     {
-     "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure - F",
+     "title": "China halts listings in bid to bolster struggling markets - ",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWRIVmFzanBxYUk3d",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWRIVmFzanBxYUk3dEZxMUdxVURNZlVMakljM",
+     "resolved": false
+    },
+    {
+     "title": "China steps up defence of stock market in bid to revive AI b",
      "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAyc",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlNsXzl0WENfdF9YO",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlNsXzl0WENfdF9YOGdmb1BtbW9yRm9QQ3NOV",
      "resolved": false
     }
    ]
@@ -277,8 +277,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "‘Broken China’ Review: A Mirage of Growth - WSJ",
+   "sample": "Volvo Car Sales Drop on Continued China, U.S. Weakness - WSJ",
    "diag": [
+    {
+     "title": "Volvo Car Sales Drop on Continued China, U.S. Weakness - WSJ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM25YZVlNWFZnOUI1eUtsV",
+     "resolved": false
+    },
     {
      "title": "‘Broken China’ Review: A Mirage of Growth - WSJ",
      "date": "2026-11-03",
@@ -294,24 +301,17 @@
      "resolved": false
     },
     {
+     "title": "The Morning Risk Report: The Little-Known Chinese Bank in th",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR",
+     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR3d1QzBRU3k5TUstYzlGb",
+     "resolved": false
+    },
+    {
      "title": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Ch",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtN",
      "real": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtNzgwdVZDalJFVmhObFlmV",
-     "resolved": false
-    },
-    {
-     "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
-     "resolved": false
-    },
-    {
-     "title": "China Stock Market’s Hidden Problem: Foreign Investors Get a",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzZ5N25BZWFvQ28wb",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzZ5N25BZWFvQ28wbmJUSmVfTDZSVHVTVy1OZ",
      "resolved": false
     }
    ]
@@ -377,6 +377,20 @@
      "resolved": false
     },
     {
+     "title": "Wanted: a news researcher in Beijing - The Economist",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKT",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKTTFRV1I5aTRDWWZaZWZ5O",
+     "resolved": false
+    },
+    {
+     "title": "Why China should keep copying American AI - The Economist",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc0wtMWozbkV6MHJ5R",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc0wtMWozbkV6MHJ5RGx4MFZYU1RTQ1dFSkdfQ",
+     "resolved": false
+    },
+    {
      "title": "The rise of leisure in China - The Economist",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT",
@@ -388,20 +402,6 @@
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDAtNEJTcnRXYm5oW",
      "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDAtNEJTcnRXYm5oWjlDUl9OOGUyNWFTTjRJQ",
-     "resolved": false
-    },
-    {
-     "title": "Hit podcasts reveal the angst of China’s youth - The Economi",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUThxTXJxWVJGM2Iyd",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUThxTXJxWVJGM2IydTNSTW44TG9CLWVGaE5GY",
-     "resolved": false
-    },
-    {
-     "title": "Let China copy American AI - The Economist",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZO",
-     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZOWlZWlI3OVJRbmhycEpIR",
      "resolved": false
     }
    ]
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "Rare earths force Trump to be less hostile before Xi summit ",
-     "date": "2026-09-21",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWVnSmJwbVhCRUtPc",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWVnSmJwbVhCRUtPcUVjbUtZZkRxUTlzVWpWZ",
+     "title": "Corporate Japan's rare-earth warnings get louder as China ke",
+     "date": "2026-07-07",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZ",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZTQ4UGhqMENYZDdmZGYtc",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Operation Unified Resolve Sees 70% Drop in Rio Grande Valley Crossings"
+   "sample": "The Imperative of Prevention to Cognitive Security"
   },
   {
    "name": "商务部新闻",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Rare Earth Americas sees leach recovery boost at Alpha project in Brazil "
+   "sample": "Earthquake rattles Mosaic potash mine in Saskatchewan"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Nigeria&#039;s Oil and Gas Output Rises to 3.04 Million Boepd"
+   "sample": "US Oil Inventories Fall Further As Demand Holds"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Blue wave sweeps across America: 'In 1974, we had Watergate babies, now we have Iran War babies'"
+   "sample": "US midterm elections: 'Maybe the best colour for Texas is purple'"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Israel Weapons Industry expands into Southeast Asia with Thailand&#8217;s deployment of counter-drone system"
+   "sample": "Shield AI cofounder teases &#8216;snowball&#8217; of X-BAT fighter drone announcements in Europe"
   },
   {
    "name": "MiningWeekly",
