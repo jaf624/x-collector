@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-04T01:56:21.895635Z",
+ "probed_at": "2026-11-04T04:51:57.708405Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -17,6 +17,13 @@
      "resolved": false
     },
     {
+     "title": "China's services growth slows to three-month low as confiden",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSHVNb2NBaHZZLVVTb",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSHVNb2NBaHZZLVVTbXctQndZbExMODNJU0JmS",
+     "resolved": false
+    },
+    {
      "title": "China regulator tells banks to pause IPOs, FT reports - Reut",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjN6YlQ3VTFGbEdFb",
@@ -28,13 +35,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMkJGT0ZaeGZhMFdIS",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMkJGT0ZaeGZhMFdISDYxMWRtcTJGU3pJcUxDc",
-     "resolved": false
-    },
-    {
-     "title": "China military vice chair meets Russian defence minister in ",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbVM4RFdSaVZ4ck1YO",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbVM4RFdSaVZ4ck1YOFBPZTd6dWFfdkRnZlVCa",
      "resolved": false
     },
     {
@@ -83,10 +83,10 @@
      "resolved": false
     },
     {
-     "title": "Her parents were injured in a Tesla crash. She ended up havi",
-     "date": "2025-02-12",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWkVKbHNURThaX0NpZ",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWkVKbHNURThaX0NpZ1FYeDFPY1RreTVxYVVNc",
+     "title": "Graphika finds China-linked Spamouflage accounts posing as U",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
      "resolved": false
     }
    ]
@@ -142,8 +142,29 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "BMW Cuts Outlook for Second Straight Quarter Amid Restructuring - Bloomberg.com",
+   "sample": "Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered - Bloomberg.com",
    "diag": [
+    {
+     "title": "Nvidia China Clients to Get 1% of $70 Billion RTX Chips Orde",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDF2WGJ0VTU5c0hYZ",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDF2WGJ0VTU5c0hYZ3BSLTJzWHd4eHc2N0trQ",
+     "resolved": false
+    },
+    {
+     "title": "China Services Gauge Unexpectedly Dips for First Time Since ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVmZpeFZqNlZpcldte",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVmZpeFZqNlZpcldteHRHZjhKZG5tbld6LVVVT",
+     "resolved": false
+    },
+    {
+     "title": "China Boosts Market Defense With National Team Buying, Buyba",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQUtvb3lwUzJuQjFxN",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQUtvb3lwUzJuQjFxNlFVeExIN0tHeUhtVjdld",
+     "resolved": false
+    },
     {
      "title": "BMW Cuts Outlook for Second Straight Quarter Amid Restructur",
      "date": "2026-11-03",
@@ -157,27 +178,6 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEJRRjh3WWlKcE9PT",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEJRRjh3WWlKcE9PTlBDM19qaEVoSUtzSmRzQ",
      "resolved": false
-    },
-    {
-     "title": "China Plans Broad AI Guardrails After Global Security Lapses",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzNPU2lPQ0J6NnhJU",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzNPU2lPQ0J6NnhJUUswMHpxVkozRlZfU1JvW",
-     "resolved": false
-    },
-    {
-     "title": "Apple’s Narrowing Margins Overshadow Upbeat Holiday Forecast",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVqdFViRENfaVVnV",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVqdFViRENfaVVnVkZiWUdtVVZlVEp2ZDBnU",
-     "resolved": false
-    },
-    {
-     "title": "China Talks Up Market Openness While Steering Stocks and Yua",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTVDWmowaVJ1b0JmR",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTVDWmowaVJ1b0JmR2x6VGJKcFpETFB6NXA0c",
-     "resolved": false
     }
    ]
   },
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Why PC makers are turning back to China - Nikkei Asia",
+   "sample": "China's Temu, JD.com revamp business models amid tariff headwinds - Nikkei Asia",
    "diag": [
+    {
+     "title": "China's Temu, JD.com revamp business models amid tariff head",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zS",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zSVZHU3doQnl1aXRKUC1hc",
+     "resolved": false
+    },
     {
      "title": "Why PC makers are turning back to China - Nikkei Asia",
      "date": "2026-11-03",
@@ -215,13 +222,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY0Y2dk9KX0NnOUdRV",
      "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY0Y2dk9KX0NnOUdRVTJGNWVPQ00wX2ItX0JvV",
-     "resolved": false
-    },
-    {
-     "title": "US experts warm to Japanese nuclear subs as check on China i",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRm9NRTV0U1VpUVRFZ",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRm9NRTV0U1VpUVRFZnJQZWU4UGRHdGxDTkxqc",
      "resolved": false
     }
    ]
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
-     "title": "China’s soaring chemical exports threaten new trade war fron",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZkRET2ZJRmh3dWNrQXFGN",
-     "resolved": false
-    },
-    {
      "title": "Chinese retail giant JD.com cleared to buy Germany’s Ceconom",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWjlkQ2lIVlFqcUxFQ",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWjlkQ2lIVlFqcUxFQjdnOEtCRVU4N3QxODlCT",
+     "resolved": false
+    },
+    {
+     "title": "China’s soaring chemical exports threaten new trade war fron",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZkRET2ZJRmh3dWNrQXFGN",
      "resolved": false
     }
    ]
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "🔴 Midterms live: Democrat Roy Cooper flips first Senate seat, follow the results"
+   "sample": "🔴 Midterms live : Democrats take control of Senate, ending Republican dominance in Washington"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "EXCLUSIVE: SNC pulls out of Navy&#8217;s trainer jet competition"
+   "sample": "EXCLUSIVE: SNC pulls out of Navy&#8217;s trainer jet competition, leaving Textron likely winner"
   },
   {
    "name": "MiningWeekly",
