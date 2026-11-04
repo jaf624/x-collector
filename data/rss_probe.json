@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-04T20:30:51.344670Z",
+ "probed_at": "2026-11-04T22:12:51.805658Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -38,10 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Philippines, China pledge to maintain dialogue despite tensi",
+     "title": "China seeks extradition of five Uyghurs from Thailand - Reut",
      "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbDFXZUNaVjdfaHRaQ",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbDFXZUNaVjdfaHRaQ0M4VTg5bDVwUTRweXMwZ",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjJJRHFVWko3YW1FR",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjJJRHFVWko3YW1FRHZyN2tiTmdRbnBrZ0ppM",
      "resolved": false
     }
    ]
@@ -367,8 +367,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s AI stock-market struggles are a warning - The Economist",
+   "sample": "With an eye on America, China is beefing up its AI-controlled labs - The Economist",
    "diag": [
+    {
+     "title": "With an eye on America, China is beefing up its AI-controlle",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d3U5TThrTVVZLXN2MXhOS",
+     "resolved": false
+    },
     {
      "title": "China’s AI stock-market struggles are a warning - The Econom",
      "date": "2026-11-03",
@@ -395,13 +402,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT",
      "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT25CUHlpcW82UWcyLUcxS",
-     "resolved": false
-    },
-    {
-     "title": "A new path to political power in China runs through state fi",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDAtNEJTcnRXYm5oW",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDAtNEJTcnRXYm5oWjlDUl9OOGUyNWFTTjRJQ",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[共和黨在美國中期選舉中慘敗的五大原因]]>"
+   "sample": "<![CDATA[美國中期選舉結果對中國和世界各國意味着什麼？]]>"
   },
   {
    "name": "美国国务院",
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Illinois Army National Guard Major Retires After More Than 25 Years of Service"
+   "sample": "Centcom Benefits From Project Agincourt, Drone Dominance Efforts"
   },
   {
    "name": "商务部新闻",
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "Marine Dies During Training Event in Japan"
+   "sample": "Report to Congress on the Federal Fleet of Oceanographic Research Vessels"
   },
   {
    "name": "DefenseNews",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "UAE Weighs Plans for Third Strait of Hormuz Bypass Pipeline"
+   "sample": "Can Cheap Batteries Deliver COP31’s 35% Electrification Goal?"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Democrats warn Trump camp to ‘lawyer up’ as anger over corruption drives midterms wipeout"
+   "sample": "Netanyahu claims 'serious concerns' of foreign spending to sway Israeli election"
   },
   {
    "name": "JapanTimes",
