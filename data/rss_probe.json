@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-04T00:04:18.508872Z",
+ "probed_at": "2026-11-04T01:56:21.895635Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -38,10 +38,10 @@
      "resolved": false
     },
     {
-     "title": "AI investment is becoming overly concentrated, Chinese offic",
+     "title": "China to raise FX reserve requirement to slow yuan's rally -",
      "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1NiaC1pcnFMbDRfV",
-     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1NiaC1pcnFMbDRfV0N3WTU2SXM0YlVCRkx0Z",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDB4ZFZKQmtlWTg4R",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDB4ZFZKQmtlWTg4RlI1Tng1by1TNV9FMlZCS",
      "resolved": false
     }
    ]
@@ -97,15 +97,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Down to Earth - Scientists begin tests on human composting, an eco-friendly alternative to burials and cremation - Franc",
+   "sample": "Trump says deal with Tehran 'could happen' amid 'intensive' talks - France 24",
    "diag": [
-    {
-     "title": "Down to Earth - Scientists begin tests on human composting, ",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3c",
-     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3cmZYRUpiNkdZR1QwRUJLZ",
-     "resolved": false
-    },
     {
      "title": "Trump says deal with Tehran 'could happen' amid 'intensive' ",
      "date": "2026-11-02",
@@ -132,6 +125,13 @@
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V",
      "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V3lDejl0ZzBYM0pBS0Y1c",
+     "resolved": false
+    },
+    {
+     "title": "How student assemblies brought down the Serbian government -",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeDREWF9JTjFwTzI2U",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeDREWF9JTjFwTzI2UTBZMHQza182VUtzZVk3S",
      "resolved": false
     }
    ]
@@ -173,10 +173,10 @@
      "resolved": false
     },
     {
-     "title": "China’s BYD Doubles Market Share in Brazil With New Plant Ey",
+     "title": "China Talks Up Market Openness While Steering Stocks and Yua",
      "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZkYzLU5GQjVUdDZvV",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZkYzLU5GQjVUdDZvVkE0RzhGd1JJeXk5M2FWQ",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTVDWmowaVJ1b0JmR",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTVDWmowaVJ1b0JmR2x6VGJKcFpETFB6NXA0c",
      "resolved": false
     }
    ]
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Thailand to raise tax on imported EVs to 35% as Chinese brands gain ground - Nikkei Asia",
+   "sample": "Why PC makers are turning back to China - Nikkei Asia",
    "diag": [
+    {
+     "title": "Why PC makers are turning back to China - Nikkei Asia",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRjdHMkFrM2ZZcGpxV",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRjdHMkFrM2ZZcGpxV3dsdHhGbnJlOXpqLTdFN",
+     "resolved": false
+    },
     {
      "title": "Thailand to raise tax on imported EVs to 35% as Chinese bran",
      "date": "2026-11-03",
@@ -208,13 +215,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY0Y2dk9KX0NnOUdRV",
      "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY0Y2dk9KX0NnOUdRVTJGNWVPQ00wX2ItX0JvV",
-     "resolved": false
-    },
-    {
-     "title": "Why PC makers are turning back to China - Nikkei Asia",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRjdHMkFrM2ZZcGpxV",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRjdHMkFrM2ZZcGpxV3dsdHhGbnJlOXpqLTdFN",
      "resolved": false
     },
     {
@@ -322,20 +322,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The New York Times",
+   "sample": "China’s Message to Its Rivals: You Need What We Make - The New York Times",
    "diag": [
-    {
-     "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The N",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3a",
-     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfR",
-     "resolved": false
-    },
     {
      "title": "China’s Message to Its Rivals: You Need What We Make - The N",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
      "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
+     "resolved": false
+    },
+    {
+     "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The N",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3a",
+     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfR",
      "resolved": false
     },
     {
@@ -384,13 +384,6 @@
      "resolved": false
     },
     {
-     "title": "The rise of leisure in China - The Economist",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT",
-     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT25CUHlpcW82UWcyLUcxS",
-     "resolved": false
-    },
-    {
      "title": "Wanted: a news researcher in Beijing - The Economist",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKT",
@@ -403,6 +396,13 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUThxTXJxWVJGM2Iyd",
      "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUThxTXJxWVJGM2IydTNSTW44TG9CLWVGaE5GY",
      "resolved": false
+    },
+    {
+     "title": "China’s rising political stars - The Economist",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3NmTm9mOVIzVW9Nc",
+     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3NmTm9mOVIzVW9NcHFYamo0LXBYdVZKNG9Ha",
+     "resolved": false
     }
    ]
   },
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 100,
    "is_feed": true,
    "sample": "US strategy links Myanmar peace talks to rare-earth access - Reuters",
    "diag": [
@@ -429,10 +429,10 @@
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: Pentagon treating military base freezer malfuncti",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ0RoX2hseFpyajltZE5vb",
+     "title": "China September rare earth exports rise 6.7% from a year ear",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
      "resolved": false
     },
     {
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "title": "China exports to US rise of rare earth critical to aerospace",
+     "date": "2026-08-20",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjJ5dXdmOHpZVlowL",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjJ5dXdmOHpZVlowLWJyTHFTcnl2cTZqN0pxN",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[《蘋果日報》前社長張劍虹提早獲釋，赴深圳交流、向官媒稱「好懊悔」]]>"
+   "sample": "<![CDATA[APEC峰會前，美智庫解析「技術民族主義」下的中俄軍工合作細節與限度]]>"
   },
   {
    "name": "美国国务院",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Iran War Doubles Egypt’s LNG Bill as Gas Output Keeps Falling"
+   "sample": "Pentagon Eyes Unprecedented 75-Year Deal to End China&#039;s Rare Earth Stranglehold"
   },
   {
    "name": "IMF",
@@ -596,10 +596,9 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": -1,
+   "status": 404,
    "items": 0,
-   "is_feed": false,
-   "err": "The read operation timed out"
+   "is_feed": false
   },
   {
    "name": "IEA",
@@ -629,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "US democracy, Trump fatigue, cost of living are top issues with voters, AP survey finds"
+   "sample": "🔴 Midterms live: Democrat Roy Cooper flips first Senate seat, follow the results"
   },
   {
    "name": "JapanTimes",
