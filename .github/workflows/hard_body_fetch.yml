@@ -1,0 +1,32 @@
+name: hard-body-fetch
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "27 */2 * * *"
+jobs:
+  body:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch article body via Jina for hard leads lacking text
+        env:
+          JINA_KEY: ${{ secrets.JINA_KEY }}
+          INTEL_BODY_MAX: "40"
+        run: python3 hard_body_fetch.py
+      - name: Commit feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if ! git diff --staged --quiet; then
+            git commit -m "data: hard body fetch update"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break || { echo "push retry $i"; sleep 6; }
+            done
+          else
+            echo "无新增正文"
+          fi
