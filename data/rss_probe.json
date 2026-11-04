@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-03T16:41:34.284841Z",
+ "probed_at": "2026-11-04T00:04:18.508872Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Tesla's China-made EV sales rise 10.3% y/y in October - Reuters",
+   "sample": "EXCLUSIVE: SK Hynix's New York chip plans hit snag over US restrictions on China, sources say - Reuters",
    "diag": [
     {
-     "title": "Tesla's China-made EV sales rise 10.3% y/y in October - Reut",
+     "title": "EXCLUSIVE: SK Hynix's New York chip plans hit snag over US r",
      "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMkJGT0ZaeGZhMFdIS",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMkJGT0ZaeGZhMFdISDYxMWRtcTJGU3pJcUxDc",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlpsRXVkdXRtR00xT",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlpsRXVkdXRtR00xTmR6NndmaHV0RE55OEVwc",
      "resolved": false
     },
     {
@@ -21,6 +21,13 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjN6YlQ3VTFGbEdFb",
      "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjN6YlQ3VTFGbEdFbkIwWDc1NzBsaDg3RlUyc",
+     "resolved": false
+    },
+    {
+     "title": "Tesla's China-made EV sales rise 10.3% y/y in October - Reut",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMkJGT0ZaeGZhMFdIS",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMkJGT0ZaeGZhMFdISDYxMWRtcTJGU3pJcUxDc",
      "resolved": false
     },
     {
@@ -35,13 +42,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1NiaC1pcnFMbDRfV",
      "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1NiaC1pcnFMbDRfV0N3WTU2SXM0YlVCRkx0Z",
-     "resolved": false
-    },
-    {
-     "title": "China to raise FX reserve requirement to slow yuan's rally -",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDB4ZFZKQmtlWTg4R",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDB4ZFZKQmtlWTg4RlI1Tng1by1TNV9FMlZCS",
      "resolved": false
     }
    ]
@@ -83,10 +83,10 @@
      "resolved": false
     },
     {
-     "title": "Graphika finds China-linked Spamouflage accounts posing as U",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
+     "title": "Her parents were injured in a Tesla crash. She ended up havi",
+     "date": "2025-02-12",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWkVKbHNURThaX0NpZ",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWkVKbHNURThaX0NpZ1FYeDFPY1RreTVxYVVNc",
      "resolved": false
     }
    ]
@@ -114,17 +114,10 @@
      "resolved": false
     },
     {
-     "title": "Real Madrid apologises to China over Mbappé's Mao Zedong com",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZ",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTERQWGROeHZhOWJtZGsxZ1Q1d3VYUnMzaVdxV",
-     "resolved": false
-    },
-    {
-     "title": "Reporters - Ireland becomes refuge for anti-Trump Americans ",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V3lDejl0ZzBYM0pBS0Y1c",
+     "title": "Tête à tête - Israeli election: 'Netanyahu did not win, he l",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdE92enRhTGRrQ2hNW",
+     "real": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdE92enRhTGRrQ2hNWGlvZkRZVnEwbDlxOXJlN",
      "resolved": false
     },
     {
@@ -132,6 +125,13 @@
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4d",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4dmpZZEdZcUhRRUFYNVZVY",
+     "resolved": false
+    },
+    {
+     "title": "Reporters - Ireland becomes refuge for anti-Trump Americans ",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V3lDejl0ZzBYM0pBS0Y1c",
      "resolved": false
     }
    ]
@@ -142,8 +142,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia Tells Data Center Clients to Trim China Business, FT Says - Bloomberg.com",
+   "sample": "BMW Cuts Outlook for Second Straight Quarter Amid Restructuring - Bloomberg.com",
    "diag": [
+    {
+     "title": "BMW Cuts Outlook for Second Straight Quarter Amid Restructur",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUhEY2pWbkNGUGNWa",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUhEY2pWbkNGUGNWaG9hYnNGUTF5TFNGZnNKN",
+     "resolved": false
+    },
     {
      "title": "Nvidia Tells Data Center Clients to Trim China Business, FT ",
      "date": "2026-11-03",
@@ -159,24 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China Steps in to Boost Stocks, Cool Off Yuan - Bloomberg.co",
+     "title": "Apple’s Narrowing Margins Overshadow Upbeat Holiday Forecast",
      "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXZZcm5qZDJaUl9uV",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXZZcm5qZDJaUl9uVG45eUJGaldNd3hzU3R2T",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVqdFViRENfaVVnV",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVqdFViRENfaVVnVkZiWUdtVVZlVEp2ZDBnU",
      "resolved": false
     },
     {
-     "title": "China Talks Up Market Openness While Steering Stocks and Yua",
+     "title": "China’s BYD Doubles Market Share in Brazil With New Plant Ey",
      "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTVDWmowaVJ1b0JmR",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTVDWmowaVJ1b0JmR2x6VGJKcFpETFB6NXA0c",
-     "resolved": false
-    },
-    {
-     "title": "EU Plans Changes to Its Single Market to Reduce China Depend",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUTVZVlhHLTVFd2hTc",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUTVZVlhHLTVFd2hTcVphTTBYRDZDZzVqX2dzT",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZkYzLU5GQjVUdDZvV",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZkYzLU5GQjVUdDZvVkE0RzhGd1JJeXk5M2FWQ",
      "resolved": false
     }
    ]
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese and Russian AI cyber attacks will be routine by 2028",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRM",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRMzZsWktaTndnSjBBMDBxZ",
-     "resolved": false
-    },
-    {
      "title": "China’s soaring chemical exports threaten new trade war fron",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZ",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZkRET2ZJRmh3dWNrQXFGN",
+     "resolved": false
+    },
+    {
+     "title": "Chinese retail giant JD.com cleared to buy Germany’s Ceconom",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWjlkQ2lIVlFqcUxFQ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWjlkQ2lIVlFqcUxFQjdnOEtCRVU4N3QxODlCT",
      "resolved": false
     }
    ]
@@ -277,8 +277,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Stock Market’s Hidden Problem: Foreign Investors Get a Different Truth - WSJ",
+   "sample": "‘Broken China’ Review: A Mirage of Growth - WSJ",
    "diag": [
+    {
+     "title": "‘Broken China’ Review: A Mirage of Growth - WSJ",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkFQYXNQNl9FSU5rV",
+     "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkFQYXNQNl9FSU5rVDlNSVJodS10TkxkRUdoc",
+     "resolved": false
+    },
+    {
+     "title": "The Little-Known Chinese Bank in the Middle of Iranian and R",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUlJ5UDVDRWJQLWdXa",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUlJ5UDVDRWJQLWdXankzcjZoQnowTUFrLXQzM",
+     "resolved": false
+    },
     {
      "title": "China Stock Market’s Hidden Problem: Foreign Investors Get a",
      "date": "2026-11-03",
@@ -295,23 +309,9 @@
     },
     {
      "title": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Ch",
-     "date": "2026-11-03",
+     "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtN",
      "real": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtNzgwdVZDalJFVmhObFlmV",
-     "resolved": false
-    },
-    {
-     "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
-     "resolved": false
-    },
-    {
-     "title": "These Trucks Haul 90 Tons of Coal on Battery Power—and Drive",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnNBT3NFWU00OExpM",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnNBT3NFWU00OExpM1Z1b3FON1pSSmh6cUM5d",
      "resolved": false
     }
    ]
@@ -322,8 +322,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Message to Its Rivals: You Need What We Make - The New York Times",
+   "sample": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The New York Times",
    "diag": [
+    {
+     "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The N",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3a",
+     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfR",
+     "resolved": false
+    },
     {
      "title": "China’s Message to Its Rivals: You Need What We Make - The N",
      "date": "2026-11-03",
@@ -339,10 +346,10 @@
      "resolved": false
     },
     {
-     "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The N",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3a",
-     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfR",
+     "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pe",
+     "date": "2026-10-30",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
+     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX2lPaVlieXNmSjFXc2ZPN",
      "resolved": false
     },
     {
@@ -350,13 +357,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3e",
      "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3eF8zV1hWSnJHM280N01jO",
-     "resolved": false
-    },
-    {
-     "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pe",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
-     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX2lPaVlieXNmSjFXc2ZPN",
      "resolved": false
     }
    ]
@@ -367,8 +367,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "A new path to political power in China runs through state firms - The Economist",
+   "sample": "China’s AI stock-market struggles are a warning - The Economist",
    "diag": [
+    {
+     "title": "China’s AI stock-market struggles are a warning - The Econom",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM0syTWN4M010ZjVBWXJrV",
+     "resolved": false
+    },
     {
      "title": "A new path to political power in China runs through state fi",
      "date": "2026-11-02",
@@ -377,10 +384,10 @@
      "resolved": false
     },
     {
-     "title": "Hit podcasts reveal the angst of China’s youth - The Economi",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUThxTXJxWVJGM2Iyd",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUThxTXJxWVJGM2IydTNSTW44TG9CLWVGaE5GY",
+     "title": "The rise of leisure in China - The Economist",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT25CUHlpcW82UWcyLUcxS",
      "resolved": false
     },
     {
@@ -391,17 +398,10 @@
      "resolved": false
     },
     {
-     "title": "Let China copy American AI - The Economist",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZO",
-     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZOWlZWlI3OVJRbmhycEpIR",
-     "resolved": false
-    },
-    {
-     "title": "Chinese spy or chump? The case of the Fed economist - The Ec",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkJPUnVWMnJka3Z0V",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkJPUnVWMnJka3Z0VkpNeUpKTFJzdktiM09Cd",
+     "title": "Hit podcasts reveal the angst of China’s youth - The Economi",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUThxTXJxWVJGM2Iyd",
+     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUThxTXJxWVJGM2IydTNSTW44TG9CLWVGaE5GY",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 59,
    "is_feed": true,
    "sample": "US strategy links Myanmar peace talks to rare-earth access - Reuters",
    "diag": [
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "NSWC Dahlgren Division employee dedicates nearly two decades to cybersecurity career"
+   "sample": "Operation Unified Resolve Sees 70% Drop in Rio Grande Valley Crossings"
   },
   {
    "name": "商务部新闻",
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "Canada&#8217;s 2026 National Security Strategy"
+   "sample": "First Flight II San Antonio-class Amphib Completes Builder’s Trials"
   },
   {
    "name": "DefenseNews",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "French defense minister kicks off ‘pact’ with industry in rush to field naval drones"
+   "sample": "US Air Force asks industry for new cruise missile for Ukraine"
   },
   {
    "name": "Mining",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Sunshine Silver weighs doubling mill capacity"
+   "sample": "Rare Earth Americas sees leach recovery boost at Alpha project in Brazil "
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "IEA Warns Global Gas Crunch Could Last Well into 2027"
+   "sample": "Iran War Doubles Egypt’s LNG Bill as Gas Output Keeps Falling"
   },
   {
    "name": "IMF",
@@ -596,9 +596,10 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 404,
+   "status": -1,
    "items": 0,
-   "is_feed": false
+   "is_feed": false,
+   "err": "The read operation timed out"
   },
   {
    "name": "IEA",
@@ -628,7 +629,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Trump focused on 'what's important to him': 'Tone-deaf for a normally shrewd populist operator'"
+   "sample": "US democracy, Trump fatigue, cost of living are top issues with voters, AP survey finds"
   },
   {
    "name": "JapanTimes",
@@ -679,12 +680,12 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Syria weighs joining the Mecca Pact, foreign minister says"
+   "sample": "EXCLUSIVE: SNC pulls out of Navy&#8217;s trainer jet competition"
   },
   {
    "name": "MiningWeekly",
    "url": "https://www.miningweekly.com/rss/news",
-   "status": 403,
+   "status": 404,
    "items": 0,
    "is_feed": false
   }
