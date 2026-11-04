@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-04T08:21:05.278809Z",
+ "probed_at": "2026-11-04T13:18:09.687019Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese court hears COVID defamation case against US state of Missouri - Reuters",
+   "sample": "Chinese chipmaker YMTC puts IPO on hold as weaker markets weigh, sources say - Reuters",
    "diag": [
+    {
+     "title": "Chinese chipmaker YMTC puts IPO on hold as weaker markets we",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzVTcjFWM1pyclM0M",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzVTcjFWM1pyclM0MFlFbkZGbTFaSVZfbFVkc",
+     "resolved": false
+    },
     {
      "title": "Chinese court hears COVID defamation case against US state o",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ3hObTZxWjV1UTFDb",
      "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ3hObTZxWjV1UTFDbWx3ZWR4b01VZTVDVEN4Z",
+     "resolved": false
+    },
+    {
+     "title": "China's solar push reshapes traditional ways of life on Tibe",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSmF2NkRUeVRpUERoL",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSmF2NkRUeVRpUERoLWhSdUNYRUtMbkdrVmNlb",
      "resolved": false
     },
     {
@@ -28,20 +42,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlpsRXVkdXRtR00xT",
      "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlpsRXVkdXRtR00xTmR6NndmaHV0RE55OEVwc",
-     "resolved": false
-    },
-    {
-     "title": "China regulator tells banks to pause IPOs, FT reports - Reut",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjN6YlQ3VTFGbEdFb",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjN6YlQ3VTFGbEdFbkIwWDc1NzBsaDg3RlUyc",
-     "resolved": false
-    },
-    {
-     "title": "China's solar push reshapes traditional ways of life on Tibe",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSmF2NkRUeVRpUERoL",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSmF2NkRUeVRpUERoLWhSdUNYRUtMbkdrVmNlb",
      "resolved": false
     }
    ]
@@ -76,17 +76,17 @@
      "resolved": false
     },
     {
-     "title": "Her parents were injured in a Tesla crash. She ended up havi",
-     "date": "2025-02-12",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWkVKbHNURThaX0NpZ",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWkVKbHNURThaX0NpZ1FYeDFPY1RreTVxYVVNc",
-     "resolved": false
-    },
-    {
      "title": "China’s factory activity slips as new export orders weaken -",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfV",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfVXowN2ZEM0ppaVNFV2NMT",
+     "resolved": false
+    },
+    {
+     "title": "Graphika finds China-linked Spamouflage accounts posing as U",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
      "resolved": false
     }
    ]
@@ -121,7 +121,7 @@
      "resolved": false
     },
     {
-     "title": "Reporters - Ireland becomes refuge for anti-Trump Americans ",
+     "title": "Ireland becomes refuge for anti-Trump Americans - Reporters ",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V",
      "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNi1RdExGOVFCbGR6V3lDejl0ZzBYM0pBS0Y1c",
@@ -142,27 +142,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered - Bloomberg.com",
+   "sample": "China Confirms Talks With Russia, US on First Trilateral Meeting - Bloomberg.com",
    "diag": [
+    {
+     "title": "China Confirms Talks With Russia, US on First Trilateral Mee",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY1F1em91OXdvMmpBT",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY1F1em91OXdvMmpBTkVCWkluN3FqMlhYR1BZY",
+     "resolved": false
+    },
+    {
+     "title": "Tencent Declares Latest AI Model Ranks Among China’s Best - ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRDhGOEtSczV1bVRuM",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRDhGOEtSczV1bVRuMGFNX0cyZ20zMVI3ZWc2M",
+     "resolved": false
+    },
     {
      "title": "Nvidia China Clients to Get 1% of $70 Billion RTX Chips Orde",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDF2WGJ0VTU5c0hYZ",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDF2WGJ0VTU5c0hYZ3BSLTJzWHd4eHc2N0trQ",
-     "resolved": false
-    },
-    {
-     "title": "China Robot Funding Slows to $1.6 Billion as Shakeout Fears ",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVl5ajFZZi1EeGhzb",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVl5ajFZZi1EeGhzbS1oVklzMVF4STNiTThRR",
-     "resolved": false
-    },
-    {
-     "title": "China Services Gauge Unexpectedly Dips for First Time Since ",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVmZpeFZqNlZpcldte",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVmZpeFZqNlZpcldteHRHZjhKZG5tbld6LVVVT",
      "resolved": false
     },
     {
@@ -173,10 +173,10 @@
      "resolved": false
     },
     {
-     "title": "BMW Cuts Outlook for Second Straight Quarter Amid Restructur",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUhEY2pWbkNGUGNWa",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUhEY2pWbkNGUGNWaG9hYnNGUTF5TFNGZnNKN",
+     "title": "China Robot Funding Slows to $1.6 Billion as Shakeout Fears ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVl5ajFZZi1EeGhzb",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVl5ajFZZi1EeGhzbS1oVklzMVF4STNiTThRR",
      "resolved": false
     }
    ]
@@ -187,15 +187,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's Temu, JD.com revamp business models amid tariff headwinds - Nikkei Asia",
+   "sample": "Why PC makers are turning back to China - Nikkei Asia",
    "diag": [
-    {
-     "title": "China's Temu, JD.com revamp business models amid tariff head",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zS",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zSVZHU3doQnl1aXRKUC1hc",
-     "resolved": false
-    },
     {
      "title": "Why PC makers are turning back to China - Nikkei Asia",
      "date": "2026-11-03",
@@ -204,10 +197,17 @@
      "resolved": false
     },
     {
-     "title": "Thailand to raise tax on imported EVs to 35% as Chinese bran",
+     "title": "China's Temu, JD.com revamp business models amid tariff head",
      "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMmV1aS0zWjBzZ2E2c",
-     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMmV1aS0zWjBzZ2E2cHNuaVpmNjJGTXJXWHl1S",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zS",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zSVZHU3doQnl1aXRKUC1hc",
+     "resolved": false
+    },
+    {
+     "title": "China's slumping state airlines pin hopes on overseas demand",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb3Z4Uzl5ZzRCanpfT",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb3Z4Uzl5ZzRCanpfTzQ3YUJuT0M3RHUxdVRGe",
      "resolved": false
     },
     {
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "Vienna entrepreneur takes leaders on lux train to China to f",
+     "title": "Thailand to raise tax on imported EVs to 35% as Chinese bran",
      "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY0Y2dk9KX0NnOUdRV",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY0Y2dk9KX0NnOUdRVTJGNWVPQ00wX2ItX0JvV",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMmV1aS0zWjBzZ2E2c",
+     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMmV1aS0zWjBzZ2E2cHNuaVpmNjJGTXJXWHl1S",
      "resolved": false
     }
    ]
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US, Russia and China discuss meeting between Trump, Putin and Xi - Financial Times",
+   "sample": "Combustion engine not dead in China, says BMW as profits slide - Financial Times",
    "diag": [
+    {
+     "title": "Combustion engine not dead in China, says BMW as profits sli",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGk3YWpEOG9ScWNUV",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGk3YWpEOG9ScWNUVlBnNUNVQ0laMnZmRkNPZ",
+     "resolved": false
+    },
     {
      "title": "US, Russia and China discuss meeting between Trump, Putin an",
      "date": "2026-11-03",
@@ -253,13 +260,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcERsWE1GekIyVGJ1c",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcERsWE1GekIyVGJ1cmZzdHdvQnp2TkUtUi00e",
-     "resolved": false
-    },
-    {
-     "title": "Chinese and Russian AI cyber attacks will be routine by 2028",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRM",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRMzZsWktaTndnSjBBMDBxZ",
      "resolved": false
     },
     {
@@ -294,24 +294,24 @@
      "resolved": false
     },
     {
-     "title": "China Stock Market’s Hidden Problem: Foreign Investors Get a",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzZ5N25BZWFvQ28wb",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzZ5N25BZWFvQ28wbmJUSmVfTDZSVHVTVy1OZ",
-     "resolved": false
-    },
-    {
-     "title": "China’s Central Bank Tweaks Forex Reserve Rules to Steady Yu",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaUVpai1RSG9LWk82a",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaUVpai1RSG9LWk82anFJT1hrZlgtM0t3LTQ5Z",
-     "resolved": false
-    },
-    {
      "title": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Ch",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtN",
      "real": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtNzgwdVZDalJFVmhObFlmV",
+     "resolved": false
+    },
+    {
+     "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
+     "resolved": false
+    },
+    {
+     "title": "China Stock Market’s Hidden Problem: Foreign Investors Get a",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzZ5N25BZWFvQ28wb",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzZ5N25BZWFvQ28wbmJUSmVfTDZSVHVTVy1OZ",
      "resolved": false
     }
    ]
@@ -322,8 +322,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The New York Times",
+   "sample": "Could a Viral Video Save Her Mom’s Chinese Restaurant? - The New York Times",
    "diag": [
+    {
+     "title": "Could a Viral Video Save Her Mom’s Chinese Restaurant? - The",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExlcGFVWTZ1NS1vN",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExlcGFVWTZ1NS1vN29yeDR3ZERoRlp1b1dsY",
+     "resolved": false
+    },
     {
      "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The N",
      "date": "2026-11-03",
@@ -333,7 +340,7 @@
     },
     {
      "title": "China’s Message to Its Rivals: You Need What We Make - The N",
-     "date": "2026-11-04",
+     "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
      "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
      "resolved": false
@@ -350,13 +357,6 @@
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
      "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX2lPaVlieXNmSjFXc2ZPN",
-     "resolved": false
-    },
-    {
-     "title": "I Covered the Tiananmen Square Massacre. It Still Weighs on ",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3e",
-     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96bDRVTGdEVXJVUjM3eF8zV1hWSnJHM280N01jO",
      "resolved": false
     }
    ]
@@ -377,17 +377,17 @@
      "resolved": false
     },
     {
-     "title": "A new path to political power in China runs through state fi",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDAtNEJTcnRXYm5oW",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDAtNEJTcnRXYm5oWjlDUl9OOGUyNWFTTjRJQ",
-     "resolved": false
-    },
-    {
      "title": "The rise of leisure in China - The Economist",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT",
      "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT25CUHlpcW82UWcyLUcxS",
+     "resolved": false
+    },
+    {
+     "title": "A new path to political power in China runs through state fi",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDAtNEJTcnRXYm5oW",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDAtNEJTcnRXYm5oWjlDUl9OOGUyNWFTTjRJQ",
      "resolved": false
     },
     {
@@ -398,10 +398,10 @@
      "resolved": false
     },
     {
-     "title": "China’s rising political stars - The Economist",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3NmTm9mOVIzVW9Nc",
-     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY3NmTm9mOVIzVW9NcHFYamo0LXBYdVZKNG9Ha",
+     "title": "Let China copy American AI - The Economist",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZO",
+     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZbGlNbUVBMnJ1TWlZOWlZWlI3OVJRbmhycEpIR",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 58,
    "is_feed": true,
    "sample": "US strategy links Myanmar peace talks to rare-earth access - Reuters",
    "diag": [
@@ -429,13 +429,6 @@
      "resolved": false
     },
     {
-     "title": "China September rare earth exports rise 6.7% from a year ear",
-     "date": "2026-10-13",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2T",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ1h5MWdDU0ZJbWd2TldHeVNDV3N1aThxZ1RFY",
-     "resolved": false
-    },
-    {
      "title": "China rare earth firms halt some US shipments over geopoliti",
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
@@ -443,10 +436,17 @@
      "resolved": false
     },
     {
-     "title": "China exports to US rise of rare earth critical to aerospace",
-     "date": "2026-08-20",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjJ5dXdmOHpZVlowL",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjJ5dXdmOHpZVlowLWJyTHFTcnl2cTZqN0pxN",
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "resolved": false
+    },
+    {
+     "title": "Rare earths force Trump to be less hostile before Xi summit ",
+     "date": "2026-09-21",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWVnSmJwbVhCRUtPc",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWVnSmJwbVhCRUtPcUVjbUtZZkRxUTlzVWpWZ",
      "resolved": false
     }
    ]
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "MBDA’s high-speed strike missile to have range ‘far’ exceeding Exocet"
+   "sample": "Saildrone expands its European market reach with manufacturing partner in Norway"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "China Now Home to Nearly Half of World&#039;s Clean Industrial Plants"
+   "sample": "Nigeria&#039;s Oil and Gas Output Rises to 3.04 Million Boepd"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Midterms: What impact did redistricting in California and Texas have?"
+   "sample": "Blue wave sweeps across America: 'In 1974, we had Watergate babies, now we have Iran War babies'"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "EXCLUSIVE: SNC pulls out of Navy&#8217;s trainer jet competition, leaving Textron likely winner"
+   "sample": "Israel Weapons Industry expands into Southeast Asia with Thailand&#8217;s deployment of counter-drone system"
   },
   {
    "name": "MiningWeekly",
