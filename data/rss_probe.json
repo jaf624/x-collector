@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-04T04:51:57.708405Z",
+ "probed_at": "2026-11-04T08:21:05.278809Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "EXCLUSIVE: SK Hynix's New York chip plans hit snag over US restrictions on China, sources say - Reuters",
+   "sample": "Chinese court hears COVID defamation case against US state of Missouri - Reuters",
    "diag": [
     {
-     "title": "EXCLUSIVE: SK Hynix's New York chip plans hit snag over US r",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlpsRXVkdXRtR00xT",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlpsRXVkdXRtR00xTmR6NndmaHV0RE55OEVwc",
+     "title": "Chinese court hears COVID defamation case against US state o",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ3hObTZxWjV1UTFDb",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ3hObTZxWjV1UTFDbWx3ZWR4b01VZTVDVEN4Z",
      "resolved": false
     },
     {
@@ -24,6 +24,13 @@
      "resolved": false
     },
     {
+     "title": "EXCLUSIVE: SK Hynix's New York chip plans hit snag over US r",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlpsRXVkdXRtR00xT",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlpsRXVkdXRtR00xTmR6NndmaHV0RE55OEVwc",
+     "resolved": false
+    },
+    {
      "title": "China regulator tells banks to pause IPOs, FT reports - Reut",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjN6YlQ3VTFGbEdFb",
@@ -31,17 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Tesla's China-made EV sales rise 10.3% y/y in October - Reut",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMkJGT0ZaeGZhMFdIS",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMkJGT0ZaeGZhMFdISDYxMWRtcTJGU3pJcUxDc",
-     "resolved": false
-    },
-    {
-     "title": "China to raise FX reserve requirement to slow yuan's rally -",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDB4ZFZKQmtlWTg4R",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDB4ZFZKQmtlWTg4RlI1Tng1by1TNV9FMlZCS",
+     "title": "China's solar push reshapes traditional ways of life on Tibe",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSmF2NkRUeVRpUERoL",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSmF2NkRUeVRpUERoLWhSdUNYRUtMbkdrVmNlb",
      "resolved": false
     }
    ]
@@ -76,17 +76,17 @@
      "resolved": false
     },
     {
+     "title": "Her parents were injured in a Tesla crash. She ended up havi",
+     "date": "2025-02-12",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWkVKbHNURThaX0NpZ",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWkVKbHNURThaX0NpZ1FYeDFPY1RreTVxYVVNc",
+     "resolved": false
+    },
+    {
      "title": "China’s factory activity slips as new export orders weaken -",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfV",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfVXowN2ZEM0ppaVNFV2NMT",
-     "resolved": false
-    },
-    {
-     "title": "Graphika finds China-linked Spamouflage accounts posing as U",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1Nnd",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3FDNW9WTmY5U1NndTFkaFRXVjJZSElBcWxTV",
      "resolved": false
     }
    ]
@@ -152,6 +152,13 @@
      "resolved": false
     },
     {
+     "title": "China Robot Funding Slows to $1.6 Billion as Shakeout Fears ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVl5ajFZZi1EeGhzb",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVl5ajFZZi1EeGhzbS1oVklzMVF4STNiTThRR",
+     "resolved": false
+    },
+    {
      "title": "China Services Gauge Unexpectedly Dips for First Time Since ",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVmZpeFZqNlZpcldte",
@@ -170,13 +177,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUhEY2pWbkNGUGNWa",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUhEY2pWbkNGUGNWaG9hYnNGUTF5TFNGZnNKN",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia Tells Data Center Clients to Trim China Business, FT ",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEJRRjh3WWlKcE9PT",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEJRRjh3WWlKcE9PTlBDM19qaEVoSUtzSmRzQ",
      "resolved": false
     }
    ]
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese retail giant JD.com cleared to buy Germany’s Ceconom",
+     "title": "Chinese and Russian AI cyber attacks will be routine by 2028",
      "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWjlkQ2lIVlFqcUxFQ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWjlkQ2lIVlFqcUxFQjdnOEtCRVU4N3QxODlCT",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRMzZsWktaTndnSjBBMDBxZ",
      "resolved": false
     },
     {
-     "title": "China’s soaring chemical exports threaten new trade war fron",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZkRET2ZJRmh3dWNrQXFGN",
+     "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure - F",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAyc",
      "resolved": false
     }
    ]
@@ -322,20 +322,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Message to Its Rivals: You Need What We Make - The New York Times",
+   "sample": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The New York Times",
    "diag": [
-    {
-     "title": "China’s Message to Its Rivals: You Need What We Make - The N",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
-     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
-     "resolved": false
-    },
     {
      "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The N",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3a",
      "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfR",
+     "resolved": false
+    },
+    {
+     "title": "China’s Message to Its Rivals: You Need What We Make - The N",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
+     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
      "resolved": false
     },
     {
@@ -384,10 +384,10 @@
      "resolved": false
     },
     {
-     "title": "Wanted: a news researcher in Beijing - The Economist",
+     "title": "The rise of leisure in China - The Economist",
      "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKT",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKTTFRV1I5aTRDWWZaZWZ5O",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1iUDFrY0o1VVgtT25CUHlpcW82UWcyLUcxS",
      "resolved": false
     },
     {
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[APEC峰會前，美智庫解析「技術民族主義」下的中俄軍工合作細節與限度]]>"
+   "sample": "<![CDATA[美國民主黨歷史性勝利 深入共和黨票倉攻城掠地]]>"
   },
   {
    "name": "美国国务院",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "US Air Force asks industry for new cruise missile for Ukraine"
+   "sample": "MBDA’s high-speed strike missile to have range ‘far’ exceeding Exocet"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Pentagon Eyes Unprecedented 75-Year Deal to End China&#039;s Rare Earth Stranglehold"
+   "sample": "China Now Home to Nearly Half of World&#039;s Clean Industrial Plants"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "🔴 Midterms live : Democrats take control of Senate, ending Republican dominance in Washington"
+   "sample": "Midterms: What impact did redistricting in California and Texas have?"
   },
   {
    "name": "JapanTimes",
