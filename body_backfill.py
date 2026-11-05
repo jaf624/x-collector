@@ -26,6 +26,10 @@ try:
     from body_extract import extract
 except Exception:
     extract = None
+try:
+    from gnews_resolve import resolve as gnews_resolve
+except Exception:
+    gnews_resolve = None
 
 FEED = "data/intel_feed.json"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
@@ -66,18 +70,31 @@ def main():
             if len((x.get("content") or "").strip()) < 200
             and (x.get("url") or "").startswith("http")
             and not any(h in x.get("url", "") for h in SKIP_HOST)]
-    print("feed=%d 待补=%d 取=%d" % (len(items), len(todo), min(a.max, len(todo))), flush=True)
+    gnews = [x for x in items
+             if len((x.get("content") or "").strip()) < 200
+             and "news.google.com" in (x.get("url") or "")]
+    print("google-news 待还原=%d" % len(gnews), flush=True)
+    print("feed=%d 待补=%d(含gnews) 取=%d" % (len(items), len(todo) + len(gnews), min(a.max, len(todo) + len(gnews))), flush=True)
     if a.dry:
         return 0
 
-    batch = todo[: a.max]
+    batch = (todo + gnews)[: a.max]
     ok = fail = 0
     reasons = {}
     started = time.time()
 
+    resolved = [0]
+
     def work(x):
         try:
-            txt, why = fetch_text(norm(x["url"]), x.get("title") or "")
+            u = x.get("url") or ""
+            if "news.google.com" in u:
+                real = gnews_resolve(u) if gnews_resolve else None
+                if not real:
+                    return x, None, "gnews_unresolved"
+                x["url_real"] = real
+                u = real
+            txt, why = fetch_text(norm(u), x.get("title") or "")
             return x, txt, why
         except Exception as e:
             return x, None, str(e)[:40]
@@ -92,6 +109,8 @@ def main():
                 continue
             x["content"] = txt
             x["body_from"] = "direct"
+            if x.get("url_real"):
+                resolved[0] += 1
             x["summary"] = ((x.get("title") or "") + "。" + txt[:160])[:400]
             x["needs_deepdive"] = False
             ok += 1
@@ -99,7 +118,7 @@ def main():
     json.dump(items, open(FEED, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     remain = sum(1 for x in items if len((x.get("content") or "").strip()) < 200)
     stats = {"feed": len(items), "todo": len(todo), "ok": ok, "fail": fail,
-             "reasons": reasons, "remain_empty": remain, "secs": round(time.time() - started, 1),
+             "reasons": reasons, "resolved": resolved[0], "remain_empty": remain, "secs": round(time.time() - started, 1),
              "ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
     json.dump(stats, open("data/body_backfill_stats.json", "w"), ensure_ascii=False, indent=1)
     print("backfill ok=%d fail=%d 剩余空壳=%d/%d 原因=%s" % (ok, fail, remain, len(items), reasons), flush=True)
