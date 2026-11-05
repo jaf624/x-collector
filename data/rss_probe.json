@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-04T22:12:51.805658Z",
+ "probed_at": "2026-11-05T02:32:20.029948Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,10 +7,10 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese chipmaker YMTC puts IPO on hold as weaker markets weigh, sources say - Reuters",
+   "sample": "EXCLUSIVE: Chinese chipmaker YMTC puts IPO on hold as weaker markets weigh, sources say - Reuters",
    "diag": [
     {
-     "title": "Chinese chipmaker YMTC puts IPO on hold as weaker markets we",
+     "title": "EXCLUSIVE: Chinese chipmaker YMTC puts IPO on hold as weaker",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzVTcjFWM1pyclM0M",
      "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzVTcjFWM1pyclM0MFlFbkZGbTFaSVZfbFVkc",
@@ -38,10 +38,10 @@
      "resolved": false
     },
     {
-     "title": "China seeks extradition of five Uyghurs from Thailand - Reut",
+     "title": "Philippines, China pledge to maintain dialogue despite tensi",
      "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjJJRHFVWko3YW1FR",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjJJRHFVWko3YW1FRHZyN2tiTmdRbnBrZ0ppM",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbDFXZUNaVjdfaHRaQ",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbDFXZUNaVjdfaHRaQ0M4VTg5bDVwUTRweXMwZ",
      "resolved": false
     }
    ]
@@ -114,6 +114,13 @@
      "resolved": false
     },
     {
+     "title": "France 24 - International breaking news, top stories and hea",
+     "date": "2008-07-17",
+     "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0b",
+     "real": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0bFF6ejV2ZnhwVDNWRFRDd",
+     "resolved": false
+    },
+    {
      "title": "Tête à tête - Israeli election: 'Netanyahu did not win, he l",
      "date": "2026-10-30",
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdE92enRhTGRrQ2hNW",
@@ -126,13 +133,6 @@
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4d",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4dmpZZEdZcUhRRUFYNVZVY",
      "resolved": false
-    },
-    {
-     "title": "Putin woos African leaders as Moscow seeks to expand footpri",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONEFZdVQtT1N2dmNza",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONEFZdVQtT1N2dmNzaWQ3dW5kQ2lZS1Q4UzFZV",
-     "resolved": false
     }
    ]
   },
@@ -142,18 +142,25 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Canada, China Extend Tariff Deal, Aim to Boost Canadian Exports - Bloomberg",
+   "sample": "China Tech Frenzy Turns Into Year of Dismay for Retail Traders - Bloomberg.com",
    "diag": [
     {
+     "title": "China Tech Frenzy Turns Into Year of Dismay for Retail Trade",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3VweFRYYWNyamVSb",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3VweFRYYWNyamVSbllFLVlOcVg0UnQyMHlvd",
+     "resolved": false
+    },
+    {
      "title": "Canada, China Extend Tariff Deal, Aim to Boost Canadian Expo",
-     "date": "2026-11-04",
+     "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzN",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzNXppcElseDVIRE5hN0t5c",
      "resolved": false
     },
     {
-     "title": "China Keeps Faith in Trump Even as ‘Total Defeat’ Adds New R",
-     "date": "2026-11-04",
+     "title": "China Keeps Faith in Trump as ‘Total Defeat’ Adds New Risks ",
+     "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcnZreU9qMWlnZ2R0a",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcnZreU9qMWlnZ2R0aml1QzVpNW5YYnFXcEZwe",
      "resolved": false
@@ -171,13 +178,6 @@
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRDhGOEtSczV1bVRuM",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRDhGOEtSczV1bVRuMGFNX0cyZ20zMVI3ZWc2M",
      "resolved": false
-    },
-    {
-     "title": "Nvidia China Clients to Get 1% of $70 Billion RTX Chips Orde",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDF2WGJ0VTU5c0hYZ",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDF2WGJ0VTU5c0hYZ3BSLTJzWHd4eHc2N0trQ",
-     "resolved": false
     }
    ]
   },
@@ -187,15 +187,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Why PC makers are turning back to China - Nikkei Asia",
+   "sample": "China's slumping state airlines pin hopes on overseas demand like exporters - Nikkei Asia",
    "diag": [
-    {
-     "title": "Why PC makers are turning back to China - Nikkei Asia",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRjdHMkFrM2ZZcGpxV",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRjdHMkFrM2ZZcGpxV3dsdHhGbnJlOXpqLTdFN",
-     "resolved": false
-    },
     {
      "title": "China's slumping state airlines pin hopes on overseas demand",
      "date": "2026-11-04",
@@ -223,6 +216,13 @@
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMmV1aS0zWjBzZ2E2c",
      "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMmV1aS0zWjBzZ2E2cHNuaVpmNjJGTXJXWHl1S",
      "resolved": false
+    },
+    {
+     "title": "Analysis: How a secret feud ignited Xi Jinping's governance ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOUVXV2s0M2pOdlB6Y",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOUVXV2s0M2pOdlB6Y1FJb0xoaHRpNTM1Vm52b",
+     "resolved": false
     }
    ]
   },
@@ -242,13 +242,6 @@
      "resolved": false
     },
     {
-     "title": "Combustion engine not dead in China, says BMW as profits sli",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGk3YWpEOG9ScWNUV",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGk3YWpEOG9ScWNUVlBnNUNVQ0laMnZmRkNPZ",
-     "resolved": false
-    },
-    {
      "title": "China steps up defence of stock market in bid to revive AI b",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlNsXzl0WENfdF9YO",
@@ -256,17 +249,24 @@
      "resolved": false
     },
     {
-     "title": "China halts listings in bid to bolster struggling markets - ",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWRIVmFzanBxYUk3d",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWRIVmFzanBxYUk3dEZxMUdxVURNZlVMakljM",
+     "title": "Combustion engine not dead in China, says BMW as profits sli",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGk3YWpEOG9ScWNUV",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGk3YWpEOG9ScWNUVlBnNUNVQ0laMnZmRkNPZ",
      "resolved": false
     },
     {
-     "title": "Nvidia orders data centre clients to reduce China exposure -",
+     "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure - F",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAyc",
+     "resolved": false
+    },
+    {
+     "title": "Chinese and Russian AI cyber attacks will be routine by 2028",
      "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcERsWE1GekIyVGJ1c",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcERsWE1GekIyVGJ1cmZzdHdvQnp2TkUtUi00e",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRMzZsWktaTndnSjBBMDBxZ",
      "resolved": false
     }
    ]
@@ -294,17 +294,17 @@
      "resolved": false
     },
     {
-     "title": "The Little-Known Chinese Bank in the Middle of Iranian and R",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUlJ5UDVDRWJQLWdXa",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUlJ5UDVDRWJQLWdXankzcjZoQnowTUFrLXQzM",
-     "resolved": false
-    },
-    {
      "title": "‘Broken China’ Review: A Mirage of Growth - WSJ",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkFQYXNQNl9FSU5rV",
      "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkFQYXNQNl9FSU5rVDlNSVJodS10TkxkRUdoc",
+     "resolved": false
+    },
+    {
+     "title": "The Little-Known Chinese Bank in the Middle of Iranian and R",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUlJ5UDVDRWJQLWdXa",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUlJ5UDVDRWJQLWdXankzcjZoQnowTUFrLXQzM",
      "resolved": false
     },
     {
@@ -332,7 +332,7 @@
      "resolved": false
     },
     {
-     "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The N",
+     "title": "Opinion | A Dangerous Misunderstanding Is Brewing Over Taiwa",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3a",
      "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfR",
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 58,
+   "items": 57,
    "is_feed": true,
    "sample": "US strategy links Myanmar peace talks to rare-earth access - Reuters",
    "diag": [
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Under threat of air strikes, US looks to bolster base infrastructure with 3D printing"
+   "sample": "Amid Iran conflict, ‘non-hostile’ deaths of 2 US airmen raise overseas toll"
   },
   {
    "name": "Mining",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Rare Earths Norway OKs $27 million Fen pilot plant"
+   "sample": "Michigan mining push tests Lake Superior safeguards"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Can Cheap Batteries Deliver COP31’s 35% Electrification Goal?"
+   "sample": "Africa’s LNG Exports Set to Soar 175% as Buyers Flee Hormuz"
   },
   {
    "name": "IMF",
@@ -596,7 +596,7 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 404,
+   "status": 503,
    "items": 0,
    "is_feed": false
   },
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Netanyahu claims 'serious concerns' of foreign spending to sway Israeli election"
+   "sample": "South Korea to deploy military mission to keep Strait of Hormuz open"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Navy appoints Rucker as new PAE Maritime lead"
+   "sample": "Navy unfairly evaluated Saildrone MUSV proposal, court finds"
   },
   {
    "name": "MiningWeekly",
