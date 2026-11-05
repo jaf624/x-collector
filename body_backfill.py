@@ -27,7 +27,7 @@ try:
 except Exception:
     extract = None
 try:
-    from gnews_resolve import resolve as gnews_resolve
+    from gnews_resolve import resolve_verbose as gnews_resolve
 except Exception:
     gnews_resolve = None
 
@@ -89,9 +89,9 @@ def main():
         try:
             u = x.get("url") or ""
             if "news.google.com" in u:
-                real = gnews_resolve(u) if gnews_resolve else None
+                real, why_r = gnews_resolve(u) if gnews_resolve else (None, "no_module")
                 if not real:
-                    return x, None, "gnews_unresolved"
+                    return x, None, "gnews_" + (why_r or "unknown")
                 x["url_real"] = real
                 u = real
             txt, why = fetch_text(norm(u), x.get("title") or "")
