@@ -92,17 +92,18 @@ def extract(html, title=""):
     for b in blocks:
         ps = re.findall(r"(?is)<p[^>]*>(.*?)</p>", b)
         if not ps:
-            continue
+            ps = re.split(r"(?is)<br\s*/?>|</(?:div|h\d|li)>", b)[:400]
+            ps = [p for p in ps if len(re.sub(r"<[^>]+>", "", p).strip()) >= 40]
         ps = [_clean(re.sub(r"(?is)<[^>]+>", "", p)) for p in ps]
         ps = [q for q in ps if len(q) >= 30]
         if not ps:
             continue
         longest = max(ps, key=len)
-        if len(longest) < 200:
+        if len(longest) < 120:
             continue
         i = ps.index(longest)
-        txt = "。".join(ps[max(0, i - 2): i + 3])
-        if len(txt) > len(best):
+        txt = "。".join(ps[max(0, i - 3): i + 4])
+        if len(txt) >= 300 and len(txt) > len(best):
             best = txt
 
     if len(best) < 200:
