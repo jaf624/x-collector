@@ -5,21 +5,27 @@ on:
   workflow_dispatch:
 concurrency:
   group: crawl-swarm
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   shard:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     strategy:
       fail-fast: false
       matrix:
         shard: [0, 1, 2, 3, 4, 5, 6, 7]
     steps:
-      - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: fetch worker (跳过 checkout，避免卡拉取)
+        run: |
+          mkdir -p crawl out
+          curl -sSL --retry 3 --max-time 60 -o crawl/crawl_shard.py https://raw.githubusercontent.com/jaf624/x-collector/main/crawl/crawl_shard.py
+          curl -sSL --retry 3 --max-time 60 -o crawl/sources.json https://raw.githubusercontent.com/jaf624/x-collector/main/crawl/sources.json
+          ls -l crawl/
       - run: pip install requests
-      - name: crawl shard (只收最近24小时)
+      - name: crawl shard (只收最近24小时 + 硬事实)
         run: python crawl/crawl_shard.py --shard ${{ matrix.shard }} --total 8 --n 60 --hours 24 --body-max 30 --sources crawl/sources.json --out out/crawl_${{ matrix.shard }}.json
       - uses: actions/upload-artifact@v4
         with:
