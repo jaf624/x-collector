@@ -30,10 +30,14 @@ def method_article_page(u):
         html = get(u)
         sig = re.search(r'data-n-a-sg="([^"]+)"', html)
         ts = re.search(r'data-n-a-ts="([^"]+)"', html)
-        links = re.findall(r'href="(https?://[^"]+)"', html)[:5]
+        from collections import Counter
+        links = re.findall(r'href="(https?://[^"]+)"', html)
+        hosts = Counter(re.sub(r"https?://([^/]+).*", r"\1", u) for u in links)
+        nongoogle = [u for u in links if "google" not in u][:4]
         return {"html_len": len(html), "has_sig": bool(sig), "has_ts": bool(ts),
-                "c_wiz": "c-wiz" in html, "n_a": html.count("data-n-a"),
-                "first_links": links}
+                "n_au": html.count("data-n-au"), "n_a": html.count("data-n-a"),
+                "top_hosts": hosts.most_common(6),
+                "nongoogle": [u[:120] for u in nongoogle]}
     except Exception as e:
         return {"err": type(e).__name__ + ":" + str(e)[:60]}
 
