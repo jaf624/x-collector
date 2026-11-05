@@ -70,15 +70,21 @@ def main():
             if len((x.get("content") or "").strip()) < 200
             and (x.get("url") or "").startswith("http")
             and not any(h in x.get("url", "") for h in SKIP_HOST)]
+    # 2026-11-06 实测：Google News 文章页只给 JS 壳，batchexecute 载荷两种形态均 400，
+    # 链接无法还原成出版社 URL（4 轮对照实验作废）。战略调整：gnews 只当"标题索引"，
+    # 永远不占正文抓取配额，标 body_from=snippet 交给下游按线索处理。
     gnews = [x for x in items
              if len((x.get("content") or "").strip()) < 200
              and "news.google.com" in (x.get("url") or "")]
-    print("google-news 待还原=%d" % len(gnews), flush=True)
+    for x in gnews:
+        x["body_from"] = "snippet"
+        x["needs_deepdive"] = False
+    print("google-news 标为标题索引=%d" % len(gnews), flush=True)
     print("feed=%d 待补=%d(含gnews) 取=%d" % (len(items), len(todo) + len(gnews), min(a.max, len(todo) + len(gnews))), flush=True)
     if a.dry:
         return 0
 
-    batch = (todo + gnews)[: a.max]
+    batch = todo[: a.max]
     ok = fail = 0
     reasons = {}
     started = time.time()
@@ -117,7 +123,12 @@ def main():
 
     json.dump(items, open(FEED, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     remain = sum(1 for x in items if len((x.get("content") or "").strip()) < 200)
+    direct = [x for x in items if "news.google.com" not in (x.get("url") or "")]
+    direct_body = [x for x in direct if len((x.get("content") or "").strip()) >= 200]
     stats = {"feed": len(items), "todo": len(todo), "ok": ok, "fail": fail,
+             "gnews_indexed": len(gnews),
+             "direct_n": len(direct), "direct_body": len(direct_body),
+             "direct_rate": round(len(direct_body) / len(direct), 3) if direct else 0,
              "reasons": reasons, "resolved": resolved[0], "remain_empty": remain, "secs": round(time.time() - started, 1),
              "ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
     json.dump(stats, open("data/body_backfill_stats.json", "w"), ensure_ascii=False, indent=1)
