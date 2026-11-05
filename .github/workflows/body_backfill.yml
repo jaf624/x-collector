@@ -1,0 +1,29 @@
+name: body-backfill
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      max_items:
+        description: "本轮最多补抓条数"
+        default: "80"
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Backfill missing article bodies (pure-code extraction)
+        env:
+          INTEL_BODY_BACKFILL_MAX: ${{ github.event.inputs.max_items || '80' }}
+        run: python3 body_backfill.py --max ${INTEL_BODY_BACKFILL_MAX:-80}
+      - name: Commit feed
+        run: |
+          git config user.name "intel-bot"
+          git config user.email "bot@intelhub.local"
+          bash commit_feed.sh 'data: body backfill (direct extraction)' || true
