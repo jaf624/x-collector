@@ -84,3 +84,48 @@ def resolve(u, timeout=15):
         return hit.group(1).replace("\\u003d", "=").replace("\\u0026", "&") if hit else None
     except Exception:
         return None
+
+
+BATCH2 = BATCH + "?rpcids=Fbv4je"
+
+
+def _post_batch_str(article_id, sig, ts, timeout=15):
+    """参照公开实现的字符串式载荷（含 rpcids 查询参数）。"""
+    inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,'
+             'null,null,0,1],"%s",%s,"%s"]]' % (article_id, ts, sig))
+    body = "f.req=" + urllib.parse.quote(json.dumps([["Fbv4je", inner]]))
+    req = urllib.request.Request(BATCH2, data=body.encode(), headers={
+        "User-Agent": UA,
+        "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+        "Origin": "https://news.google.com",
+        "Referer": "https://news.google.com/"})
+    return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", "ignore")
+
+
+def resolve_verbose2(u, timeout=15):
+    """数组/字符串两种载荷 + rpcids，返回 (url, 阶段码)。"""
+    if not u or "news.google.com" not in u:
+        return u, "not_gnews"
+    m = re.search(r"/articles/([^?/]+)", u)
+    if not m:
+        return None, "no_article_id"
+    aid = m.group(1)
+    try:
+        html = _get("%s/articles/%s" % (BASE, aid), timeout)
+    except Exception as e:
+        return None, "html_err:" + type(e).__name__
+    sig = re.search(r'data-n-a-sg="([^"]+)"', html)
+    ts = re.search(r'data-n-a-ts="([^"]+)"', html)
+    if not sig or not ts:
+        return None, "no_sig"
+    for name, fn in (("arr", _post_batch), ("str", _post_batch_str)):
+        try:
+            resp = fn(aid, sig.group(1), ts.group(1), timeout)
+        except Exception as e:
+            if name == "str":
+                return None, "both_err:%s%s" % (type(e).__name__, getattr(e, "code", ""))
+            continue
+        hit = re.search(r'"(https?://(?![^"]*news\.google)[^"]+)"', resp)
+        if hit:
+            return hit.group(1).replace("\\u003d", "=").replace("\\u0026", "&"), "ok_" + name
+    return None, "no_url_both"
