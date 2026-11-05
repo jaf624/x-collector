@@ -72,6 +72,7 @@ def main():
 
     batch = todo[: a.max]
     ok = fail = 0
+    reasons = {}
     started = time.time()
 
     def work(x):
@@ -86,6 +87,8 @@ def main():
             x, txt, why = fut.result()
             if not txt:
                 fail += 1
+                k = (why or "unknown").split(":")[0][:20]
+                reasons[k] = reasons.get(k, 0) + 1
                 continue
             x["content"] = txt
             x["body_from"] = "direct"
@@ -95,7 +98,11 @@ def main():
 
     json.dump(items, open(FEED, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     remain = sum(1 for x in items if len((x.get("content") or "").strip()) < 200)
-    print("backfill ok=%d fail=%d 剩余空壳=%d/%d 用时=%.1fs" % (ok, fail, remain, len(items), time.time() - started), flush=True)
+    stats = {"feed": len(items), "todo": len(todo), "ok": ok, "fail": fail,
+             "reasons": reasons, "remain_empty": remain, "secs": round(time.time() - started, 1),
+             "ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+    json.dump(stats, open("data/body_backfill_stats.json", "w"), ensure_ascii=False, indent=1)
+    print("backfill ok=%d fail=%d 剩余空壳=%d/%d 原因=%s" % (ok, fail, remain, len(items), reasons), flush=True)
     return 0
 
 
