@@ -164,6 +164,32 @@ def title_in_body(title, body):
     return hit >= 2
 
 
+def zh_ratio(t):
+    t2 = re.sub(r"\s", "", t or "")
+    return len(re.findall(u"[\u4e00-\u9fa5]", t2)) / float(max(1, len(t2)))
+
+
+def translate_zh(text, cap=4200):
+    """英文原文机翻成中文（纯接口，不用模型）。分批 600 字，失败保留原文。"""
+    text = (text or "")[:cap]
+    if not text.strip():
+        return ""
+    out = []
+    for i in range(0, len(text), 600):
+        chunk = text[i:i + 600]
+        try:
+            r = requests.get(
+                "https://translate.googleapis.com/translate_a/single",
+                params={"client": "gtx", "sl": "auto", "tl": "zh-CN", "dt": "t", "q": chunk},
+                headers=UA, timeout=15)
+            data = r.json()
+            out.append("".join(x[0] for x in data[0] if x and x[0]))
+        except Exception as e:
+            print("TR-SKIP %s" % str(e)[:40])
+            return ""
+    return "".join(out)
+
+
 def get(url, timeout=20):
     r = requests.get(url, headers=UA, timeout=timeout)
     if r.status_code >= 400:
@@ -231,6 +257,18 @@ def main():
             it["body_len"] = 0
             it["title_only"] = 1
             print("BODY-SKIP %s %s" % (it["url"][:60], str(e)[:40]))
+        # 英文/外文原文：就地机翻成中文，翻不出来就不回传（中文研判写不出英文料的深度）
+        if (it.get("body_len") or 0) >= BODY_MIN and zh_ratio(it.get("body") or "") < 0.5:
+            tr = translate_zh(it.get("body") or "")
+            if tr and zh_ratio(tr) >= 0.5:
+                it["body_orig"] = it["body"][:1200]
+                it["body"] = tr
+                it["body_len"] = len(tr)
+                it["translated"] = 1
+            else:
+                it["body"] = ""
+                it["body_len"] = 0
+                it["title_only"] = 1
         time.sleep(0.3)
 
     # 有正文的排前面，方便服务器先吃好的
