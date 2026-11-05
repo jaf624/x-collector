@@ -1,8 +1,11 @@
 name: crawl-swarm
 on:
   schedule:
-    - cron: "17 */2 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
+concurrency:
+  group: crawl-swarm
+  cancel-in-progress: false
 jobs:
   shard:
     runs-on: ubuntu-latest
@@ -16,8 +19,8 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install requests
-      - name: crawl shard
-        run: python crawl/crawl_shard.py --shard ${{ matrix.shard }} --total 8 --n 60 --sources crawl/sources.json --out out/crawl_${{ matrix.shard }}.json
+      - name: crawl shard (只收最近24小时)
+        run: python crawl/crawl_shard.py --shard ${{ matrix.shard }} --total 8 --n 60 --hours 24 --body-max 30 --sources crawl/sources.json --out out/crawl_${{ matrix.shard }}.json
       - uses: actions/upload-artifact@v4
         with:
           name: crawl-shard-${{ matrix.shard }}
