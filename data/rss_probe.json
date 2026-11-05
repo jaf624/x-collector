@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-05T23:30:21.048753Z",
+ "probed_at": "2026-11-05T23:39:48.873104Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -573,10 +573,10 @@
   {
    "name": "Mining",
    "url": "https://www.mining.com/feed/",
-   "status": 200,
-   "items": 36,
-   "is_feed": true,
-   "sample": "Faster mine approvals start with better project planning, BBA says "
+   "status": -1,
+   "items": 0,
+   "is_feed": false,
+   "err": "The read operation timed out"
   },
   {
    "name": "OilPrice",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Nigeria court bars opposition candidate two months before election"
+   "sample": "Three in four displaced people live in climate danger zones, UN says"
   },
   {
    "name": "JapanTimes",
