@@ -34,8 +34,11 @@ def main():
     if not KEY:
         print("[body] 无 JINA_KEY，跳过"); return
     feed = json.load(open(PATH, encoding="utf-8"))
-    cand = [x for x in feed if not (x.get("content") or "").strip()
+    # 只补"完全为空"的，会漏掉 644 条"有 RSS 摘要但不足 700 字"的条目——
+    # 这些条目正是研判写不满 700 字的原因，必须一并补全。
+    cand = [x for x in feed if len((x.get("content") or "").strip()) < 700
             and (x.get("url") or "").startswith("http")
+            and x.get("body_from") != "jina"
             and PRIO.search(x.get("title") or "")]
     cand.sort(key=lambda x: x.get("published") or "", reverse=True)
     print("待补正文候选:", len(cand), flush=True)
