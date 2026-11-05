@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-05T22:21:12.280982Z",
+ "probed_at": "2026-11-05T23:10:04.303081Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -83,10 +83,10 @@
      "resolved": false
     },
     {
-     "title": "Taiwan accuses China of harassment after standoff between co",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBPeHlzc3NpUmRad",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBPeHlzc3NpUmRadkhGZFJaVlowSGU2emlPM",
+     "title": "US escalates economic campaign against Cuba and targets Chin",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
      "resolved": false
     }
    ]
@@ -249,17 +249,17 @@
      "resolved": false
     },
     {
-     "title": "China’s critical minerals dominance leaves UK ‘dangerously e",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTg5RV9FbFE1MXhsQ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTg5RV9FbFE1MXhsQjZkNWRBamVfMDdpOFo2X",
-     "resolved": false
-    },
-    {
      "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure - F",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAyc",
+     "resolved": false
+    },
+    {
+     "title": "China’s critical minerals dominance leaves UK ‘dangerously e",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTg5RV9FbFE1MXhsQ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTg5RV9FbFE1MXhsQjZkNWRBamVfMDdpOFo2X",
      "resolved": false
     },
     {
@@ -573,10 +573,10 @@
   {
    "name": "Mining",
    "url": "https://www.mining.com/feed/",
-   "status": 200,
-   "items": 36,
-   "is_feed": true,
-   "sample": "San Francisco Bay Area dominates mining tech startup funding worldwide"
+   "status": -1,
+   "items": 0,
+   "is_feed": false,
+   "err": "The read operation timed out"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "India&#039;s Renewables Have Saved $100 Billion in Fuel Imports, IEA Says"
+   "sample": "Asia Hopes U.S. Midterm Results Will Ease Energy Crisis"
   },
   {
    "name": "IMF",
