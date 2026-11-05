@@ -114,6 +114,56 @@ def extract_body(html_text):
     return body
 
 
+_ORG_SUFFIX = "部|局|委员会|办公室|司令部|研究所|研究院|实验室|基金会|公司|集团|银行|中心|大学|学院|协会|联盟|议会|法院|使馆|总部|委|署|院"
+_ORG_RE = re.compile(u"([\u4e00-\u9fa5]{2,10}(?:%s))" % _ORG_SUFFIX)
+# 机构名前缀里的动词/连接词噪声（“据悉美财政部”→ 去掉“据悉”）
+_LEAD = re.compile(u"^(?:据[^\\s,，。]{0,4}?称?|据悉|报道称|报道|消息称|分析称|评论称|宣称|声称|表示|宣布|指出|认为|显示|称|说|另据|此外|同时|目前|近日|日前|昨天|昨日|今天|当日|其中|以及|并且|但是|然而|因为|所以|如果|已经|正式|首次|再次|拟|将|被|由|向|对|从|在|与|和|及|该|其|此|这|本|我国|该国)")
+_AMT_RE = re.compile(u"(\\d+(?:\\.\\d+)?\\s*(?:亿|万|千)?\\s*(?:美元|欧元|日元|英镑|卢布|人民币|元|吨|架|艘|枚|桶|加仑|人|名|%|％))")
+_CODE_RE = re.compile(r"(?<![A-Za-z0-9])[A-Z]{2,6}(?:-\d{2,6})+")
+_GENERIC = re.compile(u"^(有关|相关|其他|其余|各|某|部分|多个|一些|上述|以上|当地|这家|那家|任何|全部|所有|多家|数家)")
+  # 前缀噪声：逐个剥掉开头的动词/连接词，直到剥不动
+_LEADCH = u"据称悉讯闻表宣指认显说评此该其也将被由向对从在与和及的了是乃即另仍再已正共各"
+def _clean_org(s):
+    while s and s[0] in _LEADCH:
+        s = s[1:]
+    return s
+
+
+def extract_facts(text):
+    """纯代码抽硬事实：机构主体 / 金额数量 / 代号型号。宁可少，不许编。"""
+    t = text or ""
+    orgs, amts, codes = [], [], []
+    for m in _ORG_RE.finditer(t):
+        s = _clean_org(_LEAD.sub("", m.group(1)))
+        s = s.lstrip(u"的了是在和与及对向从被由该其此这那")
+        if 3 <= len(s) <= 14 and not _GENERIC.search(s[:4]):
+            orgs.append(s)
+    for m in _AMT_RE.finditer(t):
+        v = m.group(1).replace(" ", "")
+        if re.search(u"\\d", v):
+            amts.append(v)
+    for m in _CODE_RE.finditer(t):
+        codes.append(m.group(0))
+    return {
+        "orgs": list(dict.fromkeys(orgs))[:3],
+        "amts": list(dict.fromkeys(amts))[:3],
+        "codes": list(dict.fromkeys(codes))[:3],
+    }
+
+
+def title_in_body(title, body):
+    """标题相关性硬校验：标题的汉字二元组至少 2 个出现在正文里，防串台/防样板页冒充"""
+    zh = re.findall(u"[\u4e00-\u9fa5]{2,}", title or "")
+    grams = set()
+    for seg in zh:
+        for i in range(len(seg) - 1):
+            grams.add(seg[i:i + 2])
+    if len(grams) < 3:
+        return True  # 短标题不判
+    hit = sum(1 for g in grams if g in body)
+    return hit >= 2
+
+
 def get(url, timeout=20):
     r = requests.get(url, headers=UA, timeout=timeout)
     if r.status_code >= 400:
@@ -185,8 +235,27 @@ def main():
 
     # 有正文的排前面，方便服务器先吃好的
     picked.sort(key=lambda x: -int(x.get("body_len") or 0))
-    keep = [x for x in picked if (x.get("body_len") or 0) >= BODY_MIN]
+    keep = []
+    for x in picked:
+        if (x.get("body_len") or 0) < BODY_MIN:
+            stats["drop_short"] = stats.get("drop_short", 0) + 1
+            continue
+        # ① 串台/样板门：标题必须真的在正文里出现
+        if not title_in_body(x.get("title", ""), x.get("body", "")):
+            stats["drop_offtopic"] = stats.get("drop_offtopic", 0) + 1
+            continue
+        # ② 硬事实：机构 / 金额 / 代号 至少一项
+        f = extract_facts(x.get("body", ""))
+        x["facts"] = f
+        x["fact_n"] = len(f["orgs"]) + len(f["amts"]) + len(f["codes"])
+        if x["fact_n"] == 0:
+            stats["drop_nofact"] = stats.get("drop_nofact", 0) + 1
+            continue
+        keep.append(x)
+    # 事实多的排前面：服务器按顺序吃，先消化证据最足的
+    keep.sort(key=lambda x: (-x.get("fact_n", 0), -int(x.get("body_len") or 0)))
     stats["items"] = len(keep)
+    stats["fact_ok"] = sum(1 for x in keep if x.get("fact_n", 0) >= 2)
     out = {"shard": a.shard, "generated_at": datetime.datetime.now().isoformat(timespec="seconds"),
            "stats": stats, "rows": keep}
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
