@@ -67,14 +67,14 @@ def main():
         items = items.get("items", [])
 
     todo = [x for x in items
-            if len((x.get("content") or "").strip()) < 200
+            if len((x.get("content") or "").strip()) < 700
             and (x.get("url") or "").startswith("http")
             and not any(h in x.get("url", "") for h in SKIP_HOST)]
     # 2026-11-06 实测：Google News 文章页只给 JS 壳，batchexecute 载荷两种形态均 400，
     # 链接无法还原成出版社 URL（4 轮对照实验作废）。战略调整：gnews 只当"标题索引"，
     # 永远不占正文抓取配额，标 body_from=snippet 交给下游按线索处理。
     gnews = [x for x in items
-             if len((x.get("content") or "").strip()) < 200
+             if len((x.get("content") or "").strip()) < 700
              and "news.google.com" in (x.get("url") or "")]
     for x in gnews:
         x["body_from"] = "snippet"
@@ -122,7 +122,7 @@ def main():
             ok += 1
 
     json.dump(items, open(FEED, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    remain = sum(1 for x in items if len((x.get("content") or "").strip()) < 200)
+    remain = sum(1 for x in items if len((x.get("content") or "").strip()) < 700)
     direct = [x for x in items if "news.google.com" not in (x.get("url") or "")]
     direct_body = [x for x in direct if len((x.get("content") or "").strip()) >= 200]
     stats = {"feed": len(items), "todo": len(todo), "ok": ok, "fail": fail,
