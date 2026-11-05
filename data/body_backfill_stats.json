@@ -2,12 +2,14 @@
  "feed": 800,
  "todo": 7,
  "ok": 0,
- "fail": 7,
+ "fail": 30,
  "reasons": {
   "no_long_paragraph": 6,
+  "gnews_unresolved": 23,
   "offtopic": 1
  },
+ "resolved": 0,
  "remain_empty": 643,
- "secs": 1.0,
- "ts": "2026-11-05T21:48:26Z"
+ "secs": 1.6,
+ "ts": "2026-11-05T21:52:31Z"
 }
