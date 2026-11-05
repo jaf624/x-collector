@@ -1161,11 +1161,12 @@ def main():
                     return it
                 with ThreadPoolExecutor(max_workers=12) as _gx:
                     list(_gx.map(_res, items[:INST_PER_FEED]))
-            return s, items, ftitle
+            return s, items, ftitle, st
 
         host_name = {}
+        _ledger = []  # 逐源产量账本：跑了几条、采纳几条，用于定位'活而不出稿'
         with ThreadPoolExecutor(max_workers=INST_WORKERS) as ex:
-            for s, items, ftitle in (fu.result() for fu in as_completed([ex.submit(fetch_src, x) for x in uniq])):
+            for s, items, ftitle, st in (fu.result() for fu in as_completed([ex.submit(fetch_src, x) for x in uniq])):
                 k = 0
                 for it in items[:INST_PER_FEED]:
                     u = it["link"]
@@ -1204,9 +1205,21 @@ def main():
                     else:
                         cand.update({"body_from": "full", "snippet": None})
                     candidates[u] = cand; k += 1; inst_n += 1
+                _ledger.append({'host': s.get('host'), 'st': st, 'parsed': len(items),
+                                'accepted': k, 'grade': s.get('grade', 'C')})
                 if k:
                     print(f"[inst] {str(s.get('name', ''))[:22]}: +{k}", flush=True)
         print(f"[inst] 机构 RSS 本轮候选 {inst_n}（活跃源 {len(uniq)}）", flush=True)
+        try:
+            _yp = os.path.join(ROOT, 'data', 'source_yield.json')
+            os.makedirs(os.path.dirname(_yp), exist_ok=True)
+            _old = json.load(open(_yp, encoding='utf-8')) if os.path.exists(_yp) else {}
+            _old[datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M')] = {
+                'run_src': len(uniq), 'cand': inst_n, 'rows': _ledger}
+            _old = {k2: _old[k2] for k2 in sorted(_old)[-30:]}
+            json.dump(_old, open(_yp, 'w', encoding='utf-8'), ensure_ascii=False)
+        except Exception as _e:
+            print('[yield] write fail', _e, flush=True)
         # 2026-10-19 权威源 0 条诊断（HTTP 失败/解析失败），定位新增直连 feed 为何采不到
         for _nm, _st, _ni, _add in _diag0:
             if _st != 200 or _ni == 0:
