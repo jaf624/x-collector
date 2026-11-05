@@ -34,6 +34,36 @@ def _post_batch(article_id, sig, ts, timeout=15):
     return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", "ignore")
 
 
+def resolve_verbose(u, timeout=15):
+    """返回 (real_url, 阶段码)，用于诊断。"""
+    if not u or "news.google.com" not in u:
+        return u, "not_gnews"
+    m = re.search(r"/articles/([^?/]+)", u)
+    if not m:
+        return None, "no_article_id"
+    aid = m.group(1)
+    try:
+        html = _get("%s/articles/%s" % (BASE, aid), timeout)
+    except Exception as e:
+        return None, "html_err:" + type(e).__name__
+    if len(html) < 300:
+        return None, "html_short:%d" % len(html)
+    sig = re.search(r'data-n-a-sg="([^"]+)"', html)
+    ts = re.search(r'data-n-a-ts="([^"]+)"', html)
+    if not sig or not ts:
+        return None, "no_sig:%s" % ("c-wiz_found" if "data-n-a-" in html else "no_marker")
+    try:
+        resp = _post_batch(aid, sig.group(1), ts.group(1), timeout)
+    except Exception as e:
+        return None, "post_err:" + type(e).__name__
+    if not resp or len(resp) < 50:
+        return None, "post_short:%d" % len(resp or "")
+    hit = re.search(r'"(https?://(?![^"]*news\.google)[^"]+)"', resp)
+    if not hit:
+        return None, "no_url:%d" % len(resp)
+    return hit.group(1).replace("\\u003d", "=").replace("\\u0026", "&"), "ok"
+
+
 def resolve(u, timeout=15):
     """返回真实 URL；失败返回 None。"""
     if not u or "news.google.com" not in u:
