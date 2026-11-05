@@ -26,8 +26,9 @@ def _get(url, timeout=15):
 
 
 def _post_batch(article_id, sig, ts, timeout=15):
-    inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,'
-             'null,null,0,1],"%s",%s,"%s"]]' % (article_id, ts, sig))
+    # f.req 的第二项必须是「数组」而不是 JSON 字符串，否则 batchexecute 返回 400（实测踩过）
+    inner = ["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
+                             None, None, None, None, None, 0, 1], article_id, ts, sig]]
     body = "f.req=" + urllib.parse.quote(json.dumps([["Fbv4je", inner]]))
     req = urllib.request.Request(BATCH, data=body.encode(), headers={
         "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
@@ -55,7 +56,7 @@ def resolve_verbose(u, timeout=15):
     try:
         resp = _post_batch(aid, sig.group(1), ts.group(1), timeout)
     except Exception as e:
-        return None, "post_err:" + type(e).__name__
+        return None, "post_err:%s%s" % (type(e).__name__, getattr(e, "code", ""))
     if not resp or len(resp) < 50:
         return None, "post_short:%d" % len(resp or "")
     hit = re.search(r'"(https?://(?![^"]*news\.google)[^"]+)"', resp)
