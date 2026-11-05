@@ -51,6 +51,15 @@ def method_batch(u):
         return {"err": type(e).__name__ + ":" + str(e)[:60]}
 
 
+def method_batch2(u):
+    try:
+        import gnews_resolve
+        real, why = gnews_resolve.resolve_verbose2(u)
+        return {"real": (real or "")[:160], "why": why}
+    except Exception as e:
+        return {"err": type(e).__name__ + ":" + str(e)[:60]}
+
+
 def main():
     items = json.load(open(FEED, encoding="utf-8"))
     if isinstance(items, dict):
@@ -63,7 +72,8 @@ def main():
         res.append({"title": (x.get("title") or "")[:50],
                     "redirect": method_redirect(u),
                     "page": method_article_page(u),
-                    "batch": method_batch(u)})
+                    "batch": method_batch(u),
+                    "batch2": method_batch2(u)})
     json.dump(res, open(OUT, "w"), ensure_ascii=False, indent=1)
     print("probed", len(res))
 
