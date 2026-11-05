@@ -1119,7 +1119,7 @@ def main():
                 _allowed_grades.add("B")
             if _hh_idx % 6 == 0:   # 每6轮=180分钟，加C级
                 _allowed_grades.add("C")
-        inst_srcs = [s for s in inst_srcs if s.get("grade", "C") in _allowed_grades]
+        # 活且新即升 A：周度探活回写 last_probe_status/age，7 天内有新条的源不再等 B/C 轮次轮转，\n        # 否则 228 个新鲜源里只有 54 个 A 级每轮真跑，其余在 90/180 分钟窗口外干等。\n        _fresh_hosts = {s.get("host") for s in inst_srcs\n                        if s.get("last_probe_status") == "alive"\n                        and isinstance(s.get("last_probe_age"), int)\n                        and s.get("last_probe_age") <= 7}\n        inst_srcs = [s for s in inst_srcs\n                     if s.get("grade", "C") in _allowed_grades or s.get("host") in _fresh_hosts]
         print(f"[inst] 分级过滤：本轮跑 {''.join(sorted(_allowed_grades))} 级源（半小时序号={_hh_idx}），共{len(inst_srcs)}个", flush=True)
         inst_srcs.sort(key=lambda s: -int(s.get("china_hits") or 0))
         uniq, seen_feed = [], set()
