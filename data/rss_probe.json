@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-05T16:33:53.355228Z",
+ "probed_at": "2026-11-05T17:48:03.795548Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China Tech Frenzy Turns Into Year of Dismay for Retail Trade",
+     "title": "China’s Copper Squeeze Deepens as Buyers Scramble for Spot M",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3VweFRYYWNyamVSb",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3VweFRYYWNyamVSbllFLVlOcVg0UnQyMHlvd",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOelVqYlVrV1VlOVExR",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOelVqYlVrV1VlOVExRHR0eGowUFpCaGh4LWNlS",
      "resolved": false
     },
     {
-     "title": "Canada, China Extend Tariff Deal, Aim to Boost Canadian Expo",
+     "title": "Africa-Focused OPay Is Said to Halt US IPO After China Inqui",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzN",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzNXppcElseDVIRE5hN0t5c",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHF4OEhjMUNTdWtWZ",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHF4OEhjMUNTdWtWZGYxckRtYUJKNDZSeWEyZ",
      "resolved": false
     }
    ]
@@ -187,15 +187,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Toyota ready to 'regain market share' in China on expanded local sourcing - Nikkei Asia",
+   "sample": "China's curbs on tungsten used in drill bits squeeze AI supply chain - Nikkei Asia",
    "diag": [
-    {
-     "title": "Toyota ready to 'regain market share' in China on expanded l",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQ",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQjRjaFFJN2U1ZnNHQjdmM",
-     "resolved": false
-    },
     {
      "title": "China's curbs on tungsten used in drill bits squeeze AI supp",
      "date": "2026-11-05",
@@ -208,6 +201,13 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2hCWHhTMDZDQllhZ",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2hCWHhTMDZDQllhZ244Z1ZabmhyT01IT1BJS",
+     "resolved": false
+    },
+    {
+     "title": "Toyota ready to 'regain market share' in China on expanded l",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQ",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQjRjaFFJN2U1ZnNHQjdmM",
      "resolved": false
     },
     {
@@ -288,7 +288,7 @@
     },
     {
      "title": "Volvo Car Sales Drop on Continued China, U.S. Weakness - WSJ",
-     "date": "2026-11-05",
+     "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM",
      "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM25YZVlNWFZnOUI1eUtsV",
      "resolved": false
@@ -377,6 +377,13 @@
      "resolved": false
     },
     {
+     "title": "China and Taiwan are fighting over Sun Yat-sen - The Economi",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnV",
+     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnVkJoTk5EVjF4d3hnOHlJX",
+     "resolved": false
+    },
+    {
      "title": "With an eye on America, China is beefing up its AI-controlle",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
@@ -391,17 +398,10 @@
      "resolved": false
     },
     {
-     "title": "Wanted: a news researcher in Beijing - The Economist",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKT",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKTTFRV1I5aTRDWWZaZWZ5O",
-     "resolved": false
-    },
-    {
-     "title": "Why China should keep copying American AI - The Economist",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc0wtMWozbkV6MHJ5R",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc0wtMWozbkV6MHJ5RGx4MFZYU1RTQ1dFSkdfQ",
+     "title": "Chinese tech helps repressive African governments crush diss",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdle",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdleHVDQ3gwZF9LOEJfTVNrb",
      "resolved": false
     }
    ]
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "China's rare earth curbs endanger $6.5 trillion of Western i",
-     "date": "2026-07-15",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1JvOGNOVF9NekpFQ",
-     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1JvOGNOVF9NekpFQlJZLWowNkRlZkpZa2Jjc",
+     "title": "US Treasury's Bessent to discuss AI, rare earths with China'",
+     "date": "2026-09-18",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaXgxcUNDSEx5a2Vva",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaXgxcUNDSEx5a2VvaTV1MTNfVXZsOTBWaGZle",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Sierra Nevada Company Agree to Pay $7.75M to Settle False Claims Act "
+   "sample": "University of Nebraska, USSTRATCOM leaders meet to advance research, workforce partnerships"
   },
   {
    "name": "商务部新闻",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Rio Tinto injects $144 million into Resolution Copper after land battle win"
+   "sample": "San Francisco Bay Area dominates mining tech startup funding worldwide"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Turkey Unveils $500 Billion Energy Plan Built on Gas, Solar, Nuclear"
+   "sample": "Guyana’s Oil Boom Could Ease the Global Supply Crunch"
   },
   {
    "name": "IMF",
@@ -625,9 +625,10 @@
   {
    "name": "France24英文",
    "url": "https://www.france24.com/en/rss",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 24,
+   "is_feed": true,
+   "sample": "🔴 Live: Interior ministry says 600,000 protest across France as unions claim 'close to 1.6 million'"
   },
   {
    "name": "JapanTimes",
@@ -678,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Eurofighter eyes sales of 200 additional aircraft"
+   "sample": "Saildrone inks agreement with Norwegian shipbuilder Umoe Mandal to produce USVs"
   },
   {
    "name": "MiningWeekly",
