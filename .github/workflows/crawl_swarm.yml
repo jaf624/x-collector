@@ -1,0 +1,24 @@
+name: crawl-swarm
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+jobs:
+  shard:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: crawl shard
+        run: python crawl/crawl_shard.py --shard ${{ matrix.shard }} --total 8 --n 60 --sources crawl/sources.json --out out/crawl_${{ matrix.shard }}.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: crawl-shard-${{ matrix.shard }}
+          path: out/crawl_${{ matrix.shard }}.json
