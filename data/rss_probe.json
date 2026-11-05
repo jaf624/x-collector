@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-05T23:10:04.303081Z",
+ "probed_at": "2026-11-05T23:17:01.800787Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -573,10 +573,10 @@
   {
    "name": "Mining",
    "url": "https://www.mining.com/feed/",
-   "status": -1,
-   "items": 0,
-   "is_feed": false,
-   "err": "The read operation timed out"
+   "status": 200,
+   "items": 36,
+   "is_feed": true,
+   "sample": "Faster mine approvals start with better project planning, BBA says "
   },
   {
    "name": "OilPrice",
