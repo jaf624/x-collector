@@ -12,6 +12,7 @@ import os
 import re
 import time
 import urllib.parse
+import email.utils as eut
 import xml.etree.ElementTree as ET
 
 import requests
@@ -19,6 +20,34 @@ import requests
 UA = {"User-Agent": "Mozilla/5.0 (compatible; intelhub-swarm/1.0)"}
 BODY_MIN = 400
 BODY_MAX = 36
+HOURS = 24
+
+
+def _ts(s):
+    """把 RSS/网页里的发布时间解析成时间戳，解析不出来返回 0（当新料处理）"""
+    if not s:
+        return 0
+    s = s.strip()[:32]
+    try:
+        return eut.parsedate_to_datetime(s).timestamp()
+    except Exception:
+        pass
+    for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S", "%Y-%m-%d", "%Y/%m/%d",
+                "%Y年%m月%d日", "%d %b %Y", "%a, %d %b %Y %H:%M:%S"):
+        try:
+            import datetime as _d
+            return _d.datetime.strptime(s[:len(fmt) * 2], fmt).timestamp()
+        except Exception:
+            continue
+    import re as _re
+    m = _re.search(r"(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})", s)
+    if m:
+        import datetime as _d
+        try:
+            return _d.datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).timestamp()
+        except Exception:
+            return 0
+    return 0
 
 
 def parse_feed(text):
@@ -98,6 +127,7 @@ def main():
     ap.add_argument("--total", type=int, default=8)
     ap.add_argument("--n", type=int, default=40)
     ap.add_argument("--body-max", type=int, default=BODY_MAX)
+    ap.add_argument("--hours", type=int, default=HOURS, help="只收这么多小时内发布的（0=不限）")
     ap.add_argument("--sources", default="")
     ap.add_argument("--sources-url", default="")
     ap.add_argument("--out", default="out/crawl.json")
@@ -126,7 +156,13 @@ def main():
         except Exception as e:
             print("SKIP %s %s" % (payload[:60], str(e)[:50]))
 
-    # 正文抓取：只对前 body-max 条做，抓不到标 title_only
+    # 新鲜度过滤：只要最近 hours 小时内的；解析不出时间的保留（当作新料）
+    if a.hours:
+        cutoff = time.time() - a.hours * 3600
+        rows = [r for r in rows if _ts(r.get("published")) == 0 or _ts(r.get("published")) >= cutoff]
+    stats["fresh"] = len(rows)
+    # 新的排前面，先给最新的抓正文
+    rows.sort(key=lambda r: -_ts(r.get("published")))
     picked = rows[:a.body_max]
     for it in picked:
         stats["body_tried"] += 1
