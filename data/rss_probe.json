@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-05T17:48:03.795548Z",
+ "probed_at": "2026-11-05T22:21:12.280982Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,20 +7,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withholds import approval - Reuters",
+   "sample": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations-document - Reuters",
    "diag": [
+    {
+     "title": "Key Republicans seek briefing from Nvidia CEO over Chinese s",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNVFaekphR1ctQUxRQ",
+     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNVFaekphR1ctQUxRQk5CTEFSNnZuTDNJR2FJL",
+     "resolved": false
+    },
     {
      "title": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withho",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTS",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTSE5wNWUzekR0cDZfcWQzQ",
-     "resolved": false
-    },
-    {
-     "title": "India flags Chinese-linked AI tools in hacking campaign agai",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEW",
-     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEWDZTU0JvTXZCSldfNVROU",
      "resolved": false
     },
     {
@@ -31,17 +31,17 @@
      "resolved": false
     },
     {
+     "title": "India flags Chinese-linked AI tools in hacking campaign agai",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEW",
+     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEWDZTU0JvTXZCSldfNVROU",
+     "resolved": false
+    },
+    {
      "title": "China says US farm purchases hinge on tariff-cut deal - Reut",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjZCZGJiUVFJRkdBe",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjZCZGJiUVFJRkdBeU1DaTExb3FMSmdaLVRuL",
-     "resolved": false
-    },
-    {
-     "title": "China blocks SoftBank’s $5.4 billion takeover of ABB’s robot",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY",
-     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY3phU1ZicmlpM0kzUTdjN",
      "resolved": false
     }
    ]
@@ -152,10 +152,10 @@
      "resolved": false
     },
     {
-     "title": "China Mulls Dollar, Offshore Yuan Sovereign Bond Sale This M",
+     "title": "Binance Hack Funds Flow to Chinese Launderers, Chainalysis S",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemphYmpSVmkwMGFHM",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemphYmpSVmkwMGFHMExqMlU3dHJUelRBZld3T",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVktFZjZWQ3R6bTBBZ",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVktFZjZWQ3R6bTBBZkxjc19VbmNUdXNSNGQ2S",
      "resolved": false
     },
     {
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China’s Copper Squeeze Deepens as Buyers Scramble for Spot M",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOelVqYlVrV1VlOVExR",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOelVqYlVrV1VlOVExRHR0eGowUFpCaGh4LWNlS",
-     "resolved": false
-    },
-    {
      "title": "Africa-Focused OPay Is Said to Halt US IPO After China Inqui",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHF4OEhjMUNTdWtWZ",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHF4OEhjMUNTdWtWZGYxckRtYUJKNDZSeWEyZ",
+     "resolved": false
+    },
+    {
+     "title": "Canada, China Extend Tariff Deal, Aim to Boost Canadian Expo",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzN",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzNXppcElseDVIRE5hN0t5c",
      "resolved": false
     }
    ]
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "China's Temu, JD.com revamp business models amid tariff head",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zS",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXFvUWRfaHp5NU8zSVZHU3doQnl1aXRKUC1hc",
+     "title": "Analysis: How a secret feud ignited Xi Jinping's governance ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOUVXV2s0M2pOdlB6Y",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOUVXV2s0M2pOdlB6Y1FJb0xoaHRpNTM1Vm52b",
      "resolved": false
     }
    ]
@@ -263,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "China steps up defence of stock market in bid to revive AI b",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlNsXzl0WENfdF9YO",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlNsXzl0WENfdF9YOGdmb1BtbW9yRm9QQ3NOV",
+     "title": "Chinese and Russian AI cyber attacks will be routine by 2028",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRMzZsWktaTndnSjBBMDBxZ",
      "resolved": false
     }
    ]
@@ -294,17 +294,17 @@
      "resolved": false
     },
     {
-     "title": "The Morning Risk Report: The Little-Known Chinese Bank in th",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR",
-     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR3d1QzBRU3k5TUstYzlGb",
-     "resolved": false
-    },
-    {
      "title": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Ch",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtN",
      "real": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtNzgwdVZDalJFVmhObFlmV",
+     "resolved": false
+    },
+    {
+     "title": "The Morning Risk Report: The Little-Known Chinese Bank in th",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR",
+     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR3d1QzBRU3k5TUstYzlGb",
      "resolved": false
     },
     {
@@ -353,10 +353,10 @@
      "resolved": false
     },
     {
-     "title": "A Powerful Mosquito-Hunting Laser Uses A.I. to Zap Winged Pe",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX",
-     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pOExXYTZ1ZjJaSUlzX2lPaVlieXNmSjFXc2ZPN",
+     "title": "How One Country Became the Unlikely Crossroads of the Global",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ",
+     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ2NlWlBld2lpTEgyTzF4R",
      "resolved": false
     }
    ]
@@ -367,8 +367,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Indebted tycoons haunt China’s banking system - The Economist",
+   "sample": "China and Taiwan are fighting over Sun Yat-sen - The Economist",
    "diag": [
+    {
+     "title": "China and Taiwan are fighting over Sun Yat-sen - The Economi",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnV",
+     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnVkJoTk5EVjF4d3hnOHlJX",
+     "resolved": false
+    },
     {
      "title": "Indebted tycoons haunt China’s banking system - The Economis",
      "date": "2026-11-05",
@@ -377,10 +384,10 @@
      "resolved": false
     },
     {
-     "title": "China and Taiwan are fighting over Sun Yat-sen - The Economi",
+     "title": "Chinese tech helps repressive African governments crush diss",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnV",
-     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnVkJoTk5EVjF4d3hnOHlJX",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdle",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdleHVDQ3gwZF9LOEJfTVNrb",
      "resolved": false
     },
     {
@@ -395,13 +402,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM0syTWN4M010ZjVBWXJrV",
-     "resolved": false
-    },
-    {
-     "title": "Chinese tech helps repressive African governments crush diss",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdle",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdleHVDQ3gwZF9LOEJfTVNrb",
      "resolved": false
     }
    ]
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "US Treasury's Bessent to discuss AI, rare earths with China'",
-     "date": "2026-09-18",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaXgxcUNDSEx5a2Vva",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaXgxcUNDSEx5a2VvaTV1MTNfVXZsOTBWaGZle",
+     "title": "Rare earths force Trump to be less hostile before Xi summit ",
+     "date": "2026-09-21",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWVnSmJwbVhCRUtPc",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWVnSmJwbVhCRUtPcUVjbUtZZkRxUTlzVWpWZ",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "University of Nebraska, USSTRATCOM leaders meet to advance research, workforce partnerships"
+   "sample": "NATO Defense College Visit"
   },
   {
    "name": "商务部新闻",
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "USS Stout Loses Power During Port Visit Due to ‘Engineering Casualty&#8217;"
+   "sample": "North Korean Leader Inspects New Warship Under Construction at Nampho Shipyard"
   },
   {
    "name": "DefenseNews",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Israeli defense company says this trigger is programmed to shoot drones"
+   "sample": "Popular military air show permanently pulled from RAF Fairford after suspected terror threat"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Guyana’s Oil Boom Could Ease the Global Supply Crunch"
+   "sample": "India&#039;s Renewables Have Saved $100 Billion in Fuel Imports, IEA Says"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "🔴 Live: Interior ministry says 600,000 protest across France as unions claim 'close to 1.6 million'"
+   "sample": "Nigeria court bars opposition candidate two months before election"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Saildrone inks agreement with Norwegian shipbuilder Umoe Mandal to produce USVs"
+   "sample": "Republicans have a ticking clock. What can they get done on defense?"
   },
   {
    "name": "MiningWeekly",
