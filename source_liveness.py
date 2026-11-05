@@ -107,6 +107,7 @@ def main():
         s["last_probe"] = today
         s["last_probe_status"] = r["verdict"]
         s["last_probe_items"] = r["items"]
+        s["last_probe_age"] = r["age_days"]   # 采集器据此判断"活且新"，自动升 A 级
     json.dump(src, open(TARGETS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
     buckets = {}
