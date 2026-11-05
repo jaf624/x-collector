@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-05T08:10:51.899310Z",
+ "probed_at": "2026-11-05T09:52:22.529357Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China indicts ex-Politburo member Ma Xingrui for bribery - Reuters",
+   "sample": "China blocks SoftBank’s $5.4 billion takeover of ABB’s robotics division - Reuters",
    "diag": [
+    {
+     "title": "China blocks SoftBank’s $5.4 billion takeover of ABB’s robot",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY3phU1ZicmlpM0kzUTdjN",
+     "resolved": false
+    },
     {
      "title": "China indicts ex-Politburo member Ma Xingrui for bribery - R",
      "date": "2026-11-05",
@@ -17,10 +24,10 @@
      "resolved": false
     },
     {
-     "title": "China blocks SoftBank’s $5.4 billion takeover of ABB’s robot",
+     "title": "India flags Chinese-linked AI tools in hacking campaign agai",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY",
-     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY3phU1ZicmlpM0kzUTdjN",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEW",
+     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEWDZTU0JvTXZCSldfNVROU",
      "resolved": false
     },
     {
@@ -35,13 +42,6 @@
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzVTcjFWM1pyclM0M",
      "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzVTcjFWM1pyclM0MFlFbkZGbTFaSVZfbFVkc",
-     "resolved": false
-    },
-    {
-     "title": "China's solar push reshapes traditional ways of life on Tibe",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSmF2NkRUeVRpUERoL",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSmF2NkRUeVRpUERoLWhSdUNYRUtMbkdrVmNlb",
      "resolved": false
     }
    ]
@@ -97,8 +97,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Down to Earth - Scientists begin tests on human composting, an eco-friendly alternative to burials and cremation - Franc",
+   "sample": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion - France 24",
    "diag": [
+    {
+     "title": "Hong Kong activist Joshua Wong gets 10 more years in jail fo",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2ExYklFYWVJcE1wV",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2ExYklFYWVJcE1wVHJ0V2Yza3lWdG1UNHI1V",
+     "resolved": false
+    },
     {
      "title": "Down to Earth - Scientists begin tests on human composting, ",
      "date": "2026-11-02",
@@ -126,13 +133,6 @@
      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0b",
      "real": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0bFF6ejV2ZnhwVDNWRFRDd",
      "resolved": false
-    },
-    {
-     "title": "Tête à tête - Israeli election: 'Netanyahu did not win, he l",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdE92enRhTGRrQ2hNW",
-     "real": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdE92enRhTGRrQ2hNWGlvZkRZVnEwbDlxOXJlN",
-     "resolved": false
     }
    ]
   },
@@ -142,20 +142,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says - Bloomberg.com",
+   "sample": "China Mulls Dollar, Offshore Yuan Sovereign Bond Sale This Month - Bloomberg.com",
    "diag": [
-    {
-     "title": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4a",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4aDRBUnp5cjJYVlhLTmhrY",
-     "resolved": false
-    },
     {
      "title": "China Mulls Dollar, Offshore Yuan Sovereign Bond Sale This M",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemphYmpSVmkwMGFHM",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemphYmpSVmkwMGFHMExqMlU3dHJUelRBZld3T",
+     "resolved": false
+    },
+    {
+     "title": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4a",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4aDRBUnp5cjJYVlhLTmhrY",
      "resolved": false
     },
     {
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China Tech Frenzy Turns Into Year of Dismay for Retail Trade",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3VweFRYYWNyamVSb",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3VweFRYYWNyamVSbllFLVlOcVg0UnQyMHlvd",
-     "resolved": false
-    },
-    {
      "title": "Chinese Renewables Stocks Extend Surge After Democratic Swee",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0xfcERQU1dQVGJxb",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0xfcERQU1dQVGJxbXBjUlpuNDVLbk05UFRhT",
+     "resolved": false
+    },
+    {
+     "title": "China’s Copper Squeeze Deepens as Buyers Scramble for Spot M",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOelVqYlVrV1VlOVExR",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOelVqYlVrV1VlOVExRHR0eGowUFpCaGh4LWNlS",
      "resolved": false
     }
    ]
@@ -197,10 +197,10 @@
      "resolved": false
     },
     {
-     "title": "Toyota raises profit forecast as strong hybrid sales defy Ch",
+     "title": "Toyota ready to 'regain market share' in China on expanded l",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY01kamVWU0RacEpZV",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY01kamVWU0RacEpZV2xaOEtRa3BFcE1Gb2pIZ",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQ",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQjRjaFFJN2U1ZnNHQjdmM",
      "resolved": false
     },
     {
@@ -242,17 +242,17 @@
      "resolved": false
     },
     {
+     "title": "China’s ‘swarm’ strategy for the space race - Financial Time",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUxFM3pRcGxXanV2c",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUxFM3pRcGxXanV2cWpvekhIblZScmlsazU0V",
+     "resolved": false
+    },
+    {
      "title": "China’s critical minerals dominance leaves UK ‘dangerously e",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTg5RV9FbFE1MXhsQ",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTg5RV9FbFE1MXhsQjZkNWRBamVfMDdpOFo2X",
-     "resolved": false
-    },
-    {
-     "title": "Solvay strikes rare earths deal that will reduce global depe",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVFc1bDRBc2poRGc5O",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVFc1bDRBc2poRGc5OWQ5bjlvZUF3ajJoT1BCS",
      "resolved": false
     },
     {
@@ -277,11 +277,18 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Volvo Car Sales Drop on Continued China, U.S. Weakness - WSJ",
+   "sample": "ABB Confirms China Blocked SoftBank Deal for Robotics Unit - WSJ",
    "diag": [
     {
+     "title": "ABB Confirms China Blocked SoftBank Deal for Robotics Unit -",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfW",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfWXBkTjR3U3ZERnVWUGtMV",
+     "resolved": false
+    },
+    {
      "title": "Volvo Car Sales Drop on Continued China, U.S. Weakness - WSJ",
-     "date": "2026-11-04",
+     "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM",
      "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM25YZVlNWFZnOUI1eUtsV",
      "resolved": false
@@ -295,7 +302,7 @@
     },
     {
      "title": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Ch",
-     "date": "2026-11-02",
+     "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtN",
      "real": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtNzgwdVZDalJFVmhObFlmV",
      "resolved": false
@@ -305,13 +312,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkFQYXNQNl9FSU5rV",
      "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkFQYXNQNl9FSU5rVDlNSVJodS10TkxkRUdoc",
-     "resolved": false
-    },
-    {
-     "title": "The Little-Known Chinese Bank in the Middle of Iranian and R",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUlJ5UDVDRWJQLWdXa",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUlJ5UDVDRWJQLWdXankzcjZoQnowTUFrLXQzM",
      "resolved": false
     }
    ]
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Amid Iran conflict, ‘non-hostile’ deaths of 2 US airmen raise overseas toll"
+   "sample": "MBDA plans to fly ‘fat’ hypersonic interceptor demonstrator before end-2029"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "EU Survey Reveals Massive Support for Renewable Energy Transition"
+   "sample": "SOCAR Bets $1.65 Billion on U.S. Shale Gas Boom"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Live: France braces for nationwide strikes in fresh test for Macron’s policies"
+   "sample": "Dublin-Rome flight diverted to French military base over bomb threat"
   },
   {
    "name": "JapanTimes",
