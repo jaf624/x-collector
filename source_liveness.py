@@ -112,12 +112,25 @@ def main():
     buckets = {}
     for url, r in res.items():
         buckets.setdefault(r["verdict"], []).append(url)
+    # 新鲜度分档：活着的源不一定有稿——判断"活而不新"还是"没被调度"
+    fresh = {"le7": 0, "8_30": 0, "31_45": 0, "gt45": 0, "unknown": 0}
+    fresh_alive = {"le7": 0, "8_30": 0, "31_45": 0, "gt45": 0, "unknown": 0}
+    for r in res.values():
+        a = r.get("age_days")
+        k = "unknown" if a is None else ("le7" if a <= 7 else "8_30" if a <= 30
+                                          else "31_45" if a <= 45 else "gt45")
+        fresh[k] += 1
+        if r["verdict"] in ("alive", "stale"):
+            fresh_alive[k] += 1
     summary = {
         "probed_at": datetime.datetime.now().isoformat(timespec="seconds"),
         "total_sources": len(src),
         "probed": len(todo),
         "counts": {k: len(v) for k, v in buckets.items()},
         "alive_but_stale": len(buckets.get("stale", [])),
+        "fresh_all": fresh,
+        "fresh_alive": fresh_alive,
+        "alive_fresh7_share": round(fresh_alive["le7"] / max(1, len(todo)), 3),
         "secs": round(time.time() - t0, 1),
     }
     os.makedirs("data", exist_ok=True)
