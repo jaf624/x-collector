@@ -4,10 +4,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMWRNaHFmalJ3ZTFfQnZsaGZteHk0bHVlWi1oYUhmVkxrNjJCZlhQRUF4N3Focy12cE9sTWhaZzFSVTRZdUFHMU5JRExNdVU3cmpyZWp5X2E",
-   "len": 602533
+   "len": 602493
   },
   "page": {
-   "html_len": 602513,
+   "html_len": 602532,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -41,7 +41,11 @@
   },
   "batch": {
    "real": "",
-   "why": "post_err:HTTPError"
+   "why": "post_err:HTTPError400"
+  },
+  "batch2": {
+   "real": "",
+   "why": "both_err:HTTPError400"
   }
  },
  {
@@ -49,10 +53,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb3g3MGlFT1JxOXB0cjFCenotLUZtNmxHdV9aTXNqUjRYVjh1aFBla1N0aXp0VndqSFdXd2NTOXVEb05lcXk0Y3lFTkJvaHNHOEdBeXlBNkY",
-   "len": 600966
+   "len": 600962
   },
   "page": {
-   "html_len": 601004,
+   "html_len": 600973,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -86,7 +90,11 @@
   },
   "batch": {
    "real": "",
-   "why": "post_err:HTTPError"
+   "why": "post_err:HTTPError400"
+  },
+  "batch2": {
+   "real": "",
+   "why": "both_err:HTTPError400"
   }
  },
  {
@@ -94,10 +102,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2wxcDFXRGZMZ2wwdGpCU3pyQldueXVpYW1NUFgtbmpaTUJ2UVVHTFBFRm9PNjlwVjRoRGlidHIzdVNSXzhKMnVBbU5zQmRQSjE0YURubGx",
-   "len": 601834
+   "len": 601854
   },
   "page": {
-   "html_len": 601861,
+   "html_len": 601833,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -131,7 +139,11 @@
   },
   "batch": {
    "real": "",
-   "why": "post_err:HTTPError"
+   "why": "post_err:HTTPError400"
+  },
+  "batch2": {
+   "real": "",
+   "why": "both_err:HTTPError400"
   }
  },
  {
@@ -139,10 +151,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRmk1UnZsN0tlY21vc210MHlOY0ttY3BWajFCU3A1N0hENU5VTkhPeFF1ajktVXp1MG10dDRhYnZDU04zcUVJdTU2TUdJTFdzM1VadDhLdVd",
-   "len": 600285
+   "len": 600313
   },
   "page": {
-   "html_len": 600332,
+   "html_len": 600314,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -176,7 +188,11 @@
   },
   "batch": {
    "real": "",
-   "why": "post_err:HTTPError"
+   "why": "post_err:HTTPError400"
+  },
+  "batch2": {
+   "real": "",
+   "why": "both_err:HTTPError400"
   }
  },
  {
@@ -184,10 +200,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYTFgzb0hqeGJDN2RWSUIzMWxadk9fVGYtRXk2SW1jd2tWWTRLcTJ5LWs0OEQzaFFIbzgxOVdTYlJOZHpYM2tCM0hrTVBOREhOS2RhSnNfU0J",
-   "len": 599147
+   "len": 599117
   },
   "page": {
-   "html_len": 599106,
+   "html_len": 599137,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -221,7 +237,11 @@
   },
   "batch": {
    "real": "",
-   "why": "post_err:HTTPError"
+   "why": "post_err:HTTPError400"
+  },
+  "batch2": {
+   "real": "",
+   "why": "both_err:HTTPError400"
   }
  },
  {
@@ -229,10 +249,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQSFNJOHhkQUNpMU5EdldrXzFGZ3hjVlpRajNpTGlpOFV2a1FsTEJ4aDFiUmhQWE1RYVo0S2szYkVXNGNEQ3pwQlVEWWJ5T096SUpLZkNLLXl",
-   "len": 603903
+   "len": 603943
   },
   "page": {
-   "html_len": 603930,
+   "html_len": 603892,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -266,7 +286,11 @@
   },
   "batch": {
    "real": "",
-   "why": "post_err:HTTPError"
+   "why": "post_err:HTTPError400"
+  },
+  "batch2": {
+   "real": "",
+   "why": "both_err:HTTPError400"
   }
  }
 ]
