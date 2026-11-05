@@ -8161,8 +8161,8 @@
   "china_hits": 4,
   "grade": "C",
   "last_probe": "2026-11-05",
-  "last_probe_status": "alive",
-  "last_probe_items": 36
+  "last_probe_status": "dead",
+  "last_probe_items": 0
  },
  {
   "host": "oilprice.com",
@@ -8691,8 +8691,8 @@
   "china_hits": 0,
   "grade": "B",
   "last_probe": "2026-11-05",
-  "last_probe_status": "alive",
-  "last_probe_items": 36
+  "last_probe_status": "dead",
+  "last_probe_items": 0
  },
  {
   "host": "navalnews.com",
@@ -8748,7 +8748,7 @@
   "grade": "C",
   "last_probe": "2026-11-05",
   "last_probe_status": "alive",
-  "last_probe_items": 73
+  "last_probe_items": 74
  },
  {
   "host": "news.google.com/kitco",
@@ -8777,7 +8777,7 @@
   "grade": "C",
   "last_probe": "2026-11-05",
   "last_probe_status": "stale",
-  "last_probe_items": 67
+  "last_probe_items": 68
  },
  {
   "host": "news.google.com/usgs",
@@ -8980,7 +8980,7 @@
   "grade": "C",
   "last_probe": "2026-11-05",
   "last_probe_status": "stale",
-  "last_probe_items": 51
+  "last_probe_items": 52
  },
  {
   "host": "news.google.com/register",
@@ -9914,8 +9914,8 @@
   "status": "active",
   "grade": "C",
   "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0
+  "last_probe_status": "alive",
+  "last_probe_items": 10
  },
  {
   "host": "semi.org",
@@ -10964,7 +10964,7 @@
   "china_hits": 0,
   "grade": "A",
   "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
+  "last_probe_status": "dead",
   "last_probe_items": 0
  },
  {
@@ -12062,7 +12062,7 @@
   "grade": "A",
   "probe_error": "HTTP 404",
   "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
+  "last_probe_status": "dead",
   "last_probe_items": 0
  },
  {
@@ -20178,7 +20178,7 @@
   "china_hits": 0,
   "grade": "A",
   "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
+  "last_probe_status": "empty",
   "last_probe_items": 0
  },
  {
@@ -21918,8 +21918,8 @@
   "china_hits": 0,
   "grade": "C",
   "last_probe": "2026-11-05",
-  "last_probe_status": "alive",
-  "last_probe_items": 10
+  "last_probe_status": "dead",
+  "last_probe_items": 0
  },
  {
   "host": "texastribune.org",
@@ -22446,6 +22446,6 @@
   "grade": "C",
   "last_probe": "2026-11-05",
   "last_probe_status": "alive",
-  "last_probe_items": 39
+  "last_probe_items": 40
  }
 ]

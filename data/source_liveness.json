@@ -1,13 +1,28 @@
 {
- "probed_at": "2026-11-05T23:04:00",
+ "probed_at": "2026-11-05T23:08:58",
  "total_sources": 840,
  "probed": 664,
  "counts": {
-  "alive": 272,
+  "alive": 271,
   "stale": 49,
-  "empty": 55,
-  "dead": 273
+  "empty": 54,
+  "dead": 275
  },
  "alive_but_stale": 49,
- "secs": 56.9
+ "fresh_all": {
+  "le7": 228,
+  "8_30": 17,
+  "31_45": 3,
+  "gt45": 49,
+  "unknown": 352
+ },
+ "fresh_alive": {
+  "le7": 228,
+  "8_30": 17,
+  "31_45": 3,
+  "gt45": 49,
+  "unknown": 23
+ },
+ "alive_fresh7_share": 0.343,
+ "secs": 56.8
 }
