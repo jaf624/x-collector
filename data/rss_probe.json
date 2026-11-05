@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-05T09:52:22.529357Z",
+ "probed_at": "2026-11-05T16:33:53.355228Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,20 +7,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China blocks SoftBank’s $5.4 billion takeover of ABB’s robotics division - Reuters",
+   "sample": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withholds import approval - Reuters",
    "diag": [
     {
-     "title": "China blocks SoftBank’s $5.4 billion takeover of ABB’s robot",
+     "title": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withho",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY",
-     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY3phU1ZicmlpM0kzUTdjN",
-     "resolved": false
-    },
-    {
-     "title": "China indicts ex-Politburo member Ma Xingrui for bribery - R",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN25tWWxjUjE4UTRDL",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN25tWWxjUjE4UTRDLXdlcEJnREtjajI3eVYtb",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTS",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTSE5wNWUzekR0cDZfcWQzQ",
      "resolved": false
     },
     {
@@ -31,17 +24,24 @@
      "resolved": false
     },
     {
-     "title": "China's cleantech stocks jump as investors bet on US policy ",
+     "title": "Trump's political humbling signals short-term gain, long-ter",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdHllX1NRUnhtUFNpX",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdHllX1NRUnhtUFNpX3FES2xxMF93ZVJTdkhEe",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQVBkVEFRMUNIQ0xmQ",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQVBkVEFRMUNIQ0xmQVZXR1lLZmJBeVJiMXJMa",
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: Chipmaker YMTC's IPO on hold as China tightens sh",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzVTcjFWM1pyclM0M",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzVTcjFWM1pyclM0MFlFbkZGbTFaSVZfbFVkc",
+     "title": "China says US farm purchases hinge on tariff-cut deal - Reut",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjZCZGJiUVFJRkdBe",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjZCZGJiUVFJRkdBeU1DaTExb3FMSmdaLVRuL",
+     "resolved": false
+    },
+    {
+     "title": "China blocks SoftBank’s $5.4 billion takeover of ABB’s robot",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTVBJa2g4T1RZOXVuY3phU1ZicmlpM0kzUTdjN",
      "resolved": false
     }
    ]
@@ -69,17 +69,17 @@
      "resolved": false
     },
     {
+     "title": "2 Uyghur men held in Thailand plead not be sent back to Chin",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3N3Rkl1QXNRbzZIe",
+     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3N3Rkl1QXNRbzZIeFRTQVVNUk81R1FJbmhGT",
+     "resolved": false
+    },
+    {
      "title": "China's record-breaking exports of clean tech are making a b",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQa",
      "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQajdJVUo1YW5ONVdJNUUxN",
-     "resolved": false
-    },
-    {
-     "title": "Consensus looks elusive at G20 talks after European objectio",
-     "date": "2026-10-30",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05KUnNfZG1OODZTY",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05KUnNfZG1OODZTY3RxWXpQTFozVkVHUkp1S",
      "resolved": false
     },
     {
@@ -128,10 +128,10 @@
      "resolved": false
     },
     {
-     "title": "France 24 - International breaking news, top stories and hea",
-     "date": "2008-07-17",
-     "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0b",
-     "real": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0bFF6ejV2ZnhwVDNWRFRDd",
+     "title": "Iconic Paris department store BHV Marais granted bankruptcy ",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4d",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4dmpZZEdZcUhRRUFYNVZVY",
      "resolved": false
     }
    ]
@@ -142,20 +142,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Mulls Dollar, Offshore Yuan Sovereign Bond Sale This Month - Bloomberg.com",
+   "sample": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says - Bloomberg.com",
    "diag": [
-    {
-     "title": "China Mulls Dollar, Offshore Yuan Sovereign Bond Sale This M",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemphYmpSVmkwMGFHM",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemphYmpSVmkwMGFHMExqMlU3dHJUelRBZld3T",
-     "resolved": false
-    },
     {
      "title": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4a",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4aDRBUnp5cjJYVlhLTmhrY",
+     "resolved": false
+    },
+    {
+     "title": "China Mulls Dollar, Offshore Yuan Sovereign Bond Sale This M",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemphYmpSVmkwMGFHM",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemphYmpSVmkwMGFHMExqMlU3dHJUelRBZld3T",
      "resolved": false
     },
     {
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese Renewables Stocks Extend Surge After Democratic Swee",
+     "title": "China Tech Frenzy Turns Into Year of Dismay for Retail Trade",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0xfcERQU1dQVGJxb",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0xfcERQU1dQVGJxbXBjUlpuNDVLbk05UFRhT",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3VweFRYYWNyamVSb",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3VweFRYYWNyamVSbllFLVlOcVg0UnQyMHlvd",
      "resolved": false
     },
     {
-     "title": "China’s Copper Squeeze Deepens as Buyers Scramble for Spot M",
+     "title": "Canada, China Extend Tariff Deal, Aim to Boost Canadian Expo",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOelVqYlVrV1VlOVExR",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOelVqYlVrV1VlOVExRHR0eGowUFpCaGh4LWNlS",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzN",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzNXppcElseDVIRE5hN0t5c",
      "resolved": false
     }
    ]
@@ -187,15 +187,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's curbs on tungsten used in drill bits squeeze AI supply chain - Nikkei Asia",
+   "sample": "Toyota ready to 'regain market share' in China on expanded local sourcing - Nikkei Asia",
    "diag": [
-    {
-     "title": "China's curbs on tungsten used in drill bits squeeze AI supp",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fV",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fVVhzYlJkWW1oU1VVbVdNR",
-     "resolved": false
-    },
     {
      "title": "Toyota ready to 'regain market share' in China on expanded l",
      "date": "2026-11-05",
@@ -204,17 +197,24 @@
      "resolved": false
     },
     {
+     "title": "China's curbs on tungsten used in drill bits squeeze AI supp",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fV",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fVVhzYlJkWW1oU1VVbVdNR",
+     "resolved": false
+    },
+    {
+     "title": "China blocks SoftBank's $5.4bn deal for ABB robotics divisio",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2hCWHhTMDZDQllhZ",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2hCWHhTMDZDQllhZ244Z1ZabmhyT01IT1BJS",
+     "resolved": false
+    },
+    {
      "title": "Toyota supplier buys Nissan-linked peer amid China competiti",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVTJGR1FZVFhCX2oyV",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVTJGR1FZVFhCX2oyVEEyeUpSVGxhZGJ1S2gtV",
-     "resolved": false
-    },
-    {
-     "title": "China's slumping state airlines pin hopes on overseas demand",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb3Z4Uzl5ZzRCanpfT",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb3Z4Uzl5ZzRCanpfTzQ3YUJuT0M3RHUxdVRGe",
      "resolved": false
     },
     {
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
-     "title": "China steps up defence of stock market in bid to revive AI b",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlNsXzl0WENfdF9YO",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlNsXzl0WENfdF9YOGdmb1BtbW9yRm9QQ3NOV",
-     "resolved": false
-    },
-    {
      "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure - F",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAyc",
+     "resolved": false
+    },
+    {
+     "title": "China steps up defence of stock market in bid to revive AI b",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlNsXzl0WENfdF9YO",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlNsXzl0WENfdF9YOGdmb1BtbW9yRm9QQ3NOV",
      "resolved": false
     }
    ]
@@ -277,10 +277,10 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "ABB Confirms China Blocked SoftBank Deal for Robotics Unit - WSJ",
+   "sample": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Control Over AI Tech - WSJ",
    "diag": [
     {
-     "title": "ABB Confirms China Blocked SoftBank Deal for Robotics Unit -",
+     "title": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Contr",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfW",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfWXBkTjR3U3ZERnVWUGtMV",
@@ -302,16 +302,16 @@
     },
     {
      "title": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Ch",
-     "date": "2026-11-03",
+     "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtN",
      "real": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtNzgwdVZDalJFVmhObFlmV",
      "resolved": false
     },
     {
-     "title": "‘Broken China’ Review: A Mirage of Growth - WSJ",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkFQYXNQNl9FSU5rV",
-     "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkFQYXNQNl9FSU5rVDlNSVJodS10TkxkRUdoc",
+     "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
+     "date": "2026-11-01",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
      "resolved": false
     }
    ]
@@ -322,20 +322,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Could a Viral Video Save Her Mom’s Chinese Restaurant? - The New York Times",
+   "sample": "China Blocks SoftBank’s $5.4 Billion Robotics Takeover, Impeding Foreign Deals - The New York Times",
    "diag": [
+    {
+     "title": "China Blocks SoftBank’s $5.4 Billion Robotics Takeover, Impe",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmlCanlYdUl5YWZwS",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmlCanlYdUl5YWZwSTdBM1V2NXJnUFlVTnlPN",
+     "resolved": false
+    },
     {
      "title": "Could a Viral Video Save Her Mom’s Chinese Restaurant? - The",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExlcGFVWTZ1NS1vN",
      "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExlcGFVWTZ1NS1vN29yeDR3ZERoRlp1b1dsY",
-     "resolved": false
-    },
-    {
-     "title": "Opinion | A Dangerous Misunderstanding Is Brewing Over Taiwa",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3a",
-     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfR",
      "resolved": false
     },
     {
@@ -367,8 +367,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "With an eye on America, China is beefing up its AI-controlled labs - The Economist",
+   "sample": "Indebted tycoons haunt China’s banking system - The Economist",
    "diag": [
+    {
+     "title": "Indebted tycoons haunt China’s banking system - The Economis",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZml3QzR3eS1hNFl6d",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZml3QzR3eS1hNFl6d2tXb3hDRFFlN25zVUJDQ",
+     "resolved": false
+    },
     {
      "title": "With an eye on America, China is beefing up its AI-controlle",
      "date": "2026-11-04",
@@ -395,13 +402,6 @@
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc0wtMWozbkV6MHJ5R",
      "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc0wtMWozbkV6MHJ5RGx4MFZYU1RTQ1dFSkdfQ",
-     "resolved": false
-    },
-    {
-     "title": "China’s investment in transport infrastructure has peaked - ",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdm0wRFdXQzJUZzBLN",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdm0wRFdXQzJUZzBLNDdjbWJfN1pnZmowT2VtW",
      "resolved": false
     }
    ]
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "US Treasury's Bessent to discuss AI, rare earths with China'",
-     "date": "2026-09-18",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaXgxcUNDSEx5a2Vva",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaXgxcUNDSEx5a2VvaTV1MTNfVXZsOTBWaGZle",
+     "title": "China's rare earth curbs endanger $6.5 trillion of Western i",
+     "date": "2026-07-15",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1JvOGNOVF9NekpFQ",
+     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1JvOGNOVF9NekpFQlJZLWowNkRlZkpZa2Jjc",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Osprey visit reinforces mission, energizes Southeast team"
+   "sample": "Sierra Nevada Company Agree to Pay $7.75M to Settle False Claims Act "
   },
   {
    "name": "商务部新闻",
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "Report to Congress on the Federal Fleet of Oceanographic Research Vessels"
+   "sample": "USS Stout Loses Power During Port Visit Due to ‘Engineering Casualty&#8217;"
   },
   {
    "name": "DefenseNews",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "MBDA plans to fly ‘fat’ hypersonic interceptor demonstrator before end-2029"
+   "sample": "Israeli defense company says this trigger is programmed to shoot drones"
   },
   {
    "name": "Mining",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Michigan mining push tests Lake Superior safeguards"
+   "sample": "Rio Tinto injects $144 million into Resolution Copper after land battle win"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "SOCAR Bets $1.65 Billion on U.S. Shale Gas Boom"
+   "sample": "Turkey Unveils $500 Billion Energy Plan Built on Gas, Solar, Nuclear"
   },
   {
    "name": "IMF",
@@ -625,10 +625,9 @@
   {
    "name": "France24英文",
    "url": "https://www.france24.com/en/rss",
-   "status": 200,
-   "items": 24,
-   "is_feed": true,
-   "sample": "Dublin-Rome flight diverted to French military base over bomb threat"
+   "status": 403,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "JapanTimes",
@@ -679,7 +678,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Navy unfairly evaluated Saildrone MUSV proposal, court finds"
+   "sample": "Eurofighter eyes sales of 200 additional aircraft"
   },
   {
    "name": "MiningWeekly",
