@@ -1,0 +1,13 @@
+{
+ "probed_at": "2026-11-05T23:04:00",
+ "total_sources": 840,
+ "probed": 664,
+ "counts": {
+  "alive": 272,
+  "stale": 49,
+  "empty": 55,
+  "dead": 273
+ },
+ "alive_but_stale": 49,
+ "secs": 56.9
+}
