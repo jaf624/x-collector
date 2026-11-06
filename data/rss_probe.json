@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T17:05:51.790237Z",
+ "probed_at": "2026-11-06T18:28:08.059431Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China adopts law on Antarctic activities and environmental protection - Reuters",
+   "sample": "China, Gabon elevate ties, pledge deeper mining, security cooperation - Reuters",
    "diag": [
+    {
+     "title": "China, Gabon elevate ties, pledge deeper mining, security co",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY2FjTkkyemRQSHlzU",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY2FjTkkyemRQSHlzUzlMSElVSnJpc0VNVGVPU",
+     "resolved": false
+    },
     {
      "title": "China adopts law on Antarctic activities and environmental p",
      "date": "2026-11-06",
@@ -35,13 +42,6 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
      "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
-     "resolved": false
-    },
-    {
-     "title": "China's marriage rate in third quarter tumbles to 18-year lo",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDN2Yk93ZE1nTFJad",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDN2Yk93ZE1nTFJadmdpaF82dEdEbElBQ0loR",
      "resolved": false
     }
    ]
@@ -83,10 +83,10 @@
      "resolved": false
     },
     {
-     "title": "Taiwan accuses China of harassment after standoff between co",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBPeHlzc3NpUmRad",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBPeHlzc3NpUmRadkhGZFJaVlowSGU2emlPM",
+     "title": "China’s factory activity slips as new export orders weaken -",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfV",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfVXowN2ZEM0ppaVNFV2NMT",
      "resolved": false
     }
    ]
@@ -159,17 +159,17 @@
      "resolved": false
     },
     {
-     "title": "The US Thought It Could Change China. Instead, China Changed",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1R",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1RGluRWtaU0ozRUE3X1FxT",
-     "resolved": false
-    },
-    {
      "title": "China’s AI-Propelled Growth May Take a Blue Wave Hit, BE Say",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ04xWGttUUN2cjlFb",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ04xWGttUUN2cjlFbUVVZkIwYW9XS0I1M3ZMW",
+     "resolved": false
+    },
+    {
+     "title": "The US Thought It Could Change China. Instead, China Changed",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1R",
+     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1RGluRWtaU0ozRUE3X1FxT",
      "resolved": false
     },
     {
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "Toyota ready to 'regain market share' in China on expanded l",
+     "title": "China's curbs on tungsten used in drill bits squeeze AI supp",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQ",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQjRjaFFJN2U1ZnNHQjdmM",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fV",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fVVhzYlJkWW1oU1VVbVdNR",
      "resolved": false
     }
    ]
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US lawmakers summon Jensen Huang over Chinese spying concerns - Financial Times",
+   "sample": "US warns China it must ‘immediately’ meet terms of Busan trade deal - Financial Times",
    "diag": [
+    {
+     "title": "US warns China it must ‘immediately’ meet terms of Busan tra",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT180NmxHZ0JocXpNaEpYQ",
+     "resolved": false
+    },
     {
      "title": "US lawmakers summon Jensen Huang over Chinese spying concern",
      "date": "2026-11-06",
@@ -261,13 +268,6 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxM",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxMUcwYzlvUlRyR3J2bHRIW",
      "resolved": false
-    },
-    {
-     "title": "China’s block on SoftBank deal fires the starting gun on the",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGxjR2k2WC16UFZ4Z",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGxjR2k2WC16UFZ4ZGJxR3NlS2lWNXltTWxZV",
-     "resolved": false
     }
    ]
   },
@@ -277,8 +277,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Control Over AI Tech - WSJ",
+   "sample": "‘The Last Emperor of China’ Review: Puyi’s Paradise Lost - WSJ",
    "diag": [
+    {
+     "title": "‘The Last Emperor of China’ Review: Puyi’s Paradise Lost - W",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c3NHUWFsYUt3R2k3ZFB1W",
+     "resolved": false
+    },
     {
      "title": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Contr",
      "date": "2026-11-05",
@@ -305,13 +312,6 @@
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR",
      "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR3d1QzBRU3k5TUstYzlGb",
-     "resolved": false
-    },
-    {
-     "title": "Volvo Car Sales Drop on Continued China, U.S. Weakness - WSJ",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM25YZVlNWFZnOUI1eUtsV",
      "resolved": false
     }
    ]
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
-     "title": "House G.O.P. Leaders Ask Nvidia’s Huang to Speak in Closed-D",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVE0YTFsVlR6ZHViN",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVE0YTFsVlR6ZHViNFNYZzc2VnhtZ3JWOTlmS",
-     "resolved": false
-    },
-    {
      "title": "Could a Viral Video Save Her Mom’s Chinese Restaurant? - The",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExlcGFVWTZ1NS1vN",
      "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExlcGFVWTZ1NS1vN29yeDR3ZERoRlp1b1dsY",
+     "resolved": false
+    },
+    {
+     "title": "How One Country Became the Unlikely Crossroads of the Global",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ",
+     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ2NlWlBld2lpTEgyTzF4R",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 58,
    "is_feed": true,
    "sample": "Lula's election win dashes US hopes of quick access to Brazil's rare earths - Reuters",
    "diag": [
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Canada&#8217;s budget extends tax relief but leaves explorers wanting"
+   "sample": "Regis Resources reports fatal accident at Duketon South gold operation in Western Australia "
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Norway’s Oil and Gas Industry Faces a Major Decline Without New Discoveries"
+   "sample": "U.S. Oil, Gas Drillers See Minor Uptick as Oil Prices Crash"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "British comedian Russell Brand found guilty of rape and three sexual assaults"
+   "sample": "US midterms mark 'the beginning of the end' for Trump, John Bolton says"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Cut to US aid would impact Israeli acquisition timelines, spending: Analysts"
+   "sample": "Europe&#8217;s airpower future is taking shape, but not as originally planned"
   },
   {
    "name": "MiningWeekly",
