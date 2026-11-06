@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T23:05:48.079853Z",
+ "probed_at": "2026-11-06T23:32:37.555086Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,15 +7,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China in contact with Real Madrid, LaLiga over Mbappe's Mao comments - Reuters",
+   "sample": "How China’s clean-tech machine is reshaping the global climate fight - Reuters",
    "diag": [
-    {
-     "title": "China in contact with Real Madrid, LaLiga over Mbappe's Mao ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVIS",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVISFBtS2FMQ0FMRzFCeUJZZ",
-     "resolved": false
-    },
     {
      "title": "How China’s clean-tech machine is reshaping the global clima",
      "date": "2026-11-06",
@@ -28,6 +21,13 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmdCNGZTUl85MS1Td",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmdCNGZTUl85MS1TdFg1VDVJSG5UNUNmX3BUZ",
+     "resolved": false
+    },
+    {
+     "title": "China in contact with Real Madrid, LaLiga over Mbappe's Mao ",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVIS",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVISFBtS2FMQ0FMRzFCeUJZZ",
      "resolved": false
     },
     {
@@ -52,13 +52,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China warns Philippines to be cautious over South China Sea - AP News",
+   "sample": "US escalates economic campaign against Cuba and targets China-based suppliers - AP News",
    "diag": [
     {
-     "title": "China warns Philippines to be cautious over South China Sea ",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3O",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3OWlENlFwemZHa0paa2tmM",
+     "title": "US escalates economic campaign against Cuba and targets Chin",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
      "resolved": false
     },
     {
@@ -69,17 +69,17 @@
      "resolved": false
     },
     {
+     "title": "China warns Philippines to be cautious over South China Sea ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3O",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3OWlENlFwemZHa0paa2tmM",
+     "resolved": false
+    },
+    {
      "title": "2 Uyghur men held in Thailand plead not be sent back to Chin",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3N3Rkl1QXNRbzZIe",
      "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3N3Rkl1QXNRbzZIeFRTQVVNUk81R1FJbmhGT",
-     "resolved": false
-    },
-    {
-     "title": "US escalates economic campaign against Cuba and targets Chin",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
      "resolved": false
     },
     {
@@ -159,13 +159,6 @@
      "resolved": false
     },
     {
-     "title": "China Quants Swing to Losses for Year After October Tech Sel",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduR",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduRU5Xa0ZnRXhfZXRkVXpCS",
-     "resolved": false
-    },
-    {
      "title": "China’s Extraordinary Path to Power - Bloomberg.com",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm1pUHAwbmlnTjA3e",
@@ -173,10 +166,17 @@
      "resolved": false
     },
     {
-     "title": "Trump’s Latest Swing at Cuba Puts French, Chinese Firms in C",
+     "title": "China Quants Swing to Losses for Year After October Tech Sel",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUxOd3hQaXpDek9XX",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUxOd3hQaXpDek9XX1BuQ0dYbXowS0J4WUhSN",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduR",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduRU5Xa0ZnRXhfZXRkVXpCS",
+     "resolved": false
+    },
+    {
+     "title": "Why China Uses a ‘National Team’ to Influence Trading - Bloo",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGZ4NFVYSllGdXQxU",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGZ4NFVYSllGdXQxUWhaT2g5VEpYSkUydFF4Z",
      "resolved": false
     }
    ]
@@ -339,17 +339,17 @@
      "resolved": false
     },
     {
-     "title": "China Blocks SoftBank’s $5.4 Billion Robotics Takeover, Impe",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmlCanlYdUl5YWZwS",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmlCanlYdUl5YWZwSTdBM1V2NXJnUFlVTnlPN",
-     "resolved": false
-    },
-    {
      "title": "China’s Message to Its Rivals: You Need What We Make - The N",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
      "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
+     "resolved": false
+    },
+    {
+     "title": "China Blocks SoftBank’s $5.4 Billion Robotics Takeover, Impe",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmlCanlYdUl5YWZwS",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmlCanlYdUl5YWZwSTdBM1V2NXJnUFlVTnlPN",
      "resolved": false
     },
     {
@@ -377,13 +377,6 @@
      "resolved": false
     },
     {
-     "title": "China’s AI stock-market struggles are a warning - The Econom",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM0syTWN4M010ZjVBWXJrV",
-     "resolved": false
-    },
-    {
      "title": "Indebted tycoons haunt China’s banking system - The Economis",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZml3QzR3eS1hNFl6d",
@@ -403,6 +396,13 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKT",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKTTFRV1I5aTRDWWZaZWZ5O",
      "resolved": false
+    },
+    {
+     "title": "With an eye on America, China is beefing up its AI-controlle",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d3U5TThrTVVZLXN2MXhOS",
+     "resolved": false
     }
    ]
   },
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 60,
+   "items": 58,
    "is_feed": true,
    "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
    "diag": [
