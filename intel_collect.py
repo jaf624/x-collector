@@ -1168,15 +1168,16 @@ def main():
         with ThreadPoolExecutor(max_workers=INST_WORKERS) as ex:
             for s, items, ftitle, st in (fu.result() for fu in as_completed([ex.submit(fetch_src, x) for x in uniq])):
                 k = 0
+                rr = {}   # 逐源丢弃原因：定位"解析到却 0 采纳"到底卡在哪一关
                 for it in items[:INST_PER_FEED]:
                     u = it["link"]
                     if not u or u in seen or u in candidates:
-                        continue
+                        rr["dup"] = rr.get("dup", 0) + 1; continue
                     if it["date"] and it["date"] < inst_cut:
-                        continue
+                        rr["old"] = rr.get("old", 0) + 1; continue
                     is_lead_src = bool(s.get("lead"))   # L类线索源：本身即目标，豁免前置相关性过滤
                     if not is_lead_src and (soft_news(it["title"]) or link_noise(it["text"])):
-                        continue
+                        rr["soft"] = rr.get("soft", 0) + 1; continue
                     blob = it["title"] + " " + it["text"][:1500]  # 主题判定可看更宽
                     # 2026-10-19 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）豁免前置涉华词：
                     # 行业硬稿（稀土/矿产/防务/油价）标题与短摘要常不直接出现 China，须放行到深抓、
@@ -1186,7 +1187,7 @@ def main():
                             not topic.search(blob)
                             or any(b in u.lower() for b in block_global)
                             or (not _is_hn_pre and not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]))):
-                        continue
+                        rr["rel"] = rr.get("rel", 0) + 1; continue
                     src_name = clean_src_name(ftitle or s.get("name")) or s["host"]
                     src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
                     host_name[s["host"]] = src_name
@@ -1206,7 +1207,7 @@ def main():
                         cand.update({"body_from": "full", "snippet": None})
                     candidates[u] = cand; k += 1; inst_n += 1
                 _ledger.append({'host': s.get('host'), 'st': st, 'parsed': len(items),
-                                'accepted': k, 'grade': s.get('grade', 'C')})
+                                'accepted': k, 'grade': s.get('grade', 'C'), 'skip': rr})
                 if k:
                     print(f"[inst] {str(s.get('name', ''))[:22]}: +{k}", flush=True)
         print(f"[inst] 机构 RSS 本轮候选 {inst_n}（活跃源 {len(uniq)}）", flush=True)
