@@ -33,6 +33,15 @@ RATE = float(os.environ.get("NG_RATE", "1.0"))        # 每 host 每秒请求数
 COOL = int(os.environ.get("NG_COOL_MIN", "30"))       # 触发熔断后的冷却分钟
 MAX_FAIL = int(os.environ.get("NG_MAX_FAIL", "2"))    # 连续失败几次熔断
 
+PROXY_FILE = os.environ.get("NG_PROXY_FILE", os.path.join(os.path.dirname(os.path.abspath(__file__)), "proxies.txt"))
+PROXIES = []
+try:
+    if os.path.exists(PROXY_FILE):
+        PROXIES = [x.strip() for x in open(PROXY_FILE, encoding="utf-8") if x.strip()]
+except Exception:
+    PROXIES = []
+_px_i = [0]                 # 轮换游标
+_px_need = set()            # 被判"需要换 IP"的 host（403/429 才会进）
 _lock = threading.Lock()
 _last = {}      # host -> 上次请求时间
 _fail = {}      # host -> 连续失败次数
@@ -91,7 +100,16 @@ def _mark_ok(h):
     _fail.pop(h, None)
 
 
-def fetch(url, timeout=15, headers=None, allow_redirects=True):
+def next_proxy():
+    if not PROXIES:
+        return None
+    with _lock:
+        p = PROXIES[_px_i[0] % len(PROXIES)]
+        _px_i[0] += 1
+    return p
+
+
+def fetch(url, timeout=15, headers=None, allow_redirects=True, force_proxy=False):
     _load()
     h = host_of(url)
     if _cool.get(h, 0) > time.time():
@@ -108,10 +126,15 @@ def fetch(url, timeout=15, headers=None, allow_redirects=True):
     if headers:
         hd.update(headers)
 
+    use_px = None
+    if PROXIES and (force_proxy or h in _px_need):
+        use_px = next_proxy()
+
     if _HAS_CFFI:
         try:
+            kw = {"proxies": {"http": use_px, "https": use_px}} if use_px else {}
             r = _creq.get(url, timeout=timeout, headers=hd, impersonate="chrome",
-                          allow_redirects=allow_redirects)
+                          allow_redirects=allow_redirects, **kw)
             st, body, via = r.status_code, r.text, "curl_cffi"
         except Exception as e:
             _mark_fail(h)
@@ -121,7 +144,13 @@ def fetch(url, timeout=15, headers=None, allow_redirects=True):
         import urllib.request, urllib.error
         req = urllib.request.Request(url, headers=hd)
         try:
-            with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+            if use_px:
+                op = urllib.request.build_opener(urllib.request.ProxyHandler(
+                    {"http": use_px, "https": use_px}))
+                r = op.open(req, timeout=timeout)
+            else:
+                r = urllib.request.urlopen(req, timeout=timeout, context=CTX)
+            with r:
                 st = r.status
                 body = r.read(4000000).decode("utf-8", "ignore")
             via = "urllib"
@@ -134,11 +163,16 @@ def fetch(url, timeout=15, headers=None, allow_redirects=True):
 
     if st in (403, 429, 503):
         _mark_fail(h)
+        if st in (403, 429):          # 被封特征 → 之后该 host 走代理轮换
+            _px_need.add(h)
     else:
         _mark_ok(h)
-    return st, body, {"via": via, "host": h, "cooled": False, "err": ""}
+        _px_need.discard(h)
+    return st, body, {"via": via, "host": h, "cooled": False, "err": "",
+                      "proxy": bool(use_px)}
 
 
 def summary():
     return {"backend": "curl_cffi" if _HAS_CFFI else "urllib",
-            "rate_per_host": RATE, "cooling_hosts": len([v for v in _cool.values() if v > time.time()])}
+            "rate_per_host": RATE, "cooling_hosts": len([v for v in _cool.values() if v > time.time()]),
+            "proxies": len(PROXIES), "proxy_hosts": len(_px_need)}
