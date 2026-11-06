@@ -1825,17 +1825,17 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://foreignpolicy.com/2024/04/08/is-india-really-the-next-china/feed/",
+  "feed_url": "https://foreignpolicy.com/feed",
   "kind": "html_link",
   "status": "watch",
   "latest": null,
   "recent30": 0,
   "china_hits": 0,
   "grade": "C",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 25,
+  "last_probe_age": 0
  },
  {
   "host": "aljazeera.com",
@@ -3497,10 +3497,10 @@
   "recent30": 10,
   "china_hits": 4,
   "grade": "B",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "fpri.org",
@@ -9529,15 +9529,15 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://militarywatchmagazine.com/feed",
+  "feed_url": "https://militarywatchmagazine.com/feeds/headlines",
   "kind": "rss",
   "status": "inactive",
   "grade": "C",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 50,
+  "last_probe_age": 0
  },
  {
   "host": "eia.gov",
@@ -9819,15 +9819,15 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.miningmx.com/feed",
+  "feed_url": "https://miningmx.com/atom/",
   "kind": "rss",
   "status": "inactive",
   "grade": "C",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 50,
+  "last_probe_age": 0
  },
  {
   "host": "benchmarkminerals.com",
@@ -9877,10 +9877,10 @@
   "status": "inactive",
   "grade": "C",
   "probe_error": "HTTP 403",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "fatf-gafi.org",
@@ -9925,15 +9925,15 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.bis.org/rss/releases.rss",
+  "feed_url": "https://www.bis.org/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "grade": "A",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "imf.org",
@@ -10342,15 +10342,15 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "http://www.koreaherald.com/rss/1.xml",
+  "feed_url": "https://www.koreaherald.com/rss/newsAll",
   "kind": "rss",
   "status": "inactive",
   "grade": "C",
   "probe_error": "",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 50,
+  "last_probe_age": 0
  },
  {
   "host": "nippon.com",
@@ -10395,14 +10395,14 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.middleeasteye.net/rss.xml",
+  "feed_url": "https://www.middleeasteye.net/rss",
   "kind": "rss",
   "status": "active",
   "grade": "C",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 20,
+  "last_probe_age": 0
  },
  {
   "host": "malwarebytes.com",
@@ -11220,7 +11220,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://spectrum.ieee.org/feeds/rss",
+  "feed_url": "https://spectrum.ieee.org/feeds/feed.rss",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -11228,10 +11228,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 30,
+  "last_probe_age": 0
  },
  {
   "host": "tomshardware.com",
@@ -11448,17 +11448,17 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.koreatimes.co.kr/www/news/rss/index.html",
+  "feed_url": "https://feed.koreatimes.co.kr/k/allnews.xml",
   "kind": "rss",
   "status": "active",
   "latest": null,
   "recent30": 0,
   "china_hits": 0,
   "grade": "A",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 26,
+  "last_probe_age": 0
  },
  {
   "host": "straitstimes.com",
@@ -12043,7 +12043,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://insideevs.com/rss/news",
+  "feed_url": "https://insideevs.com/feed",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -12051,10 +12051,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 20,
+  "last_probe_age": 0
  },
  {
   "host": "electrek.co",
@@ -12128,7 +12128,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://news.un.org/en/rss.xml",
+  "feed_url": "https://www.un.org/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -12136,10 +12136,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 406",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "thenationalnews.com",
@@ -12329,7 +12329,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://en.mercopress.com/rss.aspx",
+  "feed_url": "https://en.mercopress.com/rss/",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -12337,10 +12337,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "osintcurio.us",
@@ -12471,7 +12471,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.chronicle.com/rss",
+  "feed_url": "https://www.chronicle.com/index.atom",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -12479,10 +12479,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "law360.com",
@@ -12615,7 +12615,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.migrationpolicy.org/news/rss",
+  "feed_url": "https://www.migrationpolicy.org/rss",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -12623,10 +12623,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 403",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 20,
+  "last_probe_age": 0
  },
  {
   "host": "lightreading.com",
@@ -12644,7 +12644,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.lightreading.com/rss",
+  "feed_url": "https://www.lightreading.com/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -12652,10 +12652,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 50,
+  "last_probe_age": 0
  },
  {
   "host": "fiercetelecom.com",
@@ -12673,7 +12673,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.fiercetelecom.com/feed",
+  "feed_url": "https://www.fiercetelecom.com/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -12681,10 +12681,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "arctictoday.com",
@@ -12759,7 +12759,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://devdiscourse.com/feed/",
+  "feed_url": "http://www.devdiscourse.com/rss/website",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -12767,10 +12767,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 20,
+  "last_probe_age": 0
  },
  {
   "host": "electoral-vote.com",
@@ -12788,7 +12788,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.electoral-vote.com/evp2024/rss.xml",
+  "feed_url": "https://www.electoral-vote.com/evp2026/RSS/index.rss",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -12796,10 +12796,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 7,
+  "last_probe_age": 0
  },
  {
   "host": "insightcrime.org",
@@ -13300,7 +13300,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.justice.gov/feeds/press_releases.xml",
+  "feed_url": "https://justice.gov/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -13308,10 +13308,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "commerce.gov",
@@ -13495,7 +13495,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.dol.gov/newsroom/releases/rss",
+  "feed_url": "https://dol.gov/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -13503,10 +13503,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 403",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "transportation.gov",
@@ -13551,7 +13551,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.hud.gov/rss/news",
+  "feed_url": "https://hud.gov/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -13559,10 +13559,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "va.gov",
@@ -13635,7 +13635,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.fbi.gov/NewsAndExperiences/News/newsroom/rss",
+  "feed_url": "https://www.fbi.gov/news/stories/RSS",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -13643,10 +13643,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 403",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 15,
+  "last_probe_age": 0
  },
  {
   "host": "dea.gov",
@@ -13858,7 +13858,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.nasa.gov/rss/dyn/news_releases.rss",
+  "feed_url": "https://www.nasa.gov/feed/",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -13866,10 +13866,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "noaa.gov",
@@ -13886,7 +13886,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.noaa.gov/feed/",
+  "feed_url": "https://www.noaa.gov/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -13894,10 +13894,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "nsf.gov",
@@ -14779,7 +14779,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.dfat.gov.au/rss",
+  "feed_url": "https://dfat.gov.au/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -14787,10 +14787,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "The read operation timed out",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "forces.gc.ca",
@@ -14973,7 +14973,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.esteri.it/RSS",
+  "feed_url": "https://www.esteri.it/it/feed/",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -14981,10 +14981,10 @@
   "china_hits": 0,
   "grade": "A",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "defensa.gob.es",
@@ -15810,7 +15810,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.offshore-mag.com/rss",
+  "feed_url": "https://offshore-mag.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -15818,10 +15818,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 25,
+  "last_probe_age": 0
  },
  {
   "host": "rechargenews.com",
@@ -15893,7 +15893,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.windpowermonthly.com/feed/",
+  "feed_url": "https://windpowermonthly.com/rss",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -15901,10 +15901,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 403",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 20,
+  "last_probe_age": 0
  },
  {
   "host": "hydrogeninsight.com",
@@ -16143,7 +16143,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://mashable.com/feeds/rss",
+  "feed_url": "https://mashable.com/feeds/rss/all",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -16151,10 +16151,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 100,
+  "last_probe_age": 0
  },
  {
   "host": "zdnet.com",
@@ -16526,7 +16526,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.techinsights.com/feed/",
+  "feed_url": "https://techinsights.com/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -16534,10 +16534,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "ieee.org",
@@ -16664,7 +16664,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://thecyberwire.com/feed/",
+  "feed_url": "https://thecyberwire.com/feeds/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -16672,10 +16672,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 40,
+  "last_probe_age": 0
  },
  {
   "host": "securityaffairs.co",
@@ -16747,17 +16747,17 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.eff.org/rss",
+  "feed_url": "https://eff.org/rss.xml",
   "kind": "rss",
   "status": "active",
   "latest": null,
   "recent30": 0,
   "china_hits": 0,
   "grade": "B",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "cdt.org",
@@ -17105,17 +17105,17 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.independent.co.uk/news/uk/rss",
+  "feed_url": "https://www.independent.co.uk/us/rss",
   "kind": "rss",
   "status": "active",
   "latest": null,
   "recent30": 0,
   "china_hits": 0,
   "grade": "C",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 7,
+  "last_probe_age": 0
  },
  {
   "host": "economist.com",
@@ -17268,7 +17268,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://nationalinterest.org/feed/",
+  "feed_url": "https://nationalinterest.org/feed",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -17276,10 +17276,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 403",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "worldpoliticsreview.com",
@@ -17843,7 +17843,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.city-journal.org/feed",
+  "feed_url": "https://city-journal.org/rss.xml",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -17851,10 +17851,10 @@
   "china_hits": 0,
   "grade": "C",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "tabletmag.com",
@@ -18256,7 +18256,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.marketbeat.com/rss/",
+  "feed_url": "https://marketbeat.com/feed",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -18264,10 +18264,10 @@
   "china_hits": 0,
   "grade": "C",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 100,
+  "last_probe_age": 0
  },
  {
   "host": "zacks.com",
@@ -18451,17 +18451,17 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.bakerinstitute.org/rss",
+  "feed_url": "https://bakerinstitute.org/rss.xml",
   "kind": "rss",
   "status": "active",
   "latest": null,
   "recent30": 0,
   "china_hits": 0,
   "grade": "C",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "belfercenter.org",
@@ -18646,7 +18646,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.fooddive.com/feed/",
+  "feed_url": "https://www.fooddive.com/feeds/news/",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -18654,10 +18654,10 @@
   "china_hits": 0,
   "grade": "B",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "fiercepharma.com",
@@ -19586,7 +19586,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.investmentnews.com/feed/",
+  "feed_url": "https://investmentnews.com/rss",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -19594,10 +19594,10 @@
   "china_hits": 0,
   "grade": "C",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 82,
+  "last_probe_age": 0
  },
  {
   "host": "lloydslist.com",
@@ -19834,7 +19834,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.lanacion.com.ar.ar/rss",
+  "feed_url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -19842,10 +19842,10 @@
   "china_hits": 0,
   "grade": "C",
   "probe_error": "<urlopen error [Errno -2] Name or service not known>",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 93,
+  "last_probe_age": 0
  },
  {
   "host": "pagina12.com.ar",
@@ -19917,17 +19917,17 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.elimparcial.com/rss",
+  "feed_url": "https://www.elimparcial.com/rss/feed.xml",
   "kind": "rss",
   "status": "active",
   "latest": null,
   "recent30": 0,
   "china_hits": 0,
   "grade": "C",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 100,
+  "last_probe_age": 0
  },
  {
   "host": "larepublica.co",
@@ -19971,7 +19971,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.elespectador.com/rss",
+  "feed_url": "https://www.elespectador.com/comments/feed/",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -19979,10 +19979,10 @@
   "china_hits": 0,
   "grade": "C",
   "probe_error": "",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "empty",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 10,
+  "last_probe_age": 0
  },
  {
   "host": "elcomercio.pe",
@@ -19999,7 +19999,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://elcomercio.pe/arc/outboundfeeds/rss/",
+  "feed_url": "https://elcomercio.pe/arcio/rss/",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -20007,10 +20007,10 @@
   "china_hits": 0,
   "grade": "C",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 100,
+  "last_probe_age": 0
  },
  {
   "host": "gestion.pe",
@@ -20027,7 +20027,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://gestion.pe/arc/outboundfeeds/rss/",
+  "feed_url": "https://gestion.pe/arcio/rss/",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -20035,10 +20035,10 @@
   "china_hits": 0,
   "grade": "C",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 100,
+  "last_probe_age": 0
  },
  {
   "host": "folha.uol.com.br",
@@ -20082,7 +20082,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://www.estadao.com.br/rss",
+  "feed_url": "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/geral/?body=%7B%22layout%22:%22google-news%22%7D",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -20090,10 +20090,10 @@
   "china_hits": 0,
   "grade": "C",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 20,
+  "last_probe_age": 0
  },
  {
   "host": "mg.co.za",
@@ -20110,7 +20110,7 @@
   "mode": "full",
   "region": "over",
   "bookmarks": 1,
-  "feed_url": "https://mg.co.za/feed/",
+  "feed_url": "https://mg.co.za/atom/",
   "kind": "rss",
   "status": "inactive",
   "latest": null,
@@ -20118,10 +20118,10 @@
   "china_hits": 0,
   "grade": "C",
   "probe_error": "HTTP 404",
-  "last_probe": "2026-11-05",
-  "last_probe_status": "dead",
-  "last_probe_items": 0,
-  "last_probe_age": null
+  "last_probe": "2026-11-06",
+  "last_probe_status": "alive",
+  "last_probe_items": 50,
+  "last_probe_age": 0
  },
  {
   "host": "timeslive.co.za",
