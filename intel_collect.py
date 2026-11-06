@@ -1194,11 +1194,13 @@ def main():
                     _phr = float(s.get("probe_hit_rate") or 0)
                     _ht = bool(HARD_TOPIC_RE.search(blob))
                     _byp = bool(_is_hn_pre or (_phr >= 0.2 and _ht))
-                    if not is_lead_src and (
-                            not (topic.search(blob) or (_byp and _ht))
-                            or any(b in u.lower() for b in block_global)
-                            or (not _byp and not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]))):
-                        rr["rel"] = rr.get("rel", 0) + 1; continue
+                    if not is_lead_src:
+                        if any(b in u.lower() for b in block_global):
+                            rr["rel_block"] = rr.get("rel_block", 0) + 1; continue
+                        if not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]) and not _byp:
+                            rr["rel_china"] = rr.get("rel_china", 0) + 1; continue
+                        if not topic.search(blob) and not (_byp and _ht):
+                            rr["rel_topic"] = rr.get("rel_topic", 0) + 1; continue
                     src_name = clean_src_name(ftitle or s.get("name")) or s["host"]
                     src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
                     host_name[s["host"]] = src_name
