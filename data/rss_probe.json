@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T20:47:13.225110Z",
+ "probed_at": "2026-11-06T21:02:05.768079Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "USNORTHCOM, USSOCOM co-chair Counterterrorism Summit to strengthen homeland defense, interagency synchronization"
+   "sample": "Defense Logistics Agency Adds $2 Billion in Critical Material Support to National Defense Stockpile"
   },
   {
    "name": "商务部新闻",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Oil Traders Want U.S. to Release Sanctioned Tankers as Freight Costs Soar"
+   "sample": "America’s Nuclear Revival Is Running Into a Fuel Supply Wall"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "What Trump’s midterms debacle could mean for US support for Ukraine"
+   "sample": "Trump announces immigration hardliner Stephen Miller as new chief of staff"
   },
   {
    "name": "JapanTimes",
