@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T02:29:25.894085Z",
+ "probed_at": "2026-11-06T03:35:14.226748Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations-document - Reuters",
+   "sample": "China's yuan dilemma: too weak abroad and too strong at home - Reuters",
    "diag": [
+    {
+     "title": "China's yuan dilemma: too weak abroad and too strong at home",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdnd",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdndG40UGVsSEh6cVBmcFZBS",
+     "resolved": false
+    },
     {
      "title": "Key Republicans seek briefing from Nvidia CEO over Chinese s",
      "date": "2026-11-05",
@@ -35,13 +42,6 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjZCZGJiUVFJRkdBe",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjZCZGJiUVFJRkdBeU1DaTExb3FMSmdaLVRuL",
-     "resolved": false
-    },
-    {
-     "title": "India flags Chinese-linked AI tools in hacking campaign agai",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEW",
-     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEWDZTU0JvTXZCSldfNVROU",
      "resolved": false
     }
    ]
@@ -76,17 +76,17 @@
      "resolved": false
     },
     {
-     "title": "2 Uyghur men held in Thailand plead not be sent back to Chin",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3N3Rkl1QXNRbzZIe",
-     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3N3Rkl1QXNRbzZIeFRTQVVNUk81R1FJbmhGT",
-     "resolved": false
-    },
-    {
      "title": "China's record-breaking exports of clean tech are making a b",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQa",
      "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQajdJVUo1YW5ONVdJNUUxN",
+     "resolved": false
+    },
+    {
+     "title": "2 Uyghur men held in Thailand plead not be sent back to Chin",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3N3Rkl1QXNRbzZIe",
+     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3N3Rkl1QXNRbzZIeFRTQVVNUk81R1FJbmhGT",
      "resolved": false
     }
    ]
@@ -142,8 +142,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says - Bloomberg.com",
+   "sample": "China’s AI-Propelled Growth May Take a Blue Wave Hit, BE Says - Bloomberg.com",
    "diag": [
+    {
+     "title": "China’s AI-Propelled Growth May Take a Blue Wave Hit, BE Say",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ04xWGttUUN2cjlFb",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ04xWGttUUN2cjlFbUVVZkIwYW9XS0I1M3ZMW",
+     "resolved": false
+    },
+    {
+     "title": "China’s AI Agents Are Trapped - Bloomberg.com",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNFlFeU1Ec09TQVRye",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNFlFeU1Ec09TQVRyem5EWldLZEVWQ0tIdWdDM",
+     "resolved": false
+    },
     {
      "title": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says",
      "date": "2026-11-06",
@@ -152,24 +166,10 @@
      "resolved": false
     },
     {
-     "title": "Africa-Focused OPay Is Said to Halt US IPO After China Inqui",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHF4OEhjMUNTdWtWZ",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHF4OEhjMUNTdWtWZGYxckRtYUJKNDZSeWEyZ",
-     "resolved": false
-    },
-    {
-     "title": "Canada, China Extend Tariff Deal, Aim to Boost Canadian Expo",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzN",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzNXppcElseDVIRE5hN0t5c",
-     "resolved": false
-    },
-    {
-     "title": "Binance Hack Funds Flow to Chinese Launderers, Chainalysis S",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVktFZjZWQ3R6bTBBZ",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVktFZjZWQ3R6bTBBZkxjc19VbmNUdXNSNGQ2S",
+     "title": "China’s Emissions Fall Most Since Covid on High Fuel Costs, ",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbkhXTGUwZGpRSnRTa",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbkhXTGUwZGpRSnRTam5sbjctN2dNa2NhU1VDT",
      "resolved": false
     },
     {
@@ -263,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "China’s critical minerals dominance leaves UK ‘dangerously e",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTg5RV9FbFE1MXhsQ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTg5RV9FbFE1MXhsQjZkNWRBamVfMDdpOFo2X",
+     "title": "China’s block on SoftBank deal fires the starting gun on the",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGxjR2k2WC16UFZ4Z",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGxjR2k2WC16UFZ4ZGJxR3NlS2lWNXltTWxZV",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 57,
+   "items": 58,
    "is_feed": true,
    "sample": "US strategy links Myanmar peace talks to rare-earth access - Reuters",
    "diag": [
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
+     "title": "EXCLUSIVE: EU seeks closer Vietnam ties on critical minerals",
+     "date": "2026-10-13",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKY",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1NFMUNzVk1sZ0RKYUJDSjZPdFh3eTRzMUhrS",
+     "resolved": false
+    },
+    {
      "title": "China's rare earths dominance to overshadow Trump's talks wi",
      "date": "2026-09-24",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
-     "resolved": false
-    },
-    {
-     "title": "Rare earths force Trump to be less hostile before Xi summit ",
-     "date": "2026-09-21",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWVnSmJwbVhCRUtPc",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWVnSmJwbVhCRUtPcUVjbUtZZkRxUTlzVWpWZ",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Air Force, Secret Service Strengthen Counter-Drone Readiness"
+   "sample": "READOUT: Okinawa Area Coordinating Committee Meeting on Period of Reflection and Way Ahead"
   },
   {
    "name": "商务部新闻",
