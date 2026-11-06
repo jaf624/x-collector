@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T21:02:05.768079Z",
+ "probed_at": "2026-11-06T21:09:44.596695Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 58,
+   "items": 57,
    "is_feed": true,
    "sample": "Lula's election win dashes US hopes of quick access to Brazil's rare earths - Reuters",
    "diag": [
