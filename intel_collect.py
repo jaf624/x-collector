@@ -1193,7 +1193,7 @@ def main():
                     # 不要求标题显式出现涉华词——这类稿件不点名中国但直指供应链，直接丢损失大。
                     _phr = float(s.get("probe_hit_rate") or 0)
                     _ht = bool(HARD_TOPIC_RE.search(blob))
-                    _byp = bool(_is_hn_pre or (_phr >= 0.2 and _ht))
+                    _byp = bool(_is_hn_pre or (_ht and str(s.get("grade") or "C") in ("A", "B")))
                     if not is_lead_src:
                         if any(b in u.lower() for b in block_global):
                             rr["rel_block"] = rr.get("rel_block", 0) + 1; continue
