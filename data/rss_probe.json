@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T22:56:46.777390Z",
+ "probed_at": "2026-11-06T23:05:48.079853Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -52,13 +52,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US escalates economic campaign against Cuba and targets China-based suppliers - AP News",
+   "sample": "China warns Philippines to be cautious over South China Sea - AP News",
    "diag": [
     {
-     "title": "US escalates economic campaign against Cuba and targets Chin",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
+     "title": "China warns Philippines to be cautious over South China Sea ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3O",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3OWlENlFwemZHa0paa2tmM",
      "resolved": false
     },
     {
@@ -69,17 +69,17 @@
      "resolved": false
     },
     {
-     "title": "China warns Philippines to be cautious over South China Sea ",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3O",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3OWlENlFwemZHa0paa2tmM",
-     "resolved": false
-    },
-    {
      "title": "2 Uyghur men held in Thailand plead not be sent back to Chin",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3N3Rkl1QXNRbzZIe",
      "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3N3Rkl1QXNRbzZIeFRTQVVNUk81R1FJbmhGT",
+     "resolved": false
+    },
+    {
+     "title": "US escalates economic campaign against Cuba and targets Chin",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
      "resolved": false
     },
     {
@@ -159,17 +159,17 @@
      "resolved": false
     },
     {
-     "title": "China’s Extraordinary Path to Power - Bloomberg.com",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm1pUHAwbmlnTjA3e",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm1pUHAwbmlnTjA3eFloWVhGRGtVYjFhdmJKS",
-     "resolved": false
-    },
-    {
      "title": "China Quants Swing to Losses for Year After October Tech Sel",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduR",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduRU5Xa0ZnRXhfZXRkVXpCS",
+     "resolved": false
+    },
+    {
+     "title": "China’s Extraordinary Path to Power - Bloomberg.com",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm1pUHAwbmlnTjA3e",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm1pUHAwbmlnTjA3eFloWVhGRGtVYjFhdmJKS",
      "resolved": false
     },
     {
@@ -295,7 +295,7 @@
     },
     {
      "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
-     "date": "2026-11-01",
+     "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
      "resolved": false
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "America’s Nuclear Revival Is Running Into a Fuel Supply Wall"
+   "sample": "Wall Street’s “Energy Transition” Funds Are Packed With Natural Gas"
   },
   {
    "name": "IMF",
