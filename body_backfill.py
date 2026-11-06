@@ -46,9 +46,17 @@ def norm(u):
 
 
 def fetch_text(url, title):
-    req = urllib.request.Request(url, headers={"User-Agent": UA,
-                                              "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8"})
-    raw = urllib.request.urlopen(req, timeout=TIMEOUT).read(MAX_BYTES).decode("utf-8", "ignore")
+    """统一走 netguard：每 host 限速、403/429 熔断、curl_cffi 复刻 Chrome 指纹。
+    拿不到 netguard 时退回 urllib，保证单文件也能跑。"""
+    try:
+        import netguard
+        st, raw, _meta = netguard.fetch(url, timeout=TIMEOUT)
+        if st == 0 or not raw:
+            return None, "net:%s" % (_meta.get("err") or "cooled")
+    except Exception:
+        req = urllib.request.Request(url, headers={"User-Agent": UA,
+                                                  "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8"})
+        raw = urllib.request.urlopen(req, timeout=TIMEOUT).read(MAX_BYTES).decode("utf-8", "ignore")
     txt, why = extract(raw, title)
     return (txt if txt else None), why
 
