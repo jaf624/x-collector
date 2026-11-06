@@ -1268,7 +1268,24 @@ def main():
             if _st != 200 or _ni == 0:
                 print("[inst-diag] 权威源0条 %s HTTP=%s 解析=%s %s" % (_nm, _st, _ni, _add), flush=True)
 
-    # 4) 正文 / 快照 + 质量过滤（按日期新->旧，限量控成本）
+    # 4) 题材配额：c6（舆情热点，权重1）限量放行，把预算让给 w>=4 的硬题材
+    if _HAS_TC and candidates:
+        _c6, _hi, _oth = [], [], []
+        for _x in candidates.values():
+            _w = int(_x.get("cat_w") or 0)
+            if _x.get("cat_id") == "c6":
+                _c6.append(_x)
+            elif _w >= 4:
+                _hi.append(_x)
+            else:
+                _oth.append(_x)
+        _lim = int(os.environ.get("INTEL_C6_CAP", "60"))
+        if len(_c6) > _lim:
+            print(f"[cat] c6 舆情热点 {len(_c6)} 条，限 {_lim} 条入库" , flush=True)
+            _c6 = _c6[:_lim]
+        candidates = {x["url"]: x for x in (_hi + _oth + _c6)}
+
+    # 5) 正文 / 快照 + 质量过滤（按日期新->旧，限量控成本）
     cand = list(candidates.values())
     cand.sort(key=lambda x: x["hint_date"] or datetime.date(2000, 1, 1), reverse=True)
     snip_cand = [c for c in cand if c["body_from"] == "snippet"]             # 线索快照：零 token，全保留
