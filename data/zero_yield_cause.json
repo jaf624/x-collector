@@ -1,16 +1,17 @@
 {
- "at": "2026-11-06T20:27",
- "round": "2026-11-06T18:24",
- "zero_sources": 240,
+ "at": "2026-11-06T20:54",
+ "round": "2026-11-06T20:44",
+ "zero_sources": 241,
  "sampled": 140,
  "agg": {
   "keep_strict": 66,
-  "partial": 33,
-  "off_topic": 14,
-  "unreachable": 27
+  "partial": 35,
+  "off_topic": 13,
+  "unreachable": 26
  },
  "rows": [
   {
+   "host": "defense.gov",
    "k": "e0f71bb26a",
    "parsed": 20,
    "n": 20,
@@ -19,35 +20,16 @@
    "cause": "keep_strict"
   },
   {
+   "host": "news.google.com/nato",
    "k": "7a7d1cf02d",
-   "parsed": 76,
+   "parsed": 75,
    "n": 50,
    "hit_rate": 0.62,
    "desc_rate": 1.0,
    "cause": "keep_strict"
   },
   {
-   "k": "94b4da1c35",
-   "parsed": 85,
-   "n": 50,
-   "hit_rate": 1.0,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "2d94b6d927",
-   "parsed": 100,
-   "n": 50,
-   "hit_rate": 0.68,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "9d46627b1c",
-   "parsed": 30,
-   "cause": "unreachable"
-  },
-  {
+   "host": "aiddata.org",
    "k": "614ddc3c57",
    "parsed": 100,
    "n": 50,
@@ -56,14 +38,25 @@
    "cause": "keep_strict"
   },
   {
-   "k": "98257474b8",
-   "parsed": 50,
+   "host": "news.google.com/defensenews",
+   "k": "94b4da1c35",
+   "parsed": 86,
    "n": 50,
-   "hit_rate": 0.1,
-   "desc_rate": 0.0,
-   "cause": "partial"
+   "hit_rate": 1.0,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
   },
   {
+   "host": "news.google.com/france24",
+   "k": "2d94b6d927",
+   "parsed": 100,
+   "n": 50,
+   "hit_rate": 0.68,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "anticcp.nl",
    "k": "43beacadb1",
    "parsed": 25,
    "n": 25,
@@ -72,6 +65,22 @@
    "cause": "keep_strict"
   },
   {
+   "host": "thehackernews.com",
+   "k": "98257474b8",
+   "parsed": 50,
+   "n": 50,
+   "hit_rate": 0.1,
+   "desc_rate": 0.0,
+   "cause": "partial"
+  },
+  {
+   "host": "clb.org.hk",
+   "k": "9d46627b1c",
+   "parsed": 30,
+   "cause": "unreachable"
+  },
+  {
+   "host": "ait.org.tw",
    "k": "4c61e92ade",
    "parsed": 10,
    "n": 10,
@@ -80,6 +89,7 @@
    "cause": "keep_strict"
   },
   {
+   "host": "cecc.gov",
    "k": "d396d9dbe6",
    "parsed": 10,
    "n": 10,
@@ -88,6 +98,7 @@
    "cause": "keep_strict"
   },
   {
+   "host": "epochtimes.com",
    "k": "be1ec0c1ea",
    "parsed": 60,
    "n": 50,
@@ -96,35 +107,16 @@
    "cause": "off_topic"
   },
   {
+   "host": "theatlantic.com",
    "k": "0165c9cacf",
    "parsed": 25,
    "n": 25,
    "hit_rate": 0.04,
-   "desc_rate": 0.4,
+   "desc_rate": 0.44,
    "cause": "off_topic"
   },
   {
-   "k": "d2e5d55fd6",
-   "parsed": 192,
-   "cause": "unreachable"
-  },
-  {
-   "k": "aa8e14d963",
-   "parsed": 100,
-   "n": 50,
-   "hit_rate": 0.3,
-   "desc_rate": 0.8,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "3058b4c56d",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.1,
-   "desc_rate": 0.0,
-   "cause": "partial"
-  },
-  {
+   "host": "amnesty.org",
    "k": "bc54a7fac5",
    "parsed": 12,
    "n": 12,
@@ -133,6 +125,7 @@
    "cause": "keep_strict"
   },
   {
+   "host": "icij.org",
    "k": "56ee4b6eb6",
    "parsed": 11,
    "n": 11,
@@ -141,22 +134,25 @@
    "cause": "partial"
   },
   {
-   "k": "f24806d23e",
-   "parsed": 20,
-   "n": 20,
-   "hit_rate": 1.0,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "1223076413",
+   "host": "studentsforafreetibet.org",
+   "k": "3058b4c56d",
    "parsed": 10,
    "n": 10,
-   "hit_rate": 0.3,
+   "hit_rate": 0.1,
    "desc_rate": 0.0,
+   "cause": "partial"
+  },
+  {
+   "host": "welivesecurity.com",
+   "k": "aa8e14d963",
+   "parsed": 100,
+   "n": 50,
+   "hit_rate": 0.3,
+   "desc_rate": 0.8,
    "cause": "keep_strict"
   },
   {
+   "host": "energyandcleanair.org",
    "k": "9e0928ca7b",
    "parsed": 14,
    "n": 14,
@@ -165,11 +161,7 @@
    "cause": "keep_strict"
   },
   {
-   "k": "908e800d44",
-   "parsed": 5,
-   "cause": "unreachable"
-  },
-  {
+   "host": "sentinelone.com",
    "k": "87a2524475",
    "parsed": 10,
    "n": 10,
@@ -178,56 +170,25 @@
    "cause": "partial"
   },
   {
-   "k": "a601f06c8f",
-   "parsed": 12,
-   "cause": "unreachable"
-  },
-  {
-   "k": "fb0c5dabd3",
-   "parsed": 20,
-   "cause": "unreachable"
-  },
-  {
-   "k": "5f6cf33528",
+   "host": "dialoguechina.com",
+   "k": "1223076413",
    "parsed": 10,
    "n": 10,
-   "hit_rate": 0.2,
+   "hit_rate": 0.3,
    "desc_rate": 0.0,
    "cause": "keep_strict"
   },
   {
-   "k": "93ff341ea9",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.3,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "281a2e31a1",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.1,
-   "desc_rate": 1.0,
+   "host": "aljazeera.com",
+   "k": "5c2f5c9344",
+   "parsed": 25,
+   "n": 25,
+   "hit_rate": 0.08,
+   "desc_rate": 0.0,
    "cause": "partial"
   },
   {
-   "k": "c5a7d2df95",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.2,
-   "desc_rate": 0.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "a8bfa90060",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.3,
-   "desc_rate": 0.0,
-   "cause": "keep_strict"
-  },
-  {
+   "host": "jinian64.org",
    "k": "88a9b854fc",
    "parsed": 10,
    "n": 10,
@@ -236,12 +197,8 @@
    "cause": "keep_strict"
   },
   {
-   "k": "ad638aaeca",
-   "parsed": 15,
-   "cause": "unreachable"
-  },
-  {
-   "k": "3685fcedcf",
+   "host": "bellingcat.com",
+   "k": "93ff341ea9",
    "parsed": 10,
    "n": 10,
    "hit_rate": 0.3,
@@ -249,6 +206,31 @@
    "cause": "keep_strict"
   },
   {
+   "host": "www.japantimes.co.jp",
+   "k": "908e800d44",
+   "parsed": 5,
+   "cause": "unreachable"
+  },
+  {
+   "host": "smallwarsjournal.com",
+   "k": "4d34e0a3f1",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.7,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "merics.org",
+   "k": "f24806d23e",
+   "parsed": 20,
+   "n": 20,
+   "hit_rate": 1.0,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "duihua.org",
    "k": "bcddf4470c",
    "parsed": 10,
    "n": 10,
@@ -257,59 +239,43 @@
    "cause": "keep_strict"
   },
   {
-   "k": "4c1b9c4dfd",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 1.0,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "8dab43bb64",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.9,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "4c8e3156f0",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.0,
-   "desc_rate": 0.5,
-   "cause": "off_topic"
-  },
-  {
-   "k": "a195e1a626",
-   "parsed": 25,
-   "n": 25,
-   "hit_rate": 0.16,
-   "desc_rate": 0.0,
-   "cause": "partial"
-  },
-  {
-   "k": "14e12abefe",
-   "parsed": 20,
-   "n": 20,
-   "hit_rate": 0.1,
-   "desc_rate": 0.0,
-   "cause": "partial"
-  },
-  {
-   "k": "0fb0728d6b",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 1.0,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "f5251971e0",
-   "parsed": 25,
+   "host": "thegrayzone.com",
+   "k": "a601f06c8f",
+   "parsed": 12,
    "cause": "unreachable"
   },
   {
+   "host": "snopes.com",
+   "k": "fb0c5dabd3",
+   "parsed": 20,
+   "cause": "unreachable"
+  },
+  {
+   "host": "freetheslaves.net",
+   "k": "3685fcedcf",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.3,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "feed.laborinfocn7.com",
+   "k": "ad638aaeca",
+   "parsed": 15,
+   "cause": "unreachable"
+  },
+  {
+   "host": "opentech.fund",
+   "k": "a8bfa90060",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.3,
+   "desc_rate": 0.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "fullfact.org",
    "k": "8caec6f8a3",
    "parsed": 10,
    "n": 10,
@@ -318,6 +284,58 @@
    "cause": "partial"
   },
   {
+   "host": "globalaffairs.org",
+   "k": "4c1b9c4dfd",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 1.0,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "cato.org",
+   "k": "f5251971e0",
+   "parsed": 25,
+   "cause": "unreachable"
+  },
+  {
+   "host": "intelligence.house.gov",
+   "k": "281a2e31a1",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.1,
+   "desc_rate": 1.0,
+   "cause": "partial"
+  },
+  {
+   "host": "freedomhouse.org",
+   "k": "8dab43bb64",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.9,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "minzhuzhongguo.org",
+   "k": "14e12abefe",
+   "parsed": 20,
+   "n": 20,
+   "hit_rate": 0.1,
+   "desc_rate": 0.0,
+   "cause": "partial"
+  },
+  {
+   "host": "mediamatters.org",
+   "k": "4c8e3156f0",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.0,
+   "desc_rate": 0.5,
+   "cause": "off_topic"
+  },
+  {
+   "host": "citizenlab.ca",
    "k": "8506614bff",
    "parsed": 10,
    "n": 10,
@@ -326,38 +344,7 @@
    "cause": "keep_strict"
   },
   {
-   "k": "6a455185d0",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.2,
-   "desc_rate": 0.6,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "370fa6d568",
-   "parsed": 15,
-   "n": 15,
-   "hit_rate": 0.2,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "2ebf4a852e",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.0,
-   "desc_rate": 0.0,
-   "cause": "off_topic"
-  },
-  {
-   "k": "da24f373ab",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.5,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
+   "host": "walkfree.org",
    "k": "2d5d151788",
    "parsed": 10,
    "n": 10,
@@ -366,14 +353,25 @@
    "cause": "keep_strict"
   },
   {
-   "k": "b4372aafa4",
+   "host": "castro.house.gov",
+   "k": "a195e1a626",
+   "parsed": 25,
+   "n": 25,
+   "hit_rate": 0.16,
+   "desc_rate": 0.0,
+   "cause": "partial"
+  },
+  {
+   "host": "dfrlab.org",
+   "k": "6a455185d0",
    "parsed": 10,
    "n": 10,
    "hit_rate": 0.2,
-   "desc_rate": 0.9,
+   "desc_rate": 0.6,
    "cause": "keep_strict"
   },
   {
+   "host": "iri.org",
    "k": "376b92ff4b",
    "parsed": 10,
    "n": 10,
@@ -382,6 +380,49 @@
    "cause": "partial"
   },
   {
+   "host": "news.china.com.au",
+   "k": "2ebf4a852e",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.0,
+   "desc_rate": 0.0,
+   "cause": "off_topic"
+  },
+  {
+   "host": "uscirf.gov",
+   "k": "da24f373ab",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.5,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "nukib.gov.cz",
+   "k": "370fa6d568",
+   "parsed": 15,
+   "n": 15,
+   "hit_rate": 0.2,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "darkreading.com",
+   "k": "1427ff2005",
+   "parsed": 50,
+   "cause": "unreachable"
+  },
+  {
+   "host": "factcheck.org",
+   "k": "b4372aafa4",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.2,
+   "desc_rate": 0.9,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "americanswhotellthetruth.org",
    "k": "33127f7a1e",
    "parsed": 10,
    "n": 10,
@@ -390,19 +431,25 @@
    "cause": "off_topic"
   },
   {
-   "k": "1427ff2005",
-   "parsed": 50,
-   "cause": "unreachable"
+   "host": "deutschland.de",
+   "k": "b83a414a96",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.2,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
   },
   {
+   "host": "news.google.com/kitco",
    "k": "e803cc55ad",
-   "parsed": 71,
+   "parsed": 70,
    "n": 50,
    "hit_rate": 0.38,
    "desc_rate": 1.0,
    "cause": "keep_strict"
   },
   {
+   "host": "news.google.com/usgs",
    "k": "5d1fab07ff",
    "parsed": 50,
    "n": 50,
@@ -411,27 +458,7 @@
    "cause": "keep_strict"
   },
   {
-   "k": "29ff47c4b9",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.0,
-   "desc_rate": 0.0,
-   "cause": "off_topic"
-  },
-  {
-   "k": "b83a414a96",
-   "parsed": 10,
-   "cause": "unreachable"
-  },
-  {
-   "k": "f93b8ecc0e",
-   "parsed": 52,
-   "n": 50,
-   "hit_rate": 0.46,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
+   "host": "news.google.com/thedrive",
    "k": "82ee455940",
    "parsed": 52,
    "n": 50,
@@ -440,14 +467,31 @@
    "cause": "partial"
   },
   {
-   "k": "00a59f34f6",
-   "parsed": 57,
+   "host": "ec.europa.eu",
+   "k": "1fb9978eb4",
+   "parsed": 10,
+   "cause": "unreachable"
+  },
+  {
+   "host": "news.google.com/stripes",
+   "k": "db3882f381",
+   "parsed": 67,
    "n": 50,
-   "hit_rate": 0.3,
+   "hit_rate": 0.72,
    "desc_rate": 1.0,
    "cause": "keep_strict"
   },
   {
+   "host": "gids-hamburg.de",
+   "k": "29ff47c4b9",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.0,
+   "desc_rate": 0.0,
+   "cause": "off_topic"
+  },
+  {
+   "host": "news.google.com/navaltech",
    "k": "9275239ca2",
    "parsed": 70,
    "n": 50,
@@ -456,27 +500,34 @@
    "cause": "keep_strict"
   },
   {
-   "k": "276d064540",
-   "parsed": 67,
+   "host": "news.google.com/register",
+   "k": "00a59f34f6",
+   "parsed": 57,
    "n": 50,
-   "hit_rate": 0.98,
+   "hit_rate": 0.3,
    "desc_rate": 1.0,
    "cause": "keep_strict"
   },
   {
-   "k": "1fb9978eb4",
+   "host": "news.google.com/argus",
+   "k": "f93b8ecc0e",
+   "parsed": 52,
+   "n": 50,
+   "hit_rate": 0.46,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "chinademocrats.org",
+   "k": "5f6cf33528",
    "parsed": 10,
-   "cause": "unreachable"
-  },
-  {
-   "k": "db3882f381",
-   "parsed": 68,
-   "n": 50,
-   "hit_rate": 0.72,
-   "desc_rate": 1.0,
+   "n": 10,
+   "hit_rate": 0.2,
+   "desc_rate": 0.0,
    "cause": "keep_strict"
   },
   {
+   "host": "news.google.com/ustr",
    "k": "de66301817",
    "parsed": 60,
    "n": 50,
@@ -485,14 +536,16 @@
    "cause": "partial"
   },
   {
-   "k": "cf2528aa80",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.4,
+   "host": "news.google.com/csis",
+   "k": "276d064540",
+   "parsed": 66,
+   "n": 50,
+   "hit_rate": 0.98,
    "desc_rate": 1.0,
    "cause": "keep_strict"
   },
   {
+   "host": "seajunction.org",
    "k": "85917e3c89",
    "parsed": 10,
    "n": 10,
@@ -501,6 +554,7 @@
    "cause": "keep_strict"
   },
   {
+   "host": "ecb.europa.eu",
    "k": "591ec2c644",
    "parsed": 15,
    "n": 15,
@@ -509,6 +563,16 @@
    "cause": "off_topic"
   },
   {
+   "host": "eetimes.com",
+   "k": "cf2528aa80",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.4,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "theaviationist.com",
    "k": "c1c56a2236",
    "parsed": 15,
    "n": 15,
@@ -517,29 +581,13 @@
    "cause": "keep_strict"
   },
   {
-   "k": "7cf954d905",
-   "parsed": 5,
-   "n": 5,
-   "hit_rate": 0.8,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
+   "host": "thehindu.com",
    "k": "a34d864997",
    "parsed": 60,
    "cause": "unreachable"
   },
   {
-   "k": "bbf15f4852",
-   "parsed": 88,
-   "cause": "unreachable"
-  },
-  {
-   "k": "e2f0354cd0",
-   "parsed": 20,
-   "cause": "unreachable"
-  },
-  {
+   "host": "defence-blog.com",
    "k": "e547baa445",
    "parsed": 10,
    "n": 10,
@@ -548,64 +596,37 @@
    "cause": "keep_strict"
   },
   {
-   "k": "30ea37687c",
+   "host": "middleeasteye.net",
+   "k": "07d020384d",
    "parsed": 20,
    "n": 20,
-   "hit_rate": 0.5,
-   "desc_rate": 0.95,
+   "hit_rate": 0.95,
+   "desc_rate": 1.0,
    "cause": "keep_strict"
   },
   {
-   "k": "3387be370c",
-   "parsed": 20,
-   "n": 20,
-   "hit_rate": 0.15,
-   "desc_rate": 0.0,
-   "cause": "partial"
+   "host": "nextplatform.com",
+   "k": "bbf15f4852",
+   "parsed": 88,
+   "cause": "unreachable"
   },
   {
-   "k": "ba36fbc6b5",
-   "parsed": 20,
-   "n": 20,
-   "hit_rate": 0.15,
-   "desc_rate": 0.0,
-   "cause": "partial"
+   "host": "semiwiki.com",
+   "k": "7cf954d905",
+   "parsed": 5,
+   "n": 5,
+   "hit_rate": 0.8,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
   },
   {
-   "k": "edfb019b27",
+   "host": "malwarebytes.com",
+   "k": "e2f0354cd0",
    "parsed": 20,
    "cause": "unreachable"
   },
   {
-   "k": "528b21100b",
-   "parsed": 12,
-   "n": 12,
-   "hit_rate": 0.333,
-   "desc_rate": 0.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "90924a3388",
-   "parsed": 50,
-   "cause": "unreachable"
-  },
-  {
-   "k": "cfb87a0fde",
-   "parsed": 95,
-   "n": 50,
-   "hit_rate": 0.78,
-   "desc_rate": 0.82,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "0393c56c8f",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.4,
-   "desc_rate": 0.7,
-   "cause": "keep_strict"
-  },
-  {
+   "host": "cyberscoop.com",
    "k": "3811cbd839",
    "parsed": 10,
    "n": 10,
@@ -614,51 +635,43 @@
    "cause": "keep_strict"
   },
   {
-   "k": "59bb730e0a",
-   "parsed": 60,
-   "n": 50,
-   "hit_rate": 0.1,
-   "desc_rate": 0.0,
-   "cause": "partial"
-  },
-  {
-   "k": "1f1bedc590",
-   "parsed": 20,
-   "n": 20,
-   "hit_rate": 0.0,
-   "desc_rate": 0.0,
-   "cause": "off_topic"
-  },
-  {
-   "k": "1f5f828169",
-   "parsed": 5,
-   "cause": "unreachable"
-  },
-  {
-   "k": "04eec05b28",
-   "parsed": 100,
-   "n": 50,
-   "hit_rate": 0.0,
-   "desc_rate": 0.0,
-   "cause": "off_topic"
-  },
-  {
-   "k": "6b8bc4c54f",
+   "host": "philstar.com",
+   "k": "b82c78d05b",
    "parsed": 10,
    "n": 10,
-   "hit_rate": 1.0,
+   "hit_rate": 0.2,
    "desc_rate": 1.0,
    "cause": "keep_strict"
   },
   {
-   "k": "23f70e3d2c",
-   "parsed": 150,
-   "n": 50,
-   "hit_rate": 0.06,
+   "host": "techcrunch.com",
+   "k": "3387be370c",
+   "parsed": 20,
+   "n": 20,
+   "hit_rate": 0.15,
    "desc_rate": 0.0,
    "cause": "partial"
   },
   {
+   "host": "wired.com/security",
+   "k": "30ea37687c",
+   "parsed": 20,
+   "n": 20,
+   "hit_rate": 0.5,
+   "desc_rate": 0.95,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "arstechnica.com",
+   "k": "ba36fbc6b5",
+   "parsed": 20,
+   "n": 20,
+   "hit_rate": 0.15,
+   "desc_rate": 0.0,
+   "cause": "partial"
+  },
+  {
+   "host": "spectrum.ieee.org",
    "k": "fc09a30ba1",
    "parsed": 30,
    "n": 30,
@@ -667,14 +680,70 @@
    "cause": "partial"
   },
   {
-   "k": "bcd3b0975c",
-   "parsed": 16,
-   "n": 16,
-   "hit_rate": 0.062,
+   "host": "gcaptain.com",
+   "k": "528b21100b",
+   "parsed": 12,
+   "n": 12,
+   "hit_rate": 0.333,
+   "desc_rate": 0.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "koreaherald.com",
+   "k": "90924a3388",
+   "parsed": 50,
+   "cause": "unreachable"
+  },
+  {
+   "host": "semiengineering.com",
+   "k": "0393c56c8f",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.4,
+   "desc_rate": 0.7,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "nippon.com",
+   "k": "edfb019b27",
+   "parsed": 20,
+   "cause": "unreachable"
+  },
+  {
+   "host": "statnews.com",
+   "k": "1f1bedc590",
+   "parsed": 20,
+   "n": 20,
+   "hit_rate": 0.0,
+   "desc_rate": 0.0,
+   "cause": "off_topic"
+  },
+  {
+   "host": "therecord.media",
+   "k": "1f5f828169",
+   "parsed": 5,
+   "cause": "unreachable"
+  },
+  {
+   "host": "vnexpress.net",
+   "k": "59bb730e0a",
+   "parsed": 60,
+   "n": 50,
+   "hit_rate": 0.1,
    "desc_rate": 0.0,
    "cause": "partial"
   },
   {
+   "host": "aviationweek.com",
+   "k": "6b8bc4c54f",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 1.0,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "fifthdomain.com",
    "k": "3ef00ce994",
    "parsed": 10,
    "n": 10,
@@ -683,14 +752,25 @@
    "cause": "keep_strict"
   },
   {
+   "host": "gatewaypundit.com",
+   "k": "bcd3b0975c",
+   "parsed": 16,
+   "n": 16,
+   "hit_rate": 0.125,
+   "desc_rate": 0.0,
+   "cause": "partial"
+  },
+  {
+   "host": "defenseone.com",
    "k": "33f2dbd419",
-   "parsed": 20,
+   "parsed": 21,
    "n": 21,
    "hit_rate": 0.619,
    "desc_rate": 0.667,
    "cause": "keep_strict"
   },
   {
+   "host": "un.org",
    "k": "f48b5800f8",
    "parsed": 10,
    "n": 10,
@@ -699,30 +779,13 @@
    "cause": "keep_strict"
   },
   {
-   "k": "38234f19e5",
-   "parsed": 12,
-   "n": 12,
-   "hit_rate": 0.333,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "2172f4669d",
+   "host": "mercoPress.com",
+   "k": "6ab16ae9d9",
    "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.3,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
+   "cause": "unreachable"
   },
   {
-   "k": "928b73640b",
-   "parsed": 50,
-   "n": 50,
-   "hit_rate": 0.18,
-   "desc_rate": 0.84,
-   "cause": "partial"
-  },
-  {
+   "host": "migrationpolicy.org",
    "k": "a64c8ec66a",
    "parsed": 20,
    "n": 20,
@@ -731,14 +794,43 @@
    "cause": "partial"
   },
   {
+   "host": "fiercetelecom.com",
+   "k": "2172f4669d",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.3,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "carbonbrief.org",
+   "k": "38234f19e5",
+   "parsed": 12,
+   "n": 12,
+   "hit_rate": 0.333,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "breitbart.com",
    "k": "2bb13bea21",
-   "parsed": 47,
+   "parsed": 48,
    "n": 48,
    "hit_rate": 0.146,
    "desc_rate": 0.958,
    "cause": "partial"
   },
   {
+   "host": "wired.com",
+   "k": "928b73640b",
+   "parsed": 50,
+   "n": 50,
+   "hit_rate": 0.18,
+   "desc_rate": 0.84,
+   "cause": "partial"
+  },
+  {
+   "host": "myjoyonline.com",
    "k": "ffc82902eb",
    "parsed": 50,
    "n": 50,
@@ -747,35 +839,7 @@
    "cause": "partial"
   },
   {
-   "k": "d4e4be5507",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.2,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "dc23400b90",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.2,
-   "desc_rate": 0.0,
-   "cause": "keep_strict"
-  },
-  {
-   "k": "baffd94df1",
-   "parsed": 11,
-   "cause": "unreachable"
-  },
-  {
-   "k": "b570a78bc7",
-   "parsed": 25,
-   "n": 25,
-   "hit_rate": 0.08,
-   "desc_rate": 1.0,
-   "cause": "partial"
-  },
-  {
+   "host": "justice.gov",
    "k": "d6268702de",
    "parsed": 10,
    "n": 10,
@@ -784,6 +848,37 @@
    "cause": "keep_strict"
   },
   {
+   "host": "energy.gov",
+   "k": "d4e4be5507",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.2,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "lightreading.com",
+   "k": "22eb13323a",
+   "parsed": 50,
+   "cause": "unreachable"
+  },
+  {
+   "host": "insightcrime.org",
+   "k": "baffd94df1",
+   "parsed": 11,
+   "cause": "unreachable"
+  },
+  {
+   "host": "sec.gov",
+   "k": "b570a78bc7",
+   "parsed": 25,
+   "n": 25,
+   "hit_rate": 0.08,
+   "desc_rate": 1.0,
+   "cause": "partial"
+  },
+  {
+   "host": "freightwaves.com",
    "k": "b3c55c0830",
    "parsed": 50,
    "n": 50,
@@ -792,27 +887,7 @@
    "cause": "keep_strict"
   },
   {
-   "k": "4a8159f043",
-   "parsed": 7,
-   "n": 7,
-   "hit_rate": 0.0,
-   "desc_rate": 0.0,
-   "cause": "off_topic"
-  },
-  {
-   "k": "22eb13323a",
-   "parsed": 50,
-   "cause": "unreachable"
-  },
-  {
-   "k": "d3e9d124d3",
-   "parsed": 100,
-   "n": 50,
-   "hit_rate": 0.16,
-   "desc_rate": 0.0,
-   "cause": "partial"
-  },
-  {
+   "host": "nasa.gov",
    "k": "397d00b13c",
    "parsed": 10,
    "n": 10,
@@ -821,6 +896,34 @@
    "cause": "off_topic"
   },
   {
+   "host": "electoral-vote.com",
+   "k": "4a8159f043",
+   "parsed": 7,
+   "n": 7,
+   "hit_rate": 0.0,
+   "desc_rate": 0.0,
+   "cause": "off_topic"
+  },
+  {
+   "host": "politico.eu",
+   "k": "dc23400b90",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.2,
+   "desc_rate": 0.0,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "euractiv.com",
+   "k": "d3e9d124d3",
+   "parsed": 100,
+   "n": 50,
+   "hit_rate": 0.16,
+   "desc_rate": 0.0,
+   "cause": "partial"
+  },
+  {
+   "host": "noaa.gov",
    "k": "88402532c4",
    "parsed": 10,
    "n": 10,
@@ -829,6 +932,7 @@
    "cause": "partial"
   },
   {
+   "host": "insurancejournal.com",
    "k": "0230603c3f",
    "parsed": 30,
    "n": 30,
@@ -837,6 +941,7 @@
    "cause": "partial"
   },
   {
+   "host": "hud.gov",
    "k": "4a302e1ffa",
    "parsed": 10,
    "n": 10,
@@ -845,32 +950,37 @@
    "cause": "keep_strict"
   },
   {
+   "host": "electrek.co",
+   "k": "23f70e3d2c",
+   "parsed": 150,
+   "n": 50,
+   "hit_rate": 0.08,
+   "desc_rate": 0.0,
+   "cause": "partial"
+  },
+  {
+   "host": "thehill.com",
+   "k": "04eec05b28",
+   "parsed": 100,
+   "n": 50,
+   "hit_rate": 0.0,
+   "desc_rate": 0.0,
+   "cause": "off_topic"
+  },
+  {
+   "host": "engadget.com",
    "k": "015756f28e",
    "parsed": 20,
    "cause": "unreachable"
   },
   {
-   "k": "faf937b7ca",
-   "parsed": 25,
-   "n": 25,
-   "hit_rate": 0.12,
-   "desc_rate": 0.0,
-   "cause": "partial"
-  },
-  {
+   "host": "mashable.com",
    "k": "b5f07f8286",
    "parsed": 100,
    "cause": "unreachable"
   },
   {
-   "k": "d4832eea27",
-   "parsed": 19,
-   "n": 18,
-   "hit_rate": 0.056,
-   "desc_rate": 0.722,
-   "cause": "partial"
-  },
-  {
+   "host": "splash247.com",
    "k": "7ff16cbf0d",
    "parsed": 10,
    "n": 10,
@@ -879,24 +989,25 @@
    "cause": "keep_strict"
   },
   {
-   "k": "82e38309db",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.1,
-   "desc_rate": 1.0,
+   "host": "offshore-mag.com",
+   "k": "faf937b7ca",
+   "parsed": 25,
+   "n": 25,
+   "hit_rate": 0.08,
+   "desc_rate": 0.0,
    "cause": "partial"
   },
   {
-   "k": "7ef073e643",
-   "parsed": 10,
-   "cause": "unreachable"
+   "host": "fastcompany.com",
+   "k": "d4832eea27",
+   "parsed": 19,
+   "n": 19,
+   "hit_rate": 0.053,
+   "desc_rate": 0.684,
+   "cause": "partial"
   },
   {
-   "k": "ab0b993c58",
-   "parsed": 10,
-   "cause": "unreachable"
-  },
-  {
+   "host": "windpowermonthly.com",
    "k": "d3c0eb3e93",
    "parsed": 20,
    "n": 20,
@@ -905,27 +1016,43 @@
    "cause": "keep_strict"
   },
   {
+   "host": "marktechpost.com",
+   "k": "82e38309db",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.1,
+   "desc_rate": 1.0,
+   "cause": "partial"
+  },
+  {
+   "host": "syncedreview.com",
+   "k": "7ef073e643",
+   "parsed": 10,
+   "cause": "unreachable"
+  },
+  {
+   "host": "theregister.com",
    "k": "3aff9545b7",
    "parsed": 50,
    "n": 50,
    "hit_rate": 0.12,
-   "desc_rate": 0.02,
+   "desc_rate": 0.0,
    "cause": "partial"
   },
   {
+   "host": "stratechery.com",
+   "k": "ab0b993c58",
+   "parsed": 10,
+   "cause": "unreachable"
+  },
+  {
+   "host": "404media.co",
    "k": "05cff08873",
    "parsed": 15,
    "cause": "unreachable"
   },
   {
-   "k": "7532742d41",
-   "parsed": 15,
-   "n": 15,
-   "hit_rate": 0.267,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
-  },
-  {
+   "host": "securityweek.com",
    "k": "2281d582bb",
    "parsed": 10,
    "n": 10,
@@ -934,11 +1061,16 @@
    "cause": "keep_strict"
   },
   {
-   "k": "e859e56631",
+   "host": "unit42.paloaltonetworks.com",
+   "k": "7532742d41",
    "parsed": 15,
-   "cause": "unreachable"
+   "n": 15,
+   "hit_rate": 0.267,
+   "desc_rate": 1.0,
+   "cause": "keep_strict"
   },
   {
+   "host": "techinsights.com",
    "k": "0a4b08302e",
    "parsed": 10,
    "n": 10,
@@ -947,45 +1079,13 @@
    "cause": "off_topic"
   },
   {
-   "k": "541cc79a86",
-   "parsed": 44,
+   "host": "platformer.news",
+   "k": "e859e56631",
+   "parsed": 15,
    "cause": "unreachable"
   },
   {
-   "k": "faf9edb7a0",
-   "parsed": 16,
-   "cause": "unreachable"
-  },
-  {
-   "k": "084180199a",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.1,
-   "desc_rate": 0.0,
-   "cause": "partial"
-  },
-  {
-   "k": "1c9e5011cc",
-   "parsed": 300,
-   "cause": "unreachable"
-  },
-  {
-   "k": "01f3813826",
-   "parsed": 120,
-   "n": 50,
-   "hit_rate": 0.06,
-   "desc_rate": 0.18,
-   "cause": "partial"
-  },
-  {
-   "k": "1df08508b1",
-   "parsed": 10,
-   "n": 10,
-   "hit_rate": 0.0,
-   "desc_rate": 0.0,
-   "cause": "off_topic"
-  },
-  {
+   "host": "eff.org",
    "k": "b9f96eb1e4",
    "parsed": 10,
    "n": 10,
@@ -994,22 +1094,52 @@
    "cause": "keep_strict"
   },
   {
-   "k": "8fe498882b",
-   "parsed": 69,
-   "n": 50,
-   "hit_rate": 0.04,
-   "desc_rate": 1.0,
-   "cause": "off_topic"
+   "host": "timesofindia.indiatimes.com",
+   "k": "541cc79a86",
+   "parsed": 43,
+   "cause": "unreachable"
   },
   {
-   "k": "1b3726503a",
-   "parsed": 21,
-   "n": 22,
-   "hit_rate": 0.318,
-   "desc_rate": 0.909,
+   "host": "economist.com",
+   "k": "1c9e5011cc",
+   "parsed": 300,
+   "cause": "unreachable"
+  },
+  {
+   "host": "lemonde.fr",
+   "k": "faf9edb7a0",
+   "parsed": 16,
+   "cause": "unreachable"
+  },
+  {
+   "host": "sputniknews.com",
+   "k": "0d6ca907ee",
+   "parsed": 100,
+   "n": 50,
+   "hit_rate": 0.4,
+   "desc_rate": 1.0,
    "cause": "keep_strict"
   },
   {
+   "host": "telegraph.co.uk",
+   "k": "01f3813826",
+   "parsed": 120,
+   "n": 50,
+   "hit_rate": 0.06,
+   "desc_rate": 0.18,
+   "cause": "partial"
+  },
+  {
+   "host": "bnef.com",
+   "k": "084180199a",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.1,
+   "desc_rate": 0.0,
+   "cause": "partial"
+  },
+  {
+   "host": "worldpoliticsreview.com",
    "k": "58dbb567a9",
    "parsed": 10,
    "n": 10,
@@ -1018,22 +1148,25 @@
    "cause": "keep_strict"
   },
   {
-   "k": "61f5818982",
+   "host": "nytimes.com",
+   "k": "1b3726503a",
+   "parsed": 23,
+   "n": 24,
+   "hit_rate": 0.208,
+   "desc_rate": 0.917,
+   "cause": "keep_strict"
+  },
+  {
+   "host": "navytimes.com",
+   "k": "edf208d742",
    "parsed": 10,
    "n": 10,
-   "hit_rate": 0.4,
-   "desc_rate": 1.0,
-   "cause": "keep_strict"
+   "hit_rate": 0.1,
+   "desc_rate": 0.0,
+   "cause": "partial"
   },
   {
-   "k": "52852e8048",
-   "parsed": 30,
-   "n": 30,
-   "hit_rate": 0.3,
-   "desc_rate": 0.467,
-   "cause": "keep_strict"
-  },
-  {
+   "host": "spiegel.de",
    "k": "3d309f6019",
    "parsed": 30,
    "n": 30,
@@ -1042,6 +1175,16 @@
    "cause": "partial"
   },
   {
+   "host": "the-decoder.com",
+   "k": "1df08508b1",
+   "parsed": 10,
+   "n": 10,
+   "hit_rate": 0.0,
+   "desc_rate": 0.0,
+   "cause": "off_topic"
+  },
+  {
+   "host": "nationalreview.com",
    "k": "fb4e14ee23",
    "parsed": 20,
    "n": 20,
