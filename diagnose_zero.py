@@ -54,7 +54,7 @@ def main():
     for r in zero:
         h = r["host"]
         u = feed.get(h)
-        rec = {"k": hashlib.md5(h.encode()).hexdigest()[:10], "parsed": r.get("parsed", 0)}
+        rec = {"host": h, "k": hashlib.md5(h.encode()).hexdigest()[:10], "parsed": r.get("parsed", 0)}
         if not u:
             rec["cause"] = "no_feed"
             agg["unreachable"] += 1
@@ -75,6 +75,18 @@ def main():
         rec.update({"n": len(its), "hit_rate": round(hr, 3),
                     "desc_rate": round(dr, 3), "cause": cause})
         out.append(rec)
+
+    # 回写源清单：命中率≥0.2 的源标记 probe_hit_rate，采集器据此走"硬主题旁路"
+    hit = {}
+    for rec in out:
+        if rec.get("hit_rate") is not None and rec.get("n"):
+            hit[rec["host"]] = rec["hit_rate"]
+    for s in t:
+        h = s.get("host")
+        if h in hit:
+            s["probe_hit_rate"] = hit[h]
+            s["last_diag"] = time.strftime("%Y-%m-%d")
+    json.dump(t, open(a.targets, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
     json.dump({"at": time.strftime("%Y-%m-%dT%H:%M"), "round": last,
