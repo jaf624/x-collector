@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T21:18:43.714553Z",
+ "probed_at": "2026-11-06T21:29:30.142427Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -128,10 +128,10 @@
      "resolved": false
     },
     {
-     "title": "Farewell Botox, heels and big hair: Is this the end of MAGA ",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRDA5Z0lPR2Jhci1QY",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRDA5Z0lPR2Jhci1QYUdXQmdMUl96dHg1UEMwY",
+     "title": "Tête à tête - US midterms mark 'the beginning of the end' fo",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbGlyMUQ5c01EYk5zR",
+     "real": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbGlyMUQ5c01EYk5zR1N6cXFMMFl1QmpoZlZXR",
      "resolved": false
     }
    ]
@@ -159,6 +159,13 @@
      "resolved": false
     },
     {
+     "title": "Trump’s Latest Swing at Cuba Puts French, Chinese Firms in C",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUxOd3hQaXpDek9XX",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUxOd3hQaXpDek9XX1BuQ0dYbXowS0J4WUhSN",
+     "resolved": false
+    },
+    {
      "title": "China’s Extraordinary Path to Power - Bloomberg.com",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm1pUHAwbmlnTjA3e",
@@ -170,13 +177,6 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduR",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduRU5Xa0ZnRXhfZXRkVXpCS",
-     "resolved": false
-    },
-    {
-     "title": "Why China Uses a ‘National Team’ to Influence Trading - Bloo",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGZ4NFVYSllGdXQxU",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGZ4NFVYSllGdXQxUWhaT2g5VEpYSkUydFF4Z",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 58,
+   "items": 57,
    "is_feed": true,
    "sample": "Lula's election win dashes US hopes of quick access to Brazil's rare earths - Reuters",
    "diag": [
