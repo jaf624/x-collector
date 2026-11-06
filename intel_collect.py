@@ -42,6 +42,10 @@ socket.setdefaulttimeout(30)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 # 第 4 路：收藏夹公开机构 RSS（智库/政府/国际媒体/NGO/OSINT），美国节点直连不烧 Jina
 INST_SRC = os.path.join(ROOT, "targets", "institute_sources.json")
+HARD_TOPIC_RE = re.compile(
+    r"rare earth|稀土|semiconductor|半导体|chip export|export control|出口管制|"
+    r"tariff|关税|sanction|制裁|supply chain|供应链|missile|导弹|naval|舰|drill|军演|"
+    r"defense procurement|国防采购|critical mineral|关键矿产|lithium|锂|gallium|镓|germanium|锗", re.I)
 INST_DAYS = int(os.environ.get("INTEL_INST_DAYS", "7"))        # 机构周报/月报，窗口 7 天
 INST_PER_FEED = int(os.environ.get("INTEL_INST_PER_FEED", "20"))  # 每源每轮最多评估条数
 INST_MAX = int(os.environ.get("INTEL_INST_MAX", "200"))        # RSS 自带正文（免费）每轮入库上限
@@ -953,9 +957,10 @@ def main():
         ti, co = x.get("title") or "", x.get("content") or ""
         if soft_news(ti):
             return False
-        if not _china_ok(h, ti, co[:800], co[:1500]):  # 标题涉华，或导语(前800字)确涉华
+        if not _china_ok(h, ti, co[:800], co[:1500]) and not x.get("ct_bypass"):
             return False
-        return bool(topic.search(ti + " " + co[:1500]))
+        return bool(topic.search(ti + " " + co[:1500])
+                    or (x.get("ct_bypass") and HARD_TOPIC_RE.search(ti + " " + co[:1500])))
 
     _n0 = len(feed)
     feed = [x for x in feed if on_topic(x)]
@@ -1183,15 +1188,21 @@ def main():
                     # 行业硬稿（稀土/矿产/防务/油价）标题与短摘要常不直接出现 China，须放行到深抓、
                     # 看全文再判涉华（深抓后第1090行复检仍会把关）；仍要求 topic 安全化命中。
                     _is_hn_pre = is_hardnews_url(u)
+                    # 旁路：权威硬新闻源，或该源历史涉华命中率≥0.2（diagnose_zero 回写），
+                    # 且条目命中硬主题词（稀土/半导体/出口管制/关税/导弹/军演等）时，
+                    # 不要求标题显式出现涉华词——这类稿件不点名中国但直指供应链，直接丢损失大。
+                    _phr = float(s.get("probe_hit_rate") or 0)
+                    _ht = bool(HARD_TOPIC_RE.search(blob))
+                    _byp = bool(_is_hn_pre or (_phr >= 0.2 and _ht))
                     if not is_lead_src and (
-                            not topic.search(blob)
+                            not (topic.search(blob) or (_byp and _ht))
                             or any(b in u.lower() for b in block_global)
-                            or (not _is_hn_pre and not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]))):
+                            or (not _byp and not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]))):
                         rr["rel"] = rr.get("rel", 0) + 1; continue
                     src_name = clean_src_name(ftitle or s.get("name")) or s["host"]
                     src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
                     host_name[s["host"]] = src_name
-                    cand = {"url": u, "source": src_name,
+                    cand = {"ct_bypass": _byp, "url": u, "source": src_name,
                             "lang": lang_of(blob), "cat": s.get("cat", "institute"),
                             "via": "institute", "route": "institute",
                             "lead": s.get("lead"),
