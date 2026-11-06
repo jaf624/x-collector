@@ -42,6 +42,13 @@ socket.setdefaulttimeout(30)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 # 第 4 路：收藏夹公开机构 RSS（智库/政府/国际媒体/NGO/OSINT），美国节点直连不烧 Jina
 INST_SRC = os.path.join(ROOT, "targets", "institute_sources.json")
+try:  # 系统内题材源：classify_config_v2.json（18 类，带权重与优先级）
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import topic_classify as _tc
+    _HAS_TC = True
+except Exception:
+    _HAS_TC = False
+
 HARD_TOPIC_RE = re.compile(
     r"rare earth|稀土|semiconductor|半导体|chip export|export control|出口管制|"
     r"tariff|关税|sanction|制裁|supply chain|供应链|missile|导弹|naval|舰|drill|军演|"
@@ -959,6 +966,8 @@ def main():
             return False
         if not _china_ok(h, ti, co[:800], co[:1500]) and not x.get("ct_bypass"):
             return False
+        if x.get("cat_w") and int(x.get("cat_w") or 0) >= 4:
+            return True
         return bool(topic.search(ti + " " + co[:1500])
                     or (x.get("ct_bypass") and HARD_TOPIC_RE.search(ti + " " + co[:1500])))
 
@@ -1193,18 +1202,38 @@ def main():
                     # 不要求标题显式出现涉华词——这类稿件不点名中国但直指供应链，直接丢损失大。
                     _phr = float(s.get("probe_hit_rate") or 0)
                     _ht = bool(HARD_TOPIC_RE.search(blob))
-                    _byp = bool(_is_hn_pre or (_ht and str(s.get("grade") or "C") in ("A", "B")))
+                    # 题材源：用系统 18 类配置判定（core 命中即成立），比自制正则更贴出稿口径
+                    _cls = []
+                    if _HAS_TC:
+                        try:
+                            _cls = _tc.classify(blob)
+                            _cat = _cls[0] if _cls else None
+                        except Exception:
+                            _cls, _cat = [], None
+                    else:
+                        _cat = None
+                    _cat_id = _cat[0] if _cat else ""
+                    _cat_w = int(_cat[2]) if _cat else 0
+                    _topic_ok = bool(topic.search(blob)) or bool(_cls)
+                    _china_ok2 = _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500])
+                    if _HAS_TC and not _china_ok2 and not _cat_w >= 4:
+                        try:
+                            _china_ok2 = _tc.is_china(blob)
+                        except Exception:
+                            pass
+                    # 高权重题材（台海/制裁/供应链/反华动向等 w>=4）允许"不点名中国"，交深抓复核
+                    _byp = bool(_is_hn_pre or (_cat_w >= 4) or (_ht and str(s.get("grade") or "C") in ("A", "B")))
                     if not is_lead_src:
                         if any(b in u.lower() for b in block_global):
                             rr["rel_block"] = rr.get("rel_block", 0) + 1; continue
-                        if not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]) and not _byp:
+                        if not _china_ok2 and not _byp and str(s.get("grade") or "C") not in ("A", "B"):
                             rr["rel_china"] = rr.get("rel_china", 0) + 1; continue
-                        if not topic.search(blob) and not (_byp and _ht):
+                        if not _topic_ok and not (_byp and _ht):
                             rr["rel_topic"] = rr.get("rel_topic", 0) + 1; continue
                     src_name = clean_src_name(ftitle or s.get("name")) or s["host"]
                     src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
                     host_name[s["host"]] = src_name
-                    cand = {"ct_bypass": _byp, "url": u, "source": src_name,
+                    cand = {"cat_id": _cat_id, "cat_w": _cat_w, "ct_bypass": _byp, "url": u, "source": src_name,
                             "lang": lang_of(blob), "cat": s.get("cat", "institute"),
                             "via": "institute", "route": "institute",
                             "lead": s.get("lead"),
