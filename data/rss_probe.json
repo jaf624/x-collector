@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T09:25:30.099828Z",
+ "probed_at": "2026-11-06T11:31:51.180441Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,15 +7,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's marriage rate in third quarter tumbles to 18-year low - Reuters",
+   "sample": "EXCLUSIVE: China's top flash memory chipmaker targets more homegrown tools for new factory, sources say - Reuters",
    "diag": [
-    {
-     "title": "China's marriage rate in third quarter tumbles to 18-year lo",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDN2Yk93ZE1nTFJad",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDN2Yk93ZE1nTFJadmdpaF82dEdEbElBQ0loR",
-     "resolved": false
-    },
     {
      "title": "EXCLUSIVE: China's top flash memory chipmaker targets more h",
      "date": "2026-11-06",
@@ -28,6 +21,13 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
      "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
+     "resolved": false
+    },
+    {
+     "title": "China's marriage rate in third quarter tumbles to 18-year lo",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDN2Yk93ZE1nTFJad",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDN2Yk93ZE1nTFJadmdpaF82dEdEbElBQ0loR",
      "resolved": false
     },
     {
@@ -121,17 +121,17 @@
      "resolved": false
     },
     {
+     "title": "France 24 - International breaking news, top stories and hea",
+     "date": "2008-07-17",
+     "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0b",
+     "real": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0bFF6ejV2ZnhwVDNWRFRDd",
+     "resolved": false
+    },
+    {
      "title": "Iconic Paris department store BHV Marais granted bankruptcy ",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4d",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4dmpZZEdZcUhRRUFYNVZVY",
-     "resolved": false
-    },
-    {
-     "title": "How student assemblies brought down the Serbian government -",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeDREWF9JTjFwTzI2U",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeDREWF9JTjFwTzI2UTBZMHQza182VUtzZVk3S",
      "resolved": false
     }
    ]
@@ -187,13 +187,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's curbs on tungsten used in drill bits squeeze AI supply chain - Nikkei Asia",
+   "sample": "US extends suspension of export restrictions on Chinese firms - Nikkei Asia",
    "diag": [
     {
-     "title": "China's curbs on tungsten used in drill bits squeeze AI supp",
+     "title": "US extends suspension of export restrictions on Chinese firm",
      "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fV",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fVVhzYlJkWW1oU1VVbVdNR",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YV",
+     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YVDI0UlZydWQtaHZhRUlFW",
      "resolved": false
     },
     {
@@ -201,6 +201,13 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQkV5bnNveUhYNGlSS",
      "real": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQkV5bnNveUhYNGlSSEdQdDJUZFVyQzI5dlNwO",
+     "resolved": false
+    },
+    {
+     "title": "China's curbs on tungsten used in drill bits squeeze AI supp",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fV",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fVVhzYlJkWW1oU1VVbVdNR",
      "resolved": false
     },
     {
@@ -215,13 +222,6 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQ",
      "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQjRjaFFJN2U1ZnNHQjdmM",
-     "resolved": false
-    },
-    {
-     "title": "China says trade barriers block tech imports, fueling its su",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUjB5V2tLQ0ZzaGF4T",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUjB5V2tLQ0ZzaGF4Tjg2X1o0VF9YODZma0pha",
      "resolved": false
     }
    ]
@@ -256,10 +256,10 @@
      "resolved": false
     },
     {
-     "title": "China’s block on SoftBank deal fires the starting gun on the",
+     "title": "The perils of Xi Jinping’s purge - Financial Times",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGxjR2k2WC16UFZ4Z",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGxjR2k2WC16UFZ4ZGJxR3NlS2lWNXltTWxZV",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxMUcwYzlvUlRyR3J2bHRIW",
      "resolved": false
     },
     {
@@ -294,17 +294,17 @@
      "resolved": false
     },
     {
-     "title": "Kimberly-Clark Backs Full-Year Growth Forecast Despite China",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1ktbXIxT2s2ZjZJL",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1ktbXIxT2s2ZjZJLWtEdGt2REZBTWZvTFQxc",
-     "resolved": false
-    },
-    {
      "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
      "date": "2026-11-01",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
+     "resolved": false
+    },
+    {
+     "title": "Kimberly-Clark Backs Full-Year Growth Forecast Despite China",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1ktbXIxT2s2ZjZJL",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1ktbXIxT2s2ZjZJLWtEdGt2REZBTWZvTFQxc",
      "resolved": false
     },
     {
@@ -391,17 +391,17 @@
      "resolved": false
     },
     {
-     "title": "With an eye on America, China is beefing up its AI-controlle",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d3U5TThrTVVZLXN2MXhOS",
-     "resolved": false
-    },
-    {
      "title": "Chinese tech helps repressive African governments crush diss",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdle",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdleHVDQ3gwZF9LOEJfTVNrb",
+     "resolved": false
+    },
+    {
+     "title": "With an eye on America, China is beefing up its AI-controlle",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d3U5TThrTVVZLXN2MXhOS",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[澳門國安首案宣判：區錦新囚12年半，妻子斥「莫須有迫害」]]>"
+   "sample": "<![CDATA[美國中期選舉：共和黨失去兩院，對華政策與對台軍售會轉向嗎？]]>"
   },
   {
    "name": "美国国务院",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Popular military air show permanently pulled from RAF Fairford after suspected terror threat"
+   "sample": "How a French frigate’s radical bow design makes for smooth sailing"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "China’s Carbon Emissions Plunge 3.1% as Oil Demand Slumps"
+   "sample": "India’s HPCL Struggles to Secure Oil Tankers as Hormuz Risks Persist"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Trump calls midterms 'crooked', demands Alaska votes go to Republican candidate"
+   "sample": "Midterms over, Democrats eye wide-open 2028 White House race"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Republicans have a ticking clock. What can they get done on defense?"
+   "sample": "Europe nears decision on competing hypersonic interceptor programs"
   },
   {
    "name": "MiningWeekly",
