@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T22:27:20.726040Z",
+ "probed_at": "2026-11-06T22:56:46.777390Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -114,6 +114,13 @@
      "resolved": false
     },
     {
+     "title": "'Period of uncertainty: Trump is tormented, he's unstoppable",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZHR1M2RCbE9TcmN2N",
+     "real": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZHR1M2RCbE9TcmN2NjJnSURnRVl4d0ZKZmF0T",
+     "resolved": false
+    },
+    {
      "title": "Iconic Paris department store BHV Marais granted bankruptcy ",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMjEtRjRsNTNuT2d4d",
@@ -125,13 +132,6 @@
      "date": "2026-10-27",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeDREWF9JTjFwTzI2U",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeDREWF9JTjFwTzI2UTBZMHQza182VUtzZVk3S",
-     "resolved": false
-    },
-    {
-     "title": "Tête à tête - US midterms mark 'the beginning of the end' fo",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbGlyMUQ5c01EYk5zR",
-     "real": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbGlyMUQ5c01EYk5zR1N6cXFMMFl1QmpoZlZXR",
      "resolved": false
     }
    ]
@@ -410,10 +410,17 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 57,
+   "items": 60,
    "is_feed": true,
-   "sample": "Lula's election win dashes US hopes of quick access to Brazil's rare earths - Reuters",
+   "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
    "diag": [
+    {
+     "title": "US urges China to meet rare earths, agriculture commitments ",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
+     "resolved": false
+    },
     {
      "title": "Lula's election win dashes US hopes of quick access to Brazi",
      "date": "2026-11-05",
@@ -440,13 +447,6 @@
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
      "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
-     "resolved": false
-    },
-    {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
      "resolved": false
     }
    ]
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Regis Resources reports fatal accident at Duketon South gold operation in Western Australia "
+   "sample": "Canadian Uranium eyes acquisitions as Rook II exploration takes shape "
   },
   {
    "name": "OilPrice",
