@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T21:29:30.142427Z",
+ "probed_at": "2026-11-06T22:27:20.726040Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "How China’s clean-tech machine is reshaping the global climate fight - Reuters",
+   "sample": "China in contact with Real Madrid, LaLiga over Mbappe's Mao comments - Reuters",
    "diag": [
+    {
+     "title": "China in contact with Real Madrid, LaLiga over Mbappe's Mao ",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVIS",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVISFBtS2FMQ0FMRzFCeUJZZ",
+     "resolved": false
+    },
     {
      "title": "How China’s clean-tech machine is reshaping the global clima",
      "date": "2026-11-06",
@@ -35,13 +42,6 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDN2Yk93ZE1nTFJad",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDN2Yk93ZE1nTFJadmdpaF82dEdEbElBQ0loR",
-     "resolved": false
-    },
-    {
-     "title": "Taipei mayor election is a victory for democracy over China ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
      "resolved": false
     }
    ]
@@ -159,13 +159,6 @@
      "resolved": false
     },
     {
-     "title": "Trump’s Latest Swing at Cuba Puts French, Chinese Firms in C",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUxOd3hQaXpDek9XX",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUxOd3hQaXpDek9XX1BuQ0dYbXowS0J4WUhSN",
-     "resolved": false
-    },
-    {
      "title": "China’s Extraordinary Path to Power - Bloomberg.com",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm1pUHAwbmlnTjA3e",
@@ -177,6 +170,13 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduR",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduRU5Xa0ZnRXhfZXRkVXpCS",
+     "resolved": false
+    },
+    {
+     "title": "Trump’s Latest Swing at Cuba Puts French, Chinese Firms in C",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUxOd3hQaXpDek9XX",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUxOd3hQaXpDek9XX1BuQ0dYbXowS0J4WUhSN",
      "resolved": false
     }
    ]
@@ -295,7 +295,7 @@
     },
     {
      "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
-     "date": "2026-11-06",
+     "date": "2026-11-01",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
      "resolved": false
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "The Morning Risk Report: The Little-Known Chinese Bank in th",
+     "title": "Volvo Car Sales Drop on Continued China, U.S. Weakness - WSJ",
      "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR",
-     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR3d1QzBRU3k5TUstYzlGb",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeThxc2FES2hIbDZMM25YZVlNWFZnOUI1eUtsV",
      "resolved": false
     }
    ]
@@ -322,8 +322,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "A Trump-Putin-Xi Summit? That Might Be Awkward for One of Them. - The New York Times",
+   "sample": "China’s Top Spy Agency Recruited Woman Who Targeted Jensen Huang - The New York Times",
    "diag": [
+    {
+     "title": "China’s Top Spy Agency Recruited Woman Who Targeted Jensen H",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlRKTG9WNHBINWg3V",
+     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlRKTG9WNHBINWg3VkxadkZGV0dCbHZPWUpFc",
+     "resolved": false
+    },
     {
      "title": "A Trump-Putin-Xi Summit? That Might Be Awkward for One of Th",
      "date": "2026-11-06",
@@ -350,13 +357,6 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVE0YTFsVlR6ZHViN",
      "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVE0YTFsVlR6ZHViNFNYZzc2VnhtZ3JWOTlmS",
-     "resolved": false
-    },
-    {
-     "title": "Could a Viral Video Save Her Mom’s Chinese Restaurant? - The",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExlcGFVWTZ1NS1vN",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExlcGFVWTZ1NS1vN29yeDR3ZERoRlp1b1dsY",
      "resolved": false
     }
    ]
@@ -398,10 +398,10 @@
      "resolved": false
     },
     {
-     "title": "With an eye on America, China is beefing up its AI-controlle",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d3U5TThrTVVZLXN2MXhOS",
+     "title": "Wanted: a news researcher in Beijing - The Economist",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKT",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKTTFRV1I5aTRDWWZaZWZ5O",
      "resolved": false
     }
    ]
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "III MEF Extends Curfew for Junior Members in Okinawa Following Murder Indictment"
+   "sample": "The Future of French Fleet Close-in Defense"
   },
   {
    "name": "DefenseNews",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Pope Leo arrives in Uruguay for first stop on 12-day South America tour"
+   "sample": "Kenyan cult leader sentenced to 200 years in prison"
   },
   {
    "name": "JapanTimes",
