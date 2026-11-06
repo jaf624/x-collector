@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-05T23:39:48.873104Z",
+ "probed_at": "2026-11-06T02:29:25.894085Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -31,17 +31,17 @@
      "resolved": false
     },
     {
-     "title": "India flags Chinese-linked AI tools in hacking campaign agai",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEW",
-     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEWDZTU0JvTXZCSldfNVROU",
-     "resolved": false
-    },
-    {
      "title": "China says US farm purchases hinge on tariff-cut deal - Reut",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjZCZGJiUVFJRkdBe",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjZCZGJiUVFJRkdBeU1DaTExb3FMSmdaLVRuL",
+     "resolved": false
+    },
+    {
+     "title": "India flags Chinese-linked AI tools in hacking campaign agai",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEW",
+     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEWDZTU0JvTXZCSldfNVROU",
      "resolved": false
     }
    ]
@@ -59,6 +59,13 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyY",
      "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyYjZxbTdLQ1paeGxJOHROa",
+     "resolved": false
+    },
+    {
+     "title": "US escalates economic campaign against Cuba and targets Chin",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
      "resolved": false
     },
     {
@@ -80,13 +87,6 @@
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQa",
      "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVDNlWlQtOWtfcVlQajdJVUo1YW5ONVdJNUUxN",
-     "resolved": false
-    },
-    {
-     "title": "US escalates economic campaign against Cuba and targets Chin",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
      "resolved": false
     }
    ]
@@ -146,23 +146,9 @@
    "diag": [
     {
      "title": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says",
-     "date": "2026-11-05",
+     "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4a",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4aDRBUnp5cjJYVlhLTmhrY",
-     "resolved": false
-    },
-    {
-     "title": "Binance Hack Funds Flow to Chinese Launderers, Chainalysis S",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVktFZjZWQ3R6bTBBZ",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVktFZjZWQ3R6bTBBZkxjc19VbmNUdXNSNGQ2S",
-     "resolved": false
-    },
-    {
-     "title": "Hong Kong Stocks Roar Back as Value Rotation Boosts China Te",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaDdjYlRJdXR5ZF96a",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaDdjYlRJdXR5ZF96alAtRG1fVk9ROW9xYzlqd",
      "resolved": false
     },
     {
@@ -177,6 +163,20 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzN",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVW9jSTEyNEUzdGFzNXppcElseDVIRE5hN0t5c",
+     "resolved": false
+    },
+    {
+     "title": "Binance Hack Funds Flow to Chinese Launderers, Chainalysis S",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVktFZjZWQ3R6bTBBZ",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVktFZjZWQ3R6bTBBZkxjc19VbmNUdXNSNGQ2S",
+     "resolved": false
+    },
+    {
+     "title": "Hong Kong Stocks Roar Back as Value Rotation Boosts China Te",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaDdjYlRJdXR5ZF96a",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaDdjYlRJdXR5ZF96alAtRG1fVk9ROW9xYzlqd",
      "resolved": false
     }
    ]
@@ -197,17 +197,17 @@
      "resolved": false
     },
     {
-     "title": "China blocks SoftBank's $5.4bn deal for ABB robotics divisio",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2hCWHhTMDZDQllhZ",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2hCWHhTMDZDQllhZ244Z1ZabmhyT01IT1BJS",
-     "resolved": false
-    },
-    {
      "title": "Toyota ready to 'regain market share' in China on expanded l",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQ",
      "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQjRjaFFJN2U1ZnNHQjdmM",
+     "resolved": false
+    },
+    {
+     "title": "China blocks SoftBank's $5.4bn deal for ABB robotics divisio",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2hCWHhTMDZDQllhZ",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2hCWHhTMDZDQllhZ244Z1ZabmhyT01IT1BJS",
      "resolved": false
     },
     {
@@ -232,8 +232,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China blocks SoftBank’s $5.4bn takeover of ABB’s robotics division - Financial Times",
+   "sample": "US lawmakers summon Jensen Huang over Chinese spying concerns - Financial Times",
    "diag": [
+    {
+     "title": "US lawmakers summon Jensen Huang over Chinese spying concern",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU1ZOUVdrenJmUF9yeThze",
+     "resolved": false
+    },
+    {
+     "title": "China’s tech megacity cleans up seedy underbelly for Apec su",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWdORGQxV05mTDRZZ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWdORGQxV05mTDRZZkpvelJwcEFjQXdmU0Rwd",
+     "resolved": false
+    },
     {
      "title": "China blocks SoftBank’s $5.4bn takeover of ABB’s robotics di",
      "date": "2026-11-05",
@@ -249,24 +263,10 @@
      "resolved": false
     },
     {
-     "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure - F",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc01NOC0ycndQcXU1a0dzWEZhMkl2TmdSLXAyc",
-     "resolved": false
-    },
-    {
      "title": "China’s critical minerals dominance leaves UK ‘dangerously e",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTg5RV9FbFE1MXhsQ",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZTg5RV9FbFE1MXhsQjZkNWRBamVfMDdpOFo2X",
-     "resolved": false
-    },
-    {
-     "title": "Chinese and Russian AI cyber attacks will be routine by 2028",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRM",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lpUVNCSFh2d3RRMzZsWktaTndnSjBBMDBxZ",
      "resolved": false
     }
    ]
@@ -301,17 +301,17 @@
      "resolved": false
     },
     {
-     "title": "The Morning Risk Report: The Little-Known Chinese Bank in th",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR",
-     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR3d1QzBRU3k5TUstYzlGb",
-     "resolved": false
-    },
-    {
      "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
      "date": "2026-11-01",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
+     "resolved": false
+    },
+    {
+     "title": "The Morning Risk Report: The Little-Known Chinese Bank in th",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR",
+     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVtSmY0N2J1NlpIR3d1QzBRU3k5TUstYzlGb",
      "resolved": false
     }
    ]
@@ -384,17 +384,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese tech helps repressive African governments crush diss",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdle",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdleHVDQ3gwZF9LOEJfTVNrb",
-     "resolved": false
-    },
-    {
      "title": "With an eye on America, China is beefing up its AI-controlle",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d3U5TThrTVVZLXN2MXhOS",
+     "resolved": false
+    },
+    {
+     "title": "Chinese tech helps repressive African governments crush diss",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdle",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdleHVDQ3gwZF9LOEJfTVNrb",
      "resolved": false
     },
     {
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[黃之鋒勾結罪國安案：重判10年，料出獄已屆40歲]]>"
+   "sample": "<![CDATA[從蔡康永、《VIVANT》到姆巴佩：北京為何區別處理「辱華」事件？]]>"
   },
   {
    "name": "美国国务院",
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "NATO Defense College Visit"
+   "sample": "Air Force, Secret Service Strengthen Counter-Drone Readiness"
   },
   {
    "name": "商务部新闻",
@@ -573,10 +573,10 @@
   {
    "name": "Mining",
    "url": "https://www.mining.com/feed/",
-   "status": -1,
-   "items": 0,
-   "is_feed": false,
-   "err": "The read operation timed out"
+   "status": 200,
+   "items": 36,
+   "is_feed": true,
+   "sample": "New gold discovery boosts Perpetua’s Stibnite project "
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Asia Hopes U.S. Midterm Results Will Ease Energy Crisis"
+   "sample": "America’s Rare Earth Reckoning Is Less Than 60 Days Away"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Three in four displaced people live in climate danger zones, UN says"
+   "sample": "Marco Rubio denies plans to resign as 2028 speculation grows"
   },
   {
    "name": "JapanTimes",
