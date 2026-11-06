@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-06T18:28:08.059431Z",
+ "probed_at": "2026-11-06T20:36:50.741199Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China, Gabon elevate ties, pledge deeper mining, security cooperation - Reuters",
+   "sample": "How China’s clean-tech machine is reshaping the global climate fight - Reuters",
    "diag": [
     {
-     "title": "China, Gabon elevate ties, pledge deeper mining, security co",
+     "title": "How China’s clean-tech machine is reshaping the global clima",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY2FjTkkyemRQSHlzU",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY2FjTkkyemRQSHlzUzlMSElVSnJpc0VNVGVPU",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcW5OdXN0MThlNzdCa",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcW5OdXN0MThlNzdCajFHc3BleURuNGlNUGk3b",
      "resolved": false
     },
     {
@@ -24,17 +24,17 @@
      "resolved": false
     },
     {
-     "title": "How China’s clean-tech machine is reshaping the global clima",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcW5OdXN0MThlNzdCa",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcW5OdXN0MThlNzdCajFHc3BleURuNGlNUGk3b",
-     "resolved": false
-    },
-    {
      "title": "EXCLUSIVE: China's top flash memory chipmaker targets more h",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q0RiSzR3MzVBTnhnQUJOM",
+     "resolved": false
+    },
+    {
+     "title": "China's marriage rate in third quarter tumbles to 18-year lo",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDN2Yk93ZE1nTFJad",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDN2Yk93ZE1nTFJadmdpaF82dEdEbElBQ0loR",
      "resolved": false
     },
     {
@@ -142,8 +142,29 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Quants Swing to Losses for Year After October Tech Selloff - Bloomberg.com",
+   "sample": "Bessent, Greer Raise Concerns on China Trade Deal Actions - Bloomberg.com",
    "diag": [
+    {
+     "title": "Bessent, Greer Raise Concerns on China Trade Deal Actions - ",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUThIM0tOMDlPV2h4T",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUThIM0tOMDlPV2h4TURPZHZyVlJjUGRLWlZOV",
+     "resolved": false
+    },
+    {
+     "title": "The US Thought It Could Change China. Instead, China Changed",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1R",
+     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1RGluRWtaU0ozRUE3X1FxT",
+     "resolved": false
+    },
+    {
+     "title": "China’s Extraordinary Path to Power - Bloomberg.com",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm1pUHAwbmlnTjA3e",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm1pUHAwbmlnTjA3eFloWVhGRGtVYjFhdmJKS",
+     "resolved": false
+    },
     {
      "title": "China Quants Swing to Losses for Year After October Tech Sel",
      "date": "2026-11-06",
@@ -156,27 +177,6 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGZ4NFVYSllGdXQxU",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGZ4NFVYSllGdXQxUWhaT2g5VEpYSkUydFF4Z",
-     "resolved": false
-    },
-    {
-     "title": "China’s AI-Propelled Growth May Take a Blue Wave Hit, BE Say",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ04xWGttUUN2cjlFb",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ04xWGttUUN2cjlFbUVVZkIwYW9XS0I1M3ZMW",
-     "resolved": false
-    },
-    {
-     "title": "The US Thought It Could Change China. Instead, China Changed",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1R",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1RGluRWtaU0ozRUE3X1FxT",
-     "resolved": false
-    },
-    {
-     "title": "China to Cut Diesel Exports on Tight Stocks, Energy Aspects ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdkxjc2VBQi0yTGF0O",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdkxjc2VBQi0yTGF0OUdORXRrRE1Rd3U3cjB2M",
      "resolved": false
     }
    ]
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
-     "title": "China blocks SoftBank’s $5.4bn takeover of ABB’s robotics di",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONjg5YjFhVEN1YzBOd",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONjg5YjFhVEN1YzBOd3pXaUdhdnlVTWtyT29yW",
-     "resolved": false
-    },
-    {
      "title": "The perils of Xi Jinping’s purge - Financial Times",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxM",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxMUcwYzlvUlRyR3J2bHRIW",
+     "resolved": false
+    },
+    {
+     "title": "China blocks SoftBank’s $5.4bn takeover of ABB’s robotics di",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONjg5YjFhVEN1YzBOd",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONjg5YjFhVEN1YzBOd3pXaUdhdnlVTWtyT29yW",
      "resolved": false
     }
    ]
@@ -277,10 +277,10 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "‘The Last Emperor of China’ Review: Puyi’s Paradise Lost - WSJ",
+   "sample": "‘The Last Emperor of China’ Review: Puyi’s Fall From Heaven - WSJ",
    "diag": [
     {
-     "title": "‘The Last Emperor of China’ Review: Puyi’s Paradise Lost - W",
+     "title": "‘The Last Emperor of China’ Review: Puyi’s Fall From Heaven ",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c",
      "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c3NHUWFsYUt3R2k3ZFB1W",
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
+     "title": "House G.O.P. Leaders Ask Nvidia’s Huang to Speak in Closed-D",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVE0YTFsVlR6ZHViN",
+     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVE0YTFsVlR6ZHViNFNYZzc2VnhtZ3JWOTlmS",
+     "resolved": false
+    },
+    {
      "title": "Could a Viral Video Save Her Mom’s Chinese Restaurant? - The",
      "date": "2026-11-04",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExlcGFVWTZ1NS1vN",
      "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExlcGFVWTZ1NS1vN29yeDR3ZERoRlp1b1dsY",
-     "resolved": false
-    },
-    {
-     "title": "How One Country Became the Unlikely Crossroads of the Global",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ",
-     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbFo1T3JiWVZZTzRUQ2NlWlBld2lpTEgyTzF4R",
      "resolved": false
     }
    ]
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "Theodore Roosevelt Carrier Strike Group Pulls Into Singapore"
+   "sample": "III MEF Extends Curfew for Junior Members in Okinawa Following Murder Indictment"
   },
   {
    "name": "DefenseNews",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Russia using own version of Starlink for military comms over Ukraine, Kyiv says"
+   "sample": "US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "U.S. Oil, Gas Drillers See Minor Uptick as Oil Prices Crash"
+   "sample": "Oil Traders Want U.S. to Release Sanctioned Tankers as Freight Costs Soar"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "US midterms mark 'the beginning of the end' for Trump, John Bolton says"
+   "sample": "What Trump’s midterms debacle could mean for US support for Ukraine"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Europe&#8217;s airpower future is taking shape, but not as originally planned"
+   "sample": "Missed AUSA 2026? Get the Ground Truth from Breaking Defense’s free eBook"
   },
   {
    "name": "MiningWeekly",
