@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-07T20:31:39.500735Z",
+ "probed_at": "2026-11-07T23:24:19.539311Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -31,17 +31,17 @@
      "resolved": false
     },
     {
+     "title": "China adopts law on Antarctic activities and environmental p",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmdCNGZTUl85MS1Td",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmdCNGZTUl85MS1TdFg1VDVJSG5UNUNmX3BUZ",
+     "resolved": false
+    },
+    {
      "title": "China's yuan dilemma: too weak abroad and too strong at home",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdnd",
      "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdndG40UGVsSEh6cVBmcFZBS",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: China's top flash memory chipmaker targets more h",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q0RiSzR3MzVBTnhnQUJOM",
      "resolved": false
     }
    ]
@@ -242,17 +242,17 @@
      "resolved": false
     },
     {
-     "title": "US warns China it must ‘immediately’ meet terms of Busan tra",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT180NmxHZ0JocXpNaEpYQ",
-     "resolved": false
-    },
-    {
      "title": "‘It’s almost like a nightclub’: Hyrox takes off in China ami",
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROd",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROdm1ybFJERzk3NTkzWFU1e",
+     "resolved": false
+    },
+    {
+     "title": "US warns China it must ‘immediately’ meet terms of Busan tra",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT180NmxHZ0JocXpNaEpYQ",
      "resolved": false
     },
     {
@@ -333,7 +333,7 @@
     },
     {
      "title": "China’s Top Spy Agency Recruited Woman Who Targeted Jensen H",
-     "date": "2026-11-07",
+     "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlRKTG9WNHBINWg3V",
      "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlRKTG9WNHBINWg3VkxadkZGV0dCbHZPWUpFc",
      "resolved": false
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
-     "title": "China’s Message to Its Rivals: You Need What We Make - The N",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
-     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
-     "resolved": false
-    },
-    {
      "title": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
      "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
+     "resolved": false
+    },
+    {
+     "title": "China’s Message to Its Rivals: You Need What We Make - The N",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
+     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 60,
+   "items": 58,
    "is_feed": true,
    "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
    "diag": [
@@ -429,13 +429,6 @@
      "resolved": false
     },
     {
-     "title": "US strategy links Myanmar peace talks to rare-earth access -",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQektPMXRENjNVbGZYb",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQektPMXRENjNVbGZYbW9uOE5TdHFnWkxqTWh0b",
-     "resolved": false
-    },
-    {
      "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
      "date": "2026-10-22",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
@@ -447,6 +440,13 @@
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
      "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
+     "resolved": false
+    },
+    {
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Egypt Eyes Billions in New Investment to Revive Oil and Gas Production"
+   "sample": "The U.S. Has $50 Billion for Nuclear Waste and Nowhere to Put It"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "France Unbowed’s Mélenchon unveils ‘A Shared Future’ manifesto ahead of 2027 presidential race"
+   "sample": "'A violent fighter and warrior': Trump offers press secretary role to UFC chief Dana White"
   },
   {
    "name": "JapanTimes",
