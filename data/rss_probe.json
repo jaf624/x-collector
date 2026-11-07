@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-07T10:19:06.269729Z",
+ "probed_at": "2026-11-07T15:09:21.380166Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Pakistani astronaut to join China space station's Shenzhou-24 mission - Reuters",
+   "sample": "SoftBank, ABB explore China carve-out to salvage robotics deal, Bloomberg News reports - Reuters",
    "diag": [
+    {
+     "title": "SoftBank, ABB explore China carve-out to salvage robotics de",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLT",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLTG85N2NjSlNJTmgwUlVFS",
+     "resolved": false
+    },
     {
      "title": "Pakistani astronaut to join China space station's Shenzhou-2",
      "date": "2026-11-07",
@@ -17,10 +24,10 @@
      "resolved": false
     },
     {
-     "title": "GE Aerospace says it signs record $12.9 billion deals at Chi",
+     "title": "Taipei mayor election is a victory for democracy over China ",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllMM1FiXzA2aGxRd",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllMM1FiXzA2aGxRdlFGeElIa0FsWS0xLXdMS",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
      "resolved": false
     },
     {
@@ -35,13 +42,6 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
      "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: China's top flash memory chipmaker targets more h",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q0RiSzR3MzVBTnhnQUJOM",
      "resolved": false
     }
    ]
@@ -114,6 +114,13 @@
      "resolved": false
     },
     {
+     "title": "Down to Earth - Scientists begin tests on human composting, ",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3c",
+     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3cmZYRUpiNkdZR1QwRUJLZ",
+     "resolved": false
+    },
+    {
      "title": "Trump says deal with Tehran 'could happen' amid 'intensive' ",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFS",
@@ -126,13 +133,6 @@
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZHR1M2RCbE9TcmN2N",
      "real": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZHR1M2RCbE9TcmN2NjJnSURnRVl4d0ZKZmF0T",
      "resolved": false
-    },
-    {
-     "title": "Tête à tête - US midterms mark 'the beginning of the end' fo",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbGlyMUQ5c01EYk5zR",
-     "real": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbGlyMUQ5c01EYk5zR1N6cXFMMFl1QmpoZlZXR",
-     "resolved": false
     }
    ]
   },
@@ -142,8 +142,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+   "sample": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crunch - Bloomberg.com",
    "diag": [
+    {
+     "title": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crun",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGFVdnpkOHNnMWs5b",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGFVdnpkOHNnMWs5bUtCdmVpbzdwX3REMFZfa",
+     "resolved": false
+    },
+    {
+     "title": "US Believes Woman Close to Nvidia CEO Was a China Spy, NYT S",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva0o2QkpXMGZySHJkZzNtN",
+     "resolved": false
+    },
     {
      "title": "China Extends Gold-Buying Streak to Two Years as Prices Drop",
      "date": "2026-11-07",
@@ -159,24 +173,10 @@
      "resolved": false
     },
     {
-     "title": "US Believes Woman Close to Nvidia CEO Was a China Spy, NYT S",
+     "title": "China’s NDRC Flags Weak Demand as Challenge for Nation’s Eco",
      "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva0o2QkpXMGZySHJkZzNtN",
-     "resolved": false
-    },
-    {
-     "title": "Xi Taps Military ‘Hatchet Man’ to Rebuild China’s Army Comma",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHM1M0E1ZGNQWnlBd",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHM1M0E1ZGNQWnlBdEJ0Z2pEN2R6aDNxQmdjc",
-     "resolved": false
-    },
-    {
-     "title": "China Quants Swing to Losses for Year After October Tech Sel",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduR",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduRU5Xa0ZnRXhfZXRkVXpCS",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQazZrSXp5OW54TDNYa",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQazZrSXp5OW54TDNYaF9CWXNHMXVLb2FYTmRUe",
      "resolved": false
     }
    ]
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US extends suspension of export restrictions on Chinese firms - Nikkei Asia",
+   "sample": "China enacts law to hunt down corrupt officials who escape overseas - Nikkei Asia",
    "diag": [
+    {
+     "title": "China enacts law to hunt down corrupt officials who escape o",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeDA3OWs5eW42bXhEU",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeDA3OWs5eW42bXhEUlFCOEJGaGlpUzZLdjE0b",
+     "resolved": false
+    },
     {
      "title": "US extends suspension of export restrictions on Chinese firm",
      "date": "2026-11-05",
@@ -204,24 +211,17 @@
      "resolved": false
     },
     {
+     "title": "Japanese companies caught in crossfire of Beijing-Tokyo rift",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzctWFhrbW1xZUdDa",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzctWFhrbW1xZUdDaU5tS2s5bkJwQjQyV1RrM",
+     "resolved": false
+    },
+    {
      "title": "China-Japan row over Takaichi's Taiwan comment enters 2nd ye",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQkV5bnNveUhYNGlSS",
      "real": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQkV5bnNveUhYNGlSSEdQdDJUZFVyQzI5dlNwO",
-     "resolved": false
-    },
-    {
-     "title": "Toyota ready to 'regain market share' in China on expanded l",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQ",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVVZd181bnpRM2prQjRjaFFJN2U1ZnNHQjdmM",
-     "resolved": false
-    },
-    {
-     "title": "China says trade barriers block tech imports, fueling its su",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUjB5V2tLQ0ZzaGF4T",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUjB5V2tLQ0ZzaGF4Tjg2X1o0VF9YODZma0pha",
      "resolved": false
     }
    ]
@@ -242,17 +242,17 @@
      "resolved": false
     },
     {
-     "title": "‘It’s almost like a nightclub’: Hyrox takes off in China ami",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROd",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROdm1ybFJERzk3NTkzWFU1e",
-     "resolved": false
-    },
-    {
      "title": "US warns China it must ‘immediately’ meet terms of Busan tra",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT180NmxHZ0JocXpNaEpYQ",
+     "resolved": false
+    },
+    {
+     "title": "‘It’s almost like a nightclub’: Hyrox takes off in China ami",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROd",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROdm1ybFJERzk3NTkzWFU1e",
      "resolved": false
     },
     {
@@ -263,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "The perils of Xi Jinping’s purge - Financial Times",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxM",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxMUcwYzlvUlRyR3J2bHRIW",
+     "title": "Renault readies for ‘golden moment’ for EVs in UK despite Ch",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS1M4dE05VnNsMUF1Z",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS1M4dE05VnNsMUF1ZDJBS216NVB2cHdsZ0pEe",
      "resolved": false
     }
    ]
@@ -322,11 +322,18 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Top Spy Agency Recruited Woman Who Targeted Jensen Huang - The New York Times",
+   "sample": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties - The New York Times",
    "diag": [
     {
+     "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Office",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTO",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3O",
+     "resolved": false
+    },
+    {
      "title": "China’s Top Spy Agency Recruited Woman Who Targeted Jensen H",
-     "date": "2026-11-06",
+     "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlRKTG9WNHBINWg3V",
      "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlRKTG9WNHBINWg3VkxadkZGV0dCbHZPWUpFc",
      "resolved": false
@@ -343,13 +350,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
      "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
-     "resolved": false
-    },
-    {
-     "title": "China Blocks SoftBank’s $5.4 Billion Robotics Takeover, Impe",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmlCanlYdUl5YWZwS",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmlCanlYdUl5YWZwSTdBM1V2NXJnUFlVTnlPN",
      "resolved": false
     },
     {
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 58,
    "is_feed": true,
    "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
    "diag": [
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot"
+   "sample": "European troops set to train in Poland for postwar Ukraine deployment"
   },
   {
    "name": "Mining",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Pope urges healthcare for all in Uruguay"
+   "sample": "Pope Leo calls on Uruguay's Catholics to be 'bridge builders'"
   },
   {
    "name": "JapanTimes",
