@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-07T19:45:46.211581Z",
+ "probed_at": "2026-11-07T20:31:39.500735Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,41 +7,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "In China, the AI bubble has already burst - Reuters",
+   "sample": "SoftBank, ABB explore China carve-out to salvage robotics deal, Bloomberg News reports - Reuters",
    "diag": [
     {
-     "title": "In China, the AI bubble has already burst - Reuters",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkW",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkWmMyZDZqTHlsckJwbEsxW",
+     "title": "SoftBank, ABB explore China carve-out to salvage robotics de",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLT",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLTG85N2NjSlNJTmgwUlVFS",
      "resolved": false
     },
     {
-     "title": "Welcome to the new ‘Made in China’ - Reuters",
-     "date": "2026-10-28",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jWXRwMFJHeWNSdnlCL",
-     "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jWXRwMFJHeWNSdnlCLUVvNXNmTWV1bHRkS1Y4Y",
+     "title": "Pakistani astronaut to join China space station's Shenzhou-2",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJO",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJOUttWWpFbUxsX3pFN3ItS",
      "resolved": false
     },
     {
-     "title": "Major automakers urge US Congress to pass permanent ban on C",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwV",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwVnVwdGZHQkpGcEtJbWVjc",
-     "resolved": false
-    },
-    {
-     "title": "US urges China to meet rare earths, agriculture commitments ",
+     "title": "Taipei mayor election is a victory for democracy over China ",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
      "resolved": false
     },
     {
-     "title": "China's Xi says Middle East should not become battleground f",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xT",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnV",
+     "title": "China's yuan dilemma: too weak abroad and too strong at home",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdnd",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdndG40UGVsSEh6cVBmcFZBS",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: China's top flash memory chipmaker targets more h",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q0RiSzR3MzVBTnhnQUJOM",
      "resolved": false
     }
    ]
@@ -301,17 +301,17 @@
      "resolved": false
     },
     {
-     "title": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Contr",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfW",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfWXBkTjR3U3ZERnVWUGtMV",
-     "resolved": false
-    },
-    {
      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
+     "resolved": false
+    },
+    {
+     "title": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Contr",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfW",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfWXBkTjR3U3ZERnVWUGtMV",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Trump-Backed Trade Corridor Advances Despite Geopolitical Resistance"
+   "sample": "Egypt Eyes Billions in New Investment to Revive Oil and Gas Production"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "🔴 Israeli president picks Netanyahu's rival Eisenkot to try to form government"
+   "sample": "France Unbowed’s Mélenchon unveils ‘A Shared Future’ manifesto ahead of 2027 presidential race"
   },
   {
    "name": "JapanTimes",
