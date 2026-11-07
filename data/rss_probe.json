@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-07T02:02:09.414738Z",
+ "probed_at": "2026-11-07T03:14:17.754923Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China in contact with Real Madrid, LaLiga over Mbappe's Mao comments - Reuters",
+   "sample": "GE Aerospace says it signs record $12.9 billion deals at China expo - Reuters",
    "diag": [
     {
-     "title": "China in contact with Real Madrid, LaLiga over Mbappe's Mao ",
+     "title": "GE Aerospace says it signs record $12.9 billion deals at Chi",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVIS",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVISFBtS2FMQ0FMRzFCeUJZZ",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllMM1FiXzA2aGxRd",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllMM1FiXzA2aGxRdlFGeElIa0FsWS0xLXdMS",
      "resolved": false
     },
     {
@@ -31,17 +31,17 @@
      "resolved": false
     },
     {
-     "title": "China adopts law on Antarctic activities and environmental p",
+     "title": "China in contact with Real Madrid, LaLiga over Mbappe's Mao ",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmdCNGZTUl85MS1Td",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmdCNGZTUl85MS1TdFg1VDVJSG5UNUNmX3BUZ",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVIS",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVISFBtS2FMQ0FMRzFCeUJZZ",
      "resolved": false
     },
     {
-     "title": "GE Aerospace says it signs record $12.9 billion deals at Chi",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllMM1FiXzA2aGxRd",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllMM1FiXzA2aGxRdlFGeElIa0FsWS0xLXdMS",
+     "title": "China's yuan dilemma: too weak abroad and too strong at home",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdnd",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdndG40UGVsSEh6cVBmcFZBS",
      "resolved": false
     }
    ]
@@ -83,10 +83,10 @@
      "resolved": false
     },
     {
-     "title": "China’s factory activity slips as new export orders weaken -",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfV",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjYxcFNzbUhDZ2VfVXowN2ZEM0ppaVNFV2NMT",
+     "title": "China confirms discussions are underway on a historic Xi-Tru",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXNOWUl3UmNKZ0k2Q",
+     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXNOWUl3UmNKZ0k2Q0ZwT2g2NTJqZm9ycXc0Q",
      "resolved": false
     }
    ]
@@ -159,6 +159,13 @@
      "resolved": false
     },
     {
+     "title": "Xi Taps Military ‘Hatchet Man’ to Rebuild China’s Army Comma",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHM1M0E1ZGNQWnlBd",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHM1M0E1ZGNQWnlBdEJ0Z2pEN2R6aDNxQmdjc",
+     "resolved": false
+    },
+    {
      "title": "Trump’s Latest Swing at Cuba Puts French, Chinese Firms in C",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUxOd3hQaXpDek9XX",
@@ -170,13 +177,6 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduR",
      "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdObFdseU4yZmduRU5Xa0ZnRXhfZXRkVXpCS",
-     "resolved": false
-    },
-    {
-     "title": "Electric Vehicles Are Just the Tip of the UK’s Coming China ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTWxtbVRWdjMtTDlDT",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTWxtbVRWdjMtTDlDTVpraE15M0FlRVY0NEFES",
      "resolved": false
     }
    ]
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US warns China it must ‘immediately’ meet terms of Busan trade deal - Financial Times",
+   "sample": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy - Financial Times",
    "diag": [
+    {
+     "title": "US believes Nvidia’s Huang had romantic relationship with al",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25yc",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25ycmZfZ21DWjNEbTlxZ0w5U",
+     "resolved": false
+    },
     {
      "title": "US warns China it must ‘immediately’ meet terms of Busan tra",
      "date": "2026-11-06",
@@ -260,13 +267,6 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxM",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxMUcwYzlvUlRyR3J2bHRIW",
-     "resolved": false
-    },
-    {
-     "title": "China blocks SoftBank’s $5.4bn takeover of ABB’s robotics di",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONjg5YjFhVEN1YzBOd",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONjg5YjFhVEN1YzBOd3pXaUdhdnlVTWtyT29yW",
      "resolved": false
     }
    ]
@@ -295,7 +295,7 @@
     },
     {
      "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
-     "date": "2026-11-01",
+     "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
      "resolved": false
