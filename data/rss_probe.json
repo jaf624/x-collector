@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-07T15:09:21.380166Z",
+ "probed_at": "2026-11-07T16:32:47.317822Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -173,10 +173,10 @@
      "resolved": false
     },
     {
-     "title": "China’s NDRC Flags Weak Demand as Challenge for Nation’s Eco",
+     "title": "SoftBank, ABB Consider China Carve-Out to Salvage Robotics D",
      "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQazZrSXp5OW54TDNYa",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQazZrSXp5OW54TDNYaF9CWXNHMXVLb2FYTmRUe",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTWhOZ29fWXk2aERCZ",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTWhOZ29fWXk2aERCZC1HVmhTY0k3VjFfV1pGZ",
      "resolved": false
     }
    ]
@@ -263,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "Renault readies for ‘golden moment’ for EVs in UK despite Ch",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS1M4dE05VnNsMUF1Z",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS1M4dE05VnNsMUF1ZDJBS216NVB2cHdsZ0pEe",
+     "title": "The perils of Xi Jinping’s purge - Financial Times",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxMUcwYzlvUlRyR3J2bHRIW",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 58,
+   "items": 59,
    "is_feed": true,
    "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
    "diag": [
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Wall Street’s “Energy Transition” Funds Are Packed With Natural Gas"
+   "sample": "America’s Hydrogen Revolution Stalls Amid Funding Cuts and Weak Demand"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Pope Leo calls on Uruguay's Catholics to be 'bridge builders'"
+   "sample": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️"
   },
   {
    "name": "JapanTimes",
