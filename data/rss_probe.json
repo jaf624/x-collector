@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-07T23:24:19.539311Z",
+ "probed_at": "2026-11-07T23:58:11.031502Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,20 +7,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "SoftBank, ABB explore China carve-out to salvage robotics deal, Bloomberg News reports - Reuters",
+   "sample": "Pakistani astronaut to join China space station's Shenzhou-24 mission - Reuters",
    "diag": [
-    {
-     "title": "SoftBank, ABB explore China carve-out to salvage robotics de",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLT",
-     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLTG85N2NjSlNJTmgwUlVFS",
-     "resolved": false
-    },
     {
      "title": "Pakistani astronaut to join China space station's Shenzhou-2",
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJO",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJOUttWWpFbUxsX3pFN3ItS",
+     "resolved": false
+    },
+    {
+     "title": "SoftBank, ABB explore China carve-out to salvage robotics de",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLT",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLTG85N2NjSlNJTmgwUlVFS",
      "resolved": false
     },
     {
@@ -107,13 +107,6 @@
      "resolved": false
     },
     {
-     "title": "Myanmar: Civilians under fire from military junta - France 2",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVJZN3pQLTFLRllYe",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVJZN3pQLTFLRllYeDJQbi1IeHlheFYzZDlRc",
-     "resolved": false
-    },
-    {
      "title": "Down to Earth - Scientists begin tests on human composting, ",
      "date": "2026-11-02",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3c",
@@ -132,6 +125,13 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZHR1M2RCbE9TcmN2N",
      "real": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZHR1M2RCbE9TcmN2NjJnSURnRVl4d0ZKZmF0T",
+     "resolved": false
+    },
+    {
+     "title": "Tête à tête - US midterms mark 'the beginning of the end' fo",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbGlyMUQ5c01EYk5zR",
+     "real": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbGlyMUQ5c01EYk5zR1N6cXFMMFl1QmpoZlZXR",
      "resolved": false
     }
    ]
