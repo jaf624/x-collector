@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-07T08:19:53.395587Z",
+ "probed_at": "2026-11-07T10:19:06.269729Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "GE Aerospace says it signs record $12.9 billion deals at China expo - Reuters",
+   "sample": "Pakistani astronaut to join China space station's Shenzhou-24 mission - Reuters",
    "diag": [
+    {
+     "title": "Pakistani astronaut to join China space station's Shenzhou-2",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJO",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJOUttWWpFbUxsX3pFN3ItS",
+     "resolved": false
+    },
     {
      "title": "GE Aerospace says it signs record $12.9 billion deals at Chi",
      "date": "2026-11-06",
@@ -17,17 +24,10 @@
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: China's top flash memory chipmaker targets more h",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q0RiSzR3MzVBTnhnQUJOM",
-     "resolved": false
-    },
-    {
-     "title": "China in contact with Real Madrid, LaLiga over Mbappe's Mao ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVIS",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbmN1RlU2N0QxanVISFBtS2FMQ0FMRzFCeUJZZ",
+     "title": "China's yuan dilemma: too weak abroad and too strong at home",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdnd",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdndG40UGVsSEh6cVBmcFZBS",
      "resolved": false
     },
     {
@@ -38,10 +38,10 @@
      "resolved": false
     },
     {
-     "title": "China's yuan dilemma: too weak abroad and too strong at home",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdnd",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdndG40UGVsSEh6cVBmcFZBS",
+     "title": "EXCLUSIVE: China's top flash memory chipmaker targets more h",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q0RiSzR3MzVBTnhnQUJOM",
      "resolved": false
     }
    ]
@@ -142,20 +142,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Beijing Vows to Hit Back Against US Sanctions on China Companies - Bloomberg.com",
+   "sample": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
    "diag": [
-    {
-     "title": "Beijing Vows to Hit Back Against US Sanctions on China Compa",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR3FDNDVJS3VUN0RSZ",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR3FDNDVJS3VUN0RSZ0N4MjN3U3BGbHF1c0U3O",
-     "resolved": false
-    },
     {
      "title": "China Extends Gold-Buying Streak to Two Years as Prices Drop",
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVdJdkgwZnBIUEhYS",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVdJdkgwZnBIUEhYS0ZGcUpvYVFmWW5tVlZqV",
+     "resolved": false
+    },
+    {
+     "title": "Beijing Vows to Hit Back Against US Sanctions on China Compa",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR3FDNDVJS3VUN0RSZ",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR3FDNDVJS3VUN0RSZ0N4MjN3U3BGbHF1c0U3O",
      "resolved": false
     },
     {
@@ -263,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "China’s tech megacity cleans up seedy underbelly for Apec su",
+     "title": "The perils of Xi Jinping’s purge - Financial Times",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWdORGQxV05mTDRZZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWdORGQxV05mTDRZZkpvelJwcEFjQXdmU0Rwd",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxMUcwYzlvUlRyR3J2bHRIW",
      "resolved": false
     }
    ]
@@ -353,10 +353,10 @@
      "resolved": false
     },
     {
-     "title": "House G.O.P. Leaders Ask Nvidia’s Huang to Speak in Closed-D",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVE0YTFsVlR6ZHViN",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVE0YTFsVlR6ZHViNFNYZzc2VnhtZ3JWOTlmS",
+     "title": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2Jib",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKT",
      "resolved": false
     }
    ]
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Moscow strikes Kyiv as Ukraine prepares for talks with Russia and the US"
+   "sample": "Pope urges healthcare for all in Uruguay"
   },
   {
    "name": "JapanTimes",
