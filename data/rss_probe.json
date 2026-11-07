@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-07T16:32:47.317822Z",
+ "probed_at": "2026-11-07T19:45:46.211581Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,34 +7,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "SoftBank, ABB explore China carve-out to salvage robotics deal, Bloomberg News reports - Reuters",
+   "sample": "In China, the AI bubble has already burst - Reuters",
    "diag": [
     {
-     "title": "SoftBank, ABB explore China carve-out to salvage robotics de",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLT",
-     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLTG85N2NjSlNJTmgwUlVFS",
+     "title": "In China, the AI bubble has already burst - Reuters",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkW",
+     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkWmMyZDZqTHlsckJwbEsxW",
      "resolved": false
     },
     {
-     "title": "Pakistani astronaut to join China space station's Shenzhou-2",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJO",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJOUttWWpFbUxsX3pFN3ItS",
+     "title": "Welcome to the new ‘Made in China’ - Reuters",
+     "date": "2026-10-28",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jWXRwMFJHeWNSdnlCL",
+     "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jWXRwMFJHeWNSdnlCLUVvNXNmTWV1bHRkS1Y4Y",
      "resolved": false
     },
     {
-     "title": "Taipei mayor election is a victory for democracy over China ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
-     "resolved": false
-    },
-    {
-     "title": "China's yuan dilemma: too weak abroad and too strong at home",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdnd",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdndG40UGVsSEh6cVBmcFZBS",
+     "title": "Major automakers urge US Congress to pass permanent ban on C",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwV",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwVnVwdGZHQkpGcEtJbWVjc",
      "resolved": false
     },
     {
@@ -42,6 +35,13 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
      "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
+     "resolved": false
+    },
+    {
+     "title": "China's Xi says Middle East should not become battleground f",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xT",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnV",
      "resolved": false
     }
    ]
@@ -52,13 +52,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US escalates economic campaign against Cuba and targets China-based suppliers - AP News",
+   "sample": "Mone Chiba's elegant free skate edges quad queen and mom Alexandra Ignatova for Cup of China win - AP News",
    "diag": [
     {
-     "title": "US escalates economic campaign against Cuba and targets Chin",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
+     "title": "Mone Chiba's elegant free skate edges quad queen and mom Ale",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjdIOHFkRmNaU2EzR",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjdIOHFkRmNaU2EzRXRzaVRoMmVmWFZJVmZMS",
      "resolved": false
     },
     {
@@ -66,6 +66,13 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyY",
      "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyYjZxbTdLQ1paeGxJOHROa",
+     "resolved": false
+    },
+    {
+     "title": "US escalates economic campaign against Cuba and targets Chin",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
      "resolved": false
     },
     {
@@ -80,13 +87,6 @@
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXNOWUl3UmNKZ0k2Q",
      "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXNOWUl3UmNKZ0k2Q0ZwT2g2NTJqZm9ycXc0Q",
-     "resolved": false
-    },
-    {
-     "title": "China warns Philippines to be cautious over South China Sea ",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3O",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3OWlENlFwemZHa0paa2tmM",
      "resolved": false
     }
    ]
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China enacts law to hunt down corrupt officials who escape overseas - Nikkei Asia",
+   "sample": "Prep schools help Chinese students get into Japan's top universities - Nikkei Asia",
    "diag": [
+    {
+     "title": "Prep schools help Chinese students get into Japan's top univ",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkVPZjFCQVhHUmNoU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkVPZjFCQVhHUmNoUzBGRlRaUFpuUmJBaW4xO",
+     "resolved": false
+    },
     {
      "title": "China enacts law to hunt down corrupt officials who escape o",
      "date": "2026-11-06",
@@ -204,13 +211,6 @@
      "resolved": false
     },
     {
-     "title": "Asia drives new corporate climate pledges as Chinese firms e",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUEdwZjZtZTB6NVJre",
-     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUEdwZjZtZTB6NVJreTd4WGFlTVRQenNmbzNLS",
-     "resolved": false
-    },
-    {
      "title": "Japanese companies caught in crossfire of Beijing-Tokyo rift",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzctWFhrbW1xZUdDa",
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "China-Japan row over Takaichi's Taiwan comment enters 2nd ye",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQkV5bnNveUhYNGlSS",
-     "real": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQkV5bnNveUhYNGlSSEdQdDJUZFVyQzI5dlNwO",
+     "title": "Asia drives new corporate climate pledges as Chinese firms e",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUEdwZjZtZTB6NVJre",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUEdwZjZtZTB6NVJreTd4WGFlTVRQenNmbzNLS",
      "resolved": false
     }
    ]
@@ -277,8 +277,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "‘The Last Emperor of China’ Review: Puyi’s Fall From Heaven - WSJ",
+   "sample": "China Forex Reserves Edged Up in October - WSJ",
    "diag": [
+    {
+     "title": "China Forex Reserves Edged Up in October - WSJ",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUEU0WkZIaWhfN2ZoR",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUEU0WkZIaWhfN2ZoRjdJUTdIM2p6OVppSUtuV",
+     "resolved": false
+    },
     {
      "title": "‘The Last Emperor of China’ Review: Puyi’s Fall From Heaven ",
      "date": "2026-11-06",
@@ -305,13 +312,6 @@
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
-     "resolved": false
-    },
-    {
-     "title": "Kimberly-Clark Backs Full-Year Growth Forecast Despite China",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1ktbXIxT2s2ZjZJL",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1ktbXIxT2s2ZjZJLWtEdGt2REZBTWZvTFQxc",
      "resolved": false
     }
    ]
@@ -377,6 +377,20 @@
      "resolved": false
     },
     {
+     "title": "With an eye on America, China is beefing up its AI-controlle",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d3U5TThrTVVZLXN2MXhOS",
+     "resolved": false
+    },
+    {
+     "title": "Wanted: a news researcher in Beijing - The Economist",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKT",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKTTFRV1I5aTRDWWZaZWZ5O",
+     "resolved": false
+    },
+    {
      "title": "Indebted tycoons haunt China’s banking system - The Economis",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZml3QzR3eS1hNFl6d",
@@ -389,20 +403,6 @@
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdle",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdleHVDQ3gwZF9LOEJfTVNrb",
      "resolved": false
-    },
-    {
-     "title": "With an eye on America, China is beefing up its AI-controlle",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d3U5TThrTVVZLXN2MXhOS",
-     "resolved": false
-    },
-    {
-     "title": "China’s AI stock-market struggles are a warning - The Econom",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM0syTWN4M010ZjVBWXJrV",
-     "resolved": false
     }
    ]
   },
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 60,
    "is_feed": true,
    "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
    "diag": [
@@ -429,6 +429,13 @@
      "resolved": false
     },
     {
+     "title": "US strategy links Myanmar peace talks to rare-earth access -",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQektPMXRENjNVbGZYb",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQektPMXRENjNVbGZYbW9uOE5TdHFnWkxqTWh0b",
+     "resolved": false
+    },
+    {
      "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
      "date": "2026-10-22",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
@@ -440,13 +447,6 @@
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
      "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
-     "resolved": false
-    },
-    {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "America’s Hydrogen Revolution Stalls Amid Funding Cuts and Weak Demand"
+   "sample": "Trump-Backed Trade Corridor Advances Despite Geopolitical Resistance"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️"
+   "sample": "🔴 Israeli president picks Netanyahu's rival Eisenkot to try to form government"
   },
   {
    "name": "JapanTimes",
