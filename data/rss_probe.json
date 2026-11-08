@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-08T16:18:07.378975Z",
+ "probed_at": "2026-11-08T16:52:05.760233Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -142,41 +142,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says - Bloomberg",
+   "sample": "China Set to Lead World in Energy Investment in 2026, CCTV Says - Bloomberg.com",
    "diag": [
     {
-     "title": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says",
+     "title": "China Set to Lead World in Energy Investment in 2026, CCTV S",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQ",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQVp4SHlEUW9Nc1lhQVluW",
+     "resolved": false
+    },
+    {
+     "title": "AI Slump Revives Asia’s Forgotten Trades From China to India",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHlmbjBTLXAyMXRaU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHlmbjBTLXAyMXRaUFkyaXNncWYtdVB2X1puS",
+     "resolved": false
+    },
+    {
+     "title": "China Raises Delegate Count to 2,360 for 2027 Party Congress",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ3hwVEx0cHAxUFVTQ",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ3hwVEx0cHAxUFVTQThkbnhTajU5akxWcC1Re",
+     "resolved": false
+    },
+    {
+     "title": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crun",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGFVdnpkOHNnMWs5b",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGFVdnpkOHNnMWs5bUtCdmVpbzdwX3REMFZfa",
+     "resolved": false
+    },
+    {
+     "title": "The US Thought It Could Change China. Instead, China Changed",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4a",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4aDRBUnp5cjJYVlhLTmhrY",
-     "resolved": false
-    },
-    {
-     "title": "US Believes Woman Close to Nvidia CEO Was a China Spy, NYT S",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva0o2QkpXMGZySHJkZzNtN",
-     "resolved": false
-    },
-    {
-     "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ2ZPZlBmZjNTdWRJV2l6N",
-     "resolved": false
-    },
-    {
-     "title": "China Plans Broad AI Guardrails After Global Security Lapses",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzNPU2lPQ0J6NnhJU",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzNPU2lPQ0J6NnhJUUswMHpxVkozRlZfU1JvW",
-     "resolved": false
-    },
-    {
-     "title": "Bessent, Greer Raise Concerns on China Trade Deal Actions - ",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUThIM0tOMDlPV2h4T",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUThIM0tOMDlPV2h4TURPZHZyVlJjUGRLWlZOV",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1R",
+     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1RGluRWtaU0ozRUE3X1FxT",
      "resolved": false
     }
    ]
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "US voters reject AI data centres: could the backlash spread to France?"
+   "sample": "The week in pictures: US midterms 'Blue Wave', French protests and Dakar Youth Olympics"
   },
   {
    "name": "JapanTimes",
