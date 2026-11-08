@@ -92,11 +92,38 @@ def parse_html(base, text):
 
 
 _DROP = re.compile(r"<(script|style|nav|header|footer|aside|form|iframe)[^>]*>.*?</\1>", re.S | re.I)
-_NOISE = re.compile(r"(责任编辑|版权所有|Copyright|cookie|Cookie|隐私政策|登录|注册|扫一扫|扫码|下载APP|关注我们|订阅)")
+_NOISE = re.compile(r"(责任编辑|版权所有|Copyright|cookie|Cookie|隐私政策|免费登录|账号登录|注册账号|免费注册|注册登录|扫一扫|扫码|下载APP|关注我们|点击订阅)")
+
+
+_NAV_LINE = re.compile(r"(访问主要内容|管理我的许可证|回到首页|网站导航|隐私政策|Cookie|点击订阅|账号登录|注册账号|免费注册|分享到|相关新闻|同一主题|其他新闻|推荐阅读|点击查看|广告|Advertisement|Privacy|Terms of use|Copyright|版权所有|关于我们|联系我们)")
+_COLWORD = re.compile(r"(时事|科技|文化|管理|国际|中国|亚洲|欧洲|美洲|非洲|观点|视频|图集|专题|专栏)")
+
+
+def scrub_body(body):
+    """采集端正文清洗：按句切分，逐句丢导航/栏目/残片，压缩空白（与 qc_body.scrub_page 同口径）"""
+    raw = re.split(r"(?<=[。！？；])", str(body or ""))
+    out = []
+    for line in raw:
+        x = line.strip()
+        if not x:
+            continue
+        if x.startswith("[Image") or x.startswith("[](") or x.startswith("[访问"):
+            continue
+        if _NAV_LINE.search(x):
+            continue
+        if len(x) <= 12 and _COLWORD.search(x):
+            continue
+        if len(x) <= 4 and not re.search(r"[，。！？；：、]", x):
+            continue
+        out.append(x)
+    t = " ".join(out)
+    t = re.sub(r"\s+", " ", t)
+    t = re.sub(r"([，。！？；：])\1+", r"\1", t)
+    return t.strip()
 
 
 def extract_body(html_text):
-    """纯代码抽正文：去脚本/导航，取最长的一段连续 <p> 文本"""
+    """纯代码抽正文：去脚本，取连续 <p>，兜底整页文本，最后统一 scrub_body 清渣"""
     t = _DROP.sub(" ", html_text)
     ps = re.findall(r"<p[^>]*>(.*?)</p>", t, re.S | re.I)
     cand = []
@@ -106,10 +133,11 @@ def extract_body(html_text):
         s = re.sub(r"\s+", " ", s).strip()
         if len(s) >= 25 and not _NOISE.search(s):
             cand.append(s)
-    body = "".join(cand)
-    if len(body) < BODY_MIN:  # p 不够，退化取整页可见文本
+    body = scrub_body("".join(cand))
+    if len(body) < BODY_MIN:  # p 不够，整页文本先 scrub 再比较，防止导航块并句污染
         s = re.sub(r"<[^>]+>", " ", t)
         s = re.sub(r"\s+", " ", s).strip()
+        s = scrub_body(s)
         body = s if len(s) > len(body) else body
     return body
 
@@ -245,12 +273,16 @@ def main():
         try:
             html_text = get(it["url"], timeout=15)
             body = extract_body(html_text)
-            it["body"] = body[:8000]
-            it["body_len"] = len(body)
-            if len(body) >= BODY_MIN:
+            han = len(re.findall(r"[\u4e00-\u9fa5]", body))
+            t8 = re.sub(r"[^\u4e00-\u9fa5]", "", it.get("title") or "")[:8]
+            hit = (len(t8) >= 8 and t8 in re.sub(r"[^\u4e00-\u9fa5]", "", body))
+            if han >= BODY_MIN and (hit or len(t8) < 8):
+                it["body"] = body[:8000]
+                it["body_len"] = han
                 stats["body_ok"] += 1
-                it["title_only"] = 0
             else:
+                it["body"] = ""
+                it["body_len"] = 0
                 it["title_only"] = 1
         except Exception as e:
             it["body"] = ""
