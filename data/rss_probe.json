@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-08T20:38:15.569633Z",
+ "probed_at": "2026-11-08T20:59:53.273690Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy - Financial Times",
+   "sample": "Nvidia’s Jensen Huang admits to affair after allegations of relationship with Chinese spy - Financial Times",
    "diag": [
+    {
+     "title": "Nvidia’s Jensen Huang admits to affair after allegations of ",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1hVaUg5SUpMcFFNM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1hVaUg5SUpMcFFNMDBfVzRYcmhXQzlNNW5vb",
+     "resolved": false
+    },
     {
      "title": "US believes Nvidia’s Huang had romantic relationship with al",
      "date": "2026-11-07",
@@ -260,13 +267,6 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxM",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxMUcwYzlvUlRyR3J2bHRIW",
-     "resolved": false
-    },
-    {
-     "title": "China’s tech megacity cleans up seedy underbelly for Apec su",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWdORGQxV05mTDRZZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWdORGQxV05mTDRZZkpvelJwcEFjQXdmU0Rwd",
      "resolved": false
     }
    ]
@@ -322,20 +322,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Rubio Warned Officials About Nvidia Chief’s Entanglement With Chinese Spy - The New York Times",
+   "sample": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times",
    "diag": [
-    {
-     "title": "Rubio Warned Officials About Nvidia Chief’s Entanglement Wit",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxa",
-     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxajB0RktZWnprNjVaMXRsT",
-     "resolved": false
-    },
     {
      "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship ",
      "date": "2026-11-08",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R",
      "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnb",
+     "resolved": false
+    },
+    {
+     "title": "Rubio Warned Officials About Nvidia Chief’s Entanglement Wit",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxa",
+     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxajB0RktZWnprNjVaMXRsT",
      "resolved": false
     },
     {
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Ukraine: Russian strikes leave hundreds of thousands without power"
+   "sample": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
   },
   {
    "name": "JapanTimes",
