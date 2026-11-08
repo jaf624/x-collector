@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-08T10:31:30.644178Z",
+ "probed_at": "2026-11-08T16:18:07.378975Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,41 +7,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "In China, the AI bubble has already burst - Reuters",
+   "sample": "Dalian claim Chinese Super League title after Chengdu collapse - Reuters",
    "diag": [
     {
-     "title": "In China, the AI bubble has already burst - Reuters",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkW",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkWmMyZDZqTHlsckJwbEsxW",
+     "title": "Dalian claim Chinese Super League title after Chengdu collap",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSUgxREN6NVNtMUNLY",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSUgxREN6NVNtMUNLYktMTVN0WVNESXFSLTBnU",
      "resolved": false
     },
     {
-     "title": "Major automakers urge US Congress to pass permanent ban on C",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwV",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwVnVwdGZHQkpGcEtJbWVjc",
+     "title": "SoftBank, ABB explore China carve-out to salvage robotics de",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLT",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLTG85N2NjSlNJTmgwUlVFS",
      "resolved": false
     },
     {
-     "title": "China's Xi says Middle East should not become battleground f",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xT",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnV",
+     "title": "Pakistani astronaut to join China space station's Shenzhou-2",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJO",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJOUttWWpFbUxsX3pFN3ItS",
      "resolved": false
     },
     {
-     "title": "US urges China to meet rare earths, agriculture commitments ",
+     "title": "Astellas employee imprisoned in China to be released in Dece",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODFjR25tcklTWnhjR",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODFjR25tcklTWnhjRDdJX0J4YjdUVTF3QU9hW",
+     "resolved": false
+    },
+    {
+     "title": "Taipei mayor election is a victory for democracy over China ",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
-     "resolved": false
-    },
-    {
-     "title": "GE Aerospace says it signs record $12.9 billion deals at Chi",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllMM1FiXzA2aGxRd",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllMM1FiXzA2aGxRdlFGeElIa0FsWS0xLXdMS",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
      "resolved": false
     }
    ]
@@ -52,13 +52,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Mone Chiba's elegant free skate edges quad queen and mom Alexandra Ignatova for Cup of China win - AP News",
+   "sample": "Taiwan detains a Communist Party leader over alleged Chinese sponsorship in election - AP News",
    "diag": [
+    {
+     "title": "Taiwan detains a Communist Party leader over alleged Chinese",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJ0cGFnQkI1bmtnW",
+     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJ0cGFnQkI1bmtnWGFfOUxFUEluTEg3cy1UR",
+     "resolved": false
+    },
     {
      "title": "Mone Chiba's elegant free skate edges quad queen and mom Ale",
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjdIOHFkRmNaU2EzR",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjdIOHFkRmNaU2EzRXRzaVRoMmVmWFZJVmZMS",
+     "resolved": false
+    },
+    {
+     "title": "Former Chinese Politburo member Ma Xingrui charged with taki",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyY",
+     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyYjZxbTdLQ1paeGxJOHROa",
      "resolved": false
     },
     {
@@ -69,24 +83,10 @@
      "resolved": false
     },
     {
-     "title": "China confirms discussions are underway on a historic Xi-Tru",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXNOWUl3UmNKZ0k2Q",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXNOWUl3UmNKZ0k2Q0ZwT2g2NTJqZm9ycXc0Q",
-     "resolved": false
-    },
-    {
      "title": "Pakistani astronaut to board Shenzhou 24 and become the firs",
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOU",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQ",
-     "resolved": false
-    },
-    {
-     "title": "China warns Philippines to be cautious over South China Sea ",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3O",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3OWlENlFwemZHa0paa2tmM",
      "resolved": false
     }
    ]
@@ -142,34 +142,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Set to Lead World in Energy Investment in 2026, CCTV Says - Bloomberg",
+   "sample": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says - Bloomberg",
    "diag": [
     {
-     "title": "China Set to Lead World in Energy Investment in 2026, CCTV S",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQ",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQVp4SHlEUW9Nc1lhQVluW",
-     "resolved": false
-    },
-    {
-     "title": "AI Slump Revives Asia’s Forgotten Trades From China to India",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHlmbjBTLXAyMXRaU",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHlmbjBTLXAyMXRaUFkyaXNncWYtdVB2X1puS",
-     "resolved": false
-    },
-    {
-     "title": "China Raises Delegate Count to 2,360 for 2027 Party Congress",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ3hwVEx0cHAxUFVTQ",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ3hwVEx0cHAxUFVTQThkbnhTajU5akxWcC1Re",
-     "resolved": false
-    },
-    {
-     "title": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crun",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGFVdnpkOHNnMWs5b",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGFVdnpkOHNnMWs5bUtCdmVpbzdwX3REMFZfa",
+     "title": "China Blocks SoftBank Acquisition of ABB Robot Unit, FT Says",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4a",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWl80SWsybGZKU2I4aDRBUnp5cjJYVlhLTmhrY",
      "resolved": false
     },
     {
@@ -177,6 +156,27 @@
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva0o2QkpXMGZySHJkZzNtN",
+     "resolved": false
+    },
+    {
+     "title": "China’s Hottest Night Club Is Bringing In $150 Million a Yea",
+     "date": "2026-10-29",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjVoSlotMm1XeHRoQ2ZPZlBmZjNTdWRJV2l6N",
+     "resolved": false
+    },
+    {
+     "title": "China Plans Broad AI Guardrails After Global Security Lapses",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzNPU2lPQ0J6NnhJU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzNPU2lPQ0J6NnhJUUswMHpxVkozRlZfU1JvW",
+     "resolved": false
+    },
+    {
+     "title": "Bessent, Greer Raise Concerns on China Trade Deal Actions - ",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUThIM0tOMDlPV2h4T",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUThIM0tOMDlPV2h4TURPZHZyVlJjUGRLWlZOV",
      "resolved": false
     }
    ]
@@ -204,17 +204,17 @@
      "resolved": false
     },
     {
-     "title": "US extends suspension of export restrictions on Chinese firm",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YV",
-     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YVDI0UlZydWQtaHZhRUlFW",
-     "resolved": false
-    },
-    {
      "title": "Japanese companies caught in crossfire of Beijing-Tokyo rift",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzctWFhrbW1xZUdDa",
      "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzctWFhrbW1xZUdDaU5tS2s5bkJwQjQyV1RrM",
+     "resolved": false
+    },
+    {
+     "title": "US extends suspension of export restrictions on Chinese firm",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YV",
+     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YVDI0UlZydWQtaHZhRUlFW",
      "resolved": false
     },
     {
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
-     "title": "‘It’s almost like a nightclub’: Hyrox takes off in China ami",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROd",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROdm1ybFJERzk3NTkzWFU1e",
-     "resolved": false
-    },
-    {
      "title": "The perils of Xi Jinping’s purge - Financial Times",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxM",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxMUcwYzlvUlRyR3J2bHRIW",
+     "resolved": false
+    },
+    {
+     "title": "‘It’s almost like a nightclub’: Hyrox takes off in China ami",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROd",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROdm1ybFJERzk3NTkzWFU1e",
      "resolved": false
     }
    ]
@@ -294,17 +294,17 @@
      "resolved": false
     },
     {
+     "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
+     "resolved": false
+    },
+    {
      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
-     "resolved": false
-    },
-    {
-     "title": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Contr",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfW",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfWXBkTjR3U3ZERnVWUGtMV",
      "resolved": false
     },
     {
@@ -339,17 +339,17 @@
      "resolved": false
     },
     {
-     "title": "A Trump-Putin-Xi Summit? That Might Be Awkward for One of Th",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaGxKZlQwYlRxUnZ0R",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaGxKZlQwYlRxUnZ0RjY2SVJTVU5kRS01Smx0a",
-     "resolved": false
-    },
-    {
      "title": "China’s Message to Its Rivals: You Need What We Make - The N",
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
      "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
+     "resolved": false
+    },
+    {
+     "title": "A Trump-Putin-Xi Summit? That Might Be Awkward for One of Th",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaGxKZlQwYlRxUnZ0R",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaGxKZlQwYlRxUnZ0RjY2SVJTVU5kRS01Smx0a",
      "resolved": false
     },
     {
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
-     "title": "US strategy links Myanmar peace talks to rare-earth access -",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQektPMXRENjNVbGZYb",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQektPMXRENjNVbGZYbW9uOE5TdHFnWkxqTWh0b",
-     "resolved": false
-    },
-    {
      "title": "China rare earth firms halt some US shipments over geopoliti",
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
      "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
+     "resolved": false
+    },
+    {
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
      "resolved": false
     }
    ]
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Copper faces further slide after US vote: TD"
+   "sample": "Australian miners rail against looming tax changes"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Wars May Spur Faster Electrification"
+   "sample": "How New York Plans to Turn Waste Heat Into Clean Energy"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Middle East live: Riyadh's financial district targeted following deadly Saudi strikes in Yemen"
+   "sample": "US voters reject AI data centres: could the backlash spread to France?"
   },
   {
    "name": "JapanTimes",
