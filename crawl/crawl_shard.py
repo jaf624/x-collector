@@ -218,11 +218,20 @@ def translate_zh(text, cap=4200):
     return "".join(out)
 
 
-def get(url, timeout=20):
-    r = requests.get(url, headers=UA, timeout=timeout)
-    if r.status_code >= 400:
-        raise RuntimeError("HTTP %d" % r.status_code)
-    return r.text
+def get(url, timeout=20, jina=False):
+    try:
+        r = requests.get(url, headers=UA, timeout=timeout)
+        if r.status_code < 400:
+            return r.text
+        code = r.status_code
+    except Exception:
+        code = 0
+    if jina:
+        ju = "https://r.jina.ai/" + url
+        r2 = requests.get(ju, headers=UA, timeout=timeout + 10)
+        if r2.status_code < 400:
+            return r2.text
+    raise RuntimeError("HTTP %s" % code)
 
 
 def main():
@@ -248,7 +257,7 @@ def main():
             continue
         stats["src_tried"] += 1
         try:
-            txt = get(payload)
+            txt = get(payload, jina=(str(s.get("status") or "") == "need_jina"))
             items = parse_feed(txt) or parse_html(payload, txt)
             if not items:
                 continue
@@ -271,7 +280,7 @@ def main():
     for it in picked:
         stats["body_tried"] += 1
         try:
-            html_text = get(it["url"], timeout=15)
+            html_text = get(it["url"], timeout=15, jina=True)
             body = extract_body(html_text)
             han = len(re.findall(r"[\u4e00-\u9fa5]", body))
             t8 = re.sub(r"[^\u4e00-\u9fa5]", "", it.get("title") or "")[:8]
