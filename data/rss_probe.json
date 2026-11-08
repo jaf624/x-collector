@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-07T23:58:11.031502Z",
+ "probed_at": "2026-11-08T02:35:55.566550Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -76,17 +76,17 @@
      "resolved": false
     },
     {
-     "title": "Pakistani astronaut to board Shenzhou 24 and become the firs",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOU",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQ",
-     "resolved": false
-    },
-    {
      "title": "China confirms discussions are underway on a historic Xi-Tru",
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXNOWUl3UmNKZ0k2Q",
      "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXNOWUl3UmNKZ0k2Q0ZwT2g2NTJqZm9ycXc0Q",
+     "resolved": false
+    },
+    {
+     "title": "Pakistani astronaut to board Shenzhou 24 and become the firs",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOU",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQ",
      "resolved": false
     }
    ]
@@ -142,13 +142,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crunch - Bloomberg.com",
+   "sample": "AI Slump Revives Asia’s Forgotten Trades From China to India - Bloomberg.com",
    "diag": [
     {
-     "title": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crun",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGFVdnpkOHNnMWs5b",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGFVdnpkOHNnMWs5bUtCdmVpbzdwX3REMFZfa",
+     "title": "AI Slump Revives Asia’s Forgotten Trades From China to India",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHlmbjBTLXAyMXRaU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHlmbjBTLXAyMXRaUFkyaXNncWYtdVB2X1puS",
      "resolved": false
     },
     {
@@ -156,6 +156,13 @@
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva0o2QkpXMGZySHJkZzNtN",
+     "resolved": false
+    },
+    {
+     "title": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crun",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGFVdnpkOHNnMWs5b",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGFVdnpkOHNnMWs5bUtCdmVpbzdwX3REMFZfa",
      "resolved": false
     },
     {
@@ -170,13 +177,6 @@
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR3FDNDVJS3VUN0RSZ",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR3FDNDVJS3VUN0RSZ0N4MjN3U3BGbHF1c0U3O",
-     "resolved": false
-    },
-    {
-     "title": "SoftBank, ABB Consider China Carve-Out to Salvage Robotics D",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTWhOZ29fWXk2aERCZ",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTWhOZ29fWXk2aERCZC1HVmhTY0k3VjFfV1pGZ",
      "resolved": false
     }
    ]
@@ -242,17 +242,17 @@
      "resolved": false
     },
     {
-     "title": "‘It’s almost like a nightclub’: Hyrox takes off in China ami",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROd",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROdm1ybFJERzk3NTkzWFU1e",
-     "resolved": false
-    },
-    {
      "title": "US warns China it must ‘immediately’ meet terms of Busan tra",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT180NmxHZ0JocXpNaEpYQ",
+     "resolved": false
+    },
+    {
+     "title": "‘It’s almost like a nightclub’: Hyrox takes off in China ami",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROd",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROdm1ybFJERzk3NTkzWFU1e",
      "resolved": false
     },
     {
@@ -367,15 +367,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China and Taiwan are fighting over Sun Yat-sen - The Economist",
+   "sample": "With an eye on America, China is beefing up its AI-controlled labs - The Economist",
    "diag": [
-    {
-     "title": "China and Taiwan are fighting over Sun Yat-sen - The Economi",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnV",
-     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnVkJoTk5EVjF4d3hnOHlJX",
-     "resolved": false
-    },
     {
      "title": "With an eye on America, China is beefing up its AI-controlle",
      "date": "2026-11-04",
@@ -398,6 +391,13 @@
      "resolved": false
     },
     {
+     "title": "China and Taiwan are fighting over Sun Yat-sen - The Economi",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnV",
+     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnVkJoTk5EVjF4d3hnOHlJX",
+     "resolved": false
+    },
+    {
      "title": "Chinese tech helps repressive African governments crush diss",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdle",
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 58,
+   "items": 59,
    "is_feed": true,
    "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
    "diag": [
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "The U.S. Has $50 Billion for Nuclear Waste and Nowhere to Put It"
+   "sample": "Wars May Spur Faster Electrification"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "'A violent fighter and warrior': Trump offers press secretary role to UFC chief Dana White"
+   "sample": "Gunmen kills six in Krakow, three more bodies found at his house"
   },
   {
    "name": "JapanTimes",
