@@ -1,18 +1,15 @@
 {
- "feed": 1168,
- "todo": 9,
+ "feed": 800,
+ "todo": 0,
  "ok": 0,
- "fail": 9,
- "gnews_indexed": 923,
- "direct_n": 245,
- "direct_body": 244,
- "direct_rate": 0.996,
- "reasons": {
-  "offtopic": 8,
-  "no_long_paragraph": 1
- },
+ "fail": 0,
+ "gnews_indexed": 800,
+ "direct_n": 0,
+ "direct_body": 0,
+ "direct_rate": 0,
+ "reasons": {},
  "resolved": 0,
- "remain_empty": 932,
- "secs": 2.7,
- "ts": "2026-11-08T01:59:47Z"
+ "remain_empty": 800,
+ "secs": 0.0,
+ "ts": "2026-11-08T08:44:27Z"
 }
