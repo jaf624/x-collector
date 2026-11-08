@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-08T09:16:11.480199Z",
+ "probed_at": "2026-11-08T10:31:30.644178Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,41 +7,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Pakistani astronaut to join China space station's Shenzhou-24 mission - Reuters",
+   "sample": "In China, the AI bubble has already burst - Reuters",
    "diag": [
     {
-     "title": "Pakistani astronaut to join China space station's Shenzhou-2",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJO",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJOUttWWpFbUxsX3pFN3ItS",
+     "title": "In China, the AI bubble has already burst - Reuters",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkW",
+     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkWmMyZDZqTHlsckJwbEsxW",
      "resolved": false
     },
     {
-     "title": "SoftBank, ABB explore China carve-out to salvage robotics de",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLT",
-     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLTG85N2NjSlNJTmgwUlVFS",
+     "title": "Major automakers urge US Congress to pass permanent ban on C",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwV",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTVhdFlwU2VQcjVwVnVwdGZHQkpGcEtJbWVjc",
      "resolved": false
     },
     {
-     "title": "Astellas employee imprisoned in China to be released in Dece",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODFjR25tcklTWnhjR",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODFjR25tcklTWnhjRDdJX0J4YjdUVTF3QU9hW",
+     "title": "China's Xi says Middle East should not become battleground f",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xT",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaldCWTJJZTNHNW8xTDdVZkxtWkdkazhTeWRnV",
      "resolved": false
     },
     {
-     "title": "China adopts law on Antarctic activities and environmental p",
+     "title": "US urges China to meet rare earths, agriculture commitments ",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmdCNGZTUl85MS1Td",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUmdCNGZTUl85MS1TdFg1VDVJSG5UNUNmX3BUZ",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
      "resolved": false
     },
     {
-     "title": "Taipei mayor election is a victory for democracy over China ",
+     "title": "GE Aerospace says it signs record $12.9 billion deals at Chi",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllMM1FiXzA2aGxRd",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllMM1FiXzA2aGxRdlFGeElIa0FsWS0xLXdMS",
      "resolved": false
     }
    ]
@@ -249,17 +249,17 @@
      "resolved": false
     },
     {
-     "title": "‘It’s almost like a nightclub’: Hyrox takes off in China ami",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROd",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROdm1ybFJERzk3NTkzWFU1e",
-     "resolved": false
-    },
-    {
      "title": "US lawmakers summon Jensen Huang over Chinese spying concern",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU1ZOUVdrenJmUF9yeThze",
+     "resolved": false
+    },
+    {
+     "title": "‘It’s almost like a nightclub’: Hyrox takes off in China ami",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROd",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFM5d1hySHpidjROdm1ybFJERzk3NTkzWFU1e",
      "resolved": false
     },
     {
@@ -294,13 +294,6 @@
      "resolved": false
     },
     {
-     "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
-     "date": "2026-11-01",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
-     "resolved": false
-    },
-    {
      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
@@ -312,6 +305,13 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfW",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWU1MYTRpWmVYU2dfWXBkTjR3U3ZERnVWUGtMV",
+     "resolved": false
+    },
+    {
+     "title": "Beijing Reins In IPO Rush After AI Concerns Hit Stock Market",
+     "date": "2026-11-03",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdG14X1p2Yml1N0c0Z",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdG14X1p2Yml1N0c0ZEdISnRrX3RwY19oVU9sV",
      "resolved": false
     }
    ]
@@ -422,17 +422,17 @@
      "resolved": false
     },
     {
-     "title": "Lula's election win dashes US hopes of quick access to Brazi",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbnhUT0ZFTnpsamNBb",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbnhUT0ZFTnpsamNBblowSmJHVXhjMEhiRzZCW",
-     "resolved": false
-    },
-    {
      "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
      "date": "2026-10-22",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
      "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
+     "resolved": false
+    },
+    {
+     "title": "Lula's election win dashes US hopes of quick access to Brazi",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbnhUT0ZFTnpsamNBb",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbnhUT0ZFTnpsamNBblowSmJHVXhjMEhiRzZCW",
      "resolved": false
     },
     {
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Tenerife honour teammate Jesus De Miguel with tearful tribute"
+   "sample": "Middle East live: Riyadh's financial district targeted following deadly Saudi strikes in Yemen"
   },
   {
    "name": "JapanTimes",
