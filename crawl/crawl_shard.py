@@ -251,17 +251,26 @@ def main():
 
     rows = []
     stats = {"src_tried": 0, "src_ok": 0, "items": 0, "body_tried": 0, "body_ok": 0}
+    per_host = {}
+
+    def _ph(host, key, n=1):
+        h = (host or "?")[:80]
+        d = per_host.setdefault(h, {"src_tried": 0, "src_ok": 0, "body_ok": 0,
+                                    "drop_short": 0, "drop_nofact": 0, "drop_offtopic": 0, "fail": 0})
+        d[key] = d.get(key, 0) + n
     for s in mine:
         payload = (s.get("feed_url") or s.get("base") or s.get("ref") or "").strip()
         if not payload.startswith("http"):
             continue
         stats["src_tried"] += 1
+        _ph(s.get("host"), "src_tried")
         try:
             txt = get(payload, jina=(str(s.get("status") or "") == "need_jina"))
             items = parse_feed(txt) or parse_html(payload, txt)
             if not items:
                 continue
             stats["src_ok"] += 1
+            _ph(s.get("host"), "src_ok")
             for it in items[:60]:
                 it["source"] = (s.get("name") or s.get("host") or "")[:60]
                 it["host"] = (s.get("host") or "")[:80]
@@ -289,6 +298,7 @@ def main():
                 it["body"] = body[:8000]
                 it["body_len"] = han
                 stats["body_ok"] += 1
+                _ph(it.get("host"), "body_ok")
             else:
                 it["body"] = ""
                 it["body_len"] = 0
@@ -297,6 +307,7 @@ def main():
             it["body"] = ""
             it["body_len"] = 0
             it["title_only"] = 1
+            _ph(it.get("host"), "fail")
             print("BODY-SKIP %s %s" % (it["url"][:60], str(e)[:40]))
         # 英文/外文原文：就地机翻成中文，翻不出来就不回传（中文研判写不出英文料的深度）
         if (it.get("body_len") or 0) >= BODY_MIN and zh_ratio(it.get("body") or "") < 0.5:
@@ -318,10 +329,12 @@ def main():
     for x in picked:
         if (x.get("body_len") or 0) < BODY_MIN:
             stats["drop_short"] = stats.get("drop_short", 0) + 1
+            _ph(x.get("host"), "drop_short")
             continue
         # ① 串台/样板门：标题必须真的在正文里出现
         if not title_in_body(x.get("title", ""), x.get("body", "")):
             stats["drop_offtopic"] = stats.get("drop_offtopic", 0) + 1
+            _ph(x.get("host"), "drop_offtopic")
             continue
         # ② 硬事实：机构 / 金额 / 代号 至少一项
         f = extract_facts(x.get("body", ""))
@@ -329,6 +342,7 @@ def main():
         x["fact_n"] = len(f["orgs"]) + len(f["amts"]) + len(f["codes"])
         if x["fact_n"] == 0:
             stats["drop_nofact"] = stats.get("drop_nofact", 0) + 1
+            _ph(x.get("host"), "drop_nofact")
             continue
         keep.append(x)
     # 事实多的排前面：服务器按顺序吃，先消化证据最足的
@@ -336,7 +350,7 @@ def main():
     stats["items"] = len(keep)
     stats["fact_ok"] = sum(1 for x in keep if x.get("fact_n", 0) >= 2)
     out = {"shard": a.shard, "generated_at": datetime.datetime.now().isoformat(timespec="seconds"),
-           "stats": stats, "rows": keep}
+           "stats": stats, "per_host": per_host, "rows": keep}
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
     json.dump(out, open(a.out, "w", encoding="utf-8"), ensure_ascii=False)
     print(json.dumps(stats, ensure_ascii=False))
