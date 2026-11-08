@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-08T03:20:28.445194Z",
+ "probed_at": "2026-11-08T09:16:11.480199Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -24,10 +24,10 @@
      "resolved": false
     },
     {
-     "title": "Taipei mayor election is a victory for democracy over China ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
+     "title": "Astellas employee imprisoned in China to be released in Dece",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODFjR25tcklTWnhjR",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODFjR25tcklTWnhjRDdJX0J4YjdUVTF3QU9hW",
      "resolved": false
     },
     {
@@ -38,10 +38,10 @@
      "resolved": false
     },
     {
-     "title": "China's yuan dilemma: too weak abroad and too strong at home",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdnd",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdndG40UGVsSEh6cVBmcFZBS",
+     "title": "Taipei mayor election is a victory for democracy over China ",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
      "resolved": false
     }
    ]
@@ -59,13 +59,6 @@
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjdIOHFkRmNaU2EzR",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjdIOHFkRmNaU2EzRXRzaVRoMmVmWFZJVmZMS",
-     "resolved": false
-    },
-    {
-     "title": "Former Chinese Politburo member Ma Xingrui charged with taki",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyY",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyYjZxbTdLQ1paeGxJOHROa",
      "resolved": false
     },
     {
@@ -87,6 +80,13 @@
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOU",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQ",
+     "resolved": false
+    },
+    {
+     "title": "China warns Philippines to be cautious over South China Sea ",
+     "date": "2026-11-04",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3O",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZm9NWDBZOFZtU2J3OWlENlFwemZHa0paa2tmM",
      "resolved": false
     }
    ]
@@ -142,8 +142,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "AI Slump Revives Asia’s Forgotten Trades From China to India - Bloomberg.com",
+   "sample": "China Set to Lead World in Energy Investment in 2026, CCTV Says - Bloomberg",
    "diag": [
+    {
+     "title": "China Set to Lead World in Energy Investment in 2026, CCTV S",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQ",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQVp4SHlEUW9Nc1lhQVluW",
+     "resolved": false
+    },
     {
      "title": "AI Slump Revives Asia’s Forgotten Trades From China to India",
      "date": "2026-11-08",
@@ -152,10 +159,10 @@
      "resolved": false
     },
     {
-     "title": "US Believes Woman Close to Nvidia CEO Was a China Spy, NYT S",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva0o2QkpXMGZySHJkZzNtN",
+     "title": "China Raises Delegate Count to 2,360 for 2027 Party Congress",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ3hwVEx0cHAxUFVTQ",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ3hwVEx0cHAxUFVTQThkbnhTajU5akxWcC1Re",
      "resolved": false
     },
     {
@@ -166,17 +173,10 @@
      "resolved": false
     },
     {
-     "title": "Beijing Vows to Hit Back Against US Sanctions on China Compa",
+     "title": "US Believes Woman Close to Nvidia CEO Was a China Spy, NYT S",
      "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR3FDNDVJS3VUN0RSZ",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR3FDNDVJS3VUN0RSZ0N4MjN3U3BGbHF1c0U3O",
-     "resolved": false
-    },
-    {
-     "title": "China Extends Gold-Buying Streak to Two Years as Prices Drop",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVdJdkgwZnBIUEhYS",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVdJdkgwZnBIUEhYS0ZGcUpvYVFmWW5tVlZqV",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeks3UUZzZHludldva0o2QkpXMGZySHJkZzNtN",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 60,
    "is_feed": true,
    "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
    "diag": [
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
+     "title": "US strategy links Myanmar peace talks to rare-earth access -",
+     "date": "2026-11-02",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQektPMXRENjNVbGZYb",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQektPMXRENjNVbGZYbW9uOE5TdHFnWkxqTWh0b",
+     "resolved": false
+    },
+    {
      "title": "China rare earth firms halt some US shipments over geopoliti",
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
      "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
-     "resolved": false
-    },
-    {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[美國中期選舉：共和黨失去兩院，對華政策與對台軍售會轉向嗎？]]>"
+   "sample": "<![CDATA[波蘭克拉科夫「極右翼」槍擊案致六人死亡 我們所知多少]]>"
   },
   {
    "name": "美国国务院",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Gunmen kills six in Krakow, three more bodies found at his house"
+   "sample": "Tenerife honour teammate Jesus De Miguel with tearful tribute"
   },
   {
    "name": "JapanTimes",
