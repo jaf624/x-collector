@@ -1,455 +1,75 @@
 {
- "probed_at": "2026-11-09T00:25:05.364305Z",
+ "probed_at": "2026-11-09T00:30:30.818818Z",
  "results": [
   {
    "name": "GNEWS-路透",
    "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair - Reuters",
-   "diag": [
-    {
-     "title": "Nvidia probes whether CEO Huang was target of foreign spying",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNRSy1yS0duakdXT",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNRSy1yS0duakdXT1hKbjI2MkFsMVhHeTQ1V",
-     "resolved": false
-    },
-    {
-     "title": "Dalian claim Chinese Super League title after Chengdu collap",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSUgxREN6NVNtMUNLY",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSUgxREN6NVNtMUNLYktMTVN0WVNESXFSLTBnU",
-     "resolved": false
-    },
-    {
-     "title": "SoftBank, ABB explore China carve-out to salvage robotics de",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLT",
-     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMV9yYXBHcG8tbzdLTG85N2NjSlNJTmgwUlVFS",
-     "resolved": false
-    },
-    {
-     "title": "Pakistani astronaut to join China space station's Shenzhou-2",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJO",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWlCUHUxM2NQQ3VJOUttWWpFbUxsX3pFN3ItS",
-     "resolved": false
-    },
-    {
-     "title": "Taipei mayor election is a victory for democracy over China ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91T",
-     "resolved": false
-    }
-   ]
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-AP",
    "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Nvidia investigating reports that CEO Jensen Huang was targeted by Chinese intelligence - AP News",
-   "diag": [
-    {
-     "title": "Nvidia investigating reports that CEO Jensen Huang was targe",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzB5YTdpVVRqQUNKM",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzB5YTdpVVRqQUNKMHhoR3ZQNEdMb00yeU1kQ",
-     "resolved": false
-    },
-    {
-     "title": "Mone Chiba's elegant free skate edges quad queen and mom Ale",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjdIOHFkRmNaU2EzR",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjdIOHFkRmNaU2EzRXRzaVRoMmVmWFZJVmZMS",
-     "resolved": false
-    },
-    {
-     "title": "Taiwan detains a Communist Party leader over alleged Chinese",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJ0cGFnQkI1bmtnW",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJ0cGFnQkI1bmtnWGFfOUxFUEluTEg3cy1UR",
-     "resolved": false
-    },
-    {
-     "title": "Former Chinese Politburo member Ma Xingrui charged with taki",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyY",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyYjZxbTdLQ1paeGxJOHROa",
-     "resolved": false
-    },
-    {
-     "title": "US escalates economic campaign against Cuba and targets Chin",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
-     "resolved": false
-    }
-   ]
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-AFP",
    "url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion - France 24",
-   "diag": [
-    {
-     "title": "Hong Kong activist Joshua Wong gets 10 more years in jail fo",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2ExYklFYWVJcE1wV",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2ExYklFYWVJcE1wVHJ0V2Yza3lWdG1UNHI1V",
-     "resolved": false
-    },
-    {
-     "title": "France 24 - International breaking news, top stories and hea",
-     "date": "2008-07-17",
-     "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0b",
-     "real": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0bFF6ejV2ZnhwVDNWRFRDd",
-     "resolved": false
-    },
-    {
-     "title": "Myanmar: Civilians under fire from military junta - France 2",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVJZN3pQLTFLRllYe",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVJZN3pQLTFLRllYeDJQbi1IeHlheFYzZDlRc",
-     "resolved": false
-    },
-    {
-     "title": "Down to Earth - Scientists begin tests on human composting, ",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3c",
-     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3cmZYRUpiNkdZR1QwRUJLZ",
-     "resolved": false
-    },
-    {
-     "title": "Trump says deal with Tehran 'could happen' amid 'intensive' ",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFS",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFSVZkUjZSWTJoMmNNSXIyQ",
-     "resolved": false
-    }
-   ]
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-彭博",
    "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Nvidia Board to Probe Spying Case After CEO Admits Affair - Bloomberg",
-   "diag": [
-    {
-     "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair - ",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeU5sZExFMm9PT0FDe",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeU5sZExFMm9PT0FDekcxMEVUWTFWVEJVNUNBc",
-     "resolved": false
-    },
-    {
-     "title": "China Set to Lead World in Energy Investment in 2026, CCTV S",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQ",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQVp4SHlEUW9Nc1lhQVluW",
-     "resolved": false
-    },
-    {
-     "title": "China’s Bad-Debt Collectors Chase After 100 Million Defaulte",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjNuQXpCdjFjQXJqe",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjNuQXpCdjFjQXJqemxnQVRYV21id0VKSlBBW",
-     "resolved": false
-    },
-    {
-     "title": "AI Slump Revives Asia’s Forgotten Trades From China to India",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHlmbjBTLXAyMXRaU",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHlmbjBTLXAyMXRaUFkyaXNncWYtdVB2X1puS",
-     "resolved": false
-    },
-    {
-     "title": "The US Thought It Could Change China. Instead, China Changed",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1R",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1RGluRWtaU0ozRUE3X1FxT",
-     "resolved": false
-    }
-   ]
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-日经",
    "url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Nvidia probes CEO Jensen Huang's affair amid China security concerns - Nikkei Asia",
-   "diag": [
-    {
-     "title": "Nvidia probes CEO Jensen Huang's affair amid China security ",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOHFURHRlNjdkRXQwU",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOHFURHRlNjdkRXQwUUVGX0JBcGNPamJPcjg5V",
-     "resolved": false
-    },
-    {
-     "title": "Prep schools help Chinese students get into Japan's top univ",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkVPZjFCQVhHUmNoU",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkVPZjFCQVhHUmNoUzBGRlRaUFpuUmJBaW4xO",
-     "resolved": false
-    },
-    {
-     "title": "China enacts law to hunt down corrupt officials who escape o",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeDA3OWs5eW42bXhEU",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeDA3OWs5eW42bXhEUlFCOEJGaGlpUzZLdjE0b",
-     "resolved": false
-    },
-    {
-     "title": "Japanese companies caught in crossfire of Beijing-Tokyo rift",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzctWFhrbW1xZUdDa",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzctWFhrbW1xZUdDaU5tS2s5bkJwQjQyV1RrM",
-     "resolved": false
-    },
-    {
-     "title": "US extends suspension of export restrictions on Chinese firm",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YV",
-     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YVDI0UlZydWQtaHZhRUlFW",
-     "resolved": false
-    }
-   ]
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-金融时报",
    "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Nvidia’s Jensen Huang admits to affair after allegations of relationship with Chinese spy - Financial Times",
-   "diag": [
-    {
-     "title": "Nvidia’s Jensen Huang admits to affair after allegations of ",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1hVaUg5SUpMcFFNM",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1hVaUg5SUpMcFFNMDBfVzRYcmhXQzlNNW5vb",
-     "resolved": false
-    },
-    {
-     "title": "FirstFT: Nvidia CEO admits to affair after allegations of re",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbTZtaXlSVk5oLVJLM",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbTZtaXlSVk5oLVJLM1QtLTRwUG9KMVlVNHBXT",
-     "resolved": false
-    },
-    {
-     "title": "US believes Nvidia’s Huang had romantic relationship with al",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25yc",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25ycmZfZ21DWjNEbTlxZ0w5U",
-     "resolved": false
-    },
-    {
-     "title": "US warns China it must ‘immediately’ meet terms of Busan tra",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYy1vdWUwVXRwOE5ZT180NmxHZ0JocXpNaEpYQ",
-     "resolved": false
-    },
-    {
-     "title": "US lawmakers summon Jensen Huang over Chinese spying concern",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU1ZOUVdrenJmUF9yeThze",
-     "resolved": false
-    }
-   ]
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-华尔街日报",
    "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "China Forex Reserves Edged Up in October - WSJ",
-   "diag": [
-    {
-     "title": "China Forex Reserves Edged Up in October - WSJ",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUEU0WkZIaWhfN2ZoR",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUEU0WkZIaWhfN2ZoRjdJUTdIM2p6OVppSUtuV",
-     "resolved": false
-    },
-    {
-     "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
-     "resolved": false
-    },
-    {
-     "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
-     "resolved": false
-    },
-    {
-     "title": "‘The Last Emperor of China’ Review: Puyi’s Fall From Heaven ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c3NHUWFsYUt3R2k3ZFB1W",
-     "resolved": false
-    },
-    {
-     "title": "Beijing Reins In IPO Rush After AI Concerns Hit Stock Market",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdG14X1p2Yml1N0c0Z",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdG14X1p2Yml1N0c0ZEdISnRrX3RwY19oVU9sV",
-     "resolved": false
-    }
-   ]
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-纽约时报",
    "url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times",
-   "diag": [
-    {
-     "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship ",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnb",
-     "resolved": false
-    },
-    {
-     "title": "Rubio Warned Officials About Nvidia Chief’s Entanglement Wit",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxa",
-     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxajB0RktZWnprNjVaMXRsT",
-     "resolved": false
-    },
-    {
-     "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Office",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTO",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3O",
-     "resolved": false
-    },
-    {
-     "title": "China’s Top Spy Agency Recruited Woman Who Targeted Jensen H",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlRKTG9WNHBINWg3V",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlRKTG9WNHBINWg3VkxadkZGV0dCbHZPWUpFc",
-     "resolved": false
-    },
-    {
-     "title": "China’s Message to Its Rivals: You Need What We Make - The N",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
-     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
-     "resolved": false
-    }
-   ]
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-经济学人",
    "url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "With an eye on America, China is beefing up its AI-controlled labs - The Economist",
-   "diag": [
-    {
-     "title": "With an eye on America, China is beefing up its AI-controlle",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d3U5TThrTVVZLXN2MXhOS",
-     "resolved": false
-    },
-    {
-     "title": "China’s investment in transport infrastructure has peaked - ",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdm0wRFdXQzJUZzBLN",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdm0wRFdXQzJUZzBLNDdjbWJfN1pnZmowT2VtW",
-     "resolved": false
-    },
-    {
-     "title": "Indebted tycoons haunt China’s banking system - The Economis",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZml3QzR3eS1hNFl6d",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZml3QzR3eS1hNFl6d2tXb3hDRFFlN25zVUJDQ",
-     "resolved": false
-    },
-    {
-     "title": "China and Taiwan are fighting over Sun Yat-sen - The Economi",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnV",
-     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnVkJoTk5EVjF4d3hnOHlJX",
-     "resolved": false
-    },
-    {
-     "title": "Chinese tech helps repressive African governments crush diss",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdle",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdleHVDQ3gwZF9LOEJfTVNrb",
-     "resolved": false
-    }
-   ]
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 59,
-   "is_feed": true,
-   "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
-   "diag": [
-    {
-     "title": "US urges China to meet rare earths, agriculture commitments ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
-     "resolved": false
-    },
-    {
-     "title": "Lula's election win dashes US hopes of quick access to Brazi",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbnhUT0ZFTnpsamNBb",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbnhUT0ZFTnpsamNBblowSmJHVXhjMEhiRzZCW",
-     "resolved": false
-    },
-    {
-     "title": "China rare earth firms halt some US shipments over geopoliti",
-     "date": "2026-09-04",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
-     "resolved": false
-    },
-    {
-     "title": "Corporate Japan's rare-earth warnings get louder as China ke",
-     "date": "2026-07-07",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZ",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZTQ4UGhqMENYZDdmZGYtc",
-     "resolved": false
-    }
-   ]
+   "status": 503,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "AP直接feed",
