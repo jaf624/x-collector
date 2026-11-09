@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-09T04:35:45.328616Z",
+ "probed_at": "2026-11-09T06:51:18.028502Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,20 +7,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's factory-gate inflation at fastest in nearly 4-1/2 years in October, while CPI rise moderates - Reuters",
+   "sample": "China extends suspensions of 24% tariff on US goods, port fees on US ships for two months - Reuters",
    "diag": [
+    {
+     "title": "China extends suspensions of 24% tariff on US goods, port fe",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTA2TElMOUVJb2VPU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTA2TElMOUVJb2VPUWp2RnhuNWtoOHhncWpKU",
+     "resolved": false
+    },
+    {
+     "title": "North China building fire kills at least 14 people - Reuters",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcTVrbGRoRzEzTE1mN",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcTVrbGRoRzEzTE1mN0o3Ni05R3BCWGNXR29Dc",
+     "resolved": false
+    },
     {
      "title": "China's factory-gate inflation at fastest in nearly 4-1/2 ye",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdHZHeWlBMm5ScUQ3U",
      "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdHZHeWlBMm5ScUQ3Um9LTHZLdHpkZzNXNXF0N",
-     "resolved": false
-    },
-    {
-     "title": "China extends suspension of 24% tariff on US imports for two",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTA2TElMOUVJb2VPU",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTA2TElMOUVJb2VPUWp2RnhuNWtoOHhncWpKU",
      "resolved": false
     },
     {
@@ -35,13 +42,6 @@
      "date": "2026-11-08",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNRSy1yS0duakdXT",
      "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNRSy1yS0duakdXT1hKbjI2MkFsMVhHeTQ1V",
-     "resolved": false
-    },
-    {
-     "title": "North China building fire kills 14 - Reuters",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcTVrbGRoRzEzTE1mN",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcTVrbGRoRzEzTE1mN0o3Ni05R3BCWGNXR29Dc",
      "resolved": false
     }
    ]
@@ -69,13 +69,6 @@
      "resolved": false
     },
     {
-     "title": "Taiwan detains a Communist Party leader over alleged Chinese",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJ0cGFnQkI1bmtnW",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJ0cGFnQkI1bmtnWGFfOUxFUEluTEg3cy1UR",
-     "resolved": false
-    },
-    {
      "title": "Former Chinese Politburo member Ma Xingrui charged with taki",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyY",
@@ -88,6 +81,13 @@
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
      "resolved": false
+    },
+    {
+     "title": "Pakistani astronaut to board Shenzhou 24 and become the firs",
+     "date": "2026-11-07",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOU",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQ",
+     "resolved": false
     }
    ]
   },
@@ -97,8 +97,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion - France 24",
+   "sample": "Nvidia to probe reports that Chinese intelligence targeted CEO Jensen Huang - France 24",
    "diag": [
+    {
+     "title": "Nvidia to probe reports that Chinese intelligence targeted C",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa3o2ZmE0TVhvRjR2N",
+     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa3o2ZmE0TVhvRjR2N3R4YzI4Y2pEb1UwYVRlR",
+     "resolved": false
+    },
     {
      "title": "Hong Kong activist Joshua Wong gets 10 more years in jail fo",
      "date": "2026-11-05",
@@ -126,13 +133,6 @@
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3c",
      "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3cmZYRUpiNkdZR1QwRUJLZ",
      "resolved": false
-    },
-    {
-     "title": "Trump says deal with Tehran 'could happen' amid 'intensive' ",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFS",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFSVZkUjZSWTJoMmNNSXIyQ",
-     "resolved": false
     }
    ]
   },
@@ -142,20 +142,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese Producer Inflation Soars to 5.7% for Post-Covid Era High - Bloomberg",
+   "sample": "China Extends Pause on 24% US Tariffs to January, Keeps 10% Rate - Bloomberg.com",
    "diag": [
     {
-     "title": "Chinese Producer Inflation Soars to 5.7% for Post-Covid Era ",
+     "title": "China Extends Pause on 24% US Tariffs to January, Keeps 10% ",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMmtVSmRjR3dJWkJYW",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMmtVSmRjR3dJWkJYWi1ROURuRTNuVXFmUFBDe",
-     "resolved": false
-    },
-    {
-     "title": "China’s Bad-Debt Collectors Chase After 100 Million Defaulte",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjNuQXpCdjFjQXJqe",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjNuQXpCdjFjQXJqemxnQVRYV21id0VKSlBBW",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTkVXSkNKNzRBdXBNU",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTkVXSkNKNzRBdXBNUlFmNVlEZ3gtUVhRbVVZc",
      "resolved": false
     },
     {
@@ -166,17 +159,24 @@
      "resolved": false
     },
     {
-     "title": "Sudden Distress at Top-Rated Firm Tests China’s Rating Crack",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaGNUVk83VE9LaWJUb",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaGNUVk83VE9LaWJUbFR4VmtHNDhvVmpVR1FqM",
+     "title": "Soybeans Rise as US Presses China to Boost Farm Goods Purcha",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcVpOc2h1OEM0bkhEW",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcVpOc2h1OEM0bkhEWVo2NE9SQTVtQlZ2MlFLd",
      "resolved": false
     },
     {
-     "title": "Trump Backs Nvidia CEO After Affair With Suspected China Spy",
+     "title": "Chinese Producer Inflation Hits 5.7% for Post-Covid Era High",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZGwxSGd5R0JaY3pOa",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZGwxSGd5R0JaY3pOaG9xSkUtdU5iUnA0eHRNc",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMmtVSmRjR3dJWkJYW",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMmtVSmRjR3dJWkJYWi1ROURuRTNuVXFmUFBDe",
+     "resolved": false
+    },
+    {
+     "title": "China’s Bad-Debt Collectors Chase After 100 Million Defaulte",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjNuQXpCdjFjQXJqe",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjNuQXpCdjFjQXJqemxnQVRYV21id0VKSlBBW",
      "resolved": false
     }
    ]
@@ -232,10 +232,17 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s inflation edges lower in October - Financial Times",
+   "sample": "Democrat triumph offers China ‘window to catch up’ on AI - Financial Times",
    "diag": [
     {
-     "title": "China’s inflation edges lower in October - Financial Times",
+     "title": "Democrat triumph offers China ‘window to catch up’ on AI - F",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN3pjQmFySi0wZGtaT",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN3pjQmFySi0wZGtaT2x3Vk9ncjBYUGJwOGhiV",
+     "resolved": false
+    },
+    {
+     "title": "China’s producer prices hit four-year high - Financial Times",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekFHNFNEY0R6eVpBZ",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekFHNFNEY0R6eVpBZVhoU1ZTV3dxY1ZlTmpxV",
@@ -260,13 +267,6 @@
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25yc",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25ycmZfZ21DWjNEbTlxZ0w5U",
-     "resolved": false
-    },
-    {
-     "title": "US lawmakers summon Jensen Huang over Chinese spying concern",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU1ZOUVdrenJmUF9yeThze",
      "resolved": false
     }
    ]
@@ -326,7 +326,7 @@
    "diag": [
     {
      "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship ",
-     "date": "2026-11-09",
+     "date": "2026-11-08",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R",
      "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnb",
      "resolved": false
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 60,
    "is_feed": true,
    "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
    "diag": [
@@ -443,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "China's rare earths dominance to overshadow Trump's talks wi",
-     "date": "2026-09-24",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "title": "Corporate Japan's rare-earth warnings get louder as China ke",
+     "date": "2026-07-07",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZ",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZTQ4UGhqMENYZDdmZGYtc",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Iraq’s 5 Million Bpd Oil Claim Complicates Its OPEC Quota Push"
+   "sample": "Oil Prices Fall as Trump Signals No New Attacks on Iran"
   },
   {
    "name": "IMF",
@@ -596,9 +596,10 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 404,
+   "status": -1,
    "items": 0,
-   "is_feed": false
+   "is_feed": false,
+   "err": "The read operation timed out"
   },
   {
    "name": "IEA",
@@ -628,7 +629,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Europe to press US on Ukraine peace and Iran at Paris G7 talks"
+   "sample": "Marseille defeat RC Lens as they win five in a row in Ligue 1"
   },
   {
    "name": "JapanTimes",
