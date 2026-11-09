@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-09T06:51:18.028502Z",
+ "probed_at": "2026-11-09T17:04:16.789833Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,41 +7,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China extends suspensions of 24% tariff on US goods, port fees on US ships for two months - Reuters",
+   "sample": "China extends suspension of new rare earth controls until January - Reuters",
    "diag": [
     {
-     "title": "China extends suspensions of 24% tariff on US goods, port fe",
+     "title": "China extends suspension of new rare earth controls until Ja",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTA2TElMOUVJb2VPU",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTA2TElMOUVJb2VPUWp2RnhuNWtoOHhncWpKU",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUa",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUaEJCaDNDQWZ2bzhKOFNmb",
      "resolved": false
     },
     {
-     "title": "North China building fire kills at least 14 people - Reuters",
+     "title": "Apple Intelligence AI service registers with Chinese regulat",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQanptRUNhdmdrV2x6Y",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQanptRUNhdmdrV2x6Y01qWFNCU3BlRTZTN1FyZ",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: Chinese banks boost dollar deposit rates, sources",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTzF1MFhueDRWX1A3L",
+     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTzF1MFhueDRWX1A3LWlGYWJuZ21hMjNBQkE5a",
+     "resolved": false
+    },
+    {
+     "title": "Building fire kills 14 in China's northern city of Taiyuan -",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcTVrbGRoRzEzTE1mN",
      "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcTVrbGRoRzEzTE1mN0o3Ni05R3BCWGNXR29Dc",
      "resolved": false
     },
     {
-     "title": "China's factory-gate inflation at fastest in nearly 4-1/2 ye",
+     "title": "China extends US trade truce by two months - Reuters",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdHZHeWlBMm5ScUQ3U",
-     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdHZHeWlBMm5ScUQ3Um9LTHZLdHpkZzNXNXF0N",
-     "resolved": false
-    },
-    {
-     "title": "Trump thinks he will meet Xi and Putin at China APEC summit ",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY0h5RWRYOHBsak5MV",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY0h5RWRYOHBsak5MVm5FQy1UV09NSk1odWFia",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia probes whether CEO Huang was target of foreign spying",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNRSy1yS0duakdXT",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNRSy1yS0duakdXT1hKbjI2MkFsMVhHeTQ1V",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTA2TElMOUVJb2VPU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTA2TElMOUVJb2VPUWp2RnhuNWtoOHhncWpKU",
      "resolved": false
     }
    ]
@@ -52,13 +52,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia investigates whether CEO Jensen Huang was targeted by Chinese spy with whom he had an affair - AP News",
+   "sample": "China dismisses as a smear campaign claims of a spy plot involving Nvidia CEO Jensen Huang - AP News",
    "diag": [
+    {
+     "title": "China dismisses as a smear campaign claims of a spy plot inv",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQWY3b0NNRFBNRG5jZ",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQWY3b0NNRFBNRG5jZVdXM05URnhOV19vQ24zV",
+     "resolved": false
+    },
     {
      "title": "Nvidia investigates whether CEO Jensen Huang was targeted by",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzB5YTdpVVRqQUNKM",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzB5YTdpVVRqQUNKMHhoR3ZQNEdMb00yeU1kQ",
+     "resolved": false
+    },
+    {
+     "title": "A pastor at a Beijing underground church has been arrested, ",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJsckJFWkZtYkFHV",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJsckJFWkZtYkFHVkl2eF9VTlBoNUZrNUtib",
      "resolved": false
     },
     {
@@ -69,24 +83,10 @@
      "resolved": false
     },
     {
-     "title": "Former Chinese Politburo member Ma Xingrui charged with taki",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyY",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjBaSXZEUE1mVFkyYjZxbTdLQ1paeGxJOHROa",
-     "resolved": false
-    },
-    {
-     "title": "US escalates economic campaign against Cuba and targets Chin",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
-     "resolved": false
-    },
-    {
-     "title": "Pakistani astronaut to board Shenzhou 24 and become the firs",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOU",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQ",
+     "title": "Japan to provide coastal radar and drones to the Philippines",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXFMdDYwVW1GYXA0c",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXFMdDYwVW1GYXA0cnB1UHYtR1JqRW55b08xM",
      "resolved": false
     }
    ]
@@ -107,17 +107,17 @@
      "resolved": false
     },
     {
+     "title": "Who is Alice Huang, Chinese exec accused of spying on Nvidia",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ1ZsdFV6WHBaSHBkV",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ1ZsdFV6WHBaSHBkV3dON3pGR3RUVXZwenVlZ",
+     "resolved": false
+    },
+    {
      "title": "Hong Kong activist Joshua Wong gets 10 more years in jail fo",
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2ExYklFYWVJcE1wV",
      "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2ExYklFYWVJcE1wVHJ0V2Yza3lWdG1UNHI1V",
-     "resolved": false
-    },
-    {
-     "title": "France 24 - International breaking news, top stories and hea",
-     "date": "2008-07-17",
-     "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0b",
-     "real": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0bFF6ejV2ZnhwVDNWRFRDd",
      "resolved": false
     },
     {
@@ -142,20 +142,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Extends Pause on 24% US Tariffs to January, Keeps 10% Rate - Bloomberg.com",
+   "sample": "Nvidia Board to Probe Spying Case After CEO Admits Affair - Bloomberg.com",
    "diag": [
     {
-     "title": "China Extends Pause on 24% US Tariffs to January, Keeps 10% ",
+     "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair - ",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTkVXSkNKNzRBdXBNU",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTkVXSkNKNzRBdXBNUlFmNVlEZ3gtUVhRbVVZc",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeU5sZExFMm9PT0FDe",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeU5sZExFMm9PT0FDekcxMEVUWTFWVEJVNUNBc",
      "resolved": false
     },
     {
-     "title": "China’s Cheap Domestic Gas Curbs LNG Buying as Winter Nears ",
+     "title": "China Starts Marketing Green Bonds For Debut Sales in Canada",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUUZfNGswWTV0QkJuS",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUUZfNGswWTV0QkJuSVdRUXN2bWxsWU9EUG11e",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdTFubzduQ0thNk0wV",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdTFubzduQ0thNk0wVm4zeW00TFp3OFpneUlGQ",
      "resolved": false
     },
     {
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese Producer Inflation Hits 5.7% for Post-Covid Era High",
+     "title": "Alice Huang, Suspected China Spy, Spent Years in Nvidia’s Or",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMmtVSmRjR3dJWkJYW",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMmtVSmRjR3dJWkJYWi1ROURuRTNuVXFmUFBDe",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdGV5b2tYRTdnc1hMT",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdGV5b2tYRTdnc1hMTXRKMnh2VWZFU2hmcmJwe",
      "resolved": false
     },
     {
-     "title": "China’s Bad-Debt Collectors Chase After 100 Million Defaulte",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjNuQXpCdjFjQXJqe",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjNuQXpCdjFjQXJqemxnQVRYV21id0VKSlBBW",
+     "title": "What to Know About the China Spy Allegations Involving Nvidi",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaWpIN19mMDlMdm1vc",
+     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaWpIN19mMDlMdm1vcVY1Vm1CODRyQ3BYYWZRb",
      "resolved": false
     }
    ]
@@ -197,17 +197,24 @@
      "resolved": false
     },
     {
-     "title": "Prep schools help Chinese students get into Japan's top univ",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkVPZjFCQVhHUmNoU",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkVPZjFCQVhHUmNoUzBGRlRaUFpuUmJBaW4xO",
+     "title": "Why China takes a back seat for Democrats after US midterms ",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTnhlak50bjZhdUhEL",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTnhlak50bjZhdUhELU1NckU3aGVESEg2cHhmZ",
      "resolved": false
     },
     {
-     "title": "China enacts law to hunt down corrupt officials who escape o",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeDA3OWs5eW42bXhEU",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeDA3OWs5eW42bXhEUlFCOEJGaGlpUzZLdjE0b",
+     "title": "Trump says he thinks he'll meet with Xi and Putin at China A",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT2xUYnk2ZlhRQzFhQ",
+     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT2xUYnk2ZlhRQzFhQXBYRWVHZ0FEbEozd3k4T",
+     "resolved": false
+    },
+    {
+     "title": "Japan headlight king Koito tears down Chinese rivals' lamps ",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOEFmeExHeTQtLVlpc",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOEFmeExHeTQtLVlpcVNDWk9xVkRfbmhRTjVnN",
      "resolved": false
     },
     {
@@ -215,13 +222,6 @@
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzctWFhrbW1xZUdDa",
      "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzctWFhrbW1xZUdDaU5tS2s5bkJwQjQyV1RrM",
-     "resolved": false
-    },
-    {
-     "title": "US extends suspension of export restrictions on Chinese firm",
-     "date": "2026-11-05",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YV",
-     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YVDI0UlZydWQtaHZhRUlFW",
      "resolved": false
     }
    ]
@@ -232,8 +232,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Democrat triumph offers China ‘window to catch up’ on AI - Financial Times",
+   "sample": "Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors - Financial Times",
    "diag": [
+    {
+     "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chip d",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0d",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0dWRaZjYyWktobjJJQWVEa",
+     "resolved": false
+    },
+    {
+     "title": "Nvidia shares fall as it probes alleged Chinese spy scandal ",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3VKdWJFVzFQMEtxR",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3VKdWJFVzFQMEtxRW5JaEhiOWpNVkEyd0tJT",
+     "resolved": false
+    },
     {
      "title": "Democrat triumph offers China ‘window to catch up’ on AI - F",
      "date": "2026-11-09",
@@ -254,20 +268,6 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1hVaUg5SUpMcFFNM",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1hVaUg5SUpMcFFNMDBfVzRYcmhXQzlNNW5vb",
      "resolved": false
-    },
-    {
-     "title": "FirstFT: Nvidia CEO admits to affair after allegations of re",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbTZtaXlSVk5oLVJLM",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbTZtaXlSVk5oLVJLM1QtLTRwUG9KMVlVNHBXT",
-     "resolved": false
-    },
-    {
-     "title": "US believes Nvidia’s Huang had romantic relationship with al",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25yc",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25ycmZfZ21DWjNEbTlxZ0w5U",
-     "resolved": false
     }
    ]
   },
@@ -277,8 +277,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Producer Inflation Accelerates to Over Four-Year High - WSJ",
+   "sample": "Nvidia’s Board Investigates Reports That CEO Was Spying Target After Affair - WSJ",
    "diag": [
+    {
+     "title": "Nvidia’s Board Investigates Reports That CEO Was Spying Targ",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR1dWVlB5MmZ6dk56W",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR1dWVlB5MmZ6dk56WlNfVkF3QWZoRExMYjNwS",
+     "resolved": false
+    },
     {
      "title": "China Producer Inflation Accelerates to Over Four-Year High ",
      "date": "2026-11-09",
@@ -288,16 +295,9 @@
     },
     {
      "title": "China Forex Reserves Edged Up in October - WSJ",
-     "date": "2026-11-07",
+     "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUEU0WkZIaWhfN2ZoR",
      "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUEU0WkZIaWhfN2ZoRjdJUTdIM2p6OVppSUtuV",
-     "resolved": false
-    },
-    {
-     "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
-     "date": "2026-10-31",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
      "resolved": false
     },
     {
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "‘The Last Emperor of China’ Review: Puyi’s Fall From Heaven ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c3NHUWFsYUt3R2k3ZFB1W",
+     "title": "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of",
+     "date": "2026-10-31",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXT",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQks5d0dlajJvcVBXTHV2OEhSamFnVy1IenpiY",
      "resolved": false
     }
    ]
@@ -322,20 +322,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy - The New York Times",
+   "sample": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Suspected Chinese Spy - The New York Times",
    "diag": [
     {
      "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship ",
-     "date": "2026-11-08",
+     "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R",
      "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnb",
      "resolved": false
     },
     {
-     "title": "Rubio Warned Officials About Nvidia Chief’s Entanglement Wit",
+     "title": "China Rejects Espionage Claims Involving Nvidia C.E.O. Jense",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxa",
-     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxajB0RktZWnprNjVaMXRsT",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kV0hmUlQ5ZmVNeHlqe",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kV0hmUlQ5ZmVNeHlqenhEUXVEaUlOV19hbkRfS",
+     "resolved": false
+    },
+    {
+     "title": "Nvidia C.E.O. Admits Relationship With Suspected Chinese Spy",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQU4zSXhnRzRuVDdTb",
+     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQU4zSXhnRzRuVDdTbWFSTnR6WEVnMGl4WDlRR",
      "resolved": false
     },
     {
@@ -346,17 +353,10 @@
      "resolved": false
     },
     {
-     "title": "China’s Top Spy Agency Recruited Woman Who Targeted Jensen H",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlRKTG9WNHBINWg3V",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlRKTG9WNHBINWg3VkxadkZGV0dCbHZPWUpFc",
-     "resolved": false
-    },
-    {
-     "title": "China’s Message to Its Rivals: You Need What We Make - The N",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQ",
-     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnJIUk5OdzBMTjhkQkQ4Mlg3TVpJOHlESHQ0Z",
+     "title": "What to Know About Nvidia’s Investigation of Its C.E.O. - Th",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRVkxZjg5UmtfRlNGb",
+     "real": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRVkxZjg5UmtfRlNGbHF6VGlMMFBaWHY0SVl6Q",
      "resolved": false
     }
    ]
@@ -367,13 +367,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "With an eye on America, China is beefing up its AI-controlled labs - The Economist",
+   "sample": "Can Nvidia’s boss survive a Chinese-spy controversy? - The Economist",
    "diag": [
     {
-     "title": "With an eye on America, China is beefing up its AI-controlle",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEV2UUpJVm03LWt3d3U5TThrTVVZLXN2MXhOS",
+     "title": "Can Nvidia’s boss survive a Chinese-spy controversy? - The E",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcnE0QURXVHllci10b",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcnE0QURXVHllci10blA2SjFKT1VyUFBlQjNud",
      "resolved": false
     },
     {
@@ -381,13 +381,6 @@
      "date": "2026-11-03",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKT",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKTTFRV1I5aTRDWWZaZWZ5O",
-     "resolved": false
-    },
-    {
-     "title": "China’s investment in transport infrastructure has peaked - ",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdm0wRFdXQzJUZzBLN",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdm0wRFdXQzJUZzBLNDdjbWJfN1pnZmowT2VtW",
      "resolved": false
     },
     {
@@ -403,6 +396,13 @@
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnV",
      "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3RGSi1WSmY4dnZnVkJoTk5EVjF4d3hnOHlJX",
      "resolved": false
+    },
+    {
+     "title": "Chinese tech helps repressive African governments crush diss",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdle",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVrVGNYbjVjOTdleHVDQ3gwZF9LOEJfTVNrb",
+     "resolved": false
     }
    ]
   },
@@ -410,22 +410,22 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 60,
+   "items": 58,
    "is_feed": true,
-   "sample": "US urges China to meet rare earths, agriculture commitments ahead of Trump-Xi meetings - Reuters",
+   "sample": "China extends suspension of new rare earth controls until January - Reuters",
    "diag": [
+    {
+     "title": "China extends suspension of new rare earth controls until Ja",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUa",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUaEJCaDNDQWZ2bzhKOFNmb",
+     "resolved": false
+    },
     {
      "title": "US urges China to meet rare earths, agriculture commitments ",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
      "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
      "resolved": false
     },
     {
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
+     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
+     "date": "2026-10-22",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
+     "resolved": false
+    },
+    {
      "title": "China rare earth firms halt some US shipments over geopoliti",
      "date": "2026-09-04",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
      "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
-     "resolved": false
-    },
-    {
-     "title": "Corporate Japan's rare-earth warnings get louder as China ke",
-     "date": "2026-07-07",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZ",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmNxbFlBOWJuUjBGZTQ4UGhqMENYZDdmZGYtc",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[Nvidia就黃仁勳與疑似中國間諜有婚外情展開調查]]>"
+   "sample": "<![CDATA[黃仁勳婚外情掀起國安風暴：拆解五大看點]]>"
   },
   {
    "name": "美国国务院",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "European troops set to train in Poland for postwar Ukraine deployment"
+   "sample": "Firm bets on converted fishing trawlers to tackle Russian submarines in the Arctic"
   },
   {
    "name": "Mining",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Brazil picks 27 critical minerals in push for local supply chain"
+   "sample": "Vivox AI, beSirius partner on mining supply chain compliance "
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Oil Prices Fall as Trump Signals No New Attacks on Iran"
+   "sample": "Global LNG Markets Face a Winter of Extreme Uncertainty"
   },
   {
    "name": "IMF",
@@ -596,10 +596,9 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": -1,
+   "status": 404,
    "items": 0,
-   "is_feed": false,
-   "err": "The read operation timed out"
+   "is_feed": false
   },
   {
    "name": "IEA",
@@ -629,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Marseille defeat RC Lens as they win five in a row in Ligue 1"
+   "sample": "Social unrest ahead of French elections: Protesters 'don't believe politics can achieve anything'"
   },
   {
    "name": "JapanTimes",
@@ -680,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Missed AUSA 2026? Get the Ground Truth from Breaking Defense’s free eBook"
+   "sample": "Defense industry takes aim at &#8216;right to repair&#8217; as NDAA decision looms"
   },
   {
    "name": "MiningWeekly",
