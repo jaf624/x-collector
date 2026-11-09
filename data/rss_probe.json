@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-08T20:59:53.273690Z",
+ "probed_at": "2026-11-09T00:25:05.364305Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Dalian claim Chinese Super League title after Chengdu collapse - Reuters",
+   "sample": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair - Reuters",
    "diag": [
+    {
+     "title": "Nvidia probes whether CEO Huang was target of foreign spying",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNRSy1yS0duakdXT",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNRSy1yS0duakdXT1hKbjI2MkFsMVhHeTQ1V",
+     "resolved": false
+    },
     {
      "title": "Dalian claim Chinese Super League title after Chengdu collap",
      "date": "2026-11-08",
@@ -31,13 +38,6 @@
      "resolved": false
     },
     {
-     "title": "Astellas employee imprisoned in China to be released in Dece",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODFjR25tcklTWnhjR",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODFjR25tcklTWnhjRDdJX0J4YjdUVTF3QU9hW",
-     "resolved": false
-    },
-    {
      "title": "Taipei mayor election is a victory for democracy over China ",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3Zpb",
@@ -52,13 +52,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Taiwan detains a Communist Party leader over alleged Chinese sponsorship in election - AP News",
+   "sample": "Nvidia investigating reports that CEO Jensen Huang was targeted by Chinese intelligence - AP News",
    "diag": [
     {
-     "title": "Taiwan detains a Communist Party leader over alleged Chinese",
+     "title": "Nvidia investigating reports that CEO Jensen Huang was targe",
      "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJ0cGFnQkI1bmtnW",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJ0cGFnQkI1bmtnWGFfOUxFUEluTEg3cy1UR",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzB5YTdpVVRqQUNKM",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzB5YTdpVVRqQUNKMHhoR3ZQNEdMb00yeU1kQ",
      "resolved": false
     },
     {
@@ -66,6 +66,13 @@
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjdIOHFkRmNaU2EzR",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjdIOHFkRmNaU2EzRXRzaVRoMmVmWFZJVmZMS",
+     "resolved": false
+    },
+    {
+     "title": "Taiwan detains a Communist Party leader over alleged Chinese",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJ0cGFnQkI1bmtnW",
+     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJ0cGFnQkI1bmtnWGFfOUxFUEluTEg3cy1UR",
      "resolved": false
     },
     {
@@ -80,13 +87,6 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5M",
      "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM",
-     "resolved": false
-    },
-    {
-     "title": "Pakistani astronaut to board Shenzhou 24 and become the firs",
-     "date": "2026-11-07",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOU",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQ",
      "resolved": false
     }
    ]
@@ -104,6 +104,13 @@
      "date": "2026-11-05",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2ExYklFYWVJcE1wV",
      "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2ExYklFYWVJcE1wVHJ0V2Yza3lWdG1UNHI1V",
+     "resolved": false
+    },
+    {
+     "title": "France 24 - International breaking news, top stories and hea",
+     "date": "2008-07-17",
+     "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0b",
+     "real": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0bFF6ejV2ZnhwVDNWRFRDd",
      "resolved": false
     },
     {
@@ -126,13 +133,6 @@
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFS",
      "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFSVZkUjZSWTJoMmNNSXIyQ",
      "resolved": false
-    },
-    {
-     "title": "'Period of uncertainty: Trump is tormented, he's unstoppable",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZHR1M2RCbE9TcmN2N",
-     "real": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZHR1M2RCbE9TcmN2NjJnSURnRVl4d0ZKZmF0T",
-     "resolved": false
     }
    ]
   },
@@ -142,13 +142,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Set to Lead World in Energy Investment in 2026, CCTV Says - Bloomberg.com",
+   "sample": "Nvidia Board to Probe Spying Case After CEO Admits Affair - Bloomberg",
    "diag": [
+    {
+     "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair - ",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeU5sZExFMm9PT0FDe",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeU5sZExFMm9PT0FDekcxMEVUWTFWVEJVNUNBc",
+     "resolved": false
+    },
     {
      "title": "China Set to Lead World in Energy Investment in 2026, CCTV S",
      "date": "2026-11-08",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQ",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQVp4SHlEUW9Nc1lhQVluW",
+     "resolved": false
+    },
+    {
+     "title": "China’s Bad-Debt Collectors Chase After 100 Million Defaulte",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjNuQXpCdjFjQXJqe",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjNuQXpCdjFjQXJqemxnQVRYV21id0VKSlBBW",
      "resolved": false
     },
     {
@@ -159,24 +173,10 @@
      "resolved": false
     },
     {
-     "title": "China Raises Delegate Count to 2,360 for 2027 Party Congress",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ3hwVEx0cHAxUFVTQ",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ3hwVEx0cHAxUFVTQThkbnhTajU5akxWcC1Re",
-     "resolved": false
-    },
-    {
      "title": "The US Thought It Could Change China. Instead, China Changed",
      "date": "2026-11-06",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1R",
      "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ0pSV25xV3dMSlQ1RGluRWtaU0ozRUE3X1FxT",
-     "resolved": false
-    },
-    {
-     "title": "China Confirms Talks With Russia, US on First Trilateral Mee",
-     "date": "2026-11-04",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY1F1em91OXdvMmpBT",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY1F1em91OXdvMmpBTkVCWkluN3FqMlhYR1BZY",
      "resolved": false
     }
    ]
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Prep schools help Chinese students get into Japan's top universities - Nikkei Asia",
+   "sample": "Nvidia probes CEO Jensen Huang's affair amid China security concerns - Nikkei Asia",
    "diag": [
+    {
+     "title": "Nvidia probes CEO Jensen Huang's affair amid China security ",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOHFURHRlNjdkRXQwU",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOHFURHRlNjdkRXQwUUVGX0JBcGNPamJPcjg5V",
+     "resolved": false
+    },
     {
      "title": "Prep schools help Chinese students get into Japan's top univ",
      "date": "2026-11-07",
@@ -216,13 +223,6 @@
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YV",
      "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDRsdElnRGFmbW5YVDI0UlZydWQtaHZhRUlFW",
      "resolved": false
-    },
-    {
-     "title": "Asia drives new corporate climate pledges as Chinese firms e",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUEdwZjZtZTB6NVJre",
-     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUEdwZjZtZTB6NVJreTd4WGFlTVRQenNmbzNLS",
-     "resolved": false
     }
    ]
   },
@@ -242,17 +242,17 @@
      "resolved": false
     },
     {
+     "title": "FirstFT: Nvidia CEO admits to affair after allegations of re",
+     "date": "2026-11-08",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbTZtaXlSVk5oLVJLM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbTZtaXlSVk5oLVJLM1QtLTRwUG9KMVlVNHBXT",
+     "resolved": false
+    },
+    {
      "title": "US believes Nvidia’s Huang had romantic relationship with al",
      "date": "2026-11-07",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25yc",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25ycmZfZ21DWjNEbTlxZ0w5U",
-     "resolved": false
-    },
-    {
-     "title": "US lawmakers summon Jensen Huang over Chinese spying concern",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU1ZOUVdrenJmUF9yeThze",
      "resolved": false
     },
     {
@@ -263,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "The perils of Xi Jinping’s purge - Financial Times",
+     "title": "US lawmakers summon Jensen Huang over Chinese spying concern",
      "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxM",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2FOMnJMZ203c2wxMUcwYzlvUlRyR3J2bHRIW",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JsdkNBNmFlV05QU1ZOUVdrenJmUF9yeThze",
      "resolved": false
     }
    ]
@@ -294,17 +294,17 @@
      "resolved": false
     },
     {
-     "title": "‘The Last Emperor of China’ Review: Puyi’s Fall From Heaven ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c3NHUWFsYUt3R2k3ZFB1W",
-     "resolved": false
-    },
-    {
      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving Ch",
      "date": "2026-10-31",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVe",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJLWWpfcXR5dEpVekREaFNLUlhOUmpFYm1ne",
+     "resolved": false
+    },
+    {
+     "title": "‘The Last Emperor of China’ Review: Puyi’s Fall From Heaven ",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUV3TVBmNlVGM1V6c3NHUWFsYUt3R2k3ZFB1W",
      "resolved": false
     },
     {
@@ -340,7 +340,7 @@
     },
     {
      "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Office",
-     "date": "2026-11-07",
+     "date": "2026-11-08",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTO",
      "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3O",
      "resolved": false
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "The Global Race to Harness Solar Power From Space"
+   "sample": "Iraq’s 5 Million Bpd Oil Claim Complicates Its OPEC Quota Push"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
+   "sample": "Nvidia to probe reports that Chinese intelligence targeted CEO Jensen Huang"
   },
   {
    "name": "JapanTimes",
