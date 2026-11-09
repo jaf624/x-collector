@@ -1,18 +1,18 @@
 {
- "feed": 970,
- "todo": 3,
+ "feed": 1034,
+ "todo": 7,
  "ok": 0,
- "fail": 3,
+ "fail": 7,
  "gnews_indexed": 800,
- "direct_n": 170,
- "direct_body": 170,
- "direct_rate": 1.0,
+ "direct_n": 234,
+ "direct_body": 233,
+ "direct_rate": 0.996,
  "reasons": {
-  "offtopic": 2,
+  "offtopic": 6,
   "no_long_paragraph": 1
  },
  "resolved": 0,
- "remain_empty": 803,
- "secs": 0.9,
- "ts": "2026-11-08T23:53:00Z"
+ "remain_empty": 807,
+ "secs": 2.0,
+ "ts": "2026-11-09T04:00:02Z"
 }
