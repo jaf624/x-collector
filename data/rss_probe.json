@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-10T20:40:41.028763Z",
+ "probed_at": "2026-11-10T21:41:02.584298Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -38,10 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Italian prosecutors target Amazon over sale of Chinese goods",
+     "title": "China seeks high-tech upper hand in industry carrying 80% of",
      "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMWFXSW1uMTJkVm54U",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMWFXSW1uMTJkVm54U0R5WG9CX2wwRG14XzltL",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVWNwN3AyR0VFQTBqe",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVWNwN3AyR0VFQTBqeUREa3A0M25yWkktTGFNX",
      "resolved": false
     }
    ]
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "Nvidia emerges as early test of Democrats' tougher China tec",
+     "title": "Nvidia shares drop as Jensen Huang affair raises China spy c",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS1htd25tTzV4SEZiM",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS1htd25tTzV4SEZiM2JBLVpSWHFEdGVFNkxRe",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUMza2VFbHk1ZUVha",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUMza2VFbHk1ZUVhakFoVUw4TjFEVmlWNlFOU",
      "resolved": false
     }
    ]
@@ -249,17 +249,17 @@
      "resolved": false
     },
     {
-     "title": "Countries speed up on renewables as China’s blistering pace ",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRDdtLWFRNF8wdC0zY",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRDdtLWFRNF8wdC0zYzE1azBtVGdvbWdkdFhmd",
-     "resolved": false
-    },
-    {
      "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chip d",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0d",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0dWRaZjYyWktobjJJQWVEa",
+     "resolved": false
+    },
+    {
+     "title": "Countries speed up on renewables as China’s blistering pace ",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRDdtLWFRNF8wdC0zY",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRDdtLWFRNF8wdC0zYzE1azBtVGdvbWdkdFhmd",
      "resolved": false
     },
     {
@@ -322,7 +322,7 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia Leader - The New York Times",
+   "sample": "Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang - The New York Times",
    "diag": [
     {
      "title": "Despite Denial, Trump Was Told on Trip to China About Spying",
@@ -332,7 +332,7 @@
      "resolved": false
     },
     {
-     "title": "Nvidia Hires Wachtell Lipton to Investigate CEO Jensen Huang",
+     "title": "Nvidia Hires Wachtell Lipton to Investigate C.E.O.’s Affair ",
      "date": "2026-11-10",
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMWVzYTIwQ2hrTWVfU",
      "real": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMWVzYTIwQ2hrTWVfUTd4emhaVk8tOWctVl9OV",
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 61,
+   "items": 60,
    "is_feed": true,
    "sample": "Myanmar lobbies US to invest in its rare earths sector, dominated by China - Reuters",
    "diag": [
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
-     "title": "US urges China to meet rare earths, agriculture commitments ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
-     "resolved": false
-    },
-    {
      "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
      "date": "2026-10-22",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
      "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
+     "resolved": false
+    },
+    {
+     "title": "China rare earth firms halt some US shipments over geopoliti",
+     "date": "2026-09-04",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Hegseth, Polish Counterpart Announce Intent to Boost Military Cooperation"
+   "sample": "Illinois Army National Guard Firefighters Partner with Local Fire Departments for Joint Tanker Shuttle Training"
   },
   {
    "name": "商务部新闻",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds"
+   "sample": "US soldier arrested in UK for suspected &#8216;espionage&#8217; for Russia"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "British Airways Owner Warns Green Fuel Mandates Could Kill European Aviation"
+   "sample": "Houthis Launch Another Attack on Pumping Stations Along Crucial Saudi East-West"
   },
   {
    "name": "IMF",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Remote mine hunters silently trawl the waters as minesweepers go by the wayside"
+   "sample": "Allen Control Systems launches new division to develop counter-drone lasers"
   },
   {
    "name": "MiningWeekly",
