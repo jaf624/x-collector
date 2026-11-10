@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-10T00:37:45.492078Z",
+ "probed_at": "2026-11-10T05:07:25.165874Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,29 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy - Reuters",
+   "sample": "China's trade surplus soars past $1 trillion as AI boom powers exports - Reuters",
    "diag": [
+    {
+     "title": "China's trade surplus soars past $1 trillion as AI boom powe",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkdyZ0hqUllXMmZjU",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkdyZ0hqUllXMmZjUVB1QnBoMXFCYWdEUldHN",
+     "resolved": false
+    },
+    {
+     "title": "Taiwan says China is conducting 'area denial' drills in West",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObXZNeGJhdmxLQ0dvc",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObXZNeGJhdmxLQ0dvcnpvNno0TkZhYUNXQmpTd",
+     "resolved": false
+    },
+    {
+     "title": "China seeks high-tech upper hand in industry carrying 80% of",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVWNwN3AyR0VFQTBqe",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVWNwN3AyR0VFQTBqeUREa3A0M25yWkktTGFNX",
+     "resolved": false
+    },
     {
      "title": "Nvidia, CEO Huang sued over disclosures related to suspected",
      "date": "2026-11-09",
@@ -17,31 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Nvidia spy allegations likely to spur laws to tighten China'",
+     "title": "House Democratic leader says lawmakers need answers on Nvidi",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPd3I1WGxHazNEeGdYc",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPd3I1WGxHazNEeGdYc1VaNnZPbWZwN2xOQjVRZ",
-     "resolved": false
-    },
-    {
-     "title": "China extends suspension of new rare earth controls until Ja",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUa",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUaEJCaDNDQWZ2bzhKOFNmb",
-     "resolved": false
-    },
-    {
-     "title": "Apple Intelligence AI service registers with Chinese regulat",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQanptRUNhdmdrV2x6Y",
-     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQanptRUNhdmdrV2x6Y01qWFNCU3BlRTZTN1FyZ",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: Chinese banks boost dollar deposit rates, sources",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTzF1MFhueDRWX1A3L",
-     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTzF1MFhueDRWX1A3LWlGYWJuZ21hMjNBQkE5a",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSjRfbFFhVjNvY1ZDN",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSjRfbFFhVjNvY1ZDN2dBRl9jOXZSOWpPOEJmT",
      "resolved": false
     }
    ]
@@ -52,11 +52,18 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Trump says FBI is looking at Nvidia CEO Jensen Huang’s affair with alleged Chinese agent - AP News",
+   "sample": "China’s trade surplus surpasses $1 trillion for a 2nd straight year, as exports surge 35% - AP News",
    "diag": [
     {
-     "title": "Trump says FBI is looking at Nvidia CEO Jensen Huang’s affai",
-     "date": "2026-11-09",
+     "title": "China’s trade surplus surpasses $1 trillion for a 2nd straig",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeWZLSmVmc24zNkczO",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeWZLSmVmc24zNkczOTlKaXE0eGlhQUZhYWNvN",
+     "resolved": false
+    },
+    {
+     "title": "FBI is looking at Nvidia CEO Jensen Huang's affair with an a",
+     "date": "2026-11-10",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQWY3b0NNRFBNRG5jZ",
      "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQWY3b0NNRFBNRG5jZVdXM05URnhOV19vQ24zV",
      "resolved": false
@@ -69,13 +76,6 @@
      "resolved": false
     },
     {
-     "title": "A pastor at a Beijing underground church has been arrested, ",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJsckJFWkZtYkFHV",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJsckJFWkZtYkFHVkl2eF9VTlBoNUZrNUtib",
-     "resolved": false
-    },
-    {
      "title": "What we know — and what we don't — as Nvidia investigates an",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVlpxelBXZlVqS3JrU",
@@ -83,10 +83,10 @@
      "resolved": false
     },
     {
-     "title": "Japan to provide coastal radar and drones to the Philippines",
+     "title": "A pastor at a Beijing underground church has been arrested, ",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXFMdDYwVW1GYXA0c",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXFMdDYwVW1GYXA0cnB1UHYtR1JqRW55b08xM",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJsckJFWkZtYkFHV",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJsckJFWkZtYkFHVkl2eF9VTlBoNUZrNUtib",
      "resolved": false
     }
    ]
@@ -128,10 +128,10 @@
      "resolved": false
     },
     {
-     "title": "Down to Earth - Scientists begin tests on human composting, ",
-     "date": "2026-11-02",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3c",
-     "real": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdVo2NVhCWnpXLWt3cmZYRUpiNkdZR1QwRUJLZ",
+     "title": "France 24 - International breaking news, top stories and hea",
+     "date": "2008-07-17",
+     "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0b",
+     "real": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBzcl9IYjMtT3FPMUF0bFF6ejV2ZnhwVDNWRFRDd",
      "resolved": false
     }
    ]
@@ -142,8 +142,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Everything Jensen Huang Said About China Is Out the Window - Bloomberg.com",
+   "sample": "Chinese Trade Surplus Tops $1 Trillion for Second Time Ever - Bloomberg.com",
    "diag": [
+    {
+     "title": "Chinese Trade Surplus Tops $1 Trillion for Second Time Ever ",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV09ia2ZxQ0QxUDlzd",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV09ia2ZxQ0QxUDlzdC1TRFhXRENHNG9kc0NTQ",
+     "resolved": false
+    },
+    {
+     "title": "BYD, Chery-Led China Auto Exports Boom Comes With $270 Billi",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX3pLSF9KRGdHZEFZR",
+     "real": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX3pLSF9KRGdHZEFZRWNvcnFhQkJkUFZsTEdzU",
+     "resolved": false
+    },
     {
      "title": "Everything Jensen Huang Said About China Is Out the Window -",
      "date": "2026-11-09",
@@ -152,31 +166,17 @@
      "resolved": false
     },
     {
-     "title": "BYD, Chery-Led China Auto Exports Boom Comes With $270 Billi",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRUFuTkJGdlJ3Si00V",
-     "real": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRUFuTkJGdlJ3Si00VWoyVDVoaTRGR3ItLXp0a",
+     "title": "China Water Environment Seeks $410 Million Loan Restructurin",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZl95NVhjczY0Q3JEM",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZl95NVhjczY0Q3JEMmhTUkJJbmRraXhLZkFRa",
      "resolved": false
     },
     {
-     "title": "Alice Huang, Suspected China Spy, Spent Years in Nvidia’s Or",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdGV5b2tYRTdnc1hMT",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdGV5b2tYRTdnc1hMTXRKMnh2VWZFU2hmcmJwe",
-     "resolved": false
-    },
-    {
-     "title": "What to Know About the China Spy Allegations Involving Nvidi",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaWpIN19mMDlMdm1vc",
-     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaWpIN19mMDlMdm1vcVY1Vm1CODRyQ3BYYWZRb",
-     "resolved": false
-    },
-    {
-     "title": "Rich Country, Poor Citizens: China’s $20 Trillion Paradox - ",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzdqQ0k5X2ZteTYyd",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzdqQ0k5X2ZteTYyd2h2Ri1xaUZXVmtOLS1KR",
+     "title": "China Chipmakers to Debut in HK in Test of Tech Stock Demand",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOU5kVnZIVlVQS2NJc",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOU5kVnZIVlVQS2NJcFRIYU9lWVNFWGRZN1BYa",
      "resolved": false
     }
    ]
@@ -204,24 +204,24 @@
      "resolved": false
     },
     {
+     "title": "China is emerging as a key testing ground for healthcare inn",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSmJEcFRXQ2NXY0I5S",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSmJEcFRXQ2NXY0I5SEtrbUc2Z0o4M0FPbmxid",
+     "resolved": false
+    },
+    {
+     "title": "Nvidia emerges as early test of Democrats' tougher China tec",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS1htd25tTzV4SEZiM",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS1htd25tTzV4SEZiM2JBLVpSWHFEdGVFNkxRe",
+     "resolved": false
+    },
+    {
      "title": "Nvidia probes CEO Jensen Huang's affair amid China security ",
      "date": "2026-11-08",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOHFURHRlNjdkRXQwU",
      "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOHFURHRlNjdkRXQwUUVGX0JBcGNPamJPcjg5V",
-     "resolved": false
-    },
-    {
-     "title": "Trump says he thinks he'll meet with Xi and Putin at China A",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT2xUYnk2ZlhRQzFhQ",
-     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT2xUYnk2ZlhRQzFhQXBYRWVHZ0FEbEozd3k4T",
-     "resolved": false
-    },
-    {
-     "title": "Japan headlight king Koito tears down Chinese rivals' lamps ",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOEFmeExHeTQtLVlpc",
-     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOEFmeExHeTQtLVlpcVNDWk9xVkRfbmhRTjVnN",
      "resolved": false
     }
    ]
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors - Financial Times",
+   "sample": "China’s trade surplus exceeds $1tn for first 10 months of year - Financial Times",
    "diag": [
+    {
+     "title": "China’s trade surplus exceeds $1tn for first 10 months of ye",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcmpqbG1WMjVjVGtaT",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcmpqbG1WMjVjVGtaTmdwR2hnbkJ0OWxiS2NZN",
+     "resolved": false
+    },
     {
      "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chip d",
      "date": "2026-11-09",
@@ -249,7 +256,7 @@
      "resolved": false
     },
     {
-     "title": "Democrat triumph offers China ‘window to catch up’ on AI - F",
+     "title": "Democrats’ triumph offers China ‘window to catch up’ on AI -",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN3pjQmFySi0wZGtaT",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN3pjQmFySi0wZGtaT2x3Vk9ncjBYUGJwOGhiV",
@@ -260,13 +267,6 @@
      "date": "2026-11-08",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1hVaUg5SUpMcFFNM",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1hVaUg5SUpMcFFNMDBfVzRYcmhXQzlNNW5vb",
-     "resolved": false
-    },
-    {
-     "title": "China’s producer prices hit four-year high - Financial Times",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekFHNFNEY0R6eVpBZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekFHNFNEY0R6eVpBZVhoU1ZTV3dxY1ZlTmpxV",
      "resolved": false
     }
    ]
@@ -322,8 +322,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Rejects Espionage Claims Involving Nvidia C.E.O. Jensen Huang - The New York Times",
+   "sample": "China’s Trade Surplus Passes $1 Trillion at Record Pace - The New York Times",
    "diag": [
+    {
+     "title": "China’s Trade Surplus Passes $1 Trillion at Record Pace - Th",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR3p6ZVB0VVFMcEYta",
+     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR3p6ZVB0VVFMcEYtamViZXlQRERkRW8yb3lmS",
+     "resolved": false
+    },
+    {
+     "title": "Nvidia CEO Jensen Huang Told Trump He Did Not Know Chinese W",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWc0swNFhFTHlRNHhjZ",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWc0swNFhFTHlRNHhjZ1paZU5JZHU3N2pxQkIwV",
+     "resolved": false
+    },
     {
      "title": "China Rejects Espionage Claims Involving Nvidia C.E.O. Jense",
      "date": "2026-11-09",
@@ -340,23 +354,9 @@
     },
     {
      "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship ",
-     "date": "2026-11-09",
+     "date": "2026-11-08",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R",
      "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnb",
-     "resolved": false
-    },
-    {
-     "title": "Rubio Warned Officials About Nvidia Chief’s Entanglement Wit",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxa",
-     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEdHYlc2U3haYTIxajB0RktZWnprNjVaMXRsT",
-     "resolved": false
-    },
-    {
-     "title": "Video: Nvidia Inquiry Focuses on Relationship Between Jensen",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNF9ucFFySndEWFhkc",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNF9ucFFySndEWFhkcTJDTzFNaUdTbTlwOXZIQ",
      "resolved": false
     }
    ]
@@ -367,8 +367,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Can Nvidia’s boss survive a Chinese-spy controversy? - The Economist",
+   "sample": "Xi Jinping’s plan for a China-centric world order - The Economist",
    "diag": [
+    {
+     "title": "Xi Jinping’s plan for a China-centric world order - The Econ",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU0h5Rk8wZGVqdVJvd",
+     "real": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU0h5Rk8wZGVqdVJvd2RhYlZpWVpIYTVuWi1Cc",
+     "resolved": false
+    },
     {
      "title": "Can Nvidia’s boss survive a Chinese-spy controversy? - The E",
      "date": "2026-11-09",
@@ -384,24 +391,17 @@
      "resolved": false
     },
     {
-     "title": "Xi Jinping’s plan for a China-centric world order - The Econ",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU0h5Rk8wZGVqdVJvd",
-     "real": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU0h5Rk8wZGVqdVJvd2RhYlZpWVpIYTVuWi1Cc",
-     "resolved": false
-    },
-    {
-     "title": "Wanted: a news researcher in Beijing - The Economist",
-     "date": "2026-11-03",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKT",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkJzdDV5U1lFbVJKTTFRV1I5aTRDWWZaZWZ5O",
-     "resolved": false
-    },
-    {
      "title": "What to make of 25 years of Narendra Modi - The Economist",
      "date": "2026-10-29",
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSWpxY21xQWVPTWlkQ",
      "real": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSWpxY21xQWVPTWlkQm50azZkb05Ia1JBZGJEW",
+     "resolved": false
+    },
+    {
+     "title": "Indebted tycoons haunt China’s banking system - The Economis",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZml3QzR3eS1hNFl6d",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZml3QzR3eS1hNFl6d2tXb3hDRFFlN25zVUJDQ",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 60,
+   "items": 58,
    "is_feed": true,
    "sample": "China extends suspension of new rare earth controls until January - Reuters",
    "diag": [
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[黃仁勳與疑似中國間諜婚外情風波：特朗普稱FBI已介入調查]]>"
+   "sample": "<![CDATA[黃仁勳婚外情風波將在全球引發連鎖反應]]>"
   },
   {
    "name": "美国国务院",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "China to Spend $940B on Energy Transition in 2026"
+   "sample": "The 75-Year Army Deal That Could Reshape America&#039;s Rare Earth Supply"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Nvidia shares slide as board probes CEO over affair with alleged Chinese spy"
+   "sample": "California voters reject proposed one-time tax on billionaires' wealth"
   },
   {
    "name": "JapanTimes",
