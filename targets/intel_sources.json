@@ -988,6 +988,958 @@
    "lang": "en",
    "cat": "智库报告",
    "pat": "rand\\.org/pubs/[^/\\\"]+"
+  },
+  {
+   "name": "战略与国际研究中心CSIS",
+   "url": "https://www.csis.org/analysis",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "兰德公司RAND",
+   "url": "https://www.rand.org/news.html",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "布鲁金斯学会",
+   "url": "https://www.brookings.edu/articles/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "卡内基国际和平基金会",
+   "url": "https://carnegieendowment.org/research",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "大西洋理事会",
+   "url": "https://www.atlanticcouncil.org/dispatches/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国企业研究所AEI",
+   "url": "https://www.aei.org/articles/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "传统基金会",
+   "url": "https://www.heritage.org/asia",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "哈德逊研究所",
+   "url": "https://www.hudson.org/commentary",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "新美国安全中心CNAS",
+   "url": "https://www.cnas.org/publications",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "史汀生中心",
+   "url": "https://www.stimson.org/analysis/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "德国墨卡托中国研究中心MERICS",
+   "url": "https://merics.org/en/analysis",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "澳洲战略政策研究所ASPI",
+   "url": "https://www.aspi.org.au/reports",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "日本防卫研究所NIDS",
+   "url": "https://www.nids.mod.go.jp/english/publication/index.html",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "法国国际关系研究所IFRI",
+   "url": "https://www.ifri.org/en/publications",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "英国国际战略研究所IISS",
+   "url": "https://www.iiss.org/online-analysis/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "欧洲对外关系委员会ECFR",
+   "url": "https://ecfr.eu/publications/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "卡内基国际核政策",
+   "url": "https://carnegieendowment.org/programs/nuclear-policy",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "斯德哥尔摩国际和平研究所SIPRI",
+   "url": "https://www.sipri.org/publications",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国和平研究所USIP",
+   "url": "https://www.usip.org/publications",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "欧洲政策分析中心CEPA",
+   "url": "https://cepa.org/article/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国国防部新闻",
+   "url": "https://www.defense.gov/News/Releases/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国海军研究学会USNI",
+   "url": "https://news.usni.org/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "突破防务BreakingDefense",
+   "url": "https://breakingdefense.com/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "战争困境WarOnTheRocks",
+   "url": "https://warontherocks.com/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "战区TheWarZone",
+   "url": "https://www.twz.com/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "简氏防务Janes",
+   "url": "https://www.janes.com/defence-news",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "陆军技术ArmyTechnology",
+   "url": "https://www.army-technology.com/news/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "海军技术NavalTechnology",
+   "url": "https://www.naval-technology.com/news/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "空军技术AirforceTechnology",
+   "url": "https://www.airforce-technology.com/news/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国陆军协会AUSA",
+   "url": "https://www.ausa.org/news",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国海军协会",
+   "url": "https://www.navalassoc.org/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "导弹防御局MDA",
+   "url": "https://www.mda.mil/news/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国太空军",
+   "url": "https://www.spaceforce.mil/News/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "欧盟对外行动署EEAS",
+   "url": "https://www.eeas.europa.eu/eeas/latest-news_en",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "日本防卫省",
+   "url": "https://www.mod.go.jp/e/press/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "韩国国防部",
+   "url": "https://www.mnd.go.kr/mbshome/mbs/mndEN/",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "台湾国防部",
+   "url": "https://www.mnd.gov.tw/Publish.aspx?cnid=65",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "印度国防部",
+   "url": "https://www.mod.gov.in/press-releases",
+   "lang": "en",
+   "cat": "国防动态",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国商务部BIS",
+   "url": "https://www.bis.gov/press-release",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国财政部OFAC",
+   "url": "https://ofac.treasury.gov/recent-actions",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "经合组织OECD",
+   "url": "https://www.oecd.org/newsroom/",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "金融行动特别工作组FATF",
+   "url": "https://www.fatf-gafi.org/en/publications.html",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "国际货币基金组织IMF",
+   "url": "https://www.imf.org/en/News",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "世界银行",
+   "url": "https://www.worldbank.org/en/news",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "亚洲开发银行",
+   "url": "https://www.adb.org/news",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "彼得森国际经济研究所PIIE",
+   "url": "https://www.piie.com/research",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "荣鼎集团Rhodium",
+   "url": "https://rhg.com/research/",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "战略与国际研究中心贸易",
+   "url": "https://www.csis.org/programs/scholl-chair-international-business",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国国会研究服务CRS",
+   "url": "https://crsreports.congress.gov/",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国国会美中经济安全委员会USCC",
+   "url": "https://www.uscc.gov/research",
+   "lang": "en",
+   "cat": "出口管制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "半导体工程SemiconductorEngineering",
+   "url": "https://semiengineering.com/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "电子工程时报EE Times",
+   "url": "https://www.eetimes.com/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "集微网",
+   "url": "https://www.ijiwei.com/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "芯智讯",
+   "url": "https://www.xinzhiyun.com/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "麻省理工科技评论",
+   "url": "https://www.technologyreview.com/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "Ars Technica",
+   "url": "https://arstechnica.com/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "IEEE Spectrum",
+   "url": "https://spectrum.ieee.org/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "自然新闻Nature",
+   "url": "https://www.nature.com/news",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "科学Science",
+   "url": "https://www.science.org/news",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "量子计算报告",
+   "url": "https://thequantuminsider.com/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "AI前沿",
+   "url": "https://www.deeplearning.ai/the-batch/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国国家标准与技术研究院NIST",
+   "url": "https://www.nist.gov/news-events/news",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国能源部",
+   "url": "https://www.energy.gov/news",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国国家科学基金会NSF",
+   "url": "https://www.nsf.gov/news/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "CISA网络安全局",
+   "url": "https://www.cisa.gov/news-events",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "MITRE",
+   "url": "https://www.mitre.org/news-insights",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "Krebs安全",
+   "url": "https://krebsonsecurity.com/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "The Record安全",
+   "url": "https://therecord.media/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "DarkReading",
+   "url": "https://www.darkreading.com/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "Recorded Future",
+   "url": "https://www.recordedfuture.com/blog/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国太空新闻网SpaceNews",
+   "url": "https://spacenews.com/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "航天科技新闻",
+   "url": "https://spaceref.com/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "卫星产业",
+   "url": "https://www.satelliteevolution.com/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国太空司令部",
+   "url": "https://www.spacecom.mil/News/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "国际电信联盟ITU",
+   "url": "https://www.itu.int/en/mediacentre/Pages/default.aspx",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "标普全球大宗商品",
+   "url": "https://www.spglobal.com/commodityinsights/en/market-insights/latest-news",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "路透大宗商品",
+   "url": "https://www.reuters.com/markets/commodities/",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "矿业周刊MiningWeekly",
+   "url": "https://www.miningweekly.com/",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "矿业科技MiningTechnology",
+   "url": "https://www.mining-technology.com/news/",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "金属通报MetalBulletin",
+   "url": "https://www.metalbulletin.com/",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "国际能源署IEA",
+   "url": "https://www.iea.org/news",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国能源信息署EIA",
+   "url": "https://www.eia.gov/todayinenergy/",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "石油输出国组织OPEC",
+   "url": "https://www.opec.org/opec_web/en/press_room.htm",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "世界核协会WNA",
+   "url": "https://www.world-nuclear.org/news",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "国际原子能机构IAEA",
+   "url": "https://www.iaea.org/newscenter/news",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "中国稀土协会",
+   "url": "http://www.chinare.org.cn/",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "上海有色网SMM",
+   "url": "https://news.smm.cn/",
+   "lang": "en",
+   "cat": "资源能源",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "美国之音中文",
+   "url": "https://www.voachinese.com/",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "纽约时报中文",
+   "url": "https://cn.nytimes.com/",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "日经中文网",
+   "url": "https://cn.nikkei.com/",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "华尔街日报中文",
+   "url": "https://cn.wsj.com/",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "联合早报",
+   "url": "https://www.zaobao.com.sg/",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "中央社",
+   "url": "https://www.cna.com.tw/list/aipl.aspx",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "自由时报",
+   "url": "https://news.ltn.com.tw/list/breakingnews/world",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "明报",
+   "url": "https://news.mingpao.com/pns/国际/section/",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "端传媒",
+   "url": "https://theinitium.com/",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "关键评论网",
+   "url": "https://www.thenewslens.com/",
+   "lang": "zh",
+   "cat": "国际中文媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "日本时报JapanTimes",
+   "url": "https://www.japantimes.co.jp/news/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "读卖新闻",
+   "url": "https://www.yomiuri.co.jp/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "产经新闻",
+   "url": "https://www.sankei.com/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "NHK新闻",
+   "url": "https://www3.nhk.or.jp/news/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "朝鲜日报",
+   "url": "https://www.chosun.com/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "韩联社",
+   "url": "https://www.yna.co.kr/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "印度斯坦时报",
+   "url": "https://www.hindustantimes.com/world-news",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "印度快报",
+   "url": "https://indianexpress.com/section/world/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "雅加达邮报",
+   "url": "https://www.thejakartapost.com/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "曼谷邮报",
+   "url": "https://www.bangkokpost.com/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "菲律宾每日问询者",
+   "url": "https://newsinfo.inquirer.net/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "越南快讯",
+   "url": "https://e.vnexpress.net/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "澳大利亚人报",
+   "url": "https://www.theaustralian.com.au/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "澳大利亚广播公司ABC",
+   "url": "https://www.abc.net.au/news/",
+   "lang": "en",
+   "cat": "亚太媒体",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "自由亚洲电台藏语",
+   "url": "https://www.rfa.org/tibetan/",
+   "lang": "zh",
+   "cat": "台海",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "自由亚洲电台维语",
+   "url": "https://www.rfa.org/uyghur/",
+   "lang": "zh",
+   "cat": "台海",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "西藏之声",
+   "url": "https://tibetvietnam.net/",
+   "lang": "zh",
+   "cat": "台海",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "世界维吾尔大会",
+   "url": "https://www.uyghurcongress.org/",
+   "lang": "zh",
+   "cat": "台海",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "国际声援西藏运动",
+   "url": "https://www.savetibet.org/",
+   "lang": "zh",
+   "cat": "台海",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "香港监察",
+   "url": "https://www.hkwatch.org/",
+   "lang": "zh",
+   "cat": "台海",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "台湾民主基金会",
+   "url": "https://www.tfd.org.tw/",
+   "lang": "zh",
+   "cat": "台海",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "台湾中央研究院",
+   "url": "https://www.sinica.edu.tw/",
+   "lang": "zh",
+   "cat": "台海",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "台湾智库",
+   "url": "https://www.taiwanthinktank.org/",
+   "lang": "zh",
+   "cat": "台海",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "两岸交流远景基金会",
+   "url": "https://www.pf.org.tw/",
+   "lang": "zh",
+   "cat": "台海",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "半岛电视台",
+   "url": "https://www.aljazeera.com/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "阿拉伯新闻",
+   "url": "https://www.arabnews.com/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "耶路撒冷邮报",
+   "url": "https://www.jpost.com/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "德国之声",
+   "url": "https://www.dw.com/en/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "法国世界报",
+   "url": "https://www.lemonde.fr/en/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "法国国际广播",
+   "url": "https://www.rfi.fr/en/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "德国明镜",
+   "url": "https://www.spiegel.de/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "波兰东欧研究中心OSW",
+   "url": "https://www.osw.waw.pl/en",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "非洲报道",
+   "url": "https://www.theafricareport.com/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "泛非通讯社",
+   "url": "https://apanews.net/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "巴西圣保罗页报",
+   "url": "https://www1.folha.uol.com.br/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "阿根廷号角报",
+   "url": "https://www.clarin.com/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+  },
+  {
+   "name": "联合国新闻",
+   "url": "https://news.un.org/",
+   "lang": "en",
+   "cat": "多边机制",
+   "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
   }
  ],
  "search_categories": [
@@ -2586,6 +3538,342 @@
   {
    "cat": "经济金融",
    "q": "China sanctions evasion North Korea Iran"
+  },
+  {
+   "cat": "出口管制与芯片",
+   "q": "China semiconductor export controls new rules"
+  },
+  {
+   "cat": "出口管制与芯片",
+   "q": "BIS entity list Chinese companies added"
+  },
+  {
+   "cat": "出口管制与芯片",
+   "q": "advanced chip smuggling China transshipment"
+  },
+  {
+   "cat": "出口管制与芯片",
+   "q": "China rare earth export ban gallium germanium"
+  },
+  {
+   "cat": "出口管制与芯片",
+   "q": "Dutch Japan chip equipment export license China"
+  },
+  {
+   "cat": "出口管制与芯片",
+   "q": "China chip foundry advanced node expansion"
+  },
+  {
+   "cat": "出口管制与芯片",
+   "q": "AI chip export diversion shell company China"
+  },
+  {
+   "cat": "关键矿产与稀土",
+   "q": "China critical minerals export restriction graphite lithium"
+  },
+  {
+   "cat": "关键矿产与稀土",
+   "q": "rare earth processing plant outside China investment"
+  },
+  {
+   "cat": "关键矿产与稀土",
+   "q": "China tungsten antimony export control"
+  },
+  {
+   "cat": "关键矿产与稀土",
+   "q": "cobalt nickel Indonesia supply chain China"
+  },
+  {
+   "cat": "关键矿产与稀土",
+   "q": "uranium enrichment China nuclear fuel supply"
+  },
+  {
+   "cat": "关键矿产与稀土",
+   "q": "China mineral pricing power long term contract"
+  },
+  {
+   "cat": "台海与岛链",
+   "q": "PLA exercise Taiwan strait encirclement"
+  },
+  {
+   "cat": "台海与岛链",
+   "q": "US arms sale Taiwan new package"
+  },
+  {
+   "cat": "台海与岛链",
+   "q": " Taiwan coast guard China grey zone"
+  },
+  {
+   "cat": "台海与岛链",
+   "q": "Japan southwest islands missile deployment China"
+  },
+  {
+   "cat": "台海与岛链",
+   "q": "Philippines South China Sea coast guard collision"
+  },
+  {
+   "cat": "台海与岛链",
+   "q": "Guam second island chain missile defense China"
+  },
+  {
+   "cat": "海上与航运",
+   "q": "South China Sea maritime militia China"
+  },
+  {
+   "cat": "海上与航运",
+   "q": "Taiwan strait shipping lane risk insurance"
+  },
+  {
+   "cat": "海上与航运",
+   "q": "Red Sea shipping China cargo rerouting"
+  },
+  {
+   "cat": "海上与航运",
+   "q": "Arctic sea route China icebreaker transit"
+  },
+  {
+   "cat": "海上与航运",
+   "q": "subsea cable cutting Taiwan martime"
+  },
+  {
+   "cat": "海上与航运",
+   "q": "port terminal China investment security review"
+  },
+  {
+   "cat": "网络与数据",
+   "q": "China linked APT breach government network"
+  },
+  {
+   "cat": "网络与数据",
+   "q": "Chinese hackers telecom espionage campaign"
+  },
+  {
+   "cat": "网络与数据",
+   "q": "ransomware critical infrastructure China actor"
+  },
+  {
+   "cat": "网络与数据",
+   "q": "data leak Chinese app overseas users"
+  },
+  {
+   "cat": "网络与数据",
+   "q": "Starlink China military use Taiwan"
+  },
+  {
+   "cat": "网络与数据",
+   "q": "AI deepfake influence operation China"
+  },
+  {
+   "cat": "认知与舆论",
+   "q": "China influence operation overseas Chinese community"
+  },
+  {
+   "cat": "认知与舆论",
+   "q": "Chinese state media disinformation campaign Taiwan"
+  },
+  {
+   "cat": "认知与舆论",
+   "q": "coordinated inauthentic behavior China platform"
+  },
+  {
+   "cat": "认知与舆论",
+   "q": "China diaspora mobilization protest"
+  },
+  {
+   "cat": "认知与舆论",
+   "q": "overseas Chinese united front infiltration"
+  },
+  {
+   "cat": "认知与舆论",
+   "q": "Chinese language media foreign interference"
+  },
+  {
+   "cat": "金融与灰色资金",
+   "q": "China shell company sanctions evasion network"
+  },
+  {
+   "cat": "金融与灰色资金",
+   "q": "crypto money laundering Chinese gang busted"
+  },
+  {
+   "cat": "金融与灰色资金",
+   "q": "stablecoin illicit finance China linked"
+  },
+  {
+   "cat": "金融与灰色资金",
+   "q": "underground banking China capital flight"
+  },
+  {
+   "cat": "金融与灰色资金",
+   "q": "trade based money laundering China export"
+  },
+  {
+   "cat": "金融与灰色资金",
+   "q": "China state bank proxy correspondent bank risk"
+  },
+  {
+   "cat": "军事技术与演习",
+   "q": "China hypersonic test missile defense"
+  },
+  {
+   "cat": "军事技术与演习",
+   "q": "PLA drone swarm exercise"
+  },
+  {
+   "cat": "军事技术与演习",
+   "q": "China naval nuclear submarine deployment"
+  },
+  {
+   "cat": "军事技术与演习",
+   "q": "China aircraft carrier drill Pacific"
+  },
+  {
+   "cat": "军事技术与演习",
+   "q": "China military AI command decision"
+  },
+  {
+   "cat": "军事技术与演习",
+   "q": "China space military satellite reconnaissance"
+  },
+  {
+   "cat": "太空与遥感",
+   "q": "China satellite constellation remote sensing military"
+  },
+  {
+   "cat": "太空与遥感",
+   "q": "China space station military application"
+  },
+  {
+   "cat": "太空与遥感",
+   "q": "China reusable rocket progress"
+  },
+  {
+   "cat": "太空与遥感",
+   "q": "satellite imagery intelligence China port"
+  },
+  {
+   "cat": "生物与实验室",
+   "q": "China biolab dual use research concern"
+  },
+  {
+   "cat": "生物与实验室",
+   "q": "gene data China collection overseas"
+  },
+  {
+   "cat": "生物与实验室",
+   "q": "biolab leak investigation China"
+  },
+  {
+   "cat": "生物与实验室",
+   "q": "pandemic preparedness China cooperation"
+  },
+  {
+   "cat": "学术与人才",
+   "q": "China talent program recruitment scientists"
+  },
+  {
+   "cat": "学术与人才",
+   "q": "academic cooperation China military linked university"
+  },
+  {
+   "cat": "学术与人才",
+   "q": "research integrity China paper retraction"
+  },
+  {
+   "cat": "学术与人才",
+   "q": "China students sensitive technology visa"
+  },
+  {
+   "cat": "涉疆涉藏涉蒙",
+   "q": "Xinjiang forced labor report new"
+  },
+  {
+   "cat": "涉疆涉藏涉蒙",
+   "q": "Tibet dam resettlement China"
+  },
+  {
+   "cat": "涉疆涉藏涉蒙",
+   "q": "Inner Mongolia mining protest China"
+  },
+  {
+   "cat": "涉疆涉藏涉蒙",
+   "q": "UN special rapporteur China minorities"
+  },
+  {
+   "cat": "日本与韩国",
+   "q": "Japan defense budget counter strike China"
+  },
+  {
+   "cat": "日本与韩国",
+   "q": "Japan Taiwan contingency legislation"
+  },
+  {
+   "cat": "日本与韩国",
+   "q": "South Korea chip export China pressure"
+  },
+  {
+   "cat": "日本与韩国",
+   "q": "South Korea US alliance nuclear consultation China"
+  },
+  {
+   "cat": "东南亚与南亚",
+   "q": "Philippines US basing agreement China"
+  },
+  {
+   "cat": "东南亚与南亚",
+   "q": "Vietnam South China Sea island construction"
+  },
+  {
+   "cat": "东南亚与南亚",
+   "q": "Indonesia nickel China investment security"
+  },
+  {
+   "cat": "东南亚与南亚",
+   "q": "India border infrastructure China buildup"
+  },
+  {
+   "cat": "东南亚与南亚",
+   "q": "Malaysia port China security concern"
+  },
+  {
+   "cat": "欧洲与中东欧",
+   "q": "EU de-risking China supply chain legislation"
+  },
+  {
+   "cat": "欧洲与中东欧",
+   "q": "Germany China strategy industrial dependence"
+  },
+  {
+   "cat": "欧洲与中东欧",
+   "q": "Poland Taiwan cooperation China reaction"
+  },
+  {
+   "cat": "欧洲与中东欧",
+   "q": "Netherlands ASML China export license"
+  },
+  {
+   "cat": "欧洲与中东欧",
+   "q": "Czech Taiwan visit China sanctions"
+  },
+  {
+   "cat": "多边与规则",
+   "q": "WTO dispute China subsidy complaint"
+  },
+  {
+   "cat": "多边与规则",
+   "q": "UN human rights China resolution vote"
+  },
+  {
+   "cat": "多边与规则",
+   "q": "FATF China grey list assessment"
+  },
+  {
+   "cat": "多边与规则",
+   "q": "Belt and Road debt default country"
+  },
+  {
+   "cat": "多边与规则",
+   "q": "G7 critical minerals agreement China"
   }
  ],
  "watch_categories": [
