@@ -18,8 +18,8 @@ import xml.etree.ElementTree as ET
 import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (compatible; intelhub-swarm/1.0)"}
-BODY_MIN = 400
-BODY_MAX = 36
+BODY_MIN = 260
+BODY_MAX = 96
 HOURS = 24
 
 
@@ -289,12 +289,17 @@ def main():
     for it in picked:
         stats["body_tried"] += 1
         try:
-            html_text = get(it["url"], timeout=15, jina=True)
-            body = extract_body(html_text)
+            body = ""
+            for _uj in (False, True):
+                try:
+                    body = extract_body(get(it["url"], timeout=15, jina=_uj))
+                except Exception:
+                    body = ""
+                if len(re.findall(r"[\u4e00-\u9fa5]", body)) >= 180:
+                    break
             han = len(re.findall(r"[\u4e00-\u9fa5]", body))
-            t8 = re.sub(r"[^\u4e00-\u9fa5]", "", it.get("title") or "")[:8]
-            hit = (len(t8) >= 8 and t8 in re.sub(r"[^\u4e00-\u9fa5]", "", body))
-            if han >= BODY_MIN and (hit or len(t8) < 8):
+            hit = title_in_body(it.get("title") or "", body)
+            if han >= BODY_MIN and hit:
                 it["body"] = body[:8000]
                 it["body_len"] = han
                 stats["body_ok"] += 1
