@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-11T16:26:32.290164Z",
+ "probed_at": "2026-11-11T16:31:20.155618Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -249,6 +249,13 @@
      "resolved": false
     },
     {
+     "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chip d",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0d",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0dWRaZjYyWktobjJJQWVEa",
+     "resolved": false
+    },
+    {
      "title": "Europe’s struggle to compete with China ramps up - Financial",
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWk1DT0o5dGllUWZrR",
@@ -256,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chip d",
+     "title": "Nvidia shares fall as it probes alleged Chinese spy scandal ",
      "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0d",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0dWRaZjYyWktobjJJQWVEa",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3VKdWJFVzFQMEtxR",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3VKdWJFVzFQMEtxRW5JaEhiOWpNVkEyd0tJT",
      "resolved": false
     },
     {
@@ -584,7 +591,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "How a Super El Niño Could Reshape Global Coal Markets"
+   "sample": "Brent Jumps Nearly 3% as Iran Denies Any Talks With Washington"
   },
   {
    "name": "IMF",
