@@ -26,7 +26,7 @@ jobs:
           ls -l crawl/
       - run: pip install requests
       - name: crawl shard (只收最近24小时 + 硬事实)
-        run: python crawl/crawl_shard.py --shard ${{ matrix.shard }} --total 8 --n 60 --hours 24 --body-max 30 --sources crawl/sources.json --out out/crawl_${{ matrix.shard }}.json
+        run: python crawl/crawl_shard.py --shard ${{ matrix.shard }} --total 8 --n 120 --hours 24 --body-max 96 --sources crawl/sources.json --out out/crawl_${{ matrix.shard }}.json
       - uses: actions/upload-artifact@v4
         with:
           name: crawl-shard-${{ matrix.shard }}
