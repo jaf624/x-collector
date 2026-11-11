@@ -55,14 +55,14 @@ HARD_TOPIC_RE = re.compile(
     r"defense procurement|国防采购|critical mineral|关键矿产|lithium|锂|gallium|镓|germanium|锗", re.I)
 INST_DAYS = int(os.environ.get("INTEL_INST_DAYS", "7"))        # 机构周报/月报，窗口 7 天
 INST_PER_FEED = int(os.environ.get("INTEL_INST_PER_FEED", "20"))  # 每源每轮最多评估条数
-INST_MAX = int(os.environ.get("INTEL_INST_MAX", "200"))        # RSS 自带正文（免费）每轮入库上限
-INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "40"))       # 摘要过短需 Jina 深抓的机构稿上限
-INST_HN_DEEP = int(os.environ.get("INTEL_INST_HN_DEEP", "30"))  # 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）独立深抓配额，提前跑不被台媒挤掉
-MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "20"))         # L类线索源每轮深抓上限
+INST_MAX = int(os.environ.get("INTEL_INST_MAX", "380"))        # RSS 自带正文（免费）每轮入库上限
+INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "90"))       # 摘要过短需 Jina 深抓的机构稿上限
+INST_HN_DEEP = int(os.environ.get("INTEL_INST_HN_DEEP", "60"))  # 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）独立深抓配额，提前跑不被台媒挤掉
+MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "40"))         # L类线索源每轮深抓上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "16"))
-MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "25"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
+MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "45"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
 # 硬新闻源（2026-10-14 扩源）：通讯社/官方公报/中文硬新闻——深读配额优先，确保新闻模式主粮来自可溯源硬新闻
-HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "75"))
+HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "140"))
 HARD_NEWS_DOMAINS = (
     "zaobao.com.sg", "cn.nikkei.com", "cn.yna.co.kr", "chinese.kyodonews.net", "cna.com.tw",
     "rfa.org", "abc.net.au", "rcinet.ca", "ftchinese.com", "cn.wsj.com", "chinese.aljazeera.net",
