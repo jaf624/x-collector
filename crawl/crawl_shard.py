@@ -19,7 +19,7 @@ import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (compatible; intelhub-swarm/1.0)"}
 BODY_MIN = 260
-BODY_MAX = 96
+BODY_MAX = 130
 HOURS = 24
 
 
@@ -298,10 +298,13 @@ def main():
                 if len(re.findall(r"[\u4e00-\u9fa5]", body)) >= 180:
                     break
             han = len(re.findall(r"[\u4e00-\u9fa5]", body))
-            hit = title_in_body(it.get("title") or "", body)
-            if han >= BODY_MIN and hit:
+            en = len(re.findall(r"[A-Za-z]", body))
+            _zh = zh_ratio(body)
+            _en_ok = (en >= 900 and _zh < 0.3)
+            hit = title_in_body(it.get("title") or "", body) or _en_ok
+            if (han >= BODY_MIN or _en_ok) and hit:
                 it["body"] = body[:8000]
-                it["body_len"] = han
+                it["body_len"] = han if han >= BODY_MIN else len(body)
                 stats["body_ok"] += 1
                 _ph(it.get("host"), "body_ok")
             else:
