@@ -64,6 +64,29 @@
   "discovered_at": "2026-09-18T00:57:49Z"
  },
  {
+  "name": "guardiansofhongkong",
+  "url": "https://t.me/guardiansofhongkong",
+  "preview": "https://t.me/s/guardiansofhongkong",
+  "title": "📡Guardians of Hong Kong",
+  "desc": "We provide translation of news in English from local media and other sources, for academic use.\nFacebook: http://bit.ly/BeWaterHongKong\nInstagram: @guardiansofh",
+  "posts_in_page": 20,
+  "latest": "2024-02-12",
+  "recent3": 0,
+  "recent7": 0,
+  "china_hits": 127,
+  "cat_hits": {
+   "间谍情报与涉密信息套取": 2,
+   "经济金融与产业链供应链安全": 2,
+   "政治安全与意识形态渗透": 2,
+   "群组动员与颜色革命操作": 1
+  },
+  "related_msgs": 5,
+  "media_count_only": 10,
+  "score": 63.0,
+  "status": "pending_review",
+  "discovered_at": "2026-11-11T09:19:00Z"
+ },
+ {
   "name": "DemosistoOfficial",
   "url": "https://t.me/DemosistoOfficial",
   "preview": "https://t.me/s/DemosistoOfficial",
@@ -103,6 +126,28 @@
   "score": 57.5,
   "status": "pending_review",
   "discovered_at": "2026-09-18T02:25:11Z"
+ },
+ {
+  "name": "hkprotests_reddit",
+  "url": "https://t.me/hkprotests_reddit",
+  "preview": "https://t.me/s/hkprotests_reddit",
+  "title": "Hong Kong protest news, by the /r/HongKong reddit live team",
+  "desc": "This is a mirror of the Reddit live thread. \nMore info at\nhttps://reddit.com/live/133sixros7tu5\n\nFull translations of Chinese-language articles can be (occasion",
+  "posts_in_page": 20,
+  "latest": "2021-10-05",
+  "recent3": 0,
+  "recent7": 0,
+  "china_hits": 58,
+  "cat_hits": {
+   "群组动员与颜色革命操作": 3,
+   "经济金融与产业链供应链安全": 1,
+   "政治安全与意识形态渗透": 1
+  },
+  "related_msgs": 4,
+  "media_count_only": 0,
+  "score": 53.0,
+  "status": "pending_review",
+  "discovered_at": "2026-11-11T09:19:02Z"
  },
  {
   "name": "DemocracyMovement",
