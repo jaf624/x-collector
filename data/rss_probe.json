@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-11T07:59:41.858825Z",
+ "probed_at": "2026-11-11T08:22:47.833605Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -24,24 +24,24 @@
      "resolved": false
     },
     {
+     "title": "China's car sales seen falling below 19 million units for fi",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeDVNQW5yMFYwcnY3W",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeDVNQW5yMFYwcnY3WEY1YUwtaFRQVFlNaFllM",
+     "resolved": false
+    },
+    {
+     "title": "China's Singles Day shopping festival puts AI selling power ",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd0ZRNDVrTEpZSnpqa",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd0ZRNDVrTEpZSnpqaDdwU01NX2c3SElnV09nZ",
+     "resolved": false
+    },
+    {
      "title": "US lawmakers push China chip rules after Nvidia CEO allegati",
      "date": "2026-11-10",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWxqUnFpSkZaOE5LV",
      "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWxqUnFpSkZaOE5LVFZnaWZJaHhteVV2dkdiQ",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia faces deepening scrutiny over China chip ties, CEO af",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWZQSk5PbzdVdVhLa",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWZQSk5PbzdVdVhLaVFuakFlTy16TkhEdzcya",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: Microsoft presses Trump to scuttle ban on Chinese",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYVBfNG04eWF0OFp6W",
-     "real": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYVBfNG04eWF0OFp6WHJFRFh3YjdHTHlhdU9xT",
      "resolved": false
     }
    ]
@@ -142,22 +142,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese Lithium Giant Says Price Swings Have Turned More Extreme - Bloomberg.com",
+   "sample": "US Envoy to China Says Relations Are ‘Bumpy’ After Nvidia Affair - Bloomberg.com",
    "diag": [
-    {
-     "title": "Chinese Lithium Giant Says Price Swings Have Turned More Ext",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2Y3YUg1VlpCN3NPN",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2Y3YUg1VlpCN3NPN0ZoS3M1TGIzTFliVzZxU",
-     "resolved": false
-    },
-    {
-     "title": "Bessent Hails US-China Engagement, Sees More Exchanges on AI",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYnlCYTFzWUI2XzJQX",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYnlCYTFzWUI2XzJQX09MMVk4Y0lkNEQ0UXRHS",
-     "resolved": false
-    },
     {
      "title": "US Envoy to China Says Relations Are ‘Bumpy’ After Nvidia Af",
      "date": "2026-11-11",
@@ -166,10 +152,24 @@
      "resolved": false
     },
     {
-     "title": "China Gauges Tax on Bond Interest, With Yields Near Record L",
+     "title": "Chinese Lithium Giant Says Price Swings Have Turned More Ext",
      "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOekwtc01TbS1yS3Bqa",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOekwtc01TbS1yS3BqallTdkE3eGVCanppdnlGS",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2Y3YUg1VlpCN3NPN",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2Y3YUg1VlpCN3NPN0ZoS3M1TGIzTFliVzZxU",
+     "resolved": false
+    },
+    {
+     "title": "Russia’s Push to Replace Dollar With China’s Yuan Collapses ",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZm8xX0JMOVl3aFFha",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZm8xX0JMOVl3aFFhaTBKeFFsUXE0eXg4NDliV",
+     "resolved": false
+    },
+    {
+     "title": "Bessent Hails US-China Engagement, Sees More Exchanges on AI",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYnlCYTFzWUI2XzJQX",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYnlCYTFzWUI2XzJQX09MMVk4Y0lkNEQ0UXRHS",
      "resolved": false
     },
     {
@@ -398,10 +398,10 @@
      "resolved": false
     },
     {
-     "title": "The countries making a fortune from the US-China rivalry - T",
-     "date": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0FsR2QwRW9leW1Qb2c1a1NHS1ZMb1lScVNvU",
+     "title": "Global bullies have turned uncertainty into a weapon - The E",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNkE0cFI1SXhzZXhfd",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNkE0cFI1SXhzZXhfdkwycVFpd3VOYkxLWVowY",
      "resolved": false
     }
    ]
@@ -412,20 +412,20 @@
    "status": 200,
    "items": 62,
    "is_feed": true,
-   "sample": "EXCLUSIVE: PLA-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show - Reuters",
+   "sample": "China extends suspension of new rare earth controls until January - Reuters",
    "diag": [
-    {
-     "title": "EXCLUSIVE: PLA-linked Chinese university bought Nvidia H200 ",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIb",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIbWtuMU5qVm1teTBwSTFIa",
-     "resolved": false
-    },
     {
      "title": "China extends suspension of new rare earth controls until Ja",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUa",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUaEJCaDNDQWZ2bzhKOFNmb",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: PLA-linked Chinese university bought Nvidia H200 ",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIb",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIbWtuMU5qVm1teTBwSTFIa",
      "resolved": false
     },
     {
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "House opts to stall Hegseth impeachment vote, sending resolution to Judiciary Committee"
+   "sample": "Israel’s Rafael unveils new, larger cruise missile dubbed Super Ice"
   },
   {
    "name": "MiningWeekly",
