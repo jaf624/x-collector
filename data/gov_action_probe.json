@@ -1,0 +1,37 @@
+{
+ "probed_at": "2026-11-12T11:58:42.161626Z",
+ "results": [
+  {
+   "name": "ofac_recent",
+   "status": 200,
+   "len": 44460,
+   "date_hits": 10,
+   "link_hits": 17,
+   "has_designation": true
+  },
+  {
+   "name": "ofac_press",
+   "status": 200,
+   "len": 63656,
+   "date_hits": 0,
+   "link_hits": 36,
+   "has_designation": true
+  },
+  {
+   "name": "bis_news",
+   "status": 200,
+   "len": 498387,
+   "date_hits": 91,
+   "link_hits": 3,
+   "has_designation": true
+  },
+  {
+   "name": "bis_all",
+   "status": 200,
+   "len": 498385,
+   "date_hits": 91,
+   "link_hits": 3,
+   "has_designation": true
+  }
+ ]
+}
