@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-12T03:39:21.696065Z",
+ "probed_at": "2026-11-12T04:08:21.137701Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -38,10 +38,10 @@
      "resolved": false
     },
     {
-     "title": "US auto workers union urges Congress to keep its eye on Chin",
+     "title": "EXCLUSIVE: Chinese university bought Nvidia H200 chips despi",
      "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPa0g5TE9LQlBTenhoa",
-     "real": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPa0g5TE9LQlBTenhoaVR6dkpFOUswZXNreXRXR",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTVJmZ25HVWdCdEZub",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTVJmZ25HVWdCdEZubWhDTWI1WnM3TzAwc2JOb",
      "resolved": false
     }
    ]
@@ -76,17 +76,17 @@
      "resolved": false
     },
     {
-     "title": "A pastor at a Beijing underground church has been arrested, ",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJsckJFWkZtYkFHV",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJsckJFWkZtYkFHVkl2eF9VTlBoNUZrNUtib",
-     "resolved": false
-    },
-    {
      "title": "Treasury Secretary Scott Bessent calls for more balanced US-",
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSzZvaHZqSTdNX2R6b",
      "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSzZvaHZqSTdNX2R6b1BzNzJKdnI4NDNacDYzd",
+     "resolved": false
+    },
+    {
+     "title": "A pastor at a Beijing underground church has been arrested, ",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJsckJFWkZtYkFHV",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJsckJFWkZtYkFHVkl2eF9VTlBoNUZrNUtib",
      "resolved": false
     }
    ]
@@ -152,17 +152,17 @@
      "resolved": false
     },
     {
-     "title": "China Plans $2 Billion Bond Sale in Hong Kong as Issuance Gr",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSHZ3d05WZ1dJLUhzR",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSHZ3d05WZ1dJLUhzRU9UQVZ0c1I2ZWFvSGFTa",
-     "resolved": false
-    },
-    {
      "title": "Russia’s Push to Replace Dollar With China’s Yuan Collapses ",
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZm8xX0JMOVl3aFFha",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZm8xX0JMOVl3aFFhaTBKeFFsUXE0eXg4NDliV",
+     "resolved": false
+    },
+    {
+     "title": "China Plans $2 Billion Bond Sale in Hong Kong as Issuance Gr",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQXE5cVhpNExqTHl1R",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQXE5cVhpNExqTHl1RWotS2hWcW9FN0djTTRtS",
      "resolved": false
     },
     {
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "Nissan says China sales slump 'intensified' through October ",
+     "title": "Muted Singles Day campaign winds down as China's shoppers hu",
      "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkdkYndVM2FRR0NaW",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkdkYndVM2FRR0NaWVI0eFE2MjdDMFNJdEZJR",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXhRUGp3anFvYkxPR",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXhRUGp3anFvYkxPR1RpRTNzdEdFNFktTS1Xd",
      "resolved": false
     }
    ]
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia spy scandal exposes Singapore’s role in China’s AI chip trade - Financial Times",
+   "sample": "China warns ‘severe punishment’ for offshore trust tax evaders - Financial Times",
    "diag": [
+    {
+     "title": "China warns ‘severe punishment’ for offshore trust tax evade",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1dmTGxfaWNhVEZfR",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1dmTGxfaWNhVEZfR3FyMXUwMzd0VmgzVzBYM",
+     "resolved": false
+    },
     {
      "title": "Nvidia spy scandal exposes Singapore’s role in China’s AI ch",
      "date": "2026-11-11",
@@ -260,13 +267,6 @@
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3VKdWJFVzFQMEtxR",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3VKdWJFVzFQMEtxRW5JaEhiOWpNVkEyd0tJT",
-     "resolved": false
-    },
-    {
-     "title": "Why Volkswagen wants to sell its China-made cars to the worl",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWVNHZGc4cjNNd2tPT",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWVNHZGc4cjNNd2tPT3UwUU13OVlxY045aTl3U",
      "resolved": false
     }
    ]
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
+     "title": "Myanmar rare earths have become critical to Chinese supply c",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGRlYnlQbHM3T3hGe",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGRlYnlQbHM3T3hGeWNXdHpuWWNnejNxWmVnb",
+     "resolved": false
+    },
+    {
      "title": "EXCLUSIVE: Chinese university bought Nvidia H200 chips despi",
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIb",
      "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIbWtuMU5qVm1teTBwSTFIa",
-     "resolved": false
-    },
-    {
-     "title": "China's trade surplus soars past $1 trillion as AI boom powe",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkdyZ0hqUllXMmZjU",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkdyZ0hqUllXMmZjUVB1QnBoMXFCYWdEUldHN",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[中美能源大戰，如何影響你的帳單？]]>"
+   "sample": "<![CDATA[黃仁勳疑涉另一宗婚外情，Nvidia董事會傳擬撤換執行長]]>"
   },
   {
    "name": "美国国务院",
@@ -522,9 +522,10 @@
   {
    "name": "能源部FE",
    "url": "https://www.energy.gov/fe/newsroom/rss.xml",
-   "status": 404,
+   "status": -1,
    "items": 0,
-   "is_feed": false
+   "is_feed": false,
+   "err": "The read operation timed out"
   },
   {
    "name": "NATO",
@@ -628,7 +629,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Paraguay partially refunds Ueno Bank depositors after collapse"
+   "sample": "Nvidia board to decide whether to oust longtime CEO Jensen Huang"
   },
   {
    "name": "JapanTimes",
