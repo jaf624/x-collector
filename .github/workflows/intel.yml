@@ -21,6 +21,8 @@ jobs:
           python-version: "3.11"
       - name: Probe authoritative RSS feeds
         run: python3 rss_probe.py
+      - name: Collect OFAC/BIS official government actions
+        run: python3 gov_action_collect.py
       - name: International China-risk public news aggregation via Jina
         env:
           JINA_KEY: ${{ secrets.JINA_KEY }}
