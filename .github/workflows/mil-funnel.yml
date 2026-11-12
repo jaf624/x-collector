@@ -1,0 +1,23 @@
+name: mil-funnel
+on:
+  workflow_dispatch:
+jobs:
+  funnel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Analyze mil feed funnel with collector rules
+        run: python3 mil_funnel_full.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/mil_funnel_full.json
+          git diff --cached --quiet || git commit -m "analyze: mil feed funnel verdicts"
+          git push origin main
