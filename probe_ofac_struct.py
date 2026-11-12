@@ -6,14 +6,15 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Sa
 url = "https://ofac.treasury.gov/recent-actions/20261104"
 req = urllib.request.Request(url, headers={"User-Agent": UA})
 html = urllib.request.urlopen(req, timeout=30, context=CTX).read().decode("utf-8", "ignore")
-i = html.find("field__item")
-seg = html[i:]
-k = 0
-# 不剥 ul；按文档顺序遍历所有 p/li/h 元素
-for pm in re.finditer(r"<(p|li|h[1-4])([^>]*)>([\s\S]*?)</\1>", seg):
-    txt = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", pm.group(3))).strip()
-    if txt:
-        k += 1
-        cls = re.search(r'class="([^"]*)"', pm.group(2))
-        print("%02d [%s%s] %s" % (k, pm.group(1),
-                                  (" " + cls.group(1)[:30]) if cls else "", txt[:110]))
+print("field__item 出现次数:", len(re.findall("field__item", html)))
+print("field--name-body 位置:", [m.start() for m in re.finditer("field--name-body", html)])
+# 定位正文关键句
+for kw in ("shadow fleet", "is issuing", "General License", "MENU"):
+    pos = [m.start() for m in re.finditer(re.escape(kw), html, re.I)][:3]
+    print("关键词 %r 位置:" % kw, pos)
+# 从最后一个 field--name-body（正文）开始 dump
+bps = [m.start() for m in re.finditer("field--name-body", html)]
+if bps:
+    seg = html[bps[-1]:bps[-1] + 4000]
+    print("=" * 30, "正文容器片段（去标签）")
+    print(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", seg))[:2500])
