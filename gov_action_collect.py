@@ -9,6 +9,7 @@
 import os, re, ssl, json, datetime, urllib.request, urllib.error
 
 import intel_collect as ic
+import sdn_summarize as ss
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "data", "gov_action_feed.json")
@@ -58,7 +59,8 @@ def clean(t):
 
 
 def extract_body(html):
-    """从详情页 field__item 容器提取正文，剥导航/菜单/面包屑，返回纯文本段落。"""
+    """从详情页 field__item 容器提取正文，剥导航/菜单/面包屑，返回纯文本。
+    每个 a/font 条目在其结束标签处换行，保留名单条目边界。"""
     i = html.find("field__item")
     seg = html[i:] if i > 0 else html
     # 去掉导航/菜单/页脚区块
@@ -66,16 +68,21 @@ def extract_body(html):
     seg = re.sub(r"<nav[\s\S]*?</nav>", " ", seg)
     paras = []
     for pm in re.finditer(r"<(?:p|li|h[1-4])[^>]*>([\s\S]*?)</(?:p|li|h[1-4])>", seg):
-        t = clean(pm.group(1))
-        # 过滤导航/短标签/纯链接
-        if len(t) >= 25 and not t.startswith(("A Part of", "MENU")):
-            paras.append(t)
+        raw = pm.group(1)
+        # 条目边界：每个链接/字体结束处换行，避免 clean 后条目连成一片
+        raw = re.sub(r"</a>", "\n", raw)
+        raw = re.sub(r"</font>", "\n", raw)
+        for piece in raw.split("\n"):
+            t = clean(piece)
+            # 过滤导航/短标签/纯链接
+            if len(t) >= 25 and not t.startswith(("A Part of", "MENU")):
+                paras.append(t)
     # 去重保序
     out, seen = [], set()
     for p in paras:
         if p not in seen:
             seen.add(p); out.append(p)
-    return "\n".join(out)[:6000]
+    return "\n".join(out)[:24000]
 
 
 
@@ -122,21 +129,26 @@ def hanzi(t):
 
 def to_feed_item(r, with_detail):
     zh_title = ic.gtx_translate(r["title"]) or r["title"]
-    zh_body = ""
+    en_body, sdn_summary = u"", u""
     if with_detail:
         detail_html = fetch(r["url"], tries=2, timeout=25)
         if detail_html:
             en_body = extract_body(detail_html)
             if en_body:
-                zh_body = ic.gtx_translate(en_body) or ""
-    content = (zh_title + "\n" + zh_body).strip()
+                # 只翻译简短动作叙述；结构化归纳在英文阶段用查表完成，绕开长文翻译上限
+                acts = ss.action_lines(en_body)
+                action_zh = ic.gtx_translate(u" ".join(acts)) if acts else u""
+                sdn_summary = ss.build_summary(en_body, action_zh or u"")
+    content = (sdn_summary or zh_title).strip()
     usable = hanzi(content) >= 300
     return {
         "url": r["url"], "title": r["title"], "source": r["source"],
         "lang": "en", "route": "gov_action", "cat": "institute",
         "published": r["published"] or datetime.date.today().isoformat(),
-        "summary": (zh_title + "\n" + zh_body)[:400],
-        "content": content[:3000],
+        "summary": content[:400],
+        "content": content[:8000],
+        "en_body": en_body[:24000],
+        "sdn_summary": sdn_summary[:8000],
         "quality_score": 65 if usable else 55, "usable": usable,
         "media_types": [], "handling": r["kind"],
     }
