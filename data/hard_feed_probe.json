@@ -1,0 +1,503 @@
+{
+ "probed_at": "2026-11-12T11:11:23.532237Z",
+ "total": 22,
+ "ok_count": 4,
+ "ok_keys": [
+  "centcom",
+  "southcom",
+  "navy",
+  "india_mod"
+ ],
+ "results": [
+  {
+   "key": "treasury",
+   "name": "美国财政部新闻稿",
+   "cat": "gov",
+   "grade": "A",
+   "host": "home.treasury.gov",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://home.treasury.gov/news/press-releases/rss.xml",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    }
+   ]
+  },
+  {
+   "key": "ofac",
+   "name": "美财政部OFAC制裁动态",
+   "cat": "gov",
+   "grade": "A",
+   "host": "ofac.treasury.gov",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://home.treasury.gov/news/press-releases/rss.xml?field_component_target_id=26",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://ofac.treasury.gov/feed",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.treasury.gov/resource-center/sanctions/Newsroom/Pages/rss.xml",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    }
+   ]
+  },
+  {
+   "key": "bis",
+   "name": "美工业与安全局BIS出口管制",
+   "cat": "gov",
+   "grade": "A",
+   "host": "bis.doc.gov",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.bis.doc.gov/index.php/feed",
+     "status": 200,
+     "items": 0,
+     "sample": ""
+    },
+    {
+     "url": "https://www.bis.doc.gov/?format=feed&type=rss",
+     "status": 200,
+     "items": 0,
+     "sample": ""
+    }
+   ]
+  },
+  {
+   "key": "commerce",
+   "name": "美国商务部新闻稿",
+   "cat": "gov",
+   "grade": "B",
+   "host": "www.commerce.gov",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.commerce.gov/news/press-releases/rss.xml",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "centcom",
+   "name": "美军中央司令部",
+   "cat": "gov",
+   "grade": "A",
+   "host": "centcom.mil",
+   "ok": true,
+   "feed_url": "https://www.centcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945",
+   "items": 500,
+   "sample": "USS Nimitz Trains New, Returning Naval Aviators",
+   "tries": [
+    {
+     "url": "https://www.centcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945",
+     "status": 200,
+     "items": 500,
+     "sample": "USS Nimitz Trains New, Returning Naval Aviators"
+    }
+   ]
+  },
+  {
+   "key": "indopacom",
+   "name": "美军印太司令部",
+   "cat": "gov",
+   "grade": "A",
+   "host": "indopacom.mil",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.pacom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1001",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.indopacom.mil/RSS/",
+     "status": -1,
+     "items": 0,
+     "err": "<urlopen error [Errno -2] Name or service not known>"
+    }
+   ]
+  },
+  {
+   "key": "northcom",
+   "name": "美军北方司令部",
+   "cat": "gov",
+   "grade": "B",
+   "host": "northcom.mil",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.northcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1031",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.northcom.mil/RSS/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "southcom",
+   "name": "美军南方司令部",
+   "cat": "gov",
+   "grade": "B",
+   "host": "southcom.mil",
+   "ok": true,
+   "feed_url": "https://www.southcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=961",
+   "items": 500,
+   "sample": "USSF retires DSP constellation, prepares for Next-Gen OPIR",
+   "tries": [
+    {
+     "url": "https://www.southcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=961",
+     "status": 200,
+     "items": 500,
+     "sample": "USSF retires DSP constellation, prepares for Next-Gen OPIR"
+    }
+   ]
+  },
+  {
+   "key": "spacecom",
+   "name": "美军太空司令部",
+   "cat": "gov",
+   "grade": "B",
+   "host": "spacecom.mil",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.spacecom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1041",
+     "status": 200,
+     "items": 0,
+     "sample": ""
+    },
+    {
+     "url": "https://www.spacecom.mil/RSS/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "army",
+   "name": "美国陆军",
+   "cat": "gov",
+   "grade": "B",
+   "host": "www.army.mil",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.army.mil/rss/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    },
+    {
+     "url": "https://www.army.mil/feeds/rss/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "navy",
+   "name": "美国海军",
+   "cat": "gov",
+   "grade": "B",
+   "host": "www.navy.mil",
+   "ok": true,
+   "feed_url": "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1067",
+   "items": 500,
+   "sample": "Nimitz Trains New, Returning Naval Aviators",
+   "tries": [
+    {
+     "url": "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1067",
+     "status": 200,
+     "items": 500,
+     "sample": "Nimitz Trains New, Returning Naval Aviators"
+    }
+   ]
+  },
+  {
+   "key": "af",
+   "name": "美国空军",
+   "cat": "gov",
+   "grade": "B",
+   "host": "www.af.mil",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1075",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    }
+   ]
+  },
+  {
+   "key": "marines",
+   "name": "美国海军陆战队",
+   "cat": "gov",
+   "grade": "B",
+   "host": "www.marines.mil",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.marines.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1059",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    }
+   ]
+  },
+  {
+   "key": "spaceforce",
+   "name": "美国太空军",
+   "cat": "gov",
+   "grade": "B",
+   "host": "www.spaceforce.mil",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.spaceforce.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1085",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    }
+   ]
+  },
+  {
+   "key": "dvidshub",
+   "name": "DVIDS国防一手影像新闻",
+   "cat": "osint",
+   "grade": "B",
+   "host": "www.dvidshub.net",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.dvidshub.net/news/rss",
+     "status": 202,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.dvidshub.net/rss/news.xml",
+     "status": 200,
+     "items": 0,
+     "sample": ""
+    }
+   ]
+  },
+  {
+   "key": "stripes",
+   "name": "星条旗报军事新闻",
+   "cat": "media",
+   "grade": "B",
+   "host": "www.stripes.com",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.stripes.com/rss.xml",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    }
+   ]
+  },
+  {
+   "key": "japan_mod",
+   "name": "日本防卫省",
+   "cat": "gov",
+   "grade": "A",
+   "host": "www.mod.go.jp",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.mod.go.jp/e/whatsnew/rss.xml",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.mod.go.jp/atla/rss.xml",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    }
+   ]
+  },
+  {
+   "key": "korea_mnd",
+   "name": "韩国国防部",
+   "cat": "gov",
+   "grade": "B",
+   "host": "www.mnd.go.kr",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.mnd.go.kr/user/boardList.action?siteId=mnd&pageId=mnd0101000000&boardId=I_25039&findType=&findValue=&findHeader=&listUrl=&columnName=&columnValue=&categoryId=&ctgYn=&cmd=rss",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    }
+   ]
+  },
+  {
+   "key": "australia_def",
+   "name": "澳大利亚国防部",
+   "cat": "gov",
+   "grade": "A",
+   "host": "www.defence.gov.au",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.defence.gov.au/news/rss",
+     "status": -1,
+     "items": 0,
+     "err": "The read operation timed out"
+    },
+    {
+     "url": "https://news.defence.gov.au/rss",
+     "status": -1,
+     "items": 0,
+     "err": "The read operation timed out"
+    }
+   ]
+  },
+  {
+   "key": "india_mod",
+   "name": "印度国防部",
+   "cat": "gov",
+   "grade": "C",
+   "host": "mod.gov.in",
+   "ok": true,
+   "feed_url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&RegID=3",
+   "items": 20,
+   "sample": "जल शक्ति मंत्रालय ने जल संचय जन भागीदारी (जेएसजेबी) 2.0 पर नागरिकों से सुझाव प्र",
+   "tries": [
+    {
+     "url": "https://mod.gov.in/rss",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&RegID=3",
+     "status": 200,
+     "items": 20,
+     "sample": "जल शक्ति मंत्रालय ने जल संचय जन भागीदारी (जेएसजेबी) 2.0 पर नागरिकों से सुझाव प्र"
+    }
+   ]
+  },
+  {
+   "key": "wassenaar",
+   "name": "瓦森纳协定出口管制",
+   "cat": "gov",
+   "grade": "A",
+   "host": "www.wassenaar.org",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.wassenaar.org/feed/",
+     "status": 200,
+     "items": 0,
+     "sample": ""
+    }
+   ]
+  },
+  {
+   "key": "shape_nato",
+   "name": "北约盟军作战司令部SHAPE",
+   "cat": "gov",
+   "grade": "B",
+   "host": "shape.nato.int",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://shape.nato.int/rss",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    },
+    {
+     "url": "https://ac.nato.int/rss",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  }
+ ]
+}
