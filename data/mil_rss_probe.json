@@ -1,0 +1,474 @@
+{
+ "probed_at": "2026-11-12T11:21:10.651239Z",
+ "ok_count": 8,
+ "results": [
+  {
+   "key": "centcom",
+   "host": "www.centcom.mil",
+   "ok": true,
+   "feed_url": "https://www.centcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+   "items": 20,
+   "sample": "Readout of the Chairman of the Joint Chiefs of Staff Gen. Dan Caine’s ",
+   "tries": [
+    {
+     "url": "https://www.centcom.mil/DesktopModules/ArticleCS/RSS.ashx",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.centcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.centcom.mil/DesktopModules/ArticleCS/RSS.ashx?max=20",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.centcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+     "status": 200,
+     "items": 20,
+     "sample": "Readout of the Chairman of the Joint Chiefs of Staff Gen. Dan Caine’s "
+    },
+    {
+     "url": "https://www.centcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.centcom.mil/RSS",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    },
+    {
+     "url": "https://www.centcom.mil/RSS/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "southcom",
+   "host": "www.southcom.mil",
+   "ok": true,
+   "feed_url": "https://www.southcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+   "items": 20,
+   "sample": "Readout of the Chairman of the Joint Chiefs of Staff Gen. Dan Caine’s ",
+   "tries": [
+    {
+     "url": "https://www.southcom.mil/DesktopModules/ArticleCS/RSS.ashx",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.southcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.southcom.mil/DesktopModules/ArticleCS/RSS.ashx?max=20",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.southcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+     "status": 200,
+     "items": 20,
+     "sample": "Readout of the Chairman of the Joint Chiefs of Staff Gen. Dan Caine’s "
+    },
+    {
+     "url": "https://www.southcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=961",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.southcom.mil/RSS",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    },
+    {
+     "url": "https://www.southcom.mil/RSS/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "navy",
+   "host": "www.navy.mil",
+   "ok": true,
+   "feed_url": "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+   "items": 20,
+   "sample": "A Legacy of Maritime Dominance: U.S. Navy Commemorates 50 Years at Ste",
+   "tries": [
+    {
+     "url": "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?max=20",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+     "status": 200,
+     "items": 20,
+     "sample": "A Legacy of Maritime Dominance: U.S. Navy Commemorates 50 Years at Ste"
+    },
+    {
+     "url": "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1067",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.navy.mil/RSS",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    },
+    {
+     "url": "https://www.navy.mil/RSS/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "af",
+   "host": "www.af.mil",
+   "ok": true,
+   "feed_url": "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+   "items": 20,
+   "sample": "35th FW maintainers sustain F-35A flight operations",
+   "tries": [
+    {
+     "url": "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?max=20",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+     "status": 200,
+     "items": 20,
+     "sample": "35th FW maintainers sustain F-35A flight operations"
+    },
+    {
+     "url": "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1075",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.af.mil/RSS",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    },
+    {
+     "url": "https://www.af.mil/RSS/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "marines",
+   "host": "www.marines.mil",
+   "ok": true,
+   "feed_url": "https://www.marines.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+   "items": 20,
+   "sample": "‘Semper Fi,’ birthday wishes greet Marines at Jacksonville parade",
+   "tries": [
+    {
+     "url": "https://www.marines.mil/DesktopModules/ArticleCS/RSS.ashx",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.marines.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.marines.mil/DesktopModules/ArticleCS/RSS.ashx?max=20",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.marines.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+     "status": 200,
+     "items": 20,
+     "sample": "‘Semper Fi,’ birthday wishes greet Marines at Jacksonville parade"
+    },
+    {
+     "url": "https://www.marines.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1059",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.marines.mil/RSS",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    },
+    {
+     "url": "https://www.marines.mil/RSS/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "spaceforce",
+   "host": "www.spaceforce.mil",
+   "ok": true,
+   "feed_url": "https://www.spaceforce.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+   "items": 20,
+   "sample": "Santa Maria holds 2026 Veterans Day observance with support of Vandenb",
+   "tries": [
+    {
+     "url": "https://www.spaceforce.mil/DesktopModules/ArticleCS/RSS.ashx",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.spaceforce.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.spaceforce.mil/DesktopModules/ArticleCS/RSS.ashx?max=20",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.spaceforce.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+     "status": 200,
+     "items": 20,
+     "sample": "Santa Maria holds 2026 Veterans Day observance with support of Vandenb"
+    },
+    {
+     "url": "https://www.spaceforce.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1085",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.spaceforce.mil/RSS",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    },
+    {
+     "url": "https://www.spaceforce.mil/RSS/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "northcom",
+   "host": "www.northcom.mil",
+   "ok": true,
+   "feed_url": "https://www.northcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+   "items": 20,
+   "sample": "Readout of the Chairman of the Joint Chiefs of Staff Gen. Dan Caine’s ",
+   "tries": [
+    {
+     "url": "https://www.northcom.mil/DesktopModules/ArticleCS/RSS.ashx",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.northcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.northcom.mil/DesktopModules/ArticleCS/RSS.ashx?max=20",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.northcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+     "status": 200,
+     "items": 20,
+     "sample": "Readout of the Chairman of the Joint Chiefs of Staff Gen. Dan Caine’s "
+    },
+    {
+     "url": "https://www.northcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1031",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.northcom.mil/RSS",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    },
+    {
+     "url": "https://www.northcom.mil/RSS/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "spacecom",
+   "host": "www.spacecom.mil",
+   "ok": true,
+   "feed_url": "https://www.spacecom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+   "items": 20,
+   "sample": "Readout of the Chairman of the Joint Chiefs of Staff Gen. Dan Caine’s ",
+   "tries": [
+    {
+     "url": "https://www.spacecom.mil/DesktopModules/ArticleCS/RSS.ashx",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.spacecom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
+     "status": 200,
+     "items": -1,
+     "sample": ""
+    },
+    {
+     "url": "https://www.spacecom.mil/DesktopModules/ArticleCS/RSS.ashx?max=20",
+     "status": 404,
+     "items": 0,
+     "err": "HTTP 404"
+    },
+    {
+     "url": "https://www.spacecom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+     "status": 200,
+     "items": 20,
+     "sample": "Readout of the Chairman of the Joint Chiefs of Staff Gen. Dan Caine’s "
+    },
+    {
+     "url": "https://www.spacecom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1041",
+     "status": 200,
+     "items": 0,
+     "sample": ""
+    },
+    {
+     "url": "https://www.spacecom.mil/RSS",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    },
+    {
+     "url": "https://www.spacecom.mil/RSS/",
+     "status": 403,
+     "items": 0,
+     "err": "HTTP 403"
+    }
+   ]
+  },
+  {
+   "key": "indopacom",
+   "host": "www.indopacom.mil",
+   "ok": false,
+   "feed_url": "",
+   "items": 0,
+   "sample": "",
+   "tries": [
+    {
+     "url": "https://www.indopacom.mil/DesktopModules/ArticleCS/RSS.ashx",
+     "status": -1,
+     "items": 0,
+     "err": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+     "url": "https://www.indopacom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
+     "status": -1,
+     "items": 0,
+     "err": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+     "url": "https://www.indopacom.mil/DesktopModules/ArticleCS/RSS.ashx?max=20",
+     "status": -1,
+     "items": 0,
+     "err": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+     "url": "https://www.indopacom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&max=20",
+     "status": -1,
+     "items": 0,
+     "err": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+     "url": "https://www.indopacom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1001",
+     "status": -1,
+     "items": 0,
+     "err": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+     "url": "https://www.indopacom.mil/RSS",
+     "status": -1,
+     "items": 0,
+     "err": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+     "url": "https://www.indopacom.mil/RSS/",
+     "status": -1,
+     "items": 0,
+     "err": "<urlopen error [Errno -2] Name or service not known>"
+    }
+   ]
+  }
+ ]
+}
