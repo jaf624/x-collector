@@ -3,7 +3,7 @@
 """制裁/管制/军演类一手硬料 RSS 候选验证（独立 workflow，海外节点跑）。
 对每个逻辑源尝试多个候选 feed URL，取第一个能解析出 item/entry 的为可用，
 结果写 data/hard_feed_probe.json，不直接改主配置，人工据结果再加入。"""
-import urllib.request, ssl, json, os, datetime
+import urllib.request, ssl, json, os, datetime, time
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -100,19 +100,26 @@ def count_items(body):
     return n, sample
 
 
-def probe_url(u):
-    try:
-        req = urllib.request.Request(u, headers={
-            "User-Agent": UA,
-            "Accept": "application/rss+xml, application/xml, atom+xml, text/xml, */*"})
-        with urllib.request.urlopen(req, timeout=18, context=CTX) as r:
-            body = r.read(800000).decode("utf-8", "ignore")
-            n, sample = count_items(body)
-            return {"url": u, "status": r.status, "items": n, "sample": sample}
-    except urllib.error.HTTPError as e:
-        return {"url": u, "status": e.code, "items": 0, "err": "HTTP %s" % e.code}
-    except Exception as e:
-        return {"url": u, "status": -1, "items": 0, "err": str(e)[:80]}
+def probe_url(u, retries=2):
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(u, headers={
+                "User-Agent": UA,
+                "Accept": "application/rss+xml, application/xml, atom+xml, text/xml, */*"})
+            with urllib.request.urlopen(req, timeout=18, context=CTX) as r:
+                body = r.read(800000).decode("utf-8", "ignore")
+                n, sample = count_items(body)
+                return {"url": u, "status": r.status, "items": n, "sample": sample}
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503) and attempt < retries:
+                time.sleep(2 + attempt * 2)
+                continue
+            return {"url": u, "status": e.code, "items": 0, "err": "HTTP %s" % e.code}
+        except Exception as e:
+            if attempt < retries:
+                time.sleep(2 + attempt * 2)
+                continue
+            return {"url": u, "status": -1, "items": 0, "err": str(e)[:80]}
 
 
 def probe_source(c):
@@ -136,14 +143,14 @@ def probe_source(c):
 def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     results = []
-    with ThreadPoolExecutor(max_workers=10) as ex:
+    with ThreadPoolExecutor(max_workers=5) as ex:
         futs = [ex.submit(probe_source, c) for c in CANDS]
         for fu in as_completed(futs):
             r = fu.result()
             results.append(r)
             flag = "OK %2d条" % r["items"] if r["ok"] else "失效"
             print("%-12s %-22s %s %s" % (r["key"], flag, r["feed_url"][:60], r["sample"][:30]), flush=True)
-    order = {c[0]: i for c in CANDS}
+    order = {c[0]: i for i, c in enumerate(CANDS)}
     results.sort(key=lambda r: order[r["key"]])
     ok = [r for r in results if r["ok"]]
     report = {"probed_at": datetime.datetime.utcnow().isoformat() + "Z",
