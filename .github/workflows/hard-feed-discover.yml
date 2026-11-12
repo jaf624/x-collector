@@ -1,0 +1,23 @@
+name: hard-feed-discover
+on:
+  workflow_dispatch:
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Auto-discover official RSS from site news pages
+        run: python3 discover_hard_feed.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/hard_feed_discover.json
+          git diff --cached --quiet || git commit -m "discover: official hard feed URLs"
+          git push origin main
