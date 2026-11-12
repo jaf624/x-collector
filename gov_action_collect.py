@@ -57,6 +57,28 @@ def clean(t):
     return re.sub(r"\s+", " ", TAG.sub("", t)).strip()
 
 
+def extract_body(html):
+    """从详情页 field__item 容器提取正文，剥导航/菜单/面包屑，返回纯文本段落。"""
+    i = html.find("field__item")
+    seg = html[i:] if i > 0 else html
+    # 去掉导航/菜单/页脚区块
+    seg = re.sub(r"<ul[\s\S]*?</ul>", " ", seg)
+    seg = re.sub(r"<nav[\s\S]*?</nav>", " ", seg)
+    paras = []
+    for pm in re.finditer(r"<(?:p|li|h[1-4])[^>]*>([\s\S]*?)</(?:p|li|h[1-4])>", seg):
+        t = clean(pm.group(1))
+        # 过滤导航/短标签/纯链接
+        if len(t) >= 25 and not t.startswith(("A Part of", "MENU")):
+            paras.append(t)
+    # 去重保序
+    out, seen = [], set()
+    for p in paras:
+        if p not in seen:
+            seen.add(p); out.append(p)
+    return "\n".join(out)[:6000]
+
+
+
 def parse_ofac(html):
     out = []
     # 按详情链接逐条提取，再在其所在窗口找日期
@@ -91,14 +113,31 @@ def parse_bis(html):
     return out
 
 
-def to_feed_item(r):
+DETAIL_LIMIT = 12
+
+
+def hanzi(t):
+    return len(re.findall(r"[\u4e00-\u9fff]", t or ""))
+
+
+def to_feed_item(r, with_detail):
     zh_title = ic.gtx_translate(r["title"]) or r["title"]
+    zh_body = ""
+    if with_detail:
+        detail_html = fetch(r["url"], tries=2, timeout=25)
+        if detail_html:
+            en_body = extract_body(detail_html)
+            if en_body:
+                zh_body = ic.gtx_translate(en_body) or ""
+    content = (zh_title + "\n" + zh_body).strip()
+    usable = hanzi(content) >= 300
     return {
         "url": r["url"], "title": r["title"], "source": r["source"],
         "lang": "en", "route": "gov_action", "cat": "institute",
         "published": r["published"] or datetime.date.today().isoformat(),
-        "summary": zh_title, "content": zh_title,
-        "quality_score": 60, "usable": False,  # 仅标题，正文补齐后再置可用
+        "summary": (zh_title + "\n" + zh_body)[:400],
+        "content": content[:3000],
+        "quality_score": 65 if usable else 55, "usable": usable,
         "media_types": [], "handling": r["kind"],
     }
 
@@ -114,14 +153,19 @@ def main():
     if bis_html:
         rows += parse_bis(bis_html)
         print("BIS 解析 %d 条" % len(parse_bis(bis_html)), flush=True)
-    # 去重（按 URL）并翻译
-    items, uniq = [], set()
+    # 去重（按 URL）并翻译；前 DETAIL_LIMIT 条抓详情正文
+    items, uniq, n = [], set(), 0
     for r in rows:
         if r["url"] in uniq:
             continue
         uniq.add(r["url"])
-        print("  译 %s | %s" % (r["kind"], r["title"][:60]), flush=True)
-        items.append(to_feed_item(r))
+        with_detail = n < DETAIL_LIMIT
+        n += 1
+        print("  处理%d %s 详情=%s | %s" %
+              (n, r["kind"], with_detail, r["title"][:55]), flush=True)
+        item = to_feed_item(r, with_detail)
+        print("    -> 汉字%d usable=%s" % (hanzi(item["content"]), item["usable"]), flush=True)
+        items.append(item)
     json.dump(items, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("GOV_ACTION_COLLECT_DONE 共 %d 条 -> %s" % (len(items), OUT), flush=True)
 
