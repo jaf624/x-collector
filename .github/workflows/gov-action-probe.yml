@@ -1,0 +1,21 @@
+name: gov-action-probe
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Probe OFAC/BIS action pages
+        run: python3 probe_gov_actions.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/gov_action_probe.json
+          git diff --cached --quiet || git commit -m "probe: OFAC/BIS action page reachability"
+          git push origin main
