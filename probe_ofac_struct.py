@@ -8,10 +8,12 @@ req = urllib.request.Request(url, headers={"User-Agent": UA})
 html = urllib.request.urlopen(req, timeout=30, context=CTX).read().decode("utf-8", "ignore")
 i = html.find("field__item")
 seg = html[i:]
-seg = re.sub(r"<ul[\s\S]*?</ul>", " ", seg)
 k = 0
+# 不剥 ul；按文档顺序遍历所有 p/li/h 元素
 for pm in re.finditer(r"<(p|li|h[1-4])([^>]*)>([\s\S]*?)</\1>", seg):
     txt = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", pm.group(3))).strip()
     if txt:
         k += 1
-        print("%02d [%s] %s" % (k, pm.group(1), txt[:120]))
+        cls = re.search(r'class="([^"]*)"', pm.group(2))
+        print("%02d [%s%s] %s" % (k, pm.group(1),
+                                  (" " + cls.group(1)[:30]) if cls else "", txt[:110]))
