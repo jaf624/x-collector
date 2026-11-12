@@ -3,7 +3,7 @@
 """硬料 RSS 自动发现：抓每个目标站点新闻入口 HTML，解析官方声明的
 <link rel="alternate" type="application/rss+xml/atom+xml"> 及含 rss/feed 的链接，
 再逐个验证 items>0，输出每个逻辑源真实可用 feed。海外节点跑，结果写 data。"""
-import urllib.request, urllib.error, ssl, json, os, re, time, html as ihtml
+import urllib.request, urllib.error, ssl, json, os, re, time, datetime, html as ihtml
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
