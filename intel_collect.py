@@ -42,27 +42,16 @@ socket.setdefaulttimeout(30)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 # 第 4 路：收藏夹公开机构 RSS（智库/政府/国际媒体/NGO/OSINT），美国节点直连不烧 Jina
 INST_SRC = os.path.join(ROOT, "targets", "institute_sources.json")
-try:  # 系统内题材源：classify_config_v2.json（18 类，带权重与优先级）
-    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    import topic_classify as _tc
-    _HAS_TC = True
-except Exception:
-    _HAS_TC = False
-
-HARD_TOPIC_RE = re.compile(
-    r"rare earth|稀土|semiconductor|半导体|chip export|export control|出口管制|"
-    r"tariff|关税|sanction|制裁|supply chain|供应链|missile|导弹|naval|舰|drill|军演|"
-    r"defense procurement|国防采购|critical mineral|关键矿产|lithium|锂|gallium|镓|germanium|锗", re.I)
 INST_DAYS = int(os.environ.get("INTEL_INST_DAYS", "7"))        # 机构周报/月报，窗口 7 天
 INST_PER_FEED = int(os.environ.get("INTEL_INST_PER_FEED", "20"))  # 每源每轮最多评估条数
-INST_MAX = int(os.environ.get("INTEL_INST_MAX", "380"))        # RSS 自带正文（免费）每轮入库上限
-INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "90"))       # 摘要过短需 Jina 深抓的机构稿上限
-INST_HN_DEEP = int(os.environ.get("INTEL_INST_HN_DEEP", "60"))  # 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）独立深抓配额，提前跑不被台媒挤掉
-MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "40"))         # L类线索源每轮深抓上限
+INST_MAX = int(os.environ.get("INTEL_INST_MAX", "200"))        # RSS 自带正文（免费）每轮入库上限
+INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "40"))       # 摘要过短需 Jina 深抓的机构稿上限
+INST_HN_DEEP = int(os.environ.get("INTEL_INST_HN_DEEP", "30"))  # 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）独立深抓配额，提前跑不被台媒挤掉
+MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "20"))         # L类线索源每轮深抓上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "16"))
-MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "45"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
+MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "25"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
 # 硬新闻源（2026-10-14 扩源）：通讯社/官方公报/中文硬新闻——深读配额优先，确保新闻模式主粮来自可溯源硬新闻
-HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "140"))
+HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "75"))
 HARD_NEWS_DOMAINS = (
     "zaobao.com.sg", "cn.nikkei.com", "cn.yna.co.kr", "chinese.kyodonews.net", "cna.com.tw",
     "rfa.org", "abc.net.au", "rcinet.ca", "ftchinese.com", "cn.wsj.com", "chinese.aljazeera.net",
@@ -86,7 +75,10 @@ HARD_NEWS_DOMAINS = (
     "miningweekly.com", "kitco.com", "thedrive.com", "naval-technology.com",
     "maritime-executive.com", "argusmedia.com", "theregister.com", "csis.org", "cnbc.com",
     # 扩源·高采用题材（2026-10-28，网络安全/科技/出口管制）
-    "bleepingcomputer.com", "arstechnica.com", "federalregister.gov")
+    "bleepingcomputer.com", "arstechnica.com", "federalregister.gov",
+    # 扩源·美军各战区/军种一手 RSS + 印度官方（2026-11-12，权威硬新闻同 pacom.mil 放行）
+    "centcom.mil", "southcom.mil", "navy.mil", "af.mil", "marines.mil",
+    "spaceforce.mil", "northcom.mil", "spacecom.mil", "pib.gov.in")
 def is_hardnews_url(u):
     u = (u or "").lower()
     return any(h in u for h in HARD_NEWS_DOMAINS)
@@ -964,12 +956,9 @@ def main():
         ti, co = x.get("title") or "", x.get("content") or ""
         if soft_news(ti):
             return False
-        if not _china_ok(h, ti, co[:800], co[:1500]) and not x.get("ct_bypass"):
+        if not _china_ok(h, ti, co[:800], co[:1500]):  # 标题涉华，或导语(前800字)确涉华
             return False
-        if x.get("cat_w") and int(x.get("cat_w") or 0) >= 4:
-            return True
-        return bool(topic.search(ti + " " + co[:1500])
-                    or (x.get("ct_bypass") and HARD_TOPIC_RE.search(ti + " " + co[:1500])))
+        return bool(topic.search(ti + " " + co[:1500]))
 
     _n0 = len(feed)
     feed = [x for x in feed if on_topic(x)]
@@ -1133,7 +1122,7 @@ def main():
                 _allowed_grades.add("B")
             if _hh_idx % 6 == 0:   # 每6轮=180分钟，加C级
                 _allowed_grades.add("C")
-        # 活且新即升 A：周度探活回写 last_probe_status/age，7 天内有新条的源不再等 B/C 轮次轮转，\n        # 否则 228 个新鲜源里只有 54 个 A 级每轮真跑，其余在 90/180 分钟窗口外干等。\n        _fresh_hosts = {s.get("host") for s in inst_srcs\n                        if s.get("last_probe_status") == "alive"\n                        and isinstance(s.get("last_probe_age"), int)\n                        and s.get("last_probe_age") <= 7}\n        inst_srcs = [s for s in inst_srcs\n                     if s.get("grade", "C") in _allowed_grades or s.get("host") in _fresh_hosts]
+        inst_srcs = [s for s in inst_srcs if s.get("grade", "C") in _allowed_grades]
         print(f"[inst] 分级过滤：本轮跑 {''.join(sorted(_allowed_grades))} 级源（半小时序号={_hh_idx}），共{len(inst_srcs)}个", flush=True)
         inst_srcs.sort(key=lambda s: -int(s.get("china_hits") or 0))
         uniq, seen_feed = [], set()
@@ -1175,65 +1164,35 @@ def main():
                     return it
                 with ThreadPoolExecutor(max_workers=12) as _gx:
                     list(_gx.map(_res, items[:INST_PER_FEED]))
-            return s, items, ftitle, st
+            return s, items, ftitle
 
         host_name = {}
-        _ledger = []  # 逐源产量账本：跑了几条、采纳几条，用于定位'活而不出稿'
         with ThreadPoolExecutor(max_workers=INST_WORKERS) as ex:
-            for s, items, ftitle, st in (fu.result() for fu in as_completed([ex.submit(fetch_src, x) for x in uniq])):
+            for s, items, ftitle in (fu.result() for fu in as_completed([ex.submit(fetch_src, x) for x in uniq])):
                 k = 0
-                rr = {}   # 逐源丢弃原因：定位"解析到却 0 采纳"到底卡在哪一关
                 for it in items[:INST_PER_FEED]:
                     u = it["link"]
                     if not u or u in seen or u in candidates:
-                        rr["dup"] = rr.get("dup", 0) + 1; continue
+                        continue
                     if it["date"] and it["date"] < inst_cut:
-                        rr["old"] = rr.get("old", 0) + 1; continue
+                        continue
                     is_lead_src = bool(s.get("lead"))   # L类线索源：本身即目标，豁免前置相关性过滤
                     if not is_lead_src and (soft_news(it["title"]) or link_noise(it["text"])):
-                        rr["soft"] = rr.get("soft", 0) + 1; continue
+                        continue
                     blob = it["title"] + " " + it["text"][:1500]  # 主题判定可看更宽
                     # 2026-10-19 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）豁免前置涉华词：
                     # 行业硬稿（稀土/矿产/防务/油价）标题与短摘要常不直接出现 China，须放行到深抓、
                     # 看全文再判涉华（深抓后第1090行复检仍会把关）；仍要求 topic 安全化命中。
                     _is_hn_pre = is_hardnews_url(u)
-                    # 旁路：权威硬新闻源，或该源历史涉华命中率≥0.2（diagnose_zero 回写），
-                    # 且条目命中硬主题词（稀土/半导体/出口管制/关税/导弹/军演等）时，
-                    # 不要求标题显式出现涉华词——这类稿件不点名中国但直指供应链，直接丢损失大。
-                    _phr = float(s.get("probe_hit_rate") or 0)
-                    _ht = bool(HARD_TOPIC_RE.search(blob))
-                    # 题材源：用系统 18 类配置判定（core 命中即成立），比自制正则更贴出稿口径
-                    _cls = []
-                    if _HAS_TC:
-                        try:
-                            _cls = _tc.classify(blob)
-                            _cat = _cls[0] if _cls else None
-                        except Exception:
-                            _cls, _cat = [], None
-                    else:
-                        _cat = None
-                    _cat_id = _cat[0] if _cat else ""
-                    _cat_w = int(_cat[2]) if _cat else 0
-                    _topic_ok = bool(topic.search(blob)) or bool(_cls)
-                    _china_ok2 = _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500])
-                    if _HAS_TC and not _china_ok2 and not _cat_w >= 4:
-                        try:
-                            _china_ok2 = _tc.is_china(blob)
-                        except Exception:
-                            pass
-                    # 高权重题材（台海/制裁/供应链/反华动向等 w>=4）允许"不点名中国"，交深抓复核
-                    _byp = bool(_is_hn_pre or (_cat_w >= 4) or (_ht and str(s.get("grade") or "C") in ("A", "B")))
-                    if not is_lead_src:
-                        if any(b in u.lower() for b in block_global):
-                            rr["rel_block"] = rr.get("rel_block", 0) + 1; continue
-                        if not _china_ok2 and not _byp and str(s.get("grade") or "C") not in ("A", "B"):
-                            rr["rel_china"] = rr.get("rel_china", 0) + 1; continue
-                        if not _topic_ok and not (_byp and _ht):
-                            rr["rel_topic"] = rr.get("rel_topic", 0) + 1; continue
+                    if not is_lead_src and (
+                            not topic.search(blob)
+                            or any(b in u.lower() for b in block_global)
+                            or (not _is_hn_pre and not _china_ok(s["host"], it["title"], it["text"][:800], it["text"][:1500]))):
+                        continue
                     src_name = clean_src_name(ftitle or s.get("name")) or s["host"]
                     src_name = re.sub(r"\s*[–—-]\s*$", "", src_name).strip()
                     host_name[s["host"]] = src_name
-                    cand = {"cat_id": _cat_id, "cat_w": _cat_w, "ct_bypass": _byp, "url": u, "source": src_name,
+                    cand = {"url": u, "source": src_name,
                             "lang": lang_of(blob), "cat": s.get("cat", "institute"),
                             "via": "institute", "route": "institute",
                             "lead": s.get("lead"),
@@ -1248,44 +1207,15 @@ def main():
                     else:
                         cand.update({"body_from": "full", "snippet": None})
                     candidates[u] = cand; k += 1; inst_n += 1
-                _ledger.append({'host': s.get('host'), 'st': st, 'parsed': len(items),
-                                'accepted': k, 'grade': s.get('grade', 'C'), 'skip': rr})
                 if k:
                     print(f"[inst] {str(s.get('name', ''))[:22]}: +{k}", flush=True)
         print(f"[inst] 机构 RSS 本轮候选 {inst_n}（活跃源 {len(uniq)}）", flush=True)
-        try:
-            _yp = os.path.join(ROOT, 'data', 'source_yield.json')
-            os.makedirs(os.path.dirname(_yp), exist_ok=True)
-            _old = json.load(open(_yp, encoding='utf-8')) if os.path.exists(_yp) else {}
-            _old[datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M')] = {
-                'run_src': len(uniq), 'cand': inst_n, 'rows': _ledger}
-            _old = {k2: _old[k2] for k2 in sorted(_old)[-30:]}
-            json.dump(_old, open(_yp, 'w', encoding='utf-8'), ensure_ascii=False)
-        except Exception as _e:
-            print('[yield] write fail', _e, flush=True)
         # 2026-10-19 权威源 0 条诊断（HTTP 失败/解析失败），定位新增直连 feed 为何采不到
         for _nm, _st, _ni, _add in _diag0:
             if _st != 200 or _ni == 0:
                 print("[inst-diag] 权威源0条 %s HTTP=%s 解析=%s %s" % (_nm, _st, _ni, _add), flush=True)
 
-    # 4) 题材配额：c6（舆情热点，权重1）限量放行，把预算让给 w>=4 的硬题材
-    if _HAS_TC and candidates:
-        _c6, _hi, _oth = [], [], []
-        for _x in candidates.values():
-            _w = int(_x.get("cat_w") or 0)
-            if _x.get("cat_id") == "c6":
-                _c6.append(_x)
-            elif _w >= 4:
-                _hi.append(_x)
-            else:
-                _oth.append(_x)
-        _lim = int(os.environ.get("INTEL_C6_CAP", "60"))
-        if len(_c6) > _lim:
-            print(f"[cat] c6 舆情热点 {len(_c6)} 条，限 {_lim} 条入库" , flush=True)
-            _c6 = _c6[:_lim]
-        candidates = {x["url"]: x for x in (_hi + _oth + _c6)}
-
-    # 5) 正文 / 快照 + 质量过滤（按日期新->旧，限量控成本）
+    # 4) 正文 / 快照 + 质量过滤（按日期新->旧，限量控成本）
     cand = list(candidates.values())
     cand.sort(key=lambda x: x["hint_date"] or datetime.date(2000, 1, 1), reverse=True)
     snip_cand = [c for c in cand if c["body_from"] == "snippet"]             # 线索快照：零 token，全保留
