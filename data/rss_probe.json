@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-12T11:36:30.783242Z",
+ "probed_at": "2026-11-12T11:47:10.383998Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
+     "title": "US, China Call Adds Momentum to Potential Summit With Russia",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGRkNXJoeGJkaHV5U",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGRkNXJoeGJkaHV5UFhvMkVYdkoySTBpSm5Ec",
+     "resolved": false
+    },
+    {
      "title": "China Takes Aim at Western Dominance of the Gas-Turbine Indu",
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbm90dGZDMUNubnRHd",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbm90dGZDMUNubnRHdHFZeHFTUVl0Yy1KckZkT",
-     "resolved": false
-    },
-    {
-     "title": "Russia’s Push to Replace Dollar With China’s Yuan Collapses ",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZm8xX0JMOVl3aFFha",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZm8xX0JMOVl3aFFhaTBKeFFsUXE0eXg4NDliV",
      "resolved": false
     }
    ]
@@ -194,6 +194,13 @@
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NM1BSRnhwbG83Q2xoW",
      "real": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NM1BSRnhwbG83Q2xoWEVRQkp4el9RcDBCQ1NDc",
+     "resolved": false
+    },
+    {
+     "title": "Taiwan emphasizes APEC China presence as it walks diplomatic",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWUZIN21lS0dkVEl1R",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWUZIN21lS0dkVEl1RUdyQS1UY3c0V2FzTHpRM",
      "resolved": false
     },
     {
@@ -216,13 +223,6 @@
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkdkYndVM2FRR0NaW",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkdkYndVM2FRR0NaWVI0eFE2MjdDMFNJdEZJR",
      "resolved": false
-    },
-    {
-     "title": "Muted Singles Day campaign winds down as China's shoppers hu",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXhRUGp3anFvYkxPR",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXhRUGp3anFvYkxPR1RpRTNzdEdFNFktTS1Xd",
-     "resolved": false
     }
    ]
   },
@@ -232,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese carmakers offer lifeline to Europe’s struggling steel industry - Financial Times",
+   "sample": "China warns US not to use Nvidia scandal as pretext for tech curbs - Financial Times",
    "diag": [
+    {
+     "title": "China warns US not to use Nvidia scandal as pretext for tech",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3NvdXJhVjYwT0VBZ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3NvdXJhVjYwT0VBZ1dxbUQ5QVF0ZVFZdXA2a",
+     "resolved": false
+    },
     {
      "title": "Chinese carmakers offer lifeline to Europe’s struggling stee",
      "date": "2026-11-12",
@@ -246,13 +253,6 @@
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1dmTGxfaWNhVEZfR",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1dmTGxfaWNhVEZfR3FyMXUwMzd0VmgzVzBYM",
-     "resolved": false
-    },
-    {
-     "title": "China warns US not to use Nvidia scandal as pretext for tech",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3NvdXJhVjYwT0VBZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3NvdXJhVjYwT0VBZ1dxbUQ5QVF0ZVFZdXA2a",
      "resolved": false
     },
     {
@@ -391,17 +391,17 @@
      "resolved": false
     },
     {
-     "title": "Jensen Huang must resign - The Economist",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jOXFMNE9nMTVfMmlac",
-     "real": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jOXFMNE9nMTVfMmlacG1jcThXQ0dXakE3MTZyV",
-     "resolved": false
-    },
-    {
      "title": "What Donald Trump needs to understand about China and Taiwan",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc3UzbjNnbWc1T3VXR",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc3UzbjNnbWc1T3VXRDE2OW1PUTZqV2lkRWItS",
+     "resolved": false
+    },
+    {
+     "title": "The questions that hang over the next Trump-Xi summit - The ",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORGhiZUZsRlV3d0hHS",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORGhiZUZsRlV3d0hHSExUbWpaWTNPajlOV2tsY",
      "resolved": false
     }
    ]
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Thousands of schools evacuated in Italy as bomb threats spread across Europe"
+   "sample": "Paraguayans get some savings back after banking collapse disrupted economy"
   },
   {
    "name": "JapanTimes",
@@ -676,10 +676,9 @@
   {
    "name": "BreakingDefense",
    "url": "https://breakingdefense.com/feed/",
-   "status": 200,
-   "items": 15,
-   "is_feed": true,
-   "sample": "DoD pushes out 3 loans totaling $450M to bolster US space companies"
+   "status": 403,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "MiningWeekly",
