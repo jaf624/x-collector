@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-12T11:49:10.138633Z",
+ "probed_at": "2026-11-12T12:35:24.798268Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -49,47 +49,9 @@
   {
    "name": "GNEWS-AP",
    "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "China’s Singles’ Day shopping festival struggles to shake off weak consumer spending - AP News",
-   "diag": [
-    {
-     "title": "China’s Singles’ Day shopping festival struggles to shake of",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZldKVkFrVWlEQmhhV",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZldKVkFrVWlEQmhhVUpOTGNoT3lnSU1qakFBb",
-     "resolved": false
-    },
-    {
-     "title": "How Nvidia CEO Jensen Huang's extramarital affair could caus",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOHhUdHFXb3pRd05pM",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOHhUdHFXb3pRd05pMHh1LWcxVldiZEQ4ZWhna",
-     "resolved": false
-    },
-    {
-     "title": "China and ASEAN make progress on South China Sea pact but ca",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTUV3QUFHVVdGdGZFU",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTUV3QUFHVVdGdGZFUV9uWHBmRTNpdFc4RHVzN",
-     "resolved": false
-    },
-    {
-     "title": "Treasury Secretary Scott Bessent calls for more balanced US-",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSzZvaHZqSTdNX2R6b",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSzZvaHZqSTdNX2R6b1BzNzJKdnI4NDNacDYzd",
-     "resolved": false
-    },
-    {
-     "title": "China’s passenger car exports surge in October as domestic d",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV0VwdlRjWm4zZGtIa",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV0VwdlRjWm4zZGtIaVpNSzEwMi1wVkVJR053Z",
-     "resolved": false
-    }
-   ]
+   "status": 404,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-AFP",
@@ -171,13 +133,6 @@
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGRkNXJoeGJkaHV5U",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGRkNXJoeGJkaHV5UFhvMkVYdkoySTBpSm5Ec",
      "resolved": false
-    },
-    {
-     "title": "China Takes Aim at Western Dominance of the Gas-Turbine Indu",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbm90dGZDMUNubnRHd",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbm90dGZDMUNubnRHdHFZeHFTUVl0Yy1KckZkT",
-     "resolved": false
     }
    ]
   },
@@ -204,17 +159,17 @@
      "resolved": false
     },
     {
-     "title": "India forms commando units for close combat along China bord",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnJCUUlXMElqTUJES",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnJCUUlXMElqTUJES2NMZVBIU2tHQ19iNFJYR",
-     "resolved": false
-    },
-    {
      "title": "Rare earth yttrium soars 9-fold in a year amid China curbs -",
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ1dIOVZpMG1ESFNId",
      "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ1dIOVZpMG1ESFNIdW8ySFBwTTRibDlRV0VIN",
+     "resolved": false
+    },
+    {
+     "title": "India forms commando units for close combat along China bord",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnJCUUlXMElqTUJES",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnJCUUlXMElqTUJES2NMZVBIU2tHQ19iNFJYR",
      "resolved": false
     },
     {
@@ -242,17 +197,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese carmakers offer lifeline to Europe’s struggling stee",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaUpqRjBxTW5JQXlaV",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaUpqRjBxTW5JQXlaV0wzQThYbml1dHpmZkdoa",
-     "resolved": false
-    },
-    {
      "title": "China warns of ‘severe’ punishment for offshore trust tax ev",
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1dmTGxfaWNhVEZfR",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1dmTGxfaWNhVEZfR3FyMXUwMzd0VmgzVzBYM",
+     "resolved": false
+    },
+    {
+     "title": "Chinese carmakers offer lifeline to Europe’s struggling stee",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaUpqRjBxTW5JQXlaV",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaUpqRjBxTW5JQXlaV0wzQThYbml1dHpmZkdoa",
      "resolved": false
     },
     {
@@ -277,8 +232,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Exclusive | Top Democrats Target Trump Administration’s Nvidia-China Records - WSJ",
+   "sample": "China’s SMIC Doubles Profit, Posts Record Revenue on AI Boost - WSJ",
    "diag": [
+    {
+     "title": "China’s SMIC Doubles Profit, Posts Record Revenue on AI Boos",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ1UwVEFUV2t6MDF4S",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ1UwVEFUV2t6MDF4SEl1NERkQ0pJN0NEVFh3N",
+     "resolved": false
+    },
     {
      "title": "Exclusive | Top Democrats Target Trump Administration’s Nvid",
      "date": "2026-11-12",
@@ -306,13 +268,6 @@
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelhwVDNzeTRXQTB5a",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelhwVDNzeTRXQTB5ai1DTEM2b2Z3WWdzb1hWQ",
      "resolved": false
-    },
-    {
-     "title": "Exclusive | U.S. Balks at China’s Demand for Tightly Scripte",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObnAzVTNhOC15X1poV",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObnAzVTNhOC15X1poVDJLYlpWdnNSOU9oemg4a",
-     "resolved": false
     }
    ]
   },
@@ -339,17 +294,17 @@
      "resolved": false
     },
     {
-     "title": "This Trader Raised Alarm About Nvidia’s China Entanglements ",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1M",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1MzNySzJzQ29qWXV4akVDN",
-     "resolved": false
-    },
-    {
      "title": "Nvidia Scandal Unveils a Fierce Spy War Raging Behind Trump ",
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUWlBQbTI3NE1qbVR5d",
      "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUWlBQbTI3NE1qbVR5d2g0V1NTQ1Jva1NlSFZ4e",
+     "resolved": false
+    },
+    {
+     "title": "This Trader Raised Alarm About Nvidia’s China Entanglements ",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1M",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1MzNySzJzQ29qWXV4akVDN",
      "resolved": false
     },
     {
@@ -391,10 +346,17 @@
      "resolved": false
     },
     {
-     "title": "What Donald Trump needs to understand about China and Taiwan",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc3UzbjNnbWc1T3VXR",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc3UzbjNnbWc1T3VXRDE2OW1PUTZqV2lkRWItS",
+     "title": "Xi Jinping’s chief ideologue is worried - The Economist",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1U1MlJyUV9DWXBGb",
+     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1U1MlJyUV9DWXBGbGxYNHd0Y2lqelNqeTk5e",
+     "resolved": false
+    },
+    {
+     "title": "The questions that hang over the next Trump-Xi summit - The ",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORGhiZUZsRlV3d0hHS",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORGhiZUZsRlV3d0hHSExUbWpaWTNPajlOV2tsY",
      "resolved": false
     },
     {
@@ -584,7 +546,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "India Boosts Gulf Oil Imports as Russian Crude Loses Its Price Advantage"
+   "sample": "Nigeria Hits OPEC Oil Production Quota for Sixth Straight Month"
   },
   {
    "name": "IMF",
@@ -628,7 +590,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Paraguayans get some savings back after banking collapse disrupted economy"
+   "sample": "Israeli occupation in southern Lebanon: Displaced families struggle to cope"
   },
   {
    "name": "JapanTimes",
