@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-12T19:25:48.117359Z",
+ "probed_at": "2026-11-12T20:14:24.328072Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -24,7 +24,7 @@
      "resolved": false
     },
     {
-     "title": "Trump's Commerce chief Lutnick criticized over chip exports ",
+     "title": "White House discussing Howard Lutnick's future as Commerce s",
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ2JBc1RoY3pGRnZ0R",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ2JBc1RoY3pGRnZ0R1BzOW43SHY5eGxjZHpwM",
@@ -52,8 +52,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "How Nvidia CEO Jensen Huang's extramarital affair could cause collateral damage in Washington - AP News",
+   "sample": "Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him - AP News",
    "diag": [
+    {
+     "title": "Jensen Huang built the company that powers AI. Now Nvidia mu",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZ",
+     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2b",
+     "resolved": false
+    },
     {
      "title": "How Nvidia CEO Jensen Huang's extramarital affair could caus",
      "date": "2026-11-11",
@@ -69,13 +76,6 @@
      "resolved": false
     },
     {
-     "title": "China’s Singles’ Day shopping festival struggles to shake of",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZldKVkFrVWlEQmhhV",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZldKVkFrVWlEQmhhVUpOTGNoT3lnSU1qakFBb",
-     "resolved": false
-    },
-    {
      "title": "China and ASEAN make progress on South China Sea pact but ca",
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTUV3QUFHVVdGdGZFU",
@@ -83,10 +83,10 @@
      "resolved": false
     },
     {
-     "title": "Jensen Huang built the company that powers AI. Now Nvidia mu",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZ",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2b",
+     "title": "China’s Singles’ Day shopping festival struggles to shake of",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZldKVkFrVWlEQmhhV",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZldKVkFrVWlEQmhhVUpOTGNoT3lnSU1qakFBb",
      "resolved": false
     }
    ]
@@ -159,10 +159,10 @@
      "resolved": false
     },
     {
-     "title": "Germany’s Carmakers Accelerate Cuts at Home on China Reckoni",
+     "title": "Live Q&A: With Jensen Huang Out, What’s Next For Nvidia, Chi",
      "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaHRCdnhCUWZTSHJIQ",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaHRCdnhCUWZTSHJIQVpwendycGdyV2ZaOUUzd",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYUV4cnM3akMxNVlqN",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYUV4cnM3akMxNVlqNDloQWVsc255TWpJNGNpT",
      "resolved": false
     },
     {
@@ -347,16 +347,16 @@
     },
     {
      "title": "This Trader Raised Alarm About Nvidia’s China Entanglements ",
-     "date": "2026-11-11",
+     "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1M",
      "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1MzNySzJzQ29qWXV4akVDN",
      "resolved": false
     },
     {
-     "title": "Nvidia Scandal Unveils a Fierce Spy War Raging Behind Trump ",
+     "title": "What to Know About the Turmoil at Nvidia as Jensen Huang Res",
      "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUWlBQbTI3NE1qbVR5d",
-     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUWlBQbTI3NE1qbVR5d2g0V1NTQ1Jva1NlSFZ4e",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoVWJPa29uOWhQdVY0T",
+     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoVWJPa29uOWhQdVY0TFJQVXZnMjR3QWFKSjVlc",
      "resolved": false
     }
    ]
@@ -384,6 +384,13 @@
      "resolved": false
     },
     {
+     "title": "China's emissions are falling. Thank self-interest - The Eco",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR0JoLUpsRzhpVzVQeGpCb",
+     "resolved": false
+    },
+    {
      "title": "Ted Plafker, a stalwart of our China coverage, has died - Th",
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1Nie",
@@ -395,13 +402,6 @@
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4W",
      "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4WVRlaTRCQlBWUVlkcTZTU",
-     "resolved": false
-    },
-    {
-     "title": "China’s exports of clean tech to South-East Asia are soaring",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTF5RTRIZC16VjlHa",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTF5RTRIZC16VjlHazR4WXR2SDRrYy1FTWxxR",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "NDU Hosts NATO Defense College for Discussions on Transatlantic and Pacific Security"
+   "sample": "Carderock's NEEC Partnership Connects Embry-Riddle Students to Navy Maritime Robotics"
   },
   {
    "name": "商务部新闻",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Germany, Poland tap SATIM to analyze military satellite imagery"
+   "sample": "Putin lets Europe join Ukraine peace talks, as Kyiv says Starshield disrupted again"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Record Car Prices Are Pushing American Drivers Deeper Into Debt"
+   "sample": "Central Asia’s B20 Message to Washington: Let’s Make Deals"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Israel to ban far-left French politician Jean-Luc Mélenchon from entry"
+   "sample": "Israeli strike on Gaza hospital kills six, including surgeon, medics say"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "AUKUS on track, even ‘ahead of schedule’ for some parts, admiral says"
+   "sample": "Air Force unveils T-19A, a new aerobatic plane to train future pilots"
   },
   {
    "name": "MiningWeekly",
