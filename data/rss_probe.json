@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-13T15:35:21.661636Z",
+ "probed_at": "2026-11-13T16:46:38.251317Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -128,10 +128,10 @@
      "resolved": false
     },
     {
-     "title": "Nvidia to probe reports that Chinese intelligence targeted C",
-     "date": "2026-11-08",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa3o2ZmE0TVhvRjR2N",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa3o2ZmE0TVhvRjR2N3R4YzI4Y2pEb1UwYVRlR",
+     "title": "Mercedes to halt German investments, mulling plant closures ",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY3NaTGNwdURQNkF3b",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY3NaTGNwdURQNkF3bmZCNEdvb1M0UVl1bjViM",
      "resolved": false
     }
    ]
@@ -142,8 +142,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Alice Huang-Linked Firm Procured Banned Nvidia Chips in China - Bloomberg.com",
+   "sample": "Anthropic IPO Share Orders From China Are Said to Be Rebuffed - Bloomberg.com",
    "diag": [
+    {
+     "title": "Anthropic IPO Share Orders From China Are Said to Be Rebuffe",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSXR2WDdyNDdpUjZDd",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSXR2WDdyNDdpUjZDdi16dlZpZ2MwSmZGZkFCb",
+     "resolved": false
+    },
     {
      "title": "Alice Huang-Linked Firm Procured Banned Nvidia Chips in Chin",
      "date": "2026-11-13",
@@ -159,13 +166,6 @@
      "resolved": false
     },
     {
-     "title": "OpenAI Joins Groundswell of Support for AI Chip Control Meas",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMmJ4OENGS1F1RWpJN",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMmJ4OENGS1F1RWpJNzlmVHhSZjVvYlZVWnh0Y",
-     "resolved": false
-    },
-    {
      "title": "China’s Improbable Transformation Into an Automobile Superpo",
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS29nRmNzclNScl9rZ",
@@ -173,10 +173,10 @@
      "resolved": false
     },
     {
-     "title": "US Probing If Alice Huang Helped Smuggle Super Micro Product",
+     "title": "OpenAI Joins Groundswell of Support for AI Chip Control Meas",
      "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNEowTHp0WTdmd1NaR",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNEowTHp0WTdmd1NaRUlGMWNnQXVSY181MkZkR",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMmJ4OENGS1F1RWpJN",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMmJ4OENGS1F1RWpJNzlmVHhSZjVvYlZVWnh0Y",
      "resolved": false
     }
    ]
@@ -204,17 +204,17 @@
      "resolved": false
     },
     {
-     "title": "Starbucks in China eyes growth through quality over quantity",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUmpzZjhBdnMzY085Z",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUmpzZjhBdnMzY085Z0U3YWl0VExqLXd0WVFpQ",
-     "resolved": false
-    },
-    {
      "title": "India forms commando units for close combat along China bord",
      "date": "2026-11-10",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnJCUUlXMElqTUJES",
      "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnJCUUlXMElqTUJES2NMZVBIU2tHQ19iNFJYR",
+     "resolved": false
+    },
+    {
+     "title": "Starbucks in China eyes growth through quality over quantity",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUmpzZjhBdnMzY085Z",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUmpzZjhBdnMzY085Z0U3YWl0VExqLXd0WVFpQ",
      "resolved": false
     },
     {
@@ -309,7 +309,7 @@
     },
     {
      "title": "The 31-Year-Old Trader Who Called Out Jensen Huang’s ‘China ",
-     "date": "2026-11-11",
+     "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU3B0dEx6NFJNd3BrR",
      "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU3B0dEx6NFJNd3BrRERfNktKdUdWN3U2MWRFc",
      "resolved": false
@@ -333,9 +333,16 @@
     },
     {
      "title": "In China’s Spy Operations, Romance Can Be a Long Game - The ",
-     "date": "2026-11-12",
+     "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUEgtSVBVUXBEdlZiX",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUEgtSVBVUXBEdlZiX3VqNTd2R3daWWF4T3N0a",
+     "resolved": false
+    },
+    {
+     "title": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tough",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2a",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2anJmMndlT3pCSnNTcFdQR",
      "resolved": false
     },
     {
@@ -346,17 +353,10 @@
      "resolved": false
     },
     {
-     "title": "This Trader Raised Alarm About Nvidia’s China Entanglements ",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1M",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1MzNySzJzQ29qWXV4akVDN",
-     "resolved": false
-    },
-    {
-     "title": "Jensen Huang’s Affairs That Upended Nvidia: Timeline of Even",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSEw1RUdiclV0TXY0T",
-     "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSEw1RUdiclV0TXY0THoyc3NCalFZZDBTZ1Jsa",
+     "title": "Nvidia Updates: Huang’s Resignation Reverberates Through A.I",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWxaN0tPUFI1US1TR",
+     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWxaN0tPUFI1US1TR2ppVnJqdmVuQTJLWmI0L",
      "resolved": false
     }
    ]
@@ -391,17 +391,17 @@
      "resolved": false
     },
     {
-     "title": "Ted Plafker, a stalwart of our China coverage, has died - Th",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1Nie",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1NienQ4eHlFZFo0YkVCbWxxN",
-     "resolved": false
-    },
-    {
      "title": "Can anyone fix the China-Japan relationship? - The Economist",
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4W",
      "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4WVRlaTRCQlBWUVlkcTZTU",
+     "resolved": false
+    },
+    {
+     "title": "Ted Plafker, a stalwart of our China coverage, has died - Th",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1Nie",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1NienQ4eHlFZFo0YkVCbWxxN",
      "resolved": false
     }
    ]
@@ -423,7 +423,7 @@
     },
     {
      "title": "Myanmar lobbies US to invest in its rare earths sector, domi",
-     "date": "2026-11-10",
+     "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEW",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEWXRUaWhDWUl1bEpxYUIte",
      "resolved": false
@@ -444,7 +444,7 @@
     },
     {
      "title": "EXCLUSIVE: Chinese university bought Nvidia H200 chips despi",
-     "date": "2026-11-12",
+     "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIb",
      "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIbWtuMU5qVm1teTBwSTFIa",
      "resolved": false
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Fairfield-Based Small Business Owner Promoted to Major in Illinois Army National Guard"
+   "sample": "TAC Outreach Call November 24, 2026: DTS Reports"
   },
   {
    "name": "商务部新闻",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Turkey and Egypt weigh joint naval shipbuilding projects"
+   "sample": "US Army names officer held on &#8216;allegations of espionage&#8217;"
   },
   {
    "name": "Mining",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Guinea gold mining crackdown leaves 10 dead, sparks exodus"
+   "sample": "Anglo American&#8217;s Australia exit marks end of an era"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Iran Rules Out Return of UN Nuclear Inspectors as U.S. War Talks Stall"
+   "sample": "India&#039;s Road Fuel Demand Won&#039;t Peak Until 2034"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Haitian forces recapture national stadium after two years of gang control"
+   "sample": "UN refugee chief Barham Salih slams 'shameful' war in Sudan, urges 'political solution'"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Gadi Eisenkot could be Israel&#8217;s next leader. His military experience will drive his approach."
+   "sample": "Hermeus recruits Northrop Grumman to Quarterhorse drone program"
   },
   {
    "name": "MiningWeekly",
