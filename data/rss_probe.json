@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-13T08:27:48.562262Z",
+ "probed_at": "2026-11-13T15:35:21.661636Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,20 +7,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China stages unannounced Pacific drills in 'silent intimidation' of Taiwan, officials say - Reuters",
+   "sample": "EXCLUSIVE: Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia - Reuters",
    "diag": [
+    {
+     "title": "EXCLUSIVE: Huang exit and US scrutiny imperil $3 billion in ",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcGIzcVZhWDU2cVlTW",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcGIzcVZhWDU2cVlTWlhGZFZUMGlCcldoTU4wc",
+     "resolved": false
+    },
+    {
+     "title": "China's $3 billion-plus pipeline of Nvidia-powered AI data c",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdkFHQnE4ZWppRXAxM",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdkFHQnE4ZWppRXAxMGVYOUZXa1F1YnhLeUdVb",
+     "resolved": false
+    },
     {
      "title": "China stages unannounced Pacific drills in 'silent intimidat",
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcEx2eTdicmVJdWI5Y",
      "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcEx2eTdicmVJdWI5Y2JyUVhiN1psV0dacm9RN",
-     "resolved": false
-    },
-    {
-     "title": "Food arrives by drone in APEC host Shenzhen, as China expand",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRTlKVTE0bEZEb2s4d",
-     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRTlKVTE0bEZEb2s4dTJDSktzMWM1eEpXekRMY",
      "resolved": false
     },
     {
@@ -31,17 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Explainer: Tougher curbs on AI chip sales to China likely af",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRERObVhKZklNOEliO",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRERObVhKZklNOEliOFhfQmhqMmZaQWktbkVWT",
-     "resolved": false
-    },
-    {
-     "title": "China's access to some Nvidia chips in doubt as curbs gain t",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY2tXSEVILWxGWU1rMzBvT",
+     "title": "What is APEC and who will be there? - Reuters",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGUtWDdCbkpKT0p0c",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGUtWDdCbkpKT0p0c2lwR3dQVG1Pa3E5eHUzb",
      "resolved": false
     }
    ]
@@ -52,13 +52,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him - AP News",
+   "sample": "Chinese dissident who admitted spying for Beijing in the US gets no jail time - AP News",
    "diag": [
     {
-     "title": "Jensen Huang built the company that powers AI. Now Nvidia mu",
+     "title": "Chinese dissident who admitted spying for Beijing in the US ",
      "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZ",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2b",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOek5laEs0Q2E4Qm05a",
+     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOek5laEs0Q2E4Qm05a0RoMmhhUEtuOG1pbzdaT",
      "resolved": false
     },
     {
@@ -66,6 +66,13 @@
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOHhUdHFXb3pRd05pM",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOHhUdHFXb3pRd05pMHh1LWcxVldiZEQ4ZWhna",
+     "resolved": false
+    },
+    {
+     "title": "Jensen Huang built the company that powers AI. Now Nvidia mu",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZ",
+     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2b",
      "resolved": false
     },
     {
@@ -80,13 +87,6 @@
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWWN4Um5UWHU3MHROU",
      "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWWN4Um5UWHU3MHROUmJ2YlMtSW05bmNXSFI3T",
-     "resolved": false
-    },
-    {
-     "title": "FBI is looking at Nvidia CEO Jensen Huang's affair with an a",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQWY3b0NNRFBNRG5jZ",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQWY3b0NNRFBNRG5jZVdXM05URnhOV19vQ24zV",
      "resolved": false
     }
    ]
@@ -152,17 +152,10 @@
      "resolved": false
     },
     {
-     "title": "China Policy Bank Bonds Suffer Selloff as Tax Worries Hit Ma",
+     "title": "Jensen Huang Exit Sets Up US-China Showdown Over AI Chip Cur",
      "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSFNIbUFNNTB6SnNTR",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSFNIbUFNNTB6SnNTRHR3Q3l6dWRlYnlHMUZUS",
-     "resolved": false
-    },
-    {
-     "title": "China Internet Stock Gains Face Reality Check in Nvidia Fall",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVFJxT1NoZ2NEcUN5b",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVFJxT1NoZ2NEcUN5bmUzclFYY0thVmdyaS1ES",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTVQX056VWJyVXp2U",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTVQX056VWJyVXp2UTNaRWlHSXdrSnR3TmRYT",
      "resolved": false
     },
     {
@@ -173,10 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China Is the Biggest Loser From Jensen Huang’s Downfall - Bl",
+     "title": "China’s Improbable Transformation Into an Automobile Superpo",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS29nRmNzclNScl9rZ",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS29nRmNzclNScl9rZ0dHdWc5VFY4LWtoRmZfa",
+     "resolved": false
+    },
+    {
+     "title": "US Probing If Alice Huang Helped Smuggle Super Micro Product",
      "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2NFWjRKb3pxNlIzV",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2NFWjRKb3pxNlIzVV8tMDBaSnNiXy1iQzhPT",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNEowTHp0WTdmd1NaR",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNEowTHp0WTdmd1NaRUlGMWNnQXVSY181MkZkR",
      "resolved": false
     }
    ]
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Is China encircling Vietnam? - Nikkei Asia",
+   "sample": "Toyota rewires China supply chain to fight back in EV race - Nikkei Asia",
    "diag": [
+    {
+     "title": "Toyota rewires China supply chain to fight back in EV race -",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRjlLSFpMbEw2RFNhT",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRjlLSFpMbEw2RFNhTFlhejQ2SlRTOHdCeEc1U",
+     "resolved": false
+    },
     {
      "title": "Is China encircling Vietnam? - Nikkei Asia",
      "date": "2026-11-11",
@@ -211,13 +218,6 @@
      "resolved": false
     },
     {
-     "title": "Taiwan emphasizes APEC China presence as it walks diplomatic",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWUZIN21lS0dkVEl1R",
-     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWUZIN21lS0dkVEl1RUdyQS1UY3c0V2FzTHpRM",
-     "resolved": false
-    },
-    {
      "title": "Rare earth yttrium soars 9-fold in a year amid China curbs -",
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ1dIOVZpMG1ESFNId",
@@ -232,27 +232,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China warns US not to use Nvidia scandal as pretext for tech curbs - Financial Times",
+   "sample": "Jensen Huang’s years-long effort to get close to China - Financial Times",
    "diag": [
+    {
+     "title": "Jensen Huang’s years-long effort to get close to China - Fin",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNGdpdFdoUHF2WEtfd",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNGdpdFdoUHF2WEtfdW1CeUUxamVuY0RTeHlmL",
+     "resolved": false
+    },
+    {
+     "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chi",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOTBFMjR2dGk2dUhsU",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOTBFMjR2dGk2dUhsUDR3bjJvM0NyTmR5eUF6V",
+     "resolved": false
+    },
     {
      "title": "China warns US not to use Nvidia scandal as pretext for tech",
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3NvdXJhVjYwT0VBZ",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3NvdXJhVjYwT0VBZ1dxbUQ5QVF0ZVFZdXA2a",
-     "resolved": false
-    },
-    {
-     "title": "China warns of ‘severe’ punishment for offshore trust tax ev",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1dmTGxfaWNhVEZfR",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1dmTGxfaWNhVEZfR3FyMXUwMzd0VmgzVzBYM",
-     "resolved": false
-    },
-    {
-     "title": "Chinese carmakers offer lifeline to Europe’s struggling stee",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaUpqRjBxTW5JQXlaV",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaUpqRjBxTW5JQXlaV0wzQThYbml1dHpmZkdoa",
      "resolved": false
     },
     {
@@ -277,8 +277,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Beijing Is Trying to Build a Chinese Rival for Insuring World Shipping - WSJ",
+   "sample": "China Looks to Shake Up Centuries-Old Business of Insuring Ships - WSJ",
    "diag": [
+    {
+     "title": "China Looks to Shake Up Centuries-Old Business of Insuring S",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVF9MMFk5aGVhdlluO",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVF9MMFk5aGVhdlluOG02Y05WSkpJVGVhRlctT",
+     "resolved": false
+    },
+    {
+     "title": "Exclusive | China’s Moonshot AI Restructures to Pave Way for",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSmJIUXk3T0VkT1dRY",
+     "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSmJIUXk3T0VkT1dRYXdlSmFyaVAxanY4N2dZd",
+     "resolved": false
+    },
     {
      "title": "Beijing Is Trying to Build a Chinese Rival for Insuring Worl",
      "date": "2026-11-12",
@@ -299,20 +313,6 @@
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU3B0dEx6NFJNd3BrR",
      "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU3B0dEx6NFJNd3BrRERfNktKdUdWN3U2MWRFc",
      "resolved": false
-    },
-    {
-     "title": "China’s SMIC Doubles Profit, Posts Record Revenue on AI Boos",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ1UwVEFUV2t6MDF4S",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ1UwVEFUV2t6MDF4SEl1NERkQ0pJN0NEVFh3N",
-     "resolved": false
-    },
-    {
-     "title": "The Chinese Woman at the Center of a Spy Probe After an Affa",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTlhoZ1JYdWtJWjkyd",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTlhoZ1JYdWtJWjkydGt1YXRtNzRSQ3BuMXE2S",
-     "resolved": false
     }
    ]
   },
@@ -322,8 +322,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "In China’s Spy Operations, Romance Can Be a Long Game - The New York Times",
+   "sample": "After Xi Purges China’s Generals, a Military Inquisitor Rises - The New York Times",
    "diag": [
+    {
+     "title": "After Xi Purges China’s Generals, a Military Inquisitor Rise",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbUtVN2JTU05IbHpsc",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbUtVN2JTU05IbHpscG9IYUdOSmI3SktqVUdkN",
+     "resolved": false
+    },
     {
      "title": "In China’s Spy Operations, Romance Can Be a Long Game - The ",
      "date": "2026-11-12",
@@ -339,24 +346,17 @@
      "resolved": false
     },
     {
-     "title": "Nvidia Scandal Unveils a Fierce Spy War Raging Behind Trump ",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUWlBQbTI3NE1qbVR5d",
-     "real": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUWlBQbTI3NE1qbVR5d2g0V1NTQ1Jva1NlSFZ4e",
-     "resolved": false
-    },
-    {
      "title": "This Trader Raised Alarm About Nvidia’s China Entanglements ",
-     "date": "2026-11-13",
+     "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1M",
      "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1MzNySzJzQ29qWXV4akVDN",
      "resolved": false
     },
     {
-     "title": "Despite Denial, Trump Was Told on Trip to China About Spying",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNC1PeXp3dElIZEN0S",
-     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNC1PeXp3dElIZEN0SUdTQ2lnMGZoM2UzOUt4V",
+     "title": "Jensen Huang’s Affairs That Upended Nvidia: Timeline of Even",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSEw1RUdiclV0TXY0T",
+     "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSEw1RUdiclV0TXY0THoyc3NCalFZZDBTZ1Jsa",
      "resolved": false
     }
    ]
@@ -384,10 +384,10 @@
      "resolved": false
     },
     {
-     "title": "Can anyone fix the China-Japan relationship? - The Economist",
+     "title": "China's emissions are falling. Thank self-interest - The Eco",
      "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4W",
-     "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4WVRlaTRCQlBWUVlkcTZTU",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR0JoLUpsRzhpVzVQeGpCb",
      "resolved": false
     },
     {
@@ -398,10 +398,10 @@
      "resolved": false
     },
     {
-     "title": "China's emissions are falling. Thank self-interest - The Eco",
+     "title": "Can anyone fix the China-Japan relationship? - The Economist",
      "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR0JoLUpsRzhpVzVQeGpCb",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4W",
+     "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4WVRlaTRCQlBWUVlkcTZTU",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 61,
+   "items": 63,
    "is_feed": true,
    "sample": "China extends suspension of new rare earth controls until January - Reuters",
    "diag": [
@@ -444,7 +444,7 @@
     },
     {
      "title": "EXCLUSIVE: Chinese university bought Nvidia H200 chips despi",
-     "date": "2026-11-11",
+     "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIb",
      "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIbWtuMU5qVm1teTBwSTFIa",
      "resolved": false
@@ -476,7 +476,7 @@
   {
    "name": "日经中文",
    "url": "https://cn.nikkei.com/rss/rss.xml",
-   "status": 200,
+   "status": 202,
    "items": 0,
    "is_feed": false,
    "sample": ""
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[深陷醜聞的黃仁勳辭職，AI芯片巨頭Nvidia陷入動盪]]>"
+   "sample": "<![CDATA[「台灣乾爹」光環崩塌：黃仁勳事件如何震動台灣產業、政治與社會？]]>"
   },
   {
    "name": "美国国务院",
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "DCMA announces Senior Exec assignment"
+   "sample": "Fairfield-Based Small Business Owner Promoted to Major in Illinois Army National Guard"
   },
   {
    "name": "商务部新闻",
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Democrats push to remove US-Israel tech measure from defense bill"
+   "sample": "Turkey and Egypt weigh joint naval shipbuilding projects"
   },
   {
    "name": "Mining",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Rare Earths Americas doubles mineralized zone at Homer project in Brazil "
+   "sample": "Guinea gold mining crackdown leaves 10 dead, sparks exodus"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Oil Prices Head for Second Weekly Loss Despite Fresh Middle East Attacks"
+   "sample": "Iran Rules Out Return of UN Nuclear Inspectors as U.S. War Talks Stall"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Who will inherit 007's licence to thrill? 'The world is not enough' in the hunt for James Bond"
+   "sample": "Haitian forces recapture national stadium after two years of gang control"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Hegseth seeks to elevate top SOF civilian to service-secretary equivalent"
+   "sample": "Gadi Eisenkot could be Israel&#8217;s next leader. His military experience will drive his approach."
   },
   {
    "name": "MiningWeekly",
