@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-14T20:54:00.640418Z",
+ "probed_at": "2026-11-14T23:40:11.821394Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -24,17 +24,17 @@
      "resolved": false
     },
     {
-     "title": "What we know about Chinese businesswoman Alice Huang - Reute",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNVlveUI2ekRqQWdDU",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNVlveUI2ekRqQWdDUnE5Rk9IR0hVQWdqVmNFa",
-     "resolved": false
-    },
-    {
      "title": "EXCLUSIVE: Ex-Nvidia CEO misled top lawyer on affair with Ch",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzdHUzc1NjBCWjJNb",
      "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzdHUzc1NjBCWjJNbldoNEhWS3RkQzJNdHJGT",
+     "resolved": false
+    },
+    {
+     "title": "What we know about Chinese businesswoman Alice Huang - Reute",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNVlveUI2ekRqQWdDU",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNVlveUI2ekRqQWdDUnE5Rk9IR0hVQWdqVmNFa",
      "resolved": false
     },
     {
@@ -121,17 +121,17 @@
      "resolved": false
     },
     {
-     "title": "The Debate - Undone by a honey trap? Nvidia's Jensen Huang a",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdVZHR0xucHp5VXVmO",
-     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdVZHR0xucHp5VXVmOXJHNUtzeVgza3FzQkN2a",
-     "resolved": false
-    },
-    {
      "title": "Nvidia's disgraced ex-CEO Jensen Huang to testify before US ",
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRk11QlM2R1cxWXViY",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRk11QlM2R1cxWXViYWJRYVZucm1WbE04b2xUO",
+     "resolved": false
+    },
+    {
+     "title": "The Debate - Undone by a honey trap? Nvidia's Jensen Huang a",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdVZHR0xucHp5VXVmO",
+     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdVZHR0xucHp5VXVmOXJHNUtzeVgza3FzQkN2a",
      "resolved": false
     }
    ]
@@ -142,29 +142,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Market Regulator Warns of Global Asset Repricing Risks - Bloomberg.com",
+   "sample": "China Fires Researchers After Child Dies in Gene-Editing Trial - Bloomberg.com",
    "diag": [
-    {
-     "title": "China’s Market Regulator Warns of Global Asset Repricing Ris",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd2tHc3E1bjhCT0tyT",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd2tHc3E1bjhCT0tyTURiTlZNakgtOVNBaGdSM",
-     "resolved": false
-    },
-    {
-     "title": "Anthropic IPO Share Orders From China Are Said to Be Rebuffe",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSXR2WDdyNDdpUjZDd",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSXR2WDdyNDdpUjZDdi16dlZpZ2MwSmZGZkFCb",
-     "resolved": false
-    },
-    {
-     "title": "What Surprises Foreign CEOs About Doing Business in China - ",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXVzSmVac3F4MDlSb",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXVzSmVac3F4MDlSbXhpZ2Z4TG9WX3FHM0Rld",
-     "resolved": false
-    },
     {
      "title": "China Fires Researchers After Child Dies in Gene-Editing Tri",
      "date": "2026-11-13",
@@ -177,6 +156,27 @@
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhfekJtSDUzVXhKZ",
      "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhfekJtSDUzVXhKZHNDNzgtTXc1RXBUVk9sR",
+     "resolved": false
+    },
+    {
+     "title": "China’s Market Regulator Warns of Global Asset Repricing Ris",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd2tHc3E1bjhCT0tyT",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd2tHc3E1bjhCT0tyTURiTlZNakgtOVNBaGdSM",
+     "resolved": false
+    },
+    {
+     "title": "What Surprises Foreign CEOs About Doing Business in China - ",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXVzSmVac3F4MDlSb",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXVzSmVac3F4MDlSbXhpZ2Z4TG9WX3FHM0Rld",
+     "resolved": false
+    },
+    {
+     "title": "China to Meet All New Power Demand With Clean Energy, CCTV S",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLVhHdzBKMzBTb3ozU",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLVhHdzBKMzBTb3ozUTZETmtWT2xTcXU0TzNJd",
      "resolved": false
     }
    ]
@@ -194,6 +194,13 @@
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2dyTzY5RU1VdHBKa",
      "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2dyTzY5RU1VdHBKaF9rdG9ka2x4TzVmTVlCc",
+     "resolved": false
+    },
+    {
+     "title": "DeepSeek, other China AI firms have just 10% the revenue of ",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX1BhSG9VdmNkcFBXWHlCW",
      "resolved": false
     },
     {
@@ -215,13 +222,6 @@
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUVlVMWFlVUNqWTRFQ",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUVlVMWFlVUNqWTRFQzMyQjlxdzg5NWpPZHRwW",
-     "resolved": false
-    },
-    {
-     "title": "Is China encircling Vietnam? - Nikkei Asia",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NM1BSRnhwbG83Q2xoW",
-     "real": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NM1BSRnhwbG83Q2xoWEVRQkp4el9RcDBCQ1NDc",
      "resolved": false
     }
    ]
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "Behind the Nvidia Affair Sits a Vast Chinese Spying Machine ",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTOWx1RVRSMnpqWGxid",
-     "real": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTOWx1RVRSMnpqWGxidkpWU1V2RWRhUXJEMlBqX",
+     "title": "A Mystery Businessman Introduced Jensen Huang to His Paramou",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZkc3Y2w4dmZiUjk2U",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZkc3Y2w4dmZiUjk2UVBuWkFqVFVJUl9ERUotO",
      "resolved": false
     }
    ]
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
+     "title": "Asia’s Eurovision Contest Is Missing China, India, Pakistan,",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ2xQdHRjelBld092NkdMN",
+     "resolved": false
+    },
+    {
      "title": "Nvidia Scandal Prompts Questions of What It Means to Be a Sp",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR0RDdmlscW1lNGtIQ",
      "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR0RDdmlscW1lNGtIQXdpbFFsQlZkVVN4b2piV",
-     "resolved": false
-    },
-    {
-     "title": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tough",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2a",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2anJmMndlT3pCSnNTcFdQR",
      "resolved": false
     }
    ]
@@ -377,17 +377,17 @@
      "resolved": false
     },
     {
-     "title": "China’s carbon-dioxide emissions have begun to fall - The Ec",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlZ1WG84YXRRWWIzR",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlZ1WG84YXRRWWIzR0thMkJpQTNHbFFNNkdMT",
-     "resolved": false
-    },
-    {
      "title": "China's emissions are falling. Thank self-interest - The Eco",
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR",
      "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR0JoLUpsRzhpVzVQeGpCb",
+     "resolved": false
+    },
+    {
+     "title": "China’s carbon-dioxide emissions have begun to fall - The Ec",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlZ1WG84YXRRWWIzR",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlZ1WG84YXRRWWIzR0thMkJpQTNHbFFNNkdMT",
      "resolved": false
     },
     {
@@ -398,10 +398,10 @@
      "resolved": false
     },
     {
-     "title": "China’s exports of clean tech to South-East Asia are soaring",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTF5RTRIZC16VjlHa",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTF5RTRIZC16VjlHazR4WXR2SDRrYy1FTWxxR",
+     "title": "Jensen Huang must go - The Economist",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwS0tNekRaMDQzeElDM",
+     "real": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwS0tNekRaMDQzeElDMUgwQmpTV2p5QkJCR2hnW",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 61,
+   "items": 63,
    "is_feed": true,
    "sample": "Myanmar lobbies US to invest in its rare earths sector, dominated by China - Reuters",
    "diag": [
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Iran War Accelerates Southeast Asia’s Renewable Energy Push"
+   "sample": "Nvidia Without Huang: What a Pause in AI Deals Means for Metals"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "SpaceX's Starship set for return to Earth after failed booster catch"
+   "sample": "SpaceX's Starship completes first-ever mid-air catch after return from orbit"
   },
   {
    "name": "JapanTimes",
