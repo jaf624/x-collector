@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-14T01:51:26.400200Z",
+ "probed_at": "2026-11-14T02:45:49.074774Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -17,17 +17,17 @@
      "resolved": false
     },
     {
-     "title": "Trump to meet Putin and Xi in China, White House says - Reut",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1dzUndCOE42aUFUa",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1dzUndCOE42aUFUazd4SFcxMFVWUTl6VmRVO",
-     "resolved": false
-    },
-    {
      "title": "Trump to hold summit with Xi, Putin in Shenzhen on Thursday,",
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaHhKNS1YbHpLcldfQ",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaHhKNS1YbHpLcldfQTByOFM5TzNFOC16QmlWZ",
+     "resolved": false
+    },
+    {
+     "title": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday,",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1dzUndCOE42aUFUa",
+     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1dzUndCOE42aUFUazd4SFcxMFVWUTl6VmRVO",
      "resolved": false
     },
     {
@@ -62,17 +62,17 @@
      "resolved": false
     },
     {
-     "title": "Jensen Huang built the company that powers AI. Now Nvidia mu",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZ",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2b",
-     "resolved": false
-    },
-    {
      "title": "Trump, Xi and Putin plan an unprecedented joint meeting on t",
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUa",
      "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUaW55bWxuNy1BX1FaZVNYZ",
+     "resolved": false
+    },
+    {
+     "title": "Jensen Huang built the company that powers AI. Now Nvidia mu",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZ",
+     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2b",
      "resolved": false
     },
     {
@@ -83,10 +83,10 @@
      "resolved": false
     },
     {
-     "title": "Scandal-hit Jensen Huang loses his shine in his birthplace T",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYzFHTDVxdmV4UmtBc",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYzFHTDVxdmV4UmtBc0dUOW55RkZrcWZzYnZmd",
+     "title": "China and ASEAN make progress on South China Sea pact but ca",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTUV3QUFHVVdGdGZFU",
+     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTUV3QUFHVVdGdGZFUV9uWHBmRTNpdFc4RHVzN",
      "resolved": false
     }
    ]
@@ -142,20 +142,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Anthropic IPO Share Orders From China Are Said to Be Rebuffed - Bloomberg",
+   "sample": "Trump to Meet With Xi, Putin Nov. 19 in China, White House Says - Bloomberg.com",
    "diag": [
+    {
+     "title": "Trump to Meet With Xi, Putin Nov. 19 in China, White House S",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOREM3N2pHRGZ1V1lCT",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOREM3N2pHRGZ1V1lCTk9qVDVjaURLQTNKaEFsU",
+     "resolved": false
+    },
     {
      "title": "Anthropic IPO Share Orders From China Are Said to Be Rebuffe",
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSXR2WDdyNDdpUjZDd",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSXR2WDdyNDdpUjZDdi16dlZpZ2MwSmZGZkFCb",
-     "resolved": false
-    },
-    {
-     "title": "Trump to Meet With Xi, Putin Nov. 19 in China for Talks - Bl",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOREM3N2pHRGZ1V1lCT",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOREM3N2pHRGZ1V1lCTk9qVDVjaURLQTNKaEFsU",
      "resolved": false
     },
     {
@@ -322,8 +322,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "In China’s Spy Operations, Romance Can Be a Long Game - The New York Times",
+   "sample": "Trump to Meet With Putin and Xi in China, With Nuclear Proliferation on the Agenda - The New York Times",
    "diag": [
+    {
+     "title": "Trump to Meet With Putin and Xi in China, With Nuclear Proli",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaWlZUDZrQV9aZ2RzM",
+     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaWlZUDZrQV9aZ2RzMS04ZERzWXlNWHp4THBtR",
+     "resolved": false
+    },
     {
      "title": "In China’s Spy Operations, Romance Can Be a Long Game - The ",
      "date": "2026-11-12",
@@ -351,13 +358,6 @@
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1M",
      "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX2FTU2VwZWc4azh1MzNySzJzQ29qWXV4akVDN",
      "resolved": false
-    },
-    {
-     "title": "Jensen Huang Resigns as Nvidia CEO After Affairs: Live Updat",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWxaN0tPUFI1US1TR",
-     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWxaN0tPUFI1US1TR2ppVnJqdmVuQTJLWmI0L",
-     "resolved": false
     }
    ]
   },
@@ -384,17 +384,17 @@
      "resolved": false
     },
     {
-     "title": "A franchise revolution is stirring in China - The Economist",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX05hOVl4QXNQLVBnT",
-     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX05hOVl4QXNQLVBnTnNOenhJNjJ2alk3Y0dDS",
-     "resolved": false
-    },
-    {
      "title": "Xi Jinping’s plan for a China-centric world order - The Econ",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU0h5Rk8wZGVqdVJvd",
      "real": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU0h5Rk8wZGVqdVJvd2RhYlZpWVpIYTVuWi1Cc",
+     "resolved": false
+    },
+    {
+     "title": "A franchise revolution is stirring in China - The Economist",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX05hOVl4QXNQLVBnT",
+     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX05hOVl4QXNQLVBnTnNOenhJNjJ2alk3Y0dDS",
      "resolved": false
     },
     {
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 63,
+   "items": 61,
    "is_feed": true,
    "sample": "China extends suspension of new rare earth controls until January - Reuters",
    "diag": [
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Gambia's Adama Barrow seeks third term"
+   "sample": "US flights resume after nationwide ground stop lifted"
   },
   {
    "name": "JapanTimes",
