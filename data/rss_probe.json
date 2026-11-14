@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-14T08:24:51.809618Z",
+ "probed_at": "2026-11-14T09:19:16.052828Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -69,17 +69,17 @@
      "resolved": false
     },
     {
-     "title": "Trump, Xi and Putin plan an unprecedented joint meeting on t",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUa",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUaW55bWxuNy1BX1FaZVNYZ",
-     "resolved": false
-    },
-    {
      "title": "The Nvidia scandal is heightening America’s AI rivalry with ",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOalY0LVRKSlZQVVJQe",
      "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOalY0LVRKSlZQVVJQeGZidU1VWFo0VXpuaGNQV",
+     "resolved": false
+    },
+    {
+     "title": "Trump, Xi and Putin plan an unprecedented joint meeting on t",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUa",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUaW55bWxuNy1BX1FaZVNYZ",
      "resolved": false
     },
     {
@@ -152,6 +152,13 @@
      "resolved": false
     },
     {
+     "title": "China to Meet All New Power Demand With Clean Energy, CCTV S",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLVhHdzBKMzBTb3ozU",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLVhHdzBKMzBTb3ozUTZETmtWT2xTcXU0TzNJd",
+     "resolved": false
+    },
+    {
      "title": "Trump to Meet With Xi, Putin Nov. 19 in China, White House S",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOREM3N2pHRGZ1V1lCT",
@@ -170,13 +177,6 @@
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhfekJtSDUzVXhKZ",
      "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhfekJtSDUzVXhKZHNDNzgtTXc1RXBUVk9sR",
-     "resolved": false
-    },
-    {
-     "title": "Jensen Huang Exit Sets Up US-China Showdown Over AI Chip Cur",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTVQX056VWJyVXp2U",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTVQX056VWJyVXp2UTNaRWlHSXdrSnR3TmRYT",
      "resolved": false
     }
    ]
@@ -302,7 +302,7 @@
     },
     {
      "title": "The 31-Year-Old Trader Who Called Out Jensen Huang’s ‘China ",
-     "date": "2026-11-14",
+     "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU3B0dEx6NFJNd3BrR",
      "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU3B0dEx6NFJNd3BrRERfNktKdUdWN3U2MWRFc",
      "resolved": false
@@ -384,13 +384,6 @@
      "resolved": false
     },
     {
-     "title": "China’s exports of clean tech to South-East Asia are soaring",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTF5RTRIZC16VjlHa",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTF5RTRIZC16VjlHazR4WXR2SDRrYy1FTWxxR",
-     "resolved": false
-    },
-    {
      "title": "Can anyone fix the China-Japan relationship? - The Economist",
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4W",
@@ -402,6 +395,13 @@
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdVpNdnpYTm1PNHN4W",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdVpNdnpYTm1PNHN4WkRKRVBwYjN4cy11b3VJV",
+     "resolved": false
+    },
+    {
+     "title": "Ted Plafker, a stalwart of our China coverage, has died - Th",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1Nie",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1NienQ4eHlFZFo0YkVCbWxxN",
      "resolved": false
     }
    ]
