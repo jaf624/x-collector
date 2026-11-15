@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-15T00:40:14.457134Z",
+ "probed_at": "2026-11-15T03:08:50.971905Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -142,8 +142,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Fires Researchers After Child Dies in Gene-Editing Trial - Bloomberg.com",
+   "sample": "What Surprises Foreign CEOs About Doing Business in China - Bloomberg.com",
    "diag": [
+    {
+     "title": "What Surprises Foreign CEOs About Doing Business in China - ",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXVzSmVac3F4MDlSb",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXVzSmVac3F4MDlSbXhpZ2Z4TG9WX3FHM0Rld",
+     "resolved": false
+    },
     {
      "title": "China Fires Researchers After Child Dies in Gene-Editing Tri",
      "date": "2026-11-13",
@@ -159,24 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China’s Market Regulator Warns of Global Asset Repricing Ris",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd2tHc3E1bjhCT0tyT",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd2tHc3E1bjhCT0tyTURiTlZNakgtOVNBaGdSM",
-     "resolved": false
-    },
-    {
-     "title": "What Surprises Foreign CEOs About Doing Business in China - ",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXVzSmVac3F4MDlSb",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXVzSmVac3F4MDlSbXhpZ2Z4TG9WX3FHM0Rld",
-     "resolved": false
-    },
-    {
      "title": "China’s Brewing Soft Power in the US Smells Like Coffee - Bl",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNand4NUNmUHpHM1NwV",
      "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNand4NUNmUHpHM1NwV3V4Z0YzcUM1VVNEQ1dtY",
+     "resolved": false
+    },
+    {
+     "title": "China Is the Biggest Loser From Jensen Huang’s Downfall - Bl",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2NFWjRKb3pxNlIzV",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2NFWjRKb3pxNlIzVV8tMDBaSnNiXy1iQzhPT",
      "resolved": false
     }
    ]
@@ -211,17 +211,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese makers flock to Africa as trade gives way to local p",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM1pKSm5GemFBVTJUM",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM1pKSm5GemFBVTJUMFliOURkcElQY1k2NUt5V",
-     "resolved": false
-    },
-    {
      "title": "Trump to meet Putin and Xi in China, White House says - Nikk",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUVlVMWFlVUNqWTRFQ",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUVlVMWFlVUNqWTRFQzMyQjlxdzg5NWpPZHRwW",
+     "resolved": false
+    },
+    {
+     "title": "Is China encircling Vietnam? - Nikkei Asia",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NM1BSRnhwbG83Q2xoW",
+     "real": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NM1BSRnhwbG83Q2xoWEVRQkp4el9RcDBCQ1NDc",
      "resolved": false
     }
    ]
@@ -322,20 +322,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "5 Big Questions as C.E.O.s Meet in China - The New York Times",
+   "sample": "He Was China’s Man in Panama. Then He Became a Wanted Man. - The New York Times",
    "diag": [
-    {
-     "title": "5 Big Questions as C.E.O.s Meet in China - The New York Time",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwd",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwdE10ZVFXdV90cnQtSmg2X",
-     "resolved": false
-    },
     {
      "title": "He Was China’s Man in Panama. Then He Became a Wanted Man. -",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54eUQxZ1lIZEdRa2JQT",
      "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54eUQxZ1lIZEdRa2JQTk9sS2xoRXNEb3hWYXcza",
+     "resolved": false
+    },
+    {
+     "title": "Asia’s Eurovision Contest Is Missing China, India, Pakistan,",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ2xQdHRjelBld092NkdMN",
+     "resolved": false
+    },
+    {
+     "title": "5 Big Questions as C.E.O.s Meet in China - The New York Time",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwd",
+     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwdE10ZVFXdV90cnQtSmg2X",
      "resolved": false
     },
     {
@@ -350,13 +357,6 @@
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR0RDdmlscW1lNGtIQ",
      "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR0RDdmlscW1lNGtIQXdpbFFsQlZkVVN4b2piV",
-     "resolved": false
-    },
-    {
-     "title": "Asia’s Eurovision Contest Is Missing China, India, Pakistan,",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ2xQdHRjelBld092NkdMN",
      "resolved": false
     }
    ]
