@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-15T11:04:40.676470Z",
+ "probed_at": "2026-11-15T17:42:18.680036Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Philippines, Australia sign defence pact with eye on China - Reuters",
+   "sample": "ASEAN, China fail to conclude South China Sea code of conduct - Reuters",
    "diag": [
+    {
+     "title": "ASEAN, China fail to conclude South China Sea code of conduc",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb1RJdXlfUmlvM01RT",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb1RJdXlfUmlvM01RTEVHbEIzRzA0eTYxLWVtM",
+     "resolved": false
+    },
+    {
+     "title": "Trump's minerals push has yet to loosen China's grip ahead o",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQmgzajlTc2t4SmdLb",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQmgzajlTc2t4SmdLb1g1X3o1VWhhMlFTWnJ3S",
+     "resolved": false
+    },
     {
      "title": "Philippines, Australia sign defence pact with eye on China -",
      "date": "2026-11-15",
@@ -28,20 +42,6 @@
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzdHUzc1NjBCWjJNb",
      "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzdHUzc1NjBCWjJNbldoNEhWS3RkQzJNdHJGT",
-     "resolved": false
-    },
-    {
-     "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meet",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSXM1eUw2ajFCSktRV",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSXM1eUw2ajFCSktRVnp3Sm5fY0ZteUJnclFne",
-     "resolved": false
-    },
-    {
-     "title": "What we know about Chinese businesswoman Alice Huang - Reute",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNVlveUI2ekRqQWdDU",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNVlveUI2ekRqQWdDUnE5Rk9IR0hVQWdqVmNFa",
      "resolved": false
     }
    ]
@@ -114,17 +114,17 @@
      "resolved": false
     },
     {
-     "title": "China accuses US of 'fabricating' Nvidia spy claims to push ",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEtXWjktdE1JUXNTR",
-     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEtXWjktdE1JUXNTR1p0anNncmVMa3RtN2tMS",
-     "resolved": false
-    },
-    {
      "title": "What we know about China's military exercises around Taiwan ",
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVh5VFVIQ3JkQ3FDR",
      "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVh5VFVIQ3JkQ3FDR0Y5OFdieHZCY3BpbnhQd",
+     "resolved": false
+    },
+    {
+     "title": "China accuses US of 'fabricating' Nvidia spy claims to push ",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEtXWjktdE1JUXNTR",
+     "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEtXWjktdE1JUXNTR1p0anNncmVMa3RtN2tMS",
      "resolved": false
     },
     {
@@ -142,8 +142,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "What Surprises Foreign CEOs About Doing Business in China - Bloomberg.com",
+   "sample": "US FDA Rejects Summit’s China-Originated Lung Cancer Drug - Bloomberg.com",
    "diag": [
+    {
+     "title": "US FDA Rejects Summit’s China-Originated Lung Cancer Drug - ",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPelZQa1Q5Rk16X1ViW",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPelZQa1Q5Rk16X1ViWXNVRzZsX3YtOVU5R01Fc",
+     "resolved": false
+    },
     {
      "title": "What Surprises Foreign CEOs About Doing Business in China - ",
      "date": "2026-11-14",
@@ -166,17 +173,10 @@
      "resolved": false
     },
     {
-     "title": "China Is the Biggest Loser From Jensen Huang’s Downfall - Bl",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2NFWjRKb3pxNlIzV",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2NFWjRKb3pxNlIzVV8tMDBaSnNiXy1iQzhPT",
-     "resolved": false
-    },
-    {
-     "title": "The Chinese Chemical Supply Chain Fueling the US Opioid Cris",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSWJ1WDhrbXd3azJqM",
-     "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSWJ1WDhrbXd3azJqM1RjMnBnTkNlckRGTC1Bc",
+     "title": "China’s Yoozoo Gets $214 Million Flash-Memory Components Ord",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWW1KcHg1X2o2emNZd",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWW1KcHg1X2o2emNZdkNvSVFFaXJVMUwwUjN2d",
      "resolved": false
     }
    ]
@@ -187,27 +187,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China sees Nvidia chief Huang's swift downfall as political hit - Nikkei Asia",
+   "sample": "ASEAN falls short on Myanmar crisis, South China Sea pact at Manila summit - Nikkei Asia",
    "diag": [
     {
-     "title": "China sees Nvidia chief Huang's swift downfall as political ",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2dyTzY5RU1VdHBKa",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2dyTzY5RU1VdHBKaF9rdG9ka2x4TzVmTVlCc",
-     "resolved": false
-    },
-    {
-     "title": "DeepSeek, other China AI firms have just 10% the revenue of ",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX1BhSG9VdmNkcFBXWHlCW",
-     "resolved": false
-    },
-    {
-     "title": "US-China truce masks rising tensions ahead of Xi-Trump redux",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX21nUmZaaEUzemtwQ",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX21nUmZaaEUzemtwQUk3VnJGQktXQjE1YU9JY",
+     "title": "ASEAN falls short on Myanmar crisis, South China Sea pact at",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUTdrT2VNeU00UlJYR",
+     "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUTdrT2VNeU00UlJYRHZnWVA1bG0tRDFCYXlUU",
      "resolved": false
     },
     {
@@ -218,10 +204,24 @@
      "resolved": false
     },
     {
-     "title": "Chinese makers flock to Africa as trade gives way to local p",
+     "title": "China sees Nvidia chief Huang's swift downfall as political ",
      "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM1pKSm5GemFBVTJUM",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM1pKSm5GemFBVTJUMFliOURkcElQY1k2NUt5V",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2dyTzY5RU1VdHBKa",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2dyTzY5RU1VdHBKaF9rdG9ka2x4TzVmTVlCc",
+     "resolved": false
+    },
+    {
+     "title": "US-China truce masks rising tensions ahead of Xi-Trump redux",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX21nUmZaaEUzemtwQ",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX21nUmZaaEUzemtwQUk3VnJGQktXQjE1YU9JY",
+     "resolved": false
+    },
+    {
+     "title": "DeepSeek, other China AI firms have just 10% the revenue of ",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX1BhSG9VdmNkcFBXWHlCW",
      "resolved": false
     }
    ]
@@ -249,17 +249,17 @@
      "resolved": false
     },
     {
-     "title": "China’s beaten-down tech stocks could offer AI with a little",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMVBvSkdtOVRna0hvd",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMVBvSkdtOVRna0hvdldmUHJoakppR3Iyc3EyR",
-     "resolved": false
-    },
-    {
      "title": "Alice Huang’s tangled web of connections - Financial Times",
      "date": "2026-11-10",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVk43WnVwbC1WMi04S",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVk43WnVwbC1WMi04SVJVWGlDSE5wblZ4ZkhrQ",
+     "resolved": false
+    },
+    {
+     "title": "China’s beaten-down tech stocks could offer AI with a little",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMVBvSkdtOVRna0hvd",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMVBvSkdtOVRna0hvdldmUHJoakppR3Iyc3EyR",
      "resolved": false
     },
     {
@@ -294,6 +294,13 @@
      "resolved": false
     },
     {
+     "title": "How Jensen Huang Built a Business to Feed Chinese Appetite f",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJYdnc1enJkNHlnR",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJYdnc1enJkNHlnR1AwRGlNUTNCT09IeTVDb",
+     "resolved": false
+    },
+    {
      "title": "Exclusive | Powerful Trump Allies Aided a Chinese Vape Opera",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa0xSTUNxS1dwNy00Z",
@@ -301,17 +308,10 @@
      "resolved": false
     },
     {
-     "title": "Trump to Hold Talks With China’s Xi and Russia’s Putin Next ",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObVFBRWNTOVlKblQ5Y",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObVFBRWNTOVlKblQ5Y3Y1bXBuM0VPTGVXdVBkV",
-     "resolved": false
-    },
-    {
-     "title": "The 31-Year-Old Trader Who Called Out Jensen Huang’s ‘China ",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU3B0dEx6NFJNd3BrR",
-     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU3B0dEx6NFJNd3BrRERfNktKdUdWN3U2MWRFc",
+     "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WRVRId0ZUcVRGRlNaO",
+     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WRVRId0ZUcVRGRlNaOFhjRE5vUUVQWnZ6OElxc",
      "resolved": false
     }
    ]
@@ -322,20 +322,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "He Was China’s Man in Panama. Then He Became a Wanted Man. - The New York Times",
+   "sample": "5 Big Questions as C.E.O.s Meet in China - The New York Times",
    "diag": [
+    {
+     "title": "5 Big Questions as C.E.O.s Meet in China - The New York Time",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwd",
+     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwdE10ZVFXdV90cnQtSmg2X",
+     "resolved": false
+    },
     {
      "title": "He Was China’s Man in Panama. Then He Became a Wanted Man. -",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54eUQxZ1lIZEdRa2JQT",
      "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54eUQxZ1lIZEdRa2JQTk9sS2xoRXNEb3hWYXcza",
-     "resolved": false
-    },
-    {
-     "title": "Trump to Meet With Putin and Xi in China, With Nuclear Proli",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaWlZUDZrQV9aZ2RzM",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaWlZUDZrQV9aZ2RzMS04ZERzWXlNWHp4THBtR",
      "resolved": false
     },
     {
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
-     "title": "Asia’s Eurovision Contest Is Missing China, India, Pakistan,",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ2xQdHRjelBld092NkdMN",
+     "title": "Lutnick Took a Softer Line on Nvidia as Calls for Tougher Co",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2a",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2anJmMndlT3pCSnNTcFdQR",
      "resolved": false
     },
     {
-     "title": "5 Big Questions as C.E.O.s Meet in China - The New York Time",
+     "title": "Asia’s Eurovision Contest Is Missing China, India, Pakistan,",
      "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwd",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwdE10ZVFXdV90cnQtSmg2X",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ2xQdHRjelBld092NkdMN",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 62,
+   "items": 61,
    "is_feed": true,
    "sample": "Myanmar lobbies US to invest in its rare earths sector, dominated by China - Reuters",
    "diag": [
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
-     "title": "Myanmar rare earths have become critical to Chinese supply c",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGRlYnlQbHM3T3hGe",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGRlYnlQbHM3T3hGeWNXdHpuWWNnejNxWmVnb",
+     "title": "China's access to some Nvidia chips in doubt as curbs gain t",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY2tXSEVILWxGWU1rMzBvT",
      "resolved": false
     },
     {
-     "title": "China's access to some Nvidia chips in doubt as curbs gain t",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY2tXSEVILWxGWU1rMzBvT",
+     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
+     "date": "2026-10-22",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Electrifying Ambitions Meet Tough Reality in Europe"
+   "sample": "How Brazil Plans to Accelerate the Global Shift Away From Fossil Fuels"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Pope laments poverty-stricken Inca communities as locals leave Peru"
+   "sample": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory"
   },
   {
    "name": "JapanTimes",
