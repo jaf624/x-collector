@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-15T17:42:18.680036Z",
+ "probed_at": "2026-11-15T19:53:17.469034Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -69,17 +69,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese dissident who admitted spying for Beijing in the US ",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOek5laEs0Q2E4Qm05a",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOek5laEs0Q2E4Qm05a0RoMmhhUEtuOG1pbzdaT",
-     "resolved": false
-    },
-    {
      "title": "Jensen Huang built the company that powers AI. Now Nvidia mu",
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZ",
      "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2b",
+     "resolved": false
+    },
+    {
+     "title": "Chinese dissident who admitted spying for Beijing in the US ",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOek5laEs0Q2E4Qm05a",
+     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOek5laEs0Q2E4Qm05a0RoMmhhUEtuOG1pbzdaT",
      "resolved": false
     },
     {
@@ -97,13 +97,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China to host first-ever trilateral meeting between Trump, Xi and Putin next week - France 24",
+   "sample": "Chinese spy, chip sales, Trump ties... The Nvidia scandal deepens - France 24",
    "diag": [
     {
-     "title": "China to host first-ever trilateral meeting between Trump, X",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnZqaEV0V0VQTXhLT",
-     "real": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnZqaEV0V0VQTXhLTUhWcTBuaDlmWG9YaHMwb",
+     "title": "Chinese spy, chip sales, Trump ties... The Nvidia scandal de",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMURFcEJocnV6MXVYe",
+     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMURFcEJocnV6MXVYenlOSDNsanJlZkdjQk5XZ",
      "resolved": false
     },
     {
@@ -111,6 +111,13 @@
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS3NKdUwxV01iN09lU",
      "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS3NKdUwxV01iN09lUy0zQ1lhb25UemRLSVlvN",
+     "resolved": false
+    },
+    {
+     "title": "China to host first-ever trilateral meeting between Trump, X",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnZqaEV0V0VQTXhLT",
+     "real": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnZqaEV0V0VQTXhLTUhWcTBuaDlmWG9YaHMwb",
      "resolved": false
     },
     {
@@ -125,13 +132,6 @@
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEtXWjktdE1JUXNTR",
      "real": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEtXWjktdE1JUXNTR1p0anNncmVMa3RtN2tMS",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia's disgraced ex-CEO Jensen Huang to testify before US ",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRk11QlM2R1cxWXViY",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRk11QlM2R1cxWXViYWJRYVZucm1WbE04b2xUO",
      "resolved": false
     }
    ]
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "DeepSeek, other China AI firms have just 10% the revenue of ",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX1BhSG9VdmNkcFBXWHlCW",
+     "title": "Chinese makers flock to Africa as trade gives way to local p",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM1pKSm5GemFBVTJUM",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM1pKSm5GemFBVTJUMFliOURkcElQY1k2NUt5V",
      "resolved": false
     }
    ]
@@ -232,8 +232,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "The world according to China - Financial Times",
+   "sample": "FDA rejects cancer drug invented in China in blow to Beijing’s biotech sector - Financial Times",
    "diag": [
+    {
+     "title": "FDA rejects cancer drug invented in China in blow to Beijing",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSF81czliZUJkMnRRb",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSF81czliZUJkMnRRbzNpUENZS2NDTm5QNzd5U",
+     "resolved": false
+    },
+    {
+     "title": "US and allies sign accord to protect AI supply chains from C",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFc",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFcUhkRUJlX3pWbFBGZlZ6Q",
+     "resolved": false
+    },
     {
      "title": "The world according to China - Financial Times",
      "date": "2026-11-15",
@@ -242,31 +256,17 @@
      "resolved": false
     },
     {
+     "title": "Neighbours of China’s London ‘mega’ embassy struggle to sell",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVzV6LTYybUpZWG16S",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVzV6LTYybUpZWG16SjNrOUpEcVZpYUtfLXFJR",
+     "resolved": false
+    },
+    {
      "title": "Jensen Huang’s years-long effort to get close to China - Fin",
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNGdpdFdoUHF2WEtfd",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNGdpdFdoUHF2WEtfdW1CeUUxamVuY0RTeHlmL",
-     "resolved": false
-    },
-    {
-     "title": "Alice Huang’s tangled web of connections - Financial Times",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVk43WnVwbC1WMi04S",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVk43WnVwbC1WMi04SVJVWGlDSE5wblZ4ZkhrQ",
-     "resolved": false
-    },
-    {
-     "title": "China’s beaten-down tech stocks could offer AI with a little",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMVBvSkdtOVRna0hvd",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMVBvSkdtOVRna0hvdldmUHJoakppR3Iyc3EyR",
-     "resolved": false
-    },
-    {
-     "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chip d",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0d",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0dWRaZjYyWktobjJJQWVEa",
      "resolved": false
     }
    ]
@@ -277,8 +277,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Poached This Top Harvard Professor. Now He Wants Others to Join Him. - WSJ",
+   "sample": "How Jensen Huang Built a Business to Feed Chinese Appetite for American Chips - WSJ",
    "diag": [
+    {
+     "title": "How Jensen Huang Built a Business to Feed Chinese Appetite f",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJYdnc1enJkNHlnR",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJYdnc1enJkNHlnR1AwRGlNUTNCT09IeTVDb",
+     "resolved": false
+    },
     {
      "title": "China Poached This Top Harvard Professor. Now He Wants Other",
      "date": "2026-11-15",
@@ -291,13 +298,6 @@
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaXd4UlN6UWw5UmxJZ",
      "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaXd4UlN6UWw5UmxJZGc3QnA5Sm5hVi1hRUl1b",
-     "resolved": false
-    },
-    {
-     "title": "How Jensen Huang Built a Business to Feed Chinese Appetite f",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJYdnc1enJkNHlnR",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJYdnc1enJkNHlnR1AwRGlNUTNCT09IeTVDb",
      "resolved": false
     },
     {
@@ -346,10 +346,10 @@
      "resolved": false
     },
     {
-     "title": "Lutnick Took a Softer Line on Nvidia as Calls for Tougher Co",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2a",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2pMWDA4Sl9yT1B2anJmMndlT3pCSnNTcFdQR",
+     "title": "Jensen Huang Said to Have Had Relationship With Nvidia Execu",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0NCNjVPR0M2THpMd",
+     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0NCNjVPR0M2THpMdkhiTW5jZUlmVXJzNHk4Y",
      "resolved": false
     },
     {
@@ -377,20 +377,6 @@
      "resolved": false
     },
     {
-     "title": "The Jensen Huang scandal reaches Donald Trump’s cabinet - Th",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdVpNdnpYTm1PNHN4W",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdVpNdnpYTm1PNHN4WkRKRVBwYjN4cy11b3VJV",
-     "resolved": false
-    },
-    {
-     "title": "Xi Jinping’s chief ideologue is worried - The Economist",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1U1MlJyUV9DWXBGb",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1U1MlJyUV9DWXBGbGxYNHd0Y2lqelNqeTk5e",
-     "resolved": false
-    },
-    {
      "title": "China's emissions are falling. Thank self-interest - The Eco",
      "date": "2026-11-12",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR",
@@ -398,10 +384,24 @@
      "resolved": false
     },
     {
-     "title": "Jensen Huang must go - The Economist",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwS0tNekRaMDQzeElDM",
-     "real": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwS0tNekRaMDQzeElDMUgwQmpTV2p5QkJCR2hnW",
+     "title": "China’s carbon-dioxide emissions have begun to fall - The Ec",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlZ1WG84YXRRWWIzR",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlZ1WG84YXRRWWIzR0thMkJpQTNHbFFNNkdMT",
+     "resolved": false
+    },
+    {
+     "title": "Can anyone fix the China-Japan relationship? - The Economist",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4W",
+     "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4WVRlaTRCQlBWUVlkcTZTU",
+     "resolved": false
+    },
+    {
+     "title": "A franchise revolution is stirring in China - The Economist",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX05hOVl4QXNQLVBnT",
+     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX05hOVl4QXNQLVBnTnNOenhJNjJ2alk3Y0dDS",
      "resolved": false
     }
    ]
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory"
+   "sample": "Yemen's Houthis advance on Aden as government forces retreat to defend their capital"
   },
   {
    "name": "JapanTimes",
