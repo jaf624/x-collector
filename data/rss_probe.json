@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-14T23:40:11.821394Z",
+ "probed_at": "2026-11-15T00:40:14.457134Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -173,10 +173,10 @@
      "resolved": false
     },
     {
-     "title": "China to Meet All New Power Demand With Clean Energy, CCTV S",
+     "title": "China’s Brewing Soft Power in the US Smells Like Coffee - Bl",
      "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLVhHdzBKMzBTb3ozU",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLVhHdzBKMzBTb3ozUTZETmtWT2xTcXU0TzNJd",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNand4NUNmUHpHM1NwV",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNand4NUNmUHpHM1NwV3V4Z0YzcUM1VVNEQ1dtY",
      "resolved": false
     }
    ]
@@ -249,13 +249,6 @@
      "resolved": false
     },
     {
-     "title": "China drops bid for future COP as climate science battle hea",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMTVzQWY0dnNPSVBaN",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMTVzQWY0dnNPSVBaNDF6eGVVSk1KZ21OLWVOR",
-     "resolved": false
-    },
-    {
      "title": "Alice Huang’s tangled web of connections - Financial Times",
      "date": "2026-11-10",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVk43WnVwbC1WMi04S",
@@ -267,6 +260,13 @@
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0d",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVdBVmhnUnpvZmd0dWRaZjYyWktobjJJQWVEa",
+     "resolved": false
+    },
+    {
+     "title": "China drops bid for future COP as climate science battle hea",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMTVzQWY0dnNPSVBaN",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMTVzQWY0dnNPSVBaNDF6eGVVSk1KZ21OLWVOR",
      "resolved": false
     }
    ]
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
-     "title": "Asia’s Eurovision Contest Is Missing China, India, Pakistan,",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ2xQdHRjelBld092NkdMN",
-     "resolved": false
-    },
-    {
      "title": "Nvidia Scandal Prompts Questions of What It Means to Be a Sp",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR0RDdmlscW1lNGtIQ",
      "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR0RDdmlscW1lNGtIQXdpbFFsQlZkVVN4b2piV",
+     "resolved": false
+    },
+    {
+     "title": "Asia’s Eurovision Contest Is Missing China, India, Pakistan,",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDVBcUJqamUyU0xZQ2xQdHRjelBld092NkdMN",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Nvidia Without Huang: What a Pause in AI Deals Means for Metals"
+   "sample": "Electrifying Ambitions Meet Tough Reality in Europe"
   },
   {
    "name": "IMF",
