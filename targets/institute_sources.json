@@ -23650,5 +23650,92 @@
     "last_probe": "2026-11-15T10:36:33.884074",
     "last_probe_status": 200,
     "last_probe_items": 20
+  },
+  {
+    "host": "news.google.com/yonhapnews",
+    "base": "https://news.google.com/rss/search?q=site%3Ayonhapnews.co.kr%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "ref": "https://news.google.com/rss/search?q=site%3Ayonhapnews.co.kr%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "name": "韩联社（Google新闻聚合）",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "media"
+    ],
+    "folders": [
+      "权威硬新闻·11-16补入"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 0,
+    "feed_url": "https://news.google.com/rss/search?q=site%3Ayonhapnews.co.kr%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "kind": "path",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0,
+    "added": "2026-11-16",
+    "note": "GNEWS聚合,补入待探活,302解析原文",
+    "grade": "C",
+    "last_probe": null,
+    "last_probe_status": null,
+    "last_probe_items": 0
+  },
+  {
+    "host": "news.google.com/hindustantimes",
+    "base": "https://news.google.com/rss/search?q=site%3Ahindustantimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "ref": "https://news.google.com/rss/search?q=site%3Ahindustantimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "name": "印度斯坦时报（Google新闻聚合）",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "media"
+    ],
+    "folders": [
+      "权威硬新闻·11-16补入"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 0,
+    "feed_url": "https://news.google.com/rss/search?q=site%3Ahindustantimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "kind": "path",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0,
+    "added": "2026-11-16",
+    "note": "GNEWS聚合,补入待探活,302解析原文",
+    "grade": "C",
+    "last_probe": null,
+    "last_probe_status": null,
+    "last_probe_items": 0
+  },
+  {
+    "host": "news.google.com/npr",
+    "base": "https://news.google.com/rss/search?q=site%3Anpr.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "ref": "https://news.google.com/rss/search?q=site%3Anpr.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "name": "NPR（Google新闻聚合）",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "media"
+    ],
+    "folders": [
+      "权威硬新闻·11-16补入"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 0,
+    "feed_url": "https://news.google.com/rss/search?q=site%3Anpr.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "kind": "path",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 0,
+    "added": "2026-11-16",
+    "note": "GNEWS聚合,补入待探活,302解析原文",
+    "grade": "C",
+    "last_probe": null,
+    "last_probe_status": null,
+    "last_probe_items": 0
   }
 ]
