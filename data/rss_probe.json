@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-16T09:53:22.576938Z",
+ "probed_at": "2026-11-16T10:52:51.370286Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -17,24 +17,24 @@
      "resolved": false
     },
     {
+     "title": "Chip tensions loom over Trump-Xi summit, as US and China pus",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkh0ckZncVlZLW10e",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkh0ckZncVlZLW10eldobVVJNEs3SHAwbGNna",
+     "resolved": false
+    },
+    {
+     "title": "US, allies team up to protect AI tech and infrastructure ami",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQME9ldVY0V0JLTVYyL",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQME9ldVY0V0JLTVYyLTZZcXZlVmZwNnNlcWw5M",
+     "resolved": false
+    },
+    {
      "title": "China's economy falters as factory output, retail sales unde",
      "date": "2026-11-16",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVzZkMk1FbkdXMWpRa",
      "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVzZkMk1FbkdXMWpRaWFDbU05ZmJGY19kTS1BT",
-     "resolved": false
-    },
-    {
-     "title": "Spy scandal and midterm defeat heat up Trump's Asia visit - ",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOenFHNWhhY2RJR3NNR",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOenFHNWhhY2RJR3NNRHFqQ1pSaXRHMVM2VEN1W",
-     "resolved": false
-    },
-    {
-     "title": "Inside China's drive to build an AI-native generation - Reut",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdVUtY3hKeno0SFNRY",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdVUtY3hKeno0SFNRY2lXTS1Ka29uakhJcGlqM",
      "resolved": false
     },
     {
@@ -142,27 +142,34 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Australia Warns China Iron Ore Push Could Breach Trade Rules - Bloomberg.com",
+   "sample": "China’s Economy Disappoints With New Stimulus Yet to Kick In - Bloomberg.com",
    "diag": [
     {
-     "title": "Australia Warns China Iron Ore Push Could Breach Trade Rules",
+     "title": "China’s Economy Disappoints With New Stimulus Yet to Kick In",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjFiTE1FdTd4TV93W",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjFiTE1FdTd4TV93WnROMERVZXMtQzdSZDRTO",
+     "resolved": false
+    },
+    {
+     "title": "China Car Output Slows to Four-Year Low as Domestic Demand D",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTmNUWHFPcWxqZkFWd",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTmNUWHFPcWxqZkFWd1prcHZTWVhENEs1VnA0a",
+     "resolved": false
+    },
+    {
+     "title": "Futuristic Shenzhen Shows Trump the Difficulty of Stopping C",
      "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYm1uVkdRajZyYm1PU",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYm1uVkdRajZyYm1PUm9EX1lLVm82a3JUcDhxa",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZWdMRjdlTHduSjJOS",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZWdMRjdlTHduSjJOSzJvd05XMkc2VzhhSHR6N",
      "resolved": false
     },
     {
-     "title": "Alice Huang-Linked Firm Procured Banned Nvidia Chips in Chin",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhfekJtSDUzVXhKZ",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhfekJtSDUzVXhKZHNDNzgtTXc1RXBUVk9sR",
-     "resolved": false
-    },
-    {
-     "title": "Moonshot Rents Nvidia’s Top AI Chips in China, Documents Sho",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXFQdXM5NGdadXhNS",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXFQdXM5NGdadXhNSnRhalRtOE9aSHdPYUNye",
+     "title": "Copper Sinks to Four-Month Low on Tech Rout, China Growth Wo",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWjdpOC1tNy1RZ2I5c",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWjdpOC1tNy1RZ2I5cnVybXA2SmJtbUdZVmhrV",
      "resolved": false
     },
     {
@@ -170,13 +177,6 @@
      "date": "2026-11-15",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYWdZazV1cGI2aFI0Y",
      "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYWdZazV1cGI2aFI0Ymdpb2hhRTU1Z3FjZ1hTd",
-     "resolved": false
-    },
-    {
-     "title": "‘It’s an Endless Cycle’: China’s Lost Generation - Bloomberg",
-     "date": "2026-11-09",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbUU2Qml1b25zSXEzd",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbUU2Qml1b25zSXEzdXZmVHY4U1FsN2xUdTlEM",
      "resolved": false
     }
    ]
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "China's century-old 'porcelain capital' eyes global luxury -",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcnhQWmpDaWhNaTRuN",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcnhQWmpDaWhNaTRuNTd2M0o1ckZVcll2WDVMb",
+     "title": "DeepSeek, other China AI firms have just 10% the revenue of ",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX1BhSG9VdmNkcFBXWHlCW",
      "resolved": false
     }
    ]
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
-     "title": "US and allies sign accord to protect AI supply chains from C",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFc",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFcUhkRUJlX3pWbFBGZlZ6Q",
-     "resolved": false
-    },
-    {
      "title": "FDA rejects cancer drug invented in China in blow to Beijing",
      "date": "2026-11-15",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSF81czliZUJkMnRRb",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSF81czliZUJkMnRRbzNpUENZS2NDTm5QNzd5U",
+     "resolved": false
+    },
+    {
+     "title": "US and allies sign accord to protect AI supply chains from C",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFc",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFcUhkRUJlX3pWbFBGZlZ6Q",
      "resolved": false
     }
    ]
@@ -322,10 +322,10 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Opinion | Trump’s China Gamble Is Backfiring - The New York Times",
+   "sample": "Opinion | The New Congress Must Rein in Trump’s Dangerous China Policy - The New York Times",
    "diag": [
     {
-     "title": "Opinion | Trump’s China Gamble Is Backfiring - The New York ",
+     "title": "Opinion | The New Congress Must Rein in Trump’s Dangerous Ch",
      "date": "2026-11-16",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS3MxNFlBbVVGR3Ztc",
      "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS3MxNFlBbVVGR3ZtcWN2U3JGYUpzWTVBSG4wa",
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 61,
+   "items": 62,
    "is_feed": true,
    "sample": "China's top rare earth firms' profits surge on supply caps - Reuters",
    "diag": [
@@ -476,7 +476,7 @@
   {
    "name": "日经中文",
    "url": "https://cn.nikkei.com/rss/rss.xml",
-   "status": 202,
+   "status": 200,
    "items": 0,
    "is_feed": false,
    "sample": ""
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Goldman Sachs Warns of Massive Oil Glut in 2027"
+   "sample": "Iran Claims Two More Oil Tankers Hit Mines in Strait of Hormuz"
   },
   {
    "name": "IMF",
@@ -625,9 +625,10 @@
   {
    "name": "France24英文",
    "url": "https://www.france24.com/en/rss",
-   "status": 404,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 24,
+   "is_feed": true,
+   "sample": "Francophonie summit postpones new leader vote amid DR Congo-Rwanda dispute"
   },
   {
    "name": "JapanTimes",
@@ -675,9 +676,10 @@
   {
    "name": "BreakingDefense",
    "url": "https://breakingdefense.com/feed/",
-   "status": 403,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 15,
+   "is_feed": true,
+   "sample": "Estonian drone company targeted in sabotage attempt as part of &#8216;Russia&#8217;s hybrid war against Europe&#8217;: P"
   },
   {
    "name": "MiningWeekly",
