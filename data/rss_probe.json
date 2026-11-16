@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-15T22:07:50.221253Z",
+ "probed_at": "2026-11-16T01:14:52.605404Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -76,17 +76,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese dissident who admitted spying for Beijing in the US ",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOek5laEs0Q2E4Qm05a",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOek5laEs0Q2E4Qm05a0RoMmhhUEtuOG1pbzdaT",
-     "resolved": false
-    },
-    {
      "title": "Violent attacks on critics of China in Taiwan raise concern ",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXNjTFJrc09meU8ze",
      "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXNjTFJrc09meU8zeTJJMFAtRms5YzFGa0FET",
+     "resolved": false
+    },
+    {
+     "title": "Who is Alice Huang? The woman at the center of Nvidia’s scan",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWWN4Um5UWHU3MHROU",
+     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWWN4Um5UWHU3MHROUmJ2YlMtSW05bmNXSFI3T",
      "resolved": false
     }
    ]
@@ -107,17 +107,17 @@
      "resolved": false
     },
     {
-     "title": "China to host first-ever trilateral meeting between Trump, X",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnZqaEV0V0VQTXhLT",
-     "real": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnZqaEV0V0VQTXhLTUhWcTBuaDlmWG9YaHMwb",
-     "resolved": false
-    },
-    {
      "title": "Nvidia scandal: Was Alice Huang really a Chinese spy? - Fran",
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS3NKdUwxV01iN09lU",
      "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS3NKdUwxV01iN09lUy0zQ1lhb25UemRLSVlvN",
+     "resolved": false
+    },
+    {
+     "title": "China to host first-ever trilateral meeting between Trump, X",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnZqaEV0V0VQTXhLT",
+     "real": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnZqaEV0V0VQTXhLTUhWcTBuaDlmWG9YaHMwb",
      "resolved": false
     },
     {
@@ -142,13 +142,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US FDA Rejects Summit’s China-Originated Lung Cancer Drug - Bloomberg.com",
+   "sample": "US, Allies Agree to Guard AI Supply Chains From China, FT Says - Bloomberg.com",
    "diag": [
+    {
+     "title": "US, Allies Agree to Guard AI Supply Chains From China, FT Sa",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYWdZazV1cGI2aFI0Y",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYWdZazV1cGI2aFI0Ymdpb2hhRTU1Z3FjZ1hTd",
+     "resolved": false
+    },
     {
      "title": "US FDA Rejects Summit’s China-Originated Lung Cancer Drug - ",
      "date": "2026-11-15",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPelZQa1Q5Rk16X1ViW",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPelZQa1Q5Rk16X1ViWXNVRzZsX3YtOVU5R01Fc",
+     "resolved": false
+    },
+    {
+     "title": "Australia Warns China Iron Ore Push Could Breach Trade Rules",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYm1uVkdRajZyYm1PU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYm1uVkdRajZyYm1PUm9EX1lLVm82a3JUcDhxa",
      "resolved": false
     },
     {
@@ -164,20 +178,6 @@
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcHJHOG0zSC1xZVB2L",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcHJHOG0zSC1xZVB2LS0zZWF6bDBiN3ZNZTZhb",
      "resolved": false
-    },
-    {
-     "title": "Alice Huang-Linked Firm Procured Banned Nvidia Chips in Chin",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhfekJtSDUzVXhKZ",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhfekJtSDUzVXhKZHNDNzgtTXc1RXBUVk9sR",
-     "resolved": false
-    },
-    {
-     "title": "China’s Yoozoo Gets $214 Million Flash-Memory Components Ord",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWW1KcHg1X2o2emNZd",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWW1KcHg1X2o2emNZdkNvSVFFaXJVMUwwUjN2d",
-     "resolved": false
     }
    ]
   },
@@ -187,20 +187,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "ASEAN falls short on Myanmar crisis, South China Sea pact at Manila summit - Nikkei Asia",
+   "sample": "China central bank hikes foreign reserve requirement for 1st time in 5 years - Nikkei Asia",
    "diag": [
+    {
+     "title": "China central bank hikes foreign reserve requirement for 1st",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR1hqenFpYk0zMzBna",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR1hqenFpYk0zMzBnaDExcHJ1cUxGR29lSlBQQ",
+     "resolved": false
+    },
     {
      "title": "ASEAN falls short on Myanmar crisis, South China Sea pact at",
      "date": "2026-11-15",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUTdrT2VNeU00UlJYR",
      "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUTdrT2VNeU00UlJYRHZnWVA1bG0tRDFCYXlUU",
-     "resolved": false
-    },
-    {
-     "title": "China's century-old 'porcelain capital' eyes global luxury -",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcnhQWmpDaWhNaTRuN",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcnhQWmpDaWhNaTRuNTd2M0o1ckZVcll2WDVMb",
      "resolved": false
     },
     {
@@ -211,10 +211,10 @@
      "resolved": false
     },
     {
-     "title": "China sees Nvidia chief Huang's swift downfall as political ",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2dyTzY5RU1VdHBKa",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2dyTzY5RU1VdHBKaF9rdG9ka2x4TzVmTVlCc",
+     "title": "China's century-old 'porcelain capital' eyes global luxury -",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcnhQWmpDaWhNaTRuN",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcnhQWmpDaWhNaTRuNTd2M0o1ckZVcll2WDVMb",
      "resolved": false
     },
     {
@@ -301,17 +301,17 @@
      "resolved": false
     },
     {
+     "title": "Behind the Nvidia Affair Sits a Vast Chinese Spying Machine ",
+     "date": "2026-11-14",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTOWx1RVRSMnpqWGxid",
+     "real": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTOWx1RVRSMnpqWGxidkpWU1V2RWRhUXJEMlBqX",
+     "resolved": false
+    },
+    {
      "title": "Exclusive | Powerful Trump Allies Aided a Chinese Vape Opera",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa0xSTUNxS1dwNy00Z",
      "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa0xSTUNxS1dwNy00ZHBHSmVqSUlEdmhUWENKU",
-     "resolved": false
-    },
-    {
-     "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WRVRId0ZUcVRGRlNaO",
-     "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WRVRId0ZUcVRGRlNaOFhjRE5vUUVQWnZ6OElxc",
      "resolved": false
     }
    ]
@@ -332,17 +332,17 @@
      "resolved": false
     },
     {
+     "title": "Megaspeed Says Alice Huang Left Company in August 2025 - The",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVTFteWE3T01VQ29Ob",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVTFteWE3T01VQ29ObzFtdi1VSlExVDZmWVAwW",
+     "resolved": false
+    },
+    {
      "title": "5 Big Questions as C.E.O.s Meet in China - The New York Time",
      "date": "2026-11-14",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwd",
      "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwdE10ZVFXdV90cnQtSmg2X",
-     "resolved": false
-    },
-    {
-     "title": "Megaspeed Says Alice Huang Left Company in August 2025 - The",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVTFteWE3T01VQ29Ob",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVTFteWE3T01VQ29ObzFtdi1VSlExVDZmWVAwW",
      "resolved": false
     },
     {
@@ -412,8 +412,15 @@
    "status": 200,
    "items": 61,
    "is_feed": true,
-   "sample": "Myanmar lobbies US to invest in its rare earths sector, dominated by China - Reuters",
+   "sample": "Trump's minerals push has yet to loosen China's grip ahead of Xi talks - Reuters",
    "diag": [
+    {
+     "title": "Trump's minerals push has yet to loosen China's grip ahead o",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQmgzajlTc2t4SmdLb",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQmgzajlTc2t4SmdLb1g1X3o1VWhhMlFTWnJ3S",
+     "resolved": false
+    },
     {
      "title": "Myanmar lobbies US to invest in its rare earths sector, domi",
      "date": "2026-11-11",
@@ -440,13 +447,6 @@
      "date": "2026-11-13",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY",
      "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY2tXSEVILWxGWU1rMzBvT",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
      "resolved": false
     }
    ]
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[白宮確認特朗普、習近平和普京將在深圳APEC期間舉行歷史性三方會晤]]>"
+   "sample": "<![CDATA[APEC深圳峰會前瞻：美中俄三邊會談懸念 高市早苗面臨「握手」考驗]]>"
   },
   {
    "name": "美国国务院",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Nearly 2,200 migrants reach Spain's Canary Islands in two days"
+   "sample": "Elon Musk, Uber co-founder join calls to reinstate Jensen Huang as Nvidia chief"
   },
   {
    "name": "JapanTimes",
