@@ -23737,5 +23737,215 @@
     "last_probe": null,
     "last_probe_status": null,
     "last_probe_items": 0
+  },
+  {
+    "host": "news.google.com/cnn",
+    "base": "https://news.google.com/rss/search?q=site%3Acnn.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "ref": "https://news.google.com/rss/search?q=site%3Acnn.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "name": "CNN（Google新闻聚合）",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "media"
+    ],
+    "folders": [
+      "权威硬新闻·11-16接入"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 0,
+    "feed_url": "https://news.google.com/rss/search?q=site%3Acnn.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "kind": "path",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 100,
+    "added": "2026-11-16",
+    "note": "GNEWS聚合,302解析原文",
+    "grade": "C",
+    "last_probe": null,
+    "last_probe_status": null,
+    "last_probe_items": null,
+    "last_probe_age": null
+  },
+  {
+    "host": "news.google.com/time",
+    "base": "https://news.google.com/rss/search?q=site%3Atime.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "ref": "https://news.google.com/rss/search?q=site%3Atime.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "name": "时代周刊（Google新闻聚合）",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "media"
+    ],
+    "folders": [
+      "权威硬新闻·11-16接入"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 0,
+    "feed_url": "https://news.google.com/rss/search?q=site%3Atime.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "kind": "path",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 100,
+    "added": "2026-11-16",
+    "note": "GNEWS聚合,302解析原文",
+    "grade": "C",
+    "last_probe": null,
+    "last_probe_status": null,
+    "last_probe_items": null,
+    "last_probe_age": null
+  },
+  {
+    "host": "news.google.com/newsweek",
+    "base": "https://news.google.com/rss/search?q=site%3Anewsweek.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "ref": "https://news.google.com/rss/search?q=site%3Anewsweek.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "name": "新闻周刊（Google新闻聚合）",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "media"
+    ],
+    "folders": [
+      "权威硬新闻·11-16接入"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 0,
+    "feed_url": "https://news.google.com/rss/search?q=site%3Anewsweek.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "kind": "path",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 100,
+    "added": "2026-11-16",
+    "note": "GNEWS聚合,302解析原文",
+    "grade": "C",
+    "last_probe": null,
+    "last_probe_status": null,
+    "last_probe_items": null,
+    "last_probe_age": null
+  },
+  {
+    "host": "news.google.com/fortune",
+    "base": "https://news.google.com/rss/search?q=site%3Afortune.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "ref": "https://news.google.com/rss/search?q=site%3Afortune.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "name": "财富（Google新闻聚合）",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "media"
+    ],
+    "folders": [
+      "权威硬新闻·11-16接入"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 0,
+    "feed_url": "https://news.google.com/rss/search?q=site%3Afortune.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "kind": "path",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 100,
+    "added": "2026-11-16",
+    "note": "GNEWS聚合,302解析原文",
+    "grade": "C",
+    "last_probe": null,
+    "last_probe_status": null,
+    "last_probe_items": null,
+    "last_probe_age": null
+  },
+  {
+    "host": "news.google.com/wapo",
+    "base": "https://news.google.com/rss/search?q=site%3Awashingtonpost.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "ref": "https://news.google.com/rss/search?q=site%3Awashingtonpost.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "name": "华盛顿邮报（Google新闻聚合）",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "media"
+    ],
+    "folders": [
+      "权威硬新闻·11-16接入"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 0,
+    "feed_url": "https://news.google.com/rss/search?q=site%3Awashingtonpost.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "kind": "path",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 100,
+    "added": "2026-11-16",
+    "note": "GNEWS聚合,302解析原文",
+    "grade": "C",
+    "last_probe": null,
+    "last_probe_status": null,
+    "last_probe_items": null,
+    "last_probe_age": null
+  },
+  {
+    "host": "news.google.com/politico",
+    "base": "https://news.google.com/rss/search?q=site%3Apolitico.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "ref": "https://news.google.com/rss/search?q=site%3Apolitico.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "name": "Politico（Google新闻聚合）",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "media"
+    ],
+    "folders": [
+      "权威硬新闻·11-16接入"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 0,
+    "feed_url": "https://news.google.com/rss/search?q=site%3Apolitico.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "kind": "path",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 100,
+    "added": "2026-11-16",
+    "note": "GNEWS聚合,302解析原文",
+    "grade": "C",
+    "last_probe": null,
+    "last_probe_status": null,
+    "last_probe_items": null,
+    "last_probe_age": null
+  },
+  {
+    "host": "news.google.com/axios",
+    "base": "https://news.google.com/rss/search?q=site%3Aaxios.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "ref": "https://news.google.com/rss/search?q=site%3Aaxios.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "name": "Axios（Google新闻聚合）",
+    "cat": "hardnews",
+    "cats": [
+      "hardnews",
+      "media"
+    ],
+    "folders": [
+      "权威硬新闻·11-16接入"
+    ],
+    "mode": "full",
+    "region": "over",
+    "bookmarks": 0,
+    "feed_url": "https://news.google.com/rss/search?q=site%3Aaxios.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+    "kind": "path",
+    "status": "active",
+    "latest": null,
+    "recent30": 0,
+    "china_hits": 100,
+    "added": "2026-11-16",
+    "note": "GNEWS聚合,302解析原文",
+    "grade": "C",
+    "last_probe": null,
+    "last_probe_status": null,
+    "last_probe_items": null,
+    "last_probe_age": null
   }
 ]
