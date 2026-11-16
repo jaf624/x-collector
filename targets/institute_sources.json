@@ -23959,5 +23959,275 @@
   "last_probe_status": "alive",
   "last_probe_items": 100,
   "last_probe_age": 0
+ },
+ {
+  "host": "news.google.com/rand",
+  "base": "https://news.google.com/rss/search?q=site%3Arand.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Arand.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "兰德公司（Google新闻聚合）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank",
+   "hardnews"
+  ],
+  "folders": [
+   "智库/境外主流·11-17接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Arand.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-11-17",
+  "note": "GNEWS聚合,302解析原文",
+  "grade": "C",
+  "last_probe": null,
+  "last_probe_status": null,
+  "last_probe_items": null,
+  "last_probe_age": null
+ },
+ {
+  "host": "news.google.com/carnegie",
+  "base": "https://news.google.com/rss/search?q=site%3Acarnegieendowment.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Acarnegieendowment.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "卡内基国际和平研究院（Google新闻聚合）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank",
+   "hardnews"
+  ],
+  "folders": [
+   "智库/境外主流·11-17接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Acarnegieendowment.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-11-17",
+  "note": "GNEWS聚合,302解析原文",
+  "grade": "C",
+  "last_probe": null,
+  "last_probe_status": null,
+  "last_probe_items": null,
+  "last_probe_age": null
+ },
+ {
+  "host": "news.google.com/brookings",
+  "base": "https://news.google.com/rss/search?q=site%3Abrookings.edu%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Abrookings.edu%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "布鲁金斯学会（Google新闻聚合）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank",
+   "hardnews"
+  ],
+  "folders": [
+   "智库/境外主流·11-17接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Abrookings.edu%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-11-17",
+  "note": "GNEWS聚合,302解析原文",
+  "grade": "C",
+  "last_probe": null,
+  "last_probe_status": null,
+  "last_probe_items": null,
+  "last_probe_age": null
+ },
+ {
+  "host": "news.google.com/heritage",
+  "base": "https://news.google.com/rss/search?q=site%3Aheritage.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Aheritage.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "传统基金会（Google新闻聚合）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank",
+   "hardnews"
+  ],
+  "folders": [
+   "智库/境外主流·11-17接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Aheritage.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-11-17",
+  "note": "GNEWS聚合,302解析原文",
+  "grade": "C",
+  "last_probe": null,
+  "last_probe_status": null,
+  "last_probe_items": null,
+  "last_probe_age": null
+ },
+ {
+  "host": "news.google.com/cnas",
+  "base": "https://news.google.com/rss/search?q=site%3Acnas.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Acnas.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "新美国安全中心（Google新闻聚合）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank",
+   "hardnews"
+  ],
+  "folders": [
+   "智库/境外主流·11-17接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Acnas.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-11-17",
+  "note": "GNEWS聚合,302解析原文",
+  "grade": "C",
+  "last_probe": null,
+  "last_probe_status": null,
+  "last_probe_items": null,
+  "last_probe_age": null
+ },
+ {
+  "host": "news.google.com/stimson",
+  "base": "https://news.google.com/rss/search?q=site%3Astimson.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Astimson.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "史汀生中心（Google新闻聚合）",
+  "cat": "thinktank",
+  "cats": [
+   "thinktank",
+   "hardnews"
+  ],
+  "folders": [
+   "智库/境外主流·11-17接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Astimson.org%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-11-17",
+  "note": "GNEWS聚合,302解析原文",
+  "grade": "C",
+  "last_probe": null,
+  "last_probe_status": null,
+  "last_probe_items": null,
+  "last_probe_age": null
+ },
+ {
+  "host": "news.google.com/rfi",
+  "base": "https://news.google.com/rss/search?q=site%3Arfi.fr%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Arfi.fr%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "法国国际广播电台（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "智库/境外主流·11-17接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Arfi.fr%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-11-17",
+  "note": "GNEWS聚合,302解析原文",
+  "grade": "C",
+  "last_probe": null,
+  "last_probe_status": null,
+  "last_probe_items": null,
+  "last_probe_age": null
+ },
+ {
+  "host": "news.google.com/dw",
+  "base": "https://news.google.com/rss/search?q=site%3Adw.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Adw.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "德国之声（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "智库/境外主流·11-17接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Adw.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-11-17",
+  "note": "GNEWS聚合,302解析原文",
+  "grade": "C",
+  "last_probe": null,
+  "last_probe_status": null,
+  "last_probe_items": null,
+  "last_probe_age": null
+ },
+ {
+  "host": "news.google.com/zaobao",
+  "base": "https://news.google.com/rss/search?q=site%3Azaobao.com.sg%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "ref": "https://news.google.com/rss/search?q=site%3Azaobao.com.sg%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "name": "联合早报（Google新闻聚合）",
+  "cat": "hardnews",
+  "cats": [
+   "hardnews",
+   "media"
+  ],
+  "folders": [
+   "智库/境外主流·11-17接入"
+  ],
+  "mode": "full",
+  "region": "over",
+  "bookmarks": 0,
+  "feed_url": "https://news.google.com/rss/search?q=site%3Azaobao.com.sg%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
+  "kind": "path",
+  "status": "active",
+  "latest": null,
+  "recent30": 0,
+  "china_hits": 100,
+  "added": "2026-11-17",
+  "note": "GNEWS聚合,302解析原文",
+  "grade": "C",
+  "last_probe": null,
+  "last_probe_status": null,
+  "last_probe_items": null,
+  "last_probe_age": null
  }
 ]
