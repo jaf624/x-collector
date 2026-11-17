@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-16T21:37:29.010664Z",
+ "probed_at": "2026-11-17T00:02:08.799187Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -69,13 +69,6 @@
      "resolved": false
     },
     {
-     "title": "The driverless taxis, robots and tech companies in APEC host",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0c",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0cnNFOVY2a0JNMXBVbWVjb",
-     "resolved": false
-    },
-    {
      "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear sum",
      "date": "2026-11-16",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcGw5a2lMb1B2bEtyY",
@@ -83,10 +76,17 @@
      "resolved": false
     },
     {
-     "title": "The Nvidia scandal is heightening America’s AI rivalry with ",
+     "title": "The driverless taxis, robots and tech companies in APEC host",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0c",
+     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0cnNFOVY2a0JNMXBVbWVjb",
+     "resolved": false
+    },
+    {
+     "title": "Trump, Xi and Putin plan unprecedented joint meeting on APEC",
      "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOalY0LVRKSlZQVVJQe",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOalY0LVRKSlZQVVJQeGZidU1VWFo0VXpuaGNQV",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUa",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUaW55bWxuNy1BX1FaZVNYZ",
      "resolved": false
     }
    ]
@@ -184,9 +184,47 @@
   {
    "name": "GNEWS-日经",
    "url": "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 429,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "APEC China: 5 things to know about Xi Jinping's diplomatic show - Nikkei Asia",
+   "diag": [
+    {
+     "title": "APEC China: 5 things to know about Xi Jinping's diplomatic s",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbEViUDQzcFdETnRGN",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbEViUDQzcFdETnRGN0JzUmk1V29oMmVPUHlrO",
+     "resolved": false
+    },
+    {
+     "title": "Hungary tightens oversight of Chinese, South Korean battery ",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkRtVmhQYVBlTkFOV",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkRtVmhQYVBlTkFOV1RDX3F6SDhDUG40RlJQa",
+     "resolved": false
+    },
+    {
+     "title": "China central bank hikes foreign reserve requirement for 1st",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR1hqenFpYk0zMzBna",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR1hqenFpYk0zMzBnaDExcHJ1cUxGR29lSlBQQ",
+     "resolved": false
+    },
+    {
+     "title": "ASEAN falls short on Myanmar crisis, South China Sea pact at",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUTdrT2VNeU00UlJYR",
+     "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUTdrT2VNeU00UlJYRHZnWVA1bG0tRDFCYXlUU",
+     "resolved": false
+    },
+    {
+     "title": "India forms commando units for close combat along China bord",
+     "date": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnJCUUlXMElqTUJES",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnJCUUlXMElqTUJES2NMZVBIU2tHQ19iNFJYR",
+     "resolved": false
+    }
+   ]
   },
   {
    "name": "GNEWS-金融时报",
@@ -211,10 +249,10 @@
      "resolved": false
     },
     {
-     "title": "China’s economic activity slows more than expected in Octobe",
+     "title": "What the west gets wrong about AI safety in China - Financia",
      "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUh5THNud2ZrVGJuY",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUh5THNud2ZrVGJuYTd2YXRlaEVFclZiU0JYQ",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGM1luNU10N0EteEQ1b",
+     "real": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGM1luNU10N0EteEQ1bXFWN2NleGVVeXpYdzJhN",
      "resolved": false
     },
     {
@@ -225,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "US and allies sign accord to protect AI supply chains from C",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFc",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFcUhkRUJlX3pWbFBGZlZ6Q",
+     "title": "The delicate balance in America’s AI chip war with China - F",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTHhFdVFnWVI1cVRKd",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTHhFdVFnWVI1cVRKdHE1N295Ymk2dXotUm4yb",
      "resolved": false
     }
    ]
@@ -236,47 +274,9 @@
   {
    "name": "GNEWS-华尔街日报",
    "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Demand for Chinese Goods Is Soaring but Economic Momentum Slows at Home - WSJ",
-   "diag": [
-    {
-     "title": "Demand for Chinese Goods Is Soaring but Economic Momentum Sl",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTVl1aGxrVkh0SGpPT",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTVl1aGxrVkh0SGpPTXRaUHpEM0lTTmQtdHEyS",
-     "resolved": false
-    },
-    {
-     "title": "In the Philippines, Trump Checks In With an Ally Resisting C",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSk9XMnFCVmtld3lMM",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSk9XMnFCVmtld3lMMFh1SFN0cTd5dWprOTNyc",
-     "resolved": false
-    },
-    {
-     "title": "How Jensen Huang Built a Business to Feed Chinese Appetite f",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJYdnc1enJkNHlnR",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJYdnc1enJkNHlnR1AwRGlNUTNCT09IeTVDb",
-     "resolved": false
-    },
-    {
-     "title": "China’s XPeng Extends Loss Streak but Targets Strong 2026 Fi",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMGI1b29UN3VuYlFvV",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMGI1b29UN3VuYlFvVDUtaVFNMDAwUlNZcXYyZ",
-     "resolved": false
-    },
-    {
-     "title": "China Poached This Top Harvard Professor. Now He Wants Other",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMFpXNEtFRjk0ZmdtU",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMFpXNEtFRjk0ZmdtUkt2U1BBWUQ3VU9UWHdRZ",
-     "resolved": false
-    }
-   ]
+   "status": 429,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-纽约时报",
@@ -288,47 +288,9 @@
   {
    "name": "GNEWS-经济学人",
    "url": "https://news.google.com/rss/search?q=site%3Aeconomist.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "A lone protester highlights the pain from China’s property bust - The Economist",
-   "diag": [
-    {
-     "title": "A lone protester highlights the pain from China’s property b",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY2F2ZjFLS3RUdE5PR",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY2F2ZjFLS3RUdE5PRHhwUG81SGZkNUlucWNvc",
-     "resolved": false
-    },
-    {
-     "title": "Ted Plafker, a stalwart of our China coverage, has died - Th",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1Nie",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1NienQ4eHlFZFo0YkVCbWxxN",
-     "resolved": false
-    },
-    {
-     "title": "Xi Jinping’s chief ideologue is worried - The Economist",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1U1MlJyUV9DWXBGb",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1U1MlJyUV9DWXBGbGxYNHd0Y2lqelNqeTk5e",
-     "resolved": false
-    },
-    {
-     "title": "The Jensen Huang scandal reaches Donald Trump’s cabinet - Th",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdVpNdnpYTm1PNHN4W",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdVpNdnpYTm1PNHN4WkRKRVBwYjN4cy11b3VJV",
-     "resolved": false
-    },
-    {
-     "title": "Donald Trump will get a warm welcome in the Philippines - Th",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPckc0dVhaa3dWNUUxL",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxPckc0dVhaa3dWNUUxLWhGTThiUGxySzZtcDZRL",
-     "resolved": false
-    }
-   ]
+   "status": 429,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-路透-China",
@@ -389,7 +351,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "INSS Hosts KIDA Delegation for Research Dialogue on Defense and Regional Security"
+   "sample": "NSA Warns About Potential Malware Hijacking CAC-Enabled Computers"
   },
   {
    "name": "商务部新闻",
@@ -446,7 +408,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "USNI News Fleet and Marine Tracker: Nov. 16, 2026"
+   "sample": "Vice Adm. Oliver Lewis Takes Command of 2nd Fleet"
   },
   {
    "name": "DefenseNews",
@@ -454,7 +416,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "US Army takes ‘urgent’ action to build concrete bunkers across the Middle East"
+   "sample": "First permanently assigned F-15EXs touch down at Kadena Air Base"
   },
   {
    "name": "Mining",
@@ -462,7 +424,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Rio pledges $250 million to address Panguna damage"
+   "sample": "Perenti inks $67 million contract with AngloGold Ashanti at Geita gold mine "
   },
   {
    "name": "OilPrice",
@@ -470,7 +432,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Can Economic Populism Survive an Age of Scarcity?"
+   "sample": "Airlines Face Fuel Crisis as Price Hedges Expire"
   },
   {
    "name": "IMF",
@@ -514,7 +476,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "November 17 blackout hoax: How a conspiracy theory went viral around the world"
+   "sample": "Ukraine hits key Crimea bridge with drones"
   },
   {
    "name": "JapanTimes",
@@ -565,7 +527,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Vulcan failure deepens concerns over US military launch capacity"
+   "sample": "Pentagon fails 9th audit, asserts path towards clean books in 2028 "
   },
   {
    "name": "MiningWeekly",
