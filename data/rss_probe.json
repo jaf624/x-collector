@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-17T04:17:04.228674Z",
+ "probed_at": "2026-11-17T11:26:41.544665Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,41 +7,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Trump to kick off Asia trip with Quad talks in Manila ahead of China visit - Reuters",
+   "sample": "EXCLUSIVE: China taps US AI models to train homegrown rivals as chip curbs bite - Reuters",
    "diag": [
     {
-     "title": "Trump to kick off Asia trip with Quad talks in Manila ahead ",
+     "title": "EXCLUSIVE: China taps US AI models to train homegrown rivals",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQemJ2WmtQZV96U0x6Z",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQemJ2WmtQZV96U0x6Z1FzanV3YlQwT2k5ZXk3W",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: US presses UN agency over Taiwan flight restricti",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOb01SbktQd3U1ekI4M",
+     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOb01SbktQd3U1ekI4M0szX3R3V1dweUM3SUdLT",
+     "resolved": false
+    },
+    {
+     "title": "Canada and China extend trade deals as Xi meets Carney ahead",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR3pCLU9Xd1c1amM5d",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR3pCLU9Xd1c1amM5dzdoNy1paUJHS3lMOVdsT",
+     "resolved": false
+    },
+    {
+     "title": "Trump arrives in Manila for Quad talks ahead of China visit ",
      "date": "2026-11-17",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0l1bEVvMnNwMHJqM",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0l1bEVvMnNwMHJqM01iVWVDR2JJQmRvaU51T",
      "resolved": false
     },
     {
-     "title": "US to curb China's access to AI chips as Trump heads to Asia",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOFRscFU2Tnd4dkpNW",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOFRscFU2Tnd4dkpNWURqN2NDcEg1eHBNUW9VT",
-     "resolved": false
-    },
-    {
-     "title": "Trump says he might meet with North Korea's Kim Jong Un in C",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb29EcDdndEN4TW9Ie",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb29EcDdndEN4TW9IeVFRVnVQTV9YVzNZVHUyT",
-     "resolved": false
-    },
-    {
-     "title": "Kremlin says Putin-Xi-Trump meeting in China will have major",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdkhaNlQxZTU3bUZiR",
-     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdkhaNlQxZTU3bUZiRFNaU01QdHY2dUIzRWNYZ",
-     "resolved": false
-    },
-    {
-     "title": "Chip tensions loom over Trump-Xi summit, as US and China pus",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkh0ckZncVlZLW10e",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkh0ckZncVlZLW10eldobVVJNEs3SHAwbGNna",
+     "title": "Taiwan, Japan flag incursions by Russian aircraft as Putin s",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZGFJMTUwWmFyejl3M",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZGFJMTUwWmFyejl3MmtfWlhQM2Fud3FVQWFpY",
      "resolved": false
     }
    ]
@@ -56,7 +56,7 @@
    "diag": [
     {
      "title": "Trump administration moves to block China from indirect acce",
-     "date": "2026-11-16",
+     "date": "2026-11-17",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONGJmTGhQa3FRRDZtX",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONGJmTGhQa3FRRDZtX3BqVk9SNlc1aHZ1QXZiU",
      "resolved": false
@@ -69,8 +69,15 @@
      "resolved": false
     },
     {
-     "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear sum",
+     "title": "China and Canada expand tariff relief while Ottawa-Washingto",
      "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOFVFVjI2cU1tdkxwM",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOFVFVjI2cU1tdkxwM0ZqcER1eGJfcndIUmt3M",
+     "resolved": false
+    },
+    {
+     "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear sum",
+     "date": "2026-11-16",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcGw5a2lMb1B2bEtyY",
      "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcGw5a2lMb1B2bEtyYWotSkJYcWhXNHN2R3lwQ",
      "resolved": false
@@ -81,60 +88,15 @@
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0c",
      "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0cnNFOVY2a0JNMXBVbWVjb",
      "resolved": false
-    },
-    {
-     "title": "Trump, Xi and Putin plan unprecedented joint meeting on APEC",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUa",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUaW55bWxuNy1BX1FaZVNYZ",
-     "resolved": false
     }
    ]
   },
   {
    "name": "GNEWS-AFP",
    "url": "https://news.google.com/rss/search?q=site%3Afrance24.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says - France 24",
-   "diag": [
-    {
-     "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen sum",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWkoyQ2FPc1E5ZzhLM",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWkoyQ2FPc1E5ZzhLMVRwRUk2SXZXM2ZhWGRBR",
-     "resolved": false
-    },
-    {
-     "title": "Chinese spy, chip sales, Trump ties... The Nvidia scandal de",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMURFcEJocnV6MXVYe",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMURFcEJocnV6MXVYenlOSDNsanJlZkdjQk5XZ",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia scandal: Was Alice Huang really a Chinese spy? - Fran",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS3NKdUwxV01iN09lU",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS3NKdUwxV01iN09lUy0zQ1lhb25UemRLSVlvN",
-     "resolved": false
-    },
-    {
-     "title": "China to host first-ever trilateral meeting between Trump, X",
-     "date": "2026-11-14",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnZqaEV0V0VQTXhLT",
-     "real": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYnZqaEV0V0VQTXhLTUhWcTBuaDlmWG9YaHMwb",
-     "resolved": false
-    },
-    {
-     "title": "What we know about China's military exercises around Taiwan ",
-     "date": "2026-11-13",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVh5VFVIQ3JkQ3FDR",
-     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVh5VFVIQ3JkQ3FDR0Y5OFdieHZCY3BpbnhQd",
-     "resolved": false
-    }
-   ]
+   "status": 429,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-彭博",
@@ -142,13 +104,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Top AI Firms Limit Cyber Capabilities in Latest Models - Bloomberg.com",
+   "sample": "China AI Highflier Crashes 85% as Chip Fears Hit Model Makers - Bloomberg.com",
    "diag": [
     {
-     "title": "China’s Top AI Firms Limit Cyber Capabilities in Latest Mode",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVg3VkVBT0FNUUgye",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVg3VkVBT0FNUUgyeUVYdUNTMVVEMDJZRnJvR",
+     "title": "China AI Highflier Crashes 85% as Chip Fears Hit Model Maker",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcGQyUHJhYU9tbExCT",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcGQyUHJhYU9tbExCT0hWcTdsd1cxUTRxa0pIa",
+     "resolved": false
+    },
+    {
+     "title": "China and Canada Expand Tariff Relief as Xi Meets Carney - B",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRDF2Y3hmbXN1MWVDZ",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRDF2Y3hmbXN1MWVDZGE5LVJDUE9NeEltNDdEU",
+     "resolved": false
+    },
+    {
+     "title": "Clampdown on China Chip Loophole Puts Billions in Loans at R",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd3llZ1ltdU5QNkdZX",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd3llZ1ltdU5QNkdZX1JILW1Ud280T0YyZDdvZ",
      "resolved": false
     },
     {
@@ -159,24 +135,10 @@
      "resolved": false
     },
     {
-     "title": "China’s Buyback Push Struggles to Put a Floor Under Stocks -",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGNDWUU4X0VEbHpBY",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGNDWUU4X0VEbHpBYUdzcFpxUlFDZjRVeWFvV",
-     "resolved": false
-    },
-    {
      "title": "Chip Stocks Slide as US Sets New Curbs on China’s Compute Ac",
      "date": "2026-11-17",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVVjUlBfX1ZxOFRWZ",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVVjUlBfX1ZxOFRWZ243YkxEbTVJSm1BSkNJL",
-     "resolved": false
-    },
-    {
-     "title": "US Moves to Curb Remote Access to Nvidia’s Advanced AI Chips",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU3diZGZDaW14MTdta",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU3diZGZDaW14MTdtajJNSTFnMXF3MWtpODZRZ",
      "resolved": false
     }
    ]
@@ -204,24 +166,24 @@
      "resolved": false
     },
     {
-     "title": "China developer Huafa's debt woes show resurgence of credit ",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeDBOM2JNTHJFTUQzU",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeDBOM2JNTHJFTUQzUTdSS2Zxa0dmQ3FPZlJoa",
+     "title": "China hosts APEC CEO Summit with several US heavyweights abs",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR2VjcnNoZkN3emhHN",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR2VjcnNoZkN3emhHNUNZYzVYSkU3UkpBQURiZ",
      "resolved": false
     },
     {
-     "title": "Hungary tightens oversight of Chinese, South Korean battery ",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkRtVmhQYVBlTkFOV",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkRtVmhQYVBlTkFOV1RDX3F6SDhDUG40RlJQa",
+     "title": "APEC live: Canada's Carney meets Xi, touts recalibration of ",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcmNsQkNtdjB4UFd6b",
+     "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcmNsQkNtdjB4UFd6bTE3WnFfNXVfalhpTUZMc",
      "resolved": false
     },
     {
-     "title": "China central bank hikes foreign reserve requirement for 1st",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR1hqenFpYk0zMzBna",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR1hqenFpYk0zMzBnaDExcHJ1cUxGR29lSlBQQ",
+     "title": "German and Chinese hospital sectors extend ties and partners",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbXAwNTlaSzd4XzkxV",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbXAwNTlaSzd4XzkxV1hKaGVyMG5ZT3B6Rkh6N",
      "resolved": false
     }
    ]
@@ -232,8 +194,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Russia aims for ‘joint statement’ from trilateral summit with US and China - Financial Times",
+   "sample": "Xi Jinping and Canada’s Mark Carney slash tariffs as China courts middle powers - Financial Times",
    "diag": [
+    {
+     "title": "Xi Jinping and Canada’s Mark Carney slash tariffs as China c",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV20yaTdxeVd6WmktN",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV20yaTdxeVd6WmktN2g1TXpaZi1QOTZCY1hta",
+     "resolved": false
+    },
+    {
+     "title": "EU considers banning Chinese companies found in breach of su",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnBidFF6U3I4dFlZM",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnBidFF6U3I4dFlZM2hLNmNQQXRzeXVCRGNtR",
+     "resolved": false
+    },
     {
      "title": "Russia aims for ‘joint statement’ from trilateral summit wit",
      "date": "2026-11-16",
@@ -249,22 +225,8 @@
      "resolved": false
     },
     {
-     "title": "What the west gets wrong about AI safety in China - Financia",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGM1luNU10N0EteEQ1b",
-     "real": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGM1luNU10N0EteEQ1bXFWN2NleGVVeXpYdzJhN",
-     "resolved": false
-    },
-    {
-     "title": "US and allies sign accord to protect AI supply chains from C",
-     "date": "2026-11-15",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFc",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVM3Y2hkVkZKUTFFcUhkRUJlX3pWbFBGZlZ6Q",
-     "resolved": false
-    },
-    {
      "title": "FDA rejects cancer drug invented in China in blow to Beijing",
-     "date": "2026-11-16",
+     "date": "2026-11-15",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSF81czliZUJkMnRRb",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSF81czliZUJkMnRRbzNpUENZS2NDTm5QNzd5U",
      "resolved": false
@@ -287,10 +249,24 @@
      "resolved": false
     },
     {
+     "title": "China Flexes Muscle in Iron Ore, Squeezing Australia and Its",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRW9tOUktVWVKMUttQ",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRW9tOUktVWVKMUttQi1YVUtBdnM0WlNBYktsN",
+     "resolved": false
+    },
+    {
      "title": "Trump’s Advisers Are at War Over China Ahead of Xi Summit - ",
      "date": "2026-11-17",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZFJvYjNhcXVuMWNTS",
      "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZFJvYjNhcXVuMWNTSWZCS3M3eDMyOGVmVHVtL",
+     "resolved": false
+    },
+    {
+     "title": "Commerce Department Rule Aims to Further Limit Chip Shipment",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORzRic3JLcGhEekI2b",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORzRic3JLcGhEekI2bmV5aGZtay1vaFh4OGs0M",
      "resolved": false
     },
     {
@@ -299,29 +275,53 @@
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWFF6T2tpa2JWRXltS",
      "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWFF6T2tpa2JWRXltSGhKSThhb0FaSFJ4OUpfQ",
      "resolved": false
-    },
-    {
-     "title": "Demand for Chinese Goods Is Soaring but Economic Momentum Sl",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTVl1aGxrVkh0SGpPT",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTVl1aGxrVkh0SGpPTXRaUHpEM0lTTmQtdHEyS",
-     "resolved": false
-    },
-    {
-     "title": "In the Philippines, Trump Checks In With an Ally Resisting C",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSk9XMnFCVmtld3lMM",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSk9XMnFCVmtld3lMMFh1SFN0cTd5dWprOTNyc",
-     "resolved": false
     }
    ]
   },
   {
    "name": "GNEWS-纽约时报",
    "url": "https://news.google.com/rss/search?q=site%3Anytimes.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 429,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Carney and Xi Announce Trade Pact Ahead of Asia Summit - The New York Times",
+   "diag": [
+    {
+     "title": "Carney and Xi Announce Trade Pact Ahead of Asia Summit - The",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVEY2ZTltbjNhU0hQM",
+     "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVEY2ZTltbjNhU0hQMjFPdnpzdDNjekkxWTg1U",
+     "resolved": false
+    },
+    {
+     "title": "As Trump Goes to China, A.I. Tensions Surge Amid Spying and ",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeEtwR1l3UEhrZF9aV",
+     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeEtwR1l3UEhrZF9aVjlrSXVMalM3eERPcll5O",
+     "resolved": false
+    },
+    {
+     "title": "Trump Administration Divide on China Policy Breaks Into Publ",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNFBkeWJNdWI0X24za",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNFBkeWJNdWI0X24zalBrRVZwNWVrRENBYUM0N",
+     "resolved": false
+    },
+    {
+     "title": "Bessent Takes Hawkish Turn in White House Debate on China - ",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKb2RPemxUalBTQ0JJU",
+     "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKb2RPemxUalBTQ0JJUHdLYjlOS0RYM3pCUS1GS",
+     "resolved": false
+    },
+    {
+     "title": "Trump Administration Moves to Close A.I. Chip Loophole Ahead",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM0lsM1hzeXVWNWZKS",
+     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM0lsM1hzeXVWNWZKSmUtTlFNWnU5MlV4c2Ffe",
+     "resolved": false
+    }
+   ]
   },
   {
    "name": "GNEWS-经济学人",
@@ -329,8 +329,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Ted Plafker, a stalwart of our China coverage, has died - The Economist",
+   "sample": "China still doesn’t know what to do about Taiwan - The Economist",
    "diag": [
+    {
+     "title": "China still doesn’t know what to do about Taiwan - The Econo",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlpMaDRhajRqNnRMR",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlpMaDRhajRqNnRMR1B6Tk9oeUVqeGtNWkJvV",
+     "resolved": false
+    },
+    {
+     "title": "A lone protester highlights the pain from China’s property b",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY2F2ZjFLS3RUdE5PR",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY2F2ZjFLS3RUdE5PRHhwUG81SGZkNUlucWNvc",
+     "resolved": false
+    },
     {
      "title": "Ted Plafker, a stalwart of our China coverage, has died - Th",
      "date": "2026-11-12",
@@ -339,31 +353,17 @@
      "resolved": false
     },
     {
-     "title": "Can anyone fix the China-Japan relationship? - The Economist",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4W",
-     "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk9HVG9kRnRNdEt4WVRlaTRCQlBWUVlkcTZTU",
+     "title": "Xi Jinping’s chief ideologue is worried - The Economist",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1U1MlJyUV9DWXBGb",
+     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1U1MlJyUV9DWXBGbGxYNHd0Y2lqelNqeTk5e",
      "resolved": false
     },
     {
-     "title": "China's emissions are falling. Thank self-interest - The Eco",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2V1TGppcmdIRmtrR0JoLUpsRzhpVzVQeGpCb",
-     "resolved": false
-    },
-    {
-     "title": "China’s carbon-dioxide emissions have begun to fall - The Ec",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlZ1WG84YXRRWWIzR",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlZ1WG84YXRRWWIzR0thMkJpQTNHbFFNNkdMT",
-     "resolved": false
-    },
-    {
-     "title": "A franchise revolution is stirring in China - The Economist",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX05hOVl4QXNQLVBnT",
-     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX05hOVl4QXNQLVBnTnNOenhJNjJ2alk3Y0dDS",
+     "title": "The Jensen Huang scandal reaches Donald Trump’s cabinet - Th",
+     "date": "2026-11-13",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdVpNdnpYTm1PNHN4W",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdVpNdnpYTm1PNHN4WkRKRVBwYjN4cy11b3VJV",
      "resolved": false
     }
    ]
@@ -371,9 +371,47 @@
   {
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
-   "status": 429,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 61,
+   "is_feed": true,
+   "sample": "How Trump and Xi went from tariff war to trade truce - Reuters",
+   "diag": [
+    {
+     "title": "How Trump and Xi went from tariff war to trade truce - Reute",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1B5ZTVMbHctSmxMM",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1B5ZTVMbHctSmxMMmV2SFRrM25UM2ZvZmJpZ",
+     "resolved": false
+    },
+    {
+     "title": "China's top rare earth firms' profits surge on supply caps -",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZ",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZGxCSXFfQU5lenV4TGtPT",
+     "resolved": false
+    },
+    {
+     "title": "Trump's minerals push has yet to loosen China's grip ahead o",
+     "date": "2026-11-15",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQmgzajlTc2t4SmdLb",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQmgzajlTc2t4SmdLb1g1X3o1VWhhMlFTWnJ3S",
+     "resolved": false
+    },
+    {
+     "title": "China extends suspension of new rare earth controls until Ja",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUa",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUaEJCaDNDQWZ2bzhKOFNmb",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: Chinese university bought Nvidia H200 chips despi",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIb",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIbWtuMU5qVm1teTBwSTFIa",
+     "resolved": false
+    }
+   ]
   },
   {
    "name": "AP直接feed",
@@ -411,7 +449,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[APEC深圳觀察：習近平想告訴世界，中國掌握著未來]]>"
+   "sample": "<![CDATA[特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」]]>"
   },
   {
    "name": "美国国务院",
@@ -492,7 +530,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "First permanently assigned F-15EXs touch down at Kadena Air Base"
+   "sample": "French troops operating in non-combat roles in Ukraine, broadcaster RFI reports"
   },
   {
    "name": "Mining",
@@ -508,7 +546,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "The Army Just Did Something Extraordinary To Break China’s Rare Earth Monopoly"
+   "sample": "India Gives Green Light to Commercial Sustainable Jet Fuel Production"
   },
   {
    "name": "IMF",
@@ -552,7 +590,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Macron visits Malaysia as France seeks closer defence and rare earths ties"
+   "sample": "French presidential debate: 'Le Pen exposed xenophobic and authoritarian aspects of her policies'"
   },
   {
    "name": "JapanTimes",
