@@ -1,15 +1,15 @@
 {
- "feed": 940,
+ "feed": 800,
  "todo": 0,
  "ok": 0,
  "fail": 0,
- "gnews_indexed": 940,
+ "gnews_indexed": 800,
  "direct_n": 0,
  "direct_body": 0,
  "direct_rate": 0,
  "reasons": {},
  "resolved": 0,
- "remain_empty": 940,
- "secs": 0.0,
- "ts": "2026-11-16T20:51:15Z"
+ "remain_empty": 800,
+ "secs": 0.1,
+ "ts": "2026-11-17T03:22:08Z"
 }
