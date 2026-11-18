@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-18T12:20:16.899020Z",
+ "probed_at": "2026-11-18T18:31:28.912214Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia stops shipping US-approved AI chips to China - Reuters",
+   "sample": "EXCLUSIVE: Trump administration weighs forcing US firms to disclose Chinese AI use - Reuters",
    "diag": [
+    {
+     "title": "EXCLUSIVE: Trump administration weighs forcing US firms to d",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRDZYbWdKS2hHRWRxV",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRDZYbWdKS2hHRWRxVU9jRTZmUW5GdUZXdXNnM",
+     "resolved": false
+    },
     {
      "title": "Nvidia stops shipping US-approved AI chips to China - Reuter",
      "date": "2026-11-18",
@@ -17,10 +24,10 @@
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: Trump administration weighs forcing US firms to d",
+     "title": "China seeks advanced Nvidia chips for AI weapons despite US ",
      "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRDZYbWdKS2hHRWRxV",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRDZYbWdKS2hHRWRxVU9jRTZmUW5GdUZXdXNnM",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN0Vsd0FkMFJLZl8zb",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN0Vsd0FkMFJLZl8zbklveDFFQW9XSEc3Q3dHM",
      "resolved": false
     },
     {
@@ -31,17 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Xi, Putin blast Western 'protectionism' and sanctions as Tru",
+     "title": "Global patent filings hit record high in 2025 as China drive",
      "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb21UOHp4X2E2V05LR",
-     "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb21UOHp4X2E2V05LRUhhUjhnSzI5b1NmNDRVQ",
-     "resolved": false
-    },
-    {
-     "title": "Chinese steel imports remain a threat to Indian industry, Ta",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSU5xZ3hxUXIyT2tZR",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSU5xZ3hxUXIyT2tZR3ZHRi1NaG1TZDd1Q2EtR",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX21fSEZwSlpHUWFub",
+     "real": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX21fSEZwSlpHUWFuby1pYnF1X0R0SVZUdEVEN",
      "resolved": false
     }
    ]
@@ -62,10 +62,17 @@
      "resolved": false
     },
     {
-     "title": "Trump seeks to show strength in China, but a series of techn",
+     "title": "Trump plans separate talks with Putin alongside their 3-way ",
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGlNb2Jsalc3eGpLN",
      "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGlNb2Jsalc3eGpLNWFROHFOZjhyaWxjTi1LW",
+     "resolved": false
+    },
+    {
+     "title": "Carney says Canada’s growing trade ties with China are not a",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZThvME1ObnA1SmhPc",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZThvME1ObnA1SmhPci1TazZzVmVfdkNELTFac",
      "resolved": false
     },
     {
@@ -76,17 +83,10 @@
      "resolved": false
     },
     {
-     "title": "What to know about US-China competition as Trump and Xi meet",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUU9SQ2k0YlFmRDJQU",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUU9SQ2k0YlFmRDJQUEhOMUtOa3ZHdFd6MUN4a",
-     "resolved": false
-    },
-    {
-     "title": "Trump administration moves to block China from indirect acce",
+     "title": "Carney says Canada could turn to Chinese automakers if Trump",
      "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONGJmTGhQa3FRRDZtX",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONGJmTGhQa3FRRDZtX3BqVk9SNlc1aHZ1QXZiU",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTR5N1M3UjBmMW5oT",
+     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTR5N1M3UjBmMW5oTkdUWERHYUFPWFFNU3lHe",
      "resolved": false
     }
    ]
@@ -97,10 +97,17 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Trump arrives in China ahead of historic three-way summit with Putin, Xi - France 24",
+   "sample": "New Zealand mayor says democracy has 'had its day' after China visit - France 24",
    "diag": [
     {
-     "title": "Trump arrives in China ahead of historic three-way summit wi",
+     "title": "New Zealand mayor says democracy has 'had its day' after Chi",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnJJQ2dCTkV3V24zZ",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnJJQ2dCTkV3V24zZkxVU1JNVjV6bTN3aXhxL",
+     "resolved": false
+    },
+    {
+     "title": "Xi, Trump and Putin meet in China ahead of historic three-wa",
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUzVXNjNneVFaZDVVZ",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUzVXNjNneVFaZDVVZm1fT3AwcktpLTBqeGNWN",
@@ -114,13 +121,6 @@
      "resolved": false
     },
     {
-     "title": "Putin arrives in China ahead of trilateral Trump-Xi summit -",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZHlRdnF4QVpyYmgxW",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZHlRdnF4QVpyYmgxWW9naDNrRURRbE8xVDRRU",
-     "resolved": false
-    },
-    {
      "title": "Chinese spy, chip sales, Trump ties... The Nvidia scandal de",
      "date": "2026-11-15",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMURFcEJocnV6MXVYe",
@@ -128,10 +128,10 @@
      "resolved": false
     },
     {
-     "title": "Trump kicks off Asia trip that will see nuclear talks with X",
+     "title": "Putin arrives in China ahead of trilateral Trump-Xi summit -",
      "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZDNWZllXUTJqMFh2Q",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZDNWZllXUTJqMFh2QnAxQnhpaHNZWlctUUhRe",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZHlRdnF4QVpyYmgxW",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZHlRdnF4QVpyYmgxWW9naDNrRURRbE8xVDRRU",
      "resolved": false
     }
    ]
@@ -142,41 +142,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia Stops Selling AI Chips to China Despite US Approval - Bloomberg.com",
+   "sample": "Putin in Spotlight at APEC Group Photo After Decade of Isolation - Bloomberg.com",
    "diag": [
+    {
+     "title": "Putin in Spotlight at APEC Group Photo After Decade of Isola",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX2VTRS1uUFE0UVZWM",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX2VTRS1uUFE0UVZWM19jWUFiQ0hnQ3pWVGlkb",
+     "resolved": false
+    },
+    {
+     "title": "Mexico Leader Goes Viral in China for 21-Hour Economy Flight",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMUU1RVBpZ1k3eDJGM",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMUU1RVBpZ1k3eDJGMEZJajdmYnM3UE90WmFqY",
+     "resolved": false
+    },
+    {
+     "title": "Trump, Putin Plan to Hold Separate Meeting Thursday in China",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSGFNV0liWTJLOVVSa",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSGFNV0liWTJLOVVSaDEzdHNjakN6NUpfTDhTZ",
+     "resolved": false
+    },
+    {
+     "title": "Tencent’s Sales Miss Estimates in Setback for Founder’s AI P",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZlRKLVZyN3R3RW4xY",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZlRKLVZyN3R3RW4xYzhNVFM4Z1J0NmRXVGRIX",
+     "resolved": false
+    },
     {
      "title": "Nvidia Stops Selling AI Chips to China Despite US Approval -",
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVk5ZV2dpR3EyVEtJc",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVk5ZV2dpR3EyVEtJcVdSZTBCVGl6UE1qZ1gzN",
-     "resolved": false
-    },
-    {
-     "title": "PBOC Sets Strongest Yuan Fix Since 2022 to Allow Further Gai",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWktWbDdabmdxdFFjU",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWktWbDdabmdxdFFjUXFFZkFPRnlxY2tOVlk0a",
-     "resolved": false
-    },
-    {
-     "title": "Clampdown on China Chip Loophole Puts Billions in Loans at R",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd3llZ1ltdU5QNkdZX",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd3llZ1ltdU5QNkdZX1JILW1Ud280T0YyZDdvZ",
-     "resolved": false
-    },
-    {
-     "title": "China’s Xi Greets Trump at Shenzhen at Airport in Rare Move ",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS2tBZTVDSXloUkZoQ",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS2tBZTVDSXloUkZoQkFMV1p0UHBlNW1JWG9MV",
-     "resolved": false
-    },
-    {
-     "title": "Trump Makes AI Push With Quad Leaders as China Rivalry Grows",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaFFHejB3YkRxWldBO",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaFFHejB3YkRxWldBOG4zM1hLdW5kTklaSFV4N",
      "resolved": false
     }
    ]
@@ -187,8 +187,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Takaichi's diplomatic chops to be tested at China's APEC - Nikkei Asia",
+   "sample": "'All Chinese players' will rely on domestic chips eventually: Tencent - Nikkei Asia",
    "diag": [
+    {
+     "title": "'All Chinese players' will rely on domestic chips eventually",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRnQyV3RYcTc5QXN0c",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRnQyV3RYcTc5QXN0cFN5WFpTWFd5bnVZUzN6b",
+     "resolved": false
+    },
+    {
+     "title": "China shows vision of future in Shenzhen with plenty of red ",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUVJwdFNGS3Axb2FRR",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUVJwdFNGS3Axb2FRRC1BLU9QS1FaQWp0N0huR",
+     "resolved": false
+    },
     {
      "title": "Takaichi's diplomatic chops to be tested at China's APEC - N",
      "date": "2026-11-18",
@@ -209,67 +223,15 @@
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZkNCcDljc05TVXBHb",
      "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZkNCcDljc05TVXBHbDUyVm9sdHZYWk1tY0tDO",
      "resolved": false
-    },
-    {
-     "title": "US moves to curb China's remote access to AI chips after Nvi",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdmlTTmNpMzZLVXdtV",
-     "real": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdmlTTmNpMzZLVXdtVzBZNnd5X1JFUTRnMzVyN",
-     "resolved": false
-    },
-    {
-     "title": "China hosts APEC CEO Summit with several US heavyweights abs",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR2VjcnNoZkN3emhHN",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR2VjcnNoZkN3emhHNUNZYzVYSkU3UkpBQURiZ",
-     "resolved": false
     }
    ]
   },
   {
    "name": "GNEWS-金融时报",
    "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "‘Witness the Wonders’: China touts miracle city for Trump summit - Financial Times",
-   "diag": [
-    {
-     "title": "‘Witness the Wonders’: China touts miracle city for Trump su",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTFBIclNfdVZLNzZXa",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTFBIclNfdVZLNzZXa3lldDJVblI4WndtNEdpQ",
-     "resolved": false
-    },
-    {
-     "title": "Xi Jinping greets Donald Trump with hug ahead of historic tr",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMDBFWUtRcU9fdVhpZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMDBFWUtRcU9fdVhpZS13SDZ0aGR1QnpBM00xV",
-     "resolved": false
-    },
-    {
-     "title": "Vladimir Putin pushes ‘Eurasian’ order ahead of meeting with",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdmlxdXREZlBlbWU3T",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdmlxdXREZlBlbWU3TTRjY25EU1BaOFV5Wk5iN",
-     "resolved": false
-    },
-    {
-     "title": "Chinese defence minister makes surprise visit to Italy - Fin",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSElWeUtSeE0tV2F5Q",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSElWeUtSeE0tV2F5QXQ1NzNDRDZqVWhDTnBRc",
-     "resolved": false
-    },
-    {
-     "title": "Russia aims for ‘joint statement’ from trilateral summit wit",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONklWdmIweGtoTGtJL",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONklWdmIweGtoTGtJLTRqbWlZcFhFaUMwSEpDa",
-     "resolved": false
-    }
-   ]
+   "status": 429,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-华尔街日报",
@@ -277,8 +239,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "U.S. Enters Unprecedented Three-Way Nuclear Rivalry With China and Russia - WSJ",
+   "sample": "Copper at Lowest Since April Amid AI Market Turmoil, Chinese Demand Concerns - WSJ",
    "diag": [
+    {
+     "title": "Copper at Lowest Since April Amid AI Market Turmoil, Chinese",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSDdUc05JVC1iR0RlN",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSDdUc05JVC1iR0RlNkpmWjhXLVNUZGZDcU5lL",
+     "resolved": false
+    },
     {
      "title": "U.S. Enters Unprecedented Three-Way Nuclear Rivalry With Chi",
      "date": "2026-11-18",
@@ -306,13 +275,6 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHhHZXp0eFpvVEQwN",
      "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHhHZXp0eFpvVEQwNWQwUXgwSDZETWdWeF9UM",
      "resolved": false
-    },
-    {
-     "title": "Trump’s Advisers Are at War Over China Ahead of Xi Summit - ",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZFJvYjNhcXVuMWNTS",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZFJvYjNhcXVuMWNTSWZCS3M3eDMyOGVmVHVtL",
-     "resolved": false
     }
    ]
   },
@@ -322,34 +284,34 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "In a Rare Move, Xi Greets Trump as He Lands in China - The New York Times",
+   "sample": "Leaders of China and Japan Meet Amid Political Feud - The New York Times",
    "diag": [
     {
-     "title": "In a Rare Move, Xi Greets Trump as He Lands in China - The N",
+     "title": "Leaders of China and Japan Meet Amid Political Feud - The Ne",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYk1fczF1YWFJMWVUZ",
+     "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYk1fczF1YWFJMWVUZXlndDdxcjY1S21zaUZBW",
+     "resolved": false
+    },
+    {
+     "title": "The Shadow of Yalta Hangs Over Trump’s Summit in China - The",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkJreTNMVzBlZ0tmU",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkJreTNMVzBlZ0tmU29XaGtCTk9IZUpuMjFaQ",
+     "resolved": false
+    },
+    {
+     "title": "Xi Greets Trump With a Hug as He Arrives in China - The New ",
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SOFdsb0NTbWxVcGxyM",
      "real": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SOFdsb0NTbWxVcGxyMElKQy1WbDRiWWlfOFFVM",
      "resolved": false
     },
     {
-     "title": "Tracking China’s Intensifying War of Words Against Japan - T",
+     "title": "Will a Spy Scandal, Trade Friction and a Surprise Guest Ruin",
      "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV0FLYnFpRHlhX2Zab",
-     "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV0FLYnFpRHlhX2Zab2lSTHFfM2pWcEVHUW8wS",
-     "resolved": false
-    },
-    {
-     "title": "As Trump Goes to China, A.I. Tensions Surge Amid Spying and ",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeEtwR1l3UEhrZF9aV",
-     "real": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeEtwR1l3UEhrZF9aVjlrSXVMalM3eERPcll5O",
-     "resolved": false
-    },
-    {
-     "title": "Live Updates: Trump Meets Philippine Leader Before Flying to",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tNUQ3Um9LcHZ1UHlmV",
-     "real": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tNUQ3Um9LcHZ1UHlmVV9aN0xadkRYbjZuallvU",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUeUo2cThBSzBObnN1U",
+     "real": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUeUo2cThBSzBObnN1UDFfVGVPMGRiS1ZjY3l3M",
      "resolved": false
     },
     {
@@ -367,13 +329,34 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Catch up: Nvidia rules out return of Jensen Huang; Xi hugs Trump in China - The Economist",
+   "sample": "Catch up: President Trump arrives in China; Nvidia rules out return of Jensen Huang - The Economist",
    "diag": [
     {
-     "title": "Catch up: Nvidia rules out return of Jensen Huang; Xi hugs T",
+     "title": "Catch up: President Trump arrives in China; Nvidia rules out",
      "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWFQb2ZxTmFvaHJLZ",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWFQb2ZxTmFvaHJLZWJjbnVYTlgxTW1yRnU3T",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPek1qX1VpRGZKQ2pmN",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPek1qX1VpRGZKQ2pmNlpUenA4NXZJdmtYVE16N",
+     "resolved": false
+    },
+    {
+     "title": "Third wheeling: Xi, Putin and Trump meet in China - The Econ",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQW12YnhCeTgybDdMY",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQW12YnhCeTgybDdMYmdCb3N3NlYySWxualdWY",
+     "resolved": false
+    },
+    {
+     "title": "American and Chinese approaches to AI will converge - The Ec",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMXVsQzU3SGIwX3BIb",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMXVsQzU3SGIwX3BIblgtR1VnRGhwVjcxUXIzN",
+     "resolved": false
+    },
+    {
+     "title": "Chinese firms will bring development and disruption to Afric",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUmpid0RUS3BXTmwyL",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUmpid0RUS3BXTmwyLUVWS0JFenZ0Skktdk1kO",
      "resolved": false
     },
     {
@@ -382,27 +365,6 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlpMaDRhajRqNnRMR",
      "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlpMaDRhajRqNnRMR1B6Tk9oeUVqeGtNWkJvV",
      "resolved": false
-    },
-    {
-     "title": "What hit podcasts reveal about China’s youth - The Economist",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYmxtNzhYMUJhbHRfR",
-     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYmxtNzhYMUJhbHRfRXl0R0JtQVFqd3diU3lvb",
-     "resolved": false
-    },
-    {
-     "title": "A lone protester highlights the pain from China’s property b",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY2F2ZjFLS3RUdE5PR",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY2F2ZjFLS3RUdE5PRHhwUG81SGZkNUlucWNvc",
-     "resolved": false
-    },
-    {
-     "title": "Ted Plafker, a stalwart of our China coverage, has died - Th",
-     "date": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1Nie",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVlfMm9jcHZHM1NienQ4eHlFZFo0YkVCbWxxN",
-     "resolved": false
     }
    ]
   },
@@ -410,7 +372,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 60,
+   "items": 61,
    "is_feed": true,
    "sample": "China's top rare earth firms' profits surge on supply caps - Reuters",
    "diag": [
@@ -436,17 +398,17 @@
      "resolved": false
     },
     {
+     "title": "Trump lauds defence alliance with Philippines ahead of China",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVXNLdUFYVWotSVJua",
+     "real": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVXNLdUFYVWotSVJuaXBZR3Npc3MxWjR3MlVNL",
+     "resolved": false
+    },
+    {
      "title": "China extends suspension of new rare earth controls until Ja",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUa",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUaEJCaDNDQWZ2bzhKOFNmb",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwa",
-     "date": "2026-10-22",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrM",
      "resolved": false
     }
    ]
@@ -476,7 +438,7 @@
   {
    "name": "日经中文",
    "url": "https://cn.nikkei.com/rss/rss.xml",
-   "status": 202,
+   "status": 200,
    "items": 0,
    "is_feed": false,
    "sample": ""
@@ -560,7 +522,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "Reverting Ford-class Carriers to Steam is ‘Non-Starter,’ Says SASC Chair Wicker"
+   "sample": "U.K. Carrier Strike Group Concludes 6-month Operation Firecrest Deployment"
   },
   {
    "name": "DefenseNews",
@@ -568,7 +530,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Finland&#8217;s Iceye bids €2 billion for Italian rocket maker Avio"
+   "sample": "As UNIFIL winds down, Israeli presence in Lebanon complicates handover process"
   },
   {
    "name": "Mining",
@@ -576,7 +538,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Ground View Pakistan: Engineers of mountains"
+   "sample": "Copper price craters as AI, tariff trades unwind, wiping $186 billion off top producers in a month"
   },
   {
    "name": "OilPrice",
@@ -584,7 +546,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Small Vessel Trade Thrives in Hormuz as Iran Targets Supertankers"
+   "sample": "Copper Heads for Longest Weekly Losing Streak in Two Years"
   },
   {
    "name": "IMF",
@@ -628,7 +590,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "'A masterpiece of the gaming industry': GTA 'most expensive' entertainment production in history"
+   "sample": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea"
   },
   {
    "name": "JapanTimes",
@@ -676,10 +638,9 @@
   {
    "name": "BreakingDefense",
    "url": "https://breakingdefense.com/feed/",
-   "status": 200,
-   "items": 15,
-   "is_feed": true,
-   "sample": "Lawmakers challenge Trump’s push to bring steam catapults back to Ford-class carriers"
+   "status": 403,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "MiningWeekly",
