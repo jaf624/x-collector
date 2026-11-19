@@ -1940,6 +1940,104 @@
       "lang": "en",
       "cat": "多边机制",
       "pat": "/(?:20\\d{2}|article|articles|news|story|stories|report|reports|press|publication|publications|research|commentary|analysis|insight|feature|blog)/[^\\s\\)\\]]{6,}"
+    },
+    {
+      "name": "Security Affairs安全资讯",
+      "url": "https://securityaffairs.com/feed",
+      "lang": "en",
+      "cat": "网络安全",
+      "pat": "securityaffairs\\.com/\\d+/[a-z0-9\\-/]+"
+    },
+    {
+      "name": "SANS ISC日记",
+      "url": "https://isc.sans.edu/rssfeed.xml",
+      "lang": "en",
+      "cat": "网络安全",
+      "pat": "isc\\.sans\\.edu/diary/\\d+"
+    },
+    {
+      "name": "Cybersecurity Dive",
+      "url": "https://www.cybersecuritydive.com/feeds/news/",
+      "lang": "en",
+      "cat": "网络安全",
+      "pat": "cybersecuritydive\\.com/news/[a-z0-9\\-/]+/\\d+"
+    },
+    {
+      "name": "Threatpost威胁情报",
+      "url": "https://threatpost.com/feed/",
+      "lang": "en",
+      "cat": "网络安全",
+      "pat": "threatpost\\.com/[a-z0-9\\-]+/\\d+/"
+    },
+    {
+      "name": "The DFIR Report",
+      "url": "https://thedfirreport.com/feed/",
+      "lang": "en",
+      "cat": "网络安全",
+      "pat": "thedfirreport\\.com/20\\d\\d/\\d{2}/\\d{2}/[a-z0-9\\-]+"
+    },
+    {
+      "name": "CrowdStrike博客",
+      "url": "https://www.crowdstrike.com/en-us/blog/feed/",
+      "lang": "en",
+      "cat": "网络安全",
+      "pat": "crowdstrike\\.com/en-us/blog/[a-z0-9\\-]+"
+    },
+    {
+      "name": "The Northern Miner矿业",
+      "url": "https://www.northernminer.com/feed/",
+      "lang": "en",
+      "cat": "资源矿产",
+      "pat": "northernminer\\.com/(news|commodities-markets)/[a-z0-9\\-/]+/\\d+"
+    },
+    {
+      "name": "Tom's Hardware硬件",
+      "url": "https://www.tomshardware.com/feeds/news",
+      "lang": "en",
+      "cat": "科技产业",
+      "pat": "tomshardware\\.com/[a-z\\-]+/[a-z0-9\\-/]+"
+    },
+    {
+      "name": "ServeTheHome数据中心",
+      "url": "https://www.servethehome.com/feed/",
+      "lang": "en",
+      "cat": "科技产业",
+      "pat": "servethehome\\.com/[a-z0-9\\-]+/"
+    },
+    {
+      "name": "TechPowerUp硬件新闻",
+      "url": "https://www.techpowerup.com/rss/news",
+      "lang": "en",
+      "cat": "科技产业",
+      "pat": "techpowerup\\.com/\\d+/[a-z0-9\\-]+"
+    },
+    {
+      "name": "Energy Storage News储能",
+      "url": "https://www.energy-storage.news/feed/",
+      "lang": "en",
+      "cat": "资源能源",
+      "pat": "energy-storage\\.news/[a-z0-9\\-]+"
+    },
+    {
+      "name": "Splash247航运物流",
+      "url": "https://splash247.com/feed/",
+      "lang": "en",
+      "cat": "航运能源",
+      "pat": "splash247\\.com/[a-z0-9\\-]+"
+    },
+    {
+      "name": "Hellenic Shipping News",
+      "url": "https://www.hellenicshippingnews.com/feed/",
+      "lang": "en",
+      "cat": "航运能源",
+      "pat": "hellenicshippingnews\\.com/[a-z0-9\\-]+"
+    },
+    {
+      "name": "NPR世界新闻",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "lang": "en",
+      "cat": "综合硬闻",
+      "pat": "npr\\.org/20\\d\\d/\\d{2}/\\d{2}/g-s1-\\d+/[a-z0-9\\-]+"
     }
   ],
   "search_categories": [
