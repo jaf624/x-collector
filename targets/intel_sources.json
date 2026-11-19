@@ -2066,6 +2066,97 @@
    "lang": "en",
    "cat": "拉美动向",
    "pat": "batimes\\.com\\.ar/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Rappler菲律宾",
+   "url": "https://www.rappler.com/feed",
+   "lang": "en",
+   "cat": "东南亚动向",
+   "pat": "rappler\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "PRNigeria尼日利亚",
+   "url": "https://www.prnigeria.com/feed/",
+   "lang": "en",
+   "cat": "非洲动向",
+   "pat": "prnigeria\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Power Magazine电力",
+   "url": "https://www.powermag.com/feed/",
+   "lang": "en",
+   "cat": "能源电力",
+   "pat": "powermag\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Semiconductor Digest半导体",
+   "url": "https://semiconductordigest.com/feed/",
+   "lang": "en",
+   "cat": "半导体",
+   "pat": "semiconductordigest\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Container News航运",
+   "url": "https://container-news.com/feed/",
+   "lang": "en",
+   "cat": "航运物流",
+   "pat": "container-news\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "SiliconANGLE科技云",
+   "url": "https://www.siliconangle.com/feed/",
+   "lang": "en",
+   "cat": "科技云",
+   "pat": "siliconangle\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "SemiWiki半导体",
+   "url": "https://semiwiki.com/feed/",
+   "lang": "en",
+   "cat": "半导体",
+   "pat": "semiwiki\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Mexico News Daily墨西哥",
+   "url": "https://mexiconewsdaily.com/feed/",
+   "lang": "en",
+   "cat": "拉美动向",
+   "pat": "mexiconewsdaily\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Romania Insider罗马尼亚",
+   "url": "https://www.romania-insider.com/feed",
+   "lang": "en",
+   "cat": "中东欧动向",
+   "pat": "romania-insider\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Balkan Insight巴尔干",
+   "url": "https://balkaninsight.com/feed/",
+   "lang": "en",
+   "cat": "巴尔干动向",
+   "pat": "balkaninsight\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "ZDNet科技",
+   "url": "https://www.zdnet.com/rss/",
+   "lang": "en",
+   "cat": "科技",
+   "pat": "zdnet\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "CSO Online网安",
+   "url": "https://www.csoonline.com/feed/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "csoonline\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "InfoWorld科技",
+   "url": "https://www.infoworld.com/feed/",
+   "lang": "en",
+   "cat": "科技",
+   "pat": "infoworld\\.com/[a-z0-9\\-/]+"
   }
  ],
  "search_categories": [
