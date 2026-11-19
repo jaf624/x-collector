@@ -2157,6 +2157,55 @@
    "lang": "en",
    "cat": "科技",
    "pat": "infoworld\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Canadian Mining Journal加拿大矿业",
+   "url": "https://www.canadianminingjournal.com/feed/",
+   "lang": "en",
+   "cat": "资源矿产",
+   "pat": "canadianminingjournal\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "PortCalls Asia亚洲港口航运",
+   "url": "https://www.portcalls.com/feed/",
+   "lang": "en",
+   "cat": "航运能源",
+   "pat": "portcalls\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Colombia Reports哥伦比亚",
+   "url": "https://colombiareports.com/feed/",
+   "lang": "en",
+   "cat": "拉美动向",
+   "pat": "colombiareports\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Peru Reports秘鲁矿产经贸",
+   "url": "https://www.perureports.com/feed/",
+   "lang": "en",
+   "cat": "拉美动向",
+   "pat": "perureports\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Premium Times尼日利亚",
+   "url": "https://www.premiumtimesng.com/feed/",
+   "lang": "en",
+   "cat": "非洲动向",
+   "pat": "premiumtimesng\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Notes from Poland波兰",
+   "url": "https://notesfrompoland.com/feed/",
+   "lang": "en",
+   "cat": "中东欧动向",
+   "pat": "notesfrompoland\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Astana Times哈萨克斯坦",
+   "url": "https://astanatimes.com/feed/",
+   "lang": "en",
+   "cat": "中亚动向",
+   "pat": "astanatimes\\.com/[a-z0-9\\-/]+"
   }
  ],
  "search_categories": [
