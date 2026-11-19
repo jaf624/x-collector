@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-19T08:35:22.962652Z",
+ "probed_at": "2026-11-19T09:54:06.414048Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,15 +7,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Musk pledges higher Tesla output at China plant, Chinese state media says - Reuters",
+   "sample": "Japan says PM Takaichi, Putin held talks at APEC summit in China - Reuters",
    "diag": [
-    {
-     "title": "Musk pledges higher Tesla output at China plant, Chinese sta",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdWFYaDFsNUdtRG82O",
-     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdWFYaDFsNUdtRG82OWFZZUU4MGNKRDVSOW91a",
-     "resolved": false
-    },
     {
      "title": "Japan says PM Takaichi, Putin held talks at APEC summit in C",
      "date": "2026-11-19",
@@ -24,10 +17,24 @@
      "resolved": false
     },
     {
-     "title": "US, China can help end Ukraine war, Trump tells Xi before tr",
+     "title": "Musk pledges higher Tesla output at China plant, Chinese sta",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdWFYaDFsNUdtRG82O",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdWFYaDFsNUdtRG82OWFZZUU4MGNKRDVSOW91a",
+     "resolved": false
+    },
+    {
+     "title": "Trump, Xi, Putin begin historic meeting with Ukraine war on ",
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBta",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBtajBvdU9pSzk1MG9RQ2NhV",
+     "resolved": false
+    },
+    {
+     "title": "Ukraine strikes Crimean Bridge for third time in a week ahea",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUzRFcTV3RC1acloye",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUzRFcTV3RC1acloyenJ5UXlCQjNfZ0tieEg5N",
      "resolved": false
     },
     {
@@ -35,13 +42,6 @@
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRDZYbWdKS2hHRWRxV",
      "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRDZYbWdKS2hHRWRxVU9jRTZmUW5GdUZXdXNnM",
-     "resolved": false
-    },
-    {
-     "title": "US lawmakers seek Microsoft briefing on reported AI deal tal",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdEpRTFc4Q3Nsa085U",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdEpRTFc4Q3Nsa085U2xoZldyY1BXSmlhSy0yT",
      "resolved": false
     }
    ]
@@ -62,13 +62,6 @@
      "resolved": false
     },
     {
-     "title": "Trump plans separate talks with Putin alongside their 3-way ",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGlNb2Jsalc3eGpLN",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGlNb2Jsalc3eGpLNWFROHFOZjhyaWxjTi1LW",
-     "resolved": false
-    },
-    {
      "title": "Carney says Canada’s growing trade ties with China are not a",
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZThvME1ObnA1SmhPc",
@@ -76,10 +69,10 @@
      "resolved": false
     },
     {
-     "title": "What to know about US-China competition as Trump and Xi meet",
+     "title": "Trump plans separate talks with Putin alongside their 3-way ",
      "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUU9SQ2k0YlFmRDJQU",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUU9SQ2k0YlFmRDJQUEhOMUtOa3ZHdFd6MUN4a",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGlNb2Jsalc3eGpLN",
+     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGlNb2Jsalc3eGpLNWFROHFOZjhyaWxjTi1LW",
      "resolved": false
     },
     {
@@ -87,6 +80,13 @@
      "date": "2026-11-16",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTR5N1M3UjBmMW5oT",
      "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTR5N1M3UjBmMW5oTkdUWERHYUFPWFFNU3lHe",
+     "resolved": false
+    },
+    {
+     "title": "Trump’s trip to the Philippines and China in photos - AP New",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdnA1V3pqc2RrRm1ER",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdnA1V3pqc2RrRm1ER0ZJelRnR19qNVQycnpGM",
      "resolved": false
     }
    ]
@@ -142,13 +142,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Trump Suggests US Can Sell Blackwell Chips to China in Future - Bloomberg.com",
+   "sample": "Trump Suggests US Can Sell Blackwell Chips to China in Future - Bloomberg",
    "diag": [
     {
      "title": "Trump Suggests US Can Sell Blackwell Chips to China in Futur",
      "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb2RmcllMcDNES1UzS",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb2RmcllMcDNES1UzSmxVelRjcV9LUHZzVVQza",
+     "resolved": false
+    },
+    {
+     "title": "Chinese Chip Design Stocks Sink on Concerns Over Foundry Acc",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVTJtQm5HajcyX0M0a",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVTJtQm5HajcyX0M0aUkxeTlPS2V1dG9EWVhwU",
      "resolved": false
     },
     {
@@ -166,17 +173,10 @@
      "resolved": false
     },
     {
-     "title": "China Oil Imports Rebound as Beijing Turns Back to Stockpili",
+     "title": "Xi Says He’s Committed to Working With Trump as Two Leaders ",
      "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQnpLZWhBN2lYaTVUa",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQnpLZWhBN2lYaTVUaTgybXVoUGFES0JidHIxT",
-     "resolved": false
-    },
-    {
-     "title": "K-Pop Giants Position for China Return After Decade-Long Fre",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTHlac1BkN2gxdmlUM",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTHlac1BkN2gxdmlUMFlUbGNZTHZwb3pLbWxrY",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFg1MG9sWllMbjh0T",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFg1MG9sWllMbjh0TlZFRW5ZRlRXQmhXZktsO",
      "resolved": false
     }
    ]
@@ -218,10 +218,10 @@
      "resolved": false
     },
     {
-     "title": "'All Chinese players' will rely on domestic chips eventually",
+     "title": "China carmakers outmaneuver Japan rivals in Myanmar with EV ",
      "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRnQyV3RYcTc5QXN0c",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRnQyV3RYcTc5QXN0cFN5WFpTWFd5bnVZUzN6b",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMjQtWlE0YkROdVJhb",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMjQtWlE0YkROdVJhbEs5NXhaT3NtQ3RuQUZqY",
      "resolved": false
     }
    ]
@@ -287,17 +287,17 @@
      "resolved": false
     },
     {
-     "title": "Copper at Lowest Since April Amid AI Market Turmoil, Chinese",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSDdUc05JVC1iR0RlN",
-     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSDdUc05JVC1iR0RlNkpmWjhXLVNUZGZDcU5lL",
-     "resolved": false
-    },
-    {
      "title": "Opinion | How China Is Winning in Latin America - WSJ",
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BUVZnLWFKSmFYX25Ca",
      "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BUVZnLWFKSmFYX25CanQzTnd3amUxcjF2UjZVR",
+     "resolved": false
+    },
+    {
+     "title": "Copper at Lowest Since April Amid AI Market Turmoil, Chinese",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSDdUc05JVC1iR0RlN",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSDdUc05JVC1iR0RlNkpmWjhXLVNUZGZDcU5lL",
      "resolved": false
     },
     {
@@ -322,20 +322,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "How Nvidia Chips Ended Up Within Reach of China’s Military - The New York Times",
+   "sample": "Late Night Follows Trump’s Meeting with Xi and Putin in China - The New York Times",
    "diag": [
-    {
-     "title": "How Nvidia Chips Ended Up Within Reach of China’s Military -",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLVc5N1B2V0VEaE01R",
-     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLVc5N1B2V0VEaE01RDFyU3NaYTNiV3pmb2dqR",
-     "resolved": false
-    },
     {
      "title": "Late Night Follows Trump’s Meeting with Xi and Putin in Chin",
      "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkJsXzdHbHlxbWk3Q",
      "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkJsXzdHbHlxbWk3QUFTU2ZmSnphaE9RZXFGN",
+     "resolved": false
+    },
+    {
+     "title": "How Nvidia Chips Ended Up Within Reach of China’s Military -",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLVc5N1B2V0VEaE01R",
+     "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLVc5N1B2V0VEaE01RDFyU3NaYTNiV3pmb2dqR",
      "resolved": false
     },
     {
@@ -347,7 +347,7 @@
     },
     {
      "title": "The Shadow of Yalta Hangs Over Trump’s Summit in China - The",
-     "date": "2026-11-18",
+     "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkJreTNMVzBlZ0tmU",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkJreTNMVzBlZ0tmU29XaGtCTk9IZUpuMjFaQ",
      "resolved": false
@@ -377,10 +377,10 @@
      "resolved": false
     },
     {
-     "title": "Catch up: President Trump arrives in China; Nvidia rules out",
+     "title": "Catch up: Trump arrives in China; Nvidia rules out return of",
      "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPek1qX1VpRGZKQ2pmN",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPek1qX1VpRGZKQ2pmNlpUenA4NXZJdmtYVE16N",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZDFPUk55UVY1UExzT",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZDFPUk55UVY1UExzTlctdjFxaVB5X0pkdVBNT",
      "resolved": false
     },
     {
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 61,
+   "items": 60,
    "is_feed": true,
    "sample": "China's top rare earth firms' profits surge on supply caps - Reuters",
    "diag": [
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "US surges power projection to westernmost island chain as Russia, China loom"
+   "sample": "Japanese nuclear submarines are a bad idea for East China Sea security — for now"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "EU Delays Methane Rules by Two Years Amid Energy Supply Fears"
+   "sample": "The Middle East War Has Wiped 2.8 Billion Barrels Off Global Oil Supply"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "🔴 Historic three-way summit between Trump, Xi and Putin starts in Shenzhen, China"
+   "sample": "France: Seven masculinists stand trial in Paris"
   },
   {
    "name": "JapanTimes",
