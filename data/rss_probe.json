@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-19T08:14:31.727481Z",
+ "probed_at": "2026-11-19T08:35:22.962652Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -24,7 +24,7 @@
      "resolved": false
     },
     {
-     "title": "Trump says historic summit with Xi, Putin already a 'win' be",
+     "title": "US, China can help end Ukraine war, Trump tells Xi before tr",
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBta",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBtajBvdU9pSzk1MG9RQ2NhV",
@@ -38,10 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Nvidia stops shipping US-approved AI chips to China - Reuter",
+     "title": "US lawmakers seek Microsoft briefing on reported AI deal tal",
      "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc0dHN3dEWU8xaElLV",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc0dHN3dEWU8xaElLV21veDdXMWI3eUpBYWNYV",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdEpRTFc4Q3Nsa085U",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdEpRTFc4Q3Nsa085U2xoZldyY1BXSmlhSy0yT",
      "resolved": false
     }
    ]
@@ -62,17 +62,17 @@
      "resolved": false
     },
     {
-     "title": "Carney says Canada’s growing trade ties with China are not a",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZThvME1ObnA1SmhPc",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZThvME1ObnA1SmhPci1TazZzVmVfdkNELTFac",
-     "resolved": false
-    },
-    {
      "title": "Trump plans separate talks with Putin alongside their 3-way ",
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGlNb2Jsalc3eGpLN",
      "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGlNb2Jsalc3eGpLNWFROHFOZjhyaWxjTi1LW",
+     "resolved": false
+    },
+    {
+     "title": "Carney says Canada’s growing trade ties with China are not a",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZThvME1ObnA1SmhPc",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZThvME1ObnA1SmhPci1TazZzVmVfdkNELTFac",
      "resolved": false
     },
     {
@@ -322,20 +322,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Late Night Follows Trump’s Meeting with Xi and Putin in China - The New York Times",
+   "sample": "How Nvidia Chips Ended Up Within Reach of China’s Military - The New York Times",
    "diag": [
-    {
-     "title": "Late Night Follows Trump’s Meeting with Xi and Putin in Chin",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkJsXzdHbHlxbWk3Q",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkJsXzdHbHlxbWk3QUFTU2ZmSnphaE9RZXFGN",
-     "resolved": false
-    },
     {
      "title": "How Nvidia Chips Ended Up Within Reach of China’s Military -",
      "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLVc5N1B2V0VEaE01R",
      "real": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLVc5N1B2V0VEaE01RDFyU3NaYTNiV3pmb2dqR",
+     "resolved": false
+    },
+    {
+     "title": "Late Night Follows Trump’s Meeting with Xi and Putin in Chin",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkJsXzdHbHlxbWk3Q",
+     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkJsXzdHbHlxbWk3QUFTU2ZmSnphaE9RZXFGN",
      "resolved": false
     },
     {
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks"
+   "sample": "🔴 Historic three-way summit between Trump, Xi and Putin starts in Shenzhen, China"
   },
   {
    "name": "JapanTimes",
