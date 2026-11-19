@@ -2206,6 +2206,83 @@
    "lang": "en",
    "cat": "中亚动向",
    "pat": "astanatimes\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Australian Mining澳洲矿业",
+   "url": "https://www.australianmining.com.au/feed/",
+   "lang": "en",
+   "cat": "资源矿产",
+   "pat": "australianmining\\.com\\.au/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Investing News投资矿业",
+   "url": "https://investingnews.com/feed",
+   "lang": "en",
+   "cat": "资源矿产",
+   "pat": "investingnews\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "World Nuclear News世界核新闻",
+   "url": "https://www.world-nuclear-news.org/rss",
+   "lang": "en",
+   "cat": "能源核安全",
+   "pat": "world-nuclear-news\\.org/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "EET Asia亚洲电子半导体",
+   "url": "https://www.eetasia.com/feed",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "eetasia\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "EE News Europe欧洲电子",
+   "url": "https://www.eenewseurope.com/feed",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "eenewseurope\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Buenos Aires Herald阿根廷",
+   "url": "https://www.buenosairesherald.com/feed",
+   "lang": "en",
+   "cat": "拉美动向",
+   "pat": "buenosairesherald\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "El Financiero墨西哥经贸",
+   "url": "https://www.elfinanciero.com.mx/rss",
+   "lang": "en",
+   "cat": "拉美动向",
+   "pat": "elfinanciero\\.com\\.mx/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Daily Post尼日利亚",
+   "url": "https://www.dailypost.ng/feed",
+   "lang": "en",
+   "cat": "非洲动向",
+   "pat": "dailypost\\.ng/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Al-Monitor中东观察",
+   "url": "https://www.al-monitor.com/rss",
+   "lang": "en",
+   "cat": "中东动向",
+   "pat": "al-monitor\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Gazeta.uz乌兹别克斯坦",
+   "url": "https://www.gazeta.uz/en/rss",
+   "lang": "en",
+   "cat": "中亚动向",
+   "pat": "gazeta\\.uz/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "Petroleum Economist油气经济",
+   "url": "https://www.petroleum-economist.com/rss",
+   "lang": "en",
+   "cat": "航运能源",
+   "pat": "petroleum-economist\\.com/[a-z0-9\\-/]+"
   }
  ],
  "search_categories": [
