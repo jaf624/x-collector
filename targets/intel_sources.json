@@ -2283,6 +2283,13 @@
    "lang": "en",
    "cat": "航运能源",
    "pat": "petroleum-economist\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "ThisDay尼日利亚",
+   "url": "https://www.thisdaylive.com/feed",
+   "lang": "en",
+   "cat": "非洲动向",
+   "pat": "thisdaylive\\.com/[a-z0-9\\-/]+"
   }
  ],
  "search_categories": [
