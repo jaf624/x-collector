@@ -87,6 +87,26 @@
   "discovered_at": "2026-11-11T09:19:00Z"
  },
  {
+  "name": "hkprotestinfo",
+  "url": "https://t.me/hkprotestinfo",
+  "preview": "https://t.me/s/hkprotestinfo",
+  "title": "HK Protest Info and News",
+  "desc": "This is a notification board ONLY platform on Hong Kong protest info & news for English speakers.\n\nLook up these tags for related information:\n#schedule #traffi",
+  "posts_in_page": 20,
+  "latest": "2026-08-28",
+  "recent3": 0,
+  "recent7": 0,
+  "china_hits": 84,
+  "cat_hits": {
+   "政治安全与意识形态渗透": 5
+  },
+  "related_msgs": 5,
+  "media_count_only": 0,
+  "score": 63.0,
+  "status": "pending_review",
+  "discovered_at": "2026-11-20T09:59:48Z"
+ },
+ {
   "name": "DemosistoOfficial",
   "url": "https://t.me/DemosistoOfficial",
   "preview": "https://t.me/s/DemosistoOfficial",
