@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-21T19:33:25.906146Z",
+ "probed_at": "2026-11-21T22:45:53.207165Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -52,10 +52,10 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Taiwan warns Canada faces the China risks Carney has cautioned against - AP News",
+   "sample": "Taiwan warns Canada’s Carney that deeper ties with China come with risks - AP News",
    "diag": [
     {
-     "title": "Taiwan warns Canada faces the China risks Carney has caution",
+     "title": "Taiwan warns Canada’s Carney that deeper ties with China com",
      "date": "2026-11-21",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk94aHBLLVI3V1JkY",
      "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk94aHBLLVI3V1JkYU1DWGQ1Qk5ZVnlBN2JFY",
@@ -97,20 +97,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Trump hails 'fantastic' relationships with China's Xi, Russia's Putin after three-way talks - France 24",
+   "sample": "New Zealand mayor says democracy has 'had its day' after China visit - France 24",
    "diag": [
-    {
-     "title": "Trump hails 'fantastic' relationships with China's Xi, Russi",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYU9yY1JRcWNteEN6N",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYU9yY1JRcWNteEN6N1B2OVRJalp4M2FYRzJWd",
-     "resolved": false
-    },
     {
      "title": "New Zealand mayor says democracy has 'had its day' after Chi",
      "date": "2026-11-18",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnJJQ2dCTkV3V24zZ",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnJJQ2dCTkV3V24zZkxVU1JNVjV6bTN3aXhxL",
+     "resolved": false
+    },
+    {
+     "title": "Trump hails 'fantastic' relationships with China's Xi, Russi",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYU9yY1JRcWNteEN6N",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYU9yY1JRcWNteEN6N1B2OVRJalp4M2FYRzJWd",
      "resolved": false
     },
     {
@@ -159,17 +159,10 @@
      "resolved": false
     },
     {
-     "title": "US Lawmakers Near Deal to Ban Chinese Cars in Lame Duck Sess",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObHhQcjdyV1I0MV9Wa",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObHhQcjdyV1I0MV9WaGxraEpScE9YSFhxMGpRY",
-     "resolved": false
-    },
-    {
-     "title": "China’s Top Planner Seeks Faster Construction of State Proje",
+     "title": "California Nvidia Probe Covers Potential Criminal Law Violat",
      "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObWp3N3ZXSl9wTDNMN",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObWp3N3ZXSl9wTDNMN0tmUVN2LV9lMloxVnpyd",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZKSUpVM0xWNVRuM",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZKSUpVM0xWNVRuM3B0RjhyOTM0NUNoRmNYV",
      "resolved": false
     },
     {
@@ -177,6 +170,13 @@
      "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWUJkbXVlNnRkelpmb",
      "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWUJkbXVlNnRkelpmbU9ZQkJsUlBaR25SeWpsR",
+     "resolved": false
+    },
+    {
+     "title": "China’s Top Planner Seeks Faster Construction of State Proje",
+     "date": "2026-11-21",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObWp3N3ZXSl9wTDNMN",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObWp3N3ZXSl9wTDNMN0tmUVN2LV9lMloxVnpyd",
      "resolved": false
     }
    ]
@@ -204,17 +204,17 @@
      "resolved": false
     },
     {
-     "title": "China using Trump-Xi 'stability' to build strategic edge, US",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZmxjb2xFRTVMODVmZ",
-     "real": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZmxjb2xFRTVMODVmZ2E3QXpFazJsZnhRT09sa",
-     "resolved": false
-    },
-    {
      "title": "Chip supply chain warns of broader disruption from new US ex",
      "date": "2026-11-20",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVndkdXFmNFJBNzBqQ",
      "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVndkdXFmNFJBNzBqQTRObUJuVWtPRnhiLTlKS",
+     "resolved": false
+    },
+    {
+     "title": "China using Trump-Xi 'stability' to build strategic edge, US",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZmxjb2xFRTVMODVmZ",
+     "real": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZmxjb2xFRTVMODVmZ2E3QXpFazJsZnhRT09sa",
      "resolved": false
     },
     {
@@ -309,7 +309,7 @@
     },
     {
      "title": "Alice Huang’s Husband Built a Data-Center Empire Backed by t",
-     "date": "2026-11-18",
+     "date": "2026-11-17",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHhHZXp0eFpvVEQwN",
      "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHhHZXp0eFpvVEQwNWQwUXgwSDZETWdWeF9UM",
      "resolved": false
@@ -333,7 +333,7 @@
     },
     {
      "title": "Chinese-Born Neuroscientist Is Detained by ICE While Traveli",
-     "date": "2026-11-20",
+     "date": "2026-11-21",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbkJXbjNXTG96R3BqM",
      "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbkJXbjNXTG96R3BqM0hpX3dXemVJN1U0bWlLa",
      "resolved": false
@@ -367,20 +367,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "How China continues to evade America’s tech-export rules - The Economist",
+   "sample": "China’s prison for the elite is massively expanding - The Economist",
    "diag": [
-    {
-     "title": "How China continues to evade America’s tech-export rules - T",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0kwSGFRelVSdzVja",
-     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0kwSGFRelVSdzVjaDJMMUxZOVQ5LVlneDZTS",
-     "resolved": false
-    },
     {
      "title": "China’s prison for the elite is massively expanding - The Ec",
      "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX19SYl9pQnlhWVRnc",
      "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX19SYl9pQnlhWVRncE5TcENCc20zTHg5ejlId",
+     "resolved": false
+    },
+    {
+     "title": "How China continues to evade America’s tech-export rules - T",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0kwSGFRelVSdzVja",
+     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0kwSGFRelVSdzVjaDJMMUxZOVQ5LVlneDZTS",
      "resolved": false
     },
     {
@@ -391,17 +391,17 @@
      "resolved": false
     },
     {
+     "title": "China still doesn’t know what to do about Taiwan - The Econo",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlpMaDRhajRqNnRMR",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlpMaDRhajRqNnRMR1B6Tk9oeUVqeGtNWkJvV",
+     "resolved": false
+    },
+    {
      "title": "The incredible shrinking legacy of Donald J. Trump - The Eco",
      "date": "2026-11-17",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNndYdTA5djNxRXNMT",
      "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNndYdTA5djNxRXNMTEp6dUVsb1pmR1I3UEpfZ",
-     "resolved": false
-    },
-    {
-     "title": "China’s Buddhists are releasing animals where they do not be",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNXzFrUjlBeFZldk1zS",
-     "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNXzFrUjlBeFZldk1zSUtkWnVaMzA1aUVuWFZEM",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Thanksgiving Gas Prices Could Break a Record Despite Recent Plunge"
+   "sample": "Wind Could Cut the Cost of Round-the-Clock Solar Power by 18%, Ember Says"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland"
+   "sample": "Eisenkot invites Netanyahu’s party for ‘marathon’ Israeli coalition talks"
   },
   {
    "name": "JapanTimes",
