@@ -1,64 +1,14 @@
 {
-  "probed_at": "2026-11-20T11:09:49.940834",
+  "probed_at": "2026-11-21T10:50:54.619405",
   "total": 868,
-  "ok": 415,
-  "http200": 441,
-  "fail_403": 124,
-  "fail_404": 89,
-  "fail_timeout": 195,
-  "changed": 4,
+  "ok": 414,
+  "http200": 440,
+  "fail_403": 122,
+  "fail_404": 88,
+  "fail_timeout": 196,
+  "changed": 3,
   "results": {
-    "timesofchina.org": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "isc.independent.gov.uk": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "gchq.gov.uk": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "dw.com": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "nsa.gov": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "aboluowang.com": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
     "rand.org": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "rfa.org": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "chinadigitaltimes.net": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "asd.gov.au": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "botanwang.com": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
@@ -68,17 +18,32 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "cse-cst.gc.ca": {
+    "mac.gov.tw": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
     },
-    "odni.gov": {
+    "aboluowang.com": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
     },
-    "mnd.gov.tw": {
+    "disa.mil": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "foreign.senate.gov": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "chinadigitaltimes.net": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "timesofchina.org": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
@@ -88,12 +53,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "international.gc.ca": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "dset.tw": {
+    "odni.gov": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
@@ -108,6 +68,41 @@
       "items": 0,
       "error": "no feed_url"
     },
+    "isc.independent.gov.uk": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "international.gc.ca": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "rfa.org": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "zaobao.com.sg": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "cse-cst.gc.ca": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "nsa.gov": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "asd.gov.au": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
     "uscc.gov": {
       "status": -1,
       "items": 0,
@@ -118,29 +113,34 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "foreign.senate.gov": {
+    "botanwang.com": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
     },
-    "mac.gov.tw": {
+    "dset.tw": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
     },
-    "disa.mil": {
+    "gchq.gov.uk": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
     },
-    "zaobao.com.sg": {
+    "dw.com": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
     },
-    "thediplomat.com": {
+    "mnd.gov.tw": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "ustr.gov": {
       "status": 200,
-      "items": 96,
+      "items": 10,
       "error": ""
     },
     "backchina.com": {
@@ -168,9 +168,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "castro.house.gov": {
+    "thediplomat.com": {
       "status": 200,
-      "items": 25,
+      "items": 96,
       "error": ""
     },
     "ftchinese.com": {
@@ -208,9 +208,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "ustr.gov": {
+    "theinitium.com": {
       "status": 200,
-      "items": 10,
+      "items": 15,
       "error": ""
     },
     "dawanews.com": {
@@ -218,9 +218,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "theinitium.com": {
+    "uscirf.gov": {
       "status": 200,
-      "items": 15,
+      "items": 10,
       "error": ""
     },
     "abc.net.au": {
@@ -233,14 +233,19 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "molihua.org": {
+    "state.gov": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "state.gov": {
+    "whitehouse.gov": {
       "status": 200,
-      "items": 10,
+      "items": 30,
+      "error": ""
+    },
+    "castro.house.gov": {
+      "status": 200,
+      "items": 25,
       "error": ""
     },
     "defense.gov": {
@@ -248,19 +253,14 @@
       "items": 20,
       "error": ""
     },
+    "lingbaxianzhang.blogspot.com": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
     "asiatimes.com": {
       "status": 200,
       "items": 20,
-      "error": ""
-    },
-    "oversight.house.gov": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "home.treasury.gov": {
-      "status": 200,
-      "items": 10,
       "error": ""
     },
     "lianows.com": {
@@ -278,12 +278,12 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "aljazeera.com": {
+    "molihua.org": {
       "status": 200,
-      "items": 25,
+      "items": 10,
       "error": ""
     },
-    "uscirf.gov": {
+    "oversight.house.gov": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -293,9 +293,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "foreignpolicy.com": {
+    "voanews.com": {
       "status": 200,
-      "items": 25,
+      "items": 20,
       "error": ""
     },
     "thecfhk.org": {
@@ -313,9 +313,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "lingbaxianzhang.blogspot.com": {
+    "aljazeera.com": {
       "status": 200,
-      "items": -1,
+      "items": 25,
       "error": ""
     },
     "shahit.biz": {
@@ -323,7 +323,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "voanews.com": {
+    "cn.nytimes.com": {
       "status": 200,
       "items": 20,
       "error": ""
@@ -333,9 +333,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "whitehouse.gov": {
+    "foreignpolicy.com": {
       "status": 200,
-      "items": 30,
+      "items": 25,
       "error": ""
     },
     "recordedfuture.com": {
@@ -348,29 +348,29 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "bbc.com": {
-      "status": 200,
-      "items": 42,
-      "error": ""
-    },
-    "cn.nytimes.com": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "fm961.com": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
     "amnesty.org": {
       "status": 200,
       "items": 12,
       "error": ""
     },
-    "chinademocrats.org": {
+    "voachinese.com": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
+    "2newcenturynet.blogspot.com": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "home.treasury.gov": {
       "status": 200,
       "items": 10,
+      "error": ""
+    },
+    "thewirechina.com": {
+      "status": 200,
+      "items": 50,
       "error": ""
     },
     "bleepingcomputer.com": {
@@ -378,12 +378,12 @@
       "items": 15,
       "error": ""
     },
-    "hsgac.senate.gov": {
+    "usagm.gov": {
       "status": 200,
-      "items": 0,
+      "items": -1,
       "error": ""
     },
-    "sentinelone.com": {
+    "cecc.gov": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -393,14 +393,14 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "usagm.gov": {
+    "thehackernews.com": {
       "status": 200,
-      "items": -1,
+      "items": 50,
       "error": ""
     },
-    "2newcenturynet.blogspot.com": {
+    "sentinelone.com": {
       "status": 200,
-      "items": -1,
+      "items": 10,
       "error": ""
     },
     "selectcommitteeontheccp.house.gov": {
@@ -408,24 +408,24 @@
       "items": 10,
       "error": ""
     },
-    "thehackernews.com": {
-      "status": 200,
-      "items": 50,
-      "error": ""
-    },
-    "scmp.com": {
-      "status": 200,
-      "items": 50,
-      "error": ""
-    },
-    "thewirechina.com": {
-      "status": 200,
-      "items": 50,
-      "error": ""
-    },
     "nukib.gov.cz": {
       "status": 200,
       "items": 15,
+      "error": ""
+    },
+    "blog.tibcert.org": {
+      "status": 200,
+      "items": 3,
+      "error": ""
+    },
+    "fm961.com": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "bellingcat.com": {
+      "status": 200,
+      "items": 10,
       "error": ""
     },
     "cdpweb.org": {
@@ -448,9 +448,9 @@
       "items": 10,
       "error": ""
     },
-    "blog.tibcert.org": {
+    "osintonchina.com": {
       "status": 200,
-      "items": 3,
+      "items": 4,
       "error": ""
     },
     "endtransplantabuse.org": {
@@ -458,9 +458,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "voachinese.com": {
+    "osintteam.com": {
       "status": 200,
-      "items": 20,
+      "items": 15,
       "error": ""
     },
     "tenchu.org": {
@@ -468,9 +468,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "cecc.gov": {
+    "scmp.com": {
       "status": 200,
-      "items": 10,
+      "items": 50,
       "error": ""
     },
     "sinchew.com.my": {
@@ -483,9 +483,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "osintonchina.com": {
+    "darkreading.com": {
       "status": 200,
-      "items": 4,
+      "items": 50,
       "error": ""
     },
     "asiasociety.org": {
@@ -493,9 +493,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "darkreading.com": {
+    "twz.com": {
       "status": 200,
-      "items": 50,
+      "items": -1,
       "error": ""
     },
     "smhric.org": {
@@ -518,9 +518,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "intelligence.house.gov": {
+    "bbc.com": {
       "status": 200,
-      "items": 10,
+      "items": 42,
       "error": ""
     },
     "fraserinstitute.org": {
@@ -528,12 +528,17 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "fnvaworld.org": {
+    "epochtimes.com": {
       "status": 200,
-      "items": -1,
+      "items": 60,
       "error": ""
     },
-    "twz.com": {
+    "intelligence.house.gov": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "fnvaworld.org": {
       "status": 200,
       "items": -1,
       "error": ""
@@ -543,14 +548,9 @@
       "items": 40,
       "error": ""
     },
-    "osintteam.com": {
+    "welivesecurity.com": {
       "status": 200,
-      "items": 15,
-      "error": ""
-    },
-    "chinapower.csis.org": {
-      "status": 200,
-      "items": 10,
+      "items": 100,
       "error": ""
     },
     "cnas.org": {
@@ -558,22 +558,12 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "gallup.com": {
+    "csis.org": {
       "status": 200,
-      "items": 0,
+      "items": 10,
       "error": ""
     },
     "fpri.org": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "welivesecurity.com": {
-      "status": 200,
-      "items": 100,
-      "error": ""
-    },
-    "sipri.org": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
@@ -583,7 +573,7 @@
       "items": 15,
       "error": ""
     },
-    "hinrichfoundation.com": {
+    "sipri.org": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
@@ -591,6 +581,16 @@
     "feed.laborinfocn7.com": {
       "status": 200,
       "items": -1,
+      "error": ""
+    },
+    "hinrichfoundation.com": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "globaltaiwan.org": {
+      "status": 200,
+      "items": 10,
       "error": ""
     },
     "ember-climate.org": {
@@ -613,7 +613,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "opentech.fund": {
+    "dfrlab.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -633,24 +633,24 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "csis.org": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "epochtimes.com": {
-      "status": 200,
-      "items": 60,
-      "error": ""
-    },
     "citizenlab.ca": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "foreignaffairs.com": {
+    "opentech.fund": {
       "status": 200,
-      "items": 20,
+      "items": 10,
+      "error": ""
+    },
+    "chinapower.csis.org": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "hsgac.senate.gov": {
+      "status": 200,
+      "items": 0,
       "error": ""
     },
     "brookings.edu": {
@@ -673,10 +673,10 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "globalaffairs.org": {
-      "status": 200,
-      "items": 10,
-      "error": ""
+    "ecfr.eu": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
     },
     "americanprogress.org": {
       "status": -1,
@@ -688,17 +688,17 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "globaltaiwan.org": {
+    "foreignaffairs.com": {
       "status": 200,
-      "items": 10,
+      "items": 20,
       "error": ""
     },
-    "dfrlab.org": {
+    "thinktankwatch.com": {
       "status": 200,
-      "items": 10,
+      "items": 0,
       "error": ""
     },
-    "ui4freedom.org": {
+    "globalaffairs.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -708,15 +708,15 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "ecfr.eu": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
     "rsis.edu.sg": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
+    },
+    "cato.org": {
+      "status": 200,
+      "items": 25,
+      "error": ""
     },
     "jiia.or.jp": {
       "status": -1,
@@ -728,9 +728,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "thinktankwatch.com": {
+    "jamestown.org": {
       "status": 200,
-      "items": 0,
+      "items": 10,
       "error": ""
     },
     "ifw-kiel.de": {
@@ -753,9 +753,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "jamestown.org": {
+    "gfw.report": {
       "status": 200,
-      "items": 10,
+      "items": -1,
       "error": ""
     },
     "conflictarm.com": {
@@ -788,9 +788,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "gfw.report": {
+    "gallup.com": {
       "status": 200,
-      "items": -1,
+      "items": 0,
       "error": ""
     },
     "usali.org": {
@@ -798,14 +798,14 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "fdd.org": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "cato.org": {
+    "ui4freedom.org": {
       "status": 200,
-      "items": 25,
+      "items": 10,
+      "error": ""
+    },
+    "itif.org": {
+      "status": 200,
+      "items": 50,
       "error": ""
     },
     "opensocietyfoundations.org": {
@@ -813,9 +813,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "theatlantic.com": {
+    "bigdatachina.csis.org": {
       "status": 200,
-      "items": 25,
+      "items": 10,
       "error": ""
     },
     "youthforhumanrights.org": {
@@ -828,14 +828,14 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "hudson.org": {
+    "news.usni.org": {
       "status": 200,
-      "items": 10,
+      "items": 30,
       "error": ""
     },
-    "bigdatachina.csis.org": {
+    "theatlantic.com": {
       "status": 200,
-      "items": 10,
+      "items": 25,
       "error": ""
     },
     "fdc64.org": {
@@ -848,9 +848,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "hkdc.us": {
+    "geostrategy.org.uk": {
       "status": 200,
-      "items": 1,
+      "items": 0,
       "error": ""
     },
     "hausderdemokratie.de": {
@@ -863,9 +863,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "itif.org": {
+    "hkdc.us": {
       "status": 200,
-      "items": 50,
+      "items": 1,
       "error": ""
     },
     "doublethinklab.org": {
@@ -873,14 +873,14 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "indexoncensorship.org": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "news.usni.org": {
+    "hudson.org": {
       "status": 200,
-      "items": 30,
+      "items": 10,
+      "error": ""
+    },
+    "sfquantum.github.io": {
+      "status": 200,
+      "items": -1,
       "error": ""
     },
     "zhuichaguoji.org": {
@@ -898,24 +898,39 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "geostrategy.org.uk": {
-      "status": 200,
-      "items": 0,
-      "error": ""
-    },
     "worldjusticeproject.org": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "sfquantum.github.io": {
+    "fdd.org": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "indexoncensorship.org": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "factchecklab.org": {
       "status": 200,
-      "items": -1,
+      "items": 15,
       "error": ""
     },
-    "bellingcat.com": {
+    "tadc.ca": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "westca.com": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "imi.org.ua": {
       "status": 200,
-      "items": 10,
+      "items": 0,
       "error": ""
     },
     "aiddata.org": {
@@ -923,22 +938,7 @@
       "items": 100,
       "error": ""
     },
-    "westca.com": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "icij.org": {
-      "status": 200,
-      "items": 11,
-      "error": ""
-    },
-    "utjd.org": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "twreporter.org": {
+    "ndi.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -953,9 +953,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "imi.org.ua": {
+    "icij.org": {
       "status": 200,
-      "items": 0,
+      "items": 11,
       "error": ""
     },
     "chinadem.org": {
@@ -963,7 +963,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "cipe.org": {
+    "twreporter.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -978,17 +978,17 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "merics.org": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
     "hongkongfp.com": {
       "status": 200,
       "items": 30,
       "error": ""
     },
-    "deutschland.de": {
+    "merics.org": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "iri.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -998,7 +998,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "iri.org": {
+    "americanswhotellthetruth.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1013,7 +1013,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "ndi.org": {
+    "shanghainationalparty.com": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1023,7 +1023,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "americanswhotellthetruth.org": {
+    "cipe.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1048,9 +1048,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "shanghainationalparty.com": {
+    "utjd.org": {
       "status": 200,
-      "items": 10,
+      "items": -1,
       "error": ""
     },
     "workersrights.org": {
@@ -1058,7 +1058,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "chinaworker.info": {
+    "deutschland.de": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1073,7 +1073,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "dpcla.org": {
+    "anticcp.nl": {
       "status": 200,
       "items": -1,
       "error": ""
@@ -1093,12 +1093,12 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "anticcp.nl": {
+    "news.china.com.au": {
       "status": 200,
-      "items": -1,
+      "items": 10,
       "error": ""
     },
-    "freetheslaves.net": {
+    "polarisproject.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1113,24 +1113,24 @@
       "items": 10,
       "error": ""
     },
-    "polarisproject.org": {
+    "chinaworker.info": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "snopes.com": {
+    "freetheslaves.net": {
       "status": 200,
-      "items": 20,
+      "items": 10,
       "error": ""
     },
-    "factchecklab.org": {
+    "jinian64.org": {
       "status": 200,
-      "items": 15,
+      "items": 10,
       "error": ""
     },
-    "gcsb.govt.nz": {
+    "dpcla.org": {
       "status": 200,
-      "items": 116,
+      "items": -1,
       "error": ""
     },
     "cryptome.org": {
@@ -1138,12 +1138,12 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "mediabiasfactcheck.com": {
+    "snopes.com": {
       "status": 200,
-      "items": 10,
+      "items": 20,
       "error": ""
     },
-    "fullfact.org": {
+    "mediabiasfactcheck.com": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1168,9 +1168,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "fdcusa.org": {
+    "gcsb.govt.nz": {
       "status": 200,
-      "items": -1,
+      "items": 116,
       "error": ""
     },
     "hkja.org.hk": {
@@ -1188,22 +1188,22 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "news.china.com.au": {
+    "privacyinternational.org": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "fdcusa.org": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "chinatimes.com.hk": {
       "status": 200,
       "items": 10,
       "error": ""
     },
     "aspi.org.au": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "transparency.org": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "privacyinternational.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1228,27 +1228,27 @@
       "items": 0,
       "error": "no feed_url"
     },
+    "clb.org.hk": {
+      "status": 200,
+      "items": 30,
+      "error": ""
+    },
     "openleaks.org": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "chinaaction.org": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "chinatimes.com.hk": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "ait.org.tw": {
-      "status": 200,
-      "items": 10,
-      "error": ""
+    "transparency.org": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
     },
     "rhg.com": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "fullfact.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1258,7 +1258,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "mediamatters.org": {
+    "duihua.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1268,12 +1268,12 @@
       "items": 10,
       "error": ""
     },
-    "clb.org.hk": {
+    "chinaaction.org": {
       "status": 200,
-      "items": 30,
+      "items": 10,
       "error": ""
     },
-    "freedomhouse.org": {
+    "mediamatters.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1298,7 +1298,7 @@
       "items": 12,
       "error": ""
     },
-    "cira.exovera.com": {
+    "freedomhouse.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1333,7 +1333,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "atc.org.au": {
+    "cira.exovera.com": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1363,9 +1363,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "jpolrisk.com": {
+    "www.stheadline.com": {
       "status": 200,
-      "items": 10,
+      "items": 100,
       "error": ""
     },
     "news.mingpao.com": {
@@ -1383,9 +1383,9 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "www.stheadline.com": {
+    "samadamsaward.ch": {
       "status": 200,
-      "items": 100,
+      "items": 10,
       "error": ""
     },
     "www.worldjournal.com": {
@@ -1398,7 +1398,7 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "duihua.org": {
+    "turquoiseroof.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -1418,14 +1418,14 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "samadamsaward.ch": {
+    "jpolrisk.com": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "www.state.gov": {
+    "feed.laborinfocn3.com": {
       "status": 200,
-      "items": 0,
+      "items": -1,
       "error": ""
     },
     "www.commerce.gov": {
@@ -1433,14 +1433,14 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "www.defense.gov": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "dialoguechina.com": {
+    "atc.org.au": {
       "status": 200,
       "items": 10,
+      "error": ""
+    },
+    "www.state.gov": {
+      "status": 200,
+      "items": 0,
       "error": ""
     },
     "www.nato.int": {
@@ -1458,24 +1458,19 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "amro-asia.org": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "feed.laborinfocn3.com": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "yingjiexinshiji.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
     "www.whitehouse.gov": {
       "status": 200,
       "items": 30,
+      "error": ""
+    },
+    "www.defense.gov": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
+    "dialoguechina.com": {
+      "status": 200,
+      "items": 10,
       "error": ""
     },
     "asia.nikkei.com": {
@@ -1483,9 +1478,9 @@
       "items": 0,
       "error": ""
     },
-    "www.scmp.com": {
+    "www.mining.com": {
       "status": 200,
-      "items": 50,
+      "items": 36,
       "error": ""
     },
     "www.defensenews.com": {
@@ -1493,24 +1488,29 @@
       "items": 10,
       "error": ""
     },
+    "udn.com": {
+      "status": 200,
+      "items": 96,
+      "error": ""
+    },
+    "ait.org.tw": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "www.scmp.com": {
+      "status": 200,
+      "items": 50,
+      "error": ""
+    },
     "studentsforafreetibet.org": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "energyandcleanair.org": {
-      "status": 200,
-      "items": 14,
-      "error": ""
-    },
-    "seajunction.org": {
+    "yingjiexinshiji.com": {
       "status": 200,
       "items": 10,
-      "error": ""
-    },
-    "udn.com": {
-      "status": 200,
-      "items": 197,
       "error": ""
     },
     "oilprice.com": {
@@ -1518,22 +1518,17 @@
       "items": 15,
       "error": ""
     },
-    "jinian64.org": {
+    "energyandcleanair.org": {
+      "status": 200,
+      "items": 14,
+      "error": ""
+    },
+    "chinademocrats.org": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "news.google.com/reuters": {
-      "status": 200,
-      "items": 100,
-      "error": ""
-    },
-    "walkfree.org": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "news.google.com/france24": {
+    "news.google.com/apnews": {
       "status": 200,
       "items": 100,
       "error": ""
@@ -1543,22 +1538,22 @@
       "items": 100,
       "error": ""
     },
-    "news.google.com/bloomberg": {
-      "status": 200,
-      "items": 100,
-      "error": ""
-    },
     "www.upi.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "www.france24.com": {
+    "news.google.com/reuters": {
       "status": 200,
-      "items": 24,
+      "items": 100,
       "error": ""
     },
-    "news.google.com/apnews": {
+    "news.google.com/bloomberg": {
+      "status": 200,
+      "items": 100,
+      "error": ""
+    },
+    "news.google.com/france24": {
       "status": 200,
       "items": 100,
       "error": ""
@@ -1568,24 +1563,24 @@
       "items": 10,
       "error": ""
     },
-    "www.mining.com": {
-      "status": 200,
-      "items": 36,
-      "error": ""
-    },
     "ec.europa.eu": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "news.google.com/ft": {
+    "www.france24.com": {
       "status": 200,
-      "items": 100,
+      "items": 24,
       "error": ""
     },
-    "news.google.com/wsj": {
+    "mining.com": {
       "status": 200,
-      "items": 100,
+      "items": 36,
+      "error": ""
+    },
+    "seajunction.org": {
+      "status": 200,
+      "items": 10,
       "error": ""
     },
     "news.google.com/economist": {
@@ -1603,9 +1598,14 @@
       "items": 5,
       "error": ""
     },
-    "minzhuzhongguo.org": {
+    "news.google.com/wsj": {
       "status": 200,
-      "items": 20,
+      "items": 100,
+      "error": ""
+    },
+    "news.google.com/ft": {
+      "status": 200,
+      "items": 100,
       "error": ""
     },
     "english.kyodonews.net": {
@@ -1613,29 +1613,29 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "news.google.com/kitco": {
-      "status": 200,
-      "items": 69,
-      "error": ""
-    },
-    "uyghurstudy.org": {
-      "status": 200,
-      "items": 12,
-      "error": ""
-    },
     "news.google.com/miningweekly": {
       "status": 200,
       "items": 100,
       "error": ""
     },
-    "news.google.com/navaltech": {
+    "news.google.com/kitco": {
       "status": 200,
-      "items": 62,
+      "items": 74,
+      "error": ""
+    },
+    "news.google.com/usgs": {
+      "status": 200,
+      "items": 48,
       "error": ""
     },
     "news.google.com/usni": {
       "status": 200,
-      "items": 70,
+      "items": 74,
+      "error": ""
+    },
+    "news.google.com/thedrive": {
+      "status": 200,
+      "items": 50,
       "error": ""
     },
     "iiss.org": {
@@ -1643,24 +1643,24 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "news.google.com/usgs": {
-      "status": 200,
-      "items": 48,
-      "error": ""
-    },
     "news.google.com/maritimeexec": {
       "status": 200,
-      "items": 67,
+      "items": 65,
       "error": ""
     },
     "news.google.com/stripes": {
       "status": 200,
-      "items": 68,
+      "items": 65,
       "error": ""
     },
-    "news.google.com/thedrive": {
+    "amro-asia.org": {
       "status": 200,
-      "items": 100,
+      "items": 10,
+      "error": ""
+    },
+    "minzhuzhongguo.org": {
+      "status": 200,
+      "items": 20,
       "error": ""
     },
     "military.com": {
@@ -1668,14 +1668,14 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "aerotime.aero": {
+    "news.google.com/argus": {
       "status": 200,
-      "items": -1,
+      "items": 100,
       "error": ""
     },
-    "mining.com": {
+    "news.google.com/navaltech": {
       "status": 200,
-      "items": 36,
+      "items": 100,
       "error": ""
     },
     "www.reutersagency.com": {
@@ -1683,9 +1683,9 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "news.google.com/ustr": {
+    "news.google.com/register": {
       "status": 200,
-      "items": 60,
+      "items": 58,
       "error": ""
     },
     "rigzone.com": {
@@ -1698,10 +1698,10 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "janes.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
+    "walkfree.org": {
+      "status": 200,
+      "items": 10,
+      "error": ""
     },
     "spglobal.com": {
       "status": -1,
@@ -1713,37 +1713,27 @@
       "items": 0,
       "error": "no feed_url"
     },
-    "news.google.com/register": {
+    "news.google.com/csis": {
       "status": 200,
-      "items": 100,
+      "items": 85,
       "error": ""
     },
-    "news.google.com/cnbc": {
-      "status": 200,
-      "items": 100,
-      "error": ""
-    },
-    "worldoil.com": {
+    "eia.gov": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "news.google.com/argus": {
+    "news.google.com/ustr": {
       "status": 200,
-      "items": 100,
+      "items": 60,
       "error": ""
+    },
+    "nationaldefensemagazine.org": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
     },
     "benchmarkminerals.com": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "news.google.com/csis": {
-      "status": 200,
-      "items": 86,
-      "error": ""
-    },
-    "fatf-gafi.org": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
@@ -1753,7 +1743,52 @@
       "items": 20,
       "error": ""
     },
+    "fatf-gafi.org": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "news.google.com/cnbc": {
+      "status": 200,
+      "items": 100,
+      "error": ""
+    },
     "imf.org": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "rusi.org": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "cbp.gov": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "miningmx.com": {
+      "status": 200,
+      "items": 0,
+      "error": ""
+    },
+    "semianalysis.com": {
+      "status": -1,
+      "items": 0,
+      "error": "no feed_url"
+    },
+    "janes.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "aerotime.aero": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "semi.org": {
       "status": -1,
       "items": 0,
       "error": "no feed_url"
@@ -1763,39 +1798,24 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "cbp.gov": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "eia.gov": {
+    "worldoil.com": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "semianalysis.com": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
+    "northernminer.com": {
+      "status": 200,
+      "items": 20,
+      "error": ""
     },
     "worldbank.org": {
       "status": 200,
       "items": -1,
       "error": ""
     },
-    "theaviationist.com": {
+    "thehindu.com": {
       "status": 200,
-      "items": 15,
-      "error": ""
-    },
-    "semi.org": {
-      "status": -1,
-      "items": 0,
-      "error": "no feed_url"
-    },
-    "northernminer.com": {
-      "status": 200,
-      "items": 20,
+      "items": 60,
       "error": ""
     },
     "eetimes.com": {
@@ -1803,14 +1823,74 @@
       "items": 10,
       "error": ""
     },
-    "turquoiseroof.org": {
+    "philstar.com": {
       "status": 200,
       "items": 10,
+      "error": ""
+    },
+    "theaviationist.com": {
+      "status": 200,
+      "items": 15,
+      "error": ""
+    },
+    "lowyinstitute.org": {
+      "status": 200,
+      "items": 50,
       "error": ""
     },
     "navalnews.com": {
       "status": 200,
       "items": 10,
+      "error": ""
+    },
+    "ecb.europa.eu": {
+      "status": 200,
+      "items": 15,
+      "error": ""
+    },
+    "uyghurstudy.org": {
+      "status": 200,
+      "items": 12,
+      "error": ""
+    },
+    "middleeasteye.net": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
+    "news.google.com/bleeping": {
+      "status": 200,
+      "items": 15,
+      "error": ""
+    },
+    "news.google.com/arstechnica": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
+    "malwarebytes.com": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
+    "news.google.com/fedregister": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "federalregister.gov/export": {
+      "status": 200,
+      "items": 73,
+      "error": ""
+    },
+    "semiwiki.com": {
+      "status": 200,
+      "items": 5,
+      "error": ""
+    },
+    "federalregister.gov/china": {
+      "status": 200,
+      "items": 122,
       "error": ""
     },
     "armyrecognition.com": {
@@ -1823,97 +1903,12 @@
       "items": 86,
       "error": ""
     },
-    "thehindu.com": {
-      "status": 200,
-      "items": 60,
-      "error": ""
-    },
-    "lowyinstitute.org": {
-      "status": 200,
-      "items": 50,
-      "error": ""
-    },
-    "defence-blog.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "ecb.europa.eu": {
-      "status": 200,
-      "items": 15,
-      "error": ""
-    },
-    "philstar.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "news.google.com/bleeping": {
-      "status": 200,
-      "items": 15,
-      "error": ""
-    },
-    "semiwiki.com": {
-      "status": 200,
-      "items": 5,
-      "error": ""
-    },
-    "malwarebytes.com": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "middleeasteye.net": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "bis.org": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "news.google.com/arstechnica": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "im-mining.com": {
-      "status": 200,
-      "items": 12,
-      "error": ""
-    },
-    "federalregister.gov/export": {
-      "status": 200,
-      "items": 71,
-      "error": ""
-    },
     "cyberscoop.com": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "www.rcinet.ca": {
-      "status": 200,
-      "items": 2,
-      "error": ""
-    },
-    "miningmx.com": {
-      "status": 200,
-      "items": 0,
-      "error": ""
-    },
-    "news.google.com/fedregister": {
-      "status": 200,
-      "items": 117,
-      "error": ""
-    },
-    "federalregister.gov/china": {
-      "status": 200,
-      "items": 117,
-      "error": ""
-    },
-    "wired.com/security": {
+    "arstechnica.com": {
       "status": 200,
       "items": 20,
       "error": ""
@@ -1928,37 +1923,27 @@
       "items": 20,
       "error": ""
     },
+    "bis.org": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "wired.com/security": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
+    "defence-blog.com": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
     "news.google.com/scmp": {
       "status": 200,
       "items": 50,
       "error": ""
     },
-    "arstechnica.com": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "militarywatchmagazine.com": {
-      "status": 200,
-      "items": 50,
-      "error": ""
-    },
-    "rusi.org": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "news.google.com/theregister": {
-      "status": 200,
-      "items": 50,
-      "error": ""
-    },
-    "rappler.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "news.google.com/nato": {
+    "news.google.com/upi": {
       "status": 200,
       "items": 100,
       "error": ""
@@ -1968,44 +1953,19 @@
       "items": 100,
       "error": ""
     },
-    "nationaldefensemagazine.org": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "news.google.com/defensenews": {
-      "status": 200,
-      "items": 56,
-      "error": ""
-    },
-    "news.google.com/upi": {
+    "news.google.com/thediplomat": {
       "status": 200,
       "items": 100,
       "error": ""
     },
-    "news.google.com/bbc": {
+    "news.google.com/nato": {
       "status": 200,
       "items": 100,
       "error": ""
     },
-    "news.google.com/breakingdefense": {
+    "news.google.com/aljazeera": {
       "status": 200,
-      "items": 92,
-      "error": ""
-    },
-    "gcaptain.com": {
-      "status": 200,
-      "items": 12,
-      "error": ""
-    },
-    "semiengineering.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "spectrum.ieee.org": {
-      "status": 200,
-      "items": 30,
+      "items": 100,
       "error": ""
     },
     "usni.org": {
@@ -2013,9 +1973,34 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "news.google.com/aljazeera": {
+    "news.google.com/theregister": {
+      "status": 200,
+      "items": 50,
+      "error": ""
+    },
+    "news.google.com/defensenews": {
+      "status": 200,
+      "items": 51,
+      "error": ""
+    },
+    "gcaptain.com": {
+      "status": 200,
+      "items": 12,
+      "error": ""
+    },
+    "fastmarkets.com": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "news.google.com/bbc": {
       "status": 200,
       "items": 100,
+      "error": ""
+    },
+    "spectrum.ieee.org": {
+      "status": 200,
+      "items": 30,
       "error": ""
     },
     "semimedia.com": {
@@ -2023,14 +2008,34 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "koreaherald.com": {
-      "status": 200,
-      "items": 50,
-      "error": ""
-    },
     "tomshardware.com": {
       "status": 200,
       "items": -1,
+      "error": ""
+    },
+    "rappler.com": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "news.google.com/breakingdefense": {
+      "status": 200,
+      "items": 99,
+      "error": ""
+    },
+    "news.google.com/navalnews": {
+      "status": 200,
+      "items": 69,
+      "error": ""
+    },
+    "news.google.com/mining": {
+      "status": 200,
+      "items": 100,
+      "error": ""
+    },
+    "france24.com": {
+      "status": 200,
+      "items": 24,
       "error": ""
     },
     "news.google.com/oilprice": {
@@ -2038,19 +2043,9 @@
       "items": 100,
       "error": ""
     },
-    "reuters.com": {
-      "status": 401,
-      "items": 0,
-      "error": "HTTP 401"
-    },
-    "france24.com": {
+    "militarywatchmagazine.com": {
       "status": 200,
-      "items": 24,
-      "error": ""
-    },
-    "news.google.com/navalnews": {
-      "status": 200,
-      "items": 72,
+      "items": 50,
       "error": ""
     },
     "politico.com": {
@@ -2058,19 +2053,9 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "news.google.com/mining": {
-      "status": 200,
-      "items": 100,
-      "error": ""
-    },
     "straitstimes.com": {
       "status": 200,
       "items": 50,
-      "error": ""
-    },
-    "news.google.com/thediplomat": {
-      "status": 200,
-      "items": 100,
       "error": ""
     },
     "japantimes.co.jp": {
@@ -2078,19 +2063,29 @@
       "items": 30,
       "error": ""
     },
-    "defenseone.com": {
-      "status": 200,
-      "items": 23,
-      "error": ""
-    },
     "ft.com": {
       "status": 200,
       "items": 25,
       "error": ""
     },
-    "therecord.media": {
+    "reuters.com": {
+      "status": 401,
+      "items": 0,
+      "error": "HTTP 401"
+    },
+    "koreatimes.co.kr": {
+      "status": 202,
+      "items": -1,
+      "error": ""
+    },
+    "semiengineering.com": {
       "status": 200,
-      "items": 5,
+      "items": 10,
+      "error": ""
+    },
+    "defenseone.com": {
+      "status": 200,
+      "items": 23,
       "error": ""
     },
     "spacenews.com": {
@@ -2098,9 +2093,24 @@
       "items": 0,
       "error": "HTTP 403"
     },
+    "atlanticcouncil.org": {
+      "status": 200,
+      "items": 100,
+      "error": ""
+    },
     "warontherocks.com": {
       "status": 200,
       "items": 100,
+      "error": ""
+    },
+    "nature.com": {
+      "status": 200,
+      "items": 0,
+      "error": ""
+    },
+    "aviationweek.com": {
+      "status": 200,
+      "items": 10,
       "error": ""
     },
     "thehill.com": {
@@ -2118,24 +2128,14 @@
       "items": 20,
       "error": ""
     },
-    "atlanticcouncil.org": {
-      "status": 200,
-      "items": 100,
-      "error": ""
-    },
-    "nature.com": {
-      "status": 200,
-      "items": 0,
-      "error": ""
-    },
     "nippon.com": {
       "status": 200,
       "items": 20,
       "error": ""
     },
-    "science.org": {
+    "vnexpress.net": {
       "status": 200,
-      "items": 0,
+      "items": 60,
       "error": ""
     },
     "electrek.co": {
@@ -2143,20 +2143,45 @@
       "items": 150,
       "error": ""
     },
-    "aviationweek.com": {
+    "koreaherald.com": {
       "status": 200,
-      "items": 10,
+      "items": 50,
       "error": ""
-    },
-    "nikkei.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
     },
     "timesofisrael.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
+    },
+    "therecord.media": {
+      "status": 200,
+      "items": 5,
+      "error": ""
+    },
+    "insideevs.com": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
+    "jpost.com": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "thenationalnews.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "science.org": {
+      "status": 200,
+      "items": 0,
+      "error": ""
+    },
+    "bnamericas.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
     },
     "un.org": {
       "status": 200,
@@ -2168,24 +2193,9 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "insideevs.com": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "nasaspaceflight.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "fastmarkets.com": {
+    "insidehighered.com": {
       "status": 200,
       "items": -1,
-      "error": ""
-    },
-    "vnexpress.net": {
-      "status": 200,
-      "items": 60,
       "error": ""
     },
     "wto.org": {
@@ -2193,34 +2203,29 @@
       "items": -1,
       "error": ""
     },
+    "osintcurio.us": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
     "gatewaypundit.com": {
       "status": 200,
       "items": 16,
       "error": ""
     },
-    "mercoPress.com": {
+    "nasaspaceflight.com": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "insidehighered.com": {
+    "myjoyonline.com": {
       "status": 200,
-      "items": -1,
+      "items": 50,
       "error": ""
     },
-    "jpost.com": {
+    "mercoPress.com": {
       "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "foodnavigator.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "tass.com": {
-      "status": 200,
-      "items": 100,
+      "items": 10,
       "error": ""
     },
     "chronicle.com": {
@@ -2233,44 +2238,24 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "myjoyonline.com": {
-      "status": 200,
-      "items": 50,
-      "error": ""
-    },
     "climatehomereport.com": {
       "status": 200,
       "items": 0,
       "error": ""
     },
-    "osintcurio.us": {
+    "nikkei.com": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "jdsupra.com": {
-      "status": 202,
-      "items": -1,
-      "error": ""
-    },
-    "carbonbrief.org": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "thenationalnews.com": {
-      "status": 404,
+    "devex.com": {
+      "status": 403,
       "items": 0,
-      "error": "HTTP 404"
-    },
-    "fiercetelecom.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
+      "error": "HTTP 403"
     },
     "breitbart.com": {
       "status": 200,
-      "items": 47,
+      "items": 49,
       "error": ""
     },
     "insightcrime.org": {
@@ -2278,17 +2263,27 @@
       "items": 11,
       "error": ""
     },
-    "devex.com": {
-      "status": 403,
+    "fiercetelecom.com": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "jdsupra.com": {
+      "status": 202,
+      "items": -1,
+      "error": ""
+    },
+    "agropages.com": {
+      "status": 404,
       "items": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
+    },
+    "tass.com": {
+      "status": 200,
+      "items": 100,
+      "error": ""
     },
     "insidethegames.biz": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "globest.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -2298,14 +2293,29 @@
       "items": 50,
       "error": ""
     },
-    "bnamericas.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
     "theverge.com": {
       "status": 200,
       "items": 0,
+      "error": ""
+    },
+    "carbonbrief.org": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "supplychaindive.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "electoral-vote.com": {
+      "status": 200,
+      "items": 7,
+      "error": ""
+    },
+    "migrationpolicy.org": {
+      "status": 200,
+      "items": 20,
       "error": ""
     },
     "tradewindsnews.com": {
@@ -2313,20 +2323,15 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "tadc.ca": {
+    "globest.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "supplychaindive.com": {
-      "status": 403,
+    "foodnavigator.com": {
+      "status": 404,
       "items": 0,
-      "error": "HTTP 403"
-    },
-    "koreatimes.co.kr": {
-      "status": 200,
-      "items": 88,
-      "error": ""
+      "error": "HTTP 404"
     },
     "bloomberg.com": {
       "status": 403,
@@ -2338,59 +2343,49 @@
       "items": -1,
       "error": ""
     },
-    "chinainperspective.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "agropages.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
     "marketwatch.com": {
       "status": 401,
       "items": 0,
       "error": "HTTP 401"
-    },
-    "migrationpolicy.org": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "world.wng.org": {
-      "status": 405,
-      "items": 0,
-      "error": "HTTP 405"
-    },
-    "lightreading.com": {
-      "status": 200,
-      "items": 50,
-      "error": ""
-    },
-    "education.gov": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
     },
     "commerce.gov": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "electoral-vote.com": {
+    "world.wng.org": {
+      "status": 405,
+      "items": 0,
+      "error": "HTTP 405"
+    },
+    "dod.gov": {
       "status": 200,
-      "items": 7,
+      "items": 20,
       "error": ""
     },
-    "politico.eu": {
+    "euractiv.com": {
+      "status": 200,
+      "items": 100,
+      "error": ""
+    },
+    "treasury.gov": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "education.gov": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "hhs.gov": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "energy.gov": {
       "status": 200,
       "items": 10,
-      "error": ""
-    },
-    "insurancejournal.com": {
-      "status": 200,
-      "items": 30,
       "error": ""
     },
     "miningweekly.com": {
@@ -2398,30 +2393,35 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "energy.gov": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "hhs.gov": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "dod.gov": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
     "dol.gov": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
+    "lightreading.com": {
+      "status": 200,
+      "items": 50,
+      "error": ""
+    },
+    "usda.gov": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "epa.gov": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
     "justice.gov": {
       "status": 200,
       "items": 10,
       "error": ""
+    },
+    "transportation.gov": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
     },
     "usaid.gov": {
       "status": 403,
@@ -2433,57 +2433,27 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "transportation.gov": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
     "dea.gov": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "usda.gov": {
+    "fcc.gov": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "euractiv.com": {
+    "politico.eu": {
       "status": 200,
-      "items": 100,
+      "items": 10,
       "error": ""
-    },
-    "epa.gov": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
     },
     "ftc.gov": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "sec.gov": {
-      "status": 200,
-      "items": 25,
-      "error": ""
-    },
-    "treasury.gov": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "fbi.gov": {
-      "status": 200,
-      "items": 0,
-      "error": ""
-    },
     "cfpb.gov": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "cdc.gov": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -2493,27 +2463,32 @@
       "items": 10,
       "error": ""
     },
-    "fcc.gov": {
+    "im-mining.com": {
+      "status": 200,
+      "items": 12,
+      "error": ""
+    },
+    "fbi.gov": {
+      "status": 200,
+      "items": 0,
+      "error": ""
+    },
+    "cdc.gov": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
+    },
+    "uscis.gov": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "sec.gov": {
+      "status": 200,
+      "items": 25,
+      "error": ""
     },
     "ssa.gov": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "fda.gov": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "irs.gov": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "usps.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -2523,9 +2498,19 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "arctictoday.com": {
+    "irs.gov": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "noaa.gov": {
       "status": 200,
-      "items": -1,
+      "items": 10,
+      "error": ""
+    },
+    "insurancejournal.com": {
+      "status": 200,
+      "items": 30,
       "error": ""
     },
     "maritime-executive.com": {
@@ -2533,12 +2518,7 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "hud.gov": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "uscis.gov": {
+    "fda.gov": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
@@ -2548,17 +2528,47 @@
       "items": 0,
       "error": "HTTP 404"
     },
+    "centcom.mil": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
     "va.gov": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
+    },
+    "www.rcinet.ca": {
+      "status": 200,
+      "items": 2,
+      "error": ""
+    },
+    "hud.gov": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "navy.mil": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
     },
     "cybercom.mil": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "centcom.mil": {
+    "northcom.mil": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "stratcom.mil": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "pacom.mil": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -2568,12 +2578,17 @@
       "items": 0,
       "error": ""
     },
-    "northcom.mil": {
+    "gov.uk": {
+      "status": 200,
+      "items": 0,
+      "error": ""
+    },
+    "southcom.mil": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "navy.mil": {
+    "mofa.go.jp": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -2582,31 +2597,6 @@
       "status": 200,
       "items": -1,
       "error": ""
-    },
-    "stratcom.mil": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "gov.uk": {
-      "status": 200,
-      "items": 0,
-      "error": ""
-    },
-    "mofa.go.jp": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "devdiscourse.com": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "nsf.gov": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
     },
     "mfa.gov.ua": {
       "status": 403,
@@ -2618,25 +2608,45 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "pacom.mil": {
+    "diplomatie.gouv.fr": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
+    },
+    "nsf.gov": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "usps.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "arctictoday.com": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "bundeswehr.de": {
+      "status": 444,
+      "items": 0,
+      "error": "HTTP 444"
     },
     "mod.go.jp": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "southcom.mil": {
-      "status": 403,
+    "auswaertiges-amt.de": {
+      "status": 404,
       "items": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
-    "diplomatie.gouv.fr": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
+    "devdiscourse.com": {
+      "status": 200,
+      "items": 20,
+      "error": ""
     },
     "mfa.gov.il": {
       "status": 403,
@@ -2648,27 +2658,27 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "bundeswehr.de": {
+    "spaceforce.mil": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "marine.mil": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "africom.mil": {
       "status": 200,
       "items": -1,
       "error": ""
     },
-    "auswaertiges-amt.de": {
+    "defensa.gob.es": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "sputniknews.com": {
-      "status": 200,
-      "items": 100,
-      "error": ""
-    },
-    "mnd.go.kr": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "defense.gouv.fr": {
+    "mod.it": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
@@ -2678,52 +2688,17 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "spaceforce.mil": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
     "exteriores.gob.es": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "marine.mil": {
+    "dcsa.mil": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
-    },
-    "army.mil": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "dia.mil": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "oecd.org": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "mod.it": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "africom.mil": {
-      "status": 200,
-      "items": -1,
-      "error": ""
     },
     "nro.mil": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "undp.org": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -2733,15 +2708,65 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "unctad.org": {
+    "oecd.org": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "defensa.gob.es": {
+    "who.int": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
+    },
+    "dia.mil": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "undp.org": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "army.mil": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "gov.pl": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "unctad.org": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "mod.pl": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "iea.org": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "sputniknews.com": {
+      "status": 200,
+      "items": 100,
+      "error": ""
+    },
+    "resourceworld.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "argusmedia.com": {
+      "status": 202,
+      "items": -1,
+      "error": ""
     },
     "afdb.org": {
       "status": 403,
@@ -2753,62 +2778,27 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "resourceworld.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "iea.org": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "dcsa.mil": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "argusmedia.com": {
-      "status": 202,
-      "items": -1,
-      "error": ""
-    },
-    "coe.int": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
     "oilandgasjournal.com": {
       "status": 200,
       "items": -1,
       "error": ""
-    },
-    "naturalgasintel.com": {
-      "status": 405,
-      "items": 0,
-      "error": "HTTP 405"
     },
     "woodmac.com": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
+    "naturalgasintel.com": {
+      "status": 405,
+      "items": 0,
+      "error": "HTTP 405"
+    },
+    "coe.int": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
     "kitco.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "iadb.org": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "pv-magazine.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "who.int": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
@@ -2818,9 +2808,14 @@
       "items": 25,
       "error": ""
     },
-    "mod.pl": {
+    "esteri.it": {
       "status": 200,
-      "items": -1,
+      "items": 10,
+      "error": ""
+    },
+    "pv-magazine.com": {
+      "status": 200,
+      "items": 10,
       "error": ""
     },
     "utilities-dive.com": {
@@ -2828,17 +2823,17 @@
       "items": 0,
       "error": "<urlopen error [Errno -2] Name or service not known>"
     },
-    "gov.pl": {
+    "iadb.org": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "windpowermonthly.com": {
       "status": 200,
-      "items": -1,
+      "items": 20,
       "error": ""
     },
-    "noaa.gov": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "esteri.it": {
+    "splash247.com": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -2848,14 +2843,14 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "splash247.com": {
+    "nato.int": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "chinainperspective.com": {
       "status": 200,
       "items": 10,
-      "error": ""
-    },
-    "engadget.com": {
-      "status": 200,
-      "items": 20,
       "error": ""
     },
     "gizmodo.com": {
@@ -2863,17 +2858,22 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "nato.int": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
     "mashable.com": {
       "status": 200,
       "items": -1,
       "error": ""
     },
+    "engadget.com": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
     "zdnet.com": {
+      "status": 200,
+      "items": 0,
+      "error": ""
+    },
+    "cnet.com": {
       "status": 200,
       "items": 0,
       "error": ""
@@ -2883,19 +2883,9 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "osce.org": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "venturebeat.com": {
-      "status": 429,
-      "items": 0,
-      "error": "HTTP 429"
-    },
-    "cnet.com": {
+    "fastcompany.com": {
       "status": 200,
-      "items": 0,
+      "items": 18,
       "error": ""
     },
     "marktechpost.com": {
@@ -2903,34 +2893,39 @@
       "items": 10,
       "error": ""
     },
-    "fastcompany.com": {
-      "status": 200,
-      "items": 19,
-      "error": ""
+    "venturebeat.com": {
+      "status": 429,
+      "items": 0,
+      "error": "HTTP 429"
     },
     "syncedreview.com": {
       "status": 200,
       "items": -1,
       "error": ""
     },
-    "windpowermonthly.com": {
+    "stratechery.com": {
       "status": 200,
-      "items": 20,
+      "items": 10,
       "error": ""
     },
-    "rechargenews.com": {
-      "status": 404,
+    "artificialintelligence-news.com": {
+      "status": -1,
       "items": 0,
-      "error": "HTTP 404"
+      "error": "Remote end closed connection without response"
+    },
+    "platformer.news": {
+      "status": 200,
+      "items": 15,
+      "error": ""
+    },
+    "404media.co": {
+      "status": 200,
+      "items": 15,
+      "error": ""
     },
     "theregister.com": {
       "status": 200,
       "items": 50,
-      "error": ""
-    },
-    "stratechery.com": {
-      "status": 200,
-      "items": 10,
       "error": ""
     },
     "metal.com": {
@@ -2943,50 +2938,15 @@
       "items": 0,
       "error": "<urlopen error [Errno -2] Name or service not known>"
     },
-    "artificialintelligence-news.com": {
-      "status": -1,
-      "items": 0,
-      "error": "Remote end closed connection without response"
-    },
     "securityweek.com": {
       "status": 200,
       "items": 10,
-      "error": ""
-    },
-    "eeas.europa.eu": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "platformer.news": {
-      "status": 200,
-      "items": 15,
-      "error": ""
-    },
-    "thisisdefense.com": {
-      "status": -1,
-      "items": 0,
-      "error": "<urlopen error [Errno -2] Name or service not known>"
-    },
-    "unit42.paloaltonetworks.com": {
-      "status": 200,
-      "items": 15,
       "error": ""
     },
     "hydrogeninsight.com": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
-    },
-    "404media.co": {
-      "status": 200,
-      "items": 15,
-      "error": ""
-    },
-    "cdt.org": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
     },
     "techinsights.com": {
       "status": 200,
@@ -2998,10 +2958,35 @@
       "items": 0,
       "error": ""
     },
-    "timesofindia.indiatimes.com": {
+    "unit42.paloaltonetworks.com": {
       "status": 200,
-      "items": 43,
+      "items": 15,
       "error": ""
+    },
+    "thisisdefense.com": {
+      "status": -1,
+      "items": 0,
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    "eeas.europa.eu": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "icis.com": {
+      "status": 200,
+      "items": 0,
+      "error": ""
+    },
+    "bnef.com": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "osce.org": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
     },
     "indianexpress.com": {
       "status": 403,
@@ -3013,9 +2998,29 @@
       "items": 0,
       "error": "HTTP 404"
     },
+    "rechargenews.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "timesofindia.indiatimes.com": {
+      "status": 200,
+      "items": 45,
+      "error": ""
+    },
+    "cdt.org": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
     "theguardian.com": {
       "status": 200,
       "items": 45,
+      "error": ""
+    },
+    "eff.org": {
+      "status": 200,
+      "items": 10,
       "error": ""
     },
     "theprint.in": {
@@ -3023,45 +3028,35 @@
       "items": 0,
       "error": "HTTP 403"
     },
+    "independent.co.uk": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
     "afr.com": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "eff.org": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "independent.co.uk": {
-      "status": 200,
-      "items": -1,
-      "error": ""
+    "smh.com.au": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
     },
     "economist.com": {
       "status": 200,
       "items": 300,
       "error": ""
     },
-    "lemonde.fr": {
+    "telegraph.co.uk": {
       "status": 200,
-      "items": 16,
+      "items": 120,
       "error": ""
     },
     "jakartapost.com": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
-    },
-    "telegraph.co.uk": {
-      "status": 200,
-      "items": 120,
-      "error": ""
-    },
-    "haaretz.com": {
-      "status": 200,
-      "items": -1,
-      "error": ""
     },
     "securityaffairs.co": {
       "status": 200,
@@ -3073,19 +3068,14 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "ctc.usma.edu": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "nationalinterest.org": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "icis.com": {
+    "lemonde.fr": {
       "status": 200,
-      "items": 0,
+      "items": 16,
+      "error": ""
+    },
+    "haaretz.com": {
+      "status": 200,
+      "items": -1,
       "error": ""
     },
     "the-decoder.com": {
@@ -3093,29 +3083,44 @@
       "items": 10,
       "error": ""
     },
+    "worldpoliticsreview.com": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "nationalinterest.org": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "ctc.usma.edu": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
     "corriere.it": {
       "status": 200,
       "items": 69,
       "error": ""
     },
-    "longwarjournal.org": {
+    "nytimes.com": {
       "status": 200,
-      "items": 30,
+      "items": 13,
       "error": ""
     },
-    "mofa.go.kr": {
-      "status": 307,
+    "armytimes.com": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "wsj.com": {
+      "status": 401,
       "items": 0,
-      "error": "HTTP 307"
+      "error": "HTTP 401"
     },
     "spiegel.de": {
       "status": 200,
       "items": 30,
-      "error": ""
-    },
-    "worldpoliticsreview.com": {
-      "status": 200,
-      "items": 10,
       "error": ""
     },
     "navytimes.com": {
@@ -3123,25 +3128,15 @@
       "items": 10,
       "error": ""
     },
-    "smh.com.au": {
-      "status": 404,
+    "longwarjournal.org": {
+      "status": 200,
+      "items": 30,
+      "error": ""
+    },
+    "usatoday.com": {
+      "status": 402,
       "items": 0,
-      "error": "HTTP 404"
-    },
-    "armytimes.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "nytimes.com": {
-      "status": 200,
-      "items": 24,
-      "error": ""
-    },
-    "bnef.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
+      "error": "HTTP 402"
     },
     "newyorker.com": {
       "status": 200,
@@ -3153,55 +3148,45 @@
       "items": 20,
       "error": ""
     },
-    "airforcetimes.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "lawfareblog.com": {
-      "status": 403,
+    "defense.gouv.fr": {
+      "status": 503,
       "items": 0,
-      "error": "HTTP 403"
-    },
-    "latimes.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "usatoday.com": {
-      "status": 402,
-      "items": 0,
-      "error": "HTTP 402"
+      "error": "HTTP 503"
     },
     "motherjones.com": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "wsj.com": {
-      "status": 401,
+    "latimes.com": {
+      "status": 404,
       "items": 0,
-      "error": "HTTP 401"
+      "error": "HTTP 404"
     },
-    "thefederalist.com": {
-      "status": 200,
-      "items": 20,
-      "error": ""
+    "lawfareblog.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
     },
     "prospect.org": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "theamericanconservative.com": {
+    "thefederalist.com": {
       "status": 200,
-      "items": 10,
+      "items": 20,
       "error": ""
     },
     "tabletmag.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
+    },
+    "theamericanconservative.com": {
+      "status": 200,
+      "items": 10,
+      "error": ""
     },
     "axios.com": {
       "status": 403,
@@ -3218,6 +3203,16 @@
       "items": 25,
       "error": ""
     },
+    "airforcetimes.com": {
+      "status": 200,
+      "items": 10,
+      "error": ""
+    },
+    "cnbc.com": {
+      "status": 200,
+      "items": 30,
+      "error": ""
+    },
     "seekingalpha.com": {
       "status": 200,
       "items": 30,
@@ -3227,11 +3222,6 @@
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
-    },
-    "cnbc.com": {
-      "status": 200,
-      "items": 30,
-      "error": ""
     },
     "reason.com": {
       "status": 200,
@@ -3243,27 +3233,17 @@
       "items": 0,
       "error": ""
     },
-    "investing.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
     "zerohedge.com": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "sais.jhu.edu": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
+    "investing.com": {
+      "status": 200,
+      "items": 10,
+      "error": ""
     },
-    "barrons.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "zacks.com": {
+    "dailywire.com": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
@@ -3273,14 +3253,29 @@
       "items": 10,
       "error": ""
     },
-    "utilitiesdive.com": {
-      "status": -1,
+    "barrons.com": {
+      "status": 403,
       "items": 0,
-      "error": "<urlopen error [Errno -2] Name or service not known>"
+      "error": "HTTP 403"
     },
-    "nzherald.co.nz": {
+    "bangkokpost.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "sais.jhu.edu": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "zacks.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "marketbeat.com": {
       "status": 200,
-      "items": -1,
+      "items": 100,
       "error": ""
     },
     "tradingview.com": {
@@ -3288,9 +3283,19 @@
       "items": 30,
       "error": ""
     },
-    "marketbeat.com": {
+    "utilitiesdive.com": {
+      "status": -1,
+      "items": 0,
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    "constructiondive.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "wolfstreet.com": {
       "status": 200,
-      "items": 100,
+      "items": 10,
       "error": ""
     },
     "logisticsdive.com": {
@@ -3298,34 +3303,19 @@
       "items": 0,
       "error": "<urlopen error [Errno -2] Name or service not known>"
     },
-    "justsecurity.org": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "wolfstreet.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "constructiondive.com": {
-      "status": 403,
+    "belfercenter.org": {
+      "status": 404,
       "items": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     "retaildive.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "dailywire.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "fiercebiotech.com": {
+    "justsecurity.org": {
       "status": 200,
-      "items": 25,
+      "items": -1,
       "error": ""
     },
     "transportdive.com": {
@@ -3333,9 +3323,9 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "fiercepharma.com": {
+    "fooddive.com": {
       "status": 200,
-      "items": 25,
+      "items": 10,
       "error": ""
     },
     "fiercehealthcare.com": {
@@ -3343,7 +3333,22 @@
       "items": 25,
       "error": ""
     },
-    "fooddive.com": {
+    "fiercepharma.com": {
+      "status": 200,
+      "items": 25,
+      "error": ""
+    },
+    "fiercebiotech.com": {
+      "status": 200,
+      "items": 25,
+      "error": ""
+    },
+    "fierceenergy.com": {
+      "status": -1,
+      "items": 0,
+      "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ss"
+    },
+    "bakerinstitute.org": {
       "status": 200,
       "items": 10,
       "error": ""
@@ -3353,52 +3358,12 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "belfercenter.org": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "bangkokpost.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "fierceenergy.com": {
-      "status": -1,
-      "items": 0,
-      "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ss"
-    },
-    "modernhealthcare.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "anl.gov": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
     "harvard.edu": {
       "status": 200,
       "items": -1,
       "error": ""
     },
-    "nrel.gov": {
-      "status": -1,
-      "items": 0,
-      "error": "<urlopen error [Errno -5] No address associated with hostname>"
-    },
-    "ornl.gov": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "endpts.com": {
-      "status": 200,
-      "items": 24,
-      "error": ""
-    },
-    "inl.gov": {
+    "anl.gov": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -3408,32 +3373,47 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "bakerinstitute.org": {
-      "status": 200,
-      "items": 10,
-      "error": ""
+    "modernhealthcare.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "ornl.gov": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "nrel.gov": {
+      "status": -1,
+      "items": 0,
+      "error": "<urlopen error [Errno -5] No address associated with hostname>"
     },
     "federalreserve.gov": {
       "status": 200,
       "items": 20,
       "error": ""
     },
-    "bnl.gov": {
-      "status": 404,
+    "inl.gov": {
+      "status": 403,
       "items": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
+    },
+    "endpts.com": {
+      "status": 200,
+      "items": 24,
+      "error": ""
     },
     "stanford.edu": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "frbchi.org": {
-      "status": -1,
-      "items": 0,
-      "error": "<urlopen error [Errno -2] Name or service not known>"
+    "nzherald.co.nz": {
+      "status": 200,
+      "items": -1,
+      "error": ""
     },
-    "pnnl.gov": {
+    "bnl.gov": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
@@ -3443,12 +3423,17 @@
       "items": 0,
       "error": "HTTP 421"
     },
-    "miningreview.com": {
-      "status": 403,
+    "frbchi.org": {
+      "status": -1,
       "items": 0,
-      "error": "HTTP 403"
+      "error": "<urlopen error [Errno -2] Name or service not known>"
     },
-    "slac.stanford.edu": {
+    "ceo.ca": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "pnnl.gov": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
@@ -3458,24 +3443,39 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "frbdallas.org": {
+    "frbsf.org": {
       "status": 200,
-      "items": -1,
+      "items": 10,
       "error": ""
     },
-    "ceo.ca": {
-      "status": 200,
-      "items": -1,
-      "error": ""
+    "miningreview.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
     },
     "miningpeople.com": {
       "status": 200,
       "items": 0,
       "error": ""
     },
-    "frbsf.org": {
+    "slac.stanford.edu": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "miningrecord.com": {
       "status": 200,
       "items": 10,
+      "error": ""
+    },
+    "frbdallas.org": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "mining-journal.com": {
+      "status": 200,
+      "items": -1,
       "error": ""
     },
     "newyorkfed.org": {
@@ -3483,12 +3483,7 @@
       "items": -1,
       "error": ""
     },
-    "miningrecord.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "mexicobusiness.news": {
+    "globeandmail.com": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
@@ -3498,30 +3493,20 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "mining-journal.com": {
+    "sandia.gov": {
       "status": 200,
-      "items": -1,
+      "items": 0,
       "error": ""
     },
-    "nasdaq.com": {
+    "mexicobusiness.news": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
-    "globeandmail.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "excelsior.com.mx": {
+    "gazette.com": {
       "status": 200,
-      "items": 50,
+      "items": 10,
       "error": ""
-    },
-    "jornada.com.mx": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
     },
     "eleconomista.com.mx": {
       "status": 404,
@@ -3533,29 +3518,9 @@
       "items": 10,
       "error": ""
     },
-    "elpaís.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "llnl.gov": {
+    "excelsior.com.mx": {
       "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "larepublica.co": {
-      "status": 200,
-      "items": 60,
-      "error": ""
-    },
-    "miningnews.com": {
-      "status": -1,
-      "items": 0,
-      "error": "Remote end closed connection without response"
-    },
-    "elfinanciero.com.mx": {
-      "status": 200,
-      "items": -1,
+      "items": 46,
       "error": ""
     },
     "investmentnews.com": {
@@ -3563,12 +3528,57 @@
       "items": 0,
       "error": ""
     },
+    "chicagotribune.com": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "llnl.gov": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "elpaís.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
     "lloydslist.com": {
       "status": 500,
       "items": 0,
       "error": "HTTP 500"
     },
+    "jornada.com.mx": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "larepublica.co": {
+      "status": 200,
+      "items": 60,
+      "error": ""
+    },
+    "miningglobal.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
     "lanacion.com.ar": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "miningnews.com": {
+      "status": -1,
+      "items": 0,
+      "error": "Remote end closed connection without response"
+    },
+    "mg.co.za": {
+      "status": 200,
+      "items": 0,
+      "error": ""
+    },
+    "elfinanciero.com.mx": {
       "status": 200,
       "items": -1,
       "error": ""
@@ -3578,39 +3588,19 @@
       "items": -1,
       "error": ""
     },
-    "elespectador.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "miningglobal.com": {
-      "status": 404,
+    "daily Maverick.com": {
+      "status": 403,
       "items": 0,
-      "error": "HTTP 404"
-    },
-    "mg.co.za": {
-      "status": 200,
-      "items": 0,
-      "error": ""
-    },
-    "gazette.com": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "sandia.gov": {
-      "status": 200,
-      "items": 0,
-      "error": ""
+      "error": "HTTP 403"
     },
     "estadao.com.br": {
       "status": 200,
       "items": 20,
       "error": ""
     },
-    "pagina12.com.ar": {
+    "elespectador.com": {
       "status": 200,
-      "items": -1,
+      "items": 10,
       "error": ""
     },
     "vanguardngr.com": {
@@ -3618,25 +3608,45 @@
       "items": 20,
       "error": ""
     },
+    "nation.africa": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "pagina12.com.ar": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "gestion.pe": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
     "dailytrust.com": {
       "status": -1,
       "items": 0,
       "error": "<urlopen error [Errno -2] Name or service not known>"
-    },
-    "daily Maverick.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
     },
     "elcomercio.pe": {
       "status": 200,
       "items": -1,
       "error": ""
     },
-    "nation.africa": {
+    "nasdaq.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "theeastafrican.co.ke": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
+    },
+    "gulfnews.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
     },
     "ahram.org.eg": {
       "status": 403,
@@ -3648,27 +3658,12 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "thenational.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "gestion.pe": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "gulfnews.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "alarabiya.net": {
+    "arabnews.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "arabnews.com": {
+    "alarabiya.net": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -3678,24 +3673,9 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "theeastafrican.co.ke": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "timeslive.co.za": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "guardian.ng": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "punchng.com": {
+    "standardmedia.co.ke": {
       "status": 200,
-      "items": 30,
+      "items": -1,
       "error": ""
     },
     "haaretz.co.il": {
@@ -3703,15 +3683,30 @@
       "items": -1,
       "error": ""
     },
-    "standardmedia.co.ke": {
+    "punchng.com": {
+      "status": 200,
+      "items": 30,
+      "error": ""
+    },
+    "guardian.ng": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "saudigazette.com.sa": {
       "status": 200,
       "items": -1,
       "error": ""
     },
-    "chicagotribune.com": {
-      "status": 200,
-      "items": -1,
-      "error": ""
+    "timeslive.co.za": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "judiciary.house.gov": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
     },
     "foreignaffairs.house.gov": {
       "status": 404,
@@ -3723,36 +3718,6 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "saudigazette.com.sa": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "publicintelligence.net": {
-      "status": -1,
-      "items": 0,
-      "error": "<urlopen error [Errno 101] Network is unreachable>"
-    },
-    "intelligence.senate.gov": {
-      "status": 200,
-      "items": 10,
-      "error": ""
-    },
-    "lefigaro.fr": {
-      "status": 200,
-      "items": 18,
-      "error": ""
-    },
-    "judiciary.house.gov": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "banking.senate.gov": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
     "energycommerce.house.gov": {
       "status": 404,
       "items": 0,
@@ -3763,19 +3728,29 @@
       "items": 100,
       "error": ""
     },
-    "transportation.house.gov": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
     "waysandmeans.house.gov": {
       "status": 200,
       "items": 10,
       "error": ""
     },
-    "abc.es": {
+    "intelligence.senate.gov": {
       "status": 200,
-      "items": 20,
+      "items": 10,
+      "error": ""
+    },
+    "transportation.house.gov": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "lefigaro.fr": {
+      "status": 200,
+      "items": 17,
+      "error": ""
+    },
+    "banking.senate.gov": {
+      "status": 200,
+      "items": -1,
       "error": ""
     },
     "appropriations.house.gov": {
@@ -3783,20 +3758,65 @@
       "items": 0,
       "error": "HTTP 404"
     },
-    "armed-services.senate.gov": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
+    "abc.es": {
+      "status": 200,
+      "items": 20,
+      "error": ""
     },
     "welt.de": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
     },
+    "repubblica.it": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "judiciary.senate.gov": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "sueddeutsche.de": {
+      "status": 200,
+      "items": 15,
+      "error": ""
+    },
+    "armed-services.senate.gov": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "api.org": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
     "faz.net": {
       "status": 200,
-      "items": 162,
+      "items": 166,
       "error": ""
+    },
+    "opec.org": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "lesechos.fr": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "epi.org": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "cepr.net": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
     },
     "sierraclub.org": {
       "status": 200,
@@ -3808,35 +3828,15 @@
       "items": 12,
       "error": ""
     },
-    "repubblica.it": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "api.org": {
+    "dallasnews.com": {
       "status": 200,
       "items": -1,
       "error": ""
     },
-    "opec.org": {
-      "status": 403,
+    "sfgate.com": {
+      "status": 404,
       "items": 0,
-      "error": "HTTP 403"
-    },
-    "chathamhouse.org": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "cepr.net": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "epi.org": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     },
     "rtve.es": {
       "status": 404,
@@ -3848,17 +3848,12 @@
       "items": -1,
       "error": ""
     },
-    "nrdc.org": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "judiciary.senate.gov": {
-      "status": 404,
+    "chathamhouse.org": {
+      "status": 403,
       "items": 0,
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
-    "sfgate.com": {
+    "boston.com": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
@@ -3868,10 +3863,15 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "dallasnews.com": {
-      "status": 200,
-      "items": -1,
-      "error": ""
+    "philly.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "wirechina.substack.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
     },
     "bulgarianmilitary.com": {
       "status": -1,
@@ -3883,47 +3883,17 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "lesechos.fr": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
     "sinopsis.substack.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "sueddeutsche.de": {
-      "status": 200,
-      "items": 15,
-      "error": ""
-    },
-    "semiconductors.org": {
-      "status": 200,
-      "items": -1,
-      "error": ""
+    "defpost.com": {
+      "status": -1,
+      "items": 0,
+      "error": "Remote end closed connection without response"
     },
     "chinaspeak.substack.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "diplomat.substack.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "wirechina.substack.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "nationalinterest.substack.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "waronrocks.substack.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -3933,12 +3903,32 @@
       "items": 0,
       "error": "HTTP 403"
     },
+    "semiconductors.org": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "diplomat.substack.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "awea.org": {
+      "status": 200,
+      "items": 9,
+      "error": ""
+    },
+    "nrdc.org": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
     "foreignpolicy.substack.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "defenseone.substack.com": {
+    "waronrocks.substack.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -3948,15 +3938,35 @@
       "items": 0,
       "error": "HTTP 403"
     },
+    "defenseone.substack.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "securityaffairs.substack.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "nationalinterest.substack.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "publicintelligence.net": {
+      "status": -1,
+      "items": 0,
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    "cyberscoop.substack.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
     "finance.senate.gov": {
       "status": 410,
       "items": 0,
       "error": "HTTP 410"
-    },
-    "aviationweek.substack.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
     },
     "thecyberwire.substack.com": {
       "status": 403,
@@ -3968,27 +3978,27 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "cyberscoop.substack.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
-    "securityaffairs.substack.com": {
-      "status": 403,
-      "items": 0,
-      "error": "HTTP 403"
-    },
     "mining.com.substack.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "awea.org": {
+    "seia.org": {
       "status": 200,
-      "items": 9,
+      "items": 1,
       "error": ""
     },
+    "recharge.substack.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
     "oilprice.substack.com": {
+      "status": 403,
+      "items": 0,
+      "error": "HTTP 403"
+    },
+    "aviationweek.substack.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
@@ -3998,40 +4008,25 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "recharge.substack.com": {
-      "status": 403,
+    "detroitnews.com": {
+      "status": 402,
       "items": 0,
-      "error": "HTTP 403"
-    },
-    "defpost.com": {
-      "status": -1,
-      "items": 0,
-      "error": "Remote end closed connection without response"
+      "error": "HTTP 402"
     },
     "healthcareitnews.com": {
       "status": 403,
       "items": 0,
       "error": "HTTP 403"
     },
-    "cincinnati.com": {
-      "status": 402,
-      "items": 0,
-      "error": "HTTP 402"
-    },
-    "detroitnews.com": {
-      "status": 402,
-      "items": 0,
-      "error": "HTTP 402"
-    },
-    "seia.org": {
-      "status": 200,
-      "items": 1,
-      "error": ""
-    },
     "calmatters.org": {
       "status": 200,
       "items": 10,
       "error": ""
+    },
+    "cincinnati.com": {
+      "status": 402,
+      "items": 0,
+      "error": "HTTP 402"
     },
     "medcitynews.com": {
       "status": 403,
@@ -4043,10 +4038,20 @@
       "items": 10,
       "error": ""
     },
-    "boston.com": {
+    "space.com": {
+      "status": 200,
+      "items": -1,
+      "error": ""
+    },
+    "urban.org": {
       "status": 404,
       "items": 0,
       "error": "HTTP 404"
+    },
+    "chinafile.com": {
+      "status": 200,
+      "items": 1,
+      "error": ""
     },
     "cleveland.com": {
       "status": 403,
@@ -4058,22 +4063,7 @@
       "items": 100,
       "error": ""
     },
-    "urban.org": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "pittsburghpost-gazette.com": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
-    "chinafile.com": {
-      "status": 200,
-      "items": 1,
-      "error": ""
-    },
-    "space.com": {
+    "stateline.org": {
       "status": 200,
       "items": -1,
       "error": ""
@@ -4083,19 +4073,14 @@
       "items": 0,
       "error": "HTTP 403"
     },
-    "philly.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
-    "governing.com": {
-      "status": 404,
-      "items": 0,
-      "error": "HTTP 404"
-    },
     "news.google.com/hard-fedreg": {
       "status": 200,
-      "items": 69,
+      "items": 65,
+      "error": ""
+    },
+    "news.google.com/hard-bis": {
+      "status": 200,
+      "items": 32,
       "error": ""
     },
     "news.google.com/hard-ofac": {
@@ -4103,19 +4088,19 @@
       "items": 100,
       "error": ""
     },
-    "stateline.org": {
-      "status": 200,
-      "items": -1,
-      "error": ""
-    },
     "news.google.com/hard-dod": {
       "status": 200,
       "items": 25,
       "error": ""
     },
-    "news.google.com/hard-bis": {
+    "pittsburghpost-gazette.com": {
       "status": 200,
-      "items": 32,
+      "items": -1,
+      "error": ""
+    },
+    "texastribune.org": {
+      "status": 200,
+      "items": 20,
       "error": ""
     },
     "securityaffairs.com": {
@@ -4128,7 +4113,17 @@
       "items": 20,
       "error": ""
     },
-    "www.marines.mil": {
+    "www.centcom.mil": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
+    "www.af.mil": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
+    "www.navy.mil": {
       "status": 200,
       "items": 20,
       "error": ""
@@ -4138,29 +4133,14 @@
       "items": 38,
       "error": ""
     },
-    "texastribune.org": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
     "news.google.com/hard-rareearth": {
       "status": 200,
-      "items": 53,
-      "error": ""
-    },
-    "www.spaceforce.mil": {
-      "status": 200,
-      "items": 20,
+      "items": 69,
       "error": ""
     },
     "news.google.com/hard-mining": {
       "status": 200,
-      "items": 71,
-      "error": ""
-    },
-    "news.google.com/hard-ofac2": {
-      "status": 200,
-      "items": 44,
+      "items": 78,
       "error": ""
     },
     "news.google.com/hard-semicap": {
@@ -4178,9 +4158,34 @@
       "items": 10,
       "error": ""
     },
+    "www.spaceforce.mil": {
+      "status": 200,
+      "items": 20,
+      "error": ""
+    },
+    "governing.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    "thenational.com": {
+      "status": 404,
+      "items": 0,
+      "error": "HTTP 404"
+    },
     "news.google.com/yonhapnews": {
       "status": 200,
       "items": 0,
+      "error": ""
+    },
+    "news.google.com/hard-ofac2": {
+      "status": 200,
+      "items": 100,
+      "error": ""
+    },
+    "www.spacecom.mil": {
+      "status": 200,
+      "items": 20,
       "error": ""
     },
     "www.northcom.mil": {
@@ -4188,22 +4193,7 @@
       "items": 20,
       "error": ""
     },
-    "news.google.com/time": {
-      "status": 200,
-      "items": 100,
-      "error": ""
-    },
     "news.google.com/hindustantimes": {
-      "status": 200,
-      "items": 100,
-      "error": ""
-    },
-    "news.google.com/cnn": {
-      "status": 200,
-      "items": 100,
-      "error": ""
-    },
-    "news.google.com/newsweek": {
       "status": 200,
       "items": 100,
       "error": ""
@@ -4213,29 +4203,29 @@
       "items": 100,
       "error": ""
     },
-    "news.google.com/fortune": {
+    "news.google.com/time": {
       "status": 200,
       "items": 100,
       "error": ""
     },
-    "overtdefense.com": {
+    "news.google.com/cnn": {
       "status": 200,
-      "items": 10,
+      "items": 100,
+      "error": ""
+    },
+    "news.google.com/rand": {
+      "status": 200,
+      "items": 96,
+      "error": ""
+    },
+    "news.google.com/newsweek": {
+      "status": 200,
+      "items": 100,
       "error": ""
     },
     "news.google.com/politico": {
       "status": 200,
       "items": 100,
-      "error": ""
-    },
-    "www.centcom.mil": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "news.google.com/rand": {
-      "status": 200,
-      "items": 61,
       "error": ""
     },
     "news.google.com/carnegie": {
@@ -4253,27 +4243,37 @@
       "items": 100,
       "error": ""
     },
-    "news.google.com/cnas": {
+    "news.google.com/fortune": {
       "status": 200,
-      "items": 42,
-      "error": ""
-    },
-    "news.google.com/heritage": {
-      "status": 200,
-      "items": 79,
+      "items": 100,
       "error": ""
     },
     "news.google.com/brookings": {
       "status": 200,
-      "items": 73,
+      "items": 74,
       "error": ""
     },
-    "news.google.com/stimson": {
+    "news.google.com/cnas": {
       "status": 200,
-      "items": 61,
+      "items": 39,
+      "error": ""
+    },
+    "overtdefense.com": {
+      "status": 200,
+      "items": 10,
       "error": ""
     },
     "news.google.com/rfi": {
+      "status": 200,
+      "items": 100,
+      "error": ""
+    },
+    "news.google.com/heritage": {
+      "status": 200,
+      "items": 78,
+      "error": ""
+    },
+    "news.google.com/stimson": {
       "status": 200,
       "items": 100,
       "error": ""
@@ -4288,17 +4288,7 @@
       "items": 100,
       "error": ""
     },
-    "www.af.mil": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "www.navy.mil": {
-      "status": 200,
-      "items": 20,
-      "error": ""
-    },
-    "www.spacecom.mil": {
+    "www.marines.mil": {
       "status": 200,
       "items": 20,
       "error": ""
@@ -4312,6 +4302,11 @@
       "status": -1,
       "items": 0,
       "error": "The read operation timed out"
+    },
+    "mnd.go.kr": {
+      "status": -1,
+      "items": 0,
+      "error": "<urlopen error timed out>"
     },
     "forces.gc.ca": {
       "status": -1,
@@ -4327,6 +4322,11 @@
       "status": -1,
       "items": 0,
       "error": "The read operation timed out"
+    },
+    "mofa.go.kr": {
+      "status": 307,
+      "items": 0,
+      "error": "HTTP 307"
     },
     "miamiherald.com": {
       "status": -1,
