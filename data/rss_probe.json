@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-21T17:54:40.996716Z",
+ "probed_at": "2026-11-21T19:33:25.906146Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -52,8 +52,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China - AP News",
+   "sample": "Taiwan warns Canada faces the China risks Carney has cautioned against - AP News",
    "diag": [
+    {
+     "title": "Taiwan warns Canada faces the China risks Carney has caution",
+     "date": "2026-11-21",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk94aHBLLVI3V1JkY",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk94aHBLLVI3V1JkYU1DWGQ1Qk5ZVnlBN2JFY",
+     "resolved": false
+    },
     {
      "title": "Treasury secretary says no further restrictions are needed f",
      "date": "2026-11-20",
@@ -81,13 +88,6 @@
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNUpIZ3V3RW1sVzhMa",
      "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNUpIZ3V3RW1sVzhMakEzc2NIei1VUExmNFVGc",
      "resolved": false
-    },
-    {
-     "title": "APEC serves as a backdrop as big power politics eclipse talk",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUVVfSnBmYmxWQU00Q",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUVVfSnBmYmxWQU00Q3BpUWIwMVF3a3hJdHRma",
-     "resolved": false
     }
    ]
   },
@@ -97,20 +97,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "New Zealand mayor says democracy has 'had its day' after China visit - France 24",
+   "sample": "Trump hails 'fantastic' relationships with China's Xi, Russia's Putin after three-way talks - France 24",
    "diag": [
-    {
-     "title": "New Zealand mayor says democracy has 'had its day' after Chi",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnJJQ2dCTkV3V24zZ",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnJJQ2dCTkV3V24zZkxVU1JNVjV6bTN3aXhxL",
-     "resolved": false
-    },
     {
      "title": "Trump hails 'fantastic' relationships with China's Xi, Russi",
      "date": "2026-11-20",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYU9yY1JRcWNteEN6N",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYU9yY1JRcWNteEN6N1B2OVRJalp4M2FYRzJWd",
+     "resolved": false
+    },
+    {
+     "title": "New Zealand mayor says democracy has 'had its day' after Chi",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnJJQ2dCTkV3V24zZ",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnJJQ2dCTkV3V24zZkxVU1JNVjV6bTN3aXhxL",
      "resolved": false
     },
     {
@@ -173,10 +173,10 @@
      "resolved": false
     },
     {
-     "title": "China Military Bans SF Express From Procurement Over Miscond",
-     "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZlBweWd4TTNzVWF0Y",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZlBweWd4TTNzVWF0YVZ4R1F3S0JJYjFOVzNzM",
+     "title": "Beijing’s New Strategy: Made by China, But Not Made in China",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWUJkbXVlNnRkelpmb",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWUJkbXVlNnRkelpmbU9ZQkJsUlBaR25SeWpsR",
      "resolved": false
     }
    ]
@@ -211,10 +211,10 @@
      "resolved": false
     },
     {
-     "title": "From 'APEC blue' to new Yalta: China's rise highlights Japan",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWmR6N3VxRGFzSFJ2S",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWmR6N3VxRGFzSFJ2SzFHUWQ1dlV1UllXeTBTR",
+     "title": "Chip supply chain warns of broader disruption from new US ex",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVndkdXFmNFJBNzBqQ",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVndkdXFmNFJBNzBqQTRObUJuVWtPRnhiLTlKS",
      "resolved": false
     },
     {
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "China’s AI Firms Are Addicted to Nvidia Chips. Now They Are ",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeHpsUWpRNHV2N1B5Q",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeHpsUWpRNHV2N1B5QVI4LUdwb1VMWjB1aXRnV",
+     "title": "Alice Huang’s Husband Built a Data-Center Empire Backed by t",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHhHZXp0eFpvVEQwN",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHhHZXp0eFpvVEQwNWQwUXgwSDZETWdWeF9UM",
      "resolved": false
     }
    ]
@@ -339,17 +339,17 @@
      "resolved": false
     },
     {
-     "title": "The Evening: Are Nvidia Chips Helping Power the Chinese Mili",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45anIzZG1rNjZ1Qm5NR",
-     "real": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45anIzZG1rNjZ1Qm5NRmJqRjNXQkxobVhfaHVKQ",
-     "resolved": false
-    },
-    {
      "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to",
      "date": "2026-11-21",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVjhXZ2xYTDVHWE9xV",
      "real": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVjhXZ2xYTDVHWE9xVzhIZVdLOVF3XzB2WEcxN",
+     "resolved": false
+    },
+    {
+     "title": "The Evening: Are Nvidia Chips Helping Power the Chinese Mili",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45anIzZG1rNjZ1Qm5NR",
+     "real": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45anIzZG1rNjZ1Qm5NRmJqRjNXQkxobVhfaHVKQ",
      "resolved": false
     },
     {
@@ -410,17 +410,10 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 58,
    "is_feed": true,
-   "sample": "China's top rare earth firms' profits surge on supply caps - Reuters",
+   "sample": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says - Reuters",
    "diag": [
-    {
-     "title": "China's top rare earth firms' profits surge on supply caps -",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZ",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZGxCSXFfQU5lenV4TGtPT",
-     "resolved": false
-    },
     {
      "title": "Trump, Xi agreed that military AI decisions should involve h",
      "date": "2026-11-20",
@@ -443,10 +436,17 @@
      "resolved": false
     },
     {
-     "title": "Myanmar lobbies US to invest in its rare earths sector, domi",
-     "date": "2026-11-11",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEW",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEWXRUaWhDWUl1bEpxYUIte",
+     "title": "EXCLUSIVE: Kenya picks US consortium to develop Mrima Hill c",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFJFYUhWNHl6emd0S",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFJFYUhWNHl6emd0SEVyRG5tX3dEU2dSTWtMd",
+     "resolved": false
+    },
+    {
+     "title": "France minerals envoy says rare earths diversification from ",
+     "date": "2026-10-27",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZN",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZNXliXzFIZGQ2NTduaXJDU",
      "resolved": false
     }
    ]
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "UK Races to Rewrite Nuclear Rules by 2027"
+   "sample": "Thanksgiving Gas Prices Could Break a Record Despite Recent Plunge"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "COP31: Deep divisions persist over energy, finance and science"
+   "sample": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Senate gearing up to investigate Ukraine’s access to Starshield"
+   "sample": "Despite Hegseth memo, Canada hasn&#8217;t seen changes to defense relationship with US, says DefMin"
   },
   {
    "name": "MiningWeekly",
