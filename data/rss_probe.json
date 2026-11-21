@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-20T23:50:31.505113Z",
+ "probed_at": "2026-11-21T02:52:49.990966Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -17,13 +17,6 @@
      "resolved": false
     },
     {
-     "title": "SpaceX's Cursor weighs phasing out Chinese AI models over ge",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeWlDTVU0ZkVnYWE3b",
-     "real": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeWlDTVU0ZkVnYWE3bk1yYkRRUUdLTV9YNFBQa",
-     "resolved": false
-    },
-    {
      "title": "EXCLUSIVE: Beijing to bar young 'red-chip' firms from listin",
      "date": "2026-11-20",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRTdaaUUyWTJoNmxNS",
@@ -31,10 +24,17 @@
      "resolved": false
     },
     {
-     "title": "Why China is unwilling to be the world's next climate leader",
+     "title": "EXCLUSIVE: Taiwan tells Meta thousands of China-linked accou",
      "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVjV0OVRhWXlWUnlTS",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVjV0OVRhWXlWUnlTSnFPZjlkRjUwdWV1bXpUb",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSW41aUpxeGUzMDFwd",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSW41aUpxeGUzMDFwdHhVNmJHdFBWaTdvTUNfU",
+     "resolved": false
+    },
+    {
+     "title": "Trump touts Asia trade deal wins, but US agricultural export",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX1NxamhacExiOUlPV",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX1NxamhacExiOUlPV3RKN2RGTmNzN2gySzZ1W",
      "resolved": false
     },
     {
@@ -52,8 +52,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s nuclear buildup is ‘hot and heavy,’ Trump says a day after meeting with Xi - AP News",
+   "sample": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China - AP News",
    "diag": [
+    {
+     "title": "Treasury secretary says no further restrictions are needed f",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWVNwbUpEZjJtY1NaO",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWVNwbUpEZjJtY1NaOWc5Z1ZfYUo2QXJqdl9WV",
+     "resolved": false
+    },
     {
      "title": "China’s nuclear buildup is ‘hot and heavy,’ Trump says a day",
      "date": "2026-11-20",
@@ -69,24 +76,17 @@
      "resolved": false
     },
     {
-     "title": "Treasury secretary says no further restrictions are needed f",
+     "title": "One photo that captures the historic talks between China, US",
      "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWVNwbUpEZjJtY1NaO",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWVNwbUpEZjJtY1NaOWc5Z1ZfYUo2QXJqdl9WV",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNUpIZ3V3RW1sVzhMa",
+     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNUpIZ3V3RW1sVzhMakEzc2NIei1VUExmNFVGc",
      "resolved": false
     },
     {
-     "title": "China bars Bloomberg reporter from trilateral meeting after ",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGN5M2tCZk54WHFwL",
-     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGN5M2tCZk54WHFwLUQ5VFFSbUxmV1RxNDZXV",
-     "resolved": false
-    },
-    {
-     "title": "The diplomatic choreography was delicate as China's Xi welco",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcWVuQ2RyekRpMHVjV",
-     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcWVuQ2RyekRpMHVjVS1wclIxdjBESHNzejk1d",
+     "title": "Xi projects China’s global influence after hosting Trump and",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNElDbnRhd3FPell0a",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNElDbnRhd3FPell0aVIwVzItNG5aOWlNSnRWU",
      "resolved": false
     }
    ]
@@ -142,8 +142,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US Approved AI Chip Sales to China’s Tencent, Alibaba, Data Show - Bloomberg.com",
+   "sample": "US Lawmakers Near Deal to Ban Chinese Cars in Lame Duck Session - Bloomberg.com",
    "diag": [
+    {
+     "title": "US Lawmakers Near Deal to Ban Chinese Cars in Lame Duck Sess",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObHhQcjdyV1I0MV9Wa",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObHhQcjdyV1I0MV9WaGxraEpScE9YSFhxMGpRY",
+     "resolved": false
+    },
     {
      "title": "US Approved AI Chip Sales to China’s Tencent, Alibaba, Data ",
      "date": "2026-11-19",
@@ -152,31 +159,24 @@
      "resolved": false
     },
     {
-     "title": "AI Threatens to Make China’s Jobs Slump Much Worse - Bloombe",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05VkdYcW04aHlNVkJqb",
-     "real": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05VkdYcW04aHlNVkJqb2Y5eng1R292cHpMdkh1d",
-     "resolved": false
-    },
-    {
-     "title": "Trump Suggests US Can Sell Blackwell Chips to China in Futur",
+     "title": "Beijing’s New Strategy: Made by China, But Not Made in China",
      "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb2RmcllMcDNES1UzS",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb2RmcllMcDNES1UzSmxVelRjcV9LUHZzVVQza",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWUJkbXVlNnRkelpmb",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWUJkbXVlNnRkelpmbU9ZQkJsUlBaR25SeWpsR",
      "resolved": false
     },
     {
-     "title": "China’s Economy Disappoints With New Stimulus Yet to Kick In",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjFiTE1FdTd4TV93W",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjFiTE1FdTd4TV93WnROMERVZXMtQzdSZDRTO",
+     "title": "Lawmakers On Verge of Deal to Ban Chinese Cars, Moreno Says ",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWksza0pycHMtZHp1d",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWksza0pycHMtZHp1dWQ1TlAwa2hRNUZzWVhGS",
      "resolved": false
     },
     {
-     "title": "Nvidia Stops Selling AI Chips to China Despite US Approval -",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVk5ZV2dpR3EyVEtJc",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVk5ZV2dpR3EyVEtJcVdSZTBCVGl6UE1qZ1gzN",
+     "title": "AMD Shares Slump After Shortseller Raises China Concerns - B",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbkp6di1ZYkMzQlhjT",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbkp6di1ZYkMzQlhjTmkxbHFwNzIzLWMyc3NKX",
      "resolved": false
     }
    ]
@@ -263,10 +263,10 @@
      "resolved": false
     },
     {
-     "title": "TSMC and Samsung suspend some chip shipments to Chinese cust",
+     "title": "Australia PM and China’s Xi Jinping hail ‘turnaround’ despit",
      "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVmdYLWxyejBmNWE2Z",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVmdYLWxyejBmNWE2ZmVSbk93M0w2ajJMbzZvW",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkRjb0Rma1lqX0xiW",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkRjb0Rma1lqX0xiWEJGMGNfWXpZaEJPR0pkQ",
      "resolved": false
     }
    ]
@@ -332,7 +332,7 @@
      "resolved": false
     },
     {
-     "title": "Spying Suspect’s Chip Network Has Ties to Chinese Military S",
+     "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to",
      "date": "2026-11-20",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVjhXZ2xYTDVHWE9xV",
      "real": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVjhXZ2xYTDVHWE9xVzhIZVdLOVF3XzB2WEcxN",
@@ -353,10 +353,10 @@
      "resolved": false
     },
     {
-     "title": "Nvidia Asked to Sell Chips to Companies Tied to Chinese Mili",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUVRIQ2VxbEYxSjhPe",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUVRIQ2VxbEYxSjhPenZGVUItLXdSQzJhMzdMQ",
+     "title": "The Evening: Are Nvidia Chips Helping Power the Chinese Mili",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45anIzZG1rNjZ1Qm5NR",
+     "real": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45anIzZG1rNjZ1Qm5NRmJqRjNXQkxobVhfaHVKQ",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Conscious Machines Revisited: Embodiment, Sentience, and the Neuroethical imperative"
+   "sample": "Trump, UFC President Gift Half-Million Dollars to Marine Corps Band"
   },
   {
    "name": "商务部新闻",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "ElementUSA, Geophysx partner to advance Jamaica’s critical minerals sector"
+   "sample": "Niron Magnetics to build $1.8 billion manufacturing plant in Alabama "
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Argentine Energy Firms Rush to Sell Bonds Before the 2027 Election"
+   "sample": "Oil Prices Caught Between a Looming Glut and Middle East Turmoil"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Paris police officers sentenced to prison over 2020 beating of Black man"
+   "sample": "House of Cards: America's enemies \"no longer fear it, its allies no longer trust it'"
   },
   {
    "name": "JapanTimes",
@@ -679,7 +679,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "This counter-UAS system senses deep inside neighboring borders to detect and defeat drones"
+   "sample": "Air Force issues massive $16B contract for engine work to dozens of companies"
   },
   {
    "name": "MiningWeekly",
