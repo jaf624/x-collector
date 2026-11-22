@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-22T02:43:10.401525Z",
+ "probed_at": "2026-11-22T05:20:13.480708Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -107,17 +107,17 @@
      "resolved": false
     },
     {
-     "title": "Trump hails 'fantastic' relationships with China's Xi, Russi",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYU9yY1JRcWNteEN6N",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYU9yY1JRcWNteEN6N1B2OVRJalp4M2FYRzJWd",
-     "resolved": false
-    },
-    {
      "title": "Truth or Fake - Was Vladimir Putin 'snubbed' by Xi Jinping? ",
      "date": "2026-11-21",
      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb0hteWRlZzU5dkhTZ",
      "real": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb0hteWRlZzU5dkhTZXhoX3lpNXJ3bWpxQUZLR",
+     "resolved": false
+    },
+    {
+     "title": "Trump hails 'fantastic' relationships with China's Xi, Russi",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYU9yY1JRcWNteEN6N",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYU9yY1JRcWNteEN6N1B2OVRJalp4M2FYRzJWd",
      "resolved": false
     },
     {
@@ -142,7 +142,7 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet - Bloomberg.com",
+   "sample": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet - Bloomberg",
    "diag": [
     {
      "title": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Be",
@@ -187,8 +187,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "India forms commando units for close combat along China border - Nikkei Asia",
+   "sample": "EU curb on Chinese hybrid cars drives shift to niche powertrain - Nikkei Asia",
    "diag": [
+    {
+     "title": "EU curb on Chinese hybrid cars drives shift to niche powertr",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOclMyQ0E5WlJYR0R1c",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOclMyQ0E5WlJYR0R1cXRpckNOa1lBZzRMdDJKc",
+     "resolved": false
+    },
     {
      "title": "India forms commando units for close combat along China bord",
      "date": "2026-11-10",
@@ -197,24 +204,17 @@
      "resolved": false
     },
     {
-     "title": "US visa denials hit Xpeng, other Chinese robot makers ahead ",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSFN3OHpuZ0Vrc0REL",
-     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSFN3OHpuZ0Vrc0RELVVmaElIWjNqRW5odFpUM",
-     "resolved": false
-    },
-    {
-     "title": "'All Chinese players' will rely on domestic chips eventually",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRnQyV3RYcTc5QXN0c",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRnQyV3RYcTc5QXN0cFN5WFpTWFd5bnVZUzN6b",
-     "resolved": false
-    },
-    {
-     "title": "EU curb on Chinese hybrid cars drives shift to niche powertr",
+     "title": "Chip supply chain warns of broader disruption from new US ex",
      "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOclMyQ0E5WlJYR0R1c",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOclMyQ0E5WlJYR0R1cXRpckNOa1lBZzRMdDJKc",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVndkdXFmNFJBNzBqQ",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVndkdXFmNFJBNzBqQTRObUJuVWtPRnhiLTlKS",
+     "resolved": false
+    },
+    {
+     "title": "Xi tells Trump to 'do right thing' on Taiwan as trade truce ",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQmZ5UXc3RGxFVThOe",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQmZ5UXc3RGxFVThOeWllZDE3ZnlBUzhiUUhrZ",
      "resolved": false
     },
     {
@@ -242,17 +242,17 @@
      "resolved": false
     },
     {
-     "title": "Nvidia affair puts Chinese spies in spotlight - Financial Ti",
-     "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNenZuSHhmdTJDTjdMN",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNenZuSHhmdTJDTjdMN2RjUGZob1AtNVk2cHo4T",
-     "resolved": false
-    },
-    {
      "title": "Dream of gas-powered vehicles falters in China’s hydrogen ca",
      "date": "2026-11-21",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR3F6OVp2MUxvbV9kZ",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR3F6OVp2MUxvbV9kZ2lUeHpXWHhlbHhJQWVxV",
+     "resolved": false
+    },
+    {
+     "title": "Nvidia affair puts Chinese spies in spotlight - Financial Ti",
+     "date": "2026-11-21",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNenZuSHhmdTJDTjdMN",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNenZuSHhmdTJDTjdMN2RjUGZob1AtNVk2cHo4T",
      "resolved": false
     },
     {
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
-     "title": "The Evening: Are Nvidia Chips Helping Power the Chinese Mili",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45anIzZG1rNjZ1Qm5NR",
-     "real": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45anIzZG1rNjZ1Qm5NRmJqRjNXQkxobVhfaHVKQ",
-     "resolved": false
-    },
-    {
      "title": "From Gig Workers to Tycoons, China Is Reaching Into Every Po",
      "date": "2026-11-20",
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkT2UySldNczFBWVBFN",
      "real": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkT2UySldNczFBWVBFNXJycEF5bjc5TVBBRkJCV",
+     "resolved": false
+    },
+    {
+     "title": "China’s A.I. Ambitions Are Running Into a Money Problem - Th",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTW1vdXppRnZ3RDlhM",
+     "real": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTW1vdXppRnZ3RDlhMEJnVGtZd0FONTB0emxvV",
      "resolved": false
     }
    ]
@@ -422,6 +422,13 @@
      "resolved": false
     },
     {
+     "title": "China's top rare earth firms' profits surge on supply caps -",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZ",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZGxCSXFfQU5lenV4TGtPT",
+     "resolved": false
+    },
+    {
      "title": "US signed off on sales of nearly 900,000 AI chips to China i",
      "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKY",
@@ -440,13 +447,6 @@
      "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFJFYUhWNHl6emd0S",
      "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFJFYUhWNHl6emd0SEVyRG5tX3dEU2dSTWtMd",
-     "resolved": false
-    },
-    {
-     "title": "France minerals envoy says rare earths diversification from ",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZN",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZNXliXzFIZGQ2NTduaXJDU",
      "resolved": false
     }
    ]
