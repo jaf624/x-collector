@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-22T21:02:24.653542Z",
+ "probed_at": "2026-11-22T23:06:40.366954Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -52,8 +52,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China - AP News",
+   "sample": "Taiwan warns Canada’s Carney that deeper ties with China come with risks - AP News",
    "diag": [
+    {
+     "title": "Taiwan warns Canada’s Carney that deeper ties with China com",
+     "date": "2026-11-21",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk94aHBLLVI3V1JkY",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk94aHBLLVI3V1JkYU1DWGQ1Qk5ZVnlBN2JFY",
+     "resolved": false
+    },
     {
      "title": "Treasury secretary says no further restrictions are needed f",
      "date": "2026-11-20",
@@ -69,24 +76,17 @@
      "resolved": false
     },
     {
-     "title": "Taiwan warns Canada’s Carney that deeper ties with China com",
-     "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk94aHBLLVI3V1JkY",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk94aHBLLVI3V1JkYU1DWGQ1Qk5ZVnlBN2JFY",
-     "resolved": false
-    },
-    {
-     "title": "The driverless taxis, robots and tech companies in APEC host",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0c",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0cnNFOVY2a0JNMXBVbWVjb",
-     "resolved": false
-    },
-    {
-     "title": "Takeaways from the historic summit among Trump, Xi and Putin",
+     "title": "One photo that captures the historic talks between China, US",
      "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUGR5Qm9EVktTdGlZU",
-     "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUGR5Qm9EVktTdGlZU2p0QlJOOGRieUpsczVJc",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNUpIZ3V3RW1sVzhMa",
+     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNUpIZ3V3RW1sVzhMakEzc2NIei1VUExmNFVGc",
+     "resolved": false
+    },
+    {
+     "title": "APEC serves as a backdrop as big power politics eclipse talk",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUVVfSnBmYmxWQU00Q",
+     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUVVfSnBmYmxWQU00Q3BpUWIwMVF3a3hJdHRma",
      "resolved": false
     }
    ]
@@ -166,17 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China Objects to US Curbs on Telecoms’ Access to Phone Numbe",
-     "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQzIxYmhoNU1iT1A0U",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQzIxYmhoNU1iT1A0UEZuZG5JV0VpTXZWczhxN",
-     "resolved": false
-    },
-    {
      "title": "California Nvidia Probe Covers Potential Criminal Law Violat",
      "date": "2026-11-21",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZKSUpVM0xWNVRuM",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZKSUpVM0xWNVRuM3B0RjhyOTM0NUNoRmNYV",
+     "resolved": false
+    },
+    {
+     "title": "China Objects to US Curbs on Telecoms’ Access to Phone Numbe",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQzIxYmhoNU1iT1A0U",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQzIxYmhoNU1iT1A0UEZuZG5JV0VpTXZWczhxN",
      "resolved": false
     }
    ]
@@ -211,17 +211,17 @@
      "resolved": false
     },
     {
-     "title": "India forms commando units for close combat along China bord",
-     "date": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnJCUUlXMElqTUJES",
-     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbnJCUUlXMElqTUJES2NMZVBIU2tHQ19iNFJYR",
-     "resolved": false
-    },
-    {
      "title": "EU curb on Chinese hybrid cars drives shift to niche powertr",
      "date": "2026-11-20",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOclMyQ0E5WlJYR0R1c",
      "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOclMyQ0E5WlJYR0R1cXRpckNOa1lBZzRMdDJKc",
+     "resolved": false
+    },
+    {
+     "title": "Xi tells Trump to 'do right thing' on Taiwan as trade truce ",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQmZ5UXc3RGxFVThOe",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQmZ5UXc3RGxFVThOeWllZDE3ZnlBUzhiUUhrZ",
      "resolved": false
     }
    ]
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "How Mercedes-Benz Nearly Became Collateral Damage in a Chine",
-     "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORFJ0blBLaDJmWHRCd",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORFJ0blBLaDJmWHRCd3R5T2ZsVkNHTUM3aGRuV",
+     "title": "Alice Huang’s Husband Built a Data-Center Empire Backed by t",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHhHZXp0eFpvVEQwN",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHhHZXp0eFpvVEQwNWQwUXgwSDZETWdWeF9UM",
      "resolved": false
     }
    ]
@@ -353,10 +353,10 @@
      "resolved": false
     },
     {
-     "title": "Chinese-Born Neuroscientist Is Detained by ICE While Traveli",
-     "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbkJXbjNXTG96R3BqM",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbkJXbjNXTG96R3BqM0hpX3dXemVJN1U0bWlLa",
+     "title": "Taiwanese Comedian Targeted for Mocking Xi Jinping Is Drawin",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR2xZazhkZkE1OURVZ",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR2xZazhkZkE1OURVZV85NlBWeWJ6enlIQ1FUQ",
      "resolved": false
     }
    ]
@@ -391,17 +391,17 @@
      "resolved": false
     },
     {
-     "title": "How China continues to evade America’s tech-export rules - T",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0kwSGFRelVSdzVja",
-     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0kwSGFRelVSdzVjaDJMMUxZOVQ5LVlneDZTS",
-     "resolved": false
-    },
-    {
      "title": "China’s Buddhists are releasing animals where they do not be",
      "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNXzFrUjlBeFZldk1zS",
      "real": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNXzFrUjlBeFZldk1zSUtkWnVaMzA1aUVuWFZEM",
+     "resolved": false
+    },
+    {
+     "title": "How China continues to evade America’s tech-export rules - T",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0kwSGFRelVSdzVja",
+     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0kwSGFRelVSdzVjaDJMMUxZOVQ5LVlneDZTS",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 100,
    "is_feed": true,
    "sample": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says - Reuters",
    "diag": [
@@ -422,10 +422,10 @@
      "resolved": false
     },
     {
-     "title": "US signed off on sales of nearly 900,000 AI chips to China i",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKY",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKYzUycHNKbTdKZUE2clNGY",
+     "title": "China's top rare earth firms' profits surge on supply caps -",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZ",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZGxCSXFfQU5lenV4TGtPT",
      "resolved": false
     },
     {
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
-     "title": "China seeks advanced Nvidia chips for AI weapons despite US ",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN0Vsd0FkMFJLZl8zb",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN0Vsd0FkMFJLZl8zbklveDFFQW9XSEc3Q3dHM",
+     "title": "Myanmar lobbies US to invest in its rare earths sector, domi",
+     "date": "2026-11-11",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEW",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEWXRUaWhDWUl1bEpxYUIte",
      "resolved": false
     },
     {
-     "title": "France minerals envoy says rare earths diversification from ",
-     "date": "2026-10-27",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZN",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXhQdjlWb3R4UkhZNXliXzFIZGQ2NTduaXJDU",
+     "title": "US signed off on sales of nearly 900,000 AI chips to China i",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKY",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKYzUycHNKbTdKZUE2clNGY",
      "resolved": false
     }
    ]
@@ -476,7 +476,7 @@
   {
    "name": "日经中文",
    "url": "https://cn.nikkei.com/rss/rss.xml",
-   "status": 202,
+   "status": 200,
    "items": 0,
    "is_feed": false,
    "sample": ""
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "California’s Wildfire Crisis Is Threatening Its Energy Future"
+   "sample": "U.S. Energy Exports Hit Records as Global Competition Intensifies"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Democrat Hubbard wins North Carolina recount, clinching historic House majority"
+   "sample": "Russian ship attacked near Benghazi in suspected drone attack"
   },
   {
    "name": "JapanTimes",
