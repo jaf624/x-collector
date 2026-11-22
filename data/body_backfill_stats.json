@@ -1,9 +1,9 @@
 {
- "feed": 1049,
+ "feed": 829,
  "todo": 3,
  "ok": 0,
  "fail": 3,
- "gnews_indexed": 1020,
+ "gnews_indexed": 800,
  "direct_n": 29,
  "direct_body": 29,
  "direct_rate": 1.0,
@@ -12,7 +12,7 @@
   "no_long_paragraph": 1
  },
  "resolved": 0,
- "remain_empty": 1023,
- "secs": 1.1,
- "ts": "2026-11-22T13:00:20Z"
+ "remain_empty": 803,
+ "secs": 0.5,
+ "ts": "2026-11-22T20:14:45Z"
 }
