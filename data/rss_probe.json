@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-23T09:43:36.731207Z",
+ "probed_at": "2026-11-23T13:42:44.565411Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's electric truck boom lifts demand for lithium - Reuters",
+   "sample": "How Nvidia’s billion-dollar turnaround in China is threatened by Huang’s exit - Reuters",
    "diag": [
+    {
+     "title": "How Nvidia’s billion-dollar turnaround in China is threatene",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMzBhLWJfeFVoaXlNa",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMzBhLWJfeFVoaXlNajJPVmVaNHl3bFFPR3lve",
+     "resolved": false
+    },
     {
      "title": "China's electric truck boom lifts demand for lithium - Reute",
      "date": "2026-11-23",
@@ -35,13 +42,6 @@
      "date": "2026-11-22",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcm1fbVJENmFGZU81b",
      "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcm1fbVJENmFGZU81bGR4WXVfeDMwdWdaY0xNb",
-     "resolved": false
-    },
-    {
-     "title": "COMMENTARY: AI bust hurts Chinese stocks far more than GDP -",
-     "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcUFLdUZQYzFtXzVMT",
-     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcUFLdUZQYzFtXzVMTHBnR1lTMnhES0gzd2dKY",
      "resolved": false
     }
    ]
@@ -174,7 +174,7 @@
     },
     {
      "title": "Gold Deluge Keeps China’s $1 Trillion Trade Surplus in Check",
-     "date": "2026-11-22",
+     "date": "2026-11-23",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFZzdnVBMkZsMW5oa",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFZzdnVBMkZsMW5oa0gzM2NSakFMYWVkQ2U3b",
      "resolved": false
@@ -287,13 +287,6 @@
      "resolved": false
     },
     {
-     "title": "Exclusive | Top Republican Senator Says Lutnick Ignored His ",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZE1FLUpGTW9zeVJKb",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZE1FLUpGTW9zeVJKbndTVUV6MTF3dmVQTE4zd",
-     "resolved": false
-    },
-    {
      "title": "The Jensen Huang Saga Has Reinvigorated Washington’s China H",
      "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPazk0b19YRzZMSjFud",
@@ -302,7 +295,7 @@
     },
     {
      "title": "Opinion | China’s Success Is Built on Lies - WSJ",
-     "date": "2026-11-19",
+     "date": "2026-11-23",
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWUpfZThrbTJtY0p4b",
      "real": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWUpfZThrbTJtY0p4bFdZa05QcThIODdoU2Z0V",
      "resolved": false
@@ -312,6 +305,13 @@
      "date": "2026-11-17",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHhHZXp0eFpvVEQwN",
      "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdHhHZXp0eFpvVEQwNWQwUXgwSDZETWdWeF9UM",
+     "resolved": false
+    },
+    {
+     "title": "Why This Week’s Meeting of World Leaders Won’t Be Yalta 2.0 ",
+     "date": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTXRtdzBFUjRXVnhCa",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTXRtdzBFUjRXVnhCaXhTemx3dXJIa3k5Y2VTZ",
      "resolved": false
     }
    ]
@@ -568,7 +568,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says"
+   "sample": "Ukraine confirms it sank Russian corvette in Libyan port"
   },
   {
    "name": "Mining",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "European Natural Gas Prices Surge 8.6% as Cold Snap Looms"
+   "sample": "South Korea Asks Qatar for Priority LNG Once Hormuz Reopens"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "'Let down on all sides': Pacific island nations express despair over COP31 failure"
+   "sample": "Photographer Federico Veronesi: 'I've been in love with African wildlife since I was three'"
   },
   {
    "name": "JapanTimes",
