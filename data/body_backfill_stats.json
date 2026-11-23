@@ -1,11 +1,11 @@
 {
- "feed": 829,
+ "feed": 888,
  "todo": 3,
  "ok": 0,
  "fail": 3,
  "gnews_indexed": 800,
- "direct_n": 29,
- "direct_body": 29,
+ "direct_n": 88,
+ "direct_body": 88,
  "direct_rate": 1.0,
  "reasons": {
   "offtopic": 2,
@@ -13,6 +13,6 @@
  },
  "resolved": 0,
  "remain_empty": 803,
- "secs": 0.5,
- "ts": "2026-11-22T20:14:45Z"
+ "secs": 0.8,
+ "ts": "2026-11-23T01:02:15Z"
 }
