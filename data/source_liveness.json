@@ -1,28 +1,28 @@
 {
- "probed_at": "2026-11-16T11:06:57",
- "total_sources": 859,
- "probed": 683,
+ "probed_at": "2026-11-23T12:26:05",
+ "total_sources": 868,
+ "probed": 692,
  "counts": {
-  "alive": 325,
-  "stale": 53,
-  "empty": 45,
-  "dead": 245
+  "alive": 330,
+  "stale": 56,
+  "empty": 51,
+  "dead": 240
  },
- "alive_but_stale": 53,
+ "alive_but_stale": 56,
  "fresh_all": {
-  "le7": 275,
-  "8_30": 14,
-  "31_45": 6,
-  "gt45": 53,
-  "unknown": 320
+  "le7": 280,
+  "8_30": 18,
+  "31_45": 2,
+  "gt45": 56,
+  "unknown": 321
  },
  "fresh_alive": {
-  "le7": 275,
-  "8_30": 14,
-  "31_45": 6,
-  "gt45": 53,
+  "le7": 280,
+  "8_30": 18,
+  "31_45": 2,
+  "gt45": 56,
   "unknown": 30
  },
- "alive_fresh7_share": 0.403,
- "secs": 51.2
+ "alive_fresh7_share": 0.405,
+ "secs": 54.9
 }
