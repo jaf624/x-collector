@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-23T03:34:44.971579Z",
+ "probed_at": "2026-11-23T09:43:36.731207Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, NYT says - Reuters",
+   "sample": "China's electric truck boom lifts demand for lithium - Reuters",
    "diag": [
+    {
+     "title": "China's electric truck boom lifts demand for lithium - Reute",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnFTM0xYMzExZjQzQ",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnFTM0xYMzExZjQzQzlXZ2l5dXU1Tml4M0RfQ",
+     "resolved": false
+    },
     {
      "title": "Alice Huang in touch with Chinese spy agency during affair w",
      "date": "2026-11-23",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS1pvWmhMSm1MRktDO",
      "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS1pvWmhMSm1MRktDOXJhZWNCdTJIZ25WejNRV",
+     "resolved": false
+    },
+    {
+     "title": "China sets 2030 targets to boost support for older people, c",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTjdnUk5JS01JQ21aa",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTjdnUk5JS01JQ21aaEVvZ0pWLWVIY3BSa1RzM",
      "resolved": false
     },
     {
@@ -24,24 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Chinese exchanges ease margin trading requirements to aid st",
+     "title": "COMMENTARY: AI bust hurts Chinese stocks far more than GDP -",
      "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVHZKRlQ0Y0pzZDRaT",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVHZKRlQ0Y0pzZDRaTzJIdHRfX2dkZkVVUUh4Y",
-     "resolved": false
-    },
-    {
-     "title": "Dutch court bars Chinese SUV in Europe over resemblance to L",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQndCUkJWZ0Y1N0JSe",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQndCUkJWZ0Y1N0JSeERKTGVrQ3VrcTY1bUsyR",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: Beijing to bar young 'red-chip' firms from listin",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRTdaaUUyWTJoNmxNS",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRTdaaUUyWTJoNmxNSkszY3U3di1OSlJoOE5Qb",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcUFLdUZQYzFtXzVMT",
+     "real": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcUFLdUZQYzFtXzVMTHBnR1lTMnhES0gzd2dKY",
      "resolved": false
     }
    ]
@@ -69,13 +69,6 @@
      "resolved": false
     },
     {
-     "title": "China’s nuclear buildup is ‘hot and heavy,’ Trump says a day",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYTktQ3FNMU5KTldxU",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYTktQ3FNMU5KTldxU1VTOF8tZDBvdEF0MlNLZ",
-     "resolved": false
-    },
-    {
      "title": "One photo that captures the historic talks between China, US",
      "date": "2026-11-20",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNUpIZ3V3RW1sVzhMa",
@@ -87,6 +80,13 @@
      "date": "2026-11-16",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0c",
      "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0cnNFOVY2a0JNMXBVbWVjb",
+     "resolved": false
+    },
+    {
+     "title": "China’s nuclear buildup is ‘hot and heavy,’ Trump says a day",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYTktQ3FNMU5KTldxU",
+     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYTktQ3FNMU5KTldxU1VTOF8tZDBvdEF0MlNLZ",
      "resolved": false
     }
    ]
@@ -121,17 +121,17 @@
      "resolved": false
     },
     {
-     "title": "Was the historic Shenzhen summit a political win or humiliat",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa0VVdE8xREt5QlpxR",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa0VVdE8xREt5QlpxR2h6SERnZjRfQV9IU0QxS",
-     "resolved": false
-    },
-    {
      "title": "The week in pictures: Xi hosts Trump and Putin, COP31 and ne",
      "date": "2026-11-22",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ0I1V0RjQWZ4aWRSV",
      "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ0I1V0RjQWZ4aWRSVU1yelk2ZzhLN0s1bXdpS",
+     "resolved": false
+    },
+    {
+     "title": "Was the historic Shenzhen summit a political win or humiliat",
+     "date": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa0VVdE8xREt5QlpxR",
+     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa0VVdE8xREt5QlpxR2h6SERnZjRfQV9IU0QxS",
      "resolved": false
     }
    ]
@@ -142,27 +142,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Gold Deluge Keeps China’s $1 Trillion Trade Surplus in Check - Bloomberg.com",
+   "sample": "China’s Next AI Deals Clouded by Selloff After Anthropic IPO - Bloomberg.com",
    "diag": [
     {
-     "title": "Gold Deluge Keeps China’s $1 Trillion Trade Surplus in Check",
-     "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFZzdnVBMkZsMW5oa",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFZzdnVBMkZsMW5oa0gzM2NSakFMYWVkQ2U3b",
+     "title": "China’s Next AI Deals Clouded by Selloff After Anthropic IPO",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMkp1VktEN3BMdFcyU",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMkp1VktEN3BMdFcyUi1nVWNEY2JLdExKaWhVZ",
      "resolved": false
     },
     {
-     "title": "Trump’s AI Chip Crackdown Inflicts Collateral Damage Across ",
-     "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXp0ODZqcDNzanpGN",
-     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXp0ODZqcDNzanpGNkNMTmsxMk93OXpvU2IzU",
-     "resolved": false
-    },
-    {
-     "title": "Ant Group Bets on Simplexity to Thrive in China’s Humanoid R",
-     "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWXh4U2VvY1cxMnk0Q",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWXh4U2VvY1cxMnk0QzdXUUxJNEtzSUd6MzNkS",
+     "title": "China Sentences Official to Death for Spying for Foreign Pow",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYjJtdnZiY05ITzZ1V",
+     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYjJtdnZiY05ITzZ1V3cwUWJBSncxMk84VExSc",
      "resolved": false
     },
     {
@@ -173,10 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China Lowers Margin Requirement to 80% to Boost Stock Liquid",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ0lsWGMtQzFaN3pHe",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ0lsWGMtQzFaN3pHeFA3ZFVNLWdHN0lDcVZES",
+     "title": "Trump’s AI Chip Crackdown Inflicts Collateral Damage Across ",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXp0ODZqcDNzanpGN",
+     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXp0ODZqcDNzanpGNkNMTmsxMk93OXpvU2IzU",
+     "resolved": false
+    },
+    {
+     "title": "Gold Deluge Keeps China’s $1 Trillion Trade Surplus in Check",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFZzdnVBMkZsMW5oa",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFZzdnVBMkZsMW5oa0gzM2NSakFMYWVkQ2U3b",
      "resolved": false
     }
    ]
@@ -197,13 +197,6 @@
      "resolved": false
     },
     {
-     "title": "Corporate Japan races to revive rare-earth supply chain amid",
-     "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYkI5QjY3SHBtOHNiT",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYkI5QjY3SHBtOHNiT0FaY21DSDRqa3BqWHU5c",
-     "resolved": false
-    },
-    {
      "title": "Chinese automakers lead Japanese rivals in 39 markets, aided",
      "date": "2026-11-22",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaXhDYTQ5V0lqZU1VR",
@@ -211,17 +204,24 @@
      "resolved": false
     },
     {
-     "title": "China slams US ban on its telecoms' access to American phone",
-     "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYlMtNjhEVnBVTFZBa",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYlMtNjhEVnBVTFZBaG9xbXhBOWdVcGtSMXJwa",
+     "title": "China carmakers scale back humanoid robot ambitions - Nikkei",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcHhaTWsxbVBacl9MX",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcHhaTWsxbVBacl9MX3FfSFYxRGVTWm0zaWFfa",
      "resolved": false
     },
     {
-     "title": "Chip supply chain warns of broader disruption from new US ex",
-     "date": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVndkdXFmNFJBNzBqQ",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVndkdXFmNFJBNzBqQTRObUJuVWtPRnhiLTlKS",
+     "title": "Corporate Japan races to revive rare-earth supply chain amid",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYkI5QjY3SHBtOHNiT",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYkI5QjY3SHBtOHNiT0FaY21DSDRqa3BqWHU5c",
+     "resolved": false
+    },
+    {
+     "title": "US must 'see where the buck stops' on Nvidia chip sales to C",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMXN4dF9GTFo4blZGM",
+     "real": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMXN4dF9GTFo4blZGMUtKUXZ2TzNMTmE3aWVwL",
      "resolved": false
     }
    ]
@@ -232,20 +232,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Cheap Chinese ecommerce parcels flood the UK - Financial Times",
+   "sample": "China is winning the car war - Financial Times",
    "diag": [
+    {
+     "title": "China is winning the car war - Financial Times",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONmhkdVFabFpwZnFQS",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONmhkdVFabFpwZnFQSGtrOTRYcGxaTkhJUjBpb",
+     "resolved": false
+    },
     {
      "title": "Cheap Chinese ecommerce parcels flood the UK - Financial Tim",
      "date": "2026-11-22",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3FmWW5KR0FXM01YU",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3FmWW5KR0FXM01YU2JKNDJoWGxZMWR6YlM4Q",
-     "resolved": false
-    },
-    {
-     "title": "Alice Huang’s links to the chip underworld - Financial Times",
-     "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN2I2emFfUExveWExQ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN2I2emFfUExveWExQWtzSi1INmtBc2JuXzA1V",
      "resolved": false
     },
     {
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
+     "title": "Alice Huang’s links to the chip underworld - Financial Times",
+     "date": "2026-11-21",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN2I2emFfUExveWExQ",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN2I2emFfUExveWExQWtzSi1INmtBc2JuXzA1V",
+     "resolved": false
+    },
+    {
      "title": "’Tis the season to be grateful to China - Financial Times",
      "date": "2026-11-20",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ3pBNkRaaS0zX3diU",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ3pBNkRaaS0zX3diU3Y1a2FKVXpUblNYbHNWT",
-     "resolved": false
-    },
-    {
-     "title": "Dream of gas-powered vehicles falters in China’s hydrogen ca",
-     "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR3F6OVp2MUxvbV9kZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR3F6OVp2MUxvbV9kZ2lUeHpXWHhlbHhJQWVxV",
      "resolved": false
     }
    ]
@@ -322,8 +322,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "U.S. Tracked Alice Huang’s Contacts With China Spy Agency During Nvidia Affair - The New York Times",
+   "sample": "Behind China’s A.I. Anxieties, Fear of a Nuclear Checkmate - The New York Times",
    "diag": [
+    {
+     "title": "Behind China’s A.I. Anxieties, Fear of a Nuclear Checkmate -",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UdVJiSjVhbXM4RHZ6R",
+     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UdVJiSjVhbXM4RHZ6RlNPelVObTdHMWk3VmwtX",
+     "resolved": false
+    },
     {
      "title": "U.S. Tracked Alice Huang’s Contacts With China Spy Agency Du",
      "date": "2026-11-23",
@@ -351,13 +358,6 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVkJNbHp2RjF0Y0hlV",
      "real": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVkJNbHp2RjF0Y0hlVmh1aGRIQ2llajUxMFE2N",
      "resolved": false
-    },
-    {
-     "title": "A Chinese Tech Hub Offers a Peek at the Electric Cars Headed",
-     "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTFlLNjh0Y2FrWUxRS",
-     "real": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTFlLNjh0Y2FrWUxRS2t0ZUVkOXZwaVUwMmJKa",
-     "resolved": false
     }
    ]
   },
@@ -377,17 +377,17 @@
      "resolved": false
     },
     {
-     "title": "China still doesn’t know what to do about Taiwan - The Econo",
-     "date": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlpMaDRhajRqNnRMR",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlpMaDRhajRqNnRMR1B6Tk9oeUVqeGtNWkJvV",
-     "resolved": false
-    },
-    {
      "title": "A new axis of malice threatens the global order - The Econom",
      "date": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUTg0TnB5Ujg5RTkxV",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUTg0TnB5Ujg5RTkxVmV1TWtmNkpxa3A0aUs2M",
+     "resolved": false
+    },
+    {
+     "title": "China’s carbon-dioxide emissions have begun to fall - The Ec",
+     "date": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlZ1WG84YXRRWWIzR",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSlZ1WG84YXRRWWIzR0thMkJpQTNHbFFNNkdMT",
      "resolved": false
     },
     {
@@ -398,10 +398,10 @@
      "resolved": false
     },
     {
-     "title": "How China continues to evade America’s tech-export rules - T",
+     "title": "Deeper collusion between hostile powers threatens the West -",
      "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0kwSGFRelVSdzVja",
-     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0kwSGFRelVSdzVjaDJMMUxZOVQ5LVlneDZTS",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUVFaNUVRcThfX2tpb",
+     "real": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUVFaNUVRcThfX2tpbHNfNUUtZzdZMVBSeXItR",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 61,
+   "items": 60,
    "is_feed": true,
    "sample": "Thailand plans to block exports of chemicals used in Myanmar rare earth mining - Reuters",
    "diag": [
@@ -429,17 +429,17 @@
      "resolved": false
     },
     {
-     "title": "US signed off on sales of nearly 900,000 AI chips to China i",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKY",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKYzUycHNKbTdKZUE2clNGY",
-     "resolved": false
-    },
-    {
      "title": "China extends suspension of new rare earth controls until Ja",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUa",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUaEJCaDNDQWZ2bzhKOFNmb",
+     "resolved": false
+    },
+    {
+     "title": "US signed off on sales of nearly 900,000 AI chips to China i",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKY",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKYzUycHNKbTdKZUE2clNGY",
      "resolved": false
     },
     {
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[說唱歌手出身尼泊爾新總理首訪印度：如何平衡對華關係]]>"
+   "sample": "<![CDATA[COP31未能達成重大氣候協議，談判暴露出嚴重分歧]]>"
   },
   {
    "name": "美国国务院",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Oil Markets Are Betting on a Surplus That Hasn&#039;t Arrived Yet"
+   "sample": "European Natural Gas Prices Surge 8.6% as Cold Snap Looms"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Thousands rally in Istanbul against Turkey’s crackdown on opposition and media"
+   "sample": "'Let down on all sides': Pacific island nations express despair over COP31 failure"
   },
   {
    "name": "JapanTimes",
