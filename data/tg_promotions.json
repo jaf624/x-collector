@@ -202,5 +202,17 @@
   "business_total": 18,
   "watch_total": 0,
   "archived_total": 6
+ },
+ {
+  "ran_at": "2026-11-23T12:41:45Z",
+  "tier1": [],
+  "tier2": [],
+  "archived": [
+   "guardiansofhongkong",
+   "hkprotests_reddit"
+  ],
+  "business_total": 18,
+  "watch_total": 0,
+  "archived_total": 6
  }
 ]
