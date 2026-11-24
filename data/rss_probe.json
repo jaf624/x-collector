@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-24T06:01:29.186407Z",
+ "probed_at": "2026-11-24T11:04:55.061882Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -17,10 +17,17 @@
      "resolved": false
     },
     {
-     "title": "China to launch Shenzhou-24 spaceship with first foreign ast",
+     "title": "Pakistani pilot to become first foreigner to fly to China's ",
      "date": "2026-11-24",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLb",
      "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY",
+     "resolved": false
+    },
+    {
+     "title": "US chip curbs won't impact Malaysia's China ties, PM says - ",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeWNUQk1SOTZNZDhzU",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeWNUQk1SOTZNZDhzU0FhWnNfb0NEbnZYSWlCX",
      "resolved": false
     },
     {
@@ -31,17 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Trump thinks China will buy another 250 Boeing airplanes - R",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVTRDX1g3YlY5UEgxM",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVTRDX1g3YlY5UEgxMzJ3OTdhU0VUdU1ubmRRX",
-     "resolved": false
-    },
-    {
-     "title": "COMMENTARY: China's steel sector bifurcates as iron ore rema",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa2xsd3JPb1JDd3FyX",
-     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa2xsd3JPb1JDd3FyX0VGUnM0dmZrYXQ4aldfY",
+     "title": "China, India set for record Russian oil imports in 2026, but",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZEl6LThLbVZLWTlSU",
+     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZEl6LThLbVZLWTlSU3lNdHJLa2dnanBPQjdqR",
      "resolved": false
     }
    ]
@@ -59,6 +59,13 @@
      "date": "2026-11-23",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObVdMZDlteGtHYVhFZ",
      "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObVdMZDlteGtHYVhFZERUMlRkNEFRM2pVcHJzR",
+     "resolved": false
+    },
+    {
+     "title": "China unveils new space mission crew, with a Pakistani astro",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1Ja",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab",
      "resolved": false
     },
     {
@@ -80,13 +87,6 @@
      "date": "2026-11-20",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUGR5Qm9EVktTdGlZU",
      "real": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUGR5Qm9EVktTdGlZU2p0QlJOOGRieUpsczVJc",
-     "resolved": false
-    },
-    {
-     "title": "The driverless taxis, robots and tech companies in APEC host",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0c",
-     "real": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUtJWmhjUmlpU2F0cnNFOVY2a0JNMXBVbWVjb",
      "resolved": false
     }
    ]
@@ -142,20 +142,34 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "The Chinese AI Aspirants Drawing Big Bets to Take on DeepSeek - Bloomberg.com",
+   "sample": "Chinese Dramas Are Starting to Take Over the World - Bloomberg.com",
    "diag": [
     {
-     "title": "The Chinese AI Aspirants Drawing Big Bets to Take on DeepSee",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaGh4OFdnTFBETXN3e",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaGh4OFdnTFBETXN3eURLLTF2MG8wOEFxTGRNT",
+     "title": "Chinese Dramas Are Starting to Take Over the World - Bloombe",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZGxJZEl4UjFWMHdlR",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZGxJZEl4UjFWMHdlRVZLaDA0VmdQUjA2cHE2Q",
      "resolved": false
     },
     {
-     "title": "Reaction to Nvidia’s Huang Scandal Changes the AI Race - Blo",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUk85ZEhJMENzNGYtc",
-     "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUk85ZEhJMENzNGYtc0ZWV0V4di1hcTAtSXh2d",
+     "title": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Be",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRFM5M0lfajByTmNXW",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRFM5M0lfajByTmNXWHhadkRCd19qQUJGU1FUM",
+     "resolved": false
+    },
+    {
+     "title": "AI Threatens to Make China’s Jobs Slump Much Worse - Bloombe",
+     "date": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05VkdYcW04aHlNVkJqb",
+     "real": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05VkdYcW04aHlNVkJqb2Y5eng1R292cHpMdkh1d",
+     "resolved": false
+    },
+    {
+     "title": "Gold Deluge Keeps China’s $1 Trillion Trade Surplus in Check",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFZzdnVBMkZsMW5oa",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFZzdnVBMkZsMW5oa0gzM2NSakFMYWVkQ2U3b",
      "resolved": false
     },
     {
@@ -163,20 +177,6 @@
      "date": "2026-11-22",
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXp0ODZqcDNzanpGN",
      "real": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXp0ODZqcDNzanpGNkNMTmsxMk93OXpvU2IzU",
-     "resolved": false
-    },
-    {
-     "title": "Shares in Chinese Cobalt Producers Jump After Congo Bans Exp",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVmdoOTViOUg5Tnl1Z",
-     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVmdoOTViOUg5Tnl1Zk4zSmY0S3poT3JobHA4U",
-     "resolved": false
-    },
-    {
-     "title": "Chinese Dramas Are Starting to Take Over the World - Bloombe",
-     "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZGxJZEl4UjFWMHdlR",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZGxJZEl4UjFWMHdlRVZLaDA0VmdQUjA2cHE2Q",
      "resolved": false
     }
    ]
@@ -256,10 +256,10 @@
      "resolved": false
     },
     {
-     "title": "Traders start to move US copper to China as Trump tariff fea",
-     "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObmljc20wVUQyeTBKZ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObmljc20wVUQyeTBKZDdTSEM2cmxRR0RLTjhyX",
+     "title": "Japan’s Takaichi isolated on world stage - Financial Times",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNU81ZWJ1bnNkV01tO",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNU81ZWJ1bnNkV01tOE1aWmR4MnVUTDVuTWxXS",
      "resolved": false
     },
     {
@@ -274,9 +274,47 @@
   {
    "name": "GNEWS-华尔街日报",
    "url": "https://news.google.com/rss/search?q=site%3Awsj.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 429,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 100,
+   "is_feed": true,
+   "sample": "Exclusive | The Alice Huang Associate Accused of Funneling Nvidia Chips to China - WSJ",
+   "diag": [
+    {
+     "title": "Exclusive | The Alice Huang Associate Accused of Funneling N",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94MVRKSkVSTXVkZmRDT",
+     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94MVRKSkVSTXVkZmRDTWYtakd3VFYtQ0VIWUhWR",
+     "resolved": false
+    },
+    {
+     "title": "How Mercedes-Benz Nearly Became Collateral Damage in a Chine",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORFJ0blBLaDJmWHRCd",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORFJ0blBLaDJmWHRCd3R5T2ZsVkNHTUM3aGRuV",
+     "resolved": false
+    },
+    {
+     "title": "Alice Huang Had Ties to China’s Intelligence Network. But Wa",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sNDVoNV9xcTIyQnZYS",
+     "real": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sNDVoNV9xcTIyQnZYS3BwSDlwQWFGMFhDelJGW",
+     "resolved": false
+    },
+    {
+     "title": "Chinese Automakers Book Strong European Growth Ahead of Impo",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzRHUkQzcjI2QW9ka",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzRHUkQzcjI2QW9kaG5jUnBzUFlHcF9HQ3dXT",
+     "resolved": false
+    },
+    {
+     "title": "‘Madama Butterfly’ and ‘Nixon in China’ Review: Washington N",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbVFGeXhxMkJWdEptT",
+     "real": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbVFGeXhxMkJWdEptTGExeGxEMWJSaHR3QThXR",
+     "resolved": false
+    }
+   ]
   },
   {
    "name": "GNEWS-纽约时报",
@@ -284,10 +322,10 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "American vs. Chinese Mahjong: Why the Rivalry Is Stirring Controversy - The New York Times",
+   "sample": "America Loves Mahjong. Chinese Americans Hardly Recognize It. - The New York Times",
    "diag": [
     {
-     "title": "American vs. Chinese Mahjong: Why the Rivalry Is Stirring Co",
+     "title": "America Loves Mahjong. Chinese Americans Hardly Recognize It",
      "date": "2026-11-24",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb0tWaVZ1MzlmZktre",
      "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb0tWaVZ1MzlmZktrejZia2t6LWlZakhlWkV2S",
@@ -315,10 +353,10 @@
      "resolved": false
     },
     {
-     "title": "Behind China’s A.I. Anxieties, Fear of a Nuclear Checkmate -",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UdVJiSjVhbXM4RHZ6R",
-     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UdVJiSjVhbXM4RHZ6RlNPelVObTdHMWk3VmwtX",
+     "title": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sal",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNU9MT1BaVjdSS2pUR",
+     "real": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNU9MT1BaVjdSS2pURVRCVjNXdm02bzJhTU9Uc",
      "resolved": false
     }
    ]
@@ -372,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 61,
+   "items": 100,
    "is_feed": true,
    "sample": "Thailand plans to block exports of chemicals used in Myanmar rare earth mining - Reuters",
    "diag": [
@@ -405,10 +443,10 @@
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: Kenya picks US consortium to develop Mrima Hill c",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFJFYUhWNHl6emd0S",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFJFYUhWNHl6emd0SEVyRG5tX3dEU2dSTWtMd",
+     "title": "China's top rare earth firms' profits surge on supply caps -",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZ",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZGxCSXFfQU5lenV4TGtPT",
      "resolved": false
     }
    ]
@@ -449,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[Nvidia和黃仁勳對美國經濟有多重要？]]>"
+   "sample": "<![CDATA[宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？]]>"
   },
   {
    "name": "美国国务院",
@@ -463,9 +501,9 @@
    "name": "美国国防部",
    "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1",
    "status": 200,
-   "items": 0,
-   "is_feed": false,
-   "sample": ""
+   "items": 20,
+   "is_feed": true,
+   "sample": "My DCMA: Tavia Lonsway, lead industrial specialist"
   },
   {
    "name": "商务部新闻",
@@ -546,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "America&#039;s Refiners Drowned Their Own Gasoline Windfall"
+   "sample": "Japan Poised to Ramp Up LNG Buying as Power Prices Surge"
   },
   {
    "name": "IMF",
@@ -558,7 +596,7 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": 504,
+   "status": 404,
    "items": 0,
    "is_feed": false
   },
@@ -590,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington"
+   "sample": "Thousands evacuated from UK concert after release of 'unknown substance'"
   },
   {
    "name": "JapanTimes",
