@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-25T20:32:31.418917Z",
+ "probed_at": "2026-11-25T23:03:24.287827Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "S&amp;P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks - Reuters",
+   "sample": "How China got access to Nvidia's AI chips despite rules to stop them - Reuters",
    "diag": [
     {
-     "title": "S&P Global places Nvidia rating on 'CreditWatch Negative' on",
+     "title": "How China got access to Nvidia's AI chips despite rules to s",
      "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb1ZBby1iVDJnTmJwX",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb1ZBby1iVDJnTmJwX3hDYWJpU2lxTUdLTHdlW",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU05FY1hvQmJod19oM",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU05FY1hvQmJod19oM3p3aTZQaS1CdktCWEZsS",
+     "resolved": false
+    },
+    {
+     "title": "Xi's graft probe of Shanghai rising star upends traditional ",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZFRBRjBBclN4REFaZ",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZFRBRjBBclN4REFaZHc4ZTlnbHJ2ZENzczBjZ",
      "resolved": false
     },
     {
@@ -28,13 +35,6 @@
      "date": "2026-11-25",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcjZ1MUw5RG5fdk0tU",
      "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcjZ1MUw5RG5fdk0tUjNTRFNIRzl5amR0VklFS",
-     "resolved": false
-    },
-    {
-     "title": "EXCLUSIVE: Alice Huang-linked firms listed $270 million in A",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYXNKWVJFdGJPenhtY",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYXNKWVJFdGJPenhtYnNFM2VnNnJGdUpjaUlfV",
      "resolved": false
     },
     {
@@ -62,10 +62,10 @@
      "resolved": false
     },
     {
-     "title": "China unveils new space mission crew, with a Pakistani astro",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1Ja",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab",
+     "title": "US ready to slap tariffs on China, EU and others over subsid",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalJfNUMtVmVfb2RDe",
+     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalJfNUMtVmVfb2RDeFlJeVEtNHVxc09sSjVrT",
      "resolved": false
     },
     {
@@ -76,17 +76,17 @@
      "resolved": false
     },
     {
-     "title": "US ready to slap tariffs on China, EU and others over subsid",
+     "title": "Solomon Islands signs treaty with Australia that checks Chin",
      "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalJfNUMtVmVfb2RDe",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalJfNUMtVmVfb2RDeFlJeVEtNHVxc09sSjVrT",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRnFmRmJkLVRidmctZ",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRnFmRmJkLVRidmctZElBTjI3YzQ0OVNIZmRNZ",
      "resolved": false
     },
     {
-     "title": "China sentences an official to death for spying and leaking ",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnJaVllJLVpfeVZhd",
-     "real": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnJaVllJLVpfeVZhdFJmdF9IWDExdmg0Mk4yR",
+     "title": "China investigates Politburo member and Shanghai party chief",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMG44bXNIbVRoRkdsc",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMG44bXNIbVRoRkdsc1FsaEg0ajBQekRydkVTe",
      "resolved": false
     }
    ]
@@ -211,17 +211,17 @@
      "resolved": false
     },
     {
+     "title": "Trump proposes new US tariffs on 14 partners including China",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdjRHdUY0ZEUwQ3o2c",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdjRHdUY0ZEUwQ3o2c3h3Y1JBQUMxTEdyYkxjR",
+     "resolved": false
+    },
+    {
      "title": "China sends first foreign national, a Pakistani pilot, to it",
      "date": "2026-11-25",
      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORXJ2MUEzeUxYMVBUT",
      "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORXJ2MUEzeUxYMVBUTkx6empwajd6eWllMmVpM",
-     "resolved": false
-    },
-    {
-     "title": "China's Huawei convicted in US criminal trial over Iran busi",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWkJsdlJRTVBUeHlhY",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWkJsdlJRTVBUeHlhYloyWTJRc0dnWDNNVVJUV",
      "resolved": false
     }
    ]
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
-     "title": "China issues list of demands to Brussels over EU trade talks",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmc5T051a1RjaVVFX",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmc5T051a1RjaVVFXzVfLXoyWEVleUlvdjlvb",
-     "resolved": false
-    },
-    {
      "title": "Japan’s Takaichi isolated on world stage - Financial Times",
      "date": "2026-11-24",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNU81ZWJ1bnNkV01tO",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNU81ZWJ1bnNkV01tOE1aWmR4MnVUTDVuTWxXS",
+     "resolved": false
+    },
+    {
+     "title": "China issues list of demands to Brussels over EU trade talks",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmc5T051a1RjaVVFX",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmc5T051a1RjaVVFXzVfLXoyWEVleUlvdjlvb",
      "resolved": false
     }
    ]
@@ -277,13 +277,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "The Morning Risk Report: China’s Huawei Convicted of Fraud in U.S. Criminal Trial - WSJ",
+   "sample": "No Evidence China Orchestrated Jensen Huang’s Affair, Officials Brief Congress - WSJ",
    "diag": [
     {
-     "title": "The Morning Risk Report: China’s Huawei Convicted of Fraud i",
+     "title": "No Evidence China Orchestrated Jensen Huang’s Affair, Offici",
      "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbmc1QmFvcHBkTEg0M",
-     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbmc1QmFvcHBkTEg0M1NRZEtXM0ZmaVJjMGh5N",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1MzT3BJb0JlQ2xzd",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1MzT3BJb0JlQ2xzdTJRZi12MllDSlBzS3IwM",
      "resolved": false
     },
     {
@@ -294,17 +294,17 @@
      "resolved": false
     },
     {
+     "title": "The Morning Risk Report: China’s Huawei Convicted of Fraud i",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbmc1QmFvcHBkTEg0M",
+     "real": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbmc1QmFvcHBkTEg0M1NRZEtXM0ZmaVJjMGh5N",
+     "resolved": false
+    },
+    {
      "title": "China’s Huawei Convicted of Fraud in U.S. Criminal Trial - W",
      "date": "2026-11-24",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbEdCYmowNkNwbExkS",
      "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbEdCYmowNkNwbExkSE9NeGFWWmVsV2F0d1pTU",
-     "resolved": false
-    },
-    {
-     "title": "China’s Military Ambitions in the Pacific Suffer Setback - W",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOHZ1MU8xU3BwZk9ta",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOHZ1MU8xU3BwZk9taFprSG1vbWkxUlFDQWttW",
      "resolved": false
     },
     {
@@ -346,17 +346,17 @@
      "resolved": false
     },
     {
-     "title": "China Investigates Chen Jining, Shanghai’s Party Leader, as ",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYW54RTU4RmlWNmc0c",
-     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYW54RTU4RmlWNmc0clVnbHFOQU5xWU1tTTV0a",
-     "resolved": false
-    },
-    {
      "title": "For China, Jensen Huang’s Return to Nvidia Is a Mixed Blessi",
      "date": "2026-11-24",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdzdWMk9TWnMyWklvX",
      "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdzdWMk9TWnMyWklvX2M4R1N2cGFPREFaOExDM",
+     "resolved": false
+    },
+    {
+     "title": "China Investigates Chen Jining, Shanghai’s Party Leader, as ",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYW54RTU4RmlWNmc0c",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYW54RTU4RmlWNmc0clVnbHFOQU5xWU1tTTV0a",
      "resolved": false
     }
    ]
@@ -367,15 +367,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Has China’s rise been good for the world? - The Economist",
+   "sample": "Are America’s supply chains really more vulnerable than China’s? - The Economist",
    "diag": [
-    {
-     "title": "Has China’s rise been good for the world? - The Economist",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHZDSjBLdGI4bHVZY",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHZDSjBLdGI4bHVZYTJubGM3WHJ3R0diN1BMN",
-     "resolved": false
-    },
     {
      "title": "Are America’s supply chains really more vulnerable than Chin",
      "date": "2026-11-24",
@@ -384,10 +377,10 @@
      "resolved": false
     },
     {
-     "title": "Does a crummy economy threaten China’s social contract? - Th",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkZ6Q3FPbzIwSDBQV",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkZ6Q3FPbzIwSDBQVnY3SFc0Y0tDSUlXdzNLL",
+     "title": "Shanghai’s boss is purged from Xi Jinping’s top team - The E",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS3R2NWdFZTYxUldCenh3d",
      "resolved": false
     },
     {
@@ -398,10 +391,17 @@
      "resolved": false
     },
     {
-     "title": "China’s prison for the elite is massively expanding - The Ec",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX19SYl9pQnlhWVRnc",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX19SYl9pQnlhWVRncE5TcENCc20zTHg5ejlId",
+     "title": "Does a crummy economy threaten China’s social contract? - Th",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkZ6Q3FPbzIwSDBQV",
+     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkZ6Q3FPbzIwSDBQVnY3SFc0Y0tDSUlXdzNLL",
+     "resolved": false
+    },
+    {
+     "title": "Has China’s rise been good for the world? - The Economist",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHZDSjBLdGI4bHVZY",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHZDSjBLdGI4bHVZYTJubGM3WHJ3R0diN1BMN",
      "resolved": false
     }
    ]
@@ -409,9 +409,47 @@
   {
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
-   "status": 429,
-   "items": 0,
-   "is_feed": false
+   "status": 200,
+   "items": 59,
+   "is_feed": true,
+   "sample": "France plans to create rare earths stockpile and encourage joint buying - Reuters",
+   "diag": [
+    {
+     "title": "France plans to create rare earths stockpile and encourage j",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVHZGMjFURWl3LTRkO",
+     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVHZGMjFURWl3LTRkOFo0VkJpRmlXSThOSmJDd",
+     "resolved": false
+    },
+    {
+     "title": "Thailand plans to block exports of chemicals used in Myanmar",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb1lZVWE5R0ZWWm8ze",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb1lZVWE5R0ZWWm8zemV1M1lTemZUTXhoVzFIN",
+     "resolved": false
+    },
+    {
+     "title": "China extends suspension of new rare earth controls until Ja",
+     "date": "2026-11-09",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUa",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUaEJCaDNDQWZ2bzhKOFNmb",
+     "resolved": false
+    },
+    {
+     "title": "China rare earth firms halt some US shipments over geopoliti",
+     "date": "2026-09-04",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
+     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
+     "resolved": false
+    },
+    {
+     "title": "China's rare earths dominance to overshadow Trump's talks wi",
+     "date": "2026-09-24",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlBNcDhQbjZ1eUhlS1FRS0poeU53T0ZfZWN3c",
+     "resolved": false
+    }
+   ]
   },
   {
    "name": "AP直接feed",
@@ -465,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "DLA Troop Support Medical supply chain reports record fiscal year 2026 obligations, taxpayer savings"
+   "sample": "Colorado Army National Guard, Golden police honor fallen Capt. Evan Dunn "
   },
   {
    "name": "商务部新闻",
@@ -538,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Gold at $8,000 could signal dollar crisis: economist"
+   "sample": "Kazatomprom operations chief detained in bribery probe"
   },
   {
    "name": "OilPrice",
@@ -546,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Cheaper Gasoline Won&#039;t Fix the Diesel Squeeze Hitting Freight Costs"
+   "sample": "Oil Traders Ignore Growing Threat to Persian Gulf Supply"
   },
   {
    "name": "IMF",
@@ -590,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "The ‘French Milei’? Presidential candidate David Lisnard aims to reshape France’s right wing"
+   "sample": "PSG's perfect Champions League record ends as Roma snatch 2-2 draw with late penalty"
   },
   {
    "name": "JapanTimes",
