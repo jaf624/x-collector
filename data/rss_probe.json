@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-25T04:04:29.177428Z",
+ "probed_at": "2026-11-25T10:31:33.202558Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,41 +7,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's Shenzhou-24 space flight takes off with Pakistani national as first foreign astronaut - Reuters",
+   "sample": "EU plans €50 billion tech fund to challenge US and China, FT reports - Reuters",
    "diag": [
     {
-     "title": "China's Shenzhou-24 space flight takes off with Pakistani na",
+     "title": "EU plans €50 billion tech fund to challenge US and China, FT",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUUNwSjZLMGhnbjRUT",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUUNwSjZLMGhnbjRUT3dCanR4NUNvbFlkOHple",
+     "resolved": false
+    },
+    {
+     "title": "EXCLUSIVE: Alice Huang-linked firms listed $270 million in A",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYXNKWVJFdGJPenhtY",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYXNKWVJFdGJPenhtYnNFM2VnNnJGdUpjaUlfV",
+     "resolved": false
+    },
+    {
+     "title": "Pakistani astronaut becomes first foreigner to board China's",
      "date": "2026-11-25",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiO",
      "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S",
      "resolved": false
     },
     {
-     "title": "China's Huawei convicted in sprawling US criminal trial over",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSmhBaGpBTEdjQXR4U",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSmhBaGpBTEdjQXR4UmRuMy1KVWY0anJiNkxHQ",
+     "title": "China eyes mergers, tougher rules to help struggling airline",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT19BdWdOZ3ZVRUVzW",
+     "real": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT19BdWdOZ3ZVRUVzWkhtazhkUnVZSnZJZDFSS",
      "resolved": false
     },
     {
-     "title": "Australia and Solomon Islands sign security pact in blow to ",
+     "title": "Australia, Solomon Islands sign security pact in blow to Chi",
      "date": "2026-11-25",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSG1oWFgtQ2pTYWVMa",
      "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSG1oWFgtQ2pTYWVManFSTHhtZmk2UFl6VllsZ",
-     "resolved": false
-    },
-    {
-     "title": "China probes Shanghai party boss Chen Jining, marking fourth",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWENXdFJEUVN5WUF1O",
-     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWENXdFJEUVN5WUF1ODgwSWdpRUZiSWk0UVFoX",
-     "resolved": false
-    },
-    {
-     "title": "Nvidia's Huang returns to cheers in China, but political hur",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNd2I2bERDWFVzTGY0O",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNd2I2bERDWFVzTGY0OFhwaE0xVHRxaFFWM0REV",
      "resolved": false
     }
    ]
@@ -49,47 +49,9 @@
   {
    "name": "GNEWS-AP",
    "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "US ready to slap tariffs on China, EU and others over subsidized production, AP sources say - AP News",
-   "diag": [
-    {
-     "title": "US ready to slap tariffs on China, EU and others over subsid",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalJfNUMtVmVfb2RDe",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalJfNUMtVmVfb2RDeFlJeVEtNHVxc09sSjVrT",
-     "resolved": false
-    },
-    {
-     "title": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYa",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3U",
-     "resolved": false
-    },
-    {
-     "title": "China investigates Politburo member and Shanghai party chief",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMG44bXNIbVRoRkdsc",
-     "real": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMG44bXNIbVRoRkdsc1FsaEg0ajBQekRydkVTe",
-     "resolved": false
-    },
-    {
-     "title": "Chinese neuroscientist at Princeton is held by ICE after det",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObVdMZDlteGtHYVhFZ",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObVdMZDlteGtHYVhFZERUMlRkNEFRM2pVcHJzR",
-     "resolved": false
-    },
-    {
-     "title": "China sentences an official to death for spying and leaking ",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnJaVllJLVpfeVZhd",
-     "real": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnJaVllJLVpfeVZhdFJmdF9IWDExdmg0Mk4yR",
-     "resolved": false
-    }
-   ]
+   "status": 429,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-AFP",
@@ -128,10 +90,10 @@
      "resolved": false
     },
     {
-     "title": "The week in pictures: Xi hosts Trump and Putin, COP31 and ne",
-     "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ0I1V0RjQWZ4aWRSV",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ0I1V0RjQWZ4aWRSVU1yelk2ZzhLN0s1bXdpS",
+     "title": "New York jury convicts Huawei of stealing trade secrets - Fr",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXpTUmtOZThnYldxS",
+     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXpTUmtOZThnYldxSWdUSlRfdkpvTmxOMkFJd",
      "resolved": false
     }
    ]
@@ -142,8 +104,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "VW’s $18,000 Self-Driving Sedan Shows How China Leads on Car Tech - Bloomberg.com",
+   "sample": "China Dismisses US Tariff Prospect as ‘Political Maneuvering’ - Bloomberg",
    "diag": [
+    {
+     "title": "China Dismisses US Tariff Prospect as ‘Political Maneuvering",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV21zVHR2VllFczhLb",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV21zVHR2VllFczhLbnJxVzl5UnczbEZJSGRDM",
+     "resolved": false
+    },
+    {
+     "title": "China, US Set for ‘New Chapter’ of Trade Talks, Ex-Official ",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUXNHUkhmNU9qNlc5S",
+     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUXNHUkhmNU9qNlc5SUphend6U184Y1FWa1Ate",
+     "resolved": false
+    },
     {
      "title": "VW’s $18,000 Self-Driving Sedan Shows How China Leads on Car",
      "date": "2026-11-25",
@@ -152,31 +128,17 @@
      "resolved": false
     },
     {
+     "title": "China’s Booming Exports Obscure Economic Strain at Home - Bl",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcy1XZVFtNF9ZTHNqe",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcy1XZVFtNF9ZTHNqeGNUZHBRTkw1SDlWbEMtT",
+     "resolved": false
+    },
+    {
      "title": "US Readies Tariff Hike on China, EU Goods as Soon as Tuesday",
      "date": "2026-11-24",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb3RsSGwydkRvZkItU",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb3RsSGwydkRvZkItUUlRQUxrS1RfZ3dJNV85N",
-     "resolved": false
-    },
-    {
-     "title": "China Can’t Expect the Old Jensen Huang Back - Bloomberg.com",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWldRNktjb0E4Q0pTa",
-     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWldRNktjb0E4Q0pTaERLWFdTSnBWWnVvSHRzb",
-     "resolved": false
-    },
-    {
-     "title": "Xi Probes Shanghai Boss, Widening Biggest Shakeup in Decades",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX2xoU1dSSzBEeGVMM",
-     "real": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX2xoU1dSSzBEeGVMMi1fVTdHRUticVJQR2Rod",
-     "resolved": false
-    },
-    {
-     "title": "China Halts Critical Minerals Ban to Maintain Truce With US ",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVl4NjNqN2gwZ0daM",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVl4NjNqN2gwZ0daMjNHNG1lRHU3bmVyQUszY",
      "resolved": false
     }
    ]
@@ -187,13 +149,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China ramps up campaign to electrify the world's trucking fleet - Nikkei Asia",
+   "sample": "China's YMTC boosted by Samsung and SK Hynix adopting its memory technology - Nikkei Asia",
    "diag": [
+    {
+     "title": "China's YMTC boosted by Samsung and SK Hynix adopting its me",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmxHTGR2bmVFQ1dEW",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmxHTGR2bmVFQ1dEWG1ONkllUlZxbmkyUFVHT",
+     "resolved": false
+    },
     {
      "title": "China ramps up campaign to electrify the world's trucking fl",
      "date": "2026-11-24",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVGxScDUxY05naldCY",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVGxScDUxY05naldCYW5uTFQ4NW5mRjlVMWxJX",
+     "resolved": false
+    },
+    {
+     "title": "China sends first foreign national, a Pakistani pilot, to it",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORXJ2MUEzeUxYMVBUT",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORXJ2MUEzeUxYMVBUTkx6empwajd6eWllMmVpM",
      "resolved": false
     },
     {
@@ -209,67 +185,15 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeWlBY2QyNWlreFpVQ",
      "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeWlBY2QyNWlreFpVQlVxajJMTFRLQkRkSXBSQ",
      "resolved": false
-    },
-    {
-     "title": "China carmakers scale back humanoid robot ambitions - Nikkei",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcHhaTWsxbVBacl9MX",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcHhaTWsxbVBacl9MX3FfSFYxRGVTWm0zaWFfa",
-     "resolved": false
-    },
-    {
-     "title": "Huang's Nvidia return sets up clash with China hawks in Cong",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdGNPek9YSENnWDV3c",
-     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdGNPek9YSENnWDV3c3pnMmhCbE9BcDdXSEFBS",
-     "resolved": false
     }
    ]
   },
   {
    "name": "GNEWS-金融时报",
    "url": "https://news.google.com/rss/search?q=site%3Aft.com%20%28china%20OR%20chinese%29&hl=en-US&gl=US&ceid=US:en",
-   "status": 200,
-   "items": 100,
-   "is_feed": true,
-   "sample": "China extends pause in controls on critical mineral exports to US - Financial Times",
-   "diag": [
-    {
-     "title": "China extends pause in controls on critical mineral exports ",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXh2WUNSYmVSZkJLc",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXh2WUNSYmVSZkJLcmJoenphclhBTmJiMGZfO",
-     "resolved": false
-    },
-    {
-     "title": "China wanted families to put savings in shares not homes — t",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa0hjaURGMW5BTlZHU",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa0hjaURGMW5BTlZHUS1iS1RsTC1uZExaQWhjb",
-     "resolved": false
-    },
-    {
-     "title": "Japan’s Takaichi isolated on world stage - Financial Times",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNU81ZWJ1bnNkV01tO",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNU81ZWJ1bnNkV01tOE1aWmR4MnVUTDVuTWxXS",
-     "resolved": false
-    },
-    {
-     "title": "China is winning the car war - Financial Times",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONmhkdVFabFpwZnFQS",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONmhkdVFabFpwZnFQSGtrOTRYcGxaTkhJUjBpb",
-     "resolved": false
-    },
-    {
-     "title": "Alice Huang’s links to the chip underworld - Financial Times",
-     "date": "2026-11-21",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN2I2emFfUExveWExQ",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN2I2emFfUExveWExQWtzSi1INmtBc2JuXzA1V",
-     "resolved": false
-    }
-   ]
+   "status": 429,
+   "items": 0,
+   "is_feed": false
   },
   {
    "name": "GNEWS-华尔街日报",
@@ -277,15 +201,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Huawei Convicted of Fraud in U.S. Criminal Trial - WSJ",
+   "sample": "China’s Military Ambitions in the Pacific Suffer Setback - WSJ",
    "diag": [
-    {
-     "title": "China’s Huawei Convicted of Fraud in U.S. Criminal Trial - W",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbEdCYmowNkNwbExkS",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbEdCYmowNkNwbExkSE9NeGFWWmVsV2F0d1pTU",
-     "resolved": false
-    },
     {
      "title": "China’s Military Ambitions in the Pacific Suffer Setback - W",
      "date": "2026-11-25",
@@ -294,8 +211,15 @@
      "resolved": false
     },
     {
-     "title": "China Takes Down Shanghai Party Boss Once Seen as Potential ",
+     "title": "China’s Huawei Convicted of Fraud in U.S. Criminal Trial - W",
      "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbEdCYmowNkNwbExkS",
+     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbEdCYmowNkNwbExkSE9NeGFWWmVsV2F0d1pTU",
+     "resolved": false
+    },
+    {
+     "title": "China Takes Down Shanghai Party Boss Once Seen as Potential ",
+     "date": "2026-11-25",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcnFzOWZvRUhCUHd1R",
      "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcnFzOWZvRUhCUHd1R2Jlb1JxMnU3Z1JMb054T",
      "resolved": false
@@ -322,8 +246,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China Investigates Chen Jining, Shanghai’s Party Leader, as Xi’s Purges Expand - The New York Times",
+   "sample": "Solomon Islands Enters Security Treaty With Australia, in a Blow to China - The New York Times",
    "diag": [
+    {
+     "title": "Solomon Islands Enters Security Treaty With Australia, in a ",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXZmR1VhNVFzQmU5Z",
+     "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXZmR1VhNVFzQmU5ZjRDcDhURTFoeTgxWGVmZ",
+     "resolved": false
+    },
     {
      "title": "China Investigates Chen Jining, Shanghai’s Party Leader, as ",
      "date": "2026-11-24",
@@ -351,13 +282,6 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVzVyaXo0aXJLT2VuW",
      "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVzVyaXo0aXJLT2VuWXdDRlJIWEw1RDBlTWtxc",
      "resolved": false
-    },
-    {
-     "title": "America Loves Mahjong. Chinese Americans Hardly Recognize It",
-     "date": "2026-11-23",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb0tWaVZ1MzlmZktre",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb0tWaVZ1MzlmZktrejZia2t6LWlZakhlWkV2S",
-     "resolved": false
     }
    ]
   },
@@ -367,20 +291,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China is kicking up a fuss over a Japanese spy show - The Economist",
+   "sample": "Are America’s supply chains really more vulnerable than China’s? - The Economist",
    "diag": [
     {
-     "title": "China is kicking up a fuss over a Japanese spy show - The Ec",
-     "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMnk5d2N1TThRN25fW",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMnk5d2N1TThRN25fWno4dmtQMXlyMl9PVjVJd",
+     "title": "Are America’s supply chains really more vulnerable than Chin",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNFBWSjVEQ0pBcWgyN",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNFBWSjVEQ0pBcWgyNlBqN1lMek01WEdzVVM2S",
      "resolved": false
     },
     {
-     "title": "Good news for Chinese football fans - The Economist",
+     "title": "Shanghai’s boss is purged from Xi Jinping’s top team - The E",
      "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQkJGendtcDlUQlIxb",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQkJGendtcDlUQlIxbVFtY0oxWWg4ZUlGUWxFR",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS3R2NWdFZTYxUldCenh3d",
      "resolved": false
     },
     {
@@ -391,17 +315,17 @@
      "resolved": false
     },
     {
-     "title": "Are America’s supply chains really more vulnerable than Chin",
+     "title": "Good news for Chinese football fans - The Economist",
      "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNFBWSjVEQ0pBcWgyN",
-     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNFBWSjVEQ0pBcWgyNlBqN1lMek01WEdzVVM2S",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQkJGendtcDlUQlIxb",
+     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQkJGendtcDlUQlIxbVFtY0oxWWg4ZUlGUWxFR",
      "resolved": false
     },
     {
-     "title": "China’s prison for the elite is massively expanding - The Ec",
+     "title": "China is kicking up a fuss over a Japanese spy show - The Ec",
      "date": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX19SYl9pQnlhWVRnc",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX19SYl9pQnlhWVRncE5TcENCc20zTHg5ejlId",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMnk5d2N1TThRN25fW",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMnk5d2N1TThRN25fWno4dmtQMXlyMl9PVjVJd",
      "resolved": false
     }
    ]
@@ -568,7 +492,7 @@
    "status": 200,
    "items": 10,
    "is_feed": true,
-   "sample": "‘A new competition space’: US Coast Guard takes icebreaker on maiden voyage to the Arctic"
+   "sample": "Buried in Italy’s budget, officials see Rome meeting NATO spending target"
   },
   {
    "name": "Mining",
@@ -584,7 +508,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "The Diesel Crunch Isn’t Over Yet"
+   "sample": "Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify"
   },
   {
    "name": "IMF",
@@ -596,10 +520,9 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": -1,
+   "status": 404,
    "items": 0,
-   "is_feed": false,
-   "err": "The read operation timed out"
+   "is_feed": false
   },
   {
    "name": "IEA",
@@ -629,7 +552,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Amnesty calls for ICC genocide probe over Israel's impact on births in Gaza"
+   "sample": "🔴 Surprise Eurostar strike cancels London, Paris and Brussels trains"
   },
   {
    "name": "JapanTimes",
