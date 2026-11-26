@@ -263,7 +263,7 @@ def reader(target_url, accept="text/plain", browser_retry=True, force_engine=Fal
             eh = {"X-Engine": "browser", "X-Timeout": "60", "X-No-Cache": "true"}
         try:
             st, body, hdr = http("https://r.jina.ai/" + target_url, accept,
-                                 timeout=150 if engine else 120, extra_headers=eh)
+                                 timeout=75 if engine else 120, extra_headers=eh)
             return st, body, hdr.get("x-usage-tokens", "?")
         except urllib.error.HTTPError as e:
             return e.code, e.read().decode("utf-8", "ignore")[:200], "?"
