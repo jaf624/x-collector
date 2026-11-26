@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-26T14:25:56.452538Z",
+ "probed_at": "2026-11-26T21:36:54.197588Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,41 +7,41 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Trump's new tariffs aim to prise global trade from China's grip - Reuters",
+   "sample": "US signed off on sales of nearly 900,000 AI chips to China in six months, House committee says - Reuters",
    "diag": [
     {
-     "title": "Trump's new tariffs aim to prise global trade from China's g",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUdXQjZTRVJvNzVES",
-     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUdXQjZTRVJvNzVESnNzMlpfZmxhTEgweFZsU",
+     "title": "US signed off on sales of nearly 900,000 AI chips to China i",
+     "date": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKY",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKYzUycHNKbTdKZUE2clNGY",
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: US chip curbs, distillation crackdown threaten Ch",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHo5VjlHR1l4UkdCS",
-     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHo5VjlHR1l4UkdCSmFGNUd6WVlZNXlwZXl6Y",
+     "title": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withho",
+     "date": "2026-11-05",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTS",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTSE5wNWUzekR0cDZfcWQzQ",
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: Data from Chinese AI firm MiniMax accessed by uni",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXlXQVE4enJyRWstW",
-     "real": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXlXQVE4enJyRWstWjJvUGdBczBMWHdfZHRmY",
+     "title": "Alice Huang in touch with Chinese spy agency during affair w",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS1pvWmhMSm1MRktDO",
+     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS1pvWmhMSm1MRktDOXJhZWNCdTJIZ25WejNRV",
      "resolved": false
     },
     {
-     "title": "EXCLUSIVE: US officials divided over Chinese spying allegati",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXVqeXRkckRvMDl4O",
-     "real": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXVqeXRkckRvMDl4OWJsUlhwZk5qNDNKZWl5M",
+     "title": "How China got access to Nvidia's AI chips despite rules to s",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU05FY1hvQmJod19oM",
+     "real": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU05FY1hvQmJod19oM3p3aTZQaS1CdktCWEZsS",
      "resolved": false
     },
     {
-     "title": "China's defence ministry urges Japan to stop 'stirring up' S",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbUJVQ2JZcnNsSFBFO",
-     "real": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbUJVQ2JZcnNsSFBFOTVuU0tTUjZUOHpSNFhpM",
+     "title": "Chinese official sentenced to death for leaking secrets to f",
+     "date": "2026-11-23",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZG54YjhhX2FQNmVuZ",
+     "real": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZG54YjhhX2FQNmVuZUY4X2NucHN4MGQ5ek5jO",
      "resolved": false
     }
    ]
@@ -52,10 +52,10 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China and other U.S. trading partners hit back at Trump’s new tariff plans - AP News",
+   "sample": "China and other US trading partners hit back at Trump’s new tariff plans - AP News",
    "diag": [
     {
-     "title": "China and other U.S. trading partners hit back at Trump’s ne",
+     "title": "China and other US trading partners hit back at Trump’s new ",
      "date": "2026-11-26",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVWQ3MnMzTlQ5Y2lUT",
      "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVWQ3MnMzTlQ5Y2lUTW9RTzloTmp3MmtycjBUb",
@@ -76,17 +76,17 @@
      "resolved": false
     },
     {
-     "title": "A Chinese consumer advocate is stranded in South Korea as a ",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONTZhUFowQURIdVh5V",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONTZhUFowQURIdVh5VjR6VUFXcW5zM0tZdDBDe",
-     "resolved": false
-    },
-    {
      "title": "Chinese tech giant Huawei is guilty of conspiracy to steal t",
      "date": "2026-11-24",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZWtkSWZheUoxZG9We",
      "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZWtkSWZheUoxZG9WeXhxQmEtNFUySnZraXdad",
+     "resolved": false
+    },
+    {
+     "title": "A Chinese consumer advocate is stranded in South Korea as a ",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONTZhUFowQURIdVh5V",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONTZhUFowQURIdVh5VjR6VUFXcW5zM0tZdDBDe",
      "resolved": false
     }
    ]
@@ -142,15 +142,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Trump Riles Trade Partners With Tariffs That Undercut ‘China+1’ - Bloomberg.com",
+   "sample": "Trump Aims to Keep Leverage Over Xi With 40% China Tariff Threat - Bloomberg.com",
    "diag": [
-    {
-     "title": "Trump Riles Trade Partners With Tariffs That Undercut ‘China",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNalFybkwxanpDZHdLe",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNalFybkwxanpDZHdLeGlnSHN6dTBsUnoxS0Zrc",
-     "resolved": false
-    },
     {
      "title": "Trump Aims to Keep Leverage Over Xi With 40% China Tariff Th",
      "date": "2026-11-26",
@@ -159,10 +152,10 @@
      "resolved": false
     },
     {
-     "title": "Chinese Carmakers Double Sales in Europe on Hybrid Demand - ",
+     "title": "Trump Riles Trade Partners With Tariffs That Undercut ‘China",
      "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTVlRN2V2QW5PbFJLQ",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTVlRN2V2QW5PbFJLQmQtYXMwczlVUWtmWGQ4M",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNalFybkwxanpDZHdLe",
+     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNalFybkwxanpDZHdLeGlnSHN6dTBsUnoxS0Zrc",
      "resolved": false
     },
     {
@@ -178,6 +171,13 @@
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWlZpTGF4MUlIWWJYa",
      "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWlZpTGF4MUlIWWJYa2UwbE9KbkNZVUUxR1FWa",
      "resolved": false
+    },
+    {
+     "title": "Xi Unleashes China ‘Earthquake’ With Ouster of Rising Star -",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWhlMDNsSG9DV0dFd",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWhlMDNsSG9DV0dFdmJjRDlwRm9rb2FNaEdvS",
+     "resolved": false
     }
    ]
   },
@@ -187,20 +187,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Asia rejects basis of new Trump tariffs as US gathers China ammunition - Nikkei Asia",
+   "sample": "China's YMTC boosted by Samsung and SK Hynix adopting its memory technology - Nikkei Asia",
    "diag": [
-    {
-     "title": "Asia rejects basis of new Trump tariffs as US gathers China ",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTdlU2lyQ1Q2c0lSW",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTdlU2lyQ1Q2c0lSWERfaE9nM3ZHUDlYaldoR",
-     "resolved": false
-    },
     {
      "title": "China's YMTC boosted by Samsung and SK Hynix adopting its me",
      "date": "2026-11-25",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmxHTGR2bmVFQ1dEW",
      "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmxHTGR2bmVFQ1dEWG1ONkllUlZxbmkyUFVHT",
+     "resolved": false
+    },
+    {
+     "title": "Asia rejects basis of new Trump tariffs as US gathers China ",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTdlU2lyQ1Q2c0lSW",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTdlU2lyQ1Q2c0lSWERfaE9nM3ZHUDlYaldoR",
      "resolved": false
     },
     {
@@ -211,17 +211,17 @@
      "resolved": false
     },
     {
-     "title": "China ramps up campaign to electrify the world's trucking fl",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVGxScDUxY05naldCY",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVGxScDUxY05naldCYW5uTFQ4NW5mRjlVMWxJX",
-     "resolved": false
-    },
-    {
      "title": "Fall of Shanghai party chief clouds China's leadership reset",
      "date": "2026-11-26",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOVJXOVdCN0pOLTE5R",
      "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOVJXOVdCN0pOLTE5RThveWxUWW1vYWRjNmJ4Z",
+     "resolved": false
+    },
+    {
+     "title": "Trump rebuilds tariff wall with new duties on China, Japan a",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTzlmbEJIOFpvRlRLa",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTzlmbEJIOFpvRlRLanoyYmcycGdkMlNnbGRsT",
      "resolved": false
     }
    ]
@@ -242,6 +242,13 @@
      "resolved": false
     },
     {
+     "title": "Peter Mandelson softened China speech on advice from firm he",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVmU3bndUUjUyR1paN",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVmU3bndUUjUyR1paNC1MbHZRZ195dzVNLV9VT",
+     "resolved": false
+    },
+    {
      "title": "European arms makers race to untangle supply chains from Chi",
      "date": "2026-11-26",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbkF3U1dUMGY4ZkV6N",
@@ -253,13 +260,6 @@
      "date": "2026-11-26",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOemJKb2NoS1hVQnBqd",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOemJKb2NoS1hVQnBqdEkycnpNTkZSQXVpbFVNW",
-     "resolved": false
-    },
-    {
-     "title": "EU plans €50bn tech fund to close gap with US and China - Fi",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ3FPSGJQTVhoMEZQb",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ3FPSGJQTVhoMEZQb1luaFY2US1lMkpsRDI3a",
      "resolved": false
     },
     {
@@ -301,10 +301,10 @@
      "resolved": false
     },
     {
-     "title": "U.S. Officials Say There’s No Evidence China Coordinated Jen",
+     "title": "China’s Military Ambitions in the Pacific Suffer Setback - W",
      "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcGFwS1ZEYWlBX1g2R",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcGFwS1ZEYWlBX1g2RF9CX3h5ZmxFQm9ESHR2T",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOHZ1MU8xU3BwZk9ta",
+     "real": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOHZ1MU8xU3BwZk9taFprSG1vbWkxUlFDQWttW",
      "resolved": false
     },
     {
@@ -322,13 +322,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Trump Tried to Cripple Huawei. Now It Is Central to China’s A.I. Push. - The New York Times",
+   "sample": "Trump’s Latest Tariffs Revive Focus on Pressuring China - The New York Times",
    "diag": [
     {
-     "title": "Trump Tried to Cripple Huawei. Now It Is Central to China’s ",
+     "title": "Trump’s Latest Tariffs Revive Focus on Pressuring China - Th",
      "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TcDdtZ0tkZWZ4OE1nU",
-     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TcDdtZ0tkZWZ4OE1nUFM2TDY0bVJFTGkwTzJVa",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1odENQTk1RR0JMbTlRY",
+     "real": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1odENQTk1RR0JMbTlRYWhYcnh6cGdvcktJUGVNZ",
      "resolved": false
     },
     {
@@ -339,7 +339,14 @@
      "resolved": false
     },
     {
-     "title": "Was Japan Prime Minister Takaichi Snubbed at China’s Big Sum",
+     "title": "Trump Tried to Cripple Huawei. Now It Is Central to China’s ",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TcDdtZ0tkZWZ4OE1nU",
+     "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TcDdtZ0tkZWZ4OE1nUFM2TDY0bVJFTGkwTzJVa",
+     "resolved": false
+    },
+    {
+     "title": "Was Japan’s Leader Snubbed at China’s Big Summit? A Visual E",
      "date": "2026-11-26",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc0pLUEZsX0FSZ1BkN",
      "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc0pLUEZsX0FSZ1BkN3NfS2laZGh2dlg4R3hQU",
@@ -351,13 +358,6 @@
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN0ZHQUVfTDV4LVFPO",
      "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN0ZHQUVfTDV4LVFPOEo3cHZtTE0zNVNLNE16b",
      "resolved": false
-    },
-    {
-     "title": "Trump Administration Unveils New Tariffs for China, EU and M",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkN05tSHVLN1V3cFRSa",
-     "real": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkN05tSHVLN1V3cFRSaUY1d0l6MGkyY1dhRnN6R",
-     "resolved": false
     }
    ]
   },
@@ -367,8 +367,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "The fall of China’s most trusted wealth manager - The Economist",
+   "sample": "Chinese cities want to become “token factories” for the world - The Economist",
    "diag": [
+    {
+     "title": "Chinese cities want to become “token factories” for the worl",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOEN3TjNRNzhxMVhKe",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOEN3TjNRNzhxMVhKeUltVG45RGxaQnJCeXdsb",
+     "resolved": false
+    },
+    {
+     "title": "China releases the first-ever AI-generated movie - The Econo",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSm9KQ0JTZUZ3V2hXd",
+     "real": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSm9KQ0JTZUZ3V2hXdmFjMEg1YlljRTVHZmFHZ",
+     "resolved": false
+    },
     {
      "title": "The fall of China’s most trusted wealth manager - The Econom",
      "date": "2026-11-26",
@@ -389,20 +403,6 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS",
      "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS3R2NWdFZTYxUldCenh3d",
      "resolved": false
-    },
-    {
-     "title": "Are America’s supply chains really more vulnerable than Chin",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNFBWSjVEQ0pBcWgyN",
-     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNFBWSjVEQ0pBcWgyNlBqN1lMek01WEdzVVM2S",
-     "resolved": false
-    },
-    {
-     "title": "Good news for Chinese football fans - The Economist",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQkJGendtcDlUQlIxb",
-     "real": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQkJGendtcDlUQlIxbVFtY0oxWWg4ZUlGUWxFR",
-     "resolved": false
     }
    ]
   },
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 61,
    "is_feed": true,
    "sample": "Trump's new tariffs aim to prise global trade from China's grip - Reuters",
    "diag": [
@@ -429,13 +429,6 @@
      "resolved": false
     },
     {
-     "title": "Thailand plans to block exports of chemicals used in Myanmar",
-     "date": "2026-11-22",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb1lZVWE5R0ZWWm8ze",
-     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb1lZVWE5R0ZWWm8zemV1M1lTemZUTXhoVzFIN",
-     "resolved": false
-    },
-    {
      "title": "China extends suspension of new rare earth controls until Ja",
      "date": "2026-11-09",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVo4bzYyXzJlM0RUa",
@@ -443,10 +436,17 @@
      "resolved": false
     },
     {
-     "title": "China's top rare earth firms' profits surge on supply caps -",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZ",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZGxCSXFfQU5lenV4TGtPT",
+     "title": "Thailand plans to block exports of chemicals used in Myanmar",
+     "date": "2026-11-22",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb1lZVWE5R0ZWWm8ze",
+     "real": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb1lZVWE5R0ZWWm8zemV1M1lTemZUTXhoVzFIN",
+     "resolved": false
+    },
+    {
+     "title": "Thailand, Myanmar agree to monitor border rivers amid pollut",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdEZwbjMtU0FKLTE0V",
+     "real": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdEZwbjMtU0FKLTE0VzJ5UmV4clhQOHl5MDk2Z",
      "resolved": false
     }
    ]
@@ -476,7 +476,7 @@
   {
    "name": "日经中文",
    "url": "https://cn.nikkei.com/rss/rss.xml",
-   "status": 202,
+   "status": 200,
    "items": 0,
    "is_feed": false,
    "sample": ""
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Colorado Army National Guard, Golden police honor fallen Capt. Evan Dunn "
+   "sample": "Hegseth Extends Thanksgiving Greetings to Troops Deployed at Home, Abroad"
   },
   {
    "name": "商务部新闻",
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "Marine Corps Sets New Water Survival Requirements"
+   "sample": "Taiwan Navy Receives Last Tuo Chiang-class Missile Corvettes"
   },
   {
    "name": "DefenseNews",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Cyclic Materials picks Germany for first European plant"
+   "sample": "MaxMine launches predictive fleet allocation technology"
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Dutch Gas Network Operator Proposes Creation of Strategic Reserve"
+   "sample": "Why Making Electricity From Seawater Has Failed"
   },
   {
    "name": "IMF",
@@ -596,10 +596,9 @@
   {
    "name": "USGS",
    "url": "https://www.usgs.gov/news/rss.xml",
-   "status": -1,
+   "status": 404,
    "items": 0,
-   "is_feed": false,
-   "err": "The read operation timed out"
+   "is_feed": false
   },
   {
    "name": "IEA",
@@ -629,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "Moscow drone incursions: Poland to create no-fly zone at Ukraine border"
+   "sample": "Iranian monarchists disrupt Paris event, highlighting bitter diaspora divide"
   },
   {
    "name": "JapanTimes",
