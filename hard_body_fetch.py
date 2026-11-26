@@ -38,6 +38,7 @@ def main():
     # 这些条目正是研判写不满 700 字的原因，必须一并补全。
     cand = [x for x in feed if len((x.get("content") or "").strip()) < 700
             and (x.get("url") or "").startswith("http")
+            and "news.google.com" not in (x.get("url") or "")
             and x.get("body_from") != "jina"
             and PRIO.search(x.get("title") or "")]
     cand.sort(key=lambda x: x.get("published") or "", reverse=True)
