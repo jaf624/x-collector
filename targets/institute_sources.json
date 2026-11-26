@@ -14655,7 +14655,8 @@
     "name": "英国外交部",
     "cat": "gov",
     "cats": [
-      "mil"
+      "gov",
+      "hardnews"
     ],
     "folders": [
       "政府机构"
@@ -14665,15 +14666,15 @@
     "bookmarks": 1,
     "feed_url": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office.atom",
     "kind": "rss",
-    "status": "inactive",
+    "status": "active",
     "latest": null,
     "recent30": 0,
     "china_hits": 0,
-    "grade": "A",
+    "grade": "B",
     "probe_error": "",
     "last_probe": "2026-11-25T12:25:19.230859",
     "last_probe_status": 200,
-    "last_probe_items": 0,
+    "last_probe_items": 20,
     "last_probe_age": null
   },
   {

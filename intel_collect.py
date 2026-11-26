@@ -252,10 +252,11 @@ def _retry_429(url, accept, extra_headers, timeout, tries=2):
     raise urllib.error.HTTPError(url, 429, "rate limited after retries", None, None)
 
 
-def reader(target_url, accept="text/plain", browser_retry=True):
+def reader(target_url, accept="text/plain", browser_retry=True, force_engine=False):
     """Jina Reader 深抓。首次用默认引擎；若返回正文明显过短（JS壳/反爬只给摘要，
     如 OilPrice 等站常 <600 字被误判低质），自动用浏览器引擎重渲染重抓一次，取更长者。
-    浏览器引擎慢且耗 token，仅在首抓过短（<1200 字符）时触发，避免拖慢全量。"""
+    浏览器引擎慢且耗 token，仅在首抓过短（<1200 字符）时触发，避免拖慢全量。
+    force_engine=True：该源被 WAF/Cloudflare 标记，首抓即走无头浏览器引擎。"""
     def _do(engine=False):
         eh = None
         if engine:
@@ -268,11 +269,17 @@ def reader(target_url, accept="text/plain", browser_retry=True):
             return e.code, e.read().decode("utf-8", "ignore")[:200], "?"
         except Exception as e:
             return None, "EXC " + repr(e)[:160], "?"
-    st, body, tok = _do()
+    st, body, tok = _do(force_engine)
     if browser_retry and st == 200 and body and not body.startswith("EXC") and len(body) < 1200:
         st2, body2, tok2 = _do(engine=True)
         if st2 == 200 and body2 and not body2.startswith("EXC") and len(body2) > len(body) + 200:
             print(f"  ↻ browser引擎重抓成功 {len(body)}→{len(body2)} {target_url[:60]}", flush=True)
+            return st2, body2, tok2
+    # 反爬 403/401：Cloudflare/WAF 挑战或机房 IP 被拦，默认引擎过不去，自动切无头浏览器引擎重抓一次
+    if browser_retry and st in (403, 401) and not force_engine:
+        print(f"  ↻ {st} 反爬，browser引擎重试 {target_url[:60]}", flush=True)
+        st2, body2, tok2 = _do(engine=True)
+        if st2 == 200 and body2 and not body2.startswith("EXC"):
             return st2, body2, tok2
     return st, body, tok
 
@@ -993,7 +1000,7 @@ def main():
 
     # 1) 栏目/首页轮询（每 6 小时）
     for sec in (sections if not rss_only else []):
-        st, body, tok = reader(sec["url"])
+        st, body, tok = reader(sec["url"], force_engine=(sec.get("engine") == "browser"))
         if st != 200:
             print(f"[section] {sec['name']} HTTP {st}", flush=True); continue
         # 锚文本：Jina 渲染的 Markdown 形如 [标题](https://host/path)，取出用于按标题涉华预筛深读，

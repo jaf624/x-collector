@@ -2388,6 +2388,141 @@
    "lang": "en",
    "cat": "网络安全",
    "pat": "microsoft\\.com/en-us/security/blog/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "欧盟理事会-新闻稿",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/",
+   "lang": "en",
+   "cat": "官方政府",
+   "engine": "browser",
+   "pat": "consilium\\.europa\\.eu/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "印度外交部-新闻发布",
+   "url": "https://www.mea.gov.in/press-releases",
+   "lang": "en",
+   "cat": "官方政府",
+   "engine": "browser",
+   "pat": "mea\\.gov\\.in/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "日本外务省-新闻",
+   "url": "https://www.mofa.go.jp/press/index.html",
+   "lang": "en",
+   "cat": "官方政府",
+   "engine": "browser",
+   "pat": "mofa\\.go\\.jp/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "UNCTAD-新闻",
+   "url": "https://unctad.org/news",
+   "lang": "en",
+   "cat": "多边机构",
+   "engine": "browser",
+   "pat": "unctad\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "东西方中心EastWestCenter",
+   "url": "https://www.eastwestcenter.org/",
+   "lang": "en",
+   "cat": "智库",
+   "engine": "browser",
+   "pat": "eastwestcenter\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "美国国家亚洲研究局NBR",
+   "url": "https://www.nbr.org/",
+   "lang": "en",
+   "cat": "智库",
+   "engine": "browser",
+   "pat": "nbr\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/",
+   "lang": "en",
+   "cat": "网络安全",
+   "engine": "browser",
+   "pat": "thehackernews\\.com/[^\\s\\)\\]]+\\.html"
+  },
+  {
+   "name": "Counterpoint Research",
+   "url": "https://www.counterpointresearch.com/insights/",
+   "lang": "en",
+   "cat": "科技产业",
+   "engine": "browser",
+   "pat": "counterpointresearch\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Canalys研究室",
+   "url": "https://www.canalys.com/newsroom",
+   "lang": "en",
+   "cat": "科技产业",
+   "engine": "browser",
+   "pat": "canalys\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Schneier安全博客",
+   "url": "https://www.schneier.com/blog/",
+   "lang": "en",
+   "cat": "网络安全",
+   "engine": "browser",
+   "pat": "schneier\\.com/blog/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "参议院外交关系委员会",
+   "url": "https://www.foreign.senate.gov/",
+   "lang": "en",
+   "cat": "官方政府",
+   "engine": "browser",
+   "pat": "foreign\\.senate\\.gov/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "西班牙Elcano皇家研究所",
+   "url": "https://www.realinstitutoelcano.org/",
+   "lang": "en",
+   "cat": "智库",
+   "engine": "browser",
+   "pat": "realinstitutoelcano\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "荷兰Clingendael研究所",
+   "url": "https://www.clingendael.org/",
+   "lang": "en",
+   "cat": "智库",
+   "engine": "browser",
+   "pat": "clingendael\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "印度观察家研究基金会ORF",
+   "url": "https://www.orfonline.org/",
+   "lang": "en",
+   "cat": "智库",
+   "engine": "browser",
+   "pat": "orfonline\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Mandiant威胁情报",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence",
+   "lang": "en",
+   "cat": "网络安全",
+   "engine": "browser",
+   "pat": "cloud\\.google\\.com/blog/topics/threat-intelligence/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "韩国世宗研究所",
+   "url": "https://www.sejong.org/",
+   "lang": "en",
+   "cat": "智库",
+   "engine": "browser",
+   "pat": "sejong\\.org/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Shadowserver威胁报告",
+   "url": "https://shadowserver.org/what-we-do/network-reporting/get-reports/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "shadowserver\\.org/(hp-rewrite|news-insights)/[^\\s\\)\\]]+"
   }
  ],
  "search_categories": [
