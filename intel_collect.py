@@ -49,6 +49,7 @@ INST_DEEP = int(os.environ.get("INTEL_INST_DEEP", "40"))       # 摘要过短需
 INST_HN_DEEP = int(os.environ.get("INTEL_INST_HN_DEEP", "30"))  # 权威硬新闻直连源（USNI/防务/矿业/油价/日经等）独立深抓配额，提前跑不被台媒挤掉
 MAX_LEAD = int(os.environ.get("INTEL_MAX_LEAD", "20"))         # L类线索源每轮深抓上限
 INST_WORKERS = int(os.environ.get("INTEL_INST_WORKERS", "16"))
+SEC_WORKERS = int(os.environ.get("INTEL_SECTION_WORKERS", "10"))
 MAX_TRANSLATE = int(os.environ.get("INTEL_MAX_TRANSLATE", "25"))  # 每轮对英文硬料补译上限（Google gtx 海外节点）
 # 硬新闻源（2026-10-14 扩源）：通讯社/官方公报/中文硬新闻——深读配额优先，确保新闻模式主粮来自可溯源硬新闻
 HARD_NEWS_QUOTA = int(os.environ.get("INTEL_HARD_NEWS_QUOTA", "75"))
@@ -998,38 +999,43 @@ def main():
             counts.get("watch_snippet" if body_from == "snippet"
                        else "watch_full" if route == "watch" else via, 0) + 1
 
-    # 1) 栏目/首页轮询（每 6 小时）
-    for sec in (sections if not rss_only else []):
+    # 1) 栏目/首页轮询（每 6 小时）：线程池并发抓栏目页（http 层全局节流限速），主线程统一登记候选
+    def fetch_sec(sec):
         st, body, tok = reader(sec["url"], force_engine=(sec.get("engine") == "browser"))
         if st != 200:
-            print(f"[section] {sec['name']} HTTP {st}", flush=True); continue
+            return sec, [], {}, tok, f"HTTP {st}"
         # 锚文本：Jina 渲染的 Markdown 形如 [标题](https://host/path)，取出用于按标题涉华预筛深读，
         # 避免官方源固定配额被最新的非涉华文章占满。
-        _anchors = {}
+        anchors = {}
         for _m in re.finditer(r"\[([^\[\]]{6,200})\]\((https?://[^\s\)\]]+)\)", body):
             _t = _m.group(1).strip()
             _u = norm(sec["url"], _m.group(2).strip())
-            if _u and _u not in _anchors and not _t.startswith("http"):
-                _anchors[_u] = _t
+            if _u and _u not in anchors and not _t.startswith("http"):
+                anchors[_u] = _t
         links = []
         for u in re.findall(sec["pat"], body):
             u = norm(sec["url"], u)
             if u not in links:
                 links.append(u)
-        # 每栏目源限额：高产本地报/华文聚合页（马尼拉时报/唐人街）每轮最多给 40 条候选，
-        # 防止其占满硬新闻配额，把名额留给路透/日经/AP 等权威源。
-        SEC_CAP = int(os.environ.get("INTEL_SECTION_CAP", "40"))
-        kept = 0
-        for u in links:
-            if kept >= SEC_CAP:
-                break
-            d = pick_date(u)
-            if d is None or fresh(d, DAYS):
-                add(u, sec["name"], sec.get("lang", "?"), sec["cat"], "section", "news", news_block,
-                    hint_date=d, hint_title=_anchors.get(u, ""), lead=sec.get("lead"))
-                kept += 1
-        print(f"[section] {sec['name']}: 链接{len(links)} 候选{kept} tokens={tok}", flush=True)
-        time.sleep(0.5)
+        return sec, links, anchors, tok, ""
+
+    SEC_CAP = int(os.environ.get("INTEL_SECTION_CAP", "40"))
+    _secs = sections if not rss_only else []
+    with ThreadPoolExecutor(max_workers=SEC_WORKERS) as ex:
+        for fu in as_completed([ex.submit(fetch_sec, s) for s in _secs]):
+            sec, links, anchors, tok, err = fu.result()
+            if err:
+                print(f"[section] {sec['name']} {err}", flush=True); continue
+            kept = 0
+            for u in links:
+                if kept >= SEC_CAP:
+                    break
+                d = pick_date(u)
+                if d is None or fresh(d, DAYS):
+                    add(u, sec["name"], sec.get("lang", "?"), sec["cat"], "section", "news", news_block,
+                        hint_date=d, hint_title=anchors.get(u, ""), lead=sec.get("lead"))
+                    kept += 1
+            print(f"[section] {sec['name']}: 链接{len(links)} 候选{kept} tokens={tok}", flush=True)
 
     # 1b) 用户指定的具体文章 URL：直接列候选，不经首页发现（仍过相关性/质量/时效规则）
     pinned = cfg.get("pinned_urls", [])
