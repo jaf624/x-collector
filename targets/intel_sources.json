@@ -2290,6 +2290,104 @@
    "lang": "en",
    "cat": "非洲动向",
    "pat": "thisdaylive\\.com/[a-z0-9\\-/]+"
+  },
+  {
+   "name": "美联储-新闻发布",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "lang": "en",
+   "cat": "官方政府",
+   "pat": "federalreserve\\.gov/newsevents/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "欧洲央行-新闻",
+   "url": "https://www.ecb.europa.eu/press/pubbydate/html/index.en.html",
+   "lang": "en",
+   "cat": "多边机构",
+   "pat": "ecb\\.europa\\.eu/press/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "布鲁盖尔研究所Bruegel",
+   "url": "https://www.bruegel.org/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "bruegel\\.org/(analysis|first-glance|dataset|policy-brief|blog)/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Palo Alto Unit42威胁情报",
+   "url": "https://unit42.paloaltonetworks.com/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "unit42\\.paloaltonetworks\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Volexity博客",
+   "url": "https://www.volexity.com/blog",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "volexity\\.com/blog/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Cisco Talos威胁情报",
+   "url": "https://blog.talosintelligence.com/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "talosintelligence\\.com/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "TechInsights拆解分析",
+   "url": "https://www.techinsights.com/",
+   "lang": "en",
+   "cat": "科技产业",
+   "pat": "techinsights\\.com/(blog|behind-the-headlines)/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "Lloyd's List劳氏日报",
+   "url": "https://www.lloydslist.com/",
+   "lang": "en",
+   "cat": "海事航运",
+   "pat": "lloydslist\\.com/LL[0-9]+/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "众议院外交事务委员会",
+   "url": "https://foreignaffairs.house.gov/",
+   "lang": "en",
+   "cat": "官方政府",
+   "pat": "foreignaffairs\\.house\\.gov/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "东南亚研究所ISEAS",
+   "url": "https://www.iseas.edu.sg/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "iseas\\.edu\\.sg/(articles-commentaries|posts|media|events|comments)/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "德国SWP国际安全研究所",
+   "url": "https://www.swp-berlin.org/en/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "swp-berlin\\.org/en/publication/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "芬兰FIIA外交政策研究所",
+   "url": "https://fiia.fi/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "fiia\\.fi/(ajankohtaista|en)/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "挪威NUPI国际事务研究所",
+   "url": "https://www.nupi.no/",
+   "lang": "en",
+   "cat": "智库",
+   "pat": "nupi\\.no/[^\\s\\)\\]]+"
+  },
+  {
+   "name": "微软安全博客",
+   "url": "https://www.microsoft.com/en-us/security/blog/",
+   "lang": "en",
+   "cat": "网络安全",
+   "pat": "microsoft\\.com/en-us/security/blog/[^\\s\\)\\]]+"
   }
  ],
  "search_categories": [
