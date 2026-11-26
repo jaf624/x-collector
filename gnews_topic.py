@@ -50,6 +50,39 @@ def parse_pubdate(s):
     except Exception:
         return None
 
+TRACK_PARAMS = {"hl", "gl", "ceid", "oc"}
+
+def _aid(u):
+    """Google News 文章段 ID；同一文章只是跟踪参数变体时，ID 不变。"""
+    m = re.search(r"/articles/([^?/]+)", u or "")
+    return m.group(1) if m else ""
+
+def _norm_url(u):
+    """去掉 hl/gl/ceid/oc 等跟踪查询参数，避免同文不同链接绕过去重。"""
+    u = (u or "").strip()
+    if "?" in u:
+        base, q = u.split("?", 1)
+        keep = [p for p in q.split("&") if p and p.split("=")[0] not in TRACK_PARAMS]
+        u = base + ("?" + "&".join(keep) if keep else "")
+    return u
+
+def _dedup_gn(feed):
+    """存量 gnews 条目按文章 ID（兜底标题）去重，直连源条目不动。"""
+    seen_aid, seen_title, out = set(), set(), []
+    for x in feed:
+        if x.get("route") != "gnews_topic":
+            out.append(x)
+            continue
+        aid = _aid(x.get("url", ""))
+        key_t = (x.get("title", "") or "")[:60]
+        if aid and aid in seen_aid:
+            continue
+        if key_t and key_t in seen_title:
+            continue
+        seen_aid.add(aid); seen_title.add(key_t)
+        out.append(x)
+    return out
+
 def gnews_search(q, n=5):
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
         "q": q, "hl": "en-US", "gl": "US", "ceid": "US:en"})
@@ -77,15 +110,17 @@ def main():
     cfg = json.load(open(SRC, encoding="utf-8"))
     topics = cfg.get("search_categories", [])
     feed = json.load(open(FEED, encoding="utf-8")) if os.path.exists(FEED) else []
-    existing = set(x.get("url","") for x in feed)
-    existing_titles = set(x.get("title","")[:60] for x in feed)
+    feed = _dedup_gn(feed)
+    existing_aid = set(filter(None, (_aid(x.get("url", "")) for x in feed)))
+    existing = set(_norm_url(x.get("url", "")) for x in feed)
+    existing_titles = set(x.get("title", "")[:60] for x in feed)
     now = datetime.datetime.utcnow()
     now_iso = now.isoformat()
     cutoff = now - datetime.timedelta(days=MAX_AGE_DAYS)
     added = 0; skipped_old = 0; skipped_dup = 0
     for tp in topics:
-        cat = tp.get("cat","")
-        q = tp.get("q","")
+        cat = tp.get("cat", "")
+        q = tp.get("q", "")
         if not q:
             continue
         for art in gnews_search(q, n=5):
@@ -96,13 +131,16 @@ def main():
             pd = parse_pubdate(art["pub"])
             if pd and pd < cutoff:
                 skipped_old += 1; continue
-            # 跳转链接resolve（只resolve标题去重过的，省时间）
-            if t[:60] in existing_titles:
+            aid = _aid(art["url"])
+            # 文章 ID 或标题命中即判重，挡住跟踪参数变体
+            if (aid and aid in existing_aid) or t[:60] in existing_titles:
                 skipped_dup += 1; continue
             orig_url = resolve_redirect(art["url"])
-            if orig_url in existing:
+            norm = _norm_url(orig_url)
+            if norm in existing:
                 skipped_dup += 1; continue
-            hid = hashlib.md5(orig_url.encode()).hexdigest()[:16]
+            hid_src = aid or norm
+            hid = hashlib.md5(hid_src.encode()).hexdigest()[:16]
             feed.append({
                 "id": "gn_" + hid,
                 "title": t,
@@ -122,7 +160,7 @@ def main():
                 "category_key": cat,
                 "handling": "gnews_aggregator",
             })
-            existing.add(orig_url); existing_titles.add(t[:60])
+            existing_aid.add(aid); existing.add(norm); existing_titles.add(t[:60])
             added += 1
         time.sleep(0.3)
     feed = feed[-3000:]
