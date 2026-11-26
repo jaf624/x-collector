@@ -4,10 +4,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMWRNaHFmalJ3ZTFfQnZsaGZteHk0bHVlWi1oYUhmVkxrNjJCZlhQRUF4N3Focy12cE9sTWhaZzFSVTRZdUFHMU5JRExNdVU3cmpyZWp5X2E",
-   "len": 611094
+   "len": 611046
   },
   "page": {
-   "html_len": 611027,
+   "html_len": 611087,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -46,6 +46,9 @@
   "batch2": {
    "real": "",
    "why": "both_err:HTTPError400"
+  },
+  "jina": {
+   "err": "HTTPError:HTTP Error 402: Payment Required"
   }
  },
  {
@@ -53,10 +56,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMWRNaHFmalJ3ZTFfQnZsaGZteHk0bHVlWi1oYUhmVkxrNjJCZlhQRUF4N3Focy12cE9sTWhaZzFSVTRZdUFHMU5JRExNdVU3cmpyZWp5X2E",
-   "len": 611035
+   "len": 611046
   },
   "page": {
-   "html_len": 611018,
+   "html_len": 611056,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -95,6 +98,9 @@
   "batch2": {
    "real": "",
    "why": "both_err:HTTPError400"
+  },
+  "jina": {
+   "err": "HTTPError:HTTP Error 402: Payment Required"
   }
  },
  {
@@ -102,10 +108,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb3g3MGlFT1JxOXB0cjFCenotLUZtNmxHdV9aTXNqUjRYVjh1aFBla1N0aXp0VndqSFdXd2NTOXVEb05lcXk0Y3lFTkJvaHNHOEdBeXlBNkY",
-   "len": 609504
+   "len": 609505
   },
   "page": {
-   "html_len": 609495,
+   "html_len": 609516,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -144,6 +150,9 @@
   "batch2": {
    "real": "",
    "why": "both_err:HTTPError400"
+  },
+  "jina": {
+   "err": "HTTPError:HTTP Error 402: Payment Required"
   }
  },
  {
@@ -151,10 +160,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb3g3MGlFT1JxOXB0cjFCenotLUZtNmxHdV9aTXNqUjRYVjh1aFBla1N0aXp0VndqSFdXd2NTOXVEb05lcXk0Y3lFTkJvaHNHOEdBeXlBNkY",
-   "len": 609534
+   "len": 609547
   },
   "page": {
-   "html_len": 609505,
+   "html_len": 609448,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -193,6 +202,9 @@
   "batch2": {
    "real": "",
    "why": "both_err:HTTPError400"
+  },
+  "jina": {
+   "err": "HTTPError:HTTP Error 402: Payment Required"
   }
  },
  {
@@ -200,10 +212,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2wxcDFXRGZMZ2wwdGpCU3pyQldueXVpYW1NUFgtbmpaTUJ2UVVHTFBFRm9PNjlwVjRoRGlidHIzdVNSXzhKMnVBbU5zQmRQSjE0YURubGx",
-   "len": 610348
+   "len": 610393
   },
   "page": {
-   "html_len": 610365,
+   "html_len": 610339,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -242,6 +254,9 @@
   "batch2": {
    "real": "",
    "why": "both_err:HTTPError400"
+  },
+  "jina": {
+   "err": "HTTPError:HTTP Error 402: Payment Required"
   }
  },
  {
@@ -249,10 +264,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2wxcDFXRGZMZ2wwdGpCU3pyQldueXVpYW1NUFgtbmpaTUJ2UVVHTFBFRm9PNjlwVjRoRGlidHIzdVNSXzhKMnVBbU5zQmRQSjE0YURubGx",
-   "len": 610367
+   "len": 610338
   },
   "page": {
-   "html_len": 610359,
+   "html_len": 610357,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -291,6 +306,9 @@
   "batch2": {
    "real": "",
    "why": "both_err:HTTPError400"
+  },
+  "jina": {
+   "err": "HTTPError:HTTP Error 402: Payment Required"
   }
  }
 ]
