@@ -4,10 +4,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMWRNaHFmalJ3ZTFfQnZsaGZteHk0bHVlWi1oYUhmVkxrNjJCZlhQRUF4N3Focy12cE9sTWhaZzFSVTRZdUFHMU5JRExNdVU3cmpyZWp5X2E",
-   "len": 602493
+   "len": 611094
   },
   "page": {
-   "html_len": 602532,
+   "html_len": 611027,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -35,8 +35,57 @@
     ]
    ],
    "nongoogle": [
-    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.MsAfrBh8pUY.L.B1.O/am=GAIFAAAAgAFNgIEIIA/",
-    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.f1Chz9hGrhQ.2018.O/am=GAIFAAAAAABNg"
+    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.d-zbjZMSmRE.L.B1.O/am=GAIFAAIgADCgCTAQAQY",
+    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.g3vxv-rmihA.2018.O/am=GAIFAAAAAACgC"
+   ]
+  },
+  "batch": {
+   "real": "",
+   "why": "post_err:HTTPError400"
+  },
+  "batch2": {
+   "real": "",
+   "why": "both_err:HTTPError400"
+  }
+ },
+ {
+  "title": "U.S. sending Patriot system to Israel as Mideast t",
+  "redirect": {
+   "status": 200,
+   "final": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMWRNaHFmalJ3ZTFfQnZsaGZteHk0bHVlWi1oYUhmVkxrNjJCZlhQRUF4N3Focy12cE9sTWhaZzFSVTRZdUFHMU5JRExNdVU3cmpyZWp5X2E",
+   "len": 611035
+  },
+  "page": {
+   "html_len": 611018,
+   "has_sig": true,
+   "has_ts": true,
+   "n_au": 0,
+   "n_a": 3,
+   "top_hosts": [
+    [
+     "www.gstatic.com",
+     50
+    ],
+    [
+     "lh3.googleusercontent.com",
+     4
+    ],
+    [
+     "news.google.com",
+     3
+    ],
+    [
+     "www.google-analytics.com",
+     1
+    ],
+    [
+     "fonts.googleapis.com",
+     1
+    ]
+   ],
+   "nongoogle": [
+    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.d-zbjZMSmRE.L.B1.O/am=GAIFAAIgADCgCTAQAQY",
+    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.g3vxv-rmihA.2018.O/am=GAIFAAAAAACgC"
    ]
   },
   "batch": {
@@ -53,10 +102,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb3g3MGlFT1JxOXB0cjFCenotLUZtNmxHdV9aTXNqUjRYVjh1aFBla1N0aXp0VndqSFdXd2NTOXVEb05lcXk0Y3lFTkJvaHNHOEdBeXlBNkY",
-   "len": 600962
+   "len": 609504
   },
   "page": {
-   "html_len": 600973,
+   "html_len": 609495,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -84,8 +133,57 @@
     ]
    ],
    "nongoogle": [
-    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.MsAfrBh8pUY.L.B1.O/am=GAIFAAAAgAFNgIEIIA/",
-    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.f1Chz9hGrhQ.2018.O/am=GAIFAAAAAABNg"
+    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.d-zbjZMSmRE.L.B1.O/am=GAIFAAIgADCgCTAQAQY",
+    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.g3vxv-rmihA.2018.O/am=GAIFAAAAAACgC"
+   ]
+  },
+  "batch": {
+   "real": "",
+   "why": "post_err:HTTPError400"
+  },
+  "batch2": {
+   "real": "",
+   "why": "both_err:HTTPError400"
+  }
+ },
+ {
+  "title": "Data shows driverless taxis in Houston are safe, b",
+  "redirect": {
+   "status": 200,
+   "final": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb3g3MGlFT1JxOXB0cjFCenotLUZtNmxHdV9aTXNqUjRYVjh1aFBla1N0aXp0VndqSFdXd2NTOXVEb05lcXk0Y3lFTkJvaHNHOEdBeXlBNkY",
+   "len": 609534
+  },
+  "page": {
+   "html_len": 609505,
+   "has_sig": true,
+   "has_ts": true,
+   "n_au": 0,
+   "n_a": 3,
+   "top_hosts": [
+    [
+     "www.gstatic.com",
+     50
+    ],
+    [
+     "lh3.googleusercontent.com",
+     4
+    ],
+    [
+     "news.google.com",
+     3
+    ],
+    [
+     "www.google-analytics.com",
+     1
+    ],
+    [
+     "fonts.googleapis.com",
+     1
+    ]
+   ],
+   "nongoogle": [
+    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.d-zbjZMSmRE.L.B1.O/am=GAIFAAIgADCgCTAQAQY",
+    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.g3vxv-rmihA.2018.O/am=GAIFAAAAAACgC"
    ]
   },
   "batch": {
@@ -102,10 +200,10 @@
   "redirect": {
    "status": 200,
    "final": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2wxcDFXRGZMZ2wwdGpCU3pyQldueXVpYW1NUFgtbmpaTUJ2UVVHTFBFRm9PNjlwVjRoRGlidHIzdVNSXzhKMnVBbU5zQmRQSjE0YURubGx",
-   "len": 601854
+   "len": 610348
   },
   "page": {
-   "html_len": 601833,
+   "html_len": 610365,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -133,8 +231,8 @@
     ]
    ],
    "nongoogle": [
-    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.MsAfrBh8pUY.L.B1.O/am=GAIFAAAAgAFNgIEIIA/",
-    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.f1Chz9hGrhQ.2018.O/am=GAIFAAAAAABNg"
+    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.d-zbjZMSmRE.L.B1.O/am=GAIFAAIgADCgCTAQAQY",
+    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.g3vxv-rmihA.2018.O/am=GAIFAAAAAACgC"
    ]
   },
   "batch": {
@@ -147,14 +245,14 @@
   }
  },
  {
-  "title": "China Developing More On-Orbit Space Weapons: New ",
+  "title": "‘Don’t be stinky’: recruitment a ‘huge issue’ faci",
   "redirect": {
    "status": 200,
-   "final": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRmk1UnZsN0tlY21vc210MHlOY0ttY3BWajFCU3A1N0hENU5VTkhPeFF1ajktVXp1MG10dDRhYnZDU04zcUVJdTU2TUdJTFdzM1VadDhLdVd",
-   "len": 600313
+   "final": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2wxcDFXRGZMZ2wwdGpCU3pyQldueXVpYW1NUFgtbmpaTUJ2UVVHTFBFRm9PNjlwVjRoRGlidHIzdVNSXzhKMnVBbU5zQmRQSjE0YURubGx",
+   "len": 610367
   },
   "page": {
-   "html_len": 600314,
+   "html_len": 610359,
    "has_sig": true,
    "has_ts": true,
    "n_au": 0,
@@ -182,106 +280,8 @@
     ]
    ],
    "nongoogle": [
-    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.MsAfrBh8pUY.L.B1.O/am=GAIFAAAAgAFNgIEIIA/",
-    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.f1Chz9hGrhQ.2018.O/am=GAIFAAAAAABNg"
-   ]
-  },
-  "batch": {
-   "real": "",
-   "why": "post_err:HTTPError400"
-  },
-  "batch2": {
-   "real": "",
-   "why": "both_err:HTTPError400"
-  }
- },
- {
-  "title": "Shiri Bibas deepfake, fake Arab voters and Iran: H",
-  "redirect": {
-   "status": 200,
-   "final": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYTFgzb0hqeGJDN2RWSUIzMWxadk9fVGYtRXk2SW1jd2tWWTRLcTJ5LWs0OEQzaFFIbzgxOVdTYlJOZHpYM2tCM0hrTVBOREhOS2RhSnNfU0J",
-   "len": 599117
-  },
-  "page": {
-   "html_len": 599137,
-   "has_sig": true,
-   "has_ts": true,
-   "n_au": 0,
-   "n_a": 3,
-   "top_hosts": [
-    [
-     "www.gstatic.com",
-     50
-    ],
-    [
-     "lh3.googleusercontent.com",
-     4
-    ],
-    [
-     "news.google.com",
-     3
-    ],
-    [
-     "www.google-analytics.com",
-     1
-    ],
-    [
-     "fonts.googleapis.com",
-     1
-    ]
-   ],
-   "nongoogle": [
-    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.MsAfrBh8pUY.L.B1.O/am=GAIFAAAAgAFNgIEIIA/",
-    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.f1Chz9hGrhQ.2018.O/am=GAIFAAAAAABNg"
-   ]
-  },
-  "batch": {
-   "real": "",
-   "why": "post_err:HTTPError400"
-  },
-  "batch2": {
-   "real": "",
-   "why": "both_err:HTTPError400"
-  }
- },
- {
-  "title": "Former CEO alleges Russian company financed Alaska",
-  "redirect": {
-   "status": 200,
-   "final": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQSFNJOHhkQUNpMU5EdldrXzFGZ3hjVlpRajNpTGlpOFV2a1FsTEJ4aDFiUmhQWE1RYVo0S2szYkVXNGNEQ3pwQlVEWWJ5T096SUpLZkNLLXl",
-   "len": 603943
-  },
-  "page": {
-   "html_len": 603892,
-   "has_sig": true,
-   "has_ts": true,
-   "n_au": 0,
-   "n_a": 3,
-   "top_hosts": [
-    [
-     "www.gstatic.com",
-     50
-    ],
-    [
-     "lh3.googleusercontent.com",
-     4
-    ],
-    [
-     "news.google.com",
-     3
-    ],
-    [
-     "www.google-analytics.com",
-     1
-    ],
-    [
-     "fonts.googleapis.com",
-     1
-    ]
-   ],
-   "nongoogle": [
-    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.MsAfrBh8pUY.L.B1.O/am=GAIFAAAAgAFNgIEIIA/",
-    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.f1Chz9hGrhQ.2018.O/am=GAIFAAAAAABNg"
+    "https://www.gstatic.com/_/mss/boq-dots/_/ss/k=boq-dots.DotsSplashUi_desktop_ms.d-zbjZMSmRE.L.B1.O/am=GAIFAAIgADCgCTAQAQY",
+    "https://www.gstatic.com/_/mss/boq-dots/_/js/k=boq-dots.DotsSplashUi_desktop_ms.en_US.g3vxv-rmihA.2018.O/am=GAIFAAAAAACgC"
    ]
   },
   "batch": {
