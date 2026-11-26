@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""gnews_probe.py — 在 Actions 环境里对同一批 Google News 链接做三法对照，结果写入 data/gnews_probe.json"""
+"""gnews_probe.py — 在 Actions 环境里对同一批 Google News 链接做多法对照，结果写入 data/gnews_probe.json"""
 import json
+import os
 import re
 import urllib.request
 
@@ -60,6 +61,22 @@ def method_batch2(u):
         return {"err": type(e).__name__ + ":" + str(e)[:60]}
 
 
+def method_jina(u):
+    """Jina 无头浏览器渲染 Google 跳转页，看能否直接读出原文/原站链接（区别于 batchexecute 接口还原）。"""
+    key = os.environ.get("JINA_KEY", "").strip()
+    if not key:
+        return {"err": "no_key"}
+    try:
+        req = urllib.request.Request("https://r.jina.ai/" + u, headers={
+            "Authorization": f"Bearer {key}", "Accept": "text/plain",
+            "User-Agent": "Mozilla/5.0"})
+        body = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "ignore")
+        links = [x[:120] for x in re.findall(r"https?://[^\s\])>]+", body) if "google" not in x]
+        return {"len": len(body), "nongoogle": links[:3], "head": body[:200]}
+    except Exception as e:
+        return {"err": type(e).__name__ + ":" + str(e)[:50]}
+
+
 def main():
     items = json.load(open(FEED, encoding="utf-8"))
     if isinstance(items, dict):
@@ -73,7 +90,8 @@ def main():
                     "redirect": method_redirect(u),
                     "page": method_article_page(u),
                     "batch": method_batch(u),
-                    "batch2": method_batch2(u)})
+                    "batch2": method_batch2(u),
+                    "jina": method_jina(u)})
     json.dump(res, open(OUT, "w"), ensure_ascii=False, indent=1)
     print("probed", len(res))
 

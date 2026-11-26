@@ -11,7 +11,10 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install requests
-      - run: python3 gnews_probe.py
+      - name: Probe gnews redirect resolution (batch / batch2 / Jina render)
+        env:
+          JINA_KEY: ${{ secrets.JINA_KEY }}
+        run: python3 gnews_probe.py
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
