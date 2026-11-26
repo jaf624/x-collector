@@ -23,9 +23,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 sys.path.insert(0, ".")
 try:
-    from body_extract import extract
+    from body_extract import extract, extract_comments
 except Exception:
     extract = None
+    extract_comments = None
 try:
     from gnews_resolve import resolve_verbose as gnews_resolve
 except Exception:
@@ -48,17 +49,18 @@ def norm(u):
 def fetch_text(url, title):
     """统一走 netguard：每 host 限速、403/429 熔断、curl_cffi 复刻 Chrome 指纹。
     拿不到 netguard 时退回 urllib，保证单文件也能跑。"""
+    raw = ""
     try:
         import netguard
         st, raw, _meta = netguard.fetch(url, timeout=TIMEOUT)
         if st == 0 or not raw:
-            return None, "net:%s" % (_meta.get("err") or "cooled")
+            return None, "net:%s" % (_meta.get("err") or "cooled"), ""
     except Exception:
         req = urllib.request.Request(url, headers={"User-Agent": UA,
                                                   "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8"})
         raw = urllib.request.urlopen(req, timeout=TIMEOUT).read(MAX_BYTES).decode("utf-8", "ignore")
     txt, why = extract(raw, title)
-    return (txt if txt else None), why
+    return (txt if txt else None), why, raw
 
 
 def main():
@@ -98,6 +100,7 @@ def main():
     started = time.time()
 
     resolved = [0]
+    comments_hit = [0]
 
     def work(x):
         try:
@@ -105,17 +108,17 @@ def main():
             if "news.google.com" in u:
                 real, why_r = gnews_resolve(u) if gnews_resolve else (None, "no_module")
                 if not real:
-                    return x, None, "gnews_" + (why_r or "unknown")
+                    return x, None, "gnews_" + (why_r or "unknown"), ""
                 x["url_real"] = real
                 u = real
-            txt, why = fetch_text(norm(u), x.get("title") or "")
-            return x, txt, why
+            txt, why, raw = fetch_text(norm(u), x.get("title") or "")
+            return x, txt, why, raw
         except Exception as e:
-            return x, None, str(e)[:40]
+            return x, None, str(e)[:40], ""
 
     with ThreadPoolExecutor(max_workers=6) as ex:
         for fut in as_completed([ex.submit(work, x) for x in batch]):
-            x, txt, why = fut.result()
+            x, txt, why, raw = fut.result()
             if not txt:
                 fail += 1
                 k = (why or "unknown").split(":")[0][:20]
@@ -127,6 +130,10 @@ def main():
                 resolved[0] += 1
             x["summary"] = ((x.get("title") or "") + "。" + txt[:160])[:400]
             x["needs_deepdive"] = False
+            # 前 2 条静态跟帖；动态/登录墙评论取不到，留空数组
+            x["comments"] = extract_comments(raw, 2) if (extract_comments and raw) else []
+            if x["comments"]:
+                comments_hit[0] += 1
             ok += 1
 
     json.dump(items, open(FEED, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -137,10 +144,11 @@ def main():
              "gnews_indexed": len(gnews),
              "direct_n": len(direct), "direct_body": len(direct_body),
              "direct_rate": round(len(direct_body) / len(direct), 3) if direct else 0,
+             "comments_hit": comments_hit[0],
              "reasons": reasons, "resolved": resolved[0], "remain_empty": remain, "secs": round(time.time() - started, 1),
              "ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
     json.dump(stats, open("data/body_backfill_stats.json", "w"), ensure_ascii=False, indent=1)
-    print("backfill ok=%d fail=%d 剩余空壳=%d/%d 原因=%s" % (ok, fail, remain, len(items), reasons), flush=True)
+    print("backfill ok=%d fail=%d 评论命中=%d 剩余空壳=%d/%d 原因=%s" % (ok, fail, comments_hit[0], remain, len(items), reasons), flush=True)
     return 0
 
 

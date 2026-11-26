@@ -113,3 +113,56 @@ def extract(html, title=""):
     if facts_count(best) < 2:
         return "", "no_fact"
     return best[:3000], "ok"
+
+
+# ---------- 评论抽取（静态 HTML 前 N 条跟帖；动态 JS/登录墙取不到返回 []） ----------
+_CMT_AUTHOR = re.compile(r'(?i)class="[^"]*(?:author|username|user-name|name)[^"]*"[^>]*>([^<>]{2,40})<')
+_CMT_LIKES = re.compile(r'(?i)(?:score|likes?|upvotes?|votes?|replies?)\D{0,6}(\d{1,4})')
+_CMT_TIME = re.compile(r'datetime="([^"]+)"|((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w*\.?\s*\d{1,2}(?:,\s*\d{4})?)')
+
+
+def _comment_clean(t):
+    t = re.sub(r"&nbsp;|&amp;|&quot;|&lt;|&gt;|&#\d+;", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def extract_comments(html, max_n=2):
+    """返回 [{author, text, likes, time}]，最多 max_n 条；取不到返回 []。
+
+    只解析服务端直出的静态评论块（论坛/Reddit/留言板/部分 Disqus）；
+    由 JS 异步加载、登录墙、弹窗内的评论不在 HTML 里，自然抽不到，留空即可。
+    """
+    if not html or len(html) < 200:
+        return []
+    h = _strip_tags(html)
+    blocks = []
+    for tag in ("li", "div", "article"):
+        pat = r'(?is)<%s[^>]*(?:class|id)="[^"]*(?:comment|reply|review|response)[^"]*"[^>]*>(.*?)</%s>' % (tag, tag)
+        blocks += re.findall(pat, h)
+    out, seen = [], set()
+    for b in blocks:
+        b2 = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", b)
+        au = _CMT_AUTHOR.search(b2)
+        author = au.group(1).strip() if au else ""
+        lk = _CMT_LIKES.search(b2)
+        likes = int(lk.group(1)) if lk else None
+        tm = _CMT_TIME.search(b2)
+        ctime = ""
+        if tm:
+            ctime = next((g for g in (tm.group(1), tm.group(2)) if g), "")
+        ps = re.findall(r"(?is)<p[^>]*>(.*?)</p>", b2)
+        ps = [_comment_clean(re.sub(r"(?is)<[^>]+>", " ", p)) for p in ps]
+        ps = [p for p in ps if len(p) >= 15]
+        text = max(ps, key=len) if ps else _comment_clean(re.sub(r"(?is)<[^>]+>", " ", b2))
+        if len(text) < 15 or len(text) > 600:
+            continue
+        if author and text.startswith(author):
+            text = text[len(author):].strip()
+        key = text[:40]
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append({"author": author, "text": text[:300], "likes": likes, "time": ctime})
+        if len(out) >= max_n:
+            break
+    return out
