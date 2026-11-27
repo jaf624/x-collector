@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-27T15:15:35.657060Z",
+ "probed_at": "2026-11-27T22:28:48.832949Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,13 +7,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Former government chief of China's Guangxi sentenced to death with reprieve over graft - Reuters",
+   "sample": "PODCAST: China boost lifts tech - Reuters",
    "diag": [
     {
-     "title": "Former government chief of China's Guangxi sentenced to deat",
+     "title": "PODCAST: China boost lifts tech - Reuters",
      "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXpEaENJRlIwSHl4d",
-     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXpEaENJRlIwSHl4dEZuT0pwQTVreDduek1JS",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOUxDcmFlaWNUU0dyU",
+     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOUxDcmFlaWNUU0dyU1hBUHdKX1BNV1QwUGxaS",
      "resolved": false
     },
     {
@@ -24,24 +24,24 @@
      "resolved": false
     },
     {
-     "title": "PODCAST: China boost lifts tech - Reuters",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOUxDcmFlaWNUU0dyU",
-     "real": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOUxDcmFlaWNUU0dyU1hBUHdKX1BNV1QwUGxaS",
-     "resolved": false
-    },
-    {
-     "title": "Taiwan local election campaigns enter final day; China sends",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRzJNWEpPd2tGOERUM",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRzJNWEpPd2tGOERUMUhtUXFlcjBfSzhwZ2xnT",
-     "resolved": false
-    },
-    {
      "title": "Chinese military tests new Taiwan landing tactics in coastal",
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRHU2ODhzTFRNUi1YM",
      "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRHU2ODhzTFRNUi1YM1VpRVZEZlg4MXFpaGxIZ",
+     "resolved": false
+    },
+    {
+     "title": "Former government chief of China's Guangxi sentenced to deat",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXpEaENJRlIwSHl4d",
+     "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXpEaENJRlIwSHl4dEZuT0pwQTVreDduek1JS",
+     "resolved": false
+    },
+    {
+     "title": "Packed rallies close Taiwan election campaign; China sends w",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRzJNWEpPd2tGOERUM",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRzJNWEpPd2tGOERUMUhtUXFlcjBfSzhwZ2xnT",
      "resolved": false
     }
    ]
@@ -128,10 +128,10 @@
      "resolved": false
     },
     {
-     "title": "New Zealand mayor says democracy has 'had its day' after Chi",
-     "date": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnJJQ2dCTkV3V24zZ",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnJJQ2dCTkV3V24zZkxVU1JNVjV6bTN3aXhxL",
+     "title": "A propos - New US tariffs: 'Trump lashing out really indiscr",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb0xOeHFXRlJuT1V1S",
+     "real": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb0xOeHFXRlJuT1V1SExteHVPYnQyeWFER0R3Y",
      "resolved": false
     }
    ]
@@ -142,7 +142,7 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang - Bloomberg.com",
+   "sample": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang - Bloomberg",
    "diag": [
     {
      "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice H",
@@ -152,17 +152,17 @@
      "resolved": false
     },
     {
-     "title": "China’s Cabinet Stresses Market Support in Rare Midday State",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQak5CQ2hzYk9WT0pEN",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQak5CQ2hzYk9WT0pEN2JpTjdqdU81V2pWSkxEV",
-     "resolved": false
-    },
-    {
      "title": "The US Is Squandering Its Lead Over China in Aerospace - Blo",
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPenc3M2hzMkpNMDdnb",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPenc3M2hzMkpNMDdnbGs4UXNtak9EX09SbFRST",
+     "resolved": false
+    },
+    {
+     "title": "China’s Cabinet Stresses Market Support in Rare Midday State",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQak5CQ2hzYk9WT0pEN",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQak5CQ2hzYk9WT0pEN2JpTjdqdU81V2pWSkxEV",
      "resolved": false
     },
     {
@@ -204,17 +204,17 @@
      "resolved": false
     },
     {
-     "title": "China's Sany pushes AI into heavy machinery as overseas sale",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0Yyc29DdWZ1UndvZ",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0Yyc29DdWZ1UndvZVNCTDZCVDV4Z2pZXzlxb",
-     "resolved": false
-    },
-    {
      "title": "Analysis: US grants Mao Zedong's 'chairman' title to Xi Jinp",
      "date": "2026-11-25",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNenNQbEN4aE91Rkp3Z",
      "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNenNQbEN4aE91Rkp3Z09wNkdkelpUcUI1VVZyN",
+     "resolved": false
+    },
+    {
+     "title": "China's Sany pushes AI into heavy machinery as overseas sale",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0Yyc29DdWZ1UndvZ",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0Yyc29DdWZ1UndvZVNCTDZCVDV4Z2pZXzlxb",
      "resolved": false
     },
     {
@@ -256,17 +256,17 @@
      "resolved": false
     },
     {
-     "title": "China’s super-rich have a new obsession: million-dollar fish",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdXlIeEtfSnMtUTQ3V",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdXlIeEtfSnMtUTQ3VksyY1VVZ2ZuMkxNV0ZpT",
-     "resolved": false
-    },
-    {
      "title": "EU weighs tighter export controls to prevent battery waste g",
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnpuc0FCRzZjNXFLR",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnpuc0FCRzZjNXFLRFJWSk02YlZ2SkVlV1ZsW",
+     "resolved": false
+    },
+    {
+     "title": "China’s super-rich have a new obsession: million-dollar fish",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdXlIeEtfSnMtUTQ3V",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdXlIeEtfSnMtUTQ3VksyY1VVZ2ZuMkxNV0ZpT",
      "resolved": false
     }
    ]
@@ -277,20 +277,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Chinese Shares Lifted as Beijing Signals More Market Support - WSJ",
+   "sample": "China’s Industrial Profit Surged Despite Headwinds - WSJ",
    "diag": [
-    {
-     "title": "Chinese Shares Lifted as Beijing Signals More Market Support",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNU",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNUGZseElzdWpzZmIzN3Y4c",
-     "resolved": false
-    },
     {
      "title": "China’s Industrial Profit Surged Despite Headwinds - WSJ",
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUjRGd3IxbF9CN3FsR",
      "real": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUjRGd3IxbF9CN3FsRW9xV0RDQ1lGRmItRTJFM",
+     "resolved": false
+    },
+    {
+     "title": "Chinese Shares Lifted as Beijing Signals More Market Support",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNU",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNUGZseElzdWpzZmIzN3Y4c",
      "resolved": false
     },
     {
@@ -309,7 +309,7 @@
     },
     {
      "title": "No Evidence China Orchestrated Jensen Huang’s Affair, Offici",
-     "date": "2026-11-25",
+     "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1MzT3BJb0JlQ2xzd",
      "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1MzT3BJb0JlQ2xzdTJRZi12MllDSlBzS3IwM",
      "resolved": false
@@ -339,13 +339,6 @@
      "resolved": false
     },
     {
-     "title": "Trump’s Latest Tariffs Revive Focus on Pressuring China - Th",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1odENQTk1RR0JMbTlRY",
-     "real": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1odENQTk1RR0JMbTlRYWhYcnh6cGdvcktJUGVNZ",
-     "resolved": false
-    },
-    {
      "title": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China ",
      "date": "2026-11-26",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSHM3RHJjQzd5X25CS",
@@ -358,6 +351,13 @@
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TcDdtZ0tkZWZ4OE1nU",
      "real": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TcDdtZ0tkZWZ4OE1nUFM2TDY0bVJFTGkwTzJVa",
      "resolved": false
+    },
+    {
+     "title": "Was Japan Prime Minister Takaichi Snubbed at China’s Big Sum",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc0pLUEZsX0FSZ1BkN",
+     "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc0pLUEZsX0FSZ1BkN3NfS2laZGh2dlg4R3hQU",
+     "resolved": false
     }
    ]
   },
@@ -367,8 +367,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "The fall of China’s most trusted wealth manager - The Economist",
+   "sample": "Nuclear-arms control is on hold until China catches up - The Economist",
    "diag": [
+    {
+     "title": "Nuclear-arms control is on hold until China catches up - The",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTmpSekMybnFNVjBFc",
+     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTmpSekMybnFNVjBFcVN2NWhGenhaRFZUNFhNa",
+     "resolved": false
+    },
     {
      "title": "The fall of China’s most trusted wealth manager - The Econom",
      "date": "2026-11-26",
@@ -377,10 +384,10 @@
      "resolved": false
     },
     {
-     "title": "Nuclear-arms control is on hold until China catches up - The",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTmpSekMybnFNVjBFc",
-     "real": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTmpSekMybnFNVjBFcVN2NWhGenhaRFZUNFhNa",
+     "title": "Shanghai’s boss is purged from Xi Jinping’s top team - The E",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS",
+     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS3R2NWdFZTYxUldCenh3d",
      "resolved": false
     },
     {
@@ -396,13 +403,6 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSm9KQ0JTZUZ3V2hXd",
      "real": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSm9KQ0JTZUZ3V2hXdmFjMEg1YlljRTVHZmFHZ",
      "resolved": false
-    },
-    {
-     "title": "Shanghai’s boss is purged from Xi Jinping’s top team - The E",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS",
-     "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS3R2NWdFZTYxUldCenh3d",
-     "resolved": false
     }
    ]
   },
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 100,
    "is_feed": true,
    "sample": "France plans to create rare earths stockpile and encourage joint buying - Reuters",
    "diag": [
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
+     "title": "China's top rare earth firms' profits surge on supply caps -",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZ",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZGxCSXFfQU5lenV4TGtPT",
+     "resolved": false
+    },
+    {
      "title": "Myanmar lobbies US to invest in its rare earths sector, domi",
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEW",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEWXRUaWhDWUl1bEpxYUIte",
-     "resolved": false
-    },
-    {
-     "title": "China rare earth firms halt some US shipments over geopoliti",
-     "date": "2026-09-04",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3O",
-     "real": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWDN1dWNKT01aNWd3OWc5WGpVc2FRYk5TTEpfU",
      "resolved": false
     }
    ]
@@ -503,7 +503,7 @@
    "status": 200,
    "items": 20,
    "is_feed": true,
-   "sample": "Hegseth Extends Thanksgiving Greetings to Troops Deployed at Home, Abroad"
+   "sample": "NORAD and USNORTHCOM Commander Hosts Mexican Defense Leadership for Strategic Bilateral Engagements in Tucson, Arizona"
   },
   {
    "name": "商务部新闻",
@@ -560,7 +560,7 @@
    "status": 200,
    "items": 30,
    "is_feed": true,
-   "sample": "USNI News Western Pacific Pulse: Nov. 27, 2026"
+   "sample": "80,000 Tons of Liberté"
   },
   {
    "name": "DefenseNews",
@@ -576,7 +576,7 @@
    "status": 200,
    "items": 36,
    "is_feed": true,
-   "sample": "Trafigura poaches Codelco commercial executive in fresh shakeup"
+   "sample": "Op-Ed: The global reshuffle – who will control the next era of manganese? "
   },
   {
    "name": "OilPrice",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Trump Urges Putin to End Aggression as Europe Braces for U.S. Military Cuts"
+   "sample": "Georgia Voters to Decide Fate of $17 Billion Data Center Megaproject"
   },
   {
    "name": "IMF",
@@ -628,7 +628,7 @@
    "status": 200,
    "items": 24,
    "is_feed": true,
-   "sample": "With new law, Iraq sees rise in child marriage, custody battles"
+   "sample": "<![CDATA[S&P revises France's outlook from 'stable' to 'negative']]>"
   },
   {
    "name": "JapanTimes",
@@ -679,12 +679,12 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Delivery of first MV-75 for testing officially delayed amid funding setbacks: Army"
+   "sample": "BAE Hägglunds lands record $6B deal for 400+ CV90s from five NATO nations"
   },
   {
    "name": "MiningWeekly",
    "url": "https://www.miningweekly.com/rss/news",
-   "status": 403,
+   "status": 404,
    "items": 0,
    "is_feed": false
   }
