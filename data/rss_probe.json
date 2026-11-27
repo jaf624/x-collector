@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-27T22:28:48.832949Z",
+ "probed_at": "2026-11-27T23:33:53.337113Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -142,7 +142,7 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang - Bloomberg",
+   "sample": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang - Bloomberg.com",
    "diag": [
     {
      "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice H",
@@ -187,27 +187,13 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nissan poised to import cars from China to Japan for first time - Nikkei Asia",
+   "sample": "China's YMTC boosted by Samsung and SK Hynix adopting its memory technology - Nikkei Asia",
    "diag": [
     {
-     "title": "Nissan poised to import cars from China to Japan for first t",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdnhNVG5qVlQ4ckdYM",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdnhNVG5qVlQ4ckdYMERZdEhuckhJelJvTV9BY",
-     "resolved": false
-    },
-    {
-     "title": "Taiwan elections: 5 things to know about city races eyed by ",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSXNHZ3hWNDhPVV9Ic",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSXNHZ3hWNDhPVV9IcGxVNEJ6Y2pGd2s2ZWVTU",
-     "resolved": false
-    },
-    {
-     "title": "Analysis: US grants Mao Zedong's 'chairman' title to Xi Jinp",
+     "title": "China's YMTC boosted by Samsung and SK Hynix adopting its me",
      "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNenNQbEN4aE91Rkp3Z",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNenNQbEN4aE91Rkp3Z09wNkdkelpUcUI1VVZyN",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmxHTGR2bmVFQ1dEW",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmxHTGR2bmVFQ1dEWG1ONkllUlZxbmkyUFVHT",
      "resolved": false
     },
     {
@@ -218,10 +204,24 @@
      "resolved": false
     },
     {
-     "title": "Trump-Xi summits unlikely to solve China's rare-earth licens",
+     "title": "Asia rejects basis of new Trump tariffs as US gathers China ",
      "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYVdOT2kxa1lYRXdrZ",
-     "real": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYVdOT2kxa1lYRXdrZUZpU3NNLW1OelE4eDJ5N",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTdlU2lyQ1Q2c0lSW",
+     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTdlU2lyQ1Q2c0lSWERfaE9nM3ZHUDlYaldoR",
+     "resolved": false
+    },
+    {
+     "title": "Nissan poised to import cars from China to Japan for first t",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdnhNVG5qVlQ4ckdYM",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdnhNVG5qVlQ4ckdYMERZdEhuckhJelJvTV9BY",
+     "resolved": false
+    },
+    {
+     "title": "China ramps up campaign to electrify the world's trucking fl",
+     "date": "2026-11-24",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVGxScDUxY05naldCY",
+     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVGxScDUxY05naldCYW5uTFQ4NW5mRjlVMWxJX",
      "resolved": false
     }
    ]
@@ -287,17 +287,17 @@
      "resolved": false
     },
     {
-     "title": "Chinese Shares Lifted as Beijing Signals More Market Support",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNU",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNUGZseElzdWpzZmIzN3Y4c",
-     "resolved": false
-    },
-    {
      "title": "A Game-Changing Move Just Gave America the Edge Over China i",
      "date": "2026-11-26",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc1dvWjR3SFB3M2hyV",
      "real": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc1dvWjR3SFB3M2hyVEtON1huQkRwWGJsX3g3a",
+     "resolved": false
+    },
+    {
+     "title": "Chinese Shares Lifted as Beijing Signals More Market Support",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNU",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNUGZseElzdWpzZmIzN3Y4c",
      "resolved": false
     },
     {
@@ -377,17 +377,17 @@
      "resolved": false
     },
     {
-     "title": "The fall of China’s most trusted wealth manager - The Econom",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdVM4MzdwZzRuOTBMQ",
-     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdVM4MzdwZzRuOTBMQUJqTUc2Tk53VmFmRm9wQ",
-     "resolved": false
-    },
-    {
      "title": "Shanghai’s boss is purged from Xi Jinping’s top team - The E",
      "date": "2026-11-24",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS",
      "real": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDdSUXVwMkkycnpKS3R2NWdFZTYxUldCenh3d",
+     "resolved": false
+    },
+    {
+     "title": "The fall of China’s most trusted wealth manager - The Econom",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdVM4MzdwZzRuOTBMQ",
+     "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdVM4MzdwZzRuOTBMQUJqTUc2Tk53VmFmRm9wQ",
      "resolved": false
     },
     {
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 100,
+   "items": 59,
    "is_feed": true,
    "sample": "France plans to create rare earths stockpile and encourage joint buying - Reuters",
    "diag": [
@@ -436,17 +436,17 @@
      "resolved": false
     },
     {
-     "title": "China's top rare earth firms' profits surge on supply caps -",
-     "date": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZ",
-     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZGxCSXFfQU5lenV4TGtPT",
-     "resolved": false
-    },
-    {
      "title": "Myanmar lobbies US to invest in its rare earths sector, domi",
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEW",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEWXRUaWhDWUl1bEpxYUIte",
+     "resolved": false
+    },
+    {
+     "title": "US urges China to meet rare earths, agriculture commitments ",
+     "date": "2026-11-06",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
+     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
      "resolved": false
     }
    ]
