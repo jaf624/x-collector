@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-28T04:19:34.805587Z",
+ "probed_at": "2026-11-28T05:02:52.300635Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -31,17 +31,17 @@
      "resolved": false
     },
     {
-     "title": "China stocks surge most in two years as Beijing vows stronge",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLWxqTUV2X2RZam8zV",
-     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLWxqTUV2X2RZam8zVGVSY2ZFTzRLQkxKYjdBU",
-     "resolved": false
-    },
-    {
      "title": "Former government chief of China's Guangxi sentenced to deat",
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXpEaENJRlIwSHl4d",
      "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXpEaENJRlIwSHl4dEZuT0pwQTVreDduek1JS",
+     "resolved": false
+    },
+    {
+     "title": "China stocks surge most in two years as Beijing vows stronge",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLWxqTUV2X2RZam8zV",
+     "real": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLWxqTUV2X2RZam8zVGVSY2ZFTzRLQkxKYjdBU",
      "resolved": false
     }
    ]
@@ -52,8 +52,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "US to hike tariffs on China, EU, Brazil and others over subsidized factories - AP News",
+   "sample": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and 1 Pakistani astronaut - AP News",
    "diag": [
+    {
+     "title": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYa",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3U",
+     "resolved": false
+    },
     {
      "title": "US to hike tariffs on China, EU, Brazil and others over subs",
      "date": "2026-11-25",
@@ -62,24 +69,17 @@
      "resolved": false
     },
     {
+     "title": "US ready to slap tariffs on China, EU and others over subsid",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalJfNUMtVmVfb2RDe",
+     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalJfNUMtVmVfb2RDeFlJeVEtNHVxc09sSjVrT",
+     "resolved": false
+    },
+    {
      "title": "China and other US trading partners hit back at Trump’s new ",
      "date": "2026-11-26",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVWQ3MnMzTlQ5Y2lUT",
      "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVWQ3MnMzTlQ5Y2lUTW9RTzloTmp3MmtycjBUb",
-     "resolved": false
-    },
-    {
-     "title": "Meet the rising mayoral candidate in Taiwan who’s also sanct",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0tsMjNfSi1fbVBpV",
-     "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0tsMjNfSi1fbVBpV3ZtNmRiYzhNMmZsbUh4d",
-     "resolved": false
-    },
-    {
-     "title": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYa",
-     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3U",
      "resolved": false
     },
     {
@@ -142,8 +142,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang - Bloomberg.com",
+   "sample": "Taiwan Goes to Polls in Tight Local Elections as China Watches - Bloomberg.com",
    "diag": [
+    {
+     "title": "Taiwan Goes to Polls in Tight Local Elections as China Watch",
+     "date": "2026-11-28",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGo2aFkxSF9NMEJXV",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGo2aFkxSF9NMEJXV01UdldqU2MwSHRWWm44d",
+     "resolved": false
+    },
     {
      "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice H",
      "date": "2026-11-27",
@@ -171,13 +178,6 @@
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPenc3M2hzMkpNMDdnb",
      "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPenc3M2hzMkpNMDdnbGs4UXNtak9EX09SbFRST",
      "resolved": false
-    },
-    {
-     "title": "Taiwan Goes to Polls in Tight Local Elections as China Watch",
-     "date": "2026-11-28",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGo2aFkxSF9NMEJXV",
-     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGo2aFkxSF9NMEJXV01UdldqU2MwSHRWWm44d",
-     "resolved": false
     }
    ]
   },
@@ -204,6 +204,13 @@
      "resolved": false
     },
     {
+     "title": "Japan auto parts makers lose global lead as China drives EV ",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUUdiWjlibS1rUXppe",
+     "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUUdiWjlibS1rUXppekgtRl9ybkFQdElTZEVCd",
+     "resolved": false
+    },
+    {
      "title": "Taiwan elections: 5 things to know about city races eyed by ",
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSXNHZ3hWNDhPVV9Ic",
@@ -215,13 +222,6 @@
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0Yyc29DdWZ1UndvZ",
      "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0Yyc29DdWZ1UndvZVNCTDZCVDV4Z2pZXzlxb",
-     "resolved": false
-    },
-    {
-     "title": "Suzuki turns to rare metal-free batteries amid China supply ",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaEtpWklsRm01X3FuV",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaEtpWklsRm01X3FuV29RRjBra1oxVVRmNGptV",
      "resolved": false
     }
    ]
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "Chinese Shares Lifted as Beijing Signals More Market Support",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNU",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNUGZseElzdWpzZmIzN3Y4c",
+     "title": "No Evidence China Orchestrated Jensen Huang’s Affair, Offici",
+     "date": "2026-11-25",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1MzT3BJb0JlQ2xzd",
+     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1MzT3BJb0JlQ2xzdTJRZi12MllDSlBzS3IwM",
      "resolved": false
     }
    ]
@@ -410,7 +410,7 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 60,
+   "items": 100,
    "is_feed": true,
    "sample": "Trump's new tariffs aim to prise global trade from China's grip - Reuters",
    "diag": [
@@ -429,6 +429,13 @@
      "resolved": false
     },
     {
+     "title": "China's top rare earth firms' profits surge on supply caps -",
+     "date": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZ",
+     "real": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWE0c2x0ZU5WRUdQZGxCSXFfQU5lenV4TGtPT",
+     "resolved": false
+    },
+    {
      "title": "Thailand, Myanmar agree to monitor border rivers amid pollut",
      "date": "2026-11-25",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdEZwbjMtU0FKLTE0V",
@@ -440,13 +447,6 @@
      "date": "2026-11-11",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEW",
      "real": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2E3bkIwOEYwbTlEWXRUaWhDWUl1bEpxYUIte",
-     "resolved": false
-    },
-    {
-     "title": "US urges China to meet rare earths, agriculture commitments ",
-     "date": "2026-11-06",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPR",
-     "real": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaV",
      "resolved": false
     }
    ]
