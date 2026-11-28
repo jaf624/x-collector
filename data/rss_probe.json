@@ -1,5 +1,5 @@
 {
- "probed_at": "2026-11-27T23:33:53.337113Z",
+ "probed_at": "2026-11-28T04:19:34.805587Z",
  "results": [
   {
    "name": "GNEWS-路透",
@@ -7,8 +7,22 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "PODCAST: China boost lifts tech - Reuters",
+   "sample": "China's premium puffer jacket push meets consumer resistance - Reuters",
    "diag": [
+    {
+     "title": "China's premium puffer jacket push meets consumer resistance",
+     "date": "2026-11-28",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTlExbWltNnJEdUNzd",
+     "real": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTlExbWltNnJEdUNzdzVrMGN1M29qbkc5d3l4M",
+     "resolved": false
+    },
+    {
+     "title": "Taiwan votes in local elections as China sends warplanes, la",
+     "date": "2026-11-28",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0hYazFSNFdJenpCQ",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0hYazFSNFdJenpCQmdWUUh0cUZOTHhJWm5hY",
+     "resolved": false
+    },
     {
      "title": "PODCAST: China boost lifts tech - Reuters",
      "date": "2026-11-27",
@@ -24,24 +38,10 @@
      "resolved": false
     },
     {
-     "title": "Chinese military tests new Taiwan landing tactics in coastal",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRHU2ODhzTFRNUi1YM",
-     "real": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRHU2ODhzTFRNUi1YM1VpRVZEZlg4MXFpaGxIZ",
-     "resolved": false
-    },
-    {
      "title": "Former government chief of China's Guangxi sentenced to deat",
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXpEaENJRlIwSHl4d",
      "real": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXpEaENJRlIwSHl4dEZuT0pwQTVreDduek1JS",
-     "resolved": false
-    },
-    {
-     "title": "Packed rallies close Taiwan election campaign; China sends w",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRzJNWEpPd2tGOERUM",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRzJNWEpPd2tGOERUMUhtUXFlcjBfSzhwZ2xnT",
      "resolved": false
     }
    ]
@@ -52,20 +52,20 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China and other US trading partners hit back at Trump’s new tariff plans - AP News",
+   "sample": "US to hike tariffs on China, EU, Brazil and others over subsidized factories - AP News",
    "diag": [
-    {
-     "title": "China and other US trading partners hit back at Trump’s new ",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVWQ3MnMzTlQ5Y2lUT",
-     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVWQ3MnMzTlQ5Y2lUTW9RTzloTmp3MmtycjBUb",
-     "resolved": false
-    },
     {
      "title": "US to hike tariffs on China, EU, Brazil and others over subs",
      "date": "2026-11-25",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcWJ0MDE3ZEJzV2tVd",
      "real": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcWJ0MDE3ZEJzV2tVdThRbXdzcGxXN0phLUpNT",
+     "resolved": false
+    },
+    {
+     "title": "China and other US trading partners hit back at Trump’s new ",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVWQ3MnMzTlQ5Y2lUT",
+     "real": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVWQ3MnMzTlQ5Y2lUTW9RTzloTmp3MmtycjBUb",
      "resolved": false
     },
     {
@@ -97,15 +97,8 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "'Unacceptable': China, EU among major economies against new US tariffs - France 24",
+   "sample": "China shuts down golf courses in apparent new clampdown - France 24",
    "diag": [
-    {
-     "title": "'Unacceptable': China, EU among major economies against new ",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSzlzNkVzNEdFVU9ta",
-     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSzlzNkVzNEdFVU9tanZOU0tVbWJxVW9oV2Vue",
-     "resolved": false
-    },
     {
      "title": "China shuts down golf courses in apparent new clampdown - Fr",
      "date": "2026-11-26",
@@ -118,6 +111,13 @@
      "date": "2026-11-25",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTlc0SV9qczRxZVI0O",
      "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTlc0SV9qczRxZVI0OWJyUlZ0eUZmQTdZeXFRZ",
+     "resolved": false
+    },
+    {
+     "title": "'Unacceptable': China, EU among major economies against new ",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSzlzNkVzNEdFVU9ta",
+     "real": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSzlzNkVzNEdFVU9tanZOU0tVbWJxVW9oV2Vue",
      "resolved": false
     },
     {
@@ -152,13 +152,6 @@
      "resolved": false
     },
     {
-     "title": "The US Is Squandering Its Lead Over China in Aerospace - Blo",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPenc3M2hzMkpNMDdnb",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPenc3M2hzMkpNMDdnbGs4UXNtak9EX09SbFRST",
-     "resolved": false
-    },
-    {
      "title": "China’s Cabinet Stresses Market Support in Rare Midday State",
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQak5CQ2hzYk9WT0pEN",
@@ -173,10 +166,17 @@
      "resolved": false
     },
     {
-     "title": "China Bank Bond Spreads Head for Biggest Jump in Over Two Ye",
+     "title": "The US Is Squandering Its Lead Over China in Aerospace - Blo",
      "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMTFPb29rT0Y2UDFiS",
-     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMTFPb29rT0Y2UDFiS2liaFlLV000NXU4ZTVoS",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPenc3M2hzMkpNMDdnb",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPenc3M2hzMkpNMDdnbGs4UXNtak9EX09SbFRST",
+     "resolved": false
+    },
+    {
+     "title": "Taiwan Goes to Polls in Tight Local Elections as China Watch",
+     "date": "2026-11-28",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGo2aFkxSF9NMEJXV",
+     "real": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGo2aFkxSF9NMEJXV01UdldqU2MwSHRWWm44d",
      "resolved": false
     }
    ]
@@ -187,13 +187,27 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China's YMTC boosted by Samsung and SK Hynix adopting its memory technology - Nikkei Asia",
+   "sample": "Nissan poised to import cars from China to Japan for first time - Nikkei Asia",
    "diag": [
     {
-     "title": "China's YMTC boosted by Samsung and SK Hynix adopting its me",
-     "date": "2026-11-25",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmxHTGR2bmVFQ1dEW",
-     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmxHTGR2bmVFQ1dEWG1ONkllUlZxbmkyUFVHT",
+     "title": "Nissan poised to import cars from China to Japan for first t",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdnhNVG5qVlQ4ckdYM",
+     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdnhNVG5qVlQ4ckdYMERZdEhuckhJelJvTV9BY",
+     "resolved": false
+    },
+    {
+     "title": "China's auto exports to rise 50% amid intensifying competiti",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQVBCNFUtVjVTYjFhc",
+     "real": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQVBCNFUtVjVTYjFhcmRmT3N4dndVSmF6NGo4e",
+     "resolved": false
+    },
+    {
+     "title": "Taiwan elections: 5 things to know about city races eyed by ",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSXNHZ3hWNDhPVV9Ic",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSXNHZ3hWNDhPVV9IcGxVNEJ6Y2pGd2s2ZWVTU",
      "resolved": false
     },
     {
@@ -204,24 +218,10 @@
      "resolved": false
     },
     {
-     "title": "Asia rejects basis of new Trump tariffs as US gathers China ",
+     "title": "Suzuki turns to rare metal-free batteries amid China supply ",
      "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTdlU2lyQ1Q2c0lSW",
-     "real": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTdlU2lyQ1Q2c0lSWERfaE9nM3ZHUDlYaldoR",
-     "resolved": false
-    },
-    {
-     "title": "Nissan poised to import cars from China to Japan for first t",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdnhNVG5qVlQ4ckdYM",
-     "real": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdnhNVG5qVlQ4ckdYMERZdEhuckhJelJvTV9BY",
-     "resolved": false
-    },
-    {
-     "title": "China ramps up campaign to electrify the world's trucking fl",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVGxScDUxY05naldCY",
-     "real": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVGxScDUxY05naldCYW5uTFQ4NW5mRjlVMWxJX",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaEtpWklsRm01X3FuV",
+     "real": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaEtpWklsRm01X3FuV29RRjBra1oxVVRmNGptV",
      "resolved": false
     }
    ]
@@ -242,6 +242,13 @@
      "resolved": false
     },
     {
+     "title": "Candidate dubbed ‘diehard separatist’ by China shakes up Tai",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVkdKUEVMOE9rUGE2T",
+     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVkdKUEVMOE9rUGE2TDc4NEpzUUN4dkZNaW1VT",
+     "resolved": false
+    },
+    {
      "title": "Chinese households shed billions in consumer debt - Financia",
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb3ZoOC1yWXJGSDI5b",
@@ -253,13 +260,6 @@
      "date": "2026-11-27",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcWowSjlHYjJuRTFKe",
      "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcWowSjlHYjJuRTFKeTM5LUJnVmRqMEtXVktHO",
-     "resolved": false
-    },
-    {
-     "title": "EU weighs tighter export controls to prevent battery waste g",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnpuc0FCRzZjNXFLR",
-     "real": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnpuc0FCRzZjNXFLRFJWSk02YlZ2SkVlV1ZsW",
      "resolved": false
     },
     {
@@ -277,8 +277,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "China’s Industrial Profit Surged Despite Headwinds - WSJ",
+   "sample": "Opinion | Treasury Aims at China, Hits American Cancer Patients - WSJ",
    "diag": [
+    {
+     "title": "Opinion | Treasury Aims at China, Hits American Cancer Patie",
+     "date": "2026-11-27",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNLXZNZUdTZ1pJQlVGR",
+     "real": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNLXZNZUdTZ1pJQlVGRS1EcERVOFoyNTlWMmVsO",
+     "resolved": false
+    },
     {
      "title": "China’s Industrial Profit Surged Despite Headwinds - WSJ",
      "date": "2026-11-27",
@@ -294,13 +301,6 @@
      "resolved": false
     },
     {
-     "title": "Chinese Shares Lifted as Beijing Signals More Market Support",
-     "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNU",
-     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNUGZseElzdWpzZmIzN3Y4c",
-     "resolved": false
-    },
-    {
      "title": "The Other Nvidia Romance With an Executive at a Company Link",
      "date": "2026-11-26",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM2JKcnNFYk5jM09EU",
@@ -308,10 +308,10 @@
      "resolved": false
     },
     {
-     "title": "No Evidence China Orchestrated Jensen Huang’s Affair, Offici",
+     "title": "Chinese Shares Lifted as Beijing Signals More Market Support",
      "date": "2026-11-27",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1MzT3BJb0JlQ2xzd",
-     "real": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1MzT3BJb0JlQ2xzdTJRZi12MllDSlBzS3IwM",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNU",
+     "real": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNUGZseElzdWpzZmIzN3Y4c",
      "resolved": false
     }
    ]
@@ -339,13 +339,6 @@
      "resolved": false
     },
     {
-     "title": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China ",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSHM3RHJjQzd5X25CS",
-     "real": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSHM3RHJjQzd5X25CS3B2YkpjVm9fa092SkJjU",
-     "resolved": false
-    },
-    {
      "title": "Trump Tried to Cripple Huawei. Now It Is Central to China’s ",
      "date": "2026-11-26",
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TcDdtZ0tkZWZ4OE1nU",
@@ -358,6 +351,13 @@
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc0pLUEZsX0FSZ1BkN",
      "real": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc0pLUEZsX0FSZ1BkN3NfS2laZGh2dlg4R3hQU",
      "resolved": false
+    },
+    {
+     "title": "In China, the ‘Female Gaze’ Is Driving a New Entertainment B",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN0ZHQUVfTDV4LVFPO",
+     "real": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN0ZHQUVfTDV4LVFPOEo3cHZtTE0zNVNLNE16b",
+     "resolved": false
     }
    ]
   },
@@ -367,8 +367,15 @@
    "status": 200,
    "items": 100,
    "is_feed": true,
-   "sample": "Nuclear-arms control is on hold until China catches up - The Economist",
+   "sample": "China releases the first-ever AI-generated movie - The Economist",
    "diag": [
+    {
+     "title": "China releases the first-ever AI-generated movie - The Econo",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSm9KQ0JTZUZ3V2hXd",
+     "real": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSm9KQ0JTZUZ3V2hXdmFjMEg1YlljRTVHZmFHZ",
+     "resolved": false
+    },
     {
      "title": "Nuclear-arms control is on hold until China catches up - The",
      "date": "2026-11-25",
@@ -396,13 +403,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOEN3TjNRNzhxMVhKe",
      "real": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOEN3TjNRNzhxMVhKeUltVG45RGxaQnJCeXdsb",
      "resolved": false
-    },
-    {
-     "title": "China releases the first-ever AI-generated movie - The Econo",
-     "date": "2026-11-26",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSm9KQ0JTZUZ3V2hXd",
-     "real": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSm9KQ0JTZUZ3V2hXdmFjMEg1YlljRTVHZmFHZ",
-     "resolved": false
     }
    ]
   },
@@ -410,15 +410,15 @@
    "name": "GNEWS-路透-China",
    "url": "https://news.google.com/rss/search?q=reuters.com%20china%20technology%20OR%20rare%20earth%20OR%20tariff%20OR%20military&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "items": 59,
+   "items": 60,
    "is_feed": true,
-   "sample": "France plans to create rare earths stockpile and encourage joint buying - Reuters",
+   "sample": "Trump's new tariffs aim to prise global trade from China's grip - Reuters",
    "diag": [
     {
-     "title": "France plans to create rare earths stockpile and encourage j",
-     "date": "2026-11-24",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVHZGMjFURWl3LTRkO",
-     "real": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVHZGMjFURWl3LTRkOFo0VkJpRmlXSThOSmJDd",
+     "title": "Trump's new tariffs aim to prise global trade from China's g",
+     "date": "2026-11-26",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUdXQjZTRVJvNzVES",
+     "real": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUdXQjZTRVJvNzVESnNzMlpfZmxhTEgweFZsU",
      "resolved": false
     },
     {
@@ -487,7 +487,7 @@
    "status": 200,
    "items": 42,
    "is_feed": true,
-   "sample": "<![CDATA[為何特朗普新一輪關稅的威脅不如以往？]]>"
+   "sample": "<![CDATA[台灣「九合一」選舉開始投票 核電政策公投同步舉行]]>"
   },
   {
    "name": "美国国务院",
@@ -584,7 +584,7 @@
    "status": 200,
    "items": 15,
    "is_feed": true,
-   "sample": "Georgia Voters to Decide Fate of $17 Billion Data Center Megaproject"
+   "sample": "Wasted Wind and Solar Power Could Run Factories and Data Centers"
   },
   {
    "name": "IMF",
