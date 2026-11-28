@@ -1,16 +1,16 @@
 {
- "feed": 935,
+ "feed": 800,
  "todo": 0,
  "ok": 0,
  "fail": 0,
- "gnews_indexed": 935,
+ "gnews_indexed": 800,
  "direct_n": 0,
  "direct_body": 0,
  "direct_rate": 0,
  "comments_hit": 0,
  "reasons": {},
  "resolved": 0,
- "remain_empty": 935,
- "secs": 0.0,
- "ts": "2026-11-27T21:47:37Z"
+ "remain_empty": 800,
+ "secs": 0.1,
+ "ts": "2026-11-28T03:42:23Z"
 }
